@@ -1,0 +1,1 @@
+1.  REDIRECT [LOADER:GetProgramInfo](LOADER:GetProgramInfo "wikilink")

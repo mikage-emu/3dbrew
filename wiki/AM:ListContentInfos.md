@@ -1,0 +1,1 @@
+1.  REDIRECT [AM:ListDLCContentInfos](AM:ListDLCContentInfos "wikilink")

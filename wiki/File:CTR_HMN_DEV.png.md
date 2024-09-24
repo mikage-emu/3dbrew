@@ -1,0 +1,1 @@
+Clear PNG Developer Home Menu

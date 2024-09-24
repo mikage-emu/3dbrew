@@ -1,0 +1,1 @@
+1.  REDIRECT [PTM:CheckNew3DS](PTM:CheckNew3DS "wikilink")

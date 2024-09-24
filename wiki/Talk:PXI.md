@@ -1,0 +1,1 @@
+1.  REDIRECT [Talk:PXI Registers](Talk:PXI_Registers "wikilink")

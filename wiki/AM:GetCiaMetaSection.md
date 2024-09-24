@@ -1,0 +1,1 @@
+1.  REDIRECT [AM:GetMetaDataFromCia](AM:GetMetaDataFromCia "wikilink")

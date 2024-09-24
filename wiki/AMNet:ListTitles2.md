@@ -1,0 +1,1 @@
+1.  REDIRECT [AM:GetPendingTitleInfo](AM:GetPendingTitleInfo "wikilink")

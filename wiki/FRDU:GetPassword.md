@@ -1,0 +1,1 @@
+1.  REDIRECT [FRDU:GetMyPassword](FRDU:GetMyPassword "wikilink")

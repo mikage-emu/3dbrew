@@ -1,0 +1,1 @@
+1.  REDIRECT [AMNet:InstallTmdBegin](AMNet:InstallTmdBegin "wikilink")

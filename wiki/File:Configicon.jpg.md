@@ -1,0 +1,1 @@
+the application icon for "config"

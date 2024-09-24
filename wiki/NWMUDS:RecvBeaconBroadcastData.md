@@ -1,0 +1,1 @@
+1.  REDIRECT [NWMUDS:StartScan](NWMUDS:StartScan "wikilink")

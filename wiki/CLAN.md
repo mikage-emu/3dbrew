@@ -1,0 +1,1 @@
+1.  REDIRECT [CLAN format](CLAN_format "wikilink")

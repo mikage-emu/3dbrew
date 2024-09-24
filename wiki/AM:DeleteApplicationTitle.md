@@ -1,0 +1,1 @@
+1.  REDIRECT [AM:DeleteUserProgram](AM:DeleteUserProgram "wikilink")

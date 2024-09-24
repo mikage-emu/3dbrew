@@ -1,0 +1,1 @@
+1.  REDIRECT [AM:GetDLCTitleInfos](AM:GetDLCTitleInfos "wikilink")

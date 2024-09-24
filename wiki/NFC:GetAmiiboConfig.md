@@ -1,0 +1,1 @@
+1.  REDIRECT [NFC:GetCommonInfo](NFC:GetCommonInfo "wikilink")

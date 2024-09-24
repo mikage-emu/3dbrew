@@ -1,0 +1,1 @@
+1.  REDIRECT [NIMU:GetSavedHash](NIMU:GetSavedHash "wikilink")

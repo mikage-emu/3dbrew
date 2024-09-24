@@ -1,0 +1,1 @@
+1.  REDIRECT [AM:GetProgramInfos](AM:GetProgramInfos "wikilink")

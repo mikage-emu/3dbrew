@@ -1,0 +1,1 @@
+1.  REDIRECT [ERR:Throw](ERR:Throw "wikilink")

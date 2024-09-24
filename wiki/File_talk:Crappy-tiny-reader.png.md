@@ -1,0 +1,1 @@
+\(c\) Triforce @ DS-Scene.

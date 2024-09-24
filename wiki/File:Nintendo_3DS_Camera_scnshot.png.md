@@ -1,0 +1,1 @@
+A screenshot of the Nintendo 3DS Camera app

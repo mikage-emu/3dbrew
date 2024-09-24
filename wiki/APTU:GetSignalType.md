@@ -1,0 +1,1 @@
+1.  REDIRECT [<APT:GetSignalType>](APT:GetSignalType "wikilink")

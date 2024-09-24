@@ -1,0 +1,1 @@
+1.  REDIRECT [AMNet:InstallTmdFinish](AMNet:InstallTmdFinish "wikilink")

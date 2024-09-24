@@ -1,0 +1,1 @@
+1.  REDIRECT [Configuration Memory](Configuration_Memory "wikilink")

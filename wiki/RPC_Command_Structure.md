@@ -1,0 +1,1 @@
+1.  REDIRECT [IPC Command Structure](IPC_Command_Structure "wikilink")

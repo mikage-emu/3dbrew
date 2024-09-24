@@ -1,0 +1,1 @@
+[Translation descriptor](IPC#Message_Structure "wikilink"):

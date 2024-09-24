@@ -1,0 +1,3 @@
+- Okay I'm a korean user....
+  - Friend code(KOR (SYSNAND)) : 4871-8801-5208
+  - Friend code(USA (EMUNAND)) : Not available at this time.

@@ -1,0 +1,1 @@
+1.  REDIRECT [Gamecards](Gamecards "wikilink")

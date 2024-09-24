@@ -1,0 +1,1 @@
+1.  REDIRECT [AM:GetProductCode](AM:GetProductCode "wikilink")

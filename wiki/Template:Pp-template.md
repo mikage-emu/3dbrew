@@ -1,0 +1,1 @@
+[](Category:Protected_templates "wikilink")

@@ -1,0 +1,1 @@
+1.  REDIRECT [<APT:GetTargetPlatform>](APT:GetTargetPlatform "wikilink")

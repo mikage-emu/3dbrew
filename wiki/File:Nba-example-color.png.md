@@ -1,0 +1,3 @@
+## Summary
+
+Color tag example

@@ -1,0 +1,1 @@
+1.  REDIRECT [FLASH CARD](FLASH_CARD "wikilink")

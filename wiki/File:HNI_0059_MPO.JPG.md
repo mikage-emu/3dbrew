@@ -1,0 +1,1 @@
+The japanese version game card. JPN

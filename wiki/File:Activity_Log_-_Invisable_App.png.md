@@ -1,0 +1,1 @@
+A screen shot of the activity log showing a ???????? hidden app

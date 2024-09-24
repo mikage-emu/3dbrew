@@ -1,0 +1,1 @@
+1.  REDIRECT [AM:GetDeviceID](AM:GetDeviceID "wikilink")

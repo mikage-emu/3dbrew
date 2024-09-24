@@ -1,0 +1,1 @@
+1.  REDIRECT [NFCM:SetRegisterInfo](NFCM:SetRegisterInfo "wikilink")

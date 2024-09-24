@@ -1,0 +1,1 @@
+3DS JPN CHT CHN user translate to Japanese... I will

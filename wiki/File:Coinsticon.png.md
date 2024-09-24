@@ -1,0 +1,1 @@
+icon for the game coin setter app

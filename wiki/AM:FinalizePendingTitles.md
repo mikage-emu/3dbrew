@@ -1,0 +1,1 @@
+1.  REDIRECT [AM:DoCleanup](AM:DoCleanup "wikilink")

@@ -1,0 +1,1 @@
+1.  REDIRECT [AMPXI:InstallTmdWrite](AMPXI:InstallTmdWrite "wikilink")

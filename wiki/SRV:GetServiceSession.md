@@ -1,0 +1,1 @@
+1.  REDIRECT [SRV:GetServiceHandle](SRV:GetServiceHandle "wikilink")

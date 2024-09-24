@@ -1,0 +1,1 @@
+1.  REDIRECT [MICU:GetPower](MICU:GetPower "wikilink")

@@ -1,0 +1,1 @@
+1.  REDIRECT [AM:GetTicketCount](AM:GetTicketCount "wikilink")

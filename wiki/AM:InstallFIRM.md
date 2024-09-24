@@ -1,0 +1,1 @@
+1.  REDIRECT [AM:UpdateFirmwareTo](AM:UpdateFirmwareTo "wikilink")

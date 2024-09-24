@@ -1,0 +1,1 @@
+1.  REDIRECT [Talk:Config Savegame](Talk:Config_Savegame "wikilink")

@@ -1,0 +1,3 @@
+## Summary
+
+Scale tag example

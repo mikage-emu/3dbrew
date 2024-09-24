@@ -1,0 +1,1 @@
+1.  REDIRECT [NFC:GetRegisterInfo](NFC:GetRegisterInfo "wikilink")

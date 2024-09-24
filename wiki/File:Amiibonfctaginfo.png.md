@@ -1,0 +1,1 @@
+This is a summary of how an amiibo's NFC chip is used

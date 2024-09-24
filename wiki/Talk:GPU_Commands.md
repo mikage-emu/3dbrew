@@ -1,0 +1,1 @@
+1.  REDIRECT [Talk:GPU/Commands](Talk:GPU/Commands "wikilink")

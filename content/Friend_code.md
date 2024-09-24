@@ -4,10 +4,6 @@ title = 'Friend Code'
 
 This is a list of friend codes of different users.
 
-Remember to [watch this
-article](http://3dbrew.org/w/index.php?title=Friend_code&action=watch)
-if you wish to get notified when someone modifies the list.
-
 <table>
 <colgroup>
 <col style="width: 20%" />

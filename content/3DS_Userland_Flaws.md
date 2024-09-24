@@ -644,7 +644,7 @@ occurring.</p></td>
 </tr>
 <tr class="odd">
 <td><p>3DS SAFE_MODE <a
-href="https://www.3dbrew.org/wiki/System_Settings#System_Updater">System
+href="../System_Settings#System_Updater">System
 Updater</a> stack smash from proxy-url string</p></td>
 <td><p>During <a href="../Recovery_Mode" title="wikilink">Recovery Mode</a>
 and after all 3 wifi slots fail to find an access point for sysupdate, a

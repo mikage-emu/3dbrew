@@ -78,7 +78,7 @@ data begins here.</p></td>
 <td><p>0xC</p></td>
 <td><p>0x8</p></td>
 <td><p>System ID (this ID is produced by the output from <a
-href="https://www.3dbrew.org/wiki/Cfg:GenHashConsoleUnique">GenHashConsoleUnique(0x0)</a>)</p></td>
+href="../CfgGenHashConsoleUnique">GenHashConsoleUnique(0x0)</a>)</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x14</p></td>

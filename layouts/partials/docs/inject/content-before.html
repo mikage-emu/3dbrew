@@ -1,0 +1,12 @@
+<!-- TODO: This is only needed on desktop -->
+{{ if .Params.categories }}
+    <header class="article-category">
+        {{ range (.GetTerms "categories") }}
+            <a href="{{ .RelPermalink }}" {{ with .Params.style }}style="background-color: {{ .background }}; color: {{ .color }};"{{ end }}>
+                {{ .LinkTitle }}
+            </a>
+        {{ end }}
+    </header>
+{{ end }}
+
+<h1>{{ .Title }}</h1>

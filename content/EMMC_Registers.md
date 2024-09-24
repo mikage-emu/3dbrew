@@ -18,7 +18,7 @@ devices use the same interface. HCLK of the SDMMC controller is
 | Yes    | EMMC_STOP                                | 0x10006008 | 2     |                                       |
 | Yes    | EMMC_BLKCOUNT                            | 0x1000600a | 2     |                                       |
 | Yes    | EMMC_RESP0-7                             | 0x1000600c | 2\*8  |                                       |
-| Yes    | [EMMC_STATUS0](#EMMC_STATUS0 "wikilink") | 0x1000601c | 2     |                                       |
+| Yes    | [EMMC_STATUS0](#emmc_status0 "wikilink") | 0x1000601c | 2     |                                       |
 | Yes    | EMMC_STATUS1                             | 0x1000601e | 2     |                                       |
 | Yes    | ?                                        | 0x10006020 | 2     |                                       |
 | Yes    | ?                                        | 0x10006022 | 2     |                                       |

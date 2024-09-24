@@ -6,12 +6,12 @@ title = 'PXI Registers'
 
 | Old3DS | Name                               | Address    | Width | Used by         |
 |--------|------------------------------------|------------|-------|-----------------|
-| Yes    | [PXI_SYNC](#PXI_SYNC "wikilink")9  | 0x10008000 | 4     | Boot9, Process9 |
-| Yes    | [PXI_CNT](#PXI_CNT "wikilink")9    | 0x10008004 | 2     | Boot9, Process9 |
+| Yes    | [PXI_SYNC](#pxi_sync "wikilink")9  | 0x10008000 | 4     | Boot9, Process9 |
+| Yes    | [PXI_CNT](#pxi_cnt "wikilink")9    | 0x10008004 | 2     | Boot9, Process9 |
 | Yes    | PXI_SEND9                          | 0x10008008 | 4     |                 |
 | Yes    | PXI_RECV9                          | 0x1000800C | 4     |                 |
-| Yes    | [PXI_SYNC](#PXI_SYNC "wikilink")11 | 0x10163000 | 4     | Boot11          |
-| Yes    | [PXI_CNT](#PXI_CNT "wikilink")11   | 0x10163004 | 2     | Boot11          |
+| Yes    | [PXI_SYNC](#pxi_sync "wikilink")11 | 0x10163000 | 4     | Boot11          |
+| Yes    | [PXI_CNT](#pxi_cnt "wikilink")11   | 0x10163004 | 2     | Boot11          |
 | Yes    | PXI_SEND11                         | 0x10163008 | 4     |                 |
 | Yes    | PXI_RECV11                         | 0x1016300C | 4     |                 |
 

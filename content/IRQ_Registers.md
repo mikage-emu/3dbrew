@@ -6,8 +6,8 @@ title = 'IRQ Registers'
 
 | Old3DS | Name                         | Address    | Width | Used by        |
 |--------|------------------------------|------------|-------|----------------|
-| Yes    | [IRQ_IE](#IRQ_IE "wikilink") | 0x10001000 | 4     | Boot9, Kernel9 |
-| Yes    | [IRQ_IF](#IRQ_IF "wikilink") | 0x10001004 | 4     | Boot9, Kernel9 |
+| Yes    | [IRQ_IE](#irq_ie "wikilink") | 0x10001000 | 4     | Boot9, Kernel9 |
+| Yes    | [IRQ_IF](#irq_if "wikilink") | 0x10001004 | 4     | Boot9, Kernel9 |
 
 ## IRQ_IE
 

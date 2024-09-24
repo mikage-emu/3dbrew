@@ -11,14 +11,14 @@ protected part before it is locked out.
 
 | Old3DS | Name                                                  | Address                | Width | Used by        |
 |--------|-------------------------------------------------------|------------------------|-------|----------------|
-| Yes    | [NDMA_GLOBAL_CNT](#NDMA_GLOBAL_CNT "wikilink")        | 0x10002000             | 4     | Boot9, Kernel9 |
-| Yes    | [NDMA_SRC_ADDR](#NDMA_SRC_ADDR "wikilink")(n)         | 0x10002004 + (n\*0x1c) | 4     | Boot9, Kernel9 |
-| Yes    | [NDMA_DST_ADDR](#NDMA_DST_ADDR "wikilink")(n)         | 0x10002008 + (n\*0x1c) | 4     | Boot9, Kernel9 |
-| Yes    | [NDMA_TRANSFER_CNT](#NDMA_TRANSFER_CNT "wikilink")(n) | 0x1000200c + (n\*0x1c) | 4     | Boot9, Kernel9 |
-| Yes    | [NDMA_WRITE_CNT](#NDMA_WRITE_CNT "wikilink")(n)       | 0x10002010 + (n\*0x1c) | 4     | Boot9, Kernel9 |
-| Yes    | [NDMA_BLOCK_CNT](#NDMA_BLOCK_CNT "wikilink")(n)       | 0x10002014 + (n\*0x1c) | 4     | Boot9, Kernel9 |
-| Yes    | [NDMA_FILL_DATA](#NDMA_FILL_DATA "wikilink")(n)       | 0x10002018 + (n\*0x1c) | 4     | Boot9, Kernel9 |
-| Yes    | [NDMA_CNT](#NDMA_CNT "wikilink")(n)                   | 0x1000201C + (n\*0x1c) | 4     | Boot9, Kernel9 |
+| Yes    | [NDMA_GLOBAL_CNT](#ndma_global_cnt "wikilink")        | 0x10002000             | 4     | Boot9, Kernel9 |
+| Yes    | [NDMA_SRC_ADDR](#ndma_src_addr "wikilink")(n)         | 0x10002004 + (n\*0x1c) | 4     | Boot9, Kernel9 |
+| Yes    | [NDMA_DST_ADDR](#ndma_dst_addr "wikilink")(n)         | 0x10002008 + (n\*0x1c) | 4     | Boot9, Kernel9 |
+| Yes    | [NDMA_TRANSFER_CNT](#ndma_transfer_cnt "wikilink")(n) | 0x1000200c + (n\*0x1c) | 4     | Boot9, Kernel9 |
+| Yes    | [NDMA_WRITE_CNT](#ndma_write_cnt "wikilink")(n)       | 0x10002010 + (n\*0x1c) | 4     | Boot9, Kernel9 |
+| Yes    | [NDMA_BLOCK_CNT](#ndma_block_cnt "wikilink")(n)       | 0x10002014 + (n\*0x1c) | 4     | Boot9, Kernel9 |
+| Yes    | [NDMA_FILL_DATA](#ndma_fill_data "wikilink")(n)       | 0x10002018 + (n\*0x1c) | 4     | Boot9, Kernel9 |
+| Yes    | [NDMA_CNT](#ndma_cnt "wikilink")(n)                   | 0x1000201C + (n\*0x1c) | 4     | Boot9, Kernel9 |
 
 ## NDMA_GLOBAL_CNT
 

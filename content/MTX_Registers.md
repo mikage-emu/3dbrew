@@ -14,10 +14,10 @@ virtual address.
 
 | VAddress   | Name                             | Width |
 |------------|----------------------------------|-------|
-| 0x1EC1x000 | [MTX_CNT](#MTX_CNT "wikilink")   | 4     |
-| 0x1EC1x004 | [MTX_SIZE](#MTX_SIZE "wikilink") | 4     |
-| 0x1EC1x008 | [MTX_ACK](#MTX_ACK "wikilink")   | 4     |
-| 0x1EC1x00C | [MTX_IE](#MTX_IE "wikilink")     | 4     |
+| 0x1EC1x000 | [MTX_CNT](#mtx_cnt "wikilink")   | 4     |
+| 0x1EC1x004 | [MTX_SIZE](#mtx_size "wikilink") | 4     |
+| 0x1EC1x008 | [MTX_ACK](#mtx_ack "wikilink")   | 4     |
+| 0x1EC1x00C | [MTX_IE](#mtx_ie "wikilink")     | 4     |
 | 0x1EC1x020 | ???                              | 4     |
 |            |                                  |       |
 

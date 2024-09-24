@@ -17,15 +17,15 @@ used for various purposes in 3DS. Here is a summary table of their
 usage, the CMAC type and the AES key slot used (the meaning of these is
 explained in the next section):
 
-| Usage                                         | Media                               | Container format | [CMAC type](#AES_CMAC "wikilink") | CMAC [Keyslot](AES_Registers "wikilink") |
+| Usage                                         | Media                               | Container format | [CMAC type](#aes_cmac "wikilink") | cmac [keyslot](aes_registers "wikilink") |
 |-----------------------------------------------|-------------------------------------|------------------|-----------------------------------|------------------------------------------|
-| [Savegames](Savegames "wikilink")             | Gamecard                            | DISA             | [CTR-NOR0](#CTR-NOR0 "wikilink")  | 0x19 / 0x33                              |
-| [Savegames](Savegames "wikilink")             | [SD](SD_Filesystem "wikilink")      | DISA             | [CTR-SIGN](#CTR-SIGN "wikilink")  | 0x30                                     |
-| [System SaveData](System_SaveData "wikilink") | [NAND](Flash_Filesystem "wikilink") | DISA             | [CTR-SYS0](#CTR-SYS0 "wikilink")  | 0x30                                     |
-| [Private Extdata](Extdata "wikilink")         | [SD](SD_Filesystem "wikilink")      | DIFF             | [CTR-EXT0](#CTR-EXT0 "wikilink")  | 0x30                                     |
-| [Shared Extdata](Extdata "wikilink")          | [NAND](Flash_Filesystem "wikilink") | DIFF             | [CTR-EXT0](#CTR-EXT0 "wikilink")  | 0x30                                     |
-| [Title Database](Title_Database "wikilink")   | [SD](SD_Filesystem "wikilink")      | DIFF             | [CTR-9DB0](#CTR-9DB0 "wikilink")  | 0x30                                     |
-| [Title Database](Title_Database "wikilink")   | [NAND](Flash_Filesystem "wikilink") | DIFF             | [CTR-9DB0](#CTR-9DB0 "wikilink")  | 0x0B                                     |
+| [Savegames](Savegames "wikilink")             | Gamecard                            | DISA             | [CTR-NOR0](#ctr-nor0 "wikilink")  | 0x19 / 0x33                              |
+| [Savegames](Savegames "wikilink")             | [SD](SD_Filesystem "wikilink")      | DISA             | [CTR-SIGN](#ctr-sign "wikilink")  | 0x30                                     |
+| [System SaveData](System_SaveData "wikilink") | [NAND](Flash_Filesystem "wikilink") | DISA             | [CTR-SYS0](#ctr-sys0 "wikilink")  | 0x30                                     |
+| [Private Extdata](Extdata "wikilink")         | [SD](SD_Filesystem "wikilink")      | DIFF             | [CTR-EXT0](#ctr-ext0 "wikilink")  | 0x30                                     |
+| [Shared Extdata](Extdata "wikilink")          | [NAND](Flash_Filesystem "wikilink") | DIFF             | [CTR-EXT0](#ctr-ext0 "wikilink")  | 0x30                                     |
+| [Title Database](Title_Database "wikilink")   | [SD](SD_Filesystem "wikilink")      | DIFF             | [CTR-9DB0](#ctr-9db0 "wikilink")  | 0x30                                     |
+| [Title Database](Title_Database "wikilink")   | [NAND](Flash_Filesystem "wikilink") | DIFF             | [CTR-9DB0](#ctr-9db0 "wikilink")  | 0x0B                                     |
 
 ## Encryption
 
@@ -306,12 +306,12 @@ the partition.
 Note:
 
 - The meaning of fields after 0x38 are explained in the section
-  [\#Partition](#Partition "wikilink")
+  [\#Partition](#partition "wikilink")
 
 ### IVFC descriptor
 
 This header defines each level of IVFC tree (explained in the section
-[\#Partition](#Partition "wikilink")). All offsets are relative to the
+[\#Partition](#partition "wikilink")). All offsets are relative to the
 beginning of DPFS level 3.
 
 | Offset | Length | Description                                                   |
@@ -340,7 +340,7 @@ beginning of DPFS level 3.
 ### DPFS descriptor
 
 This header defines each level of DPFS tree (explained in the section
-[\#Partition](#Partition "wikilink")). All offsets are relative to the
+[\#Partition](#partition "wikilink")). All offsets are relative to the
 beginning of the partition.
 
 | Offset | Length | Description                               |

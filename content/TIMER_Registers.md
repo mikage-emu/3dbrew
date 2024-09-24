@@ -9,8 +9,8 @@ There are 4 timers. These timers run at a frequency of 67,027,964.0 ±
 
 | Old3DS | Name                                  | Address           | Width | Used by        |
 |--------|---------------------------------------|-------------------|-------|----------------|
-| Yes    | [TIMER_VAL](#TIMER_VAL "wikilink")(n) | 0x10003000 + 4\*n | 2     | Boot9, Kernel9 |
-| Yes    | [TIMER_CNT](#TIMER_CNT "wikilink")(n) | 0x10003002 + 4\*n | 2     | Boot9, Kernel9 |
+| Yes    | [TIMER_VAL](#timer_val "wikilink")(n) | 0x10003000 + 4\*n | 2     | Boot9, Kernel9 |
+| Yes    | [TIMER_CNT](#timer_cnt "wikilink")(n) | 0x10003002 + 4\*n | 2     | Boot9, Kernel9 |
 
 ## TIMER_VAL
 

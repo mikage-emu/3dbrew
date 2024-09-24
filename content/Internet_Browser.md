@@ -19,11 +19,11 @@ On O3DS the exheader name of this title is "SPIDER"; on N3DS, "SKATER".
 The only difference between the ExeFS .code for each region of the
 Old3DS/New3DS browser, is byte values for the title uniqueID/region.
 
-A ["dummy" browser](#Dummy_web-browser "wikilink") (which replaces the
+A ["dummy" browser](#dummy_web-browser "wikilink") (which replaces the
 actual browser) is being included with cartdrige games shipping with
 system updates starting with [9.9.0-X](9.9.0-26 "wikilink"). In
 addition, versions of the real browser since 9.9.0-26X attempt to
-[check-in with a Nintendo server](#Forced_system-update "wikilink") to
+[check-in with a Nintendo server](#forced_system-update "wikilink") to
 determine if the existing browser version is out of date.
 
 ## [New 3DS](New_3DS "wikilink") Internet Browser

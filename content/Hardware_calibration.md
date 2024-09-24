@@ -96,29 +96,29 @@ used:</p>
 
 | Offset | Size  | [ConfigInfoBlk](Config_Savegame#Configuration_blocks "wikilink") | Since version | Description                                                        |
 |--------|-------|------------------------------------------------------------------|---------------|--------------------------------------------------------------------|
-| 0x00   | 0x10  | 0x00040000                                                       |               | [Touch panel](#Touch "wikilink")                                   |
-| 0x14   | 0x08  | ???                                                              |               | [Circle pad](#Circle_pad "wikilink")                               |
-| 0x20   | 2\*   | 0x00050000                                                       |               | [Display panel contrast](#Screen_flicker "wikilink")               |
-| 0x24   | 1\*   | 0x00010000                                                       |               | [RTC](#RTC "wikilink")                                             |
+| 0x00   | 0x10  | 0x00040000                                                       |               | [Touch panel](#touch "wikilink")                                   |
+| 0x14   | 0x08  | ???                                                              |               | [Circle pad](#circle_pad "wikilink")                               |
+| 0x20   | 2\*   | 0x00050000                                                       |               | [Display panel contrast](#screen_flicker "wikilink")               |
+| 0x24   | 1\*   | 0x00010000                                                       |               | [RTC](#rtc "wikilink")                                             |
 | 0x28   | 1\*   | 0x00030000                                                       |               | DSPRAM related                                                     |
-| 0x30   | 0x8A  | ???                                                              |               | [Camera position](#Camera_position "wikilink")                     |
-| 0xBC   | 0x12  | 0x00040002                                                       |               | [Gyroscope](#Gyro "wikilink")                                      |
-| 0xD0   | 0xC   | 0x00040003                                                       |               | [Accelerometer](#Accel "wikilink")                                 |
-| 0xE0   | 0x134 | 0x00020000                                                       | ???           | [Codec](#CDC "wikilink")                                           |
-| 0x218  | 0x06  | 0x00050007                                                       | 0x10          | [Programmable Infrared Transmitter (PIT)](#PIT "wikilink")         |
-| 0x220  | 0x214 | 0x00070000                                                       | 0x7           | [3D filters](#3D_filters "wikilink")                               |
-| 0x440  | 0x20  | 0x00050003                                                       | 0x8           | [Adaptive BackLight / Power saving mode](#ABL "wikilink")          |
+| 0x30   | 0x8A  | ???                                                              |               | [Camera position](#camera_position "wikilink")                     |
+| 0xBC   | 0x12  | 0x00040002                                                       |               | [Gyroscope](#gyro "wikilink")                                      |
+| 0xD0   | 0xC   | 0x00040003                                                       |               | [Accelerometer](#accel "wikilink")                                 |
+| 0xE0   | 0x134 | 0x00020000                                                       | ???           | [Codec](#cdc "wikilink")                                           |
+| 0x218  | 0x06  | 0x00050007                                                       | 0x10          | [Programmable Infrared Transmitter (PIT)](#pit "wikilink")         |
+| 0x220  | 0x214 | 0x00070000                                                       | 0x7           | [3D filters](#3d_filters "wikilink")                               |
+| 0x440  | 0x20  | 0x00050003                                                       | 0x8           | [Adaptive BackLight / Power saving mode](#abl "wikilink")          |
 | 0x470  | 0x20  | 0x00050005                                                       | 0xA           | ???                                                                |
-| 0x4A0  | 0x38  | 0x00050002                                                       | 0xB           | [Backlight PWM](#BLPWM "wikilink")                                 |
-| 0x4E0  | 0x18  | ???                                                              |               | [Circle pad extra](#Circle_pad_extra "wikilink")                   |
+| 0x4A0  | 0x38  | 0x00050002                                                       | 0xB           | [Backlight PWM](#blpwm "wikilink")                                 |
+| 0x4E0  | 0x18  | ???                                                              |               | [Circle pad extra](#circle_pad_extra "wikilink")                   |
 | 0x500  | 0xC   | ???                                                              |               | ???                                                                |
 | 0x510  | 0x20  | 0x00050004                                                       | 0x8           | ???                                                                |
-| 0x540  | 0x08  | 0x00120000                                                       | 0x7           | [MCU](#MCU "wikilink")                                             |
-| 0x550  | 0x02  | 0x00050006                                                       | 0x9           | [3D screen (ULCD) delay](#ULCD_delay "wikilink")                   |
-| 0x560  | 0x08  | 0x00070002                                                       | 0xD           | [Microphone echo cancellation](#Microphone_echo_cancel "wikilink") |
-| 0x570  | 0x10C | 0x00050008                                                       | 0xF           | [Power saving mode (ABL) extra](#ABL_extra "wikilink")             |
-| 0x680  | 0x08  | 0x00040004                                                       | 0xF           | [CStick (Right stick)](#CStick "wikilink")                         |
-| 0x690  | 0x18  | 0x00180001                                                       | 0x12          | [Quad Tracking Module (QTM)](#QTM "wikilink")                      |
+| 0x540  | 0x08  | 0x00120000                                                       | 0x7           | [MCU](#mcu "wikilink")                                             |
+| 0x550  | 0x02  | 0x00050006                                                       | 0x9           | [3D screen (ULCD) delay](#ulcd_delay "wikilink")                   |
+| 0x560  | 0x08  | 0x00070002                                                       | 0xD           | [Microphone echo cancellation](#microphone_echo_cancel "wikilink") |
+| 0x570  | 0x10C | 0x00050008                                                       | 0xF           | [Power saving mode (ABL) extra](#abl_extra "wikilink")             |
+| 0x680  | 0x08  | 0x00040004                                                       | 0xF           | [CStick (Right stick)](#cstick "wikilink")                         |
+| 0x690  | 0x18  | 0x00180001                                                       | 0x12          | [Quad Tracking Module (QTM)](#qtm "wikilink")                      |
 
 # Data block formats
 
@@ -150,7 +150,7 @@ results near the center of the screen.
 ## Circle pad
 
 Contains the centering position of the circle pad. For other circle pad
-settings, see [circle pad extra](#Circle_pad_extra "wikilink").
+settings, see [circle pad extra](#circle_pad_extra "wikilink").
 
 | Offset | Declaration | Description                                            |
 |--------|-------------|--------------------------------------------------------|

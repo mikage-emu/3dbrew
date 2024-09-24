@@ -4,11 +4,11 @@ title = 'Camera Services'
 
 ## cam:c (PORT_REG)
 
-Same as [cam:u](#cam:u_.28PORT_USER.29 "wikilink")
+Same as [cam:u](#cam:u_.28port_user.29 "wikilink")
 
 ## cam:s (PORT_CAL)
 
-Same as [cam:u](#cam:u_.28PORT_USER.29 "wikilink")
+Same as [cam:u](#cam:u_.28port_user.29 "wikilink")
 
 ## cam:q (PORT_QTM)
 

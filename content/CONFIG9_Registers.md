@@ -6,22 +6,22 @@ title = 'CONFIG9 Registers'
 
 | Old3DS | Name                                             | Address    | Width | Used by                      |
 |--------|--------------------------------------------------|------------|-------|------------------------------|
-| Yes    | [CFG9_SYSPROT9](#CFG9_SYSPROT9 "wikilink")       | 0x10000000 | 1     | Boot9                        |
-| Yes    | [CFG9_SYSPROT11](#CFG9_SYSPROT11 "wikilink")     | 0x10000001 | 1     | Boot9                        |
-| Yes    | [CFG9_RST11](#CFG9_RST11 "wikilink")             | 0x10000002 | 1     | Boot9                        |
+| Yes    | [CFG9_SYSPROT9](#cfg9_sysprot9 "wikilink")       | 0x10000000 | 1     | Boot9                        |
+| Yes    | [CFG9_SYSPROT11](#cfg9_sysprot11 "wikilink")     | 0x10000001 | 1     | Boot9                        |
+| Yes    | [CFG9_RST11](#cfg9_rst11 "wikilink")             | 0x10000002 | 1     | Boot9                        |
 | Yes    | CFG9_DEBUGCTL                                    | 0x10000004 | 4     |                              |
-| Yes    | [CFG9_XDMA_CNT](#CFG9_XDMA_CNT "wikilink")       | 0x10000008 | 1     | Boot9, Process9, TwlProcess9 |
-| Yes    | [CFG9_CARDCTL](#CFG9_CARDCTL "wikilink")         | 0x1000000C | 2     | Process9                     |
-| Yes    | [CFG9_CARDSTATUS](#CFG9_CARDSTATUS "wikilink")   | 0x10000010 | 1     | Process9                     |
+| Yes    | [CFG9_XDMA_CNT](#cfg9_xdma_cnt "wikilink")       | 0x10000008 | 1     | Boot9, Process9, TwlProcess9 |
+| Yes    | [CFG9_CARDCTL](#cfg9_cardctl "wikilink")         | 0x1000000C | 2     | Process9                     |
+| Yes    | [CFG9_CARDSTATUS](#cfg9_cardstatus "wikilink")   | 0x10000010 | 1     | Process9                     |
 | Yes    | CFG9_CARDCYCLES0                                 | 0x10000012 | 2     | Boot9, Process9              |
 | Yes    | CFG9_CARDCYCLES1                                 | 0x10000014 | 2     | Boot9, Process9              |
-| Yes    | [CFG9_SDMMCCTL](#CFG9_SDMMCCTL "wikilink")       | 0x10000020 | 2     | Process9                     |
+| Yes    | [CFG9_SDMMCCTL](#cfg9_sdmmcctl "wikilink")       | 0x10000020 | 2     | Process9                     |
 | Yes    | ?                                                | 0x10000100 | 2     |                              |
-| No     | [CFG9_EXTMEMCNT9](#CFG9_EXTMEMCNT9 "wikilink")   | 0x10000200 | 1     | NewKernel9                   |
-| Yes    | [CFG9_MPCORECFG](#CFG9_MPCORECFG "wikilink")     | 0x10000FFC | 4     |                              |
-| Yes    | [CFG9_BOOTENV](#CFG9_BOOTENV "wikilink")         | 0x10010000 | 4     |                              |
-| Yes    | [CFG9_UNITINFO](#CFG9_UNITINFO "wikilink")       | 0x10010010 | 1     | Process9                     |
-| Yes    | [CFG9_TWLUNITINFO](#CFG9_TWLUNITINFO "wikilink") | 0x10010014 | 1     | Process9                     |
+| No     | [CFG9_EXTMEMCNT9](#cfg9_extmemcnt9 "wikilink")   | 0x10000200 | 1     | NewKernel9                   |
+| Yes    | [CFG9_MPCORECFG](#cfg9_mpcorecfg "wikilink")     | 0x10000FFC | 4     |                              |
+| Yes    | [CFG9_BOOTENV](#cfg9_bootenv "wikilink")         | 0x10010000 | 4     |                              |
+| Yes    | [CFG9_UNITINFO](#cfg9_unitinfo "wikilink")       | 0x10010010 | 1     | Process9                     |
+| Yes    | [CFG9_TWLUNITINFO](#cfg9_twlunitinfo "wikilink") | 0x10010014 | 1     | Process9                     |
 
 ## CFG9_SYSPROT9
 

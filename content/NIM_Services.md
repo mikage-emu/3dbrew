@@ -224,7 +224,7 @@ the titleIDs in the response are hex.
 
 | Offset | Length | Description                                          |
 |--------|--------|------------------------------------------------------|
-| 0x00   | 0x01   | [System Update State](#SystemUpdateState "wikilink") |
+| 0x00   | 0x01   | [System Update State](#systemupdatestate "wikilink") |
 | 0x01   | 0x03   | Padding                                              |
 | 0x04   | 0x04   | Last Operation Result Code                           |
 | 0x08   | 0x08   | Current Title Downloaded Bytes                       |
@@ -250,7 +250,7 @@ the titleIDs in the response are hex.
 
 | Offset | Length | Description                                            |
 |--------|--------|--------------------------------------------------------|
-| 0x00   | 0x01   | [Title Download State](#TitleDownloadState "wikilink") |
+| 0x00   | 0x01   | [Title Download State](#titledownloadstate "wikilink") |
 | 0x01   | 0x03   | Padding                                                |
 | 0x04   | 0x04   | Last Operation Result Code                             |
 | 0x08   | 0x08   | Downloaded Bytes                                       |
@@ -288,7 +288,7 @@ the titleIDs in the response are hex.
 
 | Offset | Length | Description                                              |
 |--------|--------|----------------------------------------------------------|
-| 0x000  | 0x018  | [Title Download Config](#TitleDownloadConfig "wikilink") |
+| 0x000  | 0x018  | [Title Download Config](#titledownloadconfig "wikilink") |
 | 0x018  | 0x001  | Unknown                                                  |
 | 0x019  | 0x001  | Unknown                                                  |
 | 0x01A  | 0x006  | Padding                                                  |
@@ -302,9 +302,9 @@ the titleIDs in the response are hex.
 
 | Offset | Length | Description                                                                   |
 |--------|--------|-------------------------------------------------------------------------------|
-| 0x000  | 0x104  | [Background Title Download Config](#BackgroundTitleDownloadConfig "wikilink") |
+| 0x000  | 0x104  | [Background Title Download Config](#backgroundtitledownloadconfig "wikilink") |
 | 0x104  | 0x004  | Padding                                                                       |
-| 0x108  | 0x018  | [Title Download Progress](#TitleDownloadProgress "wikilink")                  |
+| 0x108  | 0x018  | [Title Download Progress](#titledownloadprogress "wikilink")                  |
 
 ## AutoTitleDownloadTaskInfo
 

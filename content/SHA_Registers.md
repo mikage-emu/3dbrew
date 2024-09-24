@@ -6,10 +6,10 @@ title = 'SHA Registers'
 
 | Old3DS | Name                                 | Address    | Width | Used by         |
 |--------|--------------------------------------|------------|-------|-----------------|
-| Yes    | [SHA_CNT](#SHA_CNT "wikilink")       | 0x1000A000 | 4     | Boot9, Process9 |
-| Yes    | [SHA_BLKCNT](#SHA_BLKCNT "wikilink") | 0x1000A004 | 4     | Process9        |
-| Yes    | [SHA_HASH](#SHA_HASH "wikilink")     | 0x1000A040 | 0x20  | Process9        |
-| Yes    | [SHA_FIFO](#SHA_FIFO "wikilink")     | 0x1000A080 | 0x40  | Boot9, Process9 |
+| Yes    | [SHA_CNT](#sha_cnt "wikilink")       | 0x1000A000 | 4     | Boot9, Process9 |
+| Yes    | [SHA_BLKCNT](#sha_blkcnt "wikilink") | 0x1000A004 | 4     | Process9        |
+| Yes    | [SHA_HASH](#sha_hash "wikilink")     | 0x1000A040 | 0x20  | Process9        |
+| Yes    | [SHA_FIFO](#sha_fifo "wikilink")     | 0x1000A080 | 0x40  | Boot9, Process9 |
 
 ## SHA_CNT
 

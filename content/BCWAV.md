@@ -20,13 +20,13 @@ equivalent to fmt) and a DATA struct (the equivalent to data).
 |--------|------|------------------------------------------------------------------------------------------------------------------------|
 | 0x000  | 4    | Magic (CWAV)                                                                                                           |
 | 0x004  | 2    | Endianness (0xFEFF = little, 0xFFFE = big)                                                                             |
-| 0x006  | 2    | Header Size (0x40 due to [Info Block](#Info_Block "wikilink") alignment)                                               |
+| 0x006  | 2    | Header Size (0x40 due to [Info Block](#info_block "wikilink") alignment)                                               |
 | 0x008  | 4    | Version (0x02010000)                                                                                                   |
 | 0x00C  | 4    | File Size                                                                                                              |
 | 0x010  | 2    | Number of Blocks (2)                                                                                                   |
 | 0x012  | 2    | Reserved                                                                                                               |
-| 0x014  | 12   | [Info Block](#Info_Block "wikilink") [Sized Reference](#Sized_Reference "wikilink") (Offset relative to start of file) |
-| 0x020  | 12   | [Data Block](#Data_Block "wikilink") [Sized Reference](#Sized_Reference "wikilink") (Offset relative to start of file) |
+| 0x014  | 12   | [Info Block](#Info_Block "wikilink") [Sized Reference](#sized_reference "wikilink") (Offset relative to start of file) |
+| 0x020  | 12   | [Data Block](#Data_Block "wikilink") [Sized Reference](#sized_reference "wikilink") (Offset relative to start of file) |
 
 ### Block Header
 
@@ -39,35 +39,35 @@ equivalent to fmt) and a DATA struct (the equivalent to data).
 
 | MAGIC | TYPE                                 |
 |-------|--------------------------------------|
-| INFO  | [Info Block](#Info_Block "wikilink") |
-| DATA  | [Data Block](#Data_Block "wikilink") |
+| INFO  | [Info Block](#info_block "wikilink") |
+| DATA  | [Data Block](#data_block "wikilink") |
 
 ### Info Block
 
 | OFFSET | SIZE | DESCRIPTION                                                                             |
 |--------|------|-----------------------------------------------------------------------------------------|
-| 0x000  | 8    | [Block Header](#Block_Header "wikilink")                                                |
-| 0x008  | 1    | [Encoding](#Encoding "wikilink")                                                        |
+| 0x000  | 8    | [Block Header](#block_header "wikilink")                                                |
+| 0x008  | 1    | [Encoding](#encoding "wikilink")                                                        |
 | 0x009  | 1    | Loop (0 = don't loop, 1 = loop)                                                         |
 | 0x00A  | 2    | Padding                                                                                 |
 | 0x00C  | 4    | Sample Rate                                                                             |
 | 0x010  | 4    | Loop Start Frame                                                                        |
 | 0x014  | 4    | Loop End Frame                                                                          |
 | 0x018  | 4    | Reserved                                                                                |
-| 0x01C  | X    | [Channel Info](#Channel_Info "wikilink") [Reference Table](#Reference_Table "wikilink") |
-| X      | X    | [Channel Info](#Channel_Info "wikilink") Entries                                        |
+| 0x01C  | X    | [Channel Info](#Channel_Info "wikilink") [Reference Table](#reference_table "wikilink") |
+| X      | X    | [Channel Info](#channel_info "wikilink") Entries                                        |
 
 If encoding is DSP ADPCM:
 
 | OFFSET | SIZE | DESCRIPTION                                          |
 |--------|------|------------------------------------------------------|
-| X      | X    | [DSP ADPCM Info](#DSP_ADPCM_Info "wikilink") Entries |
+| X      | X    | [DSP ADPCM Info](#dsp_adpcm_info "wikilink") Entries |
 
 If encoding is IMA ADPCM:
 
 | OFFSET | SIZE | DESCRIPTION                                          |
 |--------|------|------------------------------------------------------|
-| X      | X    | [IMA ADPCM Info](#IMA_ADPCM_Info "wikilink") Entries |
+| X      | X    | [IMA ADPCM Info](#ima_adpcm_info "wikilink") Entries |
 
 The info block is aligned to 0x20 bytes.
 
@@ -84,17 +84,17 @@ The info block is aligned to 0x20 bytes.
 
 | OFFSET | SIZE | DESCRIPTION                                                                                                         |
 |--------|------|---------------------------------------------------------------------------------------------------------------------|
-| 0x000  | 8    | Samples [Reference](#Reference "wikilink") (Offset relative to [Data Block](#Data_Block "wikilink") Data field)     |
-| 0x008  | 8    | ADPCM Info [Reference](#Reference "wikilink") (Offset relative to Samples [Reference](#Reference "wikilink") field) |
+| 0x000  | 8    | Samples [Reference](#Reference "wikilink") (Offset relative to [Data Block](#data_block "wikilink") Data field)     |
+| 0x008  | 8    | ADPCM Info [Reference](#Reference "wikilink") (Offset relative to Samples [Reference](#reference "wikilink") field) |
 | 0x010  | 4    | Reserved                                                                                                            |
 
 ##### DSP ADPCM Info
 
 | OFFSET | SIZE | DESCRIPTION                                   |
 |--------|------|-----------------------------------------------|
-| 0x000  | 32   | [Param](#DSP_ADPCM_Param "wikilink")          |
-| 0x020  | 6    | [Context](#DSP_ADPCM_Context "wikilink")      |
-| 0x026  | 6    | Loop [Context](#DSP_ADPCM_Context "wikilink") |
+| 0x000  | 32   | [Param](#dsp_adpcm_param "wikilink")          |
+| 0x020  | 6    | [Context](#dsp_adpcm_context "wikilink")      |
+| 0x026  | 6    | Loop [Context](#dsp_adpcm_context "wikilink") |
 | 0x02C  | 2    | Padding                                       |
 
 ###### DSP ADPCM Param
@@ -116,8 +116,8 @@ The info block is aligned to 0x20 bytes.
 
 | OFFSET | SIZE | DESCRIPTION                                   |
 |--------|------|-----------------------------------------------|
-| 0x000  | 4    | [Context](#IMA_ADPCM_Context "wikilink")      |
-| 0x004  | 4    | Loop [Context](#IMA_ADPCM_Context "wikilink") |
+| 0x000  | 4    | [Context](#ima_adpcm_context "wikilink")      |
+| 0x004  | 4    | Loop [Context](#ima_adpcm_context "wikilink") |
 
 ###### IMA ADPCM Context
 
@@ -131,8 +131,8 @@ The info block is aligned to 0x20 bytes.
 
 | OFFSET | SIZE                                                    | DESCRIPTION                              |
 |--------|---------------------------------------------------------|------------------------------------------|
-| 0x000  | 8                                                       | [Block Header](#Block_Header "wikilink") |
-| 0x008  | [Block Header](#Block_Header "wikilink") Size Value - 8 | Data                                     |
+| 0x000  | 8                                                       | [Block Header](#block_header "wikilink") |
+| 0x008  | [Block Header](#block_header "wikilink") Size Value - 8 | Data                                     |
 
 The data block is aligned to 0x20 bytes, as well as the data field's
 actual sample data.
@@ -142,13 +142,13 @@ actual sample data.
 | OFFSET | SIZE       | DESCRIPTION                                                           |
 |--------|------------|-----------------------------------------------------------------------|
 | 0x000  | 4          | Count                                                                 |
-| 0x004  | Count \* 8 | [References](#Reference "wikilink") (Offsets relative to Count field) |
+| 0x004  | Count \* 8 | [References](#reference "wikilink") (Offsets relative to Count field) |
 
 ### Sized Reference
 
 | OFFSET | SIZE | DESCRIPTION                        |
 |--------|------|------------------------------------|
-| 0x000  | 8    | [Reference](#Reference "wikilink") |
+| 0x000  | 8    | [Reference](#reference "wikilink") |
 | 0x008  | 4    | Size                               |
 
 ### Reference
@@ -163,11 +163,11 @@ actual sample data.
 
 | ID     | TYPE                                         |
 |--------|----------------------------------------------|
-| 0x0300 | [DSP ADPCM Info](#DSP_ADPCM_Info "wikilink") |
-| 0x0301 | [IMA ADPCM Info](#IMA_ADPCM_Info "wikilink") |
-| 0x1F00 | [Sample Data](#Data_Block "wikilink")        |
-| 0x7000 | [Info Block](#Info_Block "wikilink")         |
-| 0x7001 | [Data Block](#Data_Block "wikilink")         |
-| 0x7100 | [Channel Info](#Channel_Info "wikilink")     |
+| 0x0300 | [DSP ADPCM Info](#dsp_adpcm_info "wikilink") |
+| 0x0301 | [IMA ADPCM Info](#ima_adpcm_info "wikilink") |
+| 0x1F00 | [Sample Data](#data_block "wikilink")        |
+| 0x7000 | [Info Block](#info_block "wikilink")         |
+| 0x7001 | [Data Block](#data_block "wikilink")         |
+| 0x7100 | [Channel Info](#channel_info "wikilink")     |
 
 [Category:File formats](Category:File_formats "wikilink")

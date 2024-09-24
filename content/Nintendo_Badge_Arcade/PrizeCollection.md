@@ -84,10 +84,10 @@ machine.
 | 0x30   | 0x30   | Crane Instance name                                                |
 | 0x60   | 0x30   | Crane name                                                         |
 | 0x90   | 0x30   | Crane Icon name                                                    |
-| 0xC0   | 0x4    | [Crane availability](#Crane_availability "wikilink")               |
+| 0xC0   | 0x4    | [Crane availability](#crane_availability "wikilink")               |
 | 0xC4   | 0x4    | Unknown (usually 0x3?)                                             |
-| 0xC8   | 0xC    | [Crane color](#Crane_color "wikilink")                             |
-| 0xD4   | 0x4    | [Crane type](#Crane_type "wikilink")                               |
+| 0xC8   | 0xC    | [Crane color](#crane_color "wikilink")                             |
+| 0xD4   | 0x4    | [Crane type](#crane_type "wikilink")                               |
 | 0xD8   | 0x8    | Unknown (usually zero?)                                            |
 | 0xE0   | 0x4    | Number of prizes                                                   |
 | 0xE4   | 0x4    | Number of attachments                                              |
@@ -97,9 +97,9 @@ machine.
 | 0xF4   | 0x4    | Number of on-machine attachments                                   |
 | 0xF8   | 0x4    | Number of on-machine fixed objects                                 |
 | 0xFC   | 0x4    | Number of attachment badges                                        |
-| 0x100  | 0x1000 | [Display names](#Language_Names "wikilink")                        |
-| 0x1100 | 0xB40  | [Component names](#Component_Names "wikilink")                     |
-| 0x1C40 | 0x2440 | [Crane instance properties](#Crane_Instance_Properties "wikilink") |
+| 0x100  | 0x1000 | [Display names](#language_names "wikilink")                        |
+| 0x1100 | 0xB40  | [Component names](#component_names "wikilink")                     |
+| 0x1C40 | 0x2440 | [Crane instance properties](#crane_instance_properties "wikilink") |
 
 ### Crane availability
 
@@ -241,7 +241,7 @@ its image.
 | 0x64                 | 0x1C   | Padding                                       |
 | 0x80                 | w \* h | ETC1A4 image of attachment                    |
 | 0x80 + (w \* h)      | w \* h | A8 data of previous image                     |
-| 0x80 + 2 \* (w \* h) |        | [Collision data](#Collision_data "wikilink")  |
+| 0x80 + 2 \* (w \* h) |        | [Collision data](#collision_data "wikilink")  |
 
 ## Crane Icon (icb)
 
@@ -282,7 +282,7 @@ image.
 | 0x5C   | 0x4    | Number of badges                                     |
 | 0x60   | 0x4    | Number of sets (crane instances)                     |
 | 0x64   | 0x4    | Unknown (related to category ID?)                    |
-| 0x68   | 0x1000 | [Category display names](#Language_Names "wikilink") |
+| 0x68   | 0x1000 | [Category display names](#language_names "wikilink") |
 | 0x1068 | 0x1018 | Padding                                              |
 | 0x2080 | 0x2000 | 64x64 RGB565 image of category                       |
 
@@ -347,7 +347,7 @@ image.
 | 0x58            | 0x4    | Image height                                  |
 | 0x5C            | 0x24   | Padding                                       |
 | 0x80            | w \* h | ETC1A4 image of fixed object                  |
-| 0x80 + (w \* h) |        | [Collision data](#Collision_data "wikilink")  |
+| 0x80 + (w \* h) |        | [Collision data](#collision_data "wikilink")  |
 
 ## Prize (prb)
 
@@ -384,10 +384,10 @@ A prize file stores the badge data and its image.
 | 0xD0   | 0x4    | Full image width scale (float32)                                                                |
 | 0xD4   | 0x4    | Full image height scale (float32)                                                               |
 | 0xD8   | 0x8    | Unknown (always zero when 1x1 tile?)                                                            |
-| 0xE0   | 0x1000 | [Badge display names](#Language_Names "wikilink")                                               |
+| 0xE0   | 0x1000 | [Badge display names](#language_names "wikilink")                                               |
 | 0x10E0 | 0x20   | Padding                                                                                         |
-| 0x1100 |        | [Image data](#Badge_image_data "wikilink")                                                      |
-|        |        | [Collision data](#Collision_data "wikilink")                                                    |
+| 0x1100 |        | [Image data](#badge_image_data "wikilink")                                                      |
+|        |        | [Collision data](#collision_data "wikilink")                                                    |
 
 ### Badge image data
 

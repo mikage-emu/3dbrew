@@ -6,32 +6,32 @@ title = 'PDN Registers'
 
 | Old3DS | Name                                                         | Address    | Width | Used by                                                                                 |
 |--------|--------------------------------------------------------------|------------|-------|-----------------------------------------------------------------------------------------|
-| Yes    | [PDN_SLEEP_CNT](#PDN_SLEEP_CNT "wikilink")                   | 0x10141000 | 2     | Kernel11                                                                                |
-| Yes    | [PDN_WAKE_ENABLE](#PDN_WAKE_ENABLE "wikilink")               | 0x10141008 | 4     | [PTM Services](PTM_Services "wikilink"), [PDN Services](PDN_Services "wikilink")        |
-| Yes    | [PDN_WAKE_REASON](#PDN_WAKE_REASON "wikilink")               | 0x1014100C | 4     | [PTM Services](PTM_Services "wikilink"), TwlBg, [PDN Services](PDN_Services "wikilink") |
-| Yes    | [LGY_MODE](#LGY_MODE "wikilink")                             | 0x10141100 | 2     | TwlProcess9, TwlBg                                                                      |
-| Yes    | [LGY_SLEEP_CNT](#LGY_SLEEP_CNT "wikilink")                   | 0x10141104 | 2     | TwlBg                                                                                   |
-| Yes    | [LGY_IRQ_ENABLE](#LGY_IRQ_ENABLE "wikilink")                 | 0x10141108 | 2     | TwlBg                                                                                   |
-| Yes    | [LGY_PAD_CNT](#LGY_PAD_CNT "wikilink")                       | 0x1014110A | 2     | TwlBg                                                                                   |
-| Yes    | [LGY_HIDEMU_MASK](#LGY_HIDEMU_MASK "wikilink")               | 0x10141110 | 2     | TwlBg                                                                                   |
-| Yes    | [LGY_HIDEMU_PAD](#LGY_HIDEMU_PAD "wikilink")                 | 0x10141112 | 2     | TwlBg                                                                                   |
-| Yes    | [LGY_GPIOEMU_MASK](#LGY_GPIOEMU_MASK "wikilink")             | 0x10141114 | 2     | [Codec Services](Codec_Services "wikilink"), TwlBg                                      |
-| Yes    | [LGY_GPIOEMU_DATA](#LGY_GPIOEMU_DATA "wikilink")             | 0x10141116 | 2     | [Codec Services](Codec_Services "wikilink"), TwlBg                                      |
-| Yes    | [LGY_CARDDETECTEMU_MASK](#LGY_CARDDETECTEMU_MASK "wikilink") | 0x10141118 | 1     | TwlBg                                                                                   |
-| Yes    | [LGY_CARDDETECTEMU_DATA](#LGY_CARDDETECTEMU_DATA "wikilink") | 0x10141119 | 1     | TwlBg                                                                                   |
+| Yes    | [PDN_SLEEP_CNT](#pdn_sleep_cnt "wikilink")                   | 0x10141000 | 2     | Kernel11                                                                                |
+| Yes    | [PDN_WAKE_ENABLE](#pdn_wake_enable "wikilink")               | 0x10141008 | 4     | [ptm services](ptm_services "wikilink"), [pdn services](pdn_services "wikilink")        |
+| Yes    | [PDN_WAKE_REASON](#pdn_wake_reason "wikilink")               | 0x1014100c | 4     | [ptm services](ptm_services "wikilink"), twlbg, [pdn services](pdn_services "wikilink") |
+| Yes    | [LGY_MODE](#lgy_mode "wikilink")                             | 0x10141100 | 2     | TwlProcess9, TwlBg                                                                      |
+| Yes    | [LGY_SLEEP_CNT](#lgy_sleep_cnt "wikilink")                   | 0x10141104 | 2     | TwlBg                                                                                   |
+| Yes    | [LGY_IRQ_ENABLE](#lgy_irq_enable "wikilink")                 | 0x10141108 | 2     | TwlBg                                                                                   |
+| Yes    | [LGY_PAD_CNT](#lgy_pad_cnt "wikilink")                       | 0x1014110A | 2     | TwlBg                                                                                   |
+| Yes    | [LGY_HIDEMU_MASK](#lgy_hidemu_mask "wikilink")               | 0x10141110 | 2     | TwlBg                                                                                   |
+| Yes    | [LGY_HIDEMU_PAD](#lgy_hidemu_pad "wikilink")                 | 0x10141112 | 2     | TwlBg                                                                                   |
+| Yes    | [LGY_GPIOEMU_MASK](#lgy_gpioemu_mask "wikilink")             | 0x10141114 | 2     | [codec services](codec_services "wikilink"), TwlBg                                      |
+| Yes    | [LGY_GPIOEMU_DATA](#lgy_gpioemu_data "wikilink")             | 0x10141116 | 2     | [codec services](codec_services "wikilink"), TwlBg                                      |
+| Yes    | [LGY_CARDDETECTEMU_MASK](#lgy_carddetectemu_mask "wikilink") | 0x10141118 | 1     | TwlBg                                                                                   |
+| Yes    | [LGY_CARDDETECTEMU_DATA](#lgy_carddetectemu_data "wikilink") | 0x10141119 | 1     | TwlBg                                                                                   |
 | Yes    | LGY_?                                                       | 0x10141120 | 1     | TwlBg                                                                                   |
 |        |                                                              |            |       |                                                                                         |
-| Yes    | [PDN_GPU_CNT](#PDN_GPU_CNT "wikilink")                       | 0x10141200 | 4     | Boot11, Kernel11, [PDN Services](PDN_Services "wikilink"), TwlBg                        |
-| Yes    | [PDN_VRAM_CNT](#PDN_VRAM_CNT "wikilink")                     | 0x10141204 | 1     | Boot11, Kernel11, TwlBg                                                                 |
-| Yes    | [PDN_LCD_CNT](#PDN_LCD_CNT "wikilink")                       | 0x10141208 | 1     | Boot11                                                                                  |
-| Yes    | [PDN_FCRAM_CNT](#PDN_FCRAM_CNT "wikilink")                   | 0x10141210 | 2     | Kernel11, TwlBg                                                                         |
-| Yes    | [PDN_I2S_CNT](#PDN_I2S_CNT "wikilink")                       | 0x10141220 | 1     | Boot11, TwlBg, [PDN Services](PDN_Services "wikilink")                                  |
-| Yes    | [PDN_CAMERA_CNT](#PDN_CAMERA_CNT "wikilink")                 | 0x10141224 | 1     | [PDN Services](PDN_Services "wikilink")                                                 |
-| Yes    | [PDN_DSP_CNT](#PDN_DSP_CNT "wikilink")                       | 0x10141230 | 1     | Process9, [PDN Services](PDN_Services "wikilink")                                       |
-| No     | [PDN_MVD_CNT](#PDN_MVD_CNT "wikilink")                       | 0x10141240 | 1     |                                                                                         |
-| No     | [PDN_LGR_SOCMODE](#PDN_LGR_SOCMODE "wikilink")               | 0x10141300 | 2     | NewKernel11                                                                             |
-| No     | [PDN_LGR_CNT](#PDN_LGR_CNT "wikilink")                       | 0x10141304 | 2     | NewKernel11                                                                             |
-| No     | [PDN_LGR_CPU_CNT](#PDN_LGR_CPU_CNT<0-3> "wikilink")\<0-3\>   | 0x10141310 | 1\*4  | NewKernel11                                                                             |
+| Yes    | [PDN_GPU_CNT](#pdn_gpu_cnt "wikilink")                       | 0x10141200 | 4     | boot11, kernel11, [pdn services](pdn_services "wikilink"), TwlBg                        |
+| Yes    | [PDN_VRAM_CNT](#pdn_vram_cnt "wikilink")                     | 0x10141204 | 1     | Boot11, Kernel11, TwlBg                                                                 |
+| Yes    | [PDN_LCD_CNT](#pdn_lcd_cnt "wikilink")                       | 0x10141208 | 1     | Boot11                                                                                  |
+| Yes    | [PDN_FCRAM_CNT](#pdn_fcram_cnt "wikilink")                   | 0x10141210 | 2     | Kernel11, TwlBg                                                                         |
+| Yes    | [PDN_I2S_CNT](#pdn_i2s_cnt "wikilink")                       | 0x10141220 | 1     | boot11, twlbg, [pdn services](pdn_services "wikilink")                                  |
+| Yes    | [PDN_CAMERA_CNT](#pdn_camera_cnt "wikilink")                 | 0x10141224 | 1     | [pdn services](pdn_services "wikilink")                                                 |
+| Yes    | [PDN_DSP_CNT](#pdn_dsp_cnt "wikilink")                       | 0x10141230 | 1     | process9, [pdn services](pdn_services "wikilink")                                       |
+| No     | [PDN_MVD_CNT](#pdn_mvd_cnt "wikilink")                       | 0x10141240 | 1     |                                                                                         |
+| No     | [PDN_LGR_SOCMODE](#pdn_lgr_socmode "wikilink")               | 0x10141300 | 2     | NewKernel11                                                                             |
+| No     | [PDN_LGR_CNT](#pdn_lgr_cnt "wikilink")                       | 0x10141304 | 2     | NewKernel11                                                                             |
+| No     | [PDN_LGR_CPU_CNT](#pdn_lgr_cpu_cnt<0-3> "wikilink")\<0-3\>   | 0x10141310 | 1\*4  | NewKernel11                                                                             |
 
 # Sleep registers
 
@@ -46,7 +46,7 @@ title = 'PDN Registers'
 Kernel11 powers down VRAM (it's unclear whether bit15 is power-down or
 self-refresh mode) by first disabling the 8 banks using [GX register
 0x10400030](GPU/External_Registers#Map "wikilink"), then by disabling
-the GPU clock using [PDN_GPU_CNT](#PDN_GPU_CNT "wikilink") bit 16 and
+the GPU clock using [PDN_GPU_CNT](#pdn_gpu_cnt "wikilink") bit 16 and
 finally writes to and polls this register.
 
 ## PDN_WAKE_ENABLE
@@ -70,7 +70,7 @@ sleep and raise IRQ 0x58.
 
 ## PDN_WAKE_REASON
 
-Same layout as [PDN_WAKE_ENABLE](#PDN_WAKE_ENABLE "wikilink").
+Same layout as [PDN_WAKE_ENABLE](#pdn_wake_enable "wikilink").
 
 This is a OR list of the wake triggers that actually woke up the
 console.
@@ -127,11 +127,11 @@ when GBA mode enters sleep.
 ## LGY_HIDEMU_MASK
 
 Set bits will use the corresponding values from
-[LGY_HIDEMU_PAD](#LGY_HIDEMU_PAD "wikilink") instead of allowing the
+[LGY_HIDEMU_PAD](#lgy_hidemu_pad "wikilink") instead of allowing the
 hardware to read it from [HID_PAD](HID_Registers#HID_PAD "wikilink").
 
 This is set to 0x1FFF (all buttons and the debug key) and
-[LGY_HIDEMU_PAD](#LGY_HIDEMU_PAD "wikilink") is set to 0 when the "Close
+[LGY_HIDEMU_PAD](#lgy_hidemu_pad "wikilink") is set to 0 when the "Close
 this software and return to HOME Menu?" dialog is shown to prevent the
 button presses from propagating to the DS/GBA CPU.
 
@@ -140,12 +140,12 @@ button presses from propagating to the DS/GBA CPU.
 Works the same way as [HID_PAD](HID_Registers#HID_PAD "wikilink"), but
 the values set here are only replaced in the HID_PAD seen by the DS/GBA
 CPU when the corresponding bits in
-[LGY_HIDEMU_MASK](#LGY_HIDEMU_MASK "wikilink") are set.
+[LGY_HIDEMU_MASK](#lgy_hidemu_mask "wikilink") are set.
 
 ## LGY_GPIOEMU_MASK
 
 Set bits will read bits from
-[LGY_GPIOEMU_DATA](#LGY_GPIOEMU_DATA "wikilink") (override).
+[LGY_GPIOEMU_DATA](#lgy_gpioemu_data "wikilink") (override).
 
 This is used to trigger things like the TWL MCU interrupt in TWL mode.
 
@@ -156,7 +156,7 @@ See above
 ## LGY_CARDDETECTEMU_MASK
 
 Set bits will read bits from
-[LGY_CARDDETECTEMU_DATA](#LGY_CARDDETECTEMU_DATA "wikilink") (override).
+[LGY_CARDDETECTEMU_DATA](#lgy_carddetectemu_data "wikilink") (override).
 
 Bit0 signals cartridge removal.
 

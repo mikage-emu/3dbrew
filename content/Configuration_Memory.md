@@ -55,7 +55,7 @@ Besides mem-region related fields, the data written here by the old
 | 3D_SLIDERSTATE                                                                                                                                                                                              | 0x1FF81080              | 4     |
 | 3D_LEDSTATE                                                                                                                                                                                                 | 0x1FF81084              | 1     |
 | BATTERY_LEDSTATE                                                                                                                                                                                            | 0x1FF81085              | 1     |
-| PTM sets bit0 to 1 when it has done writing MCU-originating hw info to [RUNNING_HW](#RUNNING_HW "wikilink"), [MCU_HW_INFO](#MCU_HW_INFO "wikilink"). There are no other bits.                               | 0x1FF81086              | 1     |
+| PTM sets bit0 to 1 when it has done writing MCU-originating hw info to [RUNNING_HW](#RUNNING_HW "wikilink"), [MCU_HW_INFO](#mcu_hw_info "wikilink"). There are no other bits.                               | 0x1FF81086              | 1     |
 | MENUTID                                                                                                                                                                                                     | 0x1FF810A0              | 8     |
 | ACTIVEMENUTID                                                                                                                                                                                               | 0x1FF810A8              | 8     |
 | Signed? Headsets connected?                                                                                                                                                                                 | 0x1FF810C0              | 1     |
@@ -232,7 +232,7 @@ Same as APPMEMALLOC except for the BASE mem-region, see
 
 ## RUNNING_HW
 
-Converted from [MCU_HW_INFO](#MCU_HW_INFO "wikilink") (names extracted
+Converted from [MCU_HW_INFO](#mcu_hw_info "wikilink") (names extracted
 from TestMenu) by PTM, depending on whether or not the system is a
 N3DS/N2DS or not:
 
@@ -251,7 +251,7 @@ N3DS/N2DS or not:
 
 ## MCU_HW_INFO
 
-Converted to [RUNNING_HW](#RUNNING_HW "wikilink") by PTM.
+Converted to [RUNNING_HW](#running_hw "wikilink") by PTM.
 
 | Value | Description            |
 |-------|------------------------|

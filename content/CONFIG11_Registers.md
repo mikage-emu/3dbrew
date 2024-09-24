@@ -6,22 +6,22 @@ title = 'CONFIG11 Registers'
 
 | Old3DS | Name                                                                      | Address    | Width | Used by                                                   |
 |--------|---------------------------------------------------------------------------|------------|-------|-----------------------------------------------------------|
-| Yes    | [CFG11_SHAREDWRAM_32K_CODE](#CFG11_SHAREDWRAM_32K_CODE "wikilink")\<0-7\> | 0x10140000 | 1\*8  | Boot11, Process9, [DSP Services](DSP_Services "wikilink") |
-| Yes    | [CFG11_SHAREDWRAM_32K_DATA](#CFG11_SHAREDWRAM_32K_DATA "wikilink")\<0-7\> | 0x10140008 | 1\*8  | Boot11, Process9, [DSP Services](DSP_Services "wikilink") |
-| Yes    | [CFG11_NULLPAGE_CNT](#CFG11_NULLPAGE_CNT "wikilink")                      | 0x10140100 | 4     |                                                           |
-| Yes    | [CFG11_FIQ_MASK](#CFG11_FIQ_MASK "wikilink")                              | 0x10140104 | 1     | Kernel11.                                                 |
+| Yes    | [CFG11_SHAREDWRAM_32K_CODE](#cfg11_sharedwram_32k_code "wikilink")\<0-7\> | 0x10140000 | 1\*8  | boot11, process9, [dsp services](dsp_services "wikilink") |
+| Yes    | [CFG11_SHAREDWRAM_32K_DATA](#cfg11_sharedwram_32k_data "wikilink")\<0-7\> | 0x10140008 | 1\*8  | boot11, process9, [dsp services](dsp_services "wikilink") |
+| Yes    | [CFG11_NULLPAGE_CNT](#cfg11_nullpage_cnt "wikilink")                      | 0x10140100 | 4     |                                                           |
+| Yes    | [CFG11_FIQ_MASK](#cfg11_fiq_mask "wikilink")                              | 0x10140104 | 1     | Kernel11.                                                 |
 | Yes    | Debug related bitfield? Observed: 0b1100(N3DS)/0b0000(O3DS)               | 0x10140105 | 1     |                                                           |
-| Yes    | [CFG_CDMA_CNT](#CFG11_CDMA_CNT "wikilink")                                | 0x1014010C | 2     | TwlBg                                                     |
-| Yes    | [CFG11_GPUPROT](#CFG11_GPUPROT "wikilink")                                | 0x10140140 | 4     | Kernel11                                                  |
-| Yes    | [CFG11_WIFICNT](#CFG11_WIFICNT "wikilink")                                | 0x10140180 | 1     | TwlBg, [NWM Services](NWM_Services "wikilink")            |
-| Yes    | [CFG11_SPI_CNT](#CFG11_SPI_CNT "wikilink")                                | 0x101401C0 | 2     | [SPI Services](SPI_Services "wikilink"), TwlBg            |
+| Yes    | [CFG_CDMA_CNT](#cfg11_cdma_cnt "wikilink")                                | 0x1014010C | 2     | TwlBg                                                     |
+| Yes    | [CFG11_GPUPROT](#cfg11_gpuprot "wikilink")                                | 0x10140140 | 4     | Kernel11                                                  |
+| Yes    | [CFG11_WIFICNT](#cfg11_wificnt "wikilink")                                | 0x10140180 | 1     | twlbg, [nwm services](nwm_services "wikilink")            |
+| Yes    | [CFG11_SPI_CNT](#cfg11_spi_cnt "wikilink")                                | 0x101401c0 | 2     | [spi services](spi_services "wikilink"), TwlBg            |
 | Yes    | ?                                                                         | 0x10140200 | 4     |                                                           |
-| No     | [CFG11_GPU_N3DS_CNT](#CFG11_GPU_N3DS_CNT "wikilink")                      | 0x10140400 | 1     | NewKernel11                                               |
-| No     | [CFG11_CDMA_PERIPHERALS](#CFG11_CDMA_PERIPHERALS "wikilink")              | 0x10140410 | 4     | NewKernel11                                               |
-| No     | [CFG11_BOOTROM_OVERLAY_CNT](#CFG11_BOOTROM_OVERLAY_CNT "wikilink")        | 0x10140420 | 1     | NewKernel11                                               |
-| No     | [CFG11_BOOTROM_OVERLAY_VAL](#CFG11_BOOTROM_OVERLAY_VAL "wikilink")        | 0x10140424 | 4     | NewKernel11                                               |
+| No     | [CFG11_GPU_N3DS_CNT](#cfg11_gpu_n3ds_cnt "wikilink")                      | 0x10140400 | 1     | NewKernel11                                               |
+| No     | [CFG11_CDMA_PERIPHERALS](#cfg11_cdma_peripherals "wikilink")              | 0x10140410 | 4     | NewKernel11                                               |
+| No     | [CFG11_BOOTROM_OVERLAY_CNT](#cfg11_bootrom_overlay_cnt "wikilink")        | 0x10140420 | 1     | NewKernel11                                               |
+| No     | [CFG11_BOOTROM_OVERLAY_VAL](#cfg11_bootrom_overlay_val "wikilink")        | 0x10140424 | 4     | NewKernel11                                               |
 | No     | ?                                                                         | 0x10140428 | 4     |                                                           |
-| Yes    | [CFG11_SOCINFO](#CFG11_SOCINFO "wikilink")                                | 0x10140FFC | 2     | Boot11, Kernel11                                          |
+| Yes    | [CFG11_SOCINFO](#cfg11_socinfo "wikilink")                                | 0x10140FFC | 2     | Boot11, Kernel11                                          |
 
 ## CFG11_SHAREDWRAM_32K_CODE
 

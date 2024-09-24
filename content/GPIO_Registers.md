@@ -8,24 +8,24 @@ title = 'GPIO Registers'
 
 | Old3DS | Name                                     | Address    | Width |
 |--------|------------------------------------------|------------|-------|
-| Yes    | [GPIO1_DATA](#GPIOn_DATA "wikilink")     | 0x10147000 | 1     |
-| Yes    | [GPIO2_DATA](#GPIOn_DATA "wikilink")     | 0x10147010 | 1     |
-| Yes    | [GPIO2_DIR](#GPIOn_DIR "wikilink")       | 0x10147011 | 1     |
-| Yes    | [GPIO2_INTCFG](#GPIOn_INTCFG "wikilink") | 0x10147012 | 1     |
-| Yes    | [GPIO2_INTEN](#GPIOn_INTEN "wikilink")   | 0x10147013 | 1     |
-| Yes    | [GPIO2_DATA2](#GPIOn_DATA2 "wikilink")   | 0x10147014 | 2     |
-| Yes    | [GPIO3_DATA](#GPIOn_DATA "wikilink")     | 0x10147020 | 2     |
-| Yes    | [GPIO3_DIR](#GPIOn_DIR "wikilink")       | 0x10147022 | 2     |
-| Yes    | [GPIO3_INTCFG](#GPIOn_INTCFG "wikilink") | 0x10147024 | 2     |
-| Yes    | [GPIO3_INTEN](#GPIOn_INTEN "wikilink")   | 0x10147026 | 2     |
-| Yes    | [GPIO3_DATA2](#GPIOn_DATA2 "wikilink")   | 0x10147028 | 2     |
+| Yes    | [GPIO1_DATA](#gpion_data "wikilink")     | 0x10147000 | 1     |
+| Yes    | [GPIO2_DATA](#gpion_data "wikilink")     | 0x10147010 | 1     |
+| Yes    | [GPIO2_DIR](#gpion_dir "wikilink")       | 0x10147011 | 1     |
+| Yes    | [GPIO2_INTCFG](#gpion_intcfg "wikilink") | 0x10147012 | 1     |
+| Yes    | [GPIO2_INTEN](#gpion_inten "wikilink")   | 0x10147013 | 1     |
+| Yes    | [GPIO2_DATA2](#gpion_data2 "wikilink")   | 0x10147014 | 2     |
+| Yes    | [GPIO3_DATA](#gpion_data "wikilink")     | 0x10147020 | 2     |
+| Yes    | [GPIO3_DIR](#gpion_dir "wikilink")       | 0x10147022 | 2     |
+| Yes    | [GPIO3_INTCFG](#gpion_intcfg "wikilink") | 0x10147024 | 2     |
+| Yes    | [GPIO3_INTEN](#gpion_inten "wikilink")   | 0x10147026 | 2     |
+| Yes    | [GPIO3_DATA2](#gpion_data2 "wikilink")   | 0x10147028 | 2     |
 |        |                                          |            |       |
 
 ## Legacy RTC
 
 | Name                                        | Address    | Width  | Description                                                                                                               |
 |---------------------------------------------|------------|--------|---------------------------------------------------------------------------------------------------------------------------|
-| [RTC_CNT](#RTC_CNT_(0x10147100) "wikilink") | 0x10147100 | 2      | Control register                                                                                                          |
+| [RTC_CNT](#rtc_cnt_(0x10147100) "wikilink") | 0x10147100 | 2      | Control register                                                                                                          |
 | RTC_REG_STAT1                               | 0x10147110 | 1      | Rtc status register 1 (command 0). Bitswapped                                                                             |
 | RTC_REG_STAT2                               | 0x10147111 | 1      | Rtc status register 2 (command 1). Bitswapped                                                                             |
 | RTC_REG_CLKADJ                              | 0x10147112 | 1      | Rtc clock adjustment register (command 6). Bitswapped                                                                     |

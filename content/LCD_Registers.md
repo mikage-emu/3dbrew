@@ -15,8 +15,8 @@ Registers](GPU_Registers "wikilink").
 | LCD clock disable                                                | 0x1020200C       | 0x1ED0200C              | 0xFFFD600C             | 0x4   |
 | ?                                                                | 0x10202010       | 0x1ED02010              | 0xFFFD6010             | 0x4   |
 | LCD reset                                                        | 0x10202014       | 0x1ED02014              | 0xFFFD6014             | 0x4   |
-| Top Screen [LCD Configuration](#LCD_Configuration "wikilink")    | 0x10202200       | 0x1ED02200              | 0xFFFD6200             | 0x600 |
-| Bottom Screen [LCD Configuration](#LCD_Configuration "wikilink") | 0x10202A00       | 0x1ED02A00              | 0xFFFD6A00             | 0x600 |
+| Top Screen [LCD Configuration](#lcd_configuration "wikilink")    | 0x10202200       | 0x1ED02200              | 0xFFFD6200             | 0x600 |
+| Bottom Screen [LCD Configuration](#lcd_configuration "wikilink") | 0x10202A00       | 0x1ED02A00              | 0xFFFD6A00             | 0x600 |
 | ?                                                                | 0x10203200       | 0x1ED03200              | 0xFFFD7200             | 0x40  |
 
 On screen-init (error screen), Boot11 sets 0x10202004 to 0xA390A39.
@@ -25,9 +25,9 @@ On screen-init (error screen), Boot11 sets 0x10202004 to 0xA390A39.
 
 | Offset | Size  | Description                                                                                                                             |
 |--------|-------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| 0x00   | 0x4   | [Flags](#Flags "wikilink")                                                                                                              |
-| 0x04   | 0x4   | [Fill Color](#Fill_Color "wikilink")                                                                                                    |
-| 0x10   | 0x10  | [ABL Area](#ABL_Area "wikilink")                                                                                                        |
+| 0x00   | 0x4   | [Flags](#flags "wikilink")                                                                                                              |
+| 0x04   | 0x4   | [Fill Color](#fill_color "wikilink")                                                                                                    |
+| 0x10   | 0x10  | [ABL Area](#abl_area "wikilink")                                                                                                        |
 | 0x20   | 0x4   | GTH Ratio                                                                                                                               |
 | 0x24   | 0x4   | Min GTH                                                                                                                                 |
 | 0x28   | 0x4   | MinMax                                                                                                                                  |
@@ -35,8 +35,8 @@ On screen-init (error screen), Boot11 sets 0x10202004 to 0xA390A39.
 | 0x30   | 0x4   | Inertia                                                                                                                                 |
 | 0x38   | 0x4   | MinRS                                                                                                                                   |
 | 0x3C   | 0x4   | MaxRS                                                                                                                                   |
-| 0x40   | 0x4   | [Backlight Level](#Backlight_Level "wikilink")                                                                                          |
-| 0x44   | 0x4   | [Backlight Interval](#Backlight_Interval "wikilink")                                                                                    |
+| 0x40   | 0x4   | [Backlight Level](#backlight_level "wikilink")                                                                                          |
+| 0x44   | 0x4   | [Backlight Interval](#backlight_interval "wikilink")                                                                                    |
 | 0x60   | 0x20  | Dither                                                                                                                                  |
 | 0x80   | 0x24  | LutListRS                                                                                                                               |
 | 0xF0   | 0x0C  | ?                                                                                                                                       |

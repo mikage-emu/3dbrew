@@ -394,8 +394,8 @@ profile.</p></td>
 <td><p>Add me and email me your friends code: darkwork0@gmail.com I'll
 add anyone who adds me!</p></td>
 <td><figure>
-<img src="../HNI_0006.JPG‎" title="HNI_0006.JPG‎" width="120" />
-<figcaption>HNI_0006.JPG‎</figcaption>
+<img src="../HNI_0006.JPG" title="HNI_0006.JPG" width="120" />
+<figcaption>HNI_0006.JPG</figcaption>
 </figure></td>
 </tr>
 <tr class="odd">

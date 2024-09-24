@@ -11,7 +11,7 @@ title = 'Main Page'
 
 | **How do I develop homebrew?**                                                                                                                                                                                                 | **What homebrew can I run?**                                                                                                                                   |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| See the [Setting up Development Environment‎](Setting_up_Development_Environment‎ "wikilink") page for a guide on how to get started with homebrew development for the 3DS. The toolchain supports Windows, Linux, and Mac OS X. | See the [Homebrew Applications](Homebrew_Applications "wikilink") page for a partial list of homebrew applications/games that can be downloaded and installed. |
+| See the [Setting up Development Environment](Setting_up_Development_Environment "wikilink") page for a guide on how to get started with homebrew development for the 3DS. The toolchain supports Windows, Linux, and Mac OS X. | See the [Homebrew Applications](Homebrew_Applications "wikilink") page for a partial list of homebrew applications/games that can be downloaded and installed. |
 {{% /RenderMD %}}
 {{< Main/Navigation >}}
 {{< Main/CurrentEvents >}}

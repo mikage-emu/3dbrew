@@ -263,5 +263,3 @@ please share them here:
   supports extracting files from savegames and extdata. It properly
   reconstructs data from the DPFS tree and extracts files in directories
   hierarchy.
-
-[Japanese](セーブデータ "wikilink")

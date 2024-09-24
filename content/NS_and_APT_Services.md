@@ -236,7 +236,7 @@ Card removal errors when ejecting the media the manual is stored on.
 | 0x01040000     | [8.0.0-18](8.0.0-18 "wikilink")   | Yes                                    | Yes                                    | [IsStandardMemoryLayout](APT:IsStandardMemoryLayout "wikilink")                 |
 | 0x01050100     | [10.4.0-29](10.4.0-29 "wikilink") | Yes                                    | Yes                                    | [IsTitleAllowed](APT:IsTitleAllowed "wikilink")                                 |
 
-These "<APT:U>" and "<APT:S>" NS services can handle launching
+These "APT:U" and "APT:S" NS services can handle launching
 titles/"applets", these services handle signaling for home/power button
 as well. Only one session for either APT service can be open at a time,
 normally processes close the service handle immediately once finished
@@ -412,14 +412,14 @@ system-application, before launching the DLP-child which can then use
 MAC address and passphrase is used for connecting to the host by the
 DLP-child. See also [here](DLP_Services "wikilink").
 
-# "<APT:A>" Service
+# "APT:A" Service
 
 This was added with [7.0.0-X](7.0.0-13 "wikilink"). Official apps built
 with the CTRSDK for system-version \>=[7.0.0-X](7.0.0-13 "wikilink")
-normally use the "<APT:A>" service instead of "<APT:U>". Those processes
-also have "<APT:A>" instead of "<APT:U>" in the service-access-control.
-Unlike <APT:U>, <APT:A> can call
-[<APT:GetAppletInfo>](APT:GetAppletInfo "wikilink") with applet ID
+normally use the "APT:A" service instead of "APT:U". Those processes
+also have "APT:A" instead of "APT:U" in the service-access-control.
+Unlike APT:U, APT:A can call
+[APT:GetAppletInfo](APT:GetAppletInfo "wikilink") with applet ID
 0x300.
 
 # Applets

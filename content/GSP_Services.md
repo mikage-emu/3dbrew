@@ -3,8 +3,6 @@ title = 'GSP Services'
 categories = ["Services"]
 +++
 
-__TOC__
-
 # GSP service "gsp::Gpu"
 
 | Command Header | Available since system version  | GSP rights required | Description                                                                      |

@@ -3,8 +3,6 @@ title = 'Application Manager Services'
 categories = ["Services"]
 +++
 
-__TOC__
-
 # Application Manager services "am:sys", "am:u", "am:net"
 
 | Command Header | Description                                                                          |

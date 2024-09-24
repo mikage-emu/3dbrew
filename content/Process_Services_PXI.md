@@ -2,8 +2,6 @@
 title = 'Process Services PXI'
 +++
 
-__TOC__
-
 # Process Services PXI "pxi:ps9"
 
 | Command Header (Pre 2.0) | Command Header (Post 2.0) | Available since system version                                            | Description                                                                                                                                                                                                                                                                                                                      |

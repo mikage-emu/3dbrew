@@ -2,8 +2,6 @@
 title = 'Gamecard Services PXI'
 +++
 
-__TOC__
-
 # "pxi:dev" service
 
 | Command Header | Available since system version | Description                                                                                                                                                                                                              |

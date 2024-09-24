@@ -3,8 +3,6 @@ title = 'Camera Services'
 categories = ["Services"]
 +++
 
-__TOC__
-
 ## cam:c (PORT_REG)
 
 Same as [cam:u](#cam:u_.28port_user.29 "wikilink")

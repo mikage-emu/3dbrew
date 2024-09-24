@@ -3,8 +3,6 @@ title = 'IR Services'
 categories = ["Services"]
 +++
 
-__TOC__
-
 # IR Service "ir:u"
 
 | Command Header | Available since system version | Description                                                 |

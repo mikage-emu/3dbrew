@@ -4,12 +4,6 @@ title = 'Glossary'
 
 A miniature dictionary for terms that may be encountered on 3DSBrew.
 
-<div class="noautonum">
-
-__TOC__
-
-</div>
-
 ## A
 
 ### AXI WRAM

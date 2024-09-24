@@ -13,8 +13,6 @@ the total number of titles used.
 The application is split into two sections, the daily records and the
 software library.
 
-__TOC__
-
 ## Daily Records
 
 The daily records have two submodes, graph view and list view.

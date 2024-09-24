@@ -596,20 +596,24 @@ downloaded 'NsData' which accompanies BOSS downloads, view the BOSS task
 lists (implies applications can perform more than one BOSS task). You
 can also view various details about each BOSS task, including:
 
-`TaskStatus : DONE?`
-`TaskExecCount : How many times the BOSS task has been executed`
-`TaskExecInterval : Period of time (in seconds) in the task is to be executed, in intervals`
-`TaskPriority : Is a number value `
-`URL : The URL to the BOSS content`
-`AP Info : NONE?`
-`TaskResultCode : Success or not`
-`HTTP_StatusCode : Self explanatory `
-`DataSize : Size of Content (in bytes)`
-`Last_Modified : Last time the BOSS content (on server) was modified`
-`StartTime : when the BOSS task was registered`
-`OptOut : Whether the user can/has opted out of BOSS communication for this task`
+```
+TaskStatus : DONE?
+TaskExecCount : How many times the BOSS task has been executed
+TaskExecInterval : Period of time (in seconds) in the task is to be executed, in intervals
+TaskPriority : Is a number value 
+URL : The URL to the BOSS content
+AP Info : NONE?
+TaskResultCode : Success or not
+HTTP_StatusCode : Self explanatory 
+DataSize : Size of Content (in bytes)
+Last_Modified : Last time the BOSS content (on server) was modified
+StartTime : when the BOSS task was registered
+OptOut : Whether the user can/has opted out of BOSS communication for this task
+```
 
-`It also possible to manually execute the BOSS task from here`
+```
+It also possible to manually execute the BOSS task from here
+```
 
 ## Stereo Camera Calibrator
 

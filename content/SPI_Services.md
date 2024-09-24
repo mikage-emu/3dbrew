@@ -30,8 +30,10 @@ terminate(triggered by the session closing), then start a new thread.
 | 0x000800C0     | EnableSpiBus(u8 deviceid, bool onoff, u8 state) |
 | 0x00090040     | EnableTwlSpiBus?(bool onoff)                    |
 
-`0,1,2: 0x1EC60800`
-`3,4,5: 0x1EC42800`
-`    6: 0x1EC43800`
+```
+0,1,2: 0x1EC60800
+3,4,5: 0x1EC42800
+    6: 0x1EC43800
+```
 
 [Category:Services](Category:Services "wikilink")

@@ -12,11 +12,15 @@ The resolution of the top-screen on the 3DS is 400x240.
 
 ## How to convert and split video.ext into 10 minute pieces
 
-`ffmpeg -i video.ext -ss 0 -t 600 -y -r 24 -vsync 1 -vcodec mjpeg -qscale 1 -acodec adpcm_ima_wav -async 1 -ac 2 /DCIM/xxxNINxxx/HNI_%04d.AVI`
+```
+ffmpeg -i video.ext -ss 0 -t 600 -y -r 24 -vsync 1 -vcodec mjpeg -qscale 1 -acodec adpcm_ima_wav -async 1 -ac 2 /DCIM/xxxNINxxx/HNI_%04d.AVI
+```
 
 ## How to convert 2D Video for 3DS
 
-`ffmpeg -i video.ext -r 24 -vsync 1 -vcodec mjpeg -qscale 1 -acodec adpcm_ima_wav -async 1 -ac 2 -vf scale=min(400\\,240*a):-1,pad=400:240:abs(ow-iw)/2:abs(oh-ih)/2 /DCIM/xxxNINxxx/HNI_nnnn.AVI`
+```
+ffmpeg -i video.ext -r 24 -vsync 1 -vcodec mjpeg -qscale 1 -acodec adpcm_ima_wav -async 1 -ac 2 -vf scale=min(400\\,240*a):-1,pad=400:240:abs(ow-iw)/2:abs(oh-ih)/2 /DCIM/xxxNINxxx/HNI_nnnn.AVI
+```
 
 ## How to convert 3D Video for 3DS
 

@@ -2,7 +2,9 @@
 title = 'SOCU:getnameinfo'
 +++
 
-`int getnameinfo(const struct sockaddr *sa, socklen_t salen, char *host, socklen_t hostlen, char *serv, socklen_t servlen, int flags)`
+```
+int getnameinfo(const struct sockaddr *sa, socklen_t salen, char *host, socklen_t hostlen, char *serv, socklen_t servlen, int flags)
+```
 
 # Request
 

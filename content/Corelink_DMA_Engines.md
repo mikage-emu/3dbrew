@@ -8,23 +8,27 @@ XDMA cannot access the ARM9 bootrom at all.
 
 Size of struct is 24 bytes.
 
-`struct DmaConfig {`
-`    sint8_t channel_sel; // @0 Selects which DMA channel to use: 0-7, -1 = don't care.`
-`    uint8_t endian_swap_size; // @1 Accepted values: 0=none, 2=16bit, 4=32bit, 8=64bit.`
-`    uint8_t flags; // @2 bit0: SRC_IS_PERIPHERAL, bit1: DST_IS_PERIPHERAL, bit2: SHALL_BLOCK, bit3: KEEP_ALIVE, bit6: SRC_IS_RAM, bit7: DST_IS_RAM`
-`    uint8_t padding;`
-`    DmaSubConfig dst_cfg;`
-`    DmaSubConfig src_cfg;`
-`}`
+```
+struct DmaConfig {
+    sint8_t channel_sel; // @0 Selects which DMA channel to use: 0-7, -1 = don't care.
+    uint8_t endian_swap_size; // @1 Accepted values: 0=none, 2=16bit, 4=32bit, 8=64bit.
+    uint8_t flags; // @2 bit0: SRC_IS_PERIPHERAL, bit1: DST_IS_PERIPHERAL, bit2: SHALL_BLOCK, bit3: KEEP_ALIVE, bit6: SRC_IS_RAM, bit7: DST_IS_RAM
+    uint8_t padding;
+    DmaSubConfig dst_cfg;
+    DmaSubConfig src_cfg;
+}
+```
 
-`struct DmaSubConfig {`
-`    sint8_t peripheral_id; // @0 If not *_IS_RAM set, this must be < 0x1E.`
-`    uint8_t allowed_burst_sizes; // @1 Accepted values: 4, 8, 4|8 = 12, 1|2|4|8 = 15 `
-`    sint16_t gather_granule_size; // @2`
-`    sint16_t gather_stride; // @4 Has to be >= 0, must not be 0 if peripheral_id == 0xFF.`
-`    sint16_t scatter_granule_size; // @6`
-`    sint16_t scatter_stride; // @8 Can be negative.`
-`}`
+```
+struct DmaSubConfig {
+    sint8_t peripheral_id; // @0 If not *_IS_RAM set, this must be < 0x1E.
+    uint8_t allowed_burst_sizes; // @1 Accepted values: 4, 8, 4|8 = 12, 1|2|4|8 = 15 
+    sint16_t gather_granule_size; // @2
+    sint16_t gather_stride; // @4 Has to be >= 0, must not be 0 if peripheral_id == 0xFF.
+    sint16_t scatter_granule_size; // @6
+    sint16_t scatter_stride; // @8 Can be negative.
+}
+```
 
 If SRC_IS_PERIPHERAL/SRC_IS_PERIPHERAL is set in the flags field, the
 configuration for src/dst is loaded from src_cfg/dst_cfg respectively
@@ -36,12 +40,14 @@ flag is set same thing goes, except byte0 of each cfg is forced to 0xFF
 If neither \*_IS_PERIPHERAL or \*_IS_RAM is set, default configuration
 is loaded:
 
-`.peripheral_id = 0xFF,`
-`.allowed_burst_sizes = 1 | 2 | 4 | 8,`
-`.gather_granule_size = 0x80,`
-`.gather_stride = 0,`
-`.scatter_granule_size = 0x80,`
-`.scatter_stride = 0,`
+```
+.peripheral_id = 0xFF,
+.allowed_burst_sizes = 1 | 2 | 4 | 8,
+.gather_granule_size = 0x80,
+.gather_stride = 0,
+.scatter_granule_size = 0x80,
+.scatter_stride = 0,
+```
 
 If SHALL_BLOCK is set, the thread will sleep until the DMA engine is
 ready. If not set, the SVC will return 0xD04007F0 if the DMA channel is

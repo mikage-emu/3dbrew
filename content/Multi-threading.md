@@ -129,18 +129,24 @@ process-local synchronization primitives.
 
 **Signature**
 
-`Result CreateThread(Handle* thread, func entrypoint, u32 arg, u32 stacktop, s32 threadpriority, s32 processorid);`
+```
+Result CreateThread(Handle* thread, func entrypoint, u32 arg, u32 stacktop, s32 threadpriority, s32 processorid);
+```
 
 **Configuration**
 
-`R0=s32 threadpriority`
-`R1=func entrypoint`
-`R2=u32 arg`
-`R3=u32 stacktop`
-`R4=s32 processorid`
+```
+R0=s32 threadpriority
+R1=func entrypoint
+R2=u32 arg
+R3=u32 stacktop
+R4=s32 processorid
+```
 
-`Result result=R0`
-`Handle* thread=R1`
+```
+Result result=R0
+Handle* thread=R1
+```
 
 **Details**
 
@@ -184,7 +190,9 @@ only restriction checks done by the kernel for processorid.
 
 **Signature**
 
-`void ExitThread(void);`
+```
+void ExitThread(void);
+```
 
 **Details**
 
@@ -197,7 +205,9 @@ objects it owns are released and made available to other threads.
 
 **Signature**
 
-`void SleepThread(s64 nanoseconds);`
+```
+void SleepThread(s64 nanoseconds);
+```
 
 ### GetThreadPriority
 
@@ -205,18 +215,22 @@ objects it owns are released and made available to other threads.
 
 **Signature**
 
-`Result GetThreadPriority(s32* priority, Handle thread);`
+```
+Result GetThreadPriority(s32* priority, Handle thread);
+```
 
 **asm**
 
-`.global svcGetThreadPriority`
-`.type svcGetThreadPriority, %function`
-`svcGetThreadPriority:`
-`   str r0, [sp, #-0x4]!`
-`   svc 0x0B`
-`   ldr r3, [sp], #4`
-`   str r1, [r3]`
-`   bx  lr`
+```
+.global svcGetThreadPriority
+.type svcGetThreadPriority, %function
+svcGetThreadPriority:
+   str r0, [sp, #-0x4]!
+   svc 0x0B
+   ldr r3, [sp], #4
+   str r1, [r3]
+   bx  lr
+```
 
 ### SetThreadPriority
 
@@ -224,7 +238,9 @@ objects it owns are released and made available to other threads.
 
 **Signature**
 
-`Result SetThreadPriority(Handle thread, s32 priority);`
+```
+Result SetThreadPriority(Handle thread, s32 priority);
+```
 
 ### OpenThread
 
@@ -232,7 +248,9 @@ objects it owns are released and made available to other threads.
 
 **Signature**
 
-`Result OpenThread(Handle* thread, Handle process, u32 threadId);`
+```
+Result OpenThread(Handle* thread, Handle process, u32 threadId);
+```
 
 ### GetProcessIdOfThread
 
@@ -240,7 +258,9 @@ objects it owns are released and made available to other threads.
 
 **Signature**
 
-`Result GetProcessIdOfThread(u32* processId, Handle thread);`
+```
+Result GetProcessIdOfThread(u32* processId, Handle thread);
+```
 
 ### GetThreadId
 
@@ -248,7 +268,9 @@ objects it owns are released and made available to other threads.
 
 **Signature**
 
-`Result GetThreadId(u32* threadId, Handle thread);`
+```
+Result GetThreadId(u32* threadId, Handle thread);
+```
 
 ### GetThreadInfo
 
@@ -256,7 +278,9 @@ objects it owns are released and made available to other threads.
 
 **Signature**
 
-`Result GetThreadInfo(s64* out, Handle thread, ThreadInfoType type);`
+```
+Result GetThreadInfo(s64* out, Handle thread, ThreadInfoType type);
+```
 
 **Details** This requests always return an error when called, it only
 checks if the handle is a thread or not. Hence, it will return
@@ -269,7 +293,9 @@ checks if the handle is a thread or not. Hence, it will return
 
 **Signature**
 
-`Result GetThreadContext(ThreadContext* context, Handle thread);`
+```
+Result GetThreadContext(ThreadContext* context, Handle thread);
+```
 
 **Details** Stubbed?
 
@@ -284,7 +310,9 @@ The cores are numbered from 0 to 1 for Old 3DS and 0 to 3 for the new
 
 **Signature**
 
-`Result GetThreadAffinityMask(u8* affinitymask, Handle thread, s32 processorcount);`
+```
+Result GetThreadAffinityMask(u8* affinitymask, Handle thread, s32 processorcount);
+```
 
 ### SetThreadAffinityMask
 
@@ -292,7 +320,9 @@ The cores are numbered from 0 to 1 for Old 3DS and 0 to 3 for the new
 
 **Signature**
 
-`Result SetThreadAffinityMask(Handle thread, u8* affinitymask, s32 processorcount);`
+```
+Result SetThreadAffinityMask(Handle thread, u8* affinitymask, s32 processorcount);
+```
 
 ### GetThreadIdealProcessor
 
@@ -300,7 +330,9 @@ The cores are numbered from 0 to 1 for Old 3DS and 0 to 3 for the new
 
 **Signature**
 
-`Result GetThreadIdealProcessor(s32* processorid, Handle thread);`
+```
+Result GetThreadIdealProcessor(s32* processorid, Handle thread);
+```
 
 ### SetThreadIdealProcessor
 
@@ -398,13 +430,17 @@ Address arbiters are implemented by
 
 ### CreateAddressArbiter
 
-`Result CreateAddressArbiter(Handle* arbiter)`
+```
+Result CreateAddressArbiter(Handle* arbiter)
+```
 
 Creates an address arbiter handle for use with ArbitrateAddress.
 
 ### ArbitrateAddress
 
-`Result ArbitrateAddress(Handle arbiter, u32 addr, ArbitrationType type, s32 value, s64 nanoseconds)`
+```
+Result ArbitrateAddress(Handle arbiter, u32 addr, ArbitrationType type, s32 value, s64 nanoseconds)
+```
 
 if `type` is SIGNAL, the ArbitrateAddress call will resume up to `value`
 of the threads waiting on `addr` using an arbiter, starting with the

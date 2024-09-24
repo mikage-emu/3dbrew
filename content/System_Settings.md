@@ -209,12 +209,14 @@ these IDs is the same.</p></td>
 The ExtData [File System](Extdata#Filesystem "wikilink") for System
 Settings is as follows:
 
-`root`
-`├── icon`
-`├── boss`
-`└── user`
-`    ├── Backup.dat`
-`    └── MsetExt.dat`
+```
+root
+├── icon
+├── boss
+└── user
+    ├── Backup.dat
+    └── MsetExt.dat
+```
 
 | File        | Details                                                          | Size         | FW Introduced                   | Plaintext                                                                                             |
 |-------------|------------------------------------------------------------------|--------------|---------------------------------|-------------------------------------------------------------------------------------------------------|

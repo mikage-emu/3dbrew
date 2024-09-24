@@ -46,10 +46,12 @@ sections, the FIRM header is used raw. The AES keyslot for this is only
 overwritten afterwards when booting from non-NAND fails. AES keyslot
 0x3F is used for this.
 
-` CTR_word[0] = firmimageoffset;//FIRM section offset from FIRM header`
-` CTR_word[1] = outbufaddr;//FIRM section load addr`
-` CTR_word[2] = readsize;//FIRM section size`
-` CTR_word[3] = readsize;//FIRM section size`
+```
+ CTR_word[0] = firmimageoffset;//FIRM section offset from FIRM header
+ CTR_word[1] = outbufaddr;//FIRM section load addr
+ CTR_word[2] = readsize;//FIRM section size
+ CTR_word[3] = readsize;//FIRM section size
+```
 
 When booting from NAND fails, boot9 will then attempt to boot from Wifi
 SPI-flash(this only triggers when the wifi module hw is properly
@@ -236,10 +238,12 @@ For an issue with console-unique key-init, see
 
 Sample error-screen(where firm0+firm1 RSA signatures were corrupted):
 
-` BOOTROM 8046`
-` ERRCODE: 00F800FF`
-` DEDEFFFF FFFFFFFF`
-` 00000000 00000000`
+```
+ BOOTROM 8046
+ ERRCODE: 00F800FF
+ DEDEFFFF FFFFFFFF
+ 00000000 00000000
+```
 
 - 1st line is:
   `print_string(..., "BOOTROM %X", 0x8046);//This last param comes from the .pool.`
@@ -323,55 +327,57 @@ mpu_init():
 
 ## Boot9 main()
 
-` The following functions are called: LT_ffff2024(), LT_ffff1ff8(), pxi_init(), rsa_init(), initialize_rsakeyslots_pubk(), crypto_initialize(), and aesengine_reset().`
-` Then AES keyslot 0x3F is setup: aesengine_setnormalkey(0x3f, 5, ptr) is called. ptr on retail(CFG_UNITINFO check) is 0xffffd6e0, 0xffffd700 for devunit. Then essentially, aesengine_setctr(5, ptr+0x10) is executed.`
-` Then AES keyslot 0x3f is selected.`
-` When calling the following functions, if any of them return zero, it will immediately jump to setting ptr to 0x10012000(otp), otherwise when all of them return non-zero ptr = sp+0x94. otp_decrypt(sp+4), otp_verify(sp+4), initialize_consoleunique_itcm(sp+4, 0x07ffb800).`
-` Then the following is executed: initialize_aeskeys_wrap(ptr, 0x70);`
-` Then sp+4 size 0x100 is cleared to zero.`
-` `
-` ...`
-` `
-` NAND firm-boot code-block is described below. Note that boot9 is basically hard-coded to use deviceid NAND, not SD.`
-` {`
-`   timer_updatestoredstate() is called, then the AES keyslot for NAND-FIRM is selected(0x6).`
-`   Then LT_ffff56c8() is called, if that returns non-zero the statuscode variable is set to ~2 then it jumps to NAND_BOOTEND.`
-`   Then LT_ffff5774(0x201) is called, if that returns non-zero the statuscode variable is set to ~1 then it jumps to NAND_BOOTEND.`
-`   Then fsdriver_setup_mmc() is called. Then nand_findfirmpartition_loadfirm(0) is called, with the statuscode variable set to the retval.`
-`   Executes a loop which runs 8 times: write the output from get_errorcode_arrayentry_xfff005e8(loopindex) to u8 0x1fffe000+0x10+loopindex(copy the array of 32bit error-codes for all 8 NCSD partitions initialized by nand_findfirmpartition_loadfirm() to the array of 8bit entries at 0x1fffe000+0x10).`
-` `
-`   NAND_BOOTEND:`
-`   Then the statuscode variable is written to u8 0x1fffe000+0xc.`
-`   Then LT_ffff5690(0x201, 0x1fffe018, 0x1fffe01c) is called.`
-`   Then LT_ffff5644() is called.`
-`   Then timer_updatestoredstate() is called.`
-`   When statuscode==0 for success, it jumps to FIRMLOAD_END. Otherwise, it continues to the next code-block.`
-` }`
-` `
-` Wifi spi-flash firm-boot code-block, executed when no FIRM was loaded successfully so far.`
-` {`
-`   timer_updatestoredstate() is called.`
-` `
-`   Then spi_wififlash_cmdgetstatusreg(sp+0x100) is executed. When bit0 of the output u8 at sp+0x100 is clear, it will continue this code-block, otherwise it will set the statuscode variable to ~1 then jump to SPIFLASH_BOOTEND.`
-`   Then fsdriver_setup_wififlash() is called.`
-`   Here read_firmhdr_validate_loadfirm(0, 2) is called, with the statuscode variable set to the retval.`
-` `
-`   SPIFLASH_BOOTEND:`
-`   Then the statuscode variable is written to u8 0x1fffe000+0xe.`
-`   Then timer_updatestoredstate() is called.`
-`   When statuscode==0 for success, it jumps to FIRMLOAD_END. Otherwise, it executes writenormalkey_keyslot3f(), then jumps to FIRMLOAD_FAILURE.`
-` }`
-` `
-` FIRMLOAD_END:`
-` Here it calls firmhdr_getarm11_entrypoint() and firmhdr_getarm9_entrypoint(). Immediately after calling each function it checks if the retval is 0, if so it then jumps to FIRMLOAD_FAILURE.`
-` After calling initialize_x07ffbd00_x07ffc100_rsakeyslotsprivk(), it jumps to FIRMLOAD_EXIT.`
-` `
-` FIRMLOAD_FAILURE:`
-` Here it clears 0x07ffb800 size 0x3c70 to zero, endaddr = 0x07fff470.`
-` Then it continues to FIRMLOAD_EXIT.`
-` `
-` FIRMLOAD_EXIT:`
-` Here firmboot() is called, which should never return. The instruction after this bl is a call for panic().`
+```
+ The following functions are called: LT_ffff2024(), LT_ffff1ff8(), pxi_init(), rsa_init(), initialize_rsakeyslots_pubk(), crypto_initialize(), and aesengine_reset().
+ Then AES keyslot 0x3F is setup: aesengine_setnormalkey(0x3f, 5, ptr) is called. ptr on retail(CFG_UNITINFO check) is 0xffffd6e0, 0xffffd700 for devunit. Then essentially, aesengine_setctr(5, ptr+0x10) is executed.
+ Then AES keyslot 0x3f is selected.
+ When calling the following functions, if any of them return zero, it will immediately jump to setting ptr to 0x10012000(otp), otherwise when all of them return non-zero ptr = sp+0x94. otp_decrypt(sp+4), otp_verify(sp+4), initialize_consoleunique_itcm(sp+4, 0x07ffb800).
+ Then the following is executed: initialize_aeskeys_wrap(ptr, 0x70);
+ Then sp+4 size 0x100 is cleared to zero.
+ 
+ ...
+ 
+ NAND firm-boot code-block is described below. Note that boot9 is basically hard-coded to use deviceid NAND, not SD.
+ {
+   timer_updatestoredstate() is called, then the AES keyslot for NAND-FIRM is selected(0x6).
+   Then LT_ffff56c8() is called, if that returns non-zero the statuscode variable is set to ~2 then it jumps to NAND_BOOTEND.
+   Then LT_ffff5774(0x201) is called, if that returns non-zero the statuscode variable is set to ~1 then it jumps to NAND_BOOTEND.
+   Then fsdriver_setup_mmc() is called. Then nand_findfirmpartition_loadfirm(0) is called, with the statuscode variable set to the retval.
+   Executes a loop which runs 8 times: write the output from get_errorcode_arrayentry_xfff005e8(loopindex) to u8 0x1fffe000+0x10+loopindex(copy the array of 32bit error-codes for all 8 NCSD partitions initialized by nand_findfirmpartition_loadfirm() to the array of 8bit entries at 0x1fffe000+0x10).
+ 
+   NAND_BOOTEND:
+   Then the statuscode variable is written to u8 0x1fffe000+0xc.
+   Then LT_ffff5690(0x201, 0x1fffe018, 0x1fffe01c) is called.
+   Then LT_ffff5644() is called.
+   Then timer_updatestoredstate() is called.
+   When statuscode==0 for success, it jumps to FIRMLOAD_END. Otherwise, it continues to the next code-block.
+ }
+ 
+ Wifi spi-flash firm-boot code-block, executed when no FIRM was loaded successfully so far.
+ {
+   timer_updatestoredstate() is called.
+ 
+   Then spi_wififlash_cmdgetstatusreg(sp+0x100) is executed. When bit0 of the output u8 at sp+0x100 is clear, it will continue this code-block, otherwise it will set the statuscode variable to ~1 then jump to SPIFLASH_BOOTEND.
+   Then fsdriver_setup_wififlash() is called.
+   Here read_firmhdr_validate_loadfirm(0, 2) is called, with the statuscode variable set to the retval.
+ 
+   SPIFLASH_BOOTEND:
+   Then the statuscode variable is written to u8 0x1fffe000+0xe.
+   Then timer_updatestoredstate() is called.
+   When statuscode==0 for success, it jumps to FIRMLOAD_END. Otherwise, it executes writenormalkey_keyslot3f(), then jumps to FIRMLOAD_FAILURE.
+ }
+ 
+ FIRMLOAD_END:
+ Here it calls firmhdr_getarm11_entrypoint() and firmhdr_getarm9_entrypoint(). Immediately after calling each function it checks if the retval is 0, if so it then jumps to FIRMLOAD_FAILURE.
+ After calling initialize_x07ffbd00_x07ffc100_rsakeyslotsprivk(), it jumps to FIRMLOAD_EXIT.
+ 
+ FIRMLOAD_FAILURE:
+ Here it clears 0x07ffb800 size 0x3c70 to zero, endaddr = 0x07fff470.
+ Then it continues to FIRMLOAD_EXIT.
+ 
+ FIRMLOAD_EXIT:
+ Here firmboot() is called, which should never return. The instruction after this bl is a call for panic().
+```
 
 ## Boot11
 
@@ -379,37 +385,45 @@ mpu_init():
 
 main():
 
-` LT_1263c();`
-` ...`
-` LT_13944()`
-` ...`
-` pxi_init();`
-` initializefuncptr_firmboot_start(firmbootbegin_funcptr);`
-` firmboot();`
-` return;`
+```
+ LT_1263c();
+ ...
+ LT_13944()
+ ...
+ pxi_init();
+ initializefuncptr_firmboot_start(firmbootbegin_funcptr);
+ firmboot();
+ return;
+```
 
 LT_12220/initializefuncptr_firmboot_start
 
-` inr0=funcptr`
-` This writes inr0 to address 0x1ffe8028, then returns.`
-` This initializes the funcptr which firmboot() can call after the very first func-call.`
+```
+ inr0=funcptr
+ This writes inr0 to address 0x1ffe8028, then returns.
+ This initializes the funcptr which firmboot() can call after the very first func-call.
+```
 
 LT_13944
 
-` if(`[`i2cmcu_readregf`](I2C_Registers "wikilink")`(sp+0)==0)`
-` {`
-`   return (*((u8*)0x10147000) >> 4) & 1;//Reads `[`GPIO`](GPIO_Registers "wikilink")` when reading I2C fails.`
-` }`
-` Here it basically does "return <byte loaded from sp+0> ^ 0x2". Hence in this case, it will return 0x2 when the system shell is closed(sleep-mode), otherwise 0x0 is returned.`
+```
+ if(`[`i2cmcu_readregf`](I2C_Registers "wikilink")`(sp+0)==0)
+ {
+   return (*((u8*)0x10147000) >> 4) & 1;//Reads `[`GPIO`](GPIO_Registers "wikilink")` when reading I2C fails.
+ }
+ Here it basically does "return <byte loaded from sp+0> ^ 0x2". Hence in this case, it will return 0x2 when the system shell is closed(sleep-mode), otherwise 0x0 is returned.
+```
 
 LT_12454/firmboot
 
-` This is the arm11 version of the boot9 firmboot() function, like boot9 this is the final function called from main(). The functionality for these two functions are identical, minus addresses.`
-` ptr = firmboot_loadentrypoint11();`
-` funcptr = *(0x1ffe8028);`
-` if(funcptr)funcptr(ptr);`
-` LT_11ffc(ptr);`
-` return;`
+```
+ This is the arm11 version of the boot9 firmboot() function, like boot9 this is the final function called from main(). The functionality for these two functions are identical, minus addresses.
+ ptr = firmboot_loadentrypoint11();
+ funcptr = *(0x1ffe8028);
+ if(funcptr)funcptr(ptr);
+ LT_11ffc(ptr);
+ return;
+```
 
 ## Boot Procedure
 
@@ -448,29 +462,39 @@ LT_12454/firmboot
 During a successful boot on 6.x, the bootloader (and firm) reads the
 following sectors from NAND (in this order):
 
-`00000000 (NCSD Partition Table)`
+```
+00000000 (NCSD Partition Table)
+```
 
-`Only verify 'FIRM' magic? (A second Header-read will be attempted even if everything except the magic is 0xFF...)`
-`0B130000 (FIRM Partition)`
-`0B530000 (Secondary FIRM Partition)`
+```
+Only verify 'FIRM' magic? (A second Header-read will be attempted even if everything except the magic is 0xFF...)
+0B130000 (FIRM Partition)
+0B530000 (Secondary FIRM Partition)
+```
 
-`Verify RSA signature and parse Header:`
-`0B130000 (FIRM: Header)`
-`0B130200 (FIRM: Section 1)`
-`0B163E00 (FIRM: Section 2)`
-`0B193E00 (FIRM: Section 3)`
+```
+Verify RSA signature and parse Header:
+0B130000 (FIRM: Header)
+0B130200 (FIRM: Section 1)
+0B163E00 (FIRM: Section 2)
+0B193E00 (FIRM: Section 3)
+```
 
-`00013000 .. Below is probably NATIVE_FIRM booting ..`
-`00014000`
-`00015000`
-`00016000`
-`00017000`
+```
+00013000 .. Below is probably NATIVE_FIRM booting ..
+00014000
+00015000
+00016000
+00017000
+```
 
-`09011A00`
-`09011C00`
-`09012000`
-`09012400`
-`...`
+```
+09011A00
+09011C00
+09012000
+09012400
+...
+```
 
 ## Error Codes
 

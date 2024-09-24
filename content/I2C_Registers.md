@@ -73,13 +73,17 @@ Thus, the actual device address is \>\> 1.
 
 ## Device 3
 
-` ro = read-only (writing is no-op)`
-` rw = read-write`
-` wo = write-only (reading will yield 00, FF, or unpredictable data)`
+```
+ ro = read-only (writing is no-op)
+ rw = read-write
+ wo = write-only (reading will yield 00, FF, or unpredictable data)
+```
 
-` d* = dynamic register (explaination below this table)`
-` s* = shared register (explaination below this table)`
-` ds = dynamic shared (explaination below this table)`
+```
+ d* = dynamic register (explaination below this table)
+ s* = shared register (explaination below this table)
+ ds = dynamic shared (explaination below this table)
+```
 
 Reading or writing multiple bytes from/to single-byte registers
 increments the register ID along with it. For example reading two bytes
@@ -1259,9 +1263,11 @@ During NFC module startup, a certain command is sent to the controller
 which eventually(after various cmd-reply headers etc) returns the
 following the payload after the first byte in the payload:
 
-`000000: 44 65 63 20 32 32 20 32 30 31 32 31 34 3a 35 33  Dec 22 201214:53 `
-`000010: 3a 35 30 01 05 0d 46 05 1b 79 20 07 32 30 37 39  :50...F..y .2079`
-`000020: 31 42 35                                         1B5`
+```
+000000: 44 65 63 20 32 32 20 32 30 31 32 31 34 3a 35 33  Dec 22 201214:53 
+000010: 3a 35 30 01 05 0d 46 05 1b 79 20 07 32 30 37 39  :50...F..y .2079
+000020: 31 42 35                                         1B5
+```
 
 Or that is: "Dec 22 201214:53:50<binary>20791B5". Therefore, this
 appears to return the part-number of the NFC controller(other command

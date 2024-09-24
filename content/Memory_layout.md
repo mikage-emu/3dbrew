@@ -402,29 +402,33 @@ the FIRM header used during FIRM-launching.</p></td>
 
 # ARM11 Detailed physical memory map
 
-`18000000 - 18600000: VRAM`
+```
+18000000 - 18600000: VRAM
+```
 
-`1FF80000 - 1FFAB000: Kernel code`
-`1FFAB000 - 1FFF0000: SlabHeap [temporarily contains boot processes]`
-`1FFF0000 - 1FFF1000: ?`
-`1FFF1000 - 1FFF2000: ?`
-`1FFF2000 - 1FFF3000: ?`
-`1FFF3000 - 1FFF4000: ?`
-`1FFF4000 - 1FFF5000: Exception vectors`
-`1FFF5000 - 1FFF5800: Unused?`
-`1FFF5800 - 1FFF5C00: 256-entry L2 MMU table for VA FF4xx000`
-`1FFF5C00 - 1FFF6000: 256-entry L2 MMU table for VA FF5xx000`
-`1FFF6000 - 1FFF6400: 256-entry L2 MMU table for VA FF6xx000`
-`1FFF6400 - 1FFF6800: 256-entry L2 MMU table for VA FF7xx000`
-`1FFF6800 - 1FFF6C00: 256-entry L2 MMU table for VA FF8xx000`
-`1FFF6C00 - 1FFF7000: 256-entry L2 MMU table for VA FF9xx000`
-`1FFF7000 - 1FFF7400: 256-entry L2 MMU table for VA FFAxx000`
-`1FFF7400 - 1FFF7800: 256-entry L2 MMU table for VA FFBxx000`
-`1FFF7800 - 1FFF7C00: MMU table but unused?`
-`1FFF7C00 - 1FFF8000: 256-entry L2 MMU table for VA FFFxx000 `
-`1FFF8000 - 1FFFC000: 4096-entry L1 MMU table for VA xxx00000 (CPU 0)`
-`1FFFC000 - 20000000: 4096-entry L1 MMU table for VA xxx00000 (CPU 1)`
-`20000000 - 28000000: Main memory`
+```
+1FF80000 - 1FFAB000: Kernel code
+1FFAB000 - 1FFF0000: SlabHeap [temporarily contains boot processes]
+1FFF0000 - 1FFF1000: ?
+1FFF1000 - 1FFF2000: ?
+1FFF2000 - 1FFF3000: ?
+1FFF3000 - 1FFF4000: ?
+1FFF4000 - 1FFF5000: Exception vectors
+1FFF5000 - 1FFF5800: Unused?
+1FFF5800 - 1FFF5C00: 256-entry L2 MMU table for VA FF4xx000
+1FFF5C00 - 1FFF6000: 256-entry L2 MMU table for VA FF5xx000
+1FFF6000 - 1FFF6400: 256-entry L2 MMU table for VA FF6xx000
+1FFF6400 - 1FFF6800: 256-entry L2 MMU table for VA FF7xx000
+1FFF6800 - 1FFF6C00: 256-entry L2 MMU table for VA FF8xx000
+1FFF6C00 - 1FFF7000: 256-entry L2 MMU table for VA FF9xx000
+1FFF7000 - 1FFF7400: 256-entry L2 MMU table for VA FFAxx000
+1FFF7400 - 1FFF7800: 256-entry L2 MMU table for VA FFBxx000
+1FFF7800 - 1FFF7C00: MMU table but unused?
+1FFF7C00 - 1FFF8000: 256-entry L2 MMU table for VA FFFxx000 
+1FFF8000 - 1FFFC000: 4096-entry L1 MMU table for VA xxx00000 (CPU 0)
+1FFFC000 - 20000000: 4096-entry L1 MMU table for VA xxx00000 (CPU 1)
+20000000 - 28000000: Main memory
+```
 
 The entire FCRAM is cleared during NATIVE_FIRM boot. This is done by the
 ARM11 kernel in order by region as it initializes after loading
@@ -480,64 +484,122 @@ Internet Browser, with the default APPMEMTYPE on retail:
 (valid only for FW0B, see [Memory map by
 firmware](#Memory_map_by_firmware "wikilink") for subsequent versions)
 
-`E8000000 - E8600000: mapped VRAM (18000000 - 18600000)`
+```
+E8000000 - E8600000: mapped VRAM (18000000 - 18600000)
+```
 
-`EFF00000 - F0000000: mapped Internal memory (1FF00000 - 20000000)`
-`F0000000 - F8000000: mapped Main memory`
+```
+EFF00000 - F0000000: mapped Internal memory (1FF00000 - 20000000)
+F0000000 - F8000000: mapped Main memory
+```
 
-`FF401000 - FF402000: mapped ? (27FC7000 - 27FC8000)`
+```
+FF401000 - FF402000: mapped ? (27FC7000 - 27FC8000)
+```
 
-`FF403000 - FF404000: mapped ? (27FC2000 - 27FC3000)`
+```
+FF403000 - FF404000: mapped ? (27FC2000 - 27FC3000)
+```
 
-`FF405000 - FF406000: mapped ? (27FBB000 - 27FBC000)`
+```
+FF405000 - FF406000: mapped ? (27FBB000 - 27FBC000)
+```
 
-`FF407000 - FF408000: mapped ? (27FB3000 - 27FB4000)`
+```
+FF407000 - FF408000: mapped ? (27FB3000 - 27FB4000)
+```
 
-`FF409000 - FF40A000: mapped ? (27F8E000 - 27F8F000)`
+```
+FF409000 - FF40A000: mapped ? (27F8E000 - 27F8F000)
+```
 
-`FFF00000 - FFF45000: mapped SlabHeap `
+```
+FFF00000 - FFF45000: mapped SlabHeap 
+```
 
-`FFF60000 - FFF8B000: mapped Kernel code`
+```
+FFF60000 - FFF8B000: mapped Kernel code
+```
 
-`FFFCC000 - FFFCD000: mapped IO `[`I2C`](I2C "wikilink")` second bus (10144000 - 10145000)`
+```
+FFFCC000 - FFFCD000: mapped IO `[`I2C`](I2C "wikilink")` second bus (10144000 - 10145000)
+```
 
-`FFFCE000 - FFFCF000: mapped IO PDC(`[`LCD`](LCD "wikilink")`) (10400000 - 10401000)`
+```
+FFFCE000 - FFFCF000: mapped IO PDC(`[`LCD`](LCD "wikilink")`) (10400000 - 10401000)
+```
 
-`FFFD0000 - FFFD1000: mapped IO PDN (10141000 - 10142000)`
+```
+FFFD0000 - FFFD1000: mapped IO PDN (10141000 - 10142000)
+```
 
-`FFFD2000 - FFFD3000: mapped IO PXI (10163000 - 10164000)`
+```
+FFFD2000 - FFFD3000: mapped IO PXI (10163000 - 10164000)
+```
 
-`FFFD4000 - FFFD5000: mapped IO PAD (10146000 - 10147000)`
+```
+FFFD4000 - FFFD5000: mapped IO PAD (10146000 - 10147000)
+```
 
-`FFFD6000 - FFFD7000: mapped IO LCD (10202000 - 10203000)`
+```
+FFFD6000 - FFFD7000: mapped IO LCD (10202000 - 10203000)
+```
 
-`FFFD8000 - FFFD9000: mapped IO DSP (10140000 - 10141000)`
+```
+FFFD8000 - FFFD9000: mapped IO DSP (10140000 - 10141000)
+```
 
-`FFFDA000 - FFFDB000: mapped IO XDMA (10200000 - 10201000)`
+```
+FFFDA000 - FFFDB000: mapped IO XDMA (10200000 - 10201000)
+```
 
-`FFFDC000 - FFFE0000: mapped ? (1FFF8000 - 1FFFC000)`
+```
+FFFDC000 - FFFE0000: mapped ? (1FFF8000 - 1FFFC000)
+```
 
-`FFFE1000 - FFFE2000: mapped ? (1FFF0000 - 1FFF1000)`
+```
+FFFE1000 - FFFE2000: mapped ? (1FFF0000 - 1FFF1000)
+```
 
-`FFFE3000 - FFFE4000: mapped ? (1FFF2000 - 1FFF3000)`
+```
+FFFE3000 - FFFE4000: mapped ? (1FFF2000 - 1FFF3000)
+```
 
-`FFFE5000 - FFFE9000: mapped L1 MMU table for VA xxx00000`
+```
+FFFE5000 - FFFE9000: mapped L1 MMU table for VA xxx00000
+```
 
-`FFFEA000 - FFFEB000: mapped ? (1FFF1000 - 1FFF2000)`
+```
+FFFEA000 - FFFEB000: mapped ? (1FFF1000 - 1FFF2000)
+```
 
-`FFFEC000 - FFFED000: mapped ? (1FFF3000 - 1FFF4000)`
+```
+FFFEC000 - FFFED000: mapped ? (1FFF3000 - 1FFF4000)
+```
 
-`FFFEE000 - FFFF0000: mapped IO IRQ (17E00000 - 17E02000)`
+```
+FFFEE000 - FFFF0000: mapped IO IRQ (17E00000 - 17E02000)
+```
 
-`FFFF0000 - FFFF1000: mapped Exception vectors`
+```
+FFFF0000 - FFFF1000: mapped Exception vectors
+```
 
-`FFFF2000 - FFFF6000: mapped L1 MMU table for VA xxx00000`
+```
+FFFF2000 - FFFF6000: mapped L1 MMU table for VA xxx00000
+```
 
-`FFFF7000 - FFFF8000: mapped ? (1FFF1000 - 1FFF2000)`
+```
+FFFF7000 - FFFF8000: mapped ? (1FFF1000 - 1FFF2000)
+```
 
-`FFFF9000 - FFFFA000: mapped ? (1FFF3000 - 1FFF4000)`
+```
+FFFF9000 - FFFFA000: mapped ? (1FFF3000 - 1FFF4000)
+```
 
-`FFFFB000 - FFFFE000: mapped L2 MMU tables (1FFF5000 - 1FFF8000)`
+```
+FFFFB000 - FFFFE000: mapped L2 MMU tables (1FFF5000 - 1FFF8000)
+```
 
 ## 0xFF4XX000
 
@@ -651,15 +713,19 @@ unmaps(?) the following regions: 0x00300000..0x04300000,
 
 # System memory details
 
-`0xFFFF9000 Pointer to the current KThread instance`
-`0xFFFF9004 Pointer to the current KProcess instance`
-`0xFFFF9008 Pointer to the current KScheduler instance`
-`0xFFFF900C Pointer to the current KSchedulableInterruptEventLinkedList instance`
-`0xFFFF9010 Pointer to the last KThread to encounter an exception`
+```
+0xFFFF9000 Pointer to the current KThread instance
+0xFFFF9004 Pointer to the current KProcess instance
+0xFFFF9008 Pointer to the current KScheduler instance
+0xFFFF900C Pointer to the current KSchedulableInterruptEventLinkedList instance
+0xFFFF9010 Pointer to the last KThread to encounter an exception
+```
 
-`0x8000040 Pointer to the current KThread instance on the ARM9`
-`0x8000044 Pointer to the current KProcess instance on the ARM9`
-`0x8000048 Pointer to the current KScheduler instance on the ARM9`
+```
+0x8000040 Pointer to the current KThread instance on the ARM9
+0x8000044 Pointer to the current KProcess instance on the ARM9
+0x8000048 Pointer to the current KScheduler instance on the ARM9
+```
 
 # VRAM Map While Running System Applets
 

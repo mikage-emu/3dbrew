@@ -99,11 +99,13 @@ parameters from
 The ExtData [File System](Extdata#Filesystem "wikilink") for eShop is as
 follows:
 
-`root`
-`├── icon`
-`├── boss`
-`│   └── TIGER100.tmp`
-`└── user`
+```
+root
+├── icon
+├── boss
+│   └── TIGER100.tmp
+└── user
+```
 
 | File         | Details                                                 | Size                   | Firmware Introduced           | Plain text                                                                                |
 |--------------|---------------------------------------------------------|------------------------|-------------------------------|-------------------------------------------------------------------------------------------|
@@ -370,19 +372,21 @@ account(even with a New3DS using an Old3DS account), results in the
 ninja server(specifically the "prepurchase_info" page) returning an
 error. HTTP 400 is returned with the following json reply:
 
-`000000: 7b 22 65 72 72 6f 72 22 3a 7b 22 63 6f 64 65 22  {"error":{"code"`
-`000010: 3a 22 33 31 35 36 22 2c 22 6d 65 73 73 61 67 65  :"3156","message`
-`000020: 22 3a 22 54 68 69 73 20 70 72 6f 64 75 63 74 20  ":"This product `
-`000030: 63 61 6e 6e 6f 74 20 62 65 20 70 75 72 63 68 61  cannot be purcha`
-`000040: 73 65 64 5c 6e 6f 72 20 72 65 64 65 65 6d 65 64  sed\nor redeemed`
-`000050: 20 66 6f 72 20 75 73 65 20 6f 6e 20 74 68 69 73   for use on this`
-`000060: 20 73 79 73 74 65 6d 2e 5c 6e 5c 6e 49 66 20 74   system.\n\nIf t`
-`000070: 68 65 20 70 72 6f 62 6c 65 6d 20 70 65 72 73 69  he problem persi`
-`000080: 73 74 73 2c 20 70 6c 65 61 73 65 5c 6e 6d 61 6b  sts, please\nmak`
-`000090: 65 20 6e 6f 74 65 20 6f 66 20 74 68 65 20 65 72  e note of the er`
-`0000a0: 72 6f 72 20 63 6f 64 65 20 61 6e 64 5c 6e 76 69  ror code and\nvi`
-`0000b0: 73 69 74 20 73 75 70 70 6f 72 74 2e 6e 69 6e 74  sit support.nint`
-`0000c0: 65 6e 64 6f 2e 63 6f 6d 2e 22 7d 7d              endo.com."}}`
+```
+000000: 7b 22 65 72 72 6f 72 22 3a 7b 22 63 6f 64 65 22  {"error":{"code"
+000010: 3a 22 33 31 35 36 22 2c 22 6d 65 73 73 61 67 65  :"3156","message
+000020: 22 3a 22 54 68 69 73 20 70 72 6f 64 75 63 74 20  ":"This product 
+000030: 63 61 6e 6e 6f 74 20 62 65 20 70 75 72 63 68 61  cannot be purcha
+000040: 73 65 64 5c 6e 6f 72 20 72 65 64 65 65 6d 65 64  sed\nor redeemed
+000050: 20 66 6f 72 20 75 73 65 20 6f 6e 20 74 68 69 73   for use on this
+000060: 20 73 79 73 74 65 6d 2e 5c 6e 5c 6e 49 66 20 74   system.\n\nIf t
+000070: 68 65 20 70 72 6f 62 6c 65 6d 20 70 65 72 73 69  he problem persi
+000080: 73 74 73 2c 20 70 6c 65 61 73 65 5c 6e 6d 61 6b  sts, please\nmak
+000090: 65 20 6e 6f 74 65 20 6f 66 20 74 68 65 20 65 72  e note of the er
+0000a0: 72 6f 72 20 63 6f 64 65 20 61 6e 64 5c 6e 76 69  ror code and\nvi
+0000b0: 73 69 74 20 73 75 70 70 6f 72 74 2e 6e 69 6e 74  sit support.nint
+0000c0: 65 6e 64 6f 2e 63 6f 6d 2e 22 7d 7d              endo.com."}}
+```
 
 ## TitleID checks
 

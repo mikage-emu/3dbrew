@@ -32,7 +32,9 @@ data.
 The exbanners from SpotPass must have a timestamp less than
 current_datetime, otherwise they won't be parsed. The timestamp for the
 banner is calculated with:
-`nintimestamp_mktime(out, exbanner->year, exbanner->month, exbanner->day, <hour=23>, <minute = 59>, <second = 59>, <millisecond = 999>);`
+```
+nintimestamp_mktime(out, exbanner->year, exbanner->month, exbanner->day, <hour=23>, <minute = 59>, <second = 59>, <millisecond = 999>);
+```
 
 ## Format
 

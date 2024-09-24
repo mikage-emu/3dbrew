@@ -78,4 +78,6 @@ ARM11 bus.
 ARM11 kernel virtual address mappings for these registers varies for
 different builds. For ARM11 user mode applications you have:
 
-`physaddr = virtaddr - 0x1EC00000 + 0x10100000`
+```
+physaddr = virtaddr - 0x1EC00000 + 0x10100000
+```

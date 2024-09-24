@@ -45,27 +45,31 @@ The node hash is calculated via:
 
 Python:
 
-`def calc_hash(name, hash_multiplier):`
-`    result = 0`
-`    `
-`    for c in name:`
-`        result = ord(c) + (result * hash_multiplier)`
-`        # ensure the result is a 32-bit value`
-`        result &= 0xFFFFFFFF`
-`    `
-`    return result`
+```
+def calc_hash(name, hash_multiplier):
+    result = 0
+    
+    for c in name:
+        result = ord(c) + (result * hash_multiplier)
+        # ensure the result is a 32-bit value
+        result &= 0xFFFFFFFF
+    
+    return result
+```
 
 C:
 
-`uint32_t calc_hash(char *name, int hash_multiplier) {`
-`    uint32_t result = 0;`
-`    `
-`    for(int i = 0; i < strlen(name); i++) {`
-`        result = name[i] + (result * hash_multiplier)`
-`    }`
-`    `
-`    return result;`
-`}`
+```
+uint32_t calc_hash(char *name, int hash_multiplier) {
+    uint32_t result = 0;
+    
+    for(int i = 0; i < strlen(name); i++) {
+        result = name[i] + (result * hash_multiplier)
+    }
+    
+    return result;
+}
+```
 
 ### SFNT Header
 

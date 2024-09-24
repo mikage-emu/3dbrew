@@ -17,7 +17,9 @@ and <https://mk8.tockdom.com/wiki/MSBT_(File_Format)>
 Nintendo Badge Arcade's `MSBT` files are loaded using `BOSS`. A large
 `SARC` archive file is downloaded which holds all the games data. Inside
 this `SARC` file, the `MSBT` files are stored in
-`/message/boss_REGION/LANG/slotID`
+```
+/message/boss_REGION/LANG/slotID
+```
 
 <span id="format"></span>
 

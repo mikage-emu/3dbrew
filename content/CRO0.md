@@ -145,9 +145,11 @@ Patch entry (12 bytes)
 
 ARM32 branch instruction is constructed as follows:
 
-` If addend > 0x2000000 or addend < 0xFE000000, then skip.`
-` If (addend&1) == 1 then write "b +4" (nop).`
-` Else write as normal.`
+```
+ If addend > 0x2000000 or addend < 0xFE000000, then skip.
+ If (addend&1) == 1 then write "b +4" (nop).
+ Else write as normal.
+```
 
 ------------------------------------------------------------------------
 

@@ -144,10 +144,12 @@ This is a basic example of how to read a 3DS playlist.
 The application can read files copied in a folder on the SD card of the
 system. The application supports the following files formats:
 
-`   *  .mp3`
-`   *  .m4a`
-`   *  .mp4`
-`   *  .3gp`
+```
+   *  .mp3
+   *  .m4a
+   *  .mp4
+   *  .3gp
+```
 
 [Category:File formats](Category:File_formats "wikilink")
 [Category:Nintendo Software](Category:Nintendo_Software "wikilink")

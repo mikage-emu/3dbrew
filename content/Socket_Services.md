@@ -119,18 +119,22 @@ The ipv6 sockaddr size is 0x1C and is required for some IPC commands,
 even when using sockaddr_in which in reality is of size 8. The
 sockaddr_in6 struct is the following:
 
-`struct in6_addr`
-`{`
-`   uint8_t s6_addr[16];`
-`};`
+```
+struct in6_addr
+{
+   uint8_t s6_addr[16];
+};
+```
 
-`struct sockaddr_in6`
-`{`
-`    sa_family_t     sin6_family;`
-`    in_port_t       sin6_port;`
-`    struct in6_addr sin6_addr;`
-`    u32             sin6_flowinfo; // Not confirmed`
-`    u32             sin6_scope_id; // Not confirmed`
-`};`
+```
+struct sockaddr_in6
+{
+    sa_family_t     sin6_family;
+    in_port_t       sin6_port;
+    struct in6_addr sin6_addr;
+    u32             sin6_flowinfo; // Not confirmed
+    u32             sin6_scope_id; // Not confirmed
+};
+```
 
 [Category:Services](Category:Services "wikilink")

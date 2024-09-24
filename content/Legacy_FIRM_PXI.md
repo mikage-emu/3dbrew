@@ -52,18 +52,22 @@ This does the following:
 This takes 3 arguments, which are the following structure packed into 12
 bytes (no padding):
 
-`s32 year;`
-`s8 month;`
-`s8 day;`
-`s8 day_of_week; // Sunday = 0, up to Saturday = 6`
-`s8 hour;`
-`s8 minute;`
-`s8 second;`
-`s16 ms;`
+```
+s32 year;
+s8 month;
+s8 day;
+s8 day_of_week; // Sunday = 0, up to Saturday = 6
+s8 hour;
+s8 minute;
+s8 second;
+s16 ms;
+```
 
 This should be the current date/time (AgbBg seems to get it from MCU);
 it's converted from this structure into milliseconds, and saved into
 .data. Another .data variable is set from svcGetSystemTick by this
 command, and another function in (LGY) P9 essentially does
-`return date_time_set_from_this_command + ticks_to_ms(svcGetSystemTick() - systemtick_from_this_command);`
+```
+return date_time_set_from_this_command + ticks_to_ms(svcGetSystemTick() - systemtick_from_this_command);
+```
 to get the current date&time.

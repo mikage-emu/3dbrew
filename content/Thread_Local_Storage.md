@@ -16,7 +16,9 @@ threads are created.
 A pointer to the thread-local-storage can be read using the ARM
 instruction:
 
-`mrc        15, 0, rX, cr13, cr0, 3`
+```
+mrc        15, 0, rX, cr13, cr0, 3
+```
 
 Every application has RW access to its thread-local-storage.
 

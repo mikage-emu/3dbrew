@@ -225,12 +225,14 @@ Created, received, or even met-in-multiplayer Miis are saved in
 The ExtData [File System](Extdata#Filesystem "wikilink") for Mii Maker
 is as follows:
 
-`root`
-`├── icon`
-`├── boss`
-`└── user`
-`    └── ExBanner`
-`        └── COMMON.bin`
+```
+root
+├── icon
+├── boss
+└── user
+    └── ExBanner
+        └── COMMON.bin
+```
 
 | File       | Details                                                                             | Size          | FW Introduced                 | Plaintext                                                                                      |
 |------------|-------------------------------------------------------------------------------------|---------------|-------------------------------|------------------------------------------------------------------------------------------------|

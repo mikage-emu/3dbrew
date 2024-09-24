@@ -17,20 +17,24 @@ The touchscreen is the SPI [device number
 [0x10142XXX](SPI_Services "wikilink") SPI registers. It is initialized
 by issuing the following SPI commands:
 
-`spi_select_reg(3, 0x67);`
-`spi_offset_mask(3, 0x26, 0x80, 0x80);`
-`spi_select_reg(3, 0x67);`
-`spi_offset_mask(3, 0x24, 0, 0x80);`
-`spi_select_reg(3, 0x67);`
-`spi_offset_mask(3, 0x25, 0x10, 0x3C);`
+```
+spi_select_reg(3, 0x67);
+spi_offset_mask(3, 0x26, 0x80, 0x80);
+spi_select_reg(3, 0x67);
+spi_offset_mask(3, 0x24, 0, 0x80);
+spi_select_reg(3, 0x67);
+spi_offset_mask(3, 0x25, 0x10, 0x3C);
+```
 
 Once the touchscreen is initialized, you can start polling touch data:
 
-`u8 raw_touchdata[0x40];`
-`spi_select_reg(3, 0x67);`
-`spi_read_offset(3, 0x26); //The return value of this is checked against "& 2"`
-`spi_select_reg(3, 0xFB);`
-`spi_read_offset_array(3, 1, raw_touchdata, 0x34);`
+```
+u8 raw_touchdata[0x40];
+spi_select_reg(3, 0x67);
+spi_read_offset(3, 0x26); //The return value of this is checked against "& 2"
+spi_select_reg(3, 0xFB);
+spi_read_offset_array(3, 1, raw_touchdata, 0x34);
+```
 
 This is the format of the touchdata report:
 

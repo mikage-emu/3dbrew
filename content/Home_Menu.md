@@ -388,13 +388,15 @@ regions(which is invalid).
 The SD ExtData [File System](Extdata#Filesystem "wikilink") for Home
 Menu introduced with [2.0.0-X](2.0.0-2 "wikilink") is as follows:
 
-`root`
-`├── icon`
-`├── boss`
-`└── user`
-`    ├── SaveData.dat`
-`    ├── Cache.dat`
-`    └── CacheD.dat`
+```
+root
+├── icon
+├── boss
+└── user
+    ├── SaveData.dat
+    ├── Cache.dat
+    └── CacheD.dat
+```
 
 | File         | Details                                                                      | Size                                                              | FW Introduced                 | Plaintext                                                                                        |
 |--------------|------------------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------|--------------------------------------------------------------------------------------------------|
@@ -497,14 +499,16 @@ filesize to the current-format filesize by Home Menu.
 
 The filesystem for this extdata is as follows:
 
-`root`
-`├── icon`
-`├── boss`
-`└── user`
-`    ├── ThemeManage.bin`
-`    ├── BodyCache.bin`
-`    ├── BgmCache.bin`
-`    └── nsalist`
+```
+root
+├── icon
+├── boss
+└── user
+    ├── ThemeManage.bin
+    ├── BodyCache.bin
+    ├── BgmCache.bin
+    └── nsalist
+```
 
 | File            | Details                                                                                                                                                                                 | Size     | Extdata image ID | FW Introduced                   | Plaintext |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|------------------|---------------------------------|-----------|
@@ -549,12 +553,14 @@ with offset 0x10 u32 set to value 0x1.
 
 The filesystem for this extdata(when it actually exists) is as follows:
 
-`root`
-`├── icon`
-`├── boss`
-`└── user`
-`    ├── BadgeData.dat`
-`    └── BadgeMngFile.dat`
+```
+root
+├── icon
+├── boss
+└── user
+    ├── BadgeData.dat
+    └── BadgeMngFile.dat
+```
 
 | File             | Details                                             | Size     | Extdata image ID | FW Introduced                   |
 |------------------|-----------------------------------------------------|----------|------------------|---------------------------------|
@@ -723,11 +729,13 @@ error.
 
 The filesystem for this extdata(when it actually exists) is as follows:
 
-`root`
-`├── icon`
-`├── boss`
-`└── user`
-`    └── MngFile.dat`
+```
+root
+├── icon
+├── boss
+└── user
+    └── MngFile.dat
+```
 
 | File        | Details    | Size       | Extdata image ID | FW Introduced                   | Plaintext |
 |-------------|------------|------------|------------------|---------------------------------|-----------|

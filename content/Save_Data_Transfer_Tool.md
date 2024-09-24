@@ -26,11 +26,13 @@ might be savedata-transfer related? This app includes code for using
 The ExtData [File System](Extdata#Filesystem "wikilink") for Save Data
 Transfer Tool is as follows:
 
-`root`
-`├── icon`
-`├── boss`
-`│   └── FGONLYT00.tmp`
-`└── user`
+```
+root
+├── icon
+├── boss
+│   └── FGONLYT00.tmp
+└── user
+```
 
 | File          | Details                                                   | Size         | FW Introduced                   | Plaintext                                                                                            |
 |---------------|-----------------------------------------------------------|--------------|---------------------------------|------------------------------------------------------------------------------------------------------|

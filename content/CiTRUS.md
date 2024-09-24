@@ -1,5 +1,6 @@
 +++
 title = 'CiTRUS'
+categories = ["PC utilities"]
 +++
 
 # **IMPORTANT**

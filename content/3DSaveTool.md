@@ -1,5 +1,6 @@
 +++
 title = '3DSaveTool'
+categories = ["PC utilities"]
 +++
 
 **3DSaveTool** can be used to find the XOR key used for encryption and

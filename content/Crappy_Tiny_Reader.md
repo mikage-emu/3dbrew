@@ -1,5 +1,6 @@
 +++
 title = 'Crappy Tiny Reader'
+categories = ["PC utilities"]
 +++
 
 Crappy Tiny Reader is a small Windows application for checking the basic

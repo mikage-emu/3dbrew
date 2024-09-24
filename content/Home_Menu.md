@@ -1,6 +1,7 @@
 +++
 title = 'Home Menu'
 categories = ["Nintendo Software"]
+BookToC = false
 +++
 
 The **Home Menu** is the heart of the Nintendo 3DS. From there one can
@@ -43,7 +44,9 @@ be updated and how, Nintendo split the system version displayed by
 [CVer](CVer "wikilink") (Console Version) and [NVer](NVer "wikilink")
 (Network Update Version). Represented as:
 
-<CVer Major>`.`<CVer Minor>`.`<CVer Micro>`-`<NUP Version><NUP Region>
+```
+<CVer Major>.<CVer Minor>.<CVer Micro>-<NUP Version><NUP Region>
+```
 
 The Console Version represents the version of the collectively installed
 core features. And the NUP Version represents the version of the
@@ -265,15 +268,15 @@ Home-menu originally used two domains with HTTPS for SpotPass. SpotPass
 stores this content in Home-menu's NAND shared extdata.
 
 - The system notifications are downloaded from:
-  https://a248.e.akamai.net/f/248/103046/10m/npdl.c.app.nintendowifi.net/p01/nsa/\<regionID\>/\<filename\>/\<langcode\>/\<filename\>
+  `https://a248.e.akamai.net/f/248/103046/10m/npdl.c.app.nintendowifi.net/p01/nsa/<regionID>/<filename>/<langcode>/<filename>`
   Where langcode is the two-character language codes from
   [config](Config_Savegame#Languages "wikilink"), and regionID is from
-  the below table. <filename> is bashoX/sysmsgX where X is 0-3.
-- <https://pls.c.shop.nintendowifi.net/pl/upload> This URL is used for
+  the below table. `<filename>` is bashoX/sysmsgX where X is 0-3.
+- `https://pls.c.shop.nintendowifi.net/pl/upload` This URL is used for
   uploading data from the home menu NAND shared extdata, it's unknown
   what this is used for. This data is uploaded every 24 hours.
-- https://npul.c.app.nintendowifi.net/p01/recv/\<regionID\>/\<filename\>
-  This is used for uploading unknown data from extdata. <filename> can
+- `https://npul.c.app.nintendowifi.net/p01/recv/<regionID>/<filename>`
+  This is used for uploading unknown data from extdata. `<filename>` can
   be one of the following:
   - "phu"
   - "tiu" The POST data contains a list of
@@ -317,7 +320,7 @@ File structure:
 | Offset | Size            | Description                                                   |
 |--------|-----------------|---------------------------------------------------------------|
 | 0x0    | 0x10            | The first u32 is normally 0x1, the rest is normally all-zero. |
-| 0x10   | <Filesize-0x10> | Title entries, 0x10-bytes each.                               |
+| 0x10   | Filesize-0x10 | Title entries, 0x10-bytes each.                               |
 
 Title entry structure:
 
@@ -592,9 +595,9 @@ root
 | 0x20   | 0x338        | Unknown (always zeros? unused?)                                 |
 | 0x358  | 0x80         | Used Badge Slots (each bit = 1 slot)                            |
 | 0x3D8  | 0x10         | Used Badge Set Slots (each bit = 1 slot)                        |
-| 0x3E8  | 1000 \* 0x28 | [BadgeInfo](Home_Menu#BadgeInfo "wikilink") Entries             |
-| 0xA028 | 100 \* 0x30  | [BadgeSetInfo](Home_Menu#BadgeSetInfo "wikilink") Entries       |
-| 0xB2E8 | 360 \* 0x18  | [BadgeLayoutSlot](Home_Menu#BadgeLayoutSlot "wikilink") Entries |
+| 0x3E8  | 1000 \* 0x28 | [BadgeInfo](Home_Menu#badgeinfo "wikilink") Entries             |
+| 0xA028 | 100 \* 0x30  | [BadgeSetInfo](Home_Menu#badgesetinfo "wikilink") Entries       |
+| 0xB2E8 | 360 \* 0x18  | [BadgeLayoutSlot](Home_Menu#badgelayoutslot "wikilink") Entries |
 
 #### BadgeIdentifier
 
@@ -696,7 +699,7 @@ root
 
 | Offset | Size | Description                                             |
 |--------|------|---------------------------------------------------------|
-| 0x0    | 0x10 | [BadgeIdentifier](Home_Menu#BadgeIdentifier "wikilink") |
+| 0x0    | 0x10 | [BadgeIdentifier](Home_Menu#badgeidentifier "wikilink") |
 | 0x10   | 0x2  | u16, Number Placed                                      |
 | 0x12   | 0x2  | u16, Quantity                                           |
 | 0x14   | 0x4  | u32, Unknown (packed data?)                             |
@@ -706,7 +709,7 @@ root
 
 | Offset | Size | Description                                                   |
 |--------|------|---------------------------------------------------------------|
-| 0x0    | 0x18 | [BadgeSetIdentifier](Home_Menu#BadgeSetIdentifier "wikilink") |
+| 0x0    | 0x18 | [BadgeSetIdentifier](Home_Menu#badgesetidentifier "wikilink") |
 | 0x18   | 0x4  | u32, Unknown (usually 0xFFFFFFFF)                             |
 | 0x1C   | 0x4  | u32, Number of Unique Badges                                  |
 | 0x20   | 0x4  | u32, Number of Total Badges                                   |
@@ -718,7 +721,7 @@ root
 
 | Offset | Size | Description                                                     |
 |--------|------|-----------------------------------------------------------------|
-| 0x0    | 0x10 | [BadgeIdentifier](Home_Menu#BadgeIdentifier "wikilink")         |
+| 0x0    | 0x10 | [BadgeIdentifier](Home_Menu#badgeidentifier "wikilink")         |
 | 0x10   | 0x4  | u32, Position                                                   |
 | 0x14   | 0x4  | u32, Folder (0xF0FF = Icon of a folder, 0xFFFFFFFF = No folder) |
 
@@ -937,25 +940,25 @@ and CountryInfo.</td>
 </tr>
 <tr class="odd">
 <td>Home Menu CXI RomFS</td>
-<td>"/message/<Region>_<Language>/menu_msbt_LZ.bin"</td>
+<td>"/message/&lt;Region&gt;_&lt;Language&gt;/menu_msbt_LZ.bin"</td>
 <td>Presumably loaded from the filesize.</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>Home Menu CXI RomFS</td>
-<td>"/message/<Region>_<Language>/RI_mstl_LZ.bin"</td>
+<td>"/message/&lt;Region&gt;_&lt;Language&gt;/RI_mstl_LZ.bin"</td>
 <td>Presumably loaded from the filesize.</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>Home Menu CXI RomFS</td>
-<td>"/message_hud/<Region>_<Language>/hud_msbt_LZ.bin"</td>
+<td>"/message_hud/&lt;Region&gt;_&lt;Language&gt;/hud_msbt_LZ.bin"</td>
 <td>Presumably loaded from the filesize.</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>Home Menu CXI RomFS</td>
-<td>"/message_hud/<Region>_<Language>/RI_mstl_LZ.bin"</td>
+<td>"/message_hud/&lt;Region&gt;_&lt;Language&gt;/RI_mstl_LZ.bin"</td>
 <td>Presumably loaded from the filesize.</td>
 <td></td>
 </tr>

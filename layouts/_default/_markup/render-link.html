@@ -1,0 +1,13 @@
+{{- if (not (or (strings.HasPrefix .Destination "http") (strings.HasPrefix .Destination "#"))) }}
+  <a href="/3dbrew/{{ .Destination }}"
+    {{- with .Title }} title="{{ . }}"{{ end -}}
+  >
+    {{- with .Text }}{{ . }}{{ end -}}
+  </a>
+{{ else }}
+  <a href="{{ .Destination | safeURL }}"
+    {{- with .Title }} title="{{ . }}"{{ end -}}
+  >
+    {{- with .Text }}{{ . }}{{ end -}}
+  </a>
+{{ end -}}

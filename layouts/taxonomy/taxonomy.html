@@ -1,0 +1,22 @@
+{{ define "main" }}
+  {{ with .Site.GetPage (print "Category:" (replace .Title " " "_") ".md") }}
+    {{ .Content }}
+    <hr />
+  {{ end }}
+
+  <div>
+    <ul style="display: flex; flex-wrap: wrap;">
+      {{ range sort .Paginator.Pages }}
+        <li style="width: 20rem">
+          <a href="{{ .RelPermalink }}">{{ partial "docs/title.html" . }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+
+  {{ template "_internal/pagination.html" . }}
+{{ end }}
+
+{{ define "toc" }}
+  {{ partial "docs/taxonomy" . }}
+{{ end }}

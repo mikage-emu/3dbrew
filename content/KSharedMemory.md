@@ -1,3 +1,8 @@
++++
+title = 'KSharedMemory'
+categories = ["Kernel auto objects"]
++++
+
 class [KSharedMemory](KSharedMemory "wikilink") extends
 [KAutoObject](KAutoObject "wikilink") and
 [KLinkedList](KLinkedList "wikilink");

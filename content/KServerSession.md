@@ -1,3 +1,8 @@
++++
+title = 'KServerSession'
+categories = ["Kernel synchronization objects"]
++++
+
 class [KServerSession](KServerSession "wikilink") extends
 [KSynchronizationObject](KSynchronizationObject "wikilink");
 

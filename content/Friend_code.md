@@ -1,3 +1,7 @@
++++
+title = 'Friend Code'
++++
+
 This is a list of friend codes of different users.
 
 Remember to [watch this
@@ -25,7 +29,7 @@ if you wish to get notified when someone modifies the list.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="JuniorzGTX" title="wikilink">JuniorzGTX</a></p></td>
+<td><p><a href="../JuniorzGTX" title="wikilink">JuniorzGTX</a></p></td>
 <td><p>JuniorzGTX</p></td>
 <td><p>5430-4366-5837</p></td>
 <td><p>NA</p></td>
@@ -34,18 +38,18 @@ code : JuniorzGT#8248</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="User:V10lator" title="wikilink">V10lator</a></p></td>
+<td><p><a href="../User:V10lator" title="wikilink">V10lator</a></p></td>
 <td></td>
 <td><p>1049-5141-1277</p></td>
 <td><p>EUR (Germany)</p></td>
 <td><p>Add me and write on 3DS Letterbox</p></td>
 <td><figure>
-<img src="V10lator.png" title="V10lator.png" width="120" />
+<img src="../V10lator.png" title="V10lator.png" width="120" />
 <figcaption>V10lator.png</figcaption>
 </figure></td>
 </tr>
 <tr class="odd">
-<td><p><a href="explosions" title="wikilink">explosions</a></p></td>
+<td><p><a href="../explosions" title="wikilink">explosions</a></p></td>
 <td><p>haxmaster123</p></td>
 <td><p>4141-5323-9570</p></td>
 <td><p>USA</p></td>
@@ -53,7 +57,7 @@ code : JuniorzGT#8248</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="User:Brayton1234567"
+<td><p><a href="../User:Brayton1234567"
 title="wikilink">User:Brayton1234567</a></p></td>
 <td><p>I don't know what this is</p></td>
 <td><p>0662-4312-7555</p></td>
@@ -62,7 +66,7 @@ title="wikilink">User:Brayton1234567</a></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="User:Thejsa" title="wikilink">thejsa</a></p></td>
+<td><p><a href="../User:Thejsa" title="wikilink">thejsa</a></p></td>
 <td><p>thejsa / jsa_</p></td>
 <td><p>5043-5145-7887</p></td>
 <td><p>EUR (UK, N3DS)</p></td>
@@ -71,13 +75,13 @@ homebrew!</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="User:SynRxn" title="wikilink">SynRxn</a></p></td>
+<td><p><a href="../User:SynRxn" title="wikilink">SynRxn</a></p></td>
 <td></td>
 <td><p>0962-9776-8195</p></td>
 <td><p>USA</p></td>
 <td><p>Let's pwn the 3DS!</p></td>
 <td><figure>
-<img src="SynRxn.JPG" title="SynRxn.JPG" width="120" />
+<img src="../SynRxn.JPG" title="SynRxn.JPG" width="120" />
 <figcaption>SynRxn.JPG</figcaption>
 </figure></td>
 </tr>
@@ -90,7 +94,7 @@ homebrew!</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="User:ClassicToxin"
+<td><p><a href="../User:ClassicToxin"
 title="wikilink">ClassicToxin</a></p></td>
 <td></td>
 <td><p>1864-8732-8338</p></td>
@@ -100,7 +104,7 @@ like</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="User:Allnewryan1"
+<td><p><a href="../User:Allnewryan1"
 title="wikilink">Allnewryan1</a></p></td>
 <td></td>
 <td><p>0001-4540-5587</p></td>
@@ -118,14 +122,14 @@ find crashes</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="User:Skyneo" title="wikilink">Skyneo</a></p></td>
+<td><p><a href="../User:Skyneo" title="wikilink">Skyneo</a></p></td>
 <td><p>Skyneo</p></td>
 <td><p>1950-8547-6804</p></td>
 <td><p>Europe (France)</p></td>
 <td><p>Young beginner dev dreaming of making a Nintendo game. My hair is
 anarchy.</p></td>
 <td><figure>
-<img src="SkyneoMii.JPG" title="SkyneoMii.JPG" width="120" />
+<img src="../SkyneoMii.JPG" title="SkyneoMii.JPG" width="120" />
 <figcaption>SkyneoMii.JPG</figcaption>
 </figure></td>
 </tr>
@@ -192,9 +196,9 @@ anarchy.</p></td>
 <td><p>USA</p></td>
 <td><p>None</p></td>
 <td><figure>
-<img src="RHOPKINS13_Mii.JPG" title="File:RHOPKINS13_Mii.JPG" />
+<img src="../RHOPKINS13_Mii.JPG" title="File:RHOPKINS13_Mii.JPG" />
 <figcaption><a
-href="File:RHOPKINS13_Mii.JPG">File:RHOPKINS13_Mii.JPG</a></figcaption>
+href="../File:RHOPKINS13_Mii.JPG">File:RHOPKINS13_Mii.JPG</a></figcaption>
 </figure></td>
 </tr>
 <tr class="even">
@@ -220,9 +224,9 @@ href="File:RHOPKINS13_Mii.JPG">File:RHOPKINS13_Mii.JPG</a></figcaption>
 <td><p>USA</p></td>
 <td><p>None</p></td>
 <td><figure>
-<img src="Mafril_Mii.JPG" title="File:Mafril_Mii.JPG" />
+<img src="../Mafril_Mii.JPG" title="File:Mafril_Mii.JPG" />
 <figcaption><a
-href="File:Mafril_Mii.JPG">File:Mafril_Mii.JPG</a></figcaption>
+href="../File:Mafril_Mii.JPG">File:Mafril_Mii.JPG</a></figcaption>
 </figure></td>
 </tr>
 <tr class="odd">
@@ -250,12 +254,12 @@ href="File:Mafril_Mii.JPG">File:Mafril_Mii.JPG</a></figcaption>
 (David and marcosxd don't) - so please add me if you get the
 chance.</p></td>
 <td><figure>
-<img src="Muzer_Mii.jpg" title="Muzer_Mii.jpg" width="120" />
+<img src="../Muzer_Mii.jpg" title="Muzer_Mii.jpg" width="120" />
 <figcaption>Muzer_Mii.jpg</figcaption>
 </figure></td>
 </tr>
 <tr class="even">
-<td><p><a href="User:Schumi" title="wikilink">Schumi</a></p></td>
+<td><p><a href="../User:Schumi" title="wikilink">Schumi</a></p></td>
 <td></td>
 <td><p>1934-1000-7068</p></td>
 <td><p>Germany (Europe)</p></td>
@@ -263,24 +267,24 @@ chance.</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="User:Rikku2000" title="wikilink">Rikku2000</a></p></td>
+<td><p><a href="../User:Rikku2000" title="wikilink">Rikku2000</a></p></td>
 <td></td>
 <td><p>EUR: 1461-6425-0347 JPN: 1375-8084-1845</p></td>
 <td><p>Germany</p></td>
 <td><p>Write me on 3DS Letterbox</p></td>
 <td><figure>
-<img src="Rikku2000_Mii.JPG" title="Rikku2000_Mii.JPG" width="100" />
+<img src="../Rikku2000_Mii.JPG" title="Rikku2000_Mii.JPG" width="100" />
 <figcaption>Rikku2000_Mii.JPG</figcaption>
 </figure></td>
 </tr>
 <tr class="even">
-<td><p><a href="User:Elisherer" title="wikilink">Elisherer</a></p></td>
+<td><p><a href="../User:Elisherer" title="wikilink">Elisherer</a></p></td>
 <td><p>elisherer</p></td>
 <td><p>0001-3489-0550</p></td>
 <td><p>USA</p></td>
 <td><p>None</p></td>
 <td><figure>
-<img src="Elisherer_Mii.JPG" title="Elisherer_Mii.JPG" width="120" />
+<img src="../Elisherer_Mii.JPG" title="Elisherer_Mii.JPG" width="120" />
 <figcaption>Elisherer_Mii.JPG</figcaption>
 </figure></td>
 </tr>
@@ -349,7 +353,7 @@ discussing the scene!</p></td>
 <td><p>Europe</p></td>
 <td><p>I added everyone, please add me :)</p></td>
 <td><figure>
-<img src="HIKARI06MII.jpg" title="HIKARI06MII.jpg" width="120" />
+<img src="../HIKARI06MII.jpg" title="HIKARI06MII.jpg" width="120" />
 <figcaption>HIKARI06MII.jpg</figcaption>
 </figure></td>
 </tr>
@@ -369,12 +373,12 @@ discussing the scene!</p></td>
 <td><p>I added everyone. You can also email me your code after you add
 me "cvosler@hotmail.com"</p></td>
 <td><figure>
-<img src="Chip.JPG" title="Chip.JPG" width="120" />
+<img src="../Chip.JPG" title="Chip.JPG" width="120" />
 <figcaption>Chip.JPG</figcaption>
 </figure></td>
 </tr>
 <tr class="odd">
-<td><p><a href="User:CHR15x94" title="wikilink">CHR15x94</a></p></td>
+<td><p><a href="../User:CHR15x94" title="wikilink">CHR15x94</a></p></td>
 <td></td>
 <td><p>0688-5814-3517</p></td>
 <td><p>Canada (USA)</p></td>
@@ -382,24 +386,24 @@ me "cvosler@hotmail.com"</p></td>
 message me on 3DBrew, or through one of my contacts on my 3DBrew
 profile.</p></td>
 <td><figure>
-<img src="CHR15x94_-_Mii.JPG" title="CHR15x94_-_Mii.JPG" width="120" />
+<img src="../CHR15x94_-_Mii.JPG" title="CHR15x94_-_Mii.JPG" width="120" />
 <figcaption>CHR15x94_-_Mii.JPG</figcaption>
 </figure></td>
 </tr>
 <tr class="even">
-<td><p><a href="User:DarkWork0" title="wikilink">DarkWork0</a></p></td>
+<td><p><a href="../User:DarkWork0" title="wikilink">DarkWork0</a></p></td>
 <td></td>
 <td><p>1075-0737-9684</p></td>
 <td><p>USA</p></td>
 <td><p>Add me and email me your friends code: darkwork0@gmail.com I'll
 add anyone who adds me!</p></td>
 <td><figure>
-<img src="HNI_0006.JPG‎" title="HNI_0006.JPG‎" width="120" />
+<img src="../HNI_0006.JPG‎" title="HNI_0006.JPG‎" width="120" />
 <figcaption>HNI_0006.JPG‎</figcaption>
 </figure></td>
 </tr>
 <tr class="odd">
-<td><p><a href="User:Aliak11" title="wikilink">Aliak11</a></p></td>
+<td><p><a href="../User:Aliak11" title="wikilink">Aliak11</a></p></td>
 <td></td>
 <td><p>1160-9718-1643</p></td>
 <td><p>USA</p></td>
@@ -408,7 +412,7 @@ atthegulf@gmail.com</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="User:capt.danny"
+<td><p><a href="../User:capt.danny"
 title="wikilink">capt.danny</a></p></td>
 <td></td>
 <td><p>4339:2914:5427</p></td>
@@ -417,7 +421,7 @@ title="wikilink">capt.danny</a></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="user:jordan" title="wikilink">jordan</a></p></td>
+<td><p><a href="../user:jordan" title="wikilink">jordan</a></p></td>
 <td></td>
 <td><p>0473-8413-4597</p></td>
 <td><p>USA</p></td>
@@ -425,7 +429,7 @@ title="wikilink">capt.danny</a></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="User:Stopwatch8"
+<td><p><a href="../User:Stopwatch8"
 title="wikilink">Stopwatch8</a></p></td>
 <td><p>Stopwatch8</p></td>
 <td><p>2449-4811-6942</p></td>
@@ -433,12 +437,12 @@ title="wikilink">Stopwatch8</a></p></td>
 <td><p>I have added everyone here. I would be happy if I were added as
 well! I just like to see what titles everyone plays. :)</p></td>
 <td><figure>
-<img src="Stopwatch8.JPG" title="Stopwatch8.JPG" width="120" />
+<img src="../Stopwatch8.JPG" title="Stopwatch8.JPG" width="120" />
 <figcaption>Stopwatch8.JPG</figcaption>
 </figure></td>
 </tr>
 <tr class="odd">
-<td><p><a href="User:mr_seeker" title="wikilink">mr_seeker</a></p></td>
+<td><p><a href="../User:mr_seeker" title="wikilink">mr_seeker</a></p></td>
 <td></td>
 <td><p>3909-7860-3744</p></td>
 <td><p>EUR</p></td>
@@ -446,18 +450,18 @@ well! I just like to see what titles everyone plays. :)</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="User:missou" title="wikilink">missou</a></p></td>
+<td><p><a href="../User:missou" title="wikilink">missou</a></p></td>
 <td><p>missou</p></td>
 <td><p>1762-3951-0686</p></td>
 <td><p>EUR</p></td>
 <td><p>I have added everyone...and everyone can add me!</p></td>
 <td><figure>
-<img src="MissouMii.JPG" title="MissouMii.JPG" width="120" />
+<img src="../MissouMii.JPG" title="MissouMii.JPG" width="120" />
 <figcaption>MissouMii.JPG</figcaption>
 </figure></td>
 </tr>
 <tr class="odd">
-<td><p><a href="User:GuyInDogSuit"
+<td><p><a href="../User:GuyInDogSuit"
 title="wikilink">GuyInDogSuit</a></p></td>
 <td></td>
 <td><p>4957-2209-2798</p></td>
@@ -465,12 +469,12 @@ title="wikilink">GuyInDogSuit</a></p></td>
 <td><p>I have added everyone except David and marcosxd (invalid codes),
 and everyone can add me in return.</p></td>
 <td><figure>
-<img src="GuyInDogSuit.jpg" title="GuyInDogSuit.jpg" width="120" />
+<img src="../GuyInDogSuit.jpg" title="GuyInDogSuit.jpg" width="120" />
 <figcaption>GuyInDogSuit.jpg</figcaption>
 </figure></td>
 </tr>
 <tr class="even">
-<td><p><a href="User:NintendoFan"
+<td><p><a href="../User:NintendoFan"
 title="wikilink">NintendoFan</a></p></td>
 <td></td>
 <td><p>2492-4592-1206</p></td>
@@ -479,18 +483,18 @@ title="wikilink">NintendoFan</a></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="User:Rllns05" title="wikilink">Kresma</a></p></td>
+<td><p><a href="../User:Rllns05" title="wikilink">Kresma</a></p></td>
 <td></td>
 <td><p>0190-1796-8987</p></td>
 <td><p>USA</p></td>
 <td><p>Add me, I won't Bite.</p></td>
 <td><figure>
-<img src="Rllns05.JPG" title="Rllns05.JPG" width="120" />
+<img src="../Rllns05.JPG" title="Rllns05.JPG" width="120" />
 <figcaption>Rllns05.JPG</figcaption>
 </figure></td>
 </tr>
 <tr class="even">
-<td><p><a href="User:Beefsloth" title="wikilink">Beefsloth</a></p></td>
+<td><p><a href="../User:Beefsloth" title="wikilink">Beefsloth</a></p></td>
 <td></td>
 <td><p>3239-7434-0366</p></td>
 <td><p>USA</p></td>
@@ -498,7 +502,7 @@ title="wikilink">NintendoFan</a></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="User:Light4wing"
+<td><p><a href="../User:Light4wing"
 title="wikilink">User:Light4wing</a></p></td>
 <td></td>
 <td><p>4871-8801-5208</p></td>
@@ -508,7 +512,7 @@ ruckus71472@outlook.com</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="User:MoneyBags"
+<td><p><a href="../User:MoneyBags"
 title="wikilink">MoneyBasket</a></p></td>
 <td></td>
 <td><p>4485-5249-2780</p></td>
@@ -517,18 +521,18 @@ title="wikilink">MoneyBasket</a></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="User:NoFace" title="wikilink">User:NoFace</a></p></td>
+<td><p><a href="../User:NoFace" title="wikilink">User:NoFace</a></p></td>
 <td></td>
 <td><p>2853-1277-2658</p></td>
 <td><p>EUR</p></td>
 <td><p>add me if you need a friend.</p></td>
 <td><figure>
-<img src="HNI_0053.JPG" title="HNI_0053.JPG" width="120" />
+<img src="../HNI_0053.JPG" title="HNI_0053.JPG" width="120" />
 <figcaption>HNI_0053.JPG</figcaption>
 </figure></td>
 </tr>
 <tr class="even">
-<td><p><a href="User:Loremon00"
+<td><p><a href="../User:Loremon00"
 title="wikilink">User:Loremon00</a></p></td>
 <td></td>
 <td><p>4425-1468-0027</p></td>
@@ -537,18 +541,18 @@ title="wikilink">User:Loremon00</a></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="User:KoolLeo11" title="wikilink">Leo11</a></p></td>
+<td><p><a href="../User:KoolLeo11" title="wikilink">Leo11</a></p></td>
 <td></td>
 <td><p>1650-8691-5901</p></td>
 <td><p>EUR (UK)</p></td>
 <td><p>Wassup, wassup!</p></td>
 <td><figure>
-<img src="Leo3ds.png" title="Leo3ds.png" width="120" />
+<img src="../Leo3ds.png" title="Leo3ds.png" width="120" />
 <figcaption>Leo3ds.png</figcaption>
 </figure></td>
 </tr>
 <tr class="even">
-<td><p><a href="User:Toma-Chan"
+<td><p><a href="../User:Toma-Chan"
 title="wikilink">User:Toma-Chan</a></p></td>
 <td></td>
 <td><p>1478-6610-1449</p></td>
@@ -557,7 +561,7 @@ title="wikilink">User:Toma-Chan</a></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="jack" title="wikilink">jack</a></p></td>
+<td><p><a href="../jack" title="wikilink">jack</a></p></td>
 <td></td>
 <td><p>1118-1391-5140</p></td>
 <td><p>USA</p></td>
@@ -565,7 +569,7 @@ title="wikilink">User:Toma-Chan</a></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="User:Marioipod13"
+<td><p><a href="../User:Marioipod13"
 title="wikilink">User:Marioipod13</a></p></td>
 <td></td>
 <td><p>4098-9975-9666</p></td>
@@ -574,7 +578,7 @@ title="wikilink">User:Marioipod13</a></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="User:Busybody64"
+<td><p><a href="../User:Busybody64"
 title="wikilink">User:Busybody64</a></p></td>
 <td></td>
 <td><p>5172-2665-4784</p></td>
@@ -583,7 +587,7 @@ title="wikilink">User:Busybody64</a></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><a href="User:Enity" title="wikilink">User:Enity</a></p></td>
+<td><p><a href="../User:Enity" title="wikilink">User:Enity</a></p></td>
 <td></td>
 <td><p>0061-7386-0813</p></td>
 <td><p>EUR</p></td>

@@ -1,3 +1,8 @@
++++
+title = 'KClientPort'
+categories = ["Kernel synchronization objects"]
++++
+
 class [KClientPort](KClientPort "wikilink") extends
 [KSynchronizationObject](KSynchronizationObject "wikilink");
 

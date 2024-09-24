@@ -5,8 +5,8 @@ title = 'Extdata'
 This page describes the format and encryption of extdata, "extra data"
 stored on SD card and NAND, at:
 
-- `nand/data/`<ID>`/extdata/`<ExtdataID-High>
-- `sdmc/Nintendo 3DS/`<ID0>`/`<ID1>`/extdata/`<ExtdataID-High>
+- `nand/data/<ID>/extdata/<ExtdataID-High>`
+- `sdmc/Nintendo 3DS/<ID0>/<ID1>/extdata/<ExtdataID-High>`
 
 ExtdataID-High is always 00000000 for SD, and always 00048000 for NAND.
 Regular apps can only mount SD extdata using the same extdataID which is
@@ -26,8 +26,8 @@ To avoid confusion, the terms **device directory / file** and **virtual
 directory / file** are used with the following meanings:
 
 - **Device directory / file** are the real directory / file stored on SD
-  / NAND that can be seen under path `nand/data/`<ID>`/extdata/` or
-  `sdmc/Nintendo 3DS/`<ID0>`/`<ID1>`/extdata/`.
+  / NAND that can be seen under path `nand/data/<ID>/extdata/` or
+  `sdmc/Nintendo 3DS/<ID0>/<ID1>/extdata/`.
 - **Virtual directory / file** are directory / file stored inside
   extdata virtual file system, which can be seen by applications in the
   mounted extdata archives.
@@ -37,9 +37,9 @@ a file system consisting of multiple virtual directories and files.
 
 An extdata with ID `ExtdataId` has the following device files:
 
-- `.../extdata/`<ExtdataID-High>`/`<ExtdataId-Low>`/Quota.dat`
+- `.../extdata/<ExtdataID-High>/<ExtdataId-Low>/Quota.dat`
   (optional)
-- `.../extdata/`<ExtdataID-High>`/`<ExtdataId-Low>`/`<SubDirID>`/`<SubFileID>
+- `.../extdata/<ExtdataID-High>/<ExtdataId-Low>/<SubDirID>/<SubFileID>`
 
 Note:
 
@@ -49,7 +49,7 @@ Note:
   format description before reading them using the extdata format
   description below.
 - `Quota.dat` is only observed existing for NAND shared extdata.
-- <SubDirID> and <SubFileID> are 8-digit hex strings.
+- `<SubDirID>` and `<SubFileID>` are 8-digit hex strings.
 - Device file with `SubDirID = SubFileID = 00000000` doesn't exist.
   Other ID combinations can exists.
 - Device file with `SubDirID = 00000000` and `SubFileID = 00000001` is
@@ -58,8 +58,7 @@ Note:
   sub files, are these device files one-to-one correspond to virtual
   files. They contain raw virtual file data in the DIFF inner content.
 - `SubDirID = 00000000` is usually the only one device directory that
-  can be seen. See [\#Device Directory
-  Capacity](#Device_Directory_Capacity "wikilink") for more information.
+  can be seen. See [Device Directory Capacity](#device-directory-capacity "wikilink") for more information.
 
 ## Quota File
 
@@ -71,7 +70,7 @@ The file seems to limit the extdata total size.
 | 0x00   | 4      | Magic "QUOT"                                                                                                                                   |
 | 0x04   | 4      | Magic 0x30000                                                                                                                                  |
 | 0x08   | 4      | 0x1000, block size                                                                                                                             |
-| 0x0C   | 4      | Always 126. Probably device directory capacity. See the [\#Device Directory Capacity](#device_directory_capacity "wikilink") more information. |
+| 0x0C   | 4      | Always 126. Probably device directory capacity. See the [Device Directory Capacity](#device-directory-capacity "wikilink") more information. |
 | 0x10   | 4      | Always 0?                                                                                                                                      |
 | 0x14   | 4      | Max number of blocks                                                                                                                           |
 | 0x18   | 4      | Always 0?                                                                                                                                      |
@@ -80,7 +79,7 @@ The file seems to limit the extdata total size.
 | 0x24   | 4      | Always 0?                                                                                                                                      |
 | 0x28   | 4      | Free blocks remained + (blocks occupied by the recently mounted file, specified by the ID below (0 if recently deleted))                       |
 | 0x2C   | 4      | Always 0?                                                                                                                                      |
-| 0x30   | 4      | ID of most recently mounted file. Same as the one in [Inner_FAT#Filesystem Header](Inner_FAT#Filesystem_Header "wikilink")                     |
+| 0x30   | 4      | ID of most recently mounted file. Same as the one in [Inner_FAT#Filesystem Header](Inner_FAT#filesystem-header "wikilink")                     |
 | 0x34   | 4      | Always 0?                                                                                                                                      |
 | 0x38   | 4      | Always 0?                                                                                                                                      |
 | 0x3C   | 4      | Always 0?                                                                                                                                      |
@@ -89,7 +88,7 @@ The file seems to limit the extdata total size.
 
 ## Device Directory Capacity
 
-A device directory in an extdata (a <SubDirID> directory) seems to have
+A device directory in an extdata (a `<SubDirID>` directory) seems to have
 a maximum number of device files it can contain. For SD extdata, this
 maximum number seems to be hard-coded as 126. For NAND extdata, the
 number is probably indicated by a field in Quota.dat, which is, again,
@@ -160,7 +159,7 @@ Other optional but notable directories include:
 - `/user/ExBanner` This virtual directory can optionally store extended
   banners. When this is available, this banner is displayed instead of
   the CXI ExeFS banner. `COMMON.bin` stores the common exbanner, while
-  <regionlang_code>`.bin` stores an optional separate region/language
+  `<regionlang_code>.bin` stores an optional separate region/language
   specific banner.(regionlang_code can be "JPN_JP", "USA_EN", etc)
 
 ## SD Extdata

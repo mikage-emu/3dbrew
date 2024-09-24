@@ -1,5 +1,6 @@
 +++
 title = 'Flash Filesystem'
+BookToC = false
 +++
 
 The Nintendo 3DS has several differently sized NAND flash chips. Due to
@@ -33,7 +34,7 @@ See [here](https://gist.github.com/yellows8/f15be7a51c38cea14f2c).
 
 ### Redirection to SD card
 
-See [NAND_Redirection](NAND_Redirection "wikilink").
+See [NAND Redirection](NAND_Redirection "wikilink").
 
 ### Encryption
 
@@ -57,20 +58,22 @@ well.
 
 ### NAND structure
 
-| Old3DS | New3DS | Partition name | Offset     | Size       | NCSD partition FS type | NCSD partition encryption type | NCSD partition index | [AES](AES_Registers "wikilink") engine keyslot | Description                                                                                                                                                                 |
-|--------|--------|----------------|------------|------------|------------------------|--------------------------------|----------------------|------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Yes    | Yes    |                | 0x0        | 0x200      |                        |                                |                      |                                                | [NCSD](NCSD "wikilink") header, this contains the offsets/sizes of the below CTR-NAND partitions. This block also contains the TWL-NAND MBR partition table.                |
-| Yes    | Yes    |                | 0x00000000 | 0x0B100000 | 0x01                   | 0x01                           | 0x00                 | 0x03                                           | TWL NAND region                                                                                                                                                             |
-| No     | Yes    |                | 0x00012C00 | 0x200      |                        |                                |                      | See below.                                     | Console-unique encrypted New3DS key-storage, see below.                                                                                                                     |
-| Yes    | Yes    | twln           | 0x00012E00 | 0x08FB5200 |                        |                                |                      | 0x03                                           | TWL-NAND FAT16 File System. (DSi)                                                                                                                                           |
-| Yes    | Yes    | twlp           | 0x09011A00 | 0x020B6600 |                        |                                |                      | 0x03                                           | TWL-NAND PHOTO FAT12 File System. (DSi)                                                                                                                                     |
-| Yes    | Yes    |                | 0x0B100000 | 0x00030000 | 0x04                   | 0x02                           | 0x01                 | 0x07                                           | By default this partition is empty(only contains 0x00/0xFF bytes since it was never written to), when AGB_FIRM was never launched. This contains the AGB_FIRM GBA savegame. |
-| Yes    | Yes    | firm0          | 0x0B130000 | 0x00400000 | 0x03                   | 0x02                           | 0x02                 | 0x06                                           | [Firmware](FIRM "wikilink") partition.                                                                                                                                      |
-| Yes    | Yes    | firm1          | 0x0B530000 | 0x00400000 | 0x03                   | 0x02                           | 0x03                 | 0x06                                           | [Firmware](FIRM "wikilink") partition.(Backup partition, same as above)                                                                                                     |
-| Yes    | No     |                | 0x0B930000 | 0x2F5D0000 | 0x01                   | 0x02                           | 0x04                 | 0x04                                           | CTR-NAND partition. (3DS)                                                                                                                                                   |
-| Yes    | No     | nand           | 0x0B95CA00 | 0x2F3E3600 |                        |                                |                      | 0x04                                           | CTR-NAND FAT16 File System.                                                                                                                                                 |
-| No     | Yes    |                | 0x0B930000 | 0x41ED0000 | 0x01                   | 0x03                           | 0x04                 | 0x05                                           | CTR-NAND partition. (New3DS)                                                                                                                                                |
-| No     | Yes    | nand           | 0x0B95AE00 | 0x41D2D200 |                        |                                |                      | 0x05                                           | CTR-NAND FAT16 File System.                                                                                                                                                 |
+
+<table>
+<tr><th>Old3DS</th><th>New3DS</th><th>Partition name</th><th>Offset    </th><th>Size      </th><th>NCSD partition FS type</th><th>NCSD partition encryption type</th><th>NCSD partition index</th><th><a href="../AES_Registers">AES</a> engine keyslot</th><th>Description
+<tr><td style="background: #ccffbb">Yes   </td><td style="background: #ccffbb">Yes   </td><td>              </td><td>0x0       </td><td>0x200     </td><td>                      </td><td>                              </td><td>                    </td><td>                                              </td><td><a href="../NCSD">NCSD</a> header, this contains the offsets/sizes of the below CTR-NAND partitions. This block also contains the TWL-NAND MBR partition table.</td></tr>
+<tr><td style="background: #ccffbb">Yes   </td><td style="background: #ccffbb">Yes   </td><td>              </td><td>0x00000000</td><td>0x0B100000</td><td>0x01                  </td><td>0x01                          </td><td>0x00                </td><td>0x03                                          </td><td>TWL NAND region                                                                                                                                             </td></tr>
+<tr><td style="background: #ffccbb">No    </td><td style="background: #ccffbb">Yes   </td><td>              </td><td>0x00012C00</td><td>0x200     </td><td>                      </td><td>                              </td><td>                    </td><td>See below.                                    </td><td>Console-unique encrypted New3DS key-storage, see below.                                                                                                     </td></tr>
+<tr><td style="background: #ccffbb">Yes   </td><td style="background: #ccffbb">Yes   </td><td>twln          </td><td>0x00012E00</td><td>0x08FB5200</td><td>                      </td><td>                              </td><td>                    </td><td>0x03                                          </td><td>TWL-NAND FAT16 File System. (DSi)                                                                                                                           </td></tr>
+<tr><td style="background: #ccffbb">Yes   </td><td style="background: #ccffbb">Yes   </td><td>twlp          </td><td>0x09011A00</td><td>0x020B6600</td><td>                      </td><td>                              </td><td>                    </td><td>0x03                                          </td><td>TWL-NAND PHOTO FAT12 File System. (DSi)                                                                                                                     </td></tr>
+<tr><td style="background: #ccffbb">Yes   </td><td style="background: #ccffbb">Yes   </td><td>              </td><td>0x0B100000</td><td>0x00030000</td><td>0x04                  </td><td>0x02                          </td><td>0x01                </td><td>0x07                                          </td><td>By default this partition is empty(only contains 0x00/0xFF bytes since it was never written to), when AGB_FIRM was never launched. This contains the AGB_FIRM GBA savegame. </td></tr>
+<tr><td style="background: #ccffbb">Yes   </td><td style="background: #ccffbb">Yes   </td><td>firm0         </td><td>0x0B130000</td><td>0x00400000</td><td>0x03                  </td><td>0x02                          </td><td>0x02                </td><td>0x06                                          </td><td><a href="../FIRM">Firmware</a> partition.                                                                                                                      </td></tr>
+<tr><td style="background: #ccffbb">Yes   </td><td style="background: #ccffbb">Yes   </td><td>firm1         </td><td>0x0B530000</td><td>0x00400000</td><td>0x03                  </td><td>0x02                          </td><td>0x03                </td><td>0x06                                          </td><td><a href="../FIRM">Firmware</a> partition.(Backup partition, same as above)                                                                                     </td></tr>
+<tr><td style="background: #ccffbb">Yes   </td><td style="background: #ffccbb">No    </td><td>              </td><td>0x0B930000</td><td>0x2F5D0000</td><td>0x01                  </td><td>0x02                          </td><td>0x04                </td><td>0x04                                          </td><td>CTR-NAND partition. (3DS)                                                                                                                                   </td></tr>
+<tr><td style="background: #ccffbb">Yes   </td><td style="background: #ffccbb">No    </td><td>nand          </td><td>0x0B95CA00</td><td>0x2F3E3600</td><td>                      </td><td>                              </td><td>                    </td><td>0x04                                          </td><td>CTR-NAND FAT16 File System.                                                                                                                                 </td></tr>
+<tr><td style="background: #ffccbb">No    </td><td style="background: #ccffbb">Yes   </td><td>              </td><td>0x0B930000</td><td>0x41ED0000</td><td>0x01                  </td><td>0x03                          </td><td>0x04                </td><td>0x05                                          </td><td>CTR-NAND partition. (New3DS)                                                                                                                                </td></tr>
+<tr><td style="background: #ffccbb">No    </td><td style="background: #ccffbb">Yes   </td><td>nand          </td><td>0x0B95AE00</td><td>0x41D2D200</td><td>                      </td><td>                              </td><td>                    </td><td>0x05                                          </td><td>CTR-NAND FAT16 File System.                                                                                                                                 </td></tr>
+<table>
 
 3DS TWL NAND FAT partitions has FAT volume name "TWL", for CTR FAT
 partitions this is "CTR". The offset/size for TWL partitions are stored
@@ -120,71 +123,59 @@ between the two).
 
 The structure of [nand/title](nand/title "wikilink") appears to be
 exactly the same as [SD](SD_Filesystem "wikilink"), except savegames are
-stored under the [nand/data/<ID0>/sysdata](System_SaveData "wikilink")
+stored under the [nand/data/&lt;ID0&gt;/sysdata](System_SaveData "wikilink")
 directory instead. The sub-directory name under
 [nand/data](nand/data "wikilink") is the SHA256 hash over the
 [movable.sed](nand/private/movable.sed "wikilink") keyY. This
-nand/data/<ID0> directory is the NAND equivalent of the "sdmc/Nintendo
-3DS/<ID0>/<ID1>" directory, however the data contained here is stored in
+nand/data/&lt;ID0&gt; directory is the NAND equivalent of the "sdmc/Nintendo
+3DS/&lt;ID0&gt;/&lt;ID1&gt;" directory, however the data contained here is stored in
 cleartext. The movable.sed keyY is only used for AES MACs for
-nand/data/<ID0>. The nand/data/<ID0>/extdata directory contains the
-shared [extdata](extdata "wikilink"), and is structured exactly the same
+nand/data/&lt;ID0&gt;. The nand/data/&lt;ID0&gt;/extdata directory contains the
+shared [extdata](Extdata "wikilink"), and is structured exactly the same
 way as SD extdata.
 
-```
+
+<pre tabindex="0">
 nand
 ├── __journal.nn_
-├── `[`data
-```](nand/data "wikilink")
-`│   └── `<ID0>
-```
-│       ├── `[`extdata`](Extdata "wikilink")`          
-│       └── `[`sysdata
-```](System_SaveData "wikilink")
-`├── `[`dbs`](Title_Database "wikilink")
-`├── `[`fixdata`](nand/fixdata "wikilink")
-`│   └── `[`sysdata`](nand/fixdata/sysdata "wikilink")
-```
+├── <a href="../nand/data">data</a>
+│   └── &lt;ID0&gt;
+│       ├── <a href="../Extdata">extdata</a>
+│       └── <a href="../System_SaveData">sysdata</a>
+├── <a href="../Title_Database">dbs</a>
+├── <a href="../Nand/fixdata">fixdata</a>
+│   └── <a href="../Nand/fixdata/sysdata">sysdata</a>
 ├── private
-│   └── `[`movable.sed
-```](nand/private/movable.sed "wikilink")
-`├── `[`ro`](nand/ro "wikilink")
-`├── `[`rw`](nand/rw "wikilink")
-```
-├── `[`ticket`](nand/ticket "wikilink")` (This directory is empty since tickets are stored in `[`ticket.db`](Title_Database "wikilink")`)
-├── `[`title
-```](Title_Data_Structure "wikilink")
-```
-└── `[`tmp`](nand/tmp "wikilink")` (This is usually empty, even when installation for a system update still needs `[`finalized`](AMNet:FinishInstallToMedia "wikilink")`)
-```
+│   └── <a href="../Nand/private/movable.sed">movable.sed</a>
+├── <a href="../Nand/ro">ro</a>
+├── <a href="../Nand/rw">rw</a>
+├── <a href="../Nand/ticket">ticket</a> (This directory is empty since tickets are stored in <a href="../Title_Database">ticket.db</a>)
+├── <a href="../Titles">title</a>
+└── <a href="../Nand/tmp">tmp</a> (This is usually empty, even when installation for a system update still needs <a href="../AMDoCleanup">finalized</a>)
+</pre>
 
 The "ro" and "rw" directories are accessible through the "nandrw" and
-"nandro" [archives](FS:OpenArchive "wikilink"), respectively. Their
+"nandro" [archives](FS:OpenArchive></a>, respectively. Their
 contents are as follows:
 
-```
+<pre tabindex="0">
 ro
-├── `[`private
-```](nandro/private "wikilink")
-`├── `[`shared`](nandro/shared "wikilink")
-`└── `[`sys`](nandro/sys "wikilink")
-`    ├── `[`HWCAL0.dat`](nandro/sys/HWCAL0.dat "wikilink")
-`    └── `[`HWCAL1.dat`](nandro/sys/HWCAL1.dat "wikilink")
-```
+├── <a href="../Nandro/private">private</a>
+├── <a href="../Nandro/shared">shared</a>
+└── <a href="../Nandro/sys">sys</a>
+    ├── <a href="../Nandro/sys/HWCAL0.dat">HWCAL0.dat</a>
+    └── <a href="../Nandro/sys/HWCAL1.dat">HWCAL1.dat</a>
+
 rw
-├── `[`shared
-```](nandrw/shared "wikilink")
-`└── `[`sys`](nandrw/sys "wikilink")
-```
-    ├── `[`lgy.log`](nandrw/sys/lgy.log "wikilink")` (This is written to by `[`TWL_FIRM`](FIRM "wikilink")` when errors occur, this is equivalent to native.log)
-    ├── `[`LocalFriendCodeSeed_B
-```](nandrw/sys/LocalFriendCodeSeed_B "wikilink")
-```
-    ├── `[`native.log`](nandrw/sys/native.log "wikilink")` (This is written to by `[`ErrDisp`](ErrDisp "wikilink")`)
-    ├── `[`rand_seed
-```](nandrw/sys/rand_seed "wikilink")
-`    ├── `[`SecureInfo_A`](nandrw/sys/SecureInfo_A "wikilink")
-`    └── `[`updater.log`](nandrw/sys/updater.log "wikilink")
+├── <a href="../Nandrw/shared">shared</a>
+└── <a href="../Nandrw/sys">sys</a>
+    ├── <a href="../Nandrw/sys/lgy.log">lgy.log</a> (This is written to by <a href="FIRM">TWL_FIRM</a> when errors occur, this is equivalent to native.log)
+    ├── <a href="../Nandrw/sys/LocalFriendCodeSeed_B">LocalFriendCodeSeed_B</a>
+    ├── <a href="../Nandrw/sys/native.log">native.log</a> (This is written to by <a href="ErrDisp">ErrDisp</a>)
+    ├── <a href="../Nandrw/sys/rand_seed">rand_seed</a>
+    ├── <a href="../Nandrw/sys/SecureInfo_A">SecureInfo_A</a>
+    └── <a href="../Nandrw/sys/updater.log">updater.log</a>
+</pre>
 
 # TWL partition
 
@@ -197,23 +188,23 @@ titles' /title directory does not exist, this likely only exists for
 DSiWare. The directory names titleID-High used under
 [twln/title](twln/title "wikilink") is from DSi.
 
-```
+<pre tabindex="0">
 twln
-├── `[`import
-```](twln/import/ "wikilink")
-`├── `[`shared1`](twln/shared1/ "wikilink")
-`├── `[`shared2`](twln/shared2/ "wikilink")
-`│   └── `[`0000`](twln/shared2/0000 "wikilink")
-`├── `[`sys`](twln/sys "wikilink")
-`│   ├── `[`TWLFontTable.dat`](twln/sys/TWLFontTable.dat "wikilink")
-`│   └── `[`log`](twln/sys/log/ "wikilink")
-`│       ├── `[`inspect.log`](twln/sys/log/inspect.log "wikilink")
-`│       └── `[`product.log`](twln/sys/log/product.log "wikilink")
-`├── `[`ticket`](twln/ticket/ "wikilink")
-`├── `[`title`](twln/title/ "wikilink")
-`└── `[`tmp`](twln/tmp/ "wikilink")
+├── <a href="../Twln/import/">import</a>
+├── <a href="../Twln/shared1/">shared1</a>
+├── <a href="../Twln/shared2/">shared2</a>
+│   └── <a href="../Twln/shared2/0000">0000</a>
+├── <a href="../Twln/sys">sys</a>
+│   ├── <a href="../Twln/sys/TWLFontTable.dat">TWLFontTable.dat</a>
+│   └── <a href="../Twln/sys/log/">log</a>
+│       ├── <a href="../Twln/sys/log/inspect.log">inspect.log</a>
+│       └── <a href="../Twln/sys/log/product.log">product.log</a>
+├── <a href="../Twln/ticket/">ticket</a>
+├── <a href="../Twln/title/">title</a>
+└── <a href="../Twln/tmp/">tmp</a>
+</pre>
 
-```
+<pre tabindex="0">
 twlp
-└── `[`photo
-```](twlp/photo/ "wikilink")
+└── <a href="../Twlp/photo/">photo</a>
+</pre>

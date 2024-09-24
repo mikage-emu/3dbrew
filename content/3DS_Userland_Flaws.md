@@ -1,5 +1,6 @@
 +++
 title = '3DS Userland Flaws'
+BookToC = false
 +++
 
 This page lists vulnerabilities / exploits for 3DS applications and

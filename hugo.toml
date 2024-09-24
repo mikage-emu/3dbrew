@@ -1,5 +1,6 @@
 baseURL = ''
 languageCode = 'en-us'
 title = '3dbrew'
+theme = 'Mainroad'
 
 disablePathToLower = true

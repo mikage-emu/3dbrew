@@ -2,10 +2,8 @@
 title = ''
 +++
 
----
----
-{{< Main/Header >}}
 {{< Main/Welcome >}}
+{{< Main/Header >}}
 {{% RenderMD %}}
 | **What is Homebrew?**                                                                                                                                                                                             | **How do I run homebrew?**                                                                                                                        |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -15,6 +13,6 @@ title = ''
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | See the [Setting up Development Environment‎](Setting_up_Development_Environment‎ "wikilink") page for a guide on how to get started with homebrew development for the 3DS. The toolchain supports Windows, Linux, and Mac OS X. | See the [Homebrew Applications](Homebrew_Applications "wikilink") page for a partial list of homebrew applications/games that can be downloaded and installed. |
 {{% /RenderMD %}}
-{{< /Main/Welcome >}}
-{{< Main/CurrentEvents >}}
 {{< Main/Navigation >}}
+{{< Main/CurrentEvents >}}
+{{< /Main/Welcome >}}

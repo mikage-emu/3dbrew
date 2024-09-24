@@ -1,4 +1,7 @@
-baseURL = ''
+baseURL = 'https://mikage-emu.github.io/3dbrew/'
 languageCode = 'en-us'
 title = '3dbrew'
 disablePathToLower = true
+
+# Broken, see https://github.com/gohugoio/hugo/issues/12130
+# relativeURLs = true

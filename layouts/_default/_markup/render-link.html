@@ -1,4 +1,5 @@
-{{- if (not (or (strings.HasPrefix .Destination "http") (strings.HasPrefix .Destination "#"))) }}
+{{ $isExternal := (strings.HasPrefix .Destination "http") }}
+{{- if (not (or $isExternal (strings.HasPrefix .Destination "#"))) }}
   {{ $style := "" }}
   {{ with $.PageInner.GetPage (index (strings.Split .Destination "#") 0) }}
   {{ else }}
@@ -16,6 +17,7 @@
     {{- with .Title }} title="{{ . }}"{{ end -}}
     {{- if (strings.HasPrefix .Destination "http") }} target="_blank" rel="external"{{ end -}}
   >
+    {{ if $isExternal }}🔗&nbsp;{{ end }}
     {{- with .Text }}{{ . }}{{ end -}}
   </a>
 {{ end -}}

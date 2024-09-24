@@ -5,7 +5,7 @@ categories = ["File formats"]
 
 # CTR Font Format
 
-[.bcfnt](.bcfnt "wikilink") files are bitmap fonts made for the 3ds. The
+`.bcfnt` files are bitmap fonts made for the 3ds. The
 system font uses this format too except the header is changed from CFNT
 to CFNU and all file offsets are changed to absolute in memory offsets.
 

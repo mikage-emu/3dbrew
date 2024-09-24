@@ -1,10 +1,6 @@
-------------------------------------------------------------------------
-
 **This software is vastly outdated. Use
 [ctrtool](https://github.com/profi200/Project_CTR/tree/master/ctrtool)
 instead!**
-
-------------------------------------------------------------------------
 
 3DSExplorer can explore various 3DS-related files and view the
 information as described on 3DBrew.

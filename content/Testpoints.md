@@ -1,3 +1,5 @@
+---
+---
 - TP52: Powerbutton. Active low with pull-up.
 - TP33 / TP34: I2C bus A, unknown.
 - TP129 / TP130: I2C bus B, unknown.

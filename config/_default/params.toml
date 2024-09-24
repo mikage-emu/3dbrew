@@ -1,5 +1,6 @@
 BookRepo = 'https://github.com/mikage-emu/3dbrew'
 BookEditPath = 'edit/main'
+BookLogo = '3dbrew2.png'
 
 [article]
 readingTime = false

@@ -4,3 +4,9 @@ title = '3dbrew'
 theme = 'Mainroad'
 
 disablePathToLower = true
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  widgets = ["categories"]

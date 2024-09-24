@@ -1,3 +1,5 @@
+---
+---
 - For the ARM11-visible registers, used for framebuffer configuration,
   GPU control and bulk data operations, see [GPU/External
   Registers](GPU/External_Registers "wikilink") and [LCD

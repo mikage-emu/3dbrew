@@ -1,3 +1,5 @@
+---
+---
 - **27 July 2021** Nintendo released system update
   [11.15.0-47](11.15.0-47 "wikilink").
 - **17 November 2020** Nintendo released system update

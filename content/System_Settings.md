@@ -6,7 +6,7 @@ title = 'System Settings'
 Transfer](System_Transfer "wikilink"), and use Data Management.
 
 All applications(CTR/TWL) launched by System Settings are launched via
-[<APT:PrepareToDoApplicationJump/APT:DoApplicationJump>](NS "wikilink"),
+[APT:PrepareToDoApplicationJump/APT:DoApplicationJump](NS_and_APT_Services "wikilink"),
 such as DS INTERNET and [System Transfer](System_Transfer "wikilink").
 
 ## Accessible services
@@ -16,7 +16,7 @@ such as DS INTERNET and [System Transfer](System_Transfer "wikilink").
 | [fs:USER](Filesystem_services#Filesystem_service_.22fs:USER.22 "wikilink")     | [v8202](9.0.0-20 "wikilink") |
 | [gsp:Gpu](GSP_Services "wikilink")                                             | [v8202](9.0.0-20 "wikilink") |
 | [ndm:u](NDM_Services "wikilink")                                               | [v8202](9.0.0-20 "wikilink") |
-| [<APT:A>](NS#.22APT:A.22_Service "wikilink")                                   | [v8202](9.0.0-20 "wikilink") |
+| [APT:A](NS_and_APT_Services#apta-service "wikilink")                                   | [v8202](9.0.0-20 "wikilink") |
 | [ac:i](AC_Services "wikilink")                                                 | [v8202](9.0.0-20 "wikilink") |
 | [act:a](ACT_Services "wikilink")                                               | [v8202](9.0.0-20 "wikilink") |
 | [am:sys](Application_Manager_Services#Application_Manager_services "wikilink") | [v8202](9.0.0-20 "wikilink") |
@@ -27,10 +27,10 @@ such as DS INTERNET and [System Transfer](System_Transfer "wikilink").
 | [dsp::DSP](DSP_Services "wikilink")                                            | [v8202](9.0.0-20 "wikilink") |
 | [frd:a](Friend_Services "wikilink")                                            | [v8202](9.0.0-20 "wikilink") |
 | [gsp::Lcd](GSP_Services "wikilink")                                            | [v8202](9.0.0-20 "wikilink") |
-| [<http:C>](HTTP_Services "wikilink")                                           | [v8202](9.0.0-20 "wikilink") |
+| [http:C](HTTP_Services "wikilink")                                           | [v8202](9.0.0-20 "wikilink") |
 | [mic:u](MIC_Services "wikilink")                                               | [v8202](9.0.0-20 "wikilink") |
-| [<news:s>](News_Services#News_service_.22news:s.22 "wikilink")                 | [v8202](9.0.0-20 "wikilink") |
-| [nim:u](NIM_Services#NIM_user_service_.22nim:u.22 "wikilink")                  | [v8202](9.0.0-20 "wikilink") |
+| [news:s](News_Services#news-service-newss "wikilink")                 | [v8202](9.0.0-20 "wikilink") |
+| [nim:u](NIM_Services#nim-updater-service-nimu "wikilink")                  | [v8202](9.0.0-20 "wikilink") |
 | [ns:s](NS#NS_Service_.22ns:s.22 "wikilink")                                    | [v8202](9.0.0-20 "wikilink") |
 | [nwm::EXT](NWM_Services#NWM_service_.22nwm::EXT.22 "wikilink")                 | [v8202](9.0.0-20 "wikilink") |
 | [nwm::INF](NWM_Services#NWM_infrastructure_service_.22nwm::INF.22 "wikilink")  | [v8202](9.0.0-20 "wikilink") |

@@ -73,7 +73,7 @@ for browser-version-check.
 Normal user-agent format:
 `Mozilla/5.0 (New Nintendo 3DS like iPhone) AppleWebKit/`<WebKit version>` (KHTML, like Gecko) NX/`<Netfront version>` Mobile NintendoBrowser/`<Mobile NintendoBrowser version>`.`<region>
 
-<region> can be one of the following: "JP", "US", or "EU".
+`<region>` can be one of the following: "JP", "US", or "EU".
 
 Mobile User-Agent is always
 `Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A403 Safari/8536.25`.
@@ -586,7 +586,7 @@ Old3DS browser doesn't support events "focusin" and "focusout"
 
 User-agent format: `Mozilla/5.0 (Nintendo 3DS; U; ; <lang>) Version/<version>.<region>`
 
-`<lang>` is "en", "fr", etc. <region> is "US", "EU", etc. See below for
+`<lang>` is "en", "fr", etc. `<region>` is "US", "EU", etc. See below for
 `<version>`.
 
 <table>
@@ -953,10 +953,10 @@ browser session.
 The browser codebins starting with v9.9 now contain the following URL
 strings:
 
-- Old3DS: "https://cbvc.cdn.nintendo.net/CTR/1/\<region\>"
-- New3DS: "https://cbvc.cdn.nintendo.net/SNAKE/1/\<region\>"
+- Old3DS: `https://cbvc.cdn.nintendo.net/CTR/1/\<region\>`
+- New3DS: `https://cbvc.cdn.nintendo.net/SNAKE/1/\<region\>`
 
-The <region> string is one of the following:
+The `<region>` string is one of the following:
 
 - "JPN"
 - "USA"

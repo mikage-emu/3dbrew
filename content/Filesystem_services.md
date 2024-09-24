@@ -328,8 +328,8 @@ archive.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0</p></td>
-<td><p>Type:</p>
+<td>0</td>
+<td>Type:</p>
 <ul>
 <li>0x0: RomFS</li>
 <li>0x1: error 0xD9004676</li>
@@ -340,9 +340,9 @@ archive.
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>1-2</p></td>
-<td><p>File name for ExeFS ("icon"/"banner"/"logo"). ".code" is not
-allowed</p></td>
+<td>1-2</td>
+<td>File name for ExeFS ("icon"/"banner"/"logo"). ".code" is not
+allowed</td>
 </tr>
 </tbody>
 </table>
@@ -452,8 +452,8 @@ that lowpath set to all-zero(lowpath is different from archive
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0</p></td>
-<td><p>See above. The only values which FS-module doesn't allow to be
+<td>0</td>
+<td>See above. The only values which FS-module doesn't allow to be
 used here are:</p>
 <ul>
 <li>0x1: Error 0xE0E046BE.</li>
@@ -462,8 +462,8 @@ used here are:</p>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>1-2</p></td>
-<td><p>See above. Not validated by FS-module.</p></td>
+<td>1-2</td>
+<td>See above. Not validated by FS-module.</td>
 </tr>
 </tbody>
 </table>

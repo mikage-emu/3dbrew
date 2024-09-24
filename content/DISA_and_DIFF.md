@@ -84,14 +84,14 @@ This CMAC type is used for gamecard savegames. It is 0x28-byte long.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x00</p></td>
-<td><p>8</p></td>
-<td><p>Magic "CTR-NOR0"</p></td>
+<td>0x00</td>
+<td>8</td>
+<td>Magic "CTR-NOR0"</td>
 </tr>
 <tr class="even">
-<td><p>0x8</p></td>
-<td><p>0x20</p></td>
-<td><p>SHA-256 of the following 0x108-byte block</p>
+<td>0x8</td>
+<td>0x20</td>
+<td>SHA-256 of the following 0x108-byte block</p>
 <table>
 <thead>
 <tr class="header">
@@ -102,14 +102,14 @@ This CMAC type is used for gamecard savegames. It is 0x28-byte long.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x00</p></td>
-<td><p>8</p></td>
-<td><p>Magic "CTR-SAV0"</p></td>
+<td>0x00</td>
+<td>8</td>
+<td>Magic "CTR-SAV0"</td>
 </tr>
 <tr class="even">
-<td><p>0x08</p></td>
-<td><p>0x100</p></td>
-<td><p>Copy of the DISA header</p></td>
+<td>0x08</td>
+<td>0x100</td>
+<td>Copy of the DISA header</td>
 </tr>
 </tbody>
 </table></td>
@@ -131,19 +131,19 @@ This CMAC type is used for SD savegames. It is 0x30-byte long.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x00</p></td>
-<td><p>8</p></td>
-<td><p>Magic "CTR-SIGN"</p></td>
+<td>0x00</td>
+<td>8</td>
+<td>Magic "CTR-SIGN"</td>
 </tr>
 <tr class="even">
-<td><p>0x08</p></td>
-<td><p>8</p></td>
-<td><p>Title ID</p></td>
+<td>0x08</td>
+<td>8</td>
+<td>Title ID</td>
 </tr>
 <tr class="odd">
-<td><p>0x10</p></td>
-<td><p>0x20</p></td>
-<td><p>SHA-256 of the following 0x108-byte block</p>
+<td>0x10</td>
+<td>0x20</td>
+<td>SHA-256 of the following 0x108-byte block</p>
 <table>
 <thead>
 <tr class="header">
@@ -154,14 +154,14 @@ This CMAC type is used for SD savegames. It is 0x30-byte long.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x00</p></td>
-<td><p>8</p></td>
-<td><p>Magic "CTR-SAV0"</p></td>
+<td>0x00</td>
+<td>8</td>
+<td>Magic "CTR-SAV0"</td>
 </tr>
 <tr class="even">
-<td><p>0x08</p></td>
-<td><p>0x100</p></td>
-<td><p>Copy of the DISA header</p></td>
+<td>0x08</td>
+<td>0x100</td>
+<td>Copy of the DISA header</td>
 </tr>
 </tbody>
 </table></td>

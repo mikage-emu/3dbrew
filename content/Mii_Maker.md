@@ -52,148 +52,148 @@ nonce data in the middle. (See [Wrap](APT:Wrap "wikilink") and
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x0</p></td>
-<td><p>0x4</p></td>
-<td><p>Mii ID (big-endian 32-bit unsigned integer)<br />
+<td>0x0</td>
+<td>0x4</td>
+<td>Mii ID (big-endian 32-bit unsigned integer)<br />
 The most significant 3 bits determine whether the Mii is Special,
 Foreign, or Normal <a
 href="https://web.archive.org/web/20071011001718/http://www.davidhawley.co.uk/special-miis-gold-pants-and-creating.aspx">1</a><br />
 time_offset = (mii_id &amp; 0x0FFFFFFF) * 2;<br />
 time_offset is the time the Mii was created, represented as the number
-of seconds since 01/01/2010 00:00:00</p></td>
+of seconds since 01/01/2010 00:00:00</td>
 </tr>
 <tr class="even">
-<td><p>0x4</p></td>
-<td><p>0x4</p></td>
-<td><p>High 4 octets of MAC address <a
-href="http://www.adminsub.net/mac-address-finder/nintendo">2</a></p></td>
+<td>0x4</td>
+<td>0x4</td>
+<td>High 4 octets of MAC address <a
+href="http://www.adminsub.net/mac-address-finder/nintendo">2</a></td>
 </tr>
 <tr class="odd">
-<td><p>0x8</p></td>
-<td><p>0x4</p></td>
-<td><p><a href="../Mii#Mii_ID" title="wikilink">Mii ID</a>, the encrypted
-data begins here.</p></td>
+<td>0x8</td>
+<td>0x4</td>
+<td><a href="../Mii#Mii_ID" title="wikilink">Mii ID</a>, the encrypted
+data begins here.</td>
 </tr>
 <tr class="even">
-<td><p>0xC</p></td>
-<td><p>0x8</p></td>
-<td><p>System ID (this ID is produced by the output from <a
-href="../CfgGenHashConsoleUnique">GenHashConsoleUnique(0x0)</a>)</p></td>
+<td>0xC</td>
+<td>0x8</td>
+<td>System ID (this ID is produced by the output from <a
+href="../CfgGenHashConsoleUnique">GenHashConsoleUnique(0x0)</a>)</td>
 </tr>
 <tr class="odd">
-<td><p>0x14</p></td>
-<td><p>0x2</p></td>
-<td><p>Low 2 octets of MAC address</p></td>
+<td>0x14</td>
+<td>0x2</td>
+<td>Low 2 octets of MAC address</td>
 </tr>
 <tr class="even">
-<td><p>0x16</p></td>
-<td><p>0x2</p></td>
-<td><p>padding (0000)</p></td>
+<td>0x16</td>
+<td>0x2</td>
+<td>padding (0000)</td>
 </tr>
 <tr class="odd">
-<td><p>0x18</p></td>
-<td><p>0x2</p></td>
-<td><p>Bit-mapped: Birthday (4bit-day,5bit-month), Sex, Shirt,
-??</p></td>
+<td>0x18</td>
+<td>0x2</td>
+<td>Bit-mapped: Birthday (4bit-day,5bit-month), Sex, Shirt,
+??</td>
 </tr>
 <tr class="even">
-<td><p>0x1A</p></td>
-<td><p>0x14</p></td>
-<td><p>UTF-16 Mii Name (10 chars max)</p></td>
+<td>0x1A</td>
+<td>0x14</td>
+<td>UTF-16 Mii Name (10 chars max)</td>
 </tr>
 <tr class="odd">
-<td><p>0x2E</p></td>
-<td><p>0x2</p></td>
-<td><p>width &amp; height</p></td>
+<td>0x2E</td>
+<td>0x2</td>
+<td>width &amp; height</td>
 </tr>
 <tr class="even">
-<td><p>0x30</p></td>
-<td><p>0x1</p></td>
-<td><p>bit 0: disable sharing<br />
+<td>0x30</td>
+<td>0x1</td>
+<td>bit 0: disable sharing<br />
 bit 1-4: face shape<br />
-bit 5-7: skin color</p></td>
+bit 5-7: skin color</td>
 </tr>
 <tr class="odd">
-<td><p>0x31</p></td>
-<td><p>0x1</p></td>
-<td><p>bit 0-3: wrinkles<br />
-bit 4-7: makeup</p></td>
+<td>0x31</td>
+<td>0x1</td>
+<td>bit 0-3: wrinkles<br />
+bit 4-7: makeup</td>
 </tr>
 <tr class="even">
-<td><p>0x32</p></td>
-<td><p>0x1</p></td>
-<td><p>hair style</p></td>
+<td>0x32</td>
+<td>0x1</td>
+<td>hair style</td>
 </tr>
 <tr class="odd">
-<td><p>0x33</p></td>
-<td><p>0x1</p></td>
-<td><p>bit 0-2: hair color<br />
-bit 3: flip hair</p></td>
+<td>0x33</td>
+<td>0x1</td>
+<td>bit 0-2: hair color<br />
+bit 3: flip hair</td>
 </tr>
 <tr class="even">
-<td><p>0x34</p></td>
-<td><p>0x4</p></td>
-<td><p>unknown</p></td>
+<td>0x34</td>
+<td>0x4</td>
+<td>unknown</td>
 </tr>
 <tr class="odd">
-<td><p>0x38</p></td>
-<td><p>0x1</p></td>
-<td><p>bit 0-4: eyebrow style<br />
-bit 5-7: eyebrow color</p></td>
+<td>0x38</td>
+<td>0x1</td>
+<td>bit 0-4: eyebrow style<br />
+bit 5-7: eyebrow color</td>
 </tr>
 <tr class="even">
-<td><p>0x39</p></td>
-<td><p>0x1</p></td>
-<td><p>bit 0-3: eyebrow scale<br />
-bit 4-6: eyebrow yscale</p></td>
+<td>0x39</td>
+<td>0x1</td>
+<td>bit 0-3: eyebrow scale<br />
+bit 4-6: eyebrow yscale</td>
 </tr>
 <tr class="odd">
-<td><p>0x3A</p></td>
-<td><p>0x2</p></td>
-<td><p>note that the bytes are swapped over (little-endian layout)<br />
+<td>0x3A</td>
+<td>0x2</td>
+<td>note that the bytes are swapped over (little-endian layout)<br />
 bit 0-3: eyebrow rotation<br />
 bit 5-8: eyebrow x spacing<br />
-bit 9-13: eyebrow y position</p></td>
+bit 9-13: eyebrow y position</td>
 </tr>
 <tr class="even">
-<td><p>0x3C</p></td>
-<td><p>0x1</p></td>
-<td><p>Allow Copying</p></td>
+<td>0x3C</td>
+<td>0x1</td>
+<td>Allow Copying</td>
 </tr>
 <tr class="odd">
-<td><p>0x3D</p></td>
-<td><p>0x3</p></td>
-<td><p>unknown</p></td>
+<td>0x3D</td>
+<td>0x3</td>
+<td>unknown</td>
 </tr>
 <tr class="even">
-<td><p>0x40</p></td>
-<td><p>0x1</p></td>
-<td><p>Mii Sharing Value</p></td>
+<td>0x40</td>
+<td>0x1</td>
+<td>Mii Sharing Value</td>
 </tr>
 <tr class="odd">
-<td><p>0x41</p></td>
-<td><p>0x7</p></td>
-<td><p>unknown</p></td>
+<td>0x41</td>
+<td>0x7</td>
+<td>unknown</td>
 </tr>
 <tr class="even">
-<td><p>0x48</p></td>
-<td><p>0x14</p></td>
-<td><p>UTF-16 Author Name (10 chars max)</p></td>
+<td>0x48</td>
+<td>0x14</td>
+<td>UTF-16 Author Name (10 chars max)</td>
 </tr>
 <tr class="odd">
-<td><p>0x5C</p></td>
-<td><p>0x2</p></td>
-<td><p>unknown</p></td>
+<td>0x5C</td>
+<td>0x2</td>
+<td>unknown</td>
 </tr>
 <tr class="even">
-<td><p>0x5E</p></td>
-<td><p>0x2</p></td>
-<td><p>CRC16 over the previous 0x5E</p></td>
+<td>0x5E</td>
+<td>0x2</td>
+<td>CRC16 over the previous 0x5E</td>
 </tr>
 <tr class="odd">
-<td><p>0x60</p></td>
-<td><p>0x10</p></td>
-<td><p>AES-CCM MAC</p></td>
+<td>0x60</td>
+<td>0x10</td>
+<td>AES-CCM MAC</td>
 </tr>
 </tbody>
 </table>

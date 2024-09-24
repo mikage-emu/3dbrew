@@ -178,26 +178,26 @@ Usage examples:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x00000000 | ((num_handles-1)&lt;&lt;26)</p>
+<td>0x00000000 | ((num_handles-1)&lt;&lt;26)</p>
 <p>&lt;handle 0&gt;</p>
-<p>&lt;handle 1&gt; ...</p></td>
-<td><p>Copies the given KHandles to the receiving process, i.e. creating
+<p>&lt;handle 1&gt; ...</td>
+<td>Copies the given KHandles to the receiving process, i.e. creating
 new handles in the target process while keeping around the ones of the
 source process. When a handle value is 0x0, value 0x0 is written to the
-destination cmdbuf without doing any actual handle-transfer.</p></td>
+destination cmdbuf without doing any actual handle-transfer.</td>
 </tr>
 <tr class="even">
-<td><p>0x00000010 | ((num_handles-1)&lt;&lt;26)</p>
+<td>0x00000010 | ((num_handles-1)&lt;&lt;26)</p>
 <p>&lt;handle 0&gt;</p>
-<p>&lt;handle 1&gt; ...</p></td>
-<td><p>Moves the given KHandles to the receiving process, i.e. creating
+<p>&lt;handle 1&gt; ...</td>
+<td>Moves the given KHandles to the receiving process, i.e. creating
 new handles in the target process and closing the ones of the source
 process. When a handle value is 0x0, value 0x0 is written to the
-destination cmdbuf without doing any actual handle-transfer.</p></td>
+destination cmdbuf without doing any actual handle-transfer.</td>
 </tr>
 <tr class="odd">
-<td><p>0x00000020 <placeholder></p></td>
-<td><p>Let kernel set value to calling process ProcessID.</p></td>
+<td>0x00000020 <placeholder></td>
+<td>Let kernel set value to calling process ProcessID.</td>
 </tr>
 </tbody>
 </table>

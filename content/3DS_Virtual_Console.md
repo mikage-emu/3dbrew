@@ -202,53 +202,53 @@ little-endian.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x000</p></td>
-<td><p>0x4</p></td>
-<td><p>Padding</p></td>
+<td>0x000</td>
+<td>0x4</td>
+<td>Padding</td>
 </tr>
 <tr class="even">
-<td><p>0x004</p></td>
-<td><p>0x4</p></td>
-<td><p>GBA ROM Filesize</p></td>
+<td>0x004</td>
+<td>0x4</td>
+<td>GBA ROM Filesize</td>
 </tr>
 <tr class="odd">
-<td><p>0x008</p></td>
-<td><p>0x4</p></td>
-<td><p>Save type (see below for supported values and <a
+<td>0x008</td>
+<td>0x4</td>
+<td>Save type (see below for supported values and <a
 href="../ARM7_Registers#ARM7_SAVE_MODE" title="wikilink">here</a> for
-details)</p></td>
+details)</td>
 </tr>
 <tr class="even">
-<td><p>0x00C</p></td>
-<td><p>0x2</p></td>
-<td><p>Padding (set to FF FF usually?)</p></td>
+<td>0x00C</td>
+<td>0x2</td>
+<td>Padding (set to FF FF usually?)</td>
 </tr>
 <tr class="odd">
-<td><p>0x00E</p></td>
-<td><p>0x2</p></td>
-<td><p>Sleep mode button combo (utilizes the same bit masks as the <a
+<td>0x00E</td>
+<td>0x2</td>
+<td>Sleep mode button combo (utilizes the same bit masks as the <a
 href="../HID_Registers#HID_PAD" title="wikilink">HID_PAD register</a>, with
 flipped bits).<br />
 If the GBA title supports a button-combo based sleep mode and it's set
 here, Agbbg spoofs this combo when closing the 3DS' lid to enter proper
-sleep mode.</p></td>
+sleep mode.</td>
 </tr>
 <tr class="even">
-<td><p>0x010</p></td>
-<td><p>0x10</p></td>
-<td><p>Flash and EEPROM configuration (see the target registers <a
-href="../ARM7_Registers" title="wikilink">here</a>)</p></td>
+<td>0x010</td>
+<td>0x10</td>
+<td>Flash and EEPROM configuration (see the target registers <a
+href="../ARM7_Registers" title="wikilink">here</a>)</td>
 </tr>
 <tr class="odd">
-<td><p>0x020</p></td>
-<td><p>0x4</p></td>
-<td><p>LCD ghosting (01-FF, lower values equal more ghosting)</p></td>
+<td>0x020</td>
+<td>0x4</td>
+<td>LCD ghosting (01-FF, lower values equal more ghosting)</td>
 </tr>
 <tr class="even">
-<td><p>0x024</p></td>
-<td><p>0x300</p></td>
-<td><p>Video LUT (black to full, rgbrgbrgb...)?,<br />
-three different types of this data have been observed.</p></td>
+<td>0x024</td>
+<td>0x300</td>
+<td>Video LUT (black to full, rgbrgbrgb...)?,<br />
+three different types of this data have been observed.</td>
 </tr>
 </tbody>
 </table>

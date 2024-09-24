@@ -13,19 +13,19 @@ title = 'MCURTC:SetRTC'
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0</p></td>
-<td><p>Header code [0x00010080]</p></td>
+<td>0</td>
+<td>Header code [0x00010080]</td>
 </tr>
 <tr class="even">
-<td><p>1-2</p></td>
-<td><p><code> u8 seconds,</code><br />
+<td>1-2</td>
+<td><code> u8 seconds,</code><br />
 <code> u8 minutes,</code><br />
 <code> u8 hours,</code><br />
 <code> u8 dayofweek,</code><br />
 <code> u8 dayofmonth,</code><br />
 <code> u8 month,</code><br />
 <code> u8 year,</code><br />
-<code> u8 leapcount</code></p></td>
+<code> u8 leapcount</code></td>
 </tr>
 </tbody>
 </table>

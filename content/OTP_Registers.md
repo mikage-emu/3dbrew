@@ -54,71 +54,71 @@ the AES keyinit function, but when hash verification fails it will pass
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x0</p></td>
-<td><p>0x4</p></td>
-<td><p>This is always 0xDEADB00F.</p></td>
+<td>0x0</td>
+<td>0x4</td>
+<td>This is always 0xDEADB00F.</td>
 </tr>
 <tr class="even">
-<td><p>0x4</p></td>
-<td><p>0x4</p></td>
-<td><p>This is the u32 DeviceId.</p></td>
+<td>0x4</td>
+<td>0x4</td>
+<td>This is the u32 DeviceId.</td>
 </tr>
 <tr class="odd">
-<td><p>0x8</p></td>
-<td><p>0x10</p></td>
-<td><p>This is the fall-back keyY used for movable.sed keyY when
+<td>0x8</td>
+<td>0x10</td>
+<td>This is the fall-back keyY used for movable.sed keyY when
 movable.sed doesn't exist in NAND(the first two words here are used on
 retail for generating console-unique TWL keydata/etc). This is also used
-for "LocalFriendCodeSeed", etc.</p></td>
+for "LocalFriendCodeSeed", etc.</td>
 </tr>
 <tr class="even">
-<td><p>0x18</p></td>
-<td><p>0x1</p></td>
-<td><p>OTP version</p></td>
+<td>0x18</td>
+<td>0x1</td>
+<td>OTP version</td>
 </tr>
 <tr class="odd">
-<td><p>0x19</p></td>
-<td><p>0x1</p></td>
-<td><p>This determines if the OTP is for a dev system; it indicates the
+<td>0x19</td>
+<td>0x1</td>
+<td>This determines if the OTP is for a dev system; it indicates the
 <a href="../CTCert" title="wikilink">CTCert</a> issuer type: 0 = retail
 "Nintendo CA - G3_NintendoCTR2prod", non-zero = dev "Nintendo CA -
-G3_NintendoCTR2dev".</p></td>
+G3_NintendoCTR2dev".</td>
 </tr>
 <tr class="even">
-<td><p>0x1A</p></td>
-<td><p>0x6</p></td>
-<td><p>Manufacturing date (of the SoC?). Usually month(s) before the
+<td>0x1A</td>
+<td>0x6</td>
+<td>Manufacturing date (of the SoC?). Usually month(s) before the
 dates in the logs stored in <a href="../Flash_Filesystem"
 title="wikilink">TWLNAND</a>. Each byte is one field: year, month, day,
 hour, minute, second. Year is encoded as year-1900 so that it fits in
 one byte. This order matches up with the layout of a
-<code>struct tm</code>.</p></td>
+<code>struct tm</code>.</td>
 </tr>
 <tr class="odd">
-<td><p>0x20</p></td>
-<td><p>0x4</p></td>
-<td><p>This is the CTCert expiry time as UNIX timestamp, this is
-specified in big endian if the OTP version is &lt;5.</p></td>
+<td>0x20</td>
+<td>0x4</td>
+<td>This is the CTCert expiry time as UNIX timestamp, this is
+specified in big endian if the OTP version is &lt;5.</td>
 </tr>
 <tr class="even">
-<td><p>0x24</p></td>
-<td><p>0x20</p></td>
-<td><p>This is the CTCert ECDSA privk.</p></td>
+<td>0x24</td>
+<td>0x20</td>
+<td>This is the CTCert ECDSA privk.</td>
 </tr>
 <tr class="odd">
-<td><p>0x44</p></td>
-<td><p>0x3C</p></td>
-<td><p>This is the CTCert ECDSA signature (sect233r1?/SHA-256).</p></td>
+<td>0x44</td>
+<td>0x3C</td>
+<td>This is the CTCert ECDSA signature (sect233r1?/SHA-256).</td>
 </tr>
 <tr class="even">
-<td><p>0x80</p></td>
-<td><p>0x10</p></td>
-<td><p>This is all-zero.</p></td>
+<td>0x80</td>
+<td>0x10</td>
+<td>This is all-zero.</td>
 </tr>
 <tr class="odd">
-<td><p>0x90</p></td>
-<td><p>0x70</p></td>
-<td><p>Used by Boot9 for generating the console-unique AES <a
+<td>0x90</td>
+<td>0x70</td>
+<td>Used by Boot9 for generating the console-unique AES <a
 href="../AES_Registers" title="wikilink">keyXs</a>. However, due to a
 bug(?) in Boot9, only the first 0x1C-bytes here actually affect
 console-unique key generation. The rest of the data is used for hashing,
@@ -126,12 +126,12 @@ but that output hash only gets overwritten without being used
 afterwards.</p>
 <p>Note that the size passed to the Boot9 keyinit code for
 console-unique-buffer-size is 0x70, hence this includes the below OTP
-hash.</p></td>
+hash.</td>
 </tr>
 <tr class="even">
-<td><p>0xE0</p></td>
-<td><p>0x20</p></td>
-<td><p>SHA256 hash over the previous 0xE0-bytes.</p></td>
+<td>0xE0</td>
+<td>0x20</td>
+<td>SHA256 hash over the previous 0xE0-bytes.</td>
 </tr>
 </tbody>
 </table>

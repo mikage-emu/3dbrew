@@ -156,130 +156,130 @@ ESR = Extended Special Function Register (SFR bank 2, range F0000h -�
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>01</p></td>
-<td><p>-6V</p></td>
+<td>01</td>
+<td>-6V</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>02</p></td>
-<td><p>12V</p></td>
+<td>02</td>
+<td>12V</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>03</p></td>
-<td><p>CLK</p></td>
-<td><p>Pixel clock</p></td>
+<td>03</td>
+<td>CLK</td>
+<td>Pixel clock</td>
 </tr>
 <tr class="even">
-<td><p>04</p></td>
-<td><p>/HBL</p></td>
-<td><p>Horizontal blank (low while blanking)</p></td>
+<td>04</td>
+<td>/HBL</td>
+<td>Horizontal blank (low while blanking)</td>
 </tr>
 <tr class="odd">
-<td><p>05</p></td>
-<td><p>/VBL</p></td>
-<td><p>Vertical blank (low while blanking)</p></td>
+<td>05</td>
+<td>/VBL</td>
+<td>Vertical blank (low while blanking)</td>
 </tr>
 <tr class="even">
-<td><p>06</p></td>
-<td><p>2v2</p></td>
-<td><p>Loopback of pin 07?</p></td>
+<td>06</td>
+<td>2v2</td>
+<td>Loopback of pin 07?</td>
 </tr>
 <tr class="odd">
-<td><p>07</p></td>
-<td><p>2v2</p></td>
-<td><p>Content latch? Shorting this to ground or to pin 06 will "lock"
+<td>07</td>
+<td>2v2</td>
+<td>Content latch? Shorting this to ground or to pin 06 will "lock"
 the screen memory while still allowing the screen to refresh
-itself.</p></td>
+itself.</td>
 </tr>
 <tr class="even">
-<td><p>08</p></td>
-<td><p>GND</p></td>
-<td><p>"chassi" ground</p></td>
+<td>08</td>
+<td>GND</td>
+<td>"chassi" ground</td>
 </tr>
 <tr class="odd">
-<td><p>09</p></td>
-<td><p>HCL</p></td>
-<td><p>Horizontal clock</p></td>
+<td>09</td>
+<td>HCL</td>
+<td>Horizontal clock</td>
 </tr>
 <tr class="even">
-<td><p>10</p></td>
-<td><p>GND</p></td>
-<td><p>"chassi" ground</p></td>
+<td>10</td>
+<td>GND</td>
+<td>"chassi" ground</td>
 </tr>
 <tr class="odd">
-<td><p>11</p></td>
-<td><p>BIAS 1</p></td>
-<td><p>Default ~ 4.5V - 4.8V; sets contrast</p></td>
+<td>11</td>
+<td>BIAS 1</td>
+<td>Default ~ 4.5V - 4.8V; sets contrast</td>
 </tr>
 <tr class="even">
-<td><p>12</p></td>
-<td><p>BIAS 2</p></td>
-<td><p>Usually matches BIAS 1; sets "flicker"</p></td>
+<td>12</td>
+<td>BIAS 2</td>
+<td>Usually matches BIAS 1; sets "flicker"</td>
 </tr>
 <tr class="odd">
-<td><p>13</p></td>
-<td><p>???</p></td>
-<td><p>Might be a transistor? Shorted to ground if off, 2.36V if
-on.</p></td>
+<td>13</td>
+<td>???</td>
+<td>Might be a transistor? Shorted to ground if off, 2.36V if
+on.</td>
 </tr>
 <tr class="even">
-<td><p>14</p></td>
-<td><p>6V</p></td>
+<td>14</td>
+<td>6V</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>15</p></td>
-<td><p>???</p></td>
-<td><p>Loopback of pin 14 ? Shorting this with pin 14 or ground will
-make the 3DS turn off with a harsh pop sound.</p></td>
+<td>15</td>
+<td>???</td>
+<td>Loopback of pin 14 ? Shorting this with pin 14 or ground will
+make the 3DS turn off with a harsh pop sound.</td>
 </tr>
 <tr class="even">
-<td><p>16</p></td>
-<td><p>???</p></td>
-<td><p>???</p></td>
+<td>16</td>
+<td>???</td>
+<td>???</td>
 </tr>
 <tr class="odd">
-<td><p>17</p></td>
-<td><p>???</p></td>
-<td><p>???</p></td>
+<td>17</td>
+<td>???</td>
+<td>???</td>
 </tr>
 <tr class="even">
-<td><p>18</p>
+<td>18</p>
 <p>[...]</p>
-<p>25</p></td>
-<td><p>RED 0</p>
+<p>25</td>
+<td>RED 0</p>
 <p>[...]</p>
-<p>RED 7</p></td>
-<td><p>Red pixel bits</p></td>
+<p>RED 7</td>
+<td>Red pixel bits</td>
 </tr>
 <tr class="odd">
-<td><p>26</p></td>
-<td><p>GND</p></td>
-<td><p>"chassi" ground</p></td>
+<td>26</td>
+<td>GND</td>
+<td>"chassi" ground</td>
 </tr>
 <tr class="even">
-<td><p>27</p>
+<td>27</p>
 <p>[...]</p>
-<p>34</p></td>
-<td><p>BLUE 7</p>
+<p>34</td>
+<td>BLUE 7</p>
 <p>[...]</p>
-<p>BLUE 0</p></td>
-<td><p>Blue pixel bits</p></td>
+<p>BLUE 0</td>
+<td>Blue pixel bits</td>
 </tr>
 <tr class="odd">
-<td><p>35</p></td>
-<td><p>GND</p></td>
-<td><p>"chassi" ground</p></td>
+<td>35</td>
+<td>GND</td>
+<td>"chassi" ground</td>
 </tr>
 <tr class="even">
-<td><p>36</p>
+<td>36</p>
 <p>[...]</p>
-<p>43</p></td>
-<td><p>GREEN 7</p>
+<p>43</td>
+<td>GREEN 7</p>
 <p>[...]</p>
-<p>GREEN 0</p></td>
-<td><p>Green pixel bits</p></td>
+<p>GREEN 0</td>
+<td>Green pixel bits</td>
 </tr>
 </tbody>
 </table>

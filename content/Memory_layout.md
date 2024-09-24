@@ -160,94 +160,94 @@ These are the same for both Old3DS/New3DS.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x01FF8000</p></td>
+<td>0x01FF8000</td>
 <td></td>
-<td><p>0x0</p></td>
-<td><p>0x3700</p></td>
-<td><p>Uninitialized memory.</p></td>
+<td>0x0</td>
+<td>0x3700</td>
+<td>Uninitialized memory.</td>
 </tr>
 <tr class="even">
-<td><p>0x01FFB700</p></td>
-<td><p>0x07FFB700</p></td>
-<td><p>0x3700</p></td>
-<td><p>0x100</p></td>
-<td><p>The unprotected ARM9-bootrom code copies code from unprotected
+<td>0x01FFB700</td>
+<td>0x07FFB700</td>
+<td>0x3700</td>
+<td>0x100</td>
+<td>The unprotected ARM9-bootrom code copies code from unprotected
 bootrom to 0x07FFB700(ITCM mirror) size 0x100, then calls the code at
 0x07FFB700. The code located here is the code used for disabling access
-to the bootroms.</p></td>
+to the bootroms.</td>
 </tr>
 <tr class="odd">
-<td><p>0x01FFB800</p></td>
+<td>0x01FFB800</td>
 <td></td>
-<td><p>0x3800</p></td>
-<td><p>0x100</p></td>
-<td><p>This is the first 0x90 bytes of <a
+<td>0x3800</td>
+<td>0x100</td>
+<td>This is the first 0x90 bytes of <a
 href="../OTP_Registers#Plaintext_OTP" title="wikilink">plaintext OTP</a>
 when OTP hash verification is successful. The remaining 0x70 bytes are
-cleared.</p></td>
+cleared.</td>
 </tr>
 <tr class="even">
-<td><p>0x01FFB880</p></td>
+<td>0x01FFB880</td>
 <td></td>
-<td><p>0x3890</p></td>
-<td><p>0x70</p></td>
-<td><p>This is all zeros; boot ROM does not reveal the console-specific
-keys or the OTP hash in ITCM.</p></td>
+<td>0x3890</td>
+<td>0x70</td>
+<td>This is all zeros; boot ROM does not reveal the console-specific
+keys or the OTP hash in ITCM.</td>
 </tr>
 <tr class="odd">
-<td><p>0x01FFB900</p></td>
+<td>0x01FFB900</td>
 <td></td>
-<td><p>0x3900</p></td>
-<td><p>0x200</p></td>
-<td><p>This is the 0x200-bytes from NAND sector0.</p></td>
+<td>0x3900</td>
+<td>0x200</td>
+<td>This is the 0x200-bytes from NAND sector0.</td>
 </tr>
 <tr class="even">
-<td><p>0x01FFBB00</p></td>
+<td>0x01FFBB00</td>
 <td></td>
-<td><p>0x3B00</p></td>
-<td><p>0x200</p></td>
-<td><p>This is the 0x200-bytes from the plaintext FIRM header for the
+<td>0x3B00</td>
+<td>0x200</td>
+<td>This is the 0x200-bytes from the plaintext FIRM header for the
 FIRM which was loaded by <a href="../Bootloader"
 title="wikilink">Boot9</a>. This is the only location Boot9 uses for
 storing the loaded FIRM headers internally, it's not stored anywhere
-else.</p></td>
+else.</td>
 </tr>
 <tr class="odd">
-<td><p>0x01FFBD00</p></td>
+<td>0x01FFBD00</td>
 <td></td>
-<td><p>0x3D00</p></td>
-<td><p>0x100</p></td>
-<td><p>This is the RSA-2048 modulus for <a href="../RSA_Registers"
-title="wikilink">RSA</a>-engine slot0 set by bootrom.</p></td>
+<td>0x3D00</td>
+<td>0x100</td>
+<td>This is the RSA-2048 modulus for <a href="../RSA_Registers"
+title="wikilink">RSA</a>-engine slot0 set by bootrom.</td>
 </tr>
 <tr class="even">
-<td><p>0x01FFBE00</p></td>
+<td>0x01FFBE00</td>
 <td></td>
-<td><p>0x3E00</p></td>
-<td><p>0x100</p></td>
-<td><p>This is the RSA-2048 modulus for RSA-engine slot1 set by
-bootrom.</p></td>
+<td>0x3E00</td>
+<td>0x100</td>
+<td>This is the RSA-2048 modulus for RSA-engine slot1 set by
+bootrom.</td>
 </tr>
 <tr class="odd">
-<td><p>0x01FFBF00</p></td>
+<td>0x01FFBF00</td>
 <td></td>
-<td><p>0x3F00</p></td>
-<td><p>0x100</p></td>
-<td><p>This is the RSA-2048 modulus for RSA-engine slot2.</p></td>
+<td>0x3F00</td>
+<td>0x100</td>
+<td>This is the RSA-2048 modulus for RSA-engine slot2.</td>
 </tr>
 <tr class="even">
-<td><p>0x01FFC000</p></td>
+<td>0x01FFC000</td>
 <td></td>
-<td><p>0x4000</p></td>
-<td><p>0x100</p></td>
-<td><p>This is the RSA-2048 modulus for RSA-engine slot3.</p></td>
+<td>0x4000</td>
+<td>0x100</td>
+<td>This is the RSA-2048 modulus for RSA-engine slot3.</td>
 </tr>
 <tr class="odd">
-<td><p>0x01FFC100</p></td>
+<td>0x01FFC100</td>
 <td></td>
-<td><p>0x4100</p></td>
-<td><p>0x800</p></td>
-<td><p>These are RSA-2048 keys: 4 slots, each slot is 0x200-bytes.
+<td>0x4100</td>
+<td>0x800</td>
+<td>These are RSA-2048 keys: 4 slots, each slot is 0x200-bytes.
 Slot+0 is the modulus, slot+0x100 is the private exponent. This can be
 confirmed by RSA-decrypting a message into a signature, then
 RSA-encrypting the signature back into a message, and comparing the
@@ -255,14 +255,14 @@ original message with the output from the last operation.</p>
 <p><a href="../FIRM" title="wikilink">FIRM</a> doesn't seem to ever use
 these. None of these are related to RSA-keyslot0 used for v6.0/v7.0 key
 generation. These moduli are separate from all other moduli used
-elsewhere.</p></td>
+elsewhere.</td>
 </tr>
 <tr class="even">
-<td><p>0x01FFC900</p></td>
-<td><p>0x07FFC900</p></td>
-<td><p>0x4900</p></td>
-<td><p>0x400</p></td>
-<td><p>The unprotected ARM9-bootrom copies data to 0x07FFC900(mirror of
+<td>0x01FFC900</td>
+<td>0x07FFC900</td>
+<td>0x4900</td>
+<td>0x400</td>
+<td>The unprotected ARM9-bootrom copies data to 0x07FFC900(mirror of
 0x01FFC900) size 0x400. This data is copied from AXI WRAM, initialized
 by ARM11-bootrom(the addr used for the src is determined by <a
 href="../CONFIG_Registers" title="wikilink">REG_UNITINFO</a>). These are
@@ -278,11 +278,11 @@ console-unique).</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>0x01FFCD00</p></td>
+<td>0x01FFCD00</td>
 <td></td>
-<td><p>0x4D00</p></td>
-<td><p>0x80</p></td>
-<td><p>Unknown, not used by <a href="../FIRM" title="wikilink">FIRM</a>.
+<td>0x4D00</td>
+<td>0x80</td>
+<td>Unknown, not used by <a href="../FIRM" title="wikilink">FIRM</a>.
 This isn't console-unique. The first 0x10-bytes are checked by the
 v6.0/v7.0 NATIVE_FIRM keyinit function, when non-zero it clears this
 block and continues to do the key generation. Otherwise when this block
@@ -290,31 +290,31 @@ was already all-zero, it immediately returns. This memclear was probably
 an attempt at destroying the RSA slot0 modulus, that missed (exactly
 0x1000-bytes away). Even though they "failed" here, one would still need
 to derive the private exponent, which would require obtaining a
-ciphertext and plaintext.</p></td>
+ciphertext and plaintext.</td>
 </tr>
 <tr class="even">
-<td><p>0x01FFCD80</p></td>
+<td>0x01FFCD80</td>
 <td></td>
-<td><p>0x4D80</p></td>
-<td><p>0x64</p></td>
-<td><p>0x01FFCD84 size 0x10-bytes is the NAND CID(the 0x64-byte region
+<td>0x4D80</td>
+<td>0x64</td>
+<td>0x01FFCD84 size 0x10-bytes is the NAND CID(the 0x64-byte region
 at 0x01FFCD80 is initialized by Process9 + ARM9-bootrom). The u32 at
 0x01FFCDC4 is the total number of NAND sectors, read from a MMC
-command.</p></td>
+command.</td>
 </tr>
 <tr class="odd">
-<td><p>0x01FFCDE4</p></td>
+<td>0x01FFCDE4</td>
 <td></td>
-<td><p>0x4DE4</p></td>
-<td><p>0x21C</p></td>
-<td><p>Uninitialized memory.</p></td>
+<td>0x4DE4</td>
+<td>0x21C</td>
+<td>Uninitialized memory.</td>
 </tr>
 <tr class="even">
-<td><p>0x01FFD000</p></td>
-<td><p>0x07FFD000</p></td>
-<td><p>0x5000</p></td>
-<td><p>0x2470</p></td>
-<td><p>The unprotected ARM9-bootrom copies 0x1FFFA000(AXIWRAM mem
+<td>0x01FFD000</td>
+<td>0x07FFD000</td>
+<td>0x5000</td>
+<td>0x2470</td>
+<td>The unprotected ARM9-bootrom copies 0x1FFFA000(AXIWRAM mem
 initialized by ARM11-bootrom) size 0x2470 to 0x07FFD000(mirror of
 0x01FFD000). This block contains DSi keys.</p>
 <ul>
@@ -344,22 +344,22 @@ retail DSi, see below (keyslot 0x03)</li>
 </ul>
 <p>On the 3DS, keyslots 0x01 and 0x03 have the last word set as
 0xE1A00005 instead of the next word in ITCM. This is consistent with
-retail DSis.</p></td>
+retail DSis.</td>
 </tr>
 <tr class="odd">
-<td><p>0x01FFF470</p></td>
+<td>0x01FFF470</td>
 <td></td>
-<td><p>0x7470</p></td>
-<td><p>0xB90</p></td>
-<td><p>Uninitialized memory.</p></td>
+<td>0x7470</td>
+<td>0xB90</td>
+<td>Uninitialized memory.</td>
 </tr>
 <tr class="even">
-<td><p>0x01FFFC00</p></td>
+<td>0x01FFFC00</td>
 <td></td>
-<td><p>0x7C00</p></td>
-<td><p>0x100</p></td>
-<td><p>Starting with <a href="../9.5.0-22" title="wikilink">9.5.0-X</a> is
-the FIRM header used during FIRM-launching.</p></td>
+<td>0x7C00</td>
+<td>0x100</td>
+<td>Starting with <a href="../9.5.0-22" title="wikilink">9.5.0-X</a> is
+the FIRM header used during FIRM-launching.</td>
 </tr>
 </tbody>
 </table>

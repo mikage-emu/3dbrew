@@ -138,11 +138,11 @@ Controls "Master Key".
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="../1.0.0-0" title="wikilink">1.0.0-X</a> - <a
-href="../6.3.0-12" title="wikilink">6.3.0-X</a></p></td>
-<td><p>v0</p></td>
-<td><p>8</p></td>
-<td><p>Mostly inherited from the Wii/DSi algorithm which used CRC-32
+<td><a href="../1.0.0-0" title="wikilink">1.0.0-X</a> - <a
+href="../6.3.0-12" title="wikilink">6.3.0-X</a></td>
+<td>v0</td>
+<td>8</td>
+<td>Mostly inherited from the Wii/DSi algorithm which used CRC-32
 (0xEDB88320) with custom XOR-out (0xAAAA). 0x14C1 was added to produce
 the final result.</p>
 <p>For the 3DS algorithm, only constants were changed: the polynomial
@@ -156,14 +156,14 @@ master key only being valid on a particular day, though this is
 trivially defeated by setting the system time to the correct date that
 the key was generated on.</p>
 <p>This had a minor refactor in <a href="../6.0.0-11"
-title="wikilink">6.0.0-X</a> but is functionally identical.</p></td>
+title="wikilink">6.0.0-X</a> but is functionally identical.</td>
 </tr>
 <tr class="even">
-<td><p><a href="../7.0.0-13" title="wikilink">7.0.0-X</a> - <a
-href="../7.1.0-16" title="wikilink">7.1.0-X</a></p></td>
-<td><p>v1</p></td>
-<td><p>10</p></td>
-<td><p>Introduced a new scheme using HMAC-SHA-256. The HMAC key is
+<td><a href="../7.0.0-13" title="wikilink">7.0.0-X</a> - <a
+href="../7.1.0-16" title="wikilink">7.1.0-X</a></td>
+<td>v1</td>
+<td>10</td>
+<td>Introduced a new scheme using HMAC-SHA-256. The HMAC key is
 loaded from mset .rodata, and differs between regions.</p>
 <p>The inquiry number was bumped from 8 digits to 10 digits, but the
 same function is used to generate the digits as in v0 (derived from MAC
@@ -172,14 +172,14 @@ address).</p>
 key derivation function, as the string format is now "%02u%02u%010u"
 (month, day, inquiry number). This buffer is hashed (as above), and a
 little-endian word is read from the start of the output hash. The low 5
-decimal digits of this word are used as the master key.</p></td>
+decimal digits of this word are used as the master key.</td>
 </tr>
 <tr class="odd">
-<td><p><a href="../7.2.0-17" title="wikilink">7.2.0-X</a> -
-current</p></td>
-<td><p>v2</p></td>
-<td><p>10</p></td>
-<td><p>Extension of v1 featuring a number of changes which serve to
+<td><a href="../7.2.0-17" title="wikilink">7.2.0-X</a> -
+current</td>
+<td>v2</td>
+<td>10</td>
+<td>Extension of v1 featuring a number of changes which serve to
 obscure the HMAC key used.</p>
 <p>The HMAC key is now stored in a separate file stored in the CVer
 RomFS, called <a href="../CVer#masterkey.bin"
@@ -199,7 +199,7 @@ masterkey.bin.</p>
 <p>At some point, Nintendo chose to "abandon" the original JPN region ID
 (0), and moved to region ID 9 instead (which usually doesn't exist). It
 is unknown why they made this change, as the AES key used for both of
-these IDs is the same.</p></td>
+these IDs is the same.</td>
 </tr>
 </tbody>
 </table>

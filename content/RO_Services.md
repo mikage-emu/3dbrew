@@ -44,33 +44,33 @@ one from inputaddr. Otherwise, the address is: mapvaddr = inputaddr -
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>v0</p></td>
-<td><p>Initial version.</p></td>
+<td>v0</td>
+<td>Initial version.</td>
 </tr>
 <tr class="even">
-<td><p>v1024</p></td>
-<td><p>Removed access for SVC's: 5,7,D,E,10.</p>
+<td>v1024</td>
+<td>Removed access for SVC's: 5,7,D,E,10.</p>
 <p>Cmd5 now sets the last segment in the CRO binary to R-X when it's
 done.</p>
-<p>Maybe more.</p></td>
+<p>Maybe more.</td>
 </tr>
 <tr class="odd">
-<td><p>v2049</p></td>
-<td><p>No changes.</p></td>
+<td>v2049</td>
+<td>No changes.</td>
 </tr>
 <tr class="even">
-<td><p>v3074</p></td>
-<td><p>Added cmd9.</p></td>
+<td>v3074</td>
+<td>Added cmd9.</td>
 </tr>
 <tr class="odd">
-<td><p>v4096</p></td>
-<td><p>No changes.</p></td>
+<td>v4096</td>
+<td>No changes.</td>
 </tr>
 <tr class="even">
-<td><p><a href="../9.0.0-20" title="wikilink">v5120</a></p></td>
-<td><p>No actual changes, just a rebuild with latest CTRSDK(only the
+<td><a href="../9.0.0-20" title="wikilink">v5120</a></td>
+<td>No actual changes, just a rebuild with latest CTRSDK(only the
 CTRSDK version values in .code for <a href="../ErrDisp"
-title="wikilink">ErrDisp</a> were updated).</p></td>
+title="wikilink">ErrDisp</a> were updated).</td>
 </tr>
 </tbody>
 </table>

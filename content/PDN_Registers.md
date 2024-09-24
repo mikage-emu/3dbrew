@@ -270,8 +270,8 @@ all-zeros even when one tried writing data here prior to the read.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0-2</p></td>
-<td><p>SoC mode. Possible values:</p>
+<td>0-2</td>
+<td>SoC mode. Possible values:</p>
 <p><code> 0=CTR+256MHz</code><br />
 <code> 1=LGR2+256MHz, 5=LGR2+804MHz</code><br />
 <code> 2=LGR1+256MHz, 3=LGR1+536MHz</code></p>
@@ -284,8 +284,8 @@ needed to access N3DS-only devices.</p>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>15</p></td>
-<td><p>Interrupt status (read) / clear (write)</p></td>
+<td>15</td>
+<td>Interrupt status (read) / clear (write)</td>
 </tr>
 </tbody>
 </table>

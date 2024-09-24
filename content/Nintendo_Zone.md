@@ -83,81 +83,81 @@ fields. 3DS NZone is not region-locked like DS(i).
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x00</p></td>
-<td><p>32</p></td>
-<td><p>AP SSID</p></td>
+<td>0x00</td>
+<td>32</td>
+<td>AP SSID</td>
 </tr>
 <tr class="even">
-<td><p>0x20</p></td>
-<td><p>10</p></td>
-<td><p>ApNum, required for connecting to the server. This is used by the
+<td>0x20</td>
+<td>10</td>
+<td>ApNum, required for connecting to the server. This is used by the
 server to determine which retailer NZone you're using. Apnum structure:
 10 digits or RSSCCTTLLL. R is the decimal region, SS is the decimal
 ServiceID. CC is the two-letter country-code, TT is the 2-letter country
 state/province code, and LLL is the decimal locationID. Regions: 0) JPN
 1) USA 2/3) EUR 4) KOR 5) CHN. LLL is always zero for non-JPN
 deployments, however in JPN this is unique per NZone hotspot
-location.</p></td>
+location.</td>
 </tr>
 <tr class="odd">
-<td><p>0x2a</p></td>
-<td><p>2</p></td>
-<td><p>This u16 was always one in all dumps, unknown what this is. This
-isn't used by the client.</p></td>
+<td>0x2a</td>
+<td>2</td>
+<td>This u16 was always one in all dumps, unknown what this is. This
+isn't used by the client.</td>
 </tr>
 <tr class="even">
-<td><p>0x2c</p></td>
-<td><p>24</p></td>
-<td><p>Some ServiceName, either in UTF-16 or ASCII</p></td>
+<td>0x2c</td>
+<td>24</td>
+<td>Some ServiceName, either in UTF-16 or ASCII</td>
 </tr>
 <tr class="odd">
-<td><p>0x44</p></td>
-<td><p>32</p></td>
-<td><p>AP crypto key, if any</p></td>
+<td>0x44</td>
+<td>32</td>
+<td>AP crypto key, if any</td>
 </tr>
 <tr class="even">
-<td><p>0x64</p></td>
-<td><p>1</p></td>
-<td><p>Unknown, not used by the DS(i) client. For 3DS this value varies,
-for DS(i) this is 0x0.</p></td>
+<td>0x64</td>
+<td>1</td>
+<td>Unknown, not used by the DS(i) client. For 3DS this value varies,
+for DS(i) this is 0x0.</td>
 </tr>
 <tr class="odd">
-<td><p>0x65</p></td>
-<td><p>1</p></td>
-<td><p>AP crypto key type: 0) Open 1) WEP-64 2) WEP-128 3) WEP-152 4)
+<td>0x65</td>
+<td>1</td>
+<td>AP crypto key type: 0) Open 1) WEP-64 2) WEP-128 3) WEP-152 4)
 WPA-PSK (TKIP) 5) WPA2-PSK (TKIP) 6) WPA-PSK (AES) 7) WPA2-PSK (AES)
-(the encryption key field contains the AP passphrase)</p></td>
+(the encryption key field contains the AP passphrase)</td>
 </tr>
 <tr class="even">
-<td><p>0x66</p></td>
-<td><p>1</p></td>
-<td><p>Bit 0: Enables Nintendo Zone content on DS(i)<br />
+<td>0x66</td>
+<td>1</td>
+<td>Bit 0: Enables Nintendo Zone content on DS(i)<br />
 Bit 1: Enables friend list and online gaming<br />
 Bit 4: Enables Nintendo Zone Viewer on 3DS<br />
 Bit 7: Blocks the Nintendo eShop<br />
-Bits 2, 3, 5, 6: Unknown</p></td>
+Bits 2, 3, 5, 6: Unknown</td>
 </tr>
 <tr class="odd">
-<td><p>0x67</p></td>
-<td><p>1</p></td>
-<td><p>Bit 0: Blocks the internet browser<br />
-Bits 1 to 7: Unknown</p></td>
+<td>0x67</td>
+<td>1</td>
+<td>Bit 0: Blocks the internet browser<br />
+Bits 1 to 7: Unknown</td>
 </tr>
 <tr class="even">
-<td><p>0x68</p></td>
-<td><p>4</p></td>
-<td><p>Padding</p></td>
+<td>0x68</td>
+<td>4</td>
+<td>Padding</td>
 </tr>
 <tr class="odd">
-<td><p>0x6c</p></td>
-<td><p>2</p></td>
-<td><p>Unknown, seems to be always 0x428</p></td>
+<td>0x6c</td>
+<td>2</td>
+<td>Unknown, seems to be always 0x428</td>
 </tr>
 <tr class="even">
-<td><p>0x6e</p></td>
-<td><p>2</p></td>
-<td><p>CRC16 over the whole payload excluding CRC offset, initval is
-0</p></td>
+<td>0x6e</td>
+<td>2</td>
+<td>CRC16 over the whole payload excluding CRC offset, initval is
+0</td>
 </tr>
 </tbody>
 </table>

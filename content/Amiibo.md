@@ -34,30 +34,30 @@ of the NFC pages is the following:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x0</p></td>
-<td><p>0x3</p></td>
-<td><p>0x0</p></td>
-<td><p>0xC</p></td>
-<td style="background: red"><p>No</p></td>
-<td><p>Standard NTAG215: 9-byte serial-number, "internal" u8 value, then
-the two lock bytes which must match raw binary "0F E0".</p></td>
+<td>0x0</td>
+<td>0x3</td>
+<td>0x0</td>
+<td>0xC</td>
+<td style="background: red"><p>No</td>
+<td>Standard NTAG215: 9-byte serial-number, "internal" u8 value, then
+the two lock bytes which must match raw binary "0F E0".</td>
 </tr>
 <tr class="even">
-<td><p>0x3</p></td>
-<td><p>0x1</p></td>
-<td><p>0xC</p></td>
-<td><p>0x4</p></td>
-<td style="background: red"><p>No</p></td>
-<td><p>Standard NTAG215: "Capability Container (CC)". Must match raw
-binary "F1 10 FF EE".</p></td>
+<td>0x3</td>
+<td>0x1</td>
+<td>0xC</td>
+<td>0x4</td>
+<td style="background: red"><p>No</td>
+<td>Standard NTAG215: "Capability Container (CC)". Must match raw
+binary "F1 10 FF EE".</td>
 </tr>
 <tr class="odd">
-<td><p>0x4</p></td>
-<td><p>0x1</p></td>
-<td><p>0x10</p></td>
-<td><p>0x4</p></td>
-<td style="background: green"><p>Yes</p></td>
-<td><p>Last 3-bytes here are used with the following HMAC where the size
+<td>0x4</td>
+<td>0x1</td>
+<td>0x10</td>
+<td>0x4</td>
+<td style="background: green"><p>Yes</td>
+<td>Last 3-bytes here are used with the following HMAC where the size
 is 0x1DF-bytes. The u16 starting at byte1 is used for the first two
 bytes in the 0x40-byte input buffer for Amiibo <a
 href="../Process_Services_PXI" title="wikilink">crypto</a> init.</p>
@@ -71,101 +71,101 @@ href="../Process_Services_PXI" title="wikilink">crypto</a> init.</p>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x0</p></td>
-<td><p>0x1</p></td>
-<td><p>Magic (Always 0xA5)</p></td>
+<td>0x0</td>
+<td>0x1</td>
+<td>Magic (Always 0xA5)</td>
 </tr>
 <tr class="even">
-<td><p>0x1</p></td>
-<td><p>0x2</p></td>
-<td><p>Incremented each time the Amiibo is written to.</p></td>
+<td>0x1</td>
+<td>0x2</td>
+<td>Incremented each time the Amiibo is written to.</td>
 </tr>
 <tr class="odd">
-<td><p>0x3</p></td>
-<td><p>0x1</p></td>
-<td><p>Figure version (always 0x00)</p></td>
+<td>0x3</td>
+<td>0x1</td>
+<td>Figure version (always 0x00)</td>
 </tr>
 </tbody>
 </table></td>
 </tr>
 <tr class="even">
-<td><p>0x5</p></td>
-<td><p>0x8</p></td>
-<td><p>0x14</p></td>
-<td><p>0x20</p></td>
-<td style="background: green"><p>Yes</p></td>
-<td><p>The system crypts 0x1A0-bytes with some data from here, see
-below.</p></td>
+<td>0x5</td>
+<td>0x8</td>
+<td>0x14</td>
+<td>0x20</td>
+<td style="background: green"><p>Yes</td>
+<td>The system crypts 0x1A0-bytes with some data from here, see
+below.</td>
 </tr>
 <tr class="odd">
-<td><p>0xD</p></td>
-<td><p>0x8</p></td>
-<td><p>0x34</p></td>
-<td><p>0x20</p></td>
-<td style="background: red"><p>No</p></td>
-<td><p>SHA256-(HMAC?) hash. The first 0x18-bytes of this hash is
-section3 in the encrypted buffer.</p></td>
+<td>0xD</td>
+<td>0x8</td>
+<td>0x34</td>
+<td>0x20</td>
+<td style="background: red"><p>No</td>
+<td>SHA256-(HMAC?) hash. The first 0x18-bytes of this hash is
+section3 in the encrypted buffer.</td>
 </tr>
 <tr class="even">
-<td><p>0x15</p></td>
-<td><p>0xB</p></td>
-<td><p>0x54</p></td>
-<td><p>0x2C</p></td>
-<td style="background: red"><p>No</p></td>
-<td><p>This is plaintext data, see below.</p></td>
+<td>0x15</td>
+<td>0xB</td>
+<td>0x54</td>
+<td>0x2C</td>
+<td style="background: red"><p>No</td>
+<td>This is plaintext data, see below.</td>
 </tr>
 <tr class="odd">
-<td><p>0x20</p></td>
-<td><p>0x8</p></td>
-<td><p>0x80</p></td>
-<td><p>0x20</p></td>
-<td style="background: green"><p>Yes</p></td>
-<td><p>SHA256-HMAC hash over 0x1DF-bytes: first 3-bytes are from the
+<td>0x20</td>
+<td>0x8</td>
+<td>0x80</td>
+<td>0x20</td>
+<td style="background: green"><p>Yes</td>
+<td>SHA256-HMAC hash over 0x1DF-bytes: first 3-bytes are from the
 last 3-bytes of page[4], the rest is over the first 0x1DC-bytes of the
-plaintext data.</p></td>
+plaintext data.</td>
 </tr>
 <tr class="even">
-<td><p>0x28</p></td>
-<td><p>0x45</p></td>
-<td><p>0xA0</p></td>
-<td><p>0x114</p></td>
-<td style="background: green"><p>Yes</p></td>
-<td><p>This is section1 in the encrypted buffer.</p></td>
+<td>0x28</td>
+<td>0x45</td>
+<td>0xA0</td>
+<td>0x114</td>
+<td style="background: green"><p>Yes</td>
+<td>This is section1 in the encrypted buffer.</td>
 </tr>
 <tr class="odd">
-<td><p>0x6D</p></td>
-<td><p>0x15</p></td>
-<td><p>0x1B4</p></td>
-<td><p>0x54</p></td>
-<td style="background: green"><p>Yes</p></td>
-<td><p>This is section2 in the encrypted buffer.</p></td>
+<td>0x6D</td>
+<td>0x15</td>
+<td>0x1B4</td>
+<td>0x54</td>
+<td style="background: green"><p>Yes</td>
+<td>This is section2 in the encrypted buffer.</td>
 </tr>
 <tr class="even">
-<td><p>0x82</p></td>
-<td><p>0x1</p></td>
-<td><p>0x208</p></td>
-<td><p>0x4</p></td>
-<td style="background: red"><p>No</p></td>
-<td><p>Standard NTAG215: first 3-bytes are dynamic lock bytes. Must
-match raw binary "01 00 0F".</p></td>
+<td>0x82</td>
+<td>0x1</td>
+<td>0x208</td>
+<td>0x4</td>
+<td style="background: red"><p>No</td>
+<td>Standard NTAG215: first 3-bytes are dynamic lock bytes. Must
+match raw binary "01 00 0F".</td>
 </tr>
 <tr class="odd">
-<td><p>0x83</p></td>
-<td><p>0x1</p></td>
-<td><p>0x20C</p></td>
-<td><p>0x4</p></td>
-<td style="background: red"><p>No</p></td>
-<td><p>Standard NTAG215: CFG0. Must match raw binary "00 00 00
-04".</p></td>
+<td>0x83</td>
+<td>0x1</td>
+<td>0x20C</td>
+<td>0x4</td>
+<td style="background: red"><p>No</td>
+<td>Standard NTAG215: CFG0. Must match raw binary "00 00 00
+04".</td>
 </tr>
 <tr class="even">
-<td><p>0x84</p></td>
-<td><p>0x1</p></td>
-<td><p>0x210</p></td>
-<td><p>0x4</p></td>
-<td style="background: red"><p>No</p></td>
-<td><p>Standard NTAG215: CFG1. Must match raw binary "5F 00 00
-00".</p></td>
+<td>0x84</td>
+<td>0x1</td>
+<td>0x210</td>
+<td>0x4</td>
+<td style="background: red"><p>No</td>
+<td>Standard NTAG215: CFG1. Must match raw binary "5F 00 00
+00".</td>
 </tr>
 </tbody>
 </table>

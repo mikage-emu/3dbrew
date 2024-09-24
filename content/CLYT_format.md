@@ -32,22 +32,22 @@ format used on the Wii.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x00</p></td>
-<td><p>0x4</p></td>
-<td><p>String</p></td>
-<td><p>Signature (lyt1)</p></td>
+<td>0x00</td>
+<td>0x4</td>
+<td>String</td>
+<td>Signature (lyt1)</td>
 </tr>
 <tr class="even">
-<td><p>0x04</p></td>
-<td><p>0x4</p></td>
-<td><p>UInt32</p></td>
-<td><p>Section Size</p></td>
+<td>0x04</td>
+<td>0x4</td>
+<td>UInt32</td>
+<td>Section Size</td>
 </tr>
 <tr class="odd">
-<td><p>0x08</p></td>
-<td><p>0x4</p></td>
-<td><p>UInt32</p></td>
-<td><p>Origin type</p>
+<td>0x08</td>
+<td>0x4</td>
+<td>UInt32</td>
+<td>Origin type</p>
 <table>
 <thead>
 <tr class="header">
@@ -57,21 +57,21 @@ format used on the Wii.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0</p></td>
-<td><p>Classic</p></td>
+<td>0</td>
+<td>Classic</td>
 </tr>
 <tr class="even">
-<td><p>1</p></td>
-<td><p>Normal</p></td>
+<td>1</td>
+<td>Normal</td>
 </tr>
 </tbody>
 </table></td>
 </tr>
 <tr class="even">
-<td><p>0x0C</p></td>
-<td><p>0x8</p></td>
-<td><p>Vector2</p></td>
-<td><p>Canvas Size</p></td>
+<td>0x0C</td>
+<td>0x8</td>
+<td>Vector2</td>
+<td>Canvas Size</td>
 </tr>
 </tbody>
 </table>
@@ -120,28 +120,28 @@ After this, the material entries follow.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x00</p></td>
-<td><p>0x14</p></td>
-<td><p>String</p></td>
-<td><p>Material Name</p></td>
+<td>0x00</td>
+<td>0x14</td>
+<td>String</td>
+<td>Material Name</td>
 </tr>
 <tr class="even">
-<td><p>0x14</p></td>
-<td><p>0x4</p></td>
-<td><p>RGBA8</p></td>
-<td><p>Tev Color (Buffer Color?)</p></td>
+<td>0x14</td>
+<td>0x4</td>
+<td>RGBA8</td>
+<td>Tev Color (Buffer Color?)</td>
 </tr>
 <tr class="odd">
-<td><p>0x18</p></td>
-<td><p>0x18</p></td>
-<td><p>RGBA8[6]</p></td>
-<td><p>Tev Constant Colors</p></td>
+<td>0x18</td>
+<td>0x18</td>
+<td>RGBA8[6]</td>
+<td>Tev Constant Colors</td>
 </tr>
 <tr class="even">
-<td><p>0x30</p></td>
-<td><p>0x4</p></td>
-<td><p>UInt32</p></td>
-<td><p>Flags / bitfield</p>
+<td>0x30</td>
+<td>0x4</td>
+<td>UInt32</td>
+<td>Flags / bitfield</p>
 <table>
 <thead>
 <tr class="header">
@@ -151,32 +151,32 @@ After this, the material entries follow.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0-1</p></td>
-<td><p>Nr texMap</p></td>
+<td>0-1</td>
+<td>Nr texMap</td>
 </tr>
 <tr class="even">
-<td><p>2-3</p></td>
-<td><p>Nr texMatrix</p></td>
+<td>2-3</td>
+<td>Nr texMatrix</td>
 </tr>
 <tr class="odd">
-<td><p>4-5</p></td>
-<td><p>Nr texCoordGen</p></td>
+<td>4-5</td>
+<td>Nr texCoordGen</td>
 </tr>
 <tr class="even">
-<td><p>6-8</p></td>
-<td><p>Nr tevStage</p></td>
+<td>6-8</td>
+<td>Nr tevStage</td>
 </tr>
 <tr class="odd">
-<td><p>9</p></td>
-<td><p>Has alphaCompare</p></td>
+<td>9</td>
+<td>Has alphaCompare</td>
 </tr>
 <tr class="even">
-<td><p>10</p></td>
-<td><p>Has blendMode</p></td>
+<td>10</td>
+<td>Has blendMode</td>
 </tr>
 <tr class="odd">
-<td><p>11</p></td>
-<td><p>Use Texture Only</p></td>
+<td>11</td>
+<td>Use Texture Only</td>
 </tr>
 </tbody>
 </table></td>
@@ -197,16 +197,16 @@ After this, the material entries follow.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x00</p></td>
-<td><p>0x2</p></td>
-<td><p>UInt16</p></td>
-<td><p>Texture Index</p></td>
+<td>0x00</td>
+<td>0x2</td>
+<td>UInt16</td>
+<td>Texture Index</td>
 </tr>
 <tr class="even">
-<td><p>0x02</p></td>
-<td><p>0x1</p></td>
-<td><p>Byte</p></td>
-<td><p>Bitfield</p>
+<td>0x02</td>
+<td>0x1</td>
+<td>Byte</td>
+<td>Bitfield</p>
 <table>
 <thead>
 <tr class="header">
@@ -216,21 +216,21 @@ After this, the material entries follow.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0-1</p></td>
-<td><p>Wrap S (Clamp = 0, Repeat = 1, Mirror = 2)</p></td>
+<td>0-1</td>
+<td>Wrap S (Clamp = 0, Repeat = 1, Mirror = 2)</td>
 </tr>
 <tr class="even">
-<td><p>2-3</p></td>
-<td><p>Min Filter (0 = Near, 1 = Linear)</p></td>
+<td>2-3</td>
+<td>Min Filter (0 = Near, 1 = Linear)</td>
 </tr>
 </tbody>
 </table></td>
 </tr>
 <tr class="odd">
-<td><p>0x03</p></td>
-<td><p>0x1</p></td>
-<td><p>Byte</p></td>
-<td><p>Bitfield</p>
+<td>0x03</td>
+<td>0x1</td>
+<td>Byte</td>
+<td>Bitfield</p>
 <table>
 <thead>
 <tr class="header">
@@ -240,12 +240,12 @@ After this, the material entries follow.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0-1</p></td>
-<td><p>Wrap T (Clamp = 0, Repeat = 1, Mirror = 2)</p></td>
+<td>0-1</td>
+<td>Wrap T (Clamp = 0, Repeat = 1, Mirror = 2)</td>
 </tr>
 <tr class="even">
-<td><p>2-3</p></td>
-<td><p>Mag Filter (0 = Near, 1 = Linear)</p></td>
+<td>2-3</td>
+<td>Mag Filter (0 = Near, 1 = Linear)</td>
 </tr>
 </tbody>
 </table></td>
@@ -274,10 +274,10 @@ After this, the material entries follow.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x00</p></td>
-<td><p>0x1</p></td>
-<td><p>UInt8</p></td>
-<td><p>Type</p>
+<td>0x00</td>
+<td>0x1</td>
+<td>UInt8</td>
+<td>Type</p>
 <table>
 <thead>
 <tr class="header">
@@ -287,23 +287,23 @@ After this, the material entries follow.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0</p></td>
-<td><p>2x4 matrix</p></td>
+<td>0</td>
+<td>2x4 matrix</td>
 </tr>
 </tbody>
 </table></td>
 </tr>
 <tr class="even">
-<td><p>0x01</p></td>
-<td><p>0x1</p></td>
-<td><p>UInt8</p></td>
-<td><p>Source (N = Tex N, max 2)</p></td>
+<td>0x01</td>
+<td>0x1</td>
+<td>UInt8</td>
+<td>Source (N = Tex N, max 2)</td>
 </tr>
 <tr class="odd">
-<td><p>0x02</p></td>
-<td><p>0x2</p></td>
-<td><p>UInt8[]</p></td>
-<td><p>Padding</p></td>
+<td>0x02</td>
+<td>0x2</td>
+<td>UInt8[]</td>
+<td>Padding</td>
 </tr>
 </tbody>
 </table>
@@ -327,22 +327,22 @@ individually.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x00</p></td>
-<td><p>0x4</p></td>
-<td><p>String</p></td>
-<td><p>Signature (pan1)</p></td>
+<td>0x00</td>
+<td>0x4</td>
+<td>String</td>
+<td>Signature (pan1)</td>
 </tr>
 <tr class="even">
-<td><p>0x04</p></td>
-<td><p>0x4</p></td>
-<td><p>UInt32</p></td>
-<td><p>Section Size</p></td>
+<td>0x04</td>
+<td>0x4</td>
+<td>UInt32</td>
+<td>Section Size</td>
 </tr>
 <tr class="odd">
-<td><p>0x08</p></td>
-<td><p>0x1</p></td>
-<td><p>UInt8</p></td>
-<td><p>Flags</p>
+<td>0x08</td>
+<td>0x1</td>
+<td>UInt8</td>
+<td>Flags</p>
 <table>
 <thead>
 <tr class="header">
@@ -352,73 +352,73 @@ individually.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0</p></td>
-<td><p>Visible</p></td>
+<td>0</td>
+<td>Visible</td>
 </tr>
 <tr class="even">
-<td><p>1</p></td>
-<td><p>InfluencedAlpha</p></td>
+<td>1</td>
+<td>InfluencedAlpha</td>
 </tr>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>LocationAdjust</p></td>
+<td>2</td>
+<td>LocationAdjust</td>
 </tr>
 </tbody>
 </table></td>
 </tr>
 <tr class="even">
-<td><p>0x09</p></td>
-<td><p>0x1</p></td>
-<td><p>UInt8</p></td>
-<td><p>Origin (1 = centered, 2 = right, 3 = left, )</p></td>
+<td>0x09</td>
+<td>0x1</td>
+<td>UInt8</td>
+<td>Origin (1 = centered, 2 = right, 3 = left, )</td>
 </tr>
 <tr class="odd">
-<td><p>0x0A</p></td>
-<td><p>0x1</p></td>
-<td><p>UInt8</p></td>
-<td><p>Alpha</p></td>
+<td>0x0A</td>
+<td>0x1</td>
+<td>UInt8</td>
+<td>Alpha</td>
 </tr>
 <tr class="even">
-<td><p>0x0B</p></td>
-<td><p>0x1</p></td>
-<td><p>UInt8</p></td>
-<td><p>Padding</p></td>
+<td>0x0B</td>
+<td>0x1</td>
+<td>UInt8</td>
+<td>Padding</td>
 </tr>
 <tr class="odd">
-<td><p>0x0C</p></td>
-<td><p>0x10</p></td>
-<td><p>String</p></td>
-<td><p>Pane name</p></td>
+<td>0x0C</td>
+<td>0x10</td>
+<td>String</td>
+<td>Pane name</td>
 </tr>
 <tr class="even">
-<td><p>0x1C</p></td>
-<td><p>0x8</p></td>
-<td><p>String</p></td>
-<td><p>Data</p></td>
+<td>0x1C</td>
+<td>0x8</td>
+<td>String</td>
+<td>Data</td>
 </tr>
 <tr class="odd">
-<td><p>0x24</p></td>
-<td><p>0xC</p></td>
-<td><p>Vector3</p></td>
-<td><p>Translation</p></td>
+<td>0x24</td>
+<td>0xC</td>
+<td>Vector3</td>
+<td>Translation</td>
 </tr>
 <tr class="even">
-<td><p>0x30</p></td>
-<td><p>0xC</p></td>
-<td><p>Vector3</p></td>
-<td><p>Rotation</p></td>
+<td>0x30</td>
+<td>0xC</td>
+<td>Vector3</td>
+<td>Rotation</td>
 </tr>
 <tr class="odd">
-<td><p>0x3C</p></td>
-<td><p>0x8</p></td>
-<td><p>Vector2</p></td>
-<td><p>Scale</p></td>
+<td>0x3C</td>
+<td>0x8</td>
+<td>Vector2</td>
+<td>Scale</td>
 </tr>
 <tr class="even">
-<td><p>0x44</p></td>
-<td><p>0x8</p></td>
-<td><p>Vector2</p></td>
-<td><p>Size</p></td>
+<td>0x44</td>
+<td>0x8</td>
+<td>Vector2</td>
+<td>Size</td>
 </tr>
 </tbody>
 </table>
@@ -486,151 +486,151 @@ what mode it's set to.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x00</p></td>
-<td><p>0x4</p></td>
-<td><p>String</p></td>
-<td><p>Signature (wnd1)</p></td>
+<td>0x00</td>
+<td>0x4</td>
+<td>String</td>
+<td>Signature (wnd1)</td>
 </tr>
 <tr class="even">
-<td><p>0x04</p></td>
-<td><p>0x4</p></td>
-<td><p>UInt32</p></td>
-<td><p>Section size (including the texture coordinates)</p></td>
+<td>0x04</td>
+<td>0x4</td>
+<td>UInt32</td>
+<td>Section size (including the texture coordinates)</td>
 </tr>
 <tr class="odd">
-<td colspan="4"><p>Same as pan1 from 0x8 to 0x4c</p></td>
+<td colspan="4"><p>Same as pan1 from 0x8 to 0x4c</td>
 </tr>
 <tr class="even">
-<td><p>0x4C</p></td>
-<td><p>0x4</p></td>
-<td><p>float</p></td>
-<td><p>Coordinate 1</p></td>
+<td>0x4C</td>
+<td>0x4</td>
+<td>float</td>
+<td>Coordinate 1</td>
 </tr>
 <tr class="odd">
-<td><p>0x50</p></td>
-<td><p>0x4</p></td>
-<td><p>float</p></td>
-<td><p>Coordinate 2</p></td>
+<td>0x50</td>
+<td>0x4</td>
+<td>float</td>
+<td>Coordinate 2</td>
 </tr>
 <tr class="even">
-<td><p>0x54</p></td>
-<td><p>0x4</p></td>
-<td><p>float</p></td>
-<td><p>Coordinate 3</p></td>
+<td>0x54</td>
+<td>0x4</td>
+<td>float</td>
+<td>Coordinate 3</td>
 </tr>
 <tr class="odd">
-<td><p>0x58</p></td>
-<td><p>0x4</p></td>
-<td><p>float</p></td>
-<td><p>Coordinate 4</p></td>
+<td>0x58</td>
+<td>0x4</td>
+<td>float</td>
+<td>Coordinate 4</td>
 </tr>
 <tr class="even">
-<td><p>0x5C</p></td>
-<td><p>0x1</p></td>
-<td><p>Byte</p></td>
-<td><p>Number of frames (n)</p></td>
+<td>0x5C</td>
+<td>0x1</td>
+<td>Byte</td>
+<td>Number of frames (n)</td>
 </tr>
 <tr class="odd">
-<td><p>0x5D</p></td>
-<td><p>0x1</p></td>
-<td><p>Byte</p></td>
-<td><p>Flag</p></td>
+<td>0x5D</td>
+<td>0x1</td>
+<td>Byte</td>
+<td>Flag</td>
 </tr>
 <tr class="even">
-<td><p>0x5E</p></td>
-<td><p>0x2</p></td>
-<td><p>UInt16</p></td>
-<td><p>Padding</p></td>
+<td>0x5E</td>
+<td>0x2</td>
+<td>UInt16</td>
+<td>Padding</td>
 </tr>
 <tr class="odd">
-<td><p>0x60</p></td>
-<td><p>0x4</p></td>
-<td><p>UInt32</p></td>
-<td><p>Window content offset (Points to 0x68)</p></td>
+<td>0x60</td>
+<td>0x4</td>
+<td>UInt32</td>
+<td>Window content offset (Points to 0x68)</td>
 </tr>
 <tr class="even">
-<td><p>0x64</p></td>
-<td><p>0x4</p></td>
-<td><p>UInt32</p></td>
-<td><p>Window frame offsets, offset to offsets of the materials for the
-frames. (W)</p></td>
+<td>0x64</td>
+<td>0x4</td>
+<td>UInt32</td>
+<td>Window frame offsets, offset to offsets of the materials for the
+frames. (W)</td>
 </tr>
 <tr class="odd">
-<td><p>0x68</p></td>
-<td><p>0x4</p></td>
-<td><p>RGBA8</p></td>
-<td><p>Content box top left vertex color</p></td>
+<td>0x68</td>
+<td>0x4</td>
+<td>RGBA8</td>
+<td>Content box top left vertex color</td>
 </tr>
 <tr class="even">
-<td><p>0x6C</p></td>
-<td><p>0x4</p></td>
-<td><p>RGBA8</p></td>
-<td><p>Content box top right vertex color</p></td>
+<td>0x6C</td>
+<td>0x4</td>
+<td>RGBA8</td>
+<td>Content box top right vertex color</td>
 </tr>
 <tr class="odd">
-<td><p>0x70</p></td>
-<td><p>0x4</p></td>
-<td><p>RGBA8</p></td>
-<td><p>Content box bottom left vertex color</p></td>
+<td>0x70</td>
+<td>0x4</td>
+<td>RGBA8</td>
+<td>Content box bottom left vertex color</td>
 </tr>
 <tr class="even">
-<td><p>0x74</p></td>
-<td><p>0x4</p></td>
-<td><p>RGBA8</p></td>
-<td><p>Content box bottom right vertex color</p></td>
+<td>0x74</td>
+<td>0x4</td>
+<td>RGBA8</td>
+<td>Content box bottom right vertex color</td>
 </tr>
 <tr class="odd">
-<td><p>0x78</p></td>
-<td><p>0x2</p></td>
-<td><p>UInt16</p></td>
-<td><p>Content box Material ID</p></td>
+<td>0x78</td>
+<td>0x2</td>
+<td>UInt16</td>
+<td>Content box Material ID</td>
 </tr>
 <tr class="even">
-<td><p>0x7A</p></td>
-<td><p>0x2</p></td>
-<td><p>UInt16</p></td>
-<td><p>Number of Texture coordinates (N)</p></td>
+<td>0x7A</td>
+<td>0x2</td>
+<td>UInt16</td>
+<td>Number of Texture coordinates (N)</td>
 </tr>
 <tr class="odd">
-<td colspan="4"><p>Texture coordinates entry</p></td>
+<td colspan="4"><p>Texture coordinates entry</td>
 </tr>
 <tr class="even">
-<td><p>0x7C + (N-1) * 0x20</p></td>
-<td><p>0x8</p></td>
-<td><p>Vector2</p></td>
-<td><p>Top left vertex texture coordinate</p></td>
+<td>0x7C + (N-1) * 0x20</td>
+<td>0x8</td>
+<td>Vector2</td>
+<td>Top left vertex texture coordinate</td>
 </tr>
 <tr class="odd">
-<td><p>0x84 + (N-1) * 0x20</p></td>
-<td><p>0x8</p></td>
-<td><p>Vector2</p></td>
-<td><p>Top right vertex texture coordinate</p></td>
+<td>0x84 + (N-1) * 0x20</td>
+<td>0x8</td>
+<td>Vector2</td>
+<td>Top right vertex texture coordinate</td>
 </tr>
 <tr class="even">
-<td><p>0x8C + (N-1) * 0x20</p></td>
-<td><p>0x8</p></td>
-<td><p>Vector2</p></td>
-<td><p>Bottom left vertex texture coordinate</p></td>
+<td>0x8C + (N-1) * 0x20</td>
+<td>0x8</td>
+<td>Vector2</td>
+<td>Bottom left vertex texture coordinate</td>
 </tr>
 <tr class="odd">
-<td><p>0x94 + (N-1) * 0x20</p></td>
-<td><p>0x8</p></td>
-<td><p>Vector2</p></td>
-<td><p>Bottom right vertex texture coordinate</p></td>
+<td>0x94 + (N-1) * 0x20</td>
+<td>0x8</td>
+<td>Vector2</td>
+<td>Bottom right vertex texture coordinate</td>
 </tr>
 <tr class="even">
-<td colspan="4"><p>Window frames</p></td>
+<td colspan="4"><p>Window frames</td>
 </tr>
 <tr class="odd">
-<td><p>0x(W)</p></td>
-<td><p>0x4 * n</p></td>
-<td><p>UInt32</p></td>
-<td><p>Offsets to frame materials</p></td>
+<td>0x(W)</td>
+<td>0x4 * n</td>
+<td>UInt32</td>
+<td>Offsets to frame materials</td>
 </tr>
 <tr class="even">
-<td><p>0x(W)</p></td>
-<td><p>0x4 * n</p></td>
-<td><p>Window frame</p></td>
+<td>0x(W)</td>
+<td>0x4 * n</td>
+<td>Window frame</td>
 <td><table>
 <thead>
 <tr class="header">
@@ -642,22 +642,22 @@ frames. (W)</p></td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x0</p></td>
-<td><p>UInt16</p></td>
-<td><p>0x2</p></td>
-<td><p>Frame Material ID</p></td>
+<td>0x0</td>
+<td>UInt16</td>
+<td>0x2</td>
+<td>Frame Material ID</td>
 </tr>
 <tr class="even">
-<td><p>0x2</p></td>
-<td><p>Byte</p></td>
-<td><p>0x1</p></td>
-<td><p>Flip Type</p></td>
+<td>0x2</td>
+<td>Byte</td>
+<td>0x1</td>
+<td>Flip Type</td>
 </tr>
 <tr class="odd">
-<td><p>0x3</p></td>
-<td><p>Byte</p></td>
-<td><p>0x1</p></td>
-<td><p>Padding</p></td>
+<td>0x3</td>
+<td>Byte</td>
+<td>0x1</td>
+<td>Padding</td>
 </tr>
 </tbody>
 </table></td>
@@ -763,29 +763,29 @@ Where an entry is as follows:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x0</p></td>
-<td><p>0x4</p></td>
-<td><p>UInt32</p></td>
-<td><p>Key offset (from start of this entry) to null-terminated ascii
-string that serves as key.</p></td>
+<td>0x0</td>
+<td>0x4</td>
+<td>UInt32</td>
+<td>Key offset (from start of this entry) to null-terminated ascii
+string that serves as key.</td>
 </tr>
 <tr class="even">
-<td><p>0x4</p></td>
-<td><p>0x4</p></td>
-<td><p>UInt32</p></td>
-<td><p>Value offset (from start of this entry).</p></td>
+<td>0x4</td>
+<td>0x4</td>
+<td>UInt32</td>
+<td>Value offset (from start of this entry).</td>
 </tr>
 <tr class="odd">
-<td><p>0x8</p></td>
-<td><p>0x2</p></td>
-<td><p>UInt16</p></td>
-<td><p>Number of entries or string length.</p></td>
+<td>0x8</td>
+<td>0x2</td>
+<td>UInt16</td>
+<td>Number of entries or string length.</td>
 </tr>
 <tr class="even">
-<td><p>0xA</p></td>
-<td><p>0x2</p></td>
-<td><p>UInt16</p></td>
-<td><p>Value type</p>
+<td>0xA</td>
+<td>0x2</td>
+<td>UInt16</td>
+<td>Value type</p>
 <table>
 <thead>
 <tr class="header">
@@ -795,16 +795,16 @@ string that serves as key.</p></td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x0</p></td>
-<td><p>String</p></td>
+<td>0x0</td>
+<td>String</td>
 </tr>
 <tr class="even">
-<td><p>0x1</p></td>
-<td><p>Int</p></td>
+<td>0x1</td>
+<td>Int</td>
 </tr>
 <tr class="odd">
-<td><p>0x2</p></td>
-<td><p>Float</p></td>
+<td>0x2</td>
+<td>Float</td>
 </tr>
 </tbody>
 </table></td>

@@ -13,24 +13,24 @@ categories = ["File formats","DSP"]
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x0</p></td>
-<td><p>0x100</p></td>
-<td><p>RSA Signature over bytes 0x100-0x300</p></td>
+<td>0x0</td>
+<td>0x100</td>
+<td>RSA Signature over bytes 0x100-0x300</td>
 </tr>
 <tr class="even">
-<td><p>0x100</p></td>
-<td><p>4</p></td>
-<td><p>Magic ('DSP1')</p></td>
+<td>0x100</td>
+<td>4</td>
+<td>Magic ('DSP1')</td>
 </tr>
 <tr class="odd">
-<td><p>0x104</p></td>
-<td><p>4</p></td>
-<td><p>DSP binary size</p></td>
+<td>0x104</td>
+<td>4</td>
+<td>DSP binary size</td>
 </tr>
 <tr class="even">
-<td><p>0x108</p></td>
-<td><p>2</p></td>
-<td><p>Memory layout (bits 0-7: Program ram, 8-15: Data ram). Each bit
+<td>0x108</td>
+<td>2</td>
+<td>Memory layout (bits 0-7: Program ram, 8-15: Data ram). Each bit
 represents a memory region. The region is always 0x8000 bytes in size
 (the first region starts at 0x1FF00000; the next is a 0x1FF08000 and so
 on). The HW registers for DSP memory configuration are <a
@@ -38,52 +38,52 @@ href="../CONFIG11_Registers#CFG11_SHAREDWRAM_32K_DATA"
 title="wikilink">CFG11_SHAREDWRAM_32K_DATA</a> and <a
 href="../CONFIG11_Registers#CFG11_SHAREDWRAM_32K_CODE"
 title="wikilink">CFG11_SHAREDWRAM_32K_CODE</a>, located at physical
-address 0x10140000 (mapped to 0x1EC40000).</p></td>
+address 0x10140000 (mapped to 0x1EC40000).</td>
 </tr>
 <tr class="odd">
-<td><p>0x10C</p></td>
-<td><p>1</p></td>
-<td><p>?</p></td>
+<td>0x10C</td>
+<td>1</td>
+<td>?</td>
 </tr>
 <tr class="even">
-<td><p>0x10D</p></td>
-<td><p>1</p></td>
-<td><p>Special segment memory type (0=1=0x1FF00000(Program
-ram)+,2=0x1FF40000(Data ram)+)</p></td>
+<td>0x10D</td>
+<td>1</td>
+<td>Special segment memory type (0=1=0x1FF00000(Program
+ram)+,2=0x1FF40000(Data ram)+)</td>
 </tr>
 <tr class="odd">
-<td><p>0x10E</p></td>
-<td><p>1</p></td>
-<td><p>Num segments (must be 1-10)</p></td>
+<td>0x10E</td>
+<td>1</td>
+<td>Num segments (must be 1-10)</td>
 </tr>
 <tr class="even">
-<td><p>0x10F</p></td>
-<td><p>1</p></td>
-<td><p>Flags:</p>
+<td>0x10F</td>
+<td>1</td>
+<td>Flags:</p>
 <p>bit0: if set, DSP module calls <a href="../DSP:RecvData"
 title="wikilink">DSP:RecvData</a> on all three registers and expects
 them to reply value 1</p>
-<p>bit1: if set, load special segment</p></td>
+<p>bit1: if set, load special segment</td>
 </tr>
 <tr class="odd">
-<td><p>0x110</p></td>
-<td><p>4</p></td>
-<td><p>Special segment Start address in 16-bit words</p></td>
+<td>0x110</td>
+<td>4</td>
+<td>Special segment Start address in 16-bit words</td>
 </tr>
 <tr class="even">
-<td><p>0x114</p></td>
-<td><p>4</p></td>
-<td><p>Special segment size in bytes</p></td>
+<td>0x114</td>
+<td>4</td>
+<td>Special segment size in bytes</td>
 </tr>
 <tr class="odd">
-<td><p>0x118</p></td>
-<td><p>8</p></td>
-<td><p>Zero</p></td>
+<td>0x118</td>
+<td>8</td>
+<td>Zero</td>
 </tr>
 <tr class="even">
-<td><p>0x120</p></td>
-<td><p>0x30*10</p></td>
-<td><p>Segment records</p></td>
+<td>0x120</td>
+<td>0x30*10</td>
+<td>Segment records</td>
 </tr>
 </tbody>
 </table>

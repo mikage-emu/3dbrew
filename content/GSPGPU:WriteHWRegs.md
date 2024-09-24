@@ -13,25 +13,25 @@ title = 'GSPGPU:WriteHWRegs'
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0</p></td>
-<td><p>Header code [0x00010082]</p></td>
+<td>0</td>
+<td>Header code [0x00010082]</td>
 </tr>
 <tr class="even">
-<td><p>1</p></td>
-<td><p><a href="/categories/GPU" title="wikilink">GPU</a> address based at
-0x1EB00000, must be word-aligned</p></td>
+<td>1</td>
+<td><a href="/categories/GPU" title="wikilink">GPU</a> address based at
+0x1EB00000, must be word-aligned</td>
 </tr>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>Size, must be &lt;=0x80 and word-aligned</p></td>
+<td>2</td>
+<td>Size, must be &lt;=0x80 and word-aligned</td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
+<td>3</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>Data pointer</p></td>
+<td>4</td>
+<td>Data pointer</td>
 </tr>
 </tbody>
 </table>

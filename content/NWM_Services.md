@@ -386,49 +386,49 @@ for the MAC address, when the u8 at offset 0x8 in the network-struct is
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x0</p></td>
-<td><p>0x6</p></td>
-<td><p>This is the MAC address of the host. This is used for when <a
+<td>0x0</td>
+<td>0x6</td>
+<td>This is the MAC address of the host. This is used for when <a
 href="../NWMUDS:ConnectToNetwork" title="wikilink">connecting</a> to the
-network.</p></td>
+network.</td>
 </tr>
 <tr class="even">
-<td><p>0x6</p></td>
-<td><p>0x1</p></td>
-<td><p>This is actually written as an u16 without byte-swapping. This is
+<td>0x6</td>
+<td>0x1</td>
+<td>This is actually written as an u16 without byte-swapping. This is
 the network wifi channel. When connecting this is normally non-zero.
 When hosting, this can be 0 to automatically select a channel, otherwise
 the specified channel is used. When non-zero official user-processes
 require this value to be one of the following when hosting: 1, 6, or
-11.</p></td>
+11.</td>
 </tr>
 <tr class="odd">
-<td><p>0x7</p></td>
-<td><p>0x1</p></td>
-<td><p>Padding</p></td>
+<td>0x7</td>
+<td>0x1</td>
+<td>Padding</td>
 </tr>
 <tr class="even">
-<td><p>0x8</p></td>
-<td><p>0x1</p></td>
-<td><p>Initialized flag. Must be non-zero otherwise NWM-module will use
+<td>0x8</td>
+<td>0x1</td>
+<td>Initialized flag. Must be non-zero otherwise NWM-module will use
 value 0x0 for most/all(?) fields in this structure when reading these
-fields.</p></td>
+fields.</td>
 </tr>
 <tr class="odd">
-<td><p>0xC</p></td>
-<td><p>0x3</p></td>
-<td><p>This is the OUI value for use with the beacon tags. Normally this
-is 001F32.</p></td>
+<td>0xC</td>
+<td>0x3</td>
+<td>This is the OUI value for use with the beacon tags. Normally this
+is 001F32.</td>
 </tr>
 <tr class="even">
-<td><p>0xF</p></td>
-<td><p>0x1</p></td>
-<td><p>OUI type (21/0x15)</p></td>
+<td>0xF</td>
+<td>0x1</td>
+<td>OUI type (21/0x15)</td>
 </tr>
 <tr class="odd">
-<td><p>0x10</p></td>
-<td><p>0x4</p></td>
-<td><p>wlancommID. Local-WLAN communication ID, normally this is:
+<td>0x10</td>
+<td>0x4</td>
+<td>wlancommID. Local-WLAN communication ID, normally this is:
 (user_process <a href="../Title_list" title="wikilink">uniqueID</a>
 &lt;&lt; 8) | val. Where val is 0x10 on retail(<a
 href="../Configuration_Memory#ENVINFO" title="wikilink">ENVINFO</a> bit0
@@ -439,25 +439,25 @@ this is always 0x2810 on retail(0x2890 on devunit).</p>
 <p>This wlancommID can have the side affect of region-locking when the
 title uses the uniqueID for the current title(hard-coded in .text
 normally), instead of using a fixed input uniqueID for each region of
-the title.</p></td>
+the title.</td>
 </tr>
 <tr class="even">
-<td><p>0x14</p></td>
-<td><p>0x1</p></td>
-<td><p>id8. ID, for <a href="../Download_Play" title="wikilink">Download
+<td>0x14</td>
+<td>0x1</td>
+<td>id8. ID, for <a href="../Download_Play" title="wikilink">Download
 Play</a> this is 0x55. 0x55/'U' seems to be used for networks where Wii
 U can host it(Download Play, Smash Bros, ...) - this value isn't known
-to be actually checked anywhere however.</p></td>
+to be actually checked anywhere however.</td>
 </tr>
 <tr class="odd">
-<td><p>0x15</p></td>
-<td><p>0x1</p></td>
-<td><p>Number of times the network structure hash was updated.</p></td>
+<td>0x15</td>
+<td>0x1</td>
+<td>Number of times the network structure hash was updated.</td>
 </tr>
 <tr class="even">
-<td><p>0x16</p></td>
-<td><p>0x2</p></td>
-<td><p>This network attributes u16 bitmask can be written via <a
+<td>0x16</td>
+<td>0x2</td>
+<td>This network attributes u16 bitmask can be written via <a
 href="../NWMUDS:UpdateNetworkAttribute"
 title="wikilink">NWMUDS:UpdateNetworkAttribute</a>. Bitmasks:</p>
 <ul>
@@ -477,48 +477,48 @@ bitmask 0x6 when unblocking new connections.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>0x18</p></td>
-<td><p>0x4</p></td>
-<td><p>u32 networkID, randomly-generated when creating the network. The
+<td>0x18</td>
+<td>0x4</td>
+<td>u32 networkID, randomly-generated when creating the network. The
 network SSID used when a client connects to the network is sprintf(out,
-"%08X", networkID).</p></td>
+"%08X", networkID).</td>
 </tr>
 <tr class="even">
-<td><p>0x1C</p></td>
-<td><p>0x1</p></td>
-<td><p>Total number of currently connected nodes, including the
-host.</p></td>
+<td>0x1C</td>
+<td>0x1</td>
+<td>Total number of currently connected nodes, including the
+host.</td>
 </tr>
 <tr class="odd">
-<td><p>0x1D</p></td>
-<td><p>0x1</p></td>
-<td><p>Maximum number of nodes, including the host. This also is the
+<td>0x1D</td>
+<td>0x1</td>
+<td>Maximum number of nodes, including the host. This also is the
 total number of entries stored under the array in the encrypted beacon
-data.</p></td>
+data.</td>
 </tr>
 <tr class="even">
-<td><p>0x1E</p></td>
-<td><p>0xD</p></td>
-<td><p>?</p></td>
+<td>0x1E</td>
+<td>0xD</td>
+<td>?</td>
 </tr>
 <tr class="odd">
-<td><p>0x2B</p></td>
-<td><p>0x14</p></td>
-<td><p>SHA1 hash of the network structure, starting at the OUI field
+<td>0x2B</td>
+<td>0x14</td>
+<td>SHA1 hash of the network structure, starting at the OUI field
 (offset 0xC) and spanning SizeOfAppData + 0x34. The unused space of the
-app data buffer is not hashed.</p></td>
+app data buffer is not hashed.</td>
 </tr>
 <tr class="even">
-<td><p>0x3F</p></td>
-<td><p>0x1</p></td>
-<td><p>Size of appdata.</p></td>
+<td>0x3F</td>
+<td>0x1</td>
+<td>Size of appdata.</td>
 </tr>
 <tr class="odd">
-<td><p>0x40</p></td>
-<td><p>0xC8</p></td>
-<td><p>Appdata(Application data), if any. Size of the appdata is
+<td>0x40</td>
+<td>0xC8</td>
+<td>Appdata(Application data), if any. Size of the appdata is
 specified via the u8 at offset 0x3F. This data is not used when the
-size-field is zero.</p></td>
+size-field is zero.</td>
 </tr>
 </tbody>
 </table>

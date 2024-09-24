@@ -149,49 +149,49 @@ Thus, the ARM9 binary has the following header:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x000</p></td>
-<td><p>16</p></td>
-<td><p>Encrypted KeyX (same for all FIRM's)</p></td>
+<td>0x000</td>
+<td>16</td>
+<td>Encrypted KeyX (same for all FIRM's)</td>
 </tr>
 <tr class="even">
-<td><p>0x010</p></td>
-<td><p>16</p></td>
-<td><p>KeyY</p></td>
+<td>0x010</td>
+<td>16</td>
+<td>KeyY</td>
 </tr>
 <tr class="odd">
-<td><p>0x020</p></td>
-<td><p>16</p></td>
-<td><p>CTR</p></td>
+<td>0x020</td>
+<td>16</td>
+<td>CTR</td>
 </tr>
 <tr class="even">
-<td><p>0x030</p></td>
-<td><p>8</p></td>
-<td><p>Size of encrypted binary, as ASCII text?</p></td>
+<td>0x030</td>
+<td>8</td>
+<td>Size of encrypted binary, as ASCII text?</td>
 </tr>
 <tr class="odd">
-<td><p>0x038</p></td>
-<td><p>8</p></td>
-<td><p>?</p></td>
+<td>0x038</td>
+<td>8</td>
+<td>?</td>
 </tr>
 <tr class="even">
-<td><p>0x040</p></td>
-<td><p>16</p></td>
-<td><p>Control block</p></td>
+<td>0x040</td>
+<td>16</td>
+<td>Control block</td>
 </tr>
 <tr class="odd">
-<td><p>0x050</p></td>
-<td><p>16</p></td>
-<td><p>Added with <a href="../9.5.0-22" title="wikilink">9.5.0-X</a>. Only
+<td>0x050</td>
+<td>16</td>
+<td>Added with <a href="../9.5.0-22" title="wikilink">9.5.0-X</a>. Only
 used for hardware debugging: a nop instruction is executed with r0=0 and
 r1=</p>
 <address of this data>
-<p>.</p></td>
+<p>.</td>
 </tr>
 <tr class="even">
-<td><p>0x060</p></td>
-<td><p>16</p></td>
-<td><p>Added with <a href="../9.5.0-22" title="wikilink">9.5.0-X</a>.
-Encrypted keyX for keyslot 0x16.</p></td>
+<td>0x060</td>
+<td>16</td>
+<td>Added with <a href="../9.5.0-22" title="wikilink">9.5.0-X</a>.
+Encrypted keyX for keyslot 0x16.</td>
 </tr>
 </tbody>
 </table>

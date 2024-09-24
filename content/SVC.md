@@ -471,10 +471,10 @@ operation involving synchronization between cores.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0</p></td>
-<td><p>Yes</p></td>
-<td><p>No</p></td>
-<td><p>Arguments : <code>u64 firmTitleID</code> (the high 32-bits of
+<td>0</td>
+<td>Yes</td>
+<td>No</td>
+<td>Arguments : <code>u64 firmTitleID</code> (the high 32-bits of
 that title ID (0 when using N3DS pm) have a special meaning on N3DS,
 they're otherwise ignored, see below). This initializes the programID
 for launching <a href="../FIRM" title="wikilink">FIRM</a>, then triggers
@@ -483,57 +483,57 @@ it forces the firm title ID to be the New3DS NATIVE_FIRM, when the input
 firm title ID is 2. The high firm title ID is always set to 0x40138. On
 New3DS, the kernel disables the additional New3DS cache hw prior to
 calling the firmlaunch function from the
-<handler for the KernelSetState-types called via funcptr>.</p></td>
+<handler for the KernelSetState-types called via funcptr>.</td>
 </tr>
 <tr class="even">
-<td><p>1</p></td>
-<td><p>Yes</p></td>
-<td><p>Yes</p></td>
-<td><p>Does nothing.</p></td>
+<td>1</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Does nothing.</td>
 </tr>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>Yes</p></td>
-<td><p>Yes</p></td>
-<td><p>Powers down the GPU and syncs with Process9 (waits for
+<td>2</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Powers down the GPU and syncs with Process9 (waits for
 <code>*(vu8 *)PXI_SYNC11</code> to be 1) during the process. On New3DS,
 the kernel disables the additional New3DS cache hw, when it's actually
 enabled, prior to executing the rest of the code from the
-<handler for the KernelSetState-types called via funcptr>.</p></td>
+<handler for the KernelSetState-types called via funcptr>.</td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
-<td><p>Yes</p></td>
-<td><p>No</p></td>
-<td><p>Arguments: <code>0, void* address</code> or <code>1</code> This
+<td>3</td>
+<td>Yes</td>
+<td>No</td>
+<td>Arguments: <code>0, void* address</code> or <code>1</code> This
 used for initializing the 0x1000-byte buffer used by the launched <a
 href="../FIRM" title="wikilink">FIRM</a>. When the first parameter is 1,
 this buffer is copied to the beginning of FCRAM at 0xE0000000. When it
 is 0, this kernel buffer is mapped to the process address specified by
-the second argument.</p></td>
+the second argument.</td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>No</p></td>
-<td><p>Yes</p></td>
-<td><p>This unmaps(?) the following virtual memory by writing value
+<td>4</td>
+<td>No</td>
+<td>Yes</td>
+<td>This unmaps(?) the following virtual memory by writing value
 physaddr (where physaddr base is 0x80000000) to the L1 MMU table
 entries: 0x00300000..0x04300000, 0x08000000..0x0FE00000, and
-0x10000000..0xF8000000.</p></td>
+0x10000000..0xF8000000.</td>
 </tr>
 <tr class="even">
-<td><p>5</p></td>
-<td><p>Yes</p></td>
-<td><p>Yes</p></td>
-<td><p>Power state change. Takes one u32 parameter.</p>
+<td>5</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Power state change. Takes one u32 parameter.</p>
 <p>0: shutdown/reboot. hangs the Arm11. Used by kernelpanic and PTM.
-This makes all cores enter a WFI/B infinite loop.</p></td>
+This makes all cores enter a WFI/B infinite loop.</td>
 </tr>
 <tr class="odd">
-<td><p>6</p></td>
-<td><p>Yes</p></td>
-<td><p>No</p></td>
-<td><p>Arguments: <code>u32 what, u64 val</code> UNITINFO needs to be
+<td>6</td>
+<td>Yes</td>
+<td>No</td>
+<td>Arguments: <code>u32 what, u64 val</code> UNITINFO needs to be
 non-zero for <code>what</code> 1 and 2.</p>
 <p>If <code>what</code> is 0 or any invalid value, nothing is done.</p>
 <p>If it is 1, <code>val != 0</code> is written to the global variable
@@ -558,43 +558,43 @@ savegame</a>.</p>
 <p>If 3, this changes the scheduling/preemption mode (when no threads
 are being preempted, otherwise returns error 0xC8A01414), see <a
 href="../KResourceLimit" title="wikilink">KResourceLimit</a> for more
-details.</p></td>
+details.</td>
 </tr>
 <tr class="even">
-<td><p>7</p></td>
-<td><p>Yes</p></td>
-<td><p>No</p></td>
-<td><p>This triggers an MCU (hard) reboot. This reboot is triggered via
+<td>7</td>
+<td>Yes</td>
+<td>No</td>
+<td>This triggers an MCU (hard) reboot. This reboot is triggered via
 device address 0x4A on the second <a href="../I2C" title="wikilink">I2C</a>
 bus (the MCU). Register address 0x20 is written to with value 4. This
 code will not return. On New3DS, the kernel disables the additional
 New3DS cache hw prior to calling the reboot function from the
-<handler for the KernelSetState-types called via funcptr>.</p></td>
+<handler for the KernelSetState-types called via funcptr>.</td>
 </tr>
 <tr class="odd">
-<td><p>8</p></td>
-<td><p>Yes</p></td>
-<td><p>No</p></td>
-<td><p>Hangs the Arm9, using a code path similar to the one used on
-firmlaunch. Used by PTM on shutdown/reboot.</p></td>
+<td>8</td>
+<td>Yes</td>
+<td>No</td>
+<td>Hangs the Arm9, using a code path similar to the one used on
+firmlaunch. Used by PTM on shutdown/reboot.</td>
 </tr>
 <tr class="even">
-<td><p>9</p></td>
-<td><p>Yes, implemented at some point after system-version
-v4.5.</p></td>
-<td><p>?</p></td>
-<td><p>Argumens: <code>u64 titleID</code>. When creating a process, if
+<td>9</td>
+<td>Yes, implemented at some point after system-version
+v4.5.</td>
+<td>?</td>
+<td>Argumens: <code>u64 titleID</code>. When creating a process, if
 the process has a non-zero TID equal to the parameter above (which is
 stored in a global variable), then KProcessHwInfo+0x32 ("process is the
 currently running app") is set to <code>true</code>. Used by NS
 conditionally based on the contents of the <a href="../NS_CFA"
-title="wikilink">NS CFA</a>.</p></td>
+title="wikilink">NS CFA</a>.</td>
 </tr>
 <tr class="odd">
-<td><p>10</p></td>
-<td><p>Yes</p></td>
-<td><p>?</p></td>
-<td><p>Arguments: <code>u32 config</code> ConfigureNew3DSCPU. Only
+<td>10</td>
+<td>Yes</td>
+<td>?</td>
+<td>Arguments: <code>u32 config</code> ConfigureNew3DSCPU. Only
 available for the <a href="../New_3DS" title="wikilink">New_3DS</a> kernel.
 The actual code for processing this runs under the
 <handler for the KernelSetState-types called via funcptr>, which runs on
@@ -603,7 +603,7 @@ enables higher core clock, and bit 1 enables additional (L2) cache. This
 configures the hardware <a href="../PDN_Registers"
 title="wikilink">register</a> for the flags listed <a
 href="../NCCH/Extended_Header#Flag1" title="wikilink">here</a>, among other
-code which uses the MPCore private memory region registers.</p></td>
+code which uses the MPCore private memory region registers.</td>
 </tr>
 </tbody>
 </table>

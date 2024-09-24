@@ -17,42 +17,42 @@ in other pages.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ARM11 Processor Core</p></td>
-<td><p>Old3DS: <a
+<td>ARM11 Processor Core</td>
+<td>Old3DS: <a
 href="http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0360f/index.html">ARM11
 2x MPCore &amp; 2x VFPv2 Co-Processor</a> 268MHz (268,111,856.0 ±
 2<sup>-32</sup> Hz, i.e. exactly twice the clock rate of the ARM9).</p>
 <p>New3DS: 4x MPCore, 4x VFPv2, able to run up to 804MHz (see below). It
-also has an optional 2MB L2 cache.</p></td>
+also has an optional 2MB L2 cache.</td>
 </tr>
 <tr class="even">
-<td><p>ARM9 Processor Core</p></td>
-<td><p><a
+<td>ARM9 Processor Core</td>
+<td><a
 href="http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0201d/index.html">ARM946</a>
-134MHz (134,055,927.9 ± 2<sup>-32</sup> Hz),</p></td>
+134MHz (134,055,927.9 ± 2<sup>-32</sup> Hz),</td>
 </tr>
 <tr class="odd">
-<td><p>GPU</p></td>
-<td><p><a href="http://en.wikipedia.org/wiki/PICA200">DMP PICA</a>
-268MHz,</p></td>
+<td>GPU</td>
+<td><a href="http://en.wikipedia.org/wiki/PICA200">DMP PICA</a>
+268MHz,</td>
 </tr>
 <tr class="even">
-<td><p>VRAM</p></td>
-<td><p>6 MB within SoC.</p></td>
+<td>VRAM</td>
+<td>6 MB within SoC.</td>
 </tr>
 <tr class="odd">
-<td><p>Top screen</p></td>
-<td><p>800x240, with only 400 usable pixels per eye per line.</p></td>
+<td>Top screen</td>
+<td>800x240, with only 400 usable pixels per eye per line.</td>
 </tr>
 <tr class="even">
-<td><p>Bottom screen</p></td>
-<td><p>320x240, with resistive touch overlay.</p></td>
+<td>Bottom screen</td>
+<td>320x240, with resistive touch overlay.</td>
 </tr>
 <tr class="odd">
-<td><p>DSP</p></td>
-<td><p><a
+<td>DSP</td>
+<td><a
 href="https://twitter.com/CEVADSP/status/177172880918986752">CEVA
-TeakLite</a>. 134Mhz. 24ch 32728Hz sampling rates.</p></td>
+TeakLite</a>. 134Mhz. 24ch 32728Hz sampling rates.</td>
 </tr>
 </tbody>
 </table>

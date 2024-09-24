@@ -20,53 +20,53 @@ indicated in the header.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x0</p></td>
-<td><p>0x4</p></td>
-<td><p>Magic "CCAL"</p></td>
+<td>0x0</td>
+<td>0x4</td>
+<td>Magic "CCAL"</td>
 </tr>
 <tr class="even">
-<td><p>0x4</p></td>
-<td><p>0x4</p></td>
-<td><p>Version</p></td>
+<td>0x4</td>
+<td>0x4</td>
+<td>Version</td>
 </tr>
 <tr class="odd">
-<td><p>0x8</p></td>
-<td><p>0x4</p></td>
-<td><p>Data size, always 0x7D0</p></td>
+<td>0x8</td>
+<td>0x4</td>
+<td>Data size, always 0x7D0</td>
 </tr>
 <tr class="even">
-<td><p>0xC</p></td>
-<td><p>0x1</p></td>
-<td><p>Model version (?)</p></td>
+<td>0xC</td>
+<td>0x1</td>
+<td>Model version (?)</td>
 </tr>
 <tr class="odd">
-<td><p>0xD</p></td>
-<td><p>0x1</p></td>
-<td><p>CAL revision (incremented each time the CAL file is
-updated)</p></td>
+<td>0xD</td>
+<td>0x1</td>
+<td>CAL revision (incremented each time the CAL file is
+updated)</td>
 </tr>
 <tr class="even">
-<td><p>0xE</p></td>
-<td><p>0x2</p></td>
-<td><p><a href="../#Aging_masks" title="wikilink">Bitmask of successful
-Aging tests</a></p></td>
+<td>0xE</td>
+<td>0x2</td>
+<td><a href="../#Aging_masks" title="wikilink">Bitmask of successful
+Aging tests</a></td>
 </tr>
 <tr class="odd">
-<td><p>0x10</p></td>
-<td><p>0x20</p></td>
-<td><p>Signature of the data section.</p>
+<td>0x10</td>
+<td>0x20</td>
+<td>Signature of the data section.</p>
 <p>HMACSHA256 is used always except in the below cases where SHA256 is
 used:</p>
 <p><code> - devunits</code><br />
 <code> - PARTNER-DEBUGGER</code><br />
 <code> - PARTNER-CAPTURE</code><br />
 <code> - the SNAKE counterparts of the above</code><br />
-<code> - SNAKE-IS-DEBUGGER</code></p></td>
+<code> - SNAKE-IS-DEBUGGER</code></td>
 </tr>
 <tr class="even">
-<td><p>0x30</p></td>
-<td><p>0x1D0</p></td>
-<td><p>Zerofilled, padding for the 512byte block size</p></td>
+<td>0x30</td>
+<td>0x1D0</td>
+<td>Zerofilled, padding for the 512byte block size</td>
 </tr>
 </tbody>
 </table>

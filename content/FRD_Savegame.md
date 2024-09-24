@@ -46,117 +46,117 @@ data of the main account.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x00</p></td>
-<td><p>4</p></td>
-<td><p>File magic "FPMD" (Friends Preference My Data/Device)</p></td>
+<td>0x00</td>
+<td>4</td>
+<td>File magic "FPMD" (Friends Preference My Data/Device)</td>
 </tr>
 <tr class="even">
-<td><p>0x04</p></td>
-<td><p>4</p></td>
-<td><p>File magic number (0x20101021)</p></td>
+<td>0x04</td>
+<td>4</td>
+<td>File magic number (0x20101021)</td>
 </tr>
 <tr class="odd">
-<td><p>0x08</p></td>
-<td><p>8</p></td>
-<td><p>Padding</p></td>
+<td>0x08</td>
+<td>8</td>
+<td>Padding</td>
 </tr>
 <tr class="even">
-<td><p>0x10</p></td>
-<td><p>4</p></td>
-<td><p>My NC Principal ID</p></td>
+<td>0x10</td>
+<td>4</td>
+<td>My NC Principal ID</td>
 </tr>
 <tr class="odd">
-<td><p>0x14</p></td>
-<td><p>4</p></td>
-<td><p>Unknown</p></td>
+<td>0x14</td>
+<td>4</td>
+<td>Unknown</td>
 </tr>
 <tr class="even">
-<td><p>0x18</p></td>
-<td><p>4</p></td>
-<td><p><a
+<td>0x18</td>
+<td>4</td>
+<td><a
 href="https://github.com/kinnay/NintendoClients/wiki/Friends-Protocol-(3DS)#nintendopresence-structure">Changed
-bit flags</a></p></td>
+bit flags</a></td>
 </tr>
 <tr class="odd">
-<td><p>0x1C</p></td>
-<td><p>1</p></td>
-<td><p>Is public mode</p></td>
+<td>0x1C</td>
+<td>1</td>
+<td>Is public mode</td>
 </tr>
 <tr class="even">
-<td><p>0x1D</p></td>
-<td><p>1</p></td>
-<td><p>Is show game mode</p></td>
+<td>0x1D</td>
+<td>1</td>
+<td>Is show game mode</td>
 </tr>
 <tr class="odd">
-<td><p>0x1E</p></td>
-<td><p>1</p></td>
-<td><p>Is show played game</p></td>
+<td>0x1E</td>
+<td>1</td>
+<td>Is show played game</td>
 </tr>
 <tr class="even">
-<td><p>0x1F</p></td>
-<td><p>1</p></td>
-<td><p>Padding</p></td>
+<td>0x1F</td>
+<td>1</td>
+<td>Padding</td>
 </tr>
 <tr class="odd">
-<td><p>0x20</p></td>
-<td><p>0x10</p></td>
-<td><p>GameKey of my favorite game:</p>
+<td>0x20</td>
+<td>0x10</td>
+<td>GameKey of my favorite game:</p>
 <p><code> u64 title_id</code><br />
 <code> u32 title_version</code><br />
-<code> u32 unknown</code></p></td>
+<code> u32 unknown</code></td>
 </tr>
 <tr class="even">
-<td><p>0x30</p></td>
-<td><p>16 * 2</p></td>
-<td><p>UTF16 string of personal message</p></td>
+<td>0x30</td>
+<td>16 * 2</td>
+<td>UTF16 string of personal message</td>
 </tr>
 <tr class="odd">
-<td><p>0x50</p></td>
-<td><p>8</p></td>
-<td><p>Unknown</p></td>
+<td>0x50</td>
+<td>8</td>
+<td>Unknown</td>
 </tr>
 <tr class="even">
-<td><p>0x58</p></td>
-<td><p>8</p></td>
-<td><p><code> u8 region</code><br />
+<td>0x58</td>
+<td>8</td>
+<td><code> u8 region</code><br />
 <code> u8 country</code><br />
 <code> u8 area</code><br />
 <code> u8 language</code><br />
 <code> u8 platform = 2</code><br />
-<code> u8 padding[3]</code></p></td>
+<code> u8 padding[3]</code></td>
 </tr>
 <tr class="odd">
-<td><p>0x60</p></td>
-<td><p>8</p></td>
-<td><p>LocalFriendCodeSeed u64</p></td>
+<td>0x60</td>
+<td>8</td>
+<td>LocalFriendCodeSeed u64</td>
 </tr>
 <tr class="even">
-<td><p>0x68</p></td>
-<td><p>(12 + 1) * 2</p></td>
-<td><p>UTF16 string of MAC address of the console (only the
-digits)</p></td>
+<td>0x68</td>
+<td>(12 + 1) * 2</td>
+<td>UTF16 string of MAC address of the console (only the
+digits)</td>
 </tr>
 <tr class="odd">
-<td><p>0x82</p></td>
-<td><p>(15 + 1) * 2</p></td>
-<td><p>UTF16 string of console serial number without the checksum
-digit</p></td>
+<td>0x82</td>
+<td>(15 + 1) * 2</td>
+<td>UTF16 string of console serial number without the checksum
+digit</td>
 </tr>
 <tr class="even">
-<td><p>0xA2</p></td>
-<td><p>(10 + 1) * 2</p></td>
-<td><p>UTF16 string of Display name</p></td>
+<td>0xA2</td>
+<td>(10 + 1) * 2</td>
+<td>UTF16 string of Display name</td>
 </tr>
 <tr class="odd">
-<td><p>0xBB</p></td>
-<td><p>0x60</p></td>
-<td><p>Unaligned <a href="../Mii#Mii_format" title="wikilink">Mii
-data</a></p></td>
+<td>0xBB</td>
+<td>0x60</td>
+<td>Unaligned <a href="../Mii#Mii_format" title="wikilink">Mii
+data</a></td>
 </tr>
 <tr class="even">
-<td><p>0x11B</p></td>
-<td><p>5</p></td>
-<td><p>Padding (0x120)</p></td>
+<td>0x11B</td>
+<td>5</td>
+<td>Padding (0x120)</td>
 </tr>
 </tbody>
 </table>
@@ -184,99 +184,99 @@ data</a></p></td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x00</p></td>
-<td><p>0x10</p></td>
-<td><p>FriendKey:</p>
+<td>0x00</td>
+<td>0x10</td>
+<td>FriendKey:</p>
 <p><code> u32 principal_id</code><br />
 <code> u32 padding</code><br />
-<code> u64 friend_code</code></p></td>
+<code> u64 friend_code</code></td>
 </tr>
 <tr class="even">
-<td><p>0x10</p></td>
-<td><p>0x4</p></td>
-<td><p>Unknown</p></td>
+<td>0x10</td>
+<td>0x4</td>
+<td>Unknown</td>
 </tr>
 <tr class="odd">
-<td><p>0x14</p></td>
-<td><p>1</p></td>
-<td><p>Friend relationship</p></td>
+<td>0x14</td>
+<td>1</td>
+<td>Friend relationship</td>
 </tr>
 <tr class="even">
-<td><p>0x15</p></td>
-<td><p>8</p></td>
-<td><p><code> u8 region</code><br />
+<td>0x15</td>
+<td>8</td>
+<td><code> u8 region</code><br />
 <code> u8 country</code><br />
 <code> u8 area</code><br />
 <code> u8 language</code><br />
 <code> u8 platform = 2</code><br />
-<code> u8 padding[3]</code></p></td>
+<code> u8 padding[3]</code></td>
 </tr>
 <tr class="odd">
-<td><p>0x1D</p></td>
-<td><p>3</p></td>
-<td><p>Padding</p></td>
+<td>0x1D</td>
+<td>3</td>
+<td>Padding</td>
 </tr>
 <tr class="even">
-<td><p>0x20</p></td>
-<td><p>0x10</p></td>
-<td><p>GameKey of friend favorite game:</p>
+<td>0x20</td>
+<td>0x10</td>
+<td>GameKey of friend favorite game:</p>
 <p><code> u64 title_id</code><br />
 <code> u32 title_version</code><br />
-<code> u32 unknown</code></p></td>
+<code> u32 unknown</code></td>
 </tr>
 <tr class="odd">
-<td><p>0x30</p></td>
-<td><p>16 * 2</p></td>
-<td><p>UTF16 string of personal message</p></td>
+<td>0x30</td>
+<td>16 * 2</td>
+<td>UTF16 string of personal message</td>
 </tr>
 <tr class="even">
-<td><p>0x50</p></td>
-<td><p>0x8</p></td>
-<td><p>Unknown</p></td>
+<td>0x50</td>
+<td>0x8</td>
+<td>Unknown</td>
 </tr>
 <tr class="odd">
-<td><p>0x58</p></td>
-<td><p>8</p></td>
-<td><p>Message update <a
-href="https://github.com/kinnay/NintendoClients/wiki/NEX-Common-Types#datetime">timestamp</a></p></td>
+<td>0x58</td>
+<td>8</td>
+<td>Message update <a
+href="https://github.com/kinnay/NintendoClients/wiki/NEX-Common-Types#datetime">timestamp</a></td>
 </tr>
 <tr class="even">
-<td><p>0x60</p></td>
-<td><p>8</p></td>
-<td><p>Mii update <a
-href="https://github.com/kinnay/NintendoClients/wiki/NEX-Common-Types#datetime">timestamp</a></p></td>
+<td>0x60</td>
+<td>8</td>
+<td>Mii update <a
+href="https://github.com/kinnay/NintendoClients/wiki/NEX-Common-Types#datetime">timestamp</a></td>
 </tr>
 <tr class="odd">
-<td><p>0x68</p></td>
-<td><p>8</p></td>
-<td><p>Last online <a
-href="https://github.com/kinnay/NintendoClients/wiki/NEX-Common-Types#datetime">timestamp</a></p></td>
+<td>0x68</td>
+<td>8</td>
+<td>Last online <a
+href="https://github.com/kinnay/NintendoClients/wiki/NEX-Common-Types#datetime">timestamp</a></td>
 </tr>
 <tr class="even">
-<td><p>0x70</p></td>
-<td><p>0x60</p></td>
-<td><p><a href="../Mii#Mii_format" title="wikilink">Mii data</a></p></td>
+<td>0x70</td>
+<td>0x60</td>
+<td><a href="../Mii#Mii_format" title="wikilink">Mii data</a></td>
 </tr>
 <tr class="odd">
-<td><p>0xD0</p></td>
-<td><p>(10 + 1) * 2</p></td>
-<td><p>UTF16 string of display name</p></td>
+<td>0xD0</td>
+<td>(10 + 1) * 2</td>
+<td>UTF16 string of display name</td>
 </tr>
 <tr class="even">
-<td><p>0xE8</p></td>
-<td><p>8</p></td>
-<td><p>Friendship? <a
-href="https://github.com/kinnay/NintendoClients/wiki/NEX-Common-Types#datetime">timestamp</a></p></td>
+<td>0xE8</td>
+<td>8</td>
+<td>Friendship? <a
+href="https://github.com/kinnay/NintendoClients/wiki/NEX-Common-Types#datetime">timestamp</a></td>
 </tr>
 <tr class="odd">
-<td><p>0xF0</p></td>
-<td><p>8</p></td>
-<td><p>Same as 0x58?</p></td>
+<td>0xF0</td>
+<td>8</td>
+<td>Same as 0x58?</td>
 </tr>
 <tr class="even">
-<td><p>0xF8</p></td>
-<td><p>8</p></td>
-<td><p>Same as 0x60?</p></td>
+<td>0xF8</td>
+<td>8</td>
+<td>Same as 0x60?</td>
 </tr>
 </tbody>
 </table>

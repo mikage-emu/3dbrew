@@ -19,53 +19,53 @@ title = 'HID:GetIPCHandles'
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0</p></td>
-<td><p>Header code</p></td>
+<td>0</td>
+<td>Header code</td>
 </tr>
 <tr class="even">
-<td><p>1</p></td>
-<td><p>Result code</p></td>
+<td>1</td>
+<td>Result code</td>
 </tr>
 <tr class="odd">
-<td><p>2</p></td>
+<td>2</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
-<td><p><a href="../HID_Shared_Memory" title="wikilink">Shared</a> memory
-handle</p></td>
+<td>3</td>
+<td><a href="../HID_Shared_Memory" title="wikilink">Shared</a> memory
+handle</td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>Event handle signaled by HID-module, when the <a
+<td>4</td>
+<td>Event handle signaled by HID-module, when the <a
 href="../HID_Shared_Memory"
 title="wikilink">sharedmem</a>+0(PAD/circle-pad)/+0xA8(touch-screen)
-region was updated.</p></td>
+region was updated.</td>
 </tr>
 <tr class="even">
-<td><p>5</p></td>
-<td><p>Event handle signaled by HID-module, when the <a
+<td>5</td>
+<td>Event handle signaled by HID-module, when the <a
 href="../HID_Shared_Memory"
 title="wikilink">sharedmem</a>+0(PAD/circle-pad)/+0xA8(touch-screen)
-region was updated.</p></td>
+region was updated.</td>
 </tr>
 <tr class="odd">
-<td><p>6</p></td>
-<td><p>Event handle signaled by HID-module, when the <a
+<td>6</td>
+<td>Event handle signaled by HID-module, when the <a
 href="../HID_Shared_Memory" title="wikilink">sharedmem</a> accelerometer
-state was updated.</p></td>
+state was updated.</td>
 </tr>
 <tr class="even">
-<td><p>7</p></td>
-<td><p>Event handle signaled by HID-module, when the <a
+<td>7</td>
+<td>Event handle signaled by HID-module, when the <a
 href="../HID_Shared_Memory" title="wikilink">sharedmem</a> gyroscope state
-was updated.</p></td>
+was updated.</td>
 </tr>
 <tr class="odd">
-<td><p>8</p></td>
-<td><p>Event handle signaled by HID-module, when the <a
+<td>8</td>
+<td>Event handle signaled by HID-module, when the <a
 href="../HID_Shared_Memory" title="wikilink">sharedmem</a> DebugPad state
-was updated.</p></td>
+was updated.</td>
 </tr>
 </tbody>
 </table>

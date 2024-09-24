@@ -30,25 +30,25 @@ Version/<version>.<region>". <lang> is "en", "fr", etc. <region> is
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1.7498</p></td>
-<td><p>v16 and v0</p></td>
+<td>1.7498</td>
+<td>v16 and v0</td>
 <td></td>
-<td><p>Initial app version.</p></td>
+<td>Initial app version.</td>
 </tr>
 <tr class="even">
-<td><p>1.7498</p></td>
-<td><p>v1056 and v1040</p></td>
+<td>1.7498</td>
+<td>v1056 and v1040</td>
 <td></td>
-<td><p>First app update. This build uses the <a href="../7.0.0-13"
+<td>First app update. This build uses the <a href="../7.0.0-13"
 title="wikilink">v7.0</a> <a href="../NCCH" title="wikilink">NCCH</a>
 encryption for the main CXI, this was the first retail title to use
-this.</p></td>
+this.</td>
 </tr>
 <tr class="odd">
-<td><p>1.7498</p></td>
-<td><p>v2096 and v2080</p></td>
-<td><p>October 15, 2015</p></td>
-<td><p>This update fixed the vuln used for tubehax.</p>
+<td>1.7498</td>
+<td>v2096 and v2080</td>
+<td>October 15, 2015</td>
+<td>This update fixed the vuln used for tubehax.</p>
 <ul>
 <li>This version was built with the latest CTRSDK, so NATIVE_FIRM <a
 href="../9.6.0-24" title="wikilink">9.6.0-X</a> is now required.</li>
@@ -89,7 +89,7 @@ fixing the vuln used by tubehax.</p>
 configuration. Now it's hard-coded to use Google's DNS server at IP
 address 8.8.8.8 via DNS-resolver socket code in the app itself (it's
 unknown whether this resolver code existed in the app before this
-version).</p></td>
+version).</td>
 </tr>
 </tbody>
 </table>

@@ -22,12 +22,12 @@ command buffer:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0</p></td>
+<td>0</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>1</p></td>
-<td><p>Output buffer address</p></td>
+<td>1</td>
+<td>Output buffer address</td>
 </tr>
 </tbody>
 </table>
@@ -43,20 +43,20 @@ command buffer:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0</p></td>
-<td><p>Header code</p></td>
+<td>0</td>
+<td>Header code</td>
 </tr>
 <tr class="even">
-<td><p>1</p></td>
-<td><p>Result code</p></td>
+<td>1</td>
+<td>Result code</td>
 </tr>
 <tr class="odd">
-<td><p>2</p></td>
+<td>2</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
-<td><p>Output data pointer</p></td>
+<td>3</td>
+<td>Output data pointer</td>
 </tr>
 </tbody>
 </table>

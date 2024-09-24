@@ -113,9 +113,9 @@ The actual main function called by main() does the following:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>v7168</p></td>
-<td><p><a href="../9.7.0-25" title="wikilink">9.7.0-X</a></p></td>
-<td><p>All of the changes are the following:</p>
+<td>v7168</td>
+<td><a href="../9.7.0-25" title="wikilink">9.7.0-X</a></td>
+<td>All of the changes are the following:</p>
 <ul>
 <li>See <a href="../9.7.0-25" title="wikilink">here</a> regarding the
 updated CTRSDK function code.</li>

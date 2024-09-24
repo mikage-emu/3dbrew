@@ -110,21 +110,21 @@ set to `FF`
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Red</p></td>
-<td><p><code>FF0000FF</code></p></td>
-<td><p>Used for general highlighting,<br />
-and game names in the Miiverse Gallery.</p></td>
+<td>Red</td>
+<td><code>FF0000FF</code></td>
+<td>Used for general highlighting,<br />
+and game names in the Miiverse Gallery.</td>
 </tr>
 <tr class="even">
-<td><p>Green</p></td>
-<td><p><code>009B00FF</code></p></td>
-<td><p>Rarely used, but mainly for the Miiverse Gallery.</p></td>
+<td>Green</td>
+<td><code>009B00FF</code></td>
+<td>Rarely used, but mainly for the Miiverse Gallery.</td>
 </tr>
 <tr class="odd">
-<td><p>Blue</p></td>
-<td><p><code>0000FFFF</code></p></td>
-<td><p>Usually used for character names,<br />
-and themes in the Miiverse Gallery.</p></td>
+<td>Blue</td>
+<td><code>0000FFFF</code></td>
+<td>Usually used for character names,<br />
+and themes in the Miiverse Gallery.</td>
 </tr>
 </tbody>
 </table>

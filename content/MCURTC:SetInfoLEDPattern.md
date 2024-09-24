@@ -39,21 +39,21 @@ register 0x2D.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>delay = seconds * 0x10</em></p>
+<td><em>delay = seconds * 0x10</em></p>
 <p>Since this data is represented in a u8, the precision is 1/16th of a
 second (0x01) and the maximum delay time is 15.9375 seconds (0xFF).</p>
 <p>If set to 0x00, only the first value of the pattern is played.
-(?)</p></td>
-<td><p>The lower the value is, the less smoothing is applied to the
+(?)</td>
+<td>The lower the value is, the less smoothing is applied to the
 pattern. Here is a visual approximation of how the smoothing works: <a
-href="https://i.imgur.com/ZxdPbIw.png">Smooth function.</a></p></td>
-<td><p><em>loop_delay = seconds * 0x10</em> Since this data is
+href="https://i.imgur.com/ZxdPbIw.png">Smooth function.</a></td>
+<td><em>loop_delay = seconds * 0x10</em> Since this data is
 represented in a u8, the precision is 1/16th of a second (0x01) and the
 maximum delay time is 15.875 seconds (0xFE).</p>
 <p>If set to 0x00, there is no loop delay.</p>
-<p>If set to 0xFF, the pattern is played only once.</p></td>
-<td><p>if smoothing is nothing, this can set LED blink speed
-value.</p></td>
+<p>If set to 0xFF, the pattern is played only once.</td>
+<td>if smoothing is nothing, this can set LED blink speed
+value.</td>
 </tr>
 </tbody>
 </table>

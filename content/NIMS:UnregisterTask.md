@@ -13,21 +13,21 @@ title = 'NIMS:UnregisterTask'
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0</p></td>
-<td><p>Header code [0x00050082]</p></td>
+<td>0</td>
+<td>Header code [0x00050082]</td>
 </tr>
 <tr class="even">
-<td><p>1-2</p></td>
-<td><p>Title ID of the title whose task to remove</p></td>
+<td>1-2</td>
+<td>Title ID of the title whose task to remove</td>
 </tr>
 <tr class="odd">
-<td><p>3</p></td>
-<td><p>for <a href="../IPC#Handle_Translation" title="wikilink">process
-ID</a></p></td>
+<td>3</td>
+<td>for <a href="../IPC#Handle_Translation" title="wikilink">process
+ID</a></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
-<td><p>Placeholder for process ID</p></td>
+<td>4</td>
+<td>Placeholder for process ID</td>
 </tr>
 </tbody>
 </table>

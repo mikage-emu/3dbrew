@@ -36,32 +36,32 @@ Header structure:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x0</p></td>
-<td><p>0x4</p></td>
-<td><p>Status. 1: loading system font</p>
+<td>0x0</td>
+<td>0x4</td>
+<td>Status. 1: loading system font</p>
 <p>2: system font loaded</p>
-<p>3: failed to load system font</p></td>
+<p>3: failed to load system font</td>
 </tr>
 <tr class="even">
-<td><p>0x4</p></td>
-<td><p>0x4</p></td>
-<td><p>Region. Indicates which <a
+<td>0x4</td>
+<td>0x4</td>
+<td>Region. Indicates which <a
 href="../Title_list#0004009B_-_Shared_Data_Archives"
 title="wikilink">system font archive</a> is loaded 1: region JPN/EUR/USA
 (archive 0004009B00014002)</p>
 <p>2: region CHN (archive 0004009B00014102)</p>
 <p>3: region KOR (archive 0004009B00014202)</p>
-<p>4: region TWN (archive 0004009B00014302)</p></td>
+<p>4: region TWN (archive 0004009B00014302)</td>
 </tr>
 <tr class="odd">
-<td><p>0x8</p></td>
-<td><p>0x4</p></td>
-<td><p>Decompressed font data size.</p></td>
+<td>0x8</td>
+<td>0x4</td>
+<td>Decompressed font data size.</td>
 </tr>
 <tr class="even">
-<td><p>0xC</p></td>
-<td><p>0x74</p></td>
-<td><p>Normally all-zero?</p></td>
+<td>0xC</td>
+<td>0x74</td>
+<td>Normally all-zero?</td>
 </tr>
 </tbody>
 </table>

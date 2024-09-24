@@ -1,1 +1,0 @@
-1.  REDIRECT [常见问题解答](常见问题解答 "wikilink")

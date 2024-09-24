@@ -1,1 +1,0 @@
-1.  REDIRECT [Talk:メインページ](Talk:メインページ "wikilink")

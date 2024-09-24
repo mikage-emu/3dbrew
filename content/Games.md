@@ -73,7 +73,7 @@ page with the link.
 | Virtue's Last Reward                                                                          | LNA-CTR-AKGX                 | CTR-P-AKGX                                                    | Yes     | ?       | ?       | 4GBit    | 128KByte   | 0xC22211 | ?             | ?                                                                                                                                                     |
 
 Elisherer's Savefile collection:
-[<http://sherer.co.il/saves>](http://sherer.co.il/saves)
+[http://sherer.co.il/saves](http://sherer.co.il/saves)
 
 ## SD Savegames
 

@@ -1,6 +1,6 @@
 +++
 title = 'KInterruptEventMailbox'
-categories = [" Kernel objects"]
+categories = ["Kernel objects"]
 +++
 
 Size : 0x14 bytes

@@ -1,3 +1,6 @@
+[article]
+readingTime = false
+
 [[widgets.homepage]]
 type = "categories"
 

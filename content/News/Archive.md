@@ -1,5 +1,5 @@
 +++
-title = 'Archive(1)'
+title = 'Archive'
 +++
 
 ---

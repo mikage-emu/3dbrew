@@ -1,5 +1,5 @@
 +++
-title = 'FSPXI:InitializeCtrFilesystem(1)'
+title = 'FSPXI:InitializeCtrFilesystem'
 +++
 
 # Request

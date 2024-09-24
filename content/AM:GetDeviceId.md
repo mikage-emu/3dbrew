@@ -1,5 +1,5 @@
 +++
-title = 'AM:GetDeviceId(1)'
+title = 'AM:GetDeviceId'
 +++
 
 # Request

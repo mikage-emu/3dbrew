@@ -1,5 +1,5 @@
 +++
-title = '005tools(1)'
+title = '005tools'
 +++
 
 005tools is a simple command line application designed to work with

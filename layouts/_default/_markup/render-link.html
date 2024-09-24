@@ -1,3 +1,4 @@
+{{ $rootPath := "/"}}
 {{ $isExternal := (strings.HasPrefix .Destination "http") }}
 {{- if (not (or $isExternal (strings.HasPrefix .Destination "#"))) }}
   {{ $style := "" }}
@@ -6,7 +7,7 @@
     {{ $style = "color:#ba0000" }}
   {{ end }}
 
-  <a href="/3dbrew/{{ strings.Replace .Destination ":" "" }}"
+  <a href="{{ $rootPath }}{{ strings.Replace .Destination ":" "" }}"
     {{- with .Title }} title="{{ . }}"{{ end -}}
     style={{ $style }}
   >

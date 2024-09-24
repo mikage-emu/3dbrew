@@ -60,7 +60,7 @@ binary "F1 10 FF EE".</p></td>
 <td><p>Last 3-bytes here are used with the following HMAC where the size
 is 0x1DF-bytes. The u16 starting at byte1 is used for the first two
 bytes in the 0x40-byte input buffer for Amiibo <a
-href="Process_Services_PXI" title="wikilink">crypto</a> init.</p>
+href="../Process_Services_PXI" title="wikilink">crypto</a> init.</p>
 <table>
 <thead>
 <tr class="header">
@@ -173,7 +173,7 @@ match raw binary "01 00 0F".</p></td>
 Specifications can be found on this image, which is a compilation of
 screenshots made by scanning a Samus amiibo with the Android App "NFC
 TagInfo":
-<img src="Amiibonfctaginfo.png" title="Amiibonfctaginfo.png" width="500"
+<img src="../Amiibonfctaginfo.png" title="Amiibonfctaginfo.png" width="500"
 alt="Amiibonfctaginfo.png" />
 
 See here regarding the Amiibo

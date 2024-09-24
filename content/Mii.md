@@ -74,7 +74,7 @@ unrelated to canonical order in-app.</p></td>
 <td><p>0xC81E</p></td>
 <td><p>0x2</p></td>
 <td><p>Checksum of all of the above (the first 0xC81E byte). See section
-<a href="#Checksum" title="wikilink">below</a>.</p></td>
+<a href="../#Checksum" title="wikilink">below</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p>0xC820</p></td>

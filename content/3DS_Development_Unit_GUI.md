@@ -3,7 +3,7 @@ title = '3DS Development Unit GUI'
 categories = ["3DS Development Unit Related Pages"]
 +++
 
-<img src="dev_3ds.jpg" title="dev_3ds.jpg" width="250"
+<img src="../dev_3ds.jpg" title="dev_3ds.jpg" width="250"
 alt="dev_3ds.jpg" /> A Developer (or Test) 3DS has two GUIs which can be
 used as a primary interface. Description of homemenu interface was taken
 from observations of a PAL 3DS Development Unit with Firmware 0.15.8
@@ -54,10 +54,10 @@ Menu Selector (this is also a Developer App). Apart from its appearance,
 it has a number of restrictions that do not apply to the actual HOME
 Menu. Application region-checking is not performed by the Test Menu.
 
-<img src="dev_testmenu_screenshot.png"
+<img src="../dev_testmenu_screenshot.png"
 title="dev_testmenu_screenshot.png" width="250"
 alt="dev_testmenu_screenshot.png" />
-<img src="dev_testmenu.jpg" title="dev_testmenu.jpg" width="250"
+<img src="../dev_testmenu.jpg" title="dev_testmenu.jpg" width="250"
 alt="dev_testmenu.jpg" />
 
 In the latest Test Menu, those informations are displayed on the upper

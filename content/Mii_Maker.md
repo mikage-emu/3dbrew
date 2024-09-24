@@ -71,7 +71,7 @@ href="http://www.adminsub.net/mac-address-finder/nintendo">2</a></p></td>
 <tr class="odd">
 <td><p>0x8</p></td>
 <td><p>0x4</p></td>
-<td><p><a href="Mii#Mii_ID" title="wikilink">Mii ID</a>, the encrypted
+<td><p><a href="../Mii#Mii_ID" title="wikilink">Mii ID</a>, the encrypted
 data begins here.</p></td>
 </tr>
 <tr class="even">

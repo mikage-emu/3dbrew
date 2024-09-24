@@ -138,8 +138,8 @@ Controls "Master Key".
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="1.0.0-0" title="wikilink">1.0.0-X</a> - <a
-href="6.3.0-12" title="wikilink">6.3.0-X</a></p></td>
+<td><p><a href="../1.0.0-0" title="wikilink">1.0.0-X</a> - <a
+href="../6.3.0-12" title="wikilink">6.3.0-X</a></p></td>
 <td><p>v0</p></td>
 <td><p>8</p></td>
 <td><p>Mostly inherited from the Wii/DSi algorithm which used CRC-32
@@ -155,12 +155,12 @@ then used for the master key.</p>
 master key only being valid on a particular day, though this is
 trivially defeated by setting the system time to the correct date that
 the key was generated on.</p>
-<p>This had a minor refactor in <a href="6.0.0-11"
+<p>This had a minor refactor in <a href="../6.0.0-11"
 title="wikilink">6.0.0-X</a> but is functionally identical.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="7.0.0-13" title="wikilink">7.0.0-X</a> - <a
-href="7.1.0-16" title="wikilink">7.1.0-X</a></p></td>
+<td><p><a href="../7.0.0-13" title="wikilink">7.0.0-X</a> - <a
+href="../7.1.0-16" title="wikilink">7.1.0-X</a></p></td>
 <td><p>v1</p></td>
 <td><p>10</p></td>
 <td><p>Introduced a new scheme using HMAC-SHA-256. The HMAC key is
@@ -175,14 +175,14 @@ little-endian word is read from the start of the output hash. The low 5
 decimal digits of this word are used as the master key.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="7.2.0-17" title="wikilink">7.2.0-X</a> -
+<td><p><a href="../7.2.0-17" title="wikilink">7.2.0-X</a> -
 current</p></td>
 <td><p>v2</p></td>
 <td><p>10</p></td>
 <td><p>Extension of v1 featuring a number of changes which serve to
 obscure the HMAC key used.</p>
 <p>The HMAC key is now stored in a separate file stored in the CVer
-RomFS, called <a href="CVer#masterkey.bin"
+RomFS, called <a href="../CVer#masterkey.bin"
 title="wikilink">masterkey.bin</a>. This is used to update the key
 independently of the mset title. In order to make this possible, a
 scheme was devised to encode the required key within the inquiry number

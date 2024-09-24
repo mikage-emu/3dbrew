@@ -80,7 +80,7 @@ for "LocalFriendCodeSeed", etc.</p></td>
 <td><p>0x19</p></td>
 <td><p>0x1</p></td>
 <td><p>This determines if the OTP is for a dev system; it indicates the
-<a href="CTCert" title="wikilink">CTCert</a> issuer type: 0 = retail
+<a href="../CTCert" title="wikilink">CTCert</a> issuer type: 0 = retail
 "Nintendo CA - G3_NintendoCTR2prod", non-zero = dev "Nintendo CA -
 G3_NintendoCTR2dev".</p></td>
 </tr>
@@ -88,7 +88,7 @@ G3_NintendoCTR2dev".</p></td>
 <td><p>0x1A</p></td>
 <td><p>0x6</p></td>
 <td><p>Manufacturing date (of the SoC?). Usually month(s) before the
-dates in the logs stored in <a href="Flash_Filesystem"
+dates in the logs stored in <a href="../Flash_Filesystem"
 title="wikilink">TWLNAND</a>. Each byte is one field: year, month, day,
 hour, minute, second. Year is encoded as year-1900 so that it fits in
 one byte. This order matches up with the layout of a
@@ -119,7 +119,7 @@ specified in big endian if the OTP version is &lt;5.</p></td>
 <td><p>0x90</p></td>
 <td><p>0x70</p></td>
 <td><p>Used by Boot9 for generating the console-unique AES <a
-href="AES_Registers" title="wikilink">keyXs</a>. However, due to a
+href="../AES_Registers" title="wikilink">keyXs</a>. However, due to a
 bug(?) in Boot9, only the first 0x1C-bytes here actually affect
 console-unique key generation. The rest of the data is used for hashing,
 but that output hash only gets overwritten without being used

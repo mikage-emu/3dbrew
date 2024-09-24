@@ -8,13 +8,13 @@ the applications unique to 3DS Development Units.
 
 For information on 3DS Development Hardware see
 [1](http://gbatemp.net/topic/327858-3ds-development-hardware/)
-<img src="CTR_HMN_DEV.png" title="CTR_HMN_DEV.png" width="300"
+<img src="../CTR_HMN_DEV.png" title="CTR_HMN_DEV.png" width="300"
 alt="CTR_HMN_DEV.png" />
 
 # System Updaters
 
 <figure>
-<img src="CSUscrnshot.png" title="CSUscrnshot.png" width="300" />
+<img src="../CSUscrnshot.png" title="CSUscrnshot.png" width="300" />
 <figcaption>CSUscrnshot.png</figcaption>
 </figure>
 
@@ -28,7 +28,7 @@ system titles as well as Devmenu and Config.
 ## Home Menu
 
 <figure>
-<img src="CTR_HMN_DEV_CPU.png" title="CTR_HMN_DEV_CPU.png"
+<img src="../CTR_HMN_DEV_CPU.png" title="CTR_HMN_DEV_CPU.png"
 width="300" />
 <figcaption>CTR_HMN_DEV_CPU.png</figcaption>
 </figure>
@@ -70,12 +70,12 @@ You can delete them by holding X+Y button while booting homemenu.
 ## Dev Menu
 
 <figure>
-<img src="Devmenuicon.png" />
+<img src="../Devmenuicon.png" />
 </figure>
 
-<img src="Devmenscnsht.jpg" title="Devmenscnsht.jpg" width="250"
+<img src="../Devmenscnsht.jpg" title="Devmenscnsht.jpg" width="250"
 alt="Devmenscnsht.jpg" />
-<img src="Old_Dev_Menu.png" title="Old_Dev_Menu.png" width="200"
+<img src="../Old_Dev_Menu.png" title="Old_Dev_Menu.png" width="200"
 alt="Old_Dev_Menu.png" />
 
 This NAND application (00040000-0ff40002) on the top screen displays the
@@ -146,12 +146,12 @@ uninstall all SDK tools. DevMenu itself will crash a few seconds later.
 ## Config
 
 <figure>
-<img src="Configicon.png" />
+<img src="../Configicon.png" />
 </figure>
 
-<img src="3DS_dev_configmenu.JPG" title="3DS_dev_configmenu.JPG"
+<img src="../3DS_dev_configmenu.JPG" title="3DS_dev_configmenu.JPG"
 width="250" alt="3DS_dev_configmenu.JPG" />
-<img src="Dev_config.jpg" title="Dev_config.jpg" width="250"
+<img src="../Dev_config.jpg" title="Dev_config.jpg" width="250"
 alt="Dev_config.jpg" />
 
 This NAND application (00040000-0ff40102) is a text-mode advanced
@@ -395,7 +395,7 @@ Descriptions Derived from SDK 2.3.4 except where notified otherwise.
 
 ## Downloadplay Client
 
-<img src="Dlpcliscnsht.jpg" title="Dlpcliscnsht.jpg" width="250"
+<img src="../Dlpcliscnsht.jpg" title="Dlpcliscnsht.jpg" width="250"
 alt="Dlpcliscnsht.jpg" /> ![](Dlpcliicon.png)
 
 Even though a Developer 3DS has a "Download Play" application visually
@@ -412,7 +412,7 @@ of constantly re-navigating the normal Download Play interface
 
 ## Network Settings
 
-<img src="Netsetscnsht.jpg" title="Netsetscnsht.jpg" width="250"
+<img src="../Netsetscnsht.jpg" title="Netsetscnsht.jpg" width="250"
 alt="Netsetscnsht.jpg" /> ![](Netseticon.png)
 
 This developer NAND application (00040000-0ff40702) allows the users to
@@ -454,7 +454,7 @@ The system must be rebooted to exit this app.
 ## SaveDataFiler
 
 ![](Saveflicon.png)
-<img src="Saveflscnsht.jpg" title="Saveflscnsht.jpg" width="250"
+<img src="../Saveflscnsht.jpg" title="Saveflscnsht.jpg" width="250"
 alt="Saveflscnsht.jpg" />
 
 This 3DS developer NAND application (00040000-0ff40a02) allows save
@@ -497,7 +497,7 @@ before rebooting.
 
 ## CTR MenuSelector
 
-<img src="MenuSelector.png" title="MenuSelector.png" width="120"
+<img src="../MenuSelector.png" title="MenuSelector.png" width="120"
 alt="MenuSelector.png" /> ![](Menuselectoricon.jpg)
 
 This system NAND application (00040010-0ff40b02) when loaded can change
@@ -517,7 +517,7 @@ removed as a standard application.
 ## CecBoxTool
 
 <figure>
-<img src="devCECBoxTool.jpg" title="devCECBoxTool.jpg" />
+<img src="../devCECBoxTool.jpg" title="devCECBoxTool.jpg" />
 <figcaption>devCECBoxTool.jpg</figcaption>
 </figure>
 
@@ -530,7 +530,7 @@ NAND application (00040000-0ff41602)
 
 ## CecLotCheckTool
 
-<img src="Ceclotscnsht.jpg" title="Ceclotscnsht.jpg" width="250"
+<img src="../Ceclotscnsht.jpg" title="Ceclotscnsht.jpg" width="250"
 alt="Ceclotscnsht.jpg" /> ![](Cecloticon.png)
 
 This NAND application (00040000-0f800902) is used to manage CECs (Chance
@@ -550,18 +550,18 @@ accessible from retail 3DSs). The functions of this application:
 <!-- -->
 
 - Box Info - Gives the Out-Box parameters
-  <img src="Boxinf.jpg" title="Boxinf.jpg" width="250" alt="Boxinf.jpg" />
+  <img src="../Boxinf.jpg" title="Boxinf.jpg" width="250" alt="Boxinf.jpg" />
 
 <!-- -->
 
 - Message Info (OUT-BOX) - Gives the Message Parameters For the current
   BOX
-  <img src="Mesinf.jpg" title="Mesinf.jpg" width="250" alt="Mesinf.jpg" />
+  <img src="../Mesinf.jpg" title="Mesinf.jpg" width="250" alt="Mesinf.jpg" />
 
 <!-- -->
 
 - Dummy Message Settings - Not quite sure what the options do here
-  <img src="Dummesinf.jpg" title="Dummesinf.jpg" width="250"
+  <img src="../Dummesinf.jpg" title="Dummesinf.jpg" width="250"
   alt="Dummesinf.jpg" />
 
 <!-- -->
@@ -582,7 +582,7 @@ accessible from retail 3DSs). The functions of this application:
 
 ## BossLotCheckTool
 
-<img src="Bosslcscnsht.png" title="Bosslcscnsht.png" width="100"
+<img src="../Bosslcscnsht.png" title="Bosslcscnsht.png" width="100"
 alt="Bosslcscnsht.png" /> ![](Bosslcicon.png)
 
 This application (00040000-0ff40e00) is used to manage BOSS (SpotPass)
@@ -613,7 +613,7 @@ can also view various details about each BOSS task, including:
 
 ## Stereo Camera Calibrator
 
-<img src="Stecamscnsht.png" title="Stecamscnsht.png" width="100"
+<img src="../Stecamscnsht.png" title="Stecamscnsht.png" width="100"
 alt="Stecamscnsht.png" /> ![](Stecamicon.png)
 
 The Stereo Camera Calibrator (00040000-0ff40600), in a nutshell, allows
@@ -644,7 +644,7 @@ SD card, then deletes one out of every two to fragment the free space.
 
 ## Friend Add Tool
 
-<img src="FriendAddTool.png" title="FriendAddTool.png" width="100"
+<img src="../FriendAddTool.png" title="FriendAddTool.png" width="100"
 alt="FriendAddTool.png" /> The purposes of this tool (00040000-0fe04000)
 are deleting all friends and/or filling the Friend List with dummy FCs,
 or with ones loaded from friend_code.txt on the root of the SD card.
@@ -654,7 +654,7 @@ grouped at the user's discretion with spaces, dashes, or nothing.
 
 ## Friend Testing Partner
 
-<img src="Ftestpscnsht.png" title="Ftestpscnsht.png" width="250"
+<img src="../Ftestpscnsht.png" title="Ftestpscnsht.png" width="250"
 alt="Ftestpscnsht.png" /> ![](Ftestpicon.png)
 
 The Friend Testing Partner application (00040000-0fe00c00) is used to
@@ -720,7 +720,7 @@ top screen with a time stamp.
 ## Game Coin Setter
 
 ![](Coinsticon.png)
-<img src="Coinstscnsht.png" title="Coinstscnsht.png" width="100"
+<img src="../Coinstscnsht.png" title="Coinstscnsht.png" width="100"
 alt="Coinstscnsht.png" />
 
 This application (00040000-0ff40d00) is used to set the Play Coin count
@@ -768,7 +768,7 @@ it happily measures a camera flash...
 
 ## EcDevTool
 
-<img src="EcDevTool_11.4.png" title="EcDevTool_11.4.png" width="200"
+<img src="../EcDevTool_11.4.png" title="EcDevTool_11.4.png" width="200"
 alt="EcDevTool_11.4.png" /> This multipurpose tool (00040000-0ff41b00)
 provides several features propedeutical to simulating software sales:
 
@@ -784,7 +784,7 @@ provides several features propedeutical to simulating software sales:
 
 ## Dummy Nintendo eShop
 
-<img src="INdummyshop.png" title="INdummyshop.png" width="200"
+<img src="../INdummyshop.png" title="INdummyshop.png" width="200"
 alt="INdummyshop.png" /> This region-specific application exists to
 debug `API( JumpToEshop() )` on the 3DS. This was created so a developer
 can test parts of their game in which the player can preview or purchase
@@ -841,7 +841,7 @@ These are DSi/DS mode development tools repackaged into a
 
 ### NINTENDO DS - WMtest
 
-<img src="Wmtestscnsht.jpg" title="Wmtestscnsht.jpg" width="300"
+<img src="../Wmtestscnsht.jpg" title="Wmtestscnsht.jpg" width="300"
 alt="Wmtestscnsht.jpg" /> ![](Wmtesttool.png)
 
 This application is a TWL(DSi) application compiled for use on the 3DS.
@@ -907,9 +907,9 @@ of some of the viewers.
 
 ## H3D Model Viewer
 
-<img src="H3Dscrnshot.png" title="H3Dscrnshot.png" width="180"
+<img src="../H3Dscrnshot.png" title="H3Dscrnshot.png" width="180"
 alt="H3Dscrnshot.png" /> ![](H3Dicon.png) ![](ModelViewericon.png)
-<img src="ModelViewer.png" title="ModelViewer.png" width="100"
+<img src="../ModelViewer.png" title="ModelViewer.png" width="100"
 alt="ModelViewer.png" />
 
 Used for viewing Binary CTR Models (.bcmdl): the model can be viewed
@@ -926,7 +926,7 @@ proprietary emulator.
 
 ## Layout Viewer
 
-<img src="LYTscrnshot.png" title="LYTscrnshot.png" width="180"
+<img src="../LYTscrnshot.png" title="LYTscrnshot.png" width="180"
 alt="LYTscrnshot.png" /> ![](LYTicon.png)
 
 Used for viewing Binary CTR Layouts (.bclyt). It is used with
@@ -934,7 +934,7 @@ CTR-PARTNER to load layouts into RAM.
 
 ## Effect Viewer
 
-<img src="EFTscrnshot.png" title="EFTscrnshot.png" width="180"
+<img src="../EFTscrnshot.png" title="EFTscrnshot.png" width="180"
 alt="EFTscrnshot.png" /> ![](EFTicon.png)
 
 # Mobiclip suite

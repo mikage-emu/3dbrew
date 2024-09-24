@@ -584,42 +584,42 @@ User-agent format:
 <tr class="odd">
 <td><p>1.7412</p></td>
 <td><p>v6</p></td>
-<td><p><a href="2.0.0-2" title="wikilink">2.0.0-2</a></p></td>
+<td><p><a href="../2.0.0-2" title="wikilink">2.0.0-2</a></p></td>
 <td><p>This was the initial version.</p></td>
 </tr>
 <tr class="even">
 <td><p>1.7455</p></td>
 <td><p>v1024</p></td>
-<td><p><a href="2.1.0-4" title="wikilink">2.1.0-4</a></p></td>
+<td><p><a href="../2.1.0-4" title="wikilink">2.1.0-4</a></p></td>
 <td><p>ExeFS .code was updated, both of the CROs(webkit/OSS) were
 updated too.</p></td>
 </tr>
 <tr class="odd">
 <td><p>1.7498</p></td>
 <td><p>v2050</p></td>
-<td><p><a href="4.0.0-7" title="wikilink">4.0.0-7</a></p></td>
+<td><p><a href="../4.0.0-7" title="wikilink">4.0.0-7</a></p></td>
 <td><p>ExeFS .code was updated, both of the CROs(webkit/OSS) were
 updated too. The manual CFA was updated as well.</p></td>
 </tr>
 <tr class="even">
 <td><p>1.7538</p></td>
 <td><p>v0</p></td>
-<td><p><a href="4.2.0-9" title="wikilink">4.2.0-9</a></p></td>
+<td><p><a href="../4.2.0-9" title="wikilink">4.2.0-9</a></p></td>
 <td><p>First version of the KOR browser. The CROs are different from the
-USA/EUR/JPN <a href="4.0.0-7" title="wikilink">4.0.0-7</a>
+USA/EUR/JPN <a href="../4.0.0-7" title="wikilink">4.0.0-7</a>
 browser.</p></td>
 </tr>
 <tr class="odd">
 <td><p>1.7552</p></td>
 <td><p>v3075</p></td>
-<td><p><a href="5.0.0-11" title="wikilink">5.0.0-11</a></p></td>
+<td><p><a href="../5.0.0-11" title="wikilink">5.0.0-11</a></p></td>
 <td><p>ExeFS .code and icon were updated, both of the CROs(webkit/OSS)
 were updated too. The manual CFA was updated as well.</p></td>
 </tr>
 <tr class="even">
 <td><p>1.7552</p></td>
 <td><p>v3088</p></td>
-<td><p><a href="7.0.0-13" title="wikilink">7.0.0-13</a></p></td>
+<td><p><a href="../7.0.0-13" title="wikilink">7.0.0-13</a></p></td>
 <td><p>The main NCCH wasn't updated at all(same TMD
 contentID/content-hash as the previous version), only the manual CFA for
 this title was updated.</p></td>
@@ -627,7 +627,7 @@ this title was updated.</p></td>
 <tr class="odd">
 <td><p>1.7567</p></td>
 <td><p>v4096</p></td>
-<td><p><a href="7.1.0-16" title="wikilink">7.1.0-16</a></p></td>
+<td><p><a href="../7.1.0-16" title="wikilink">7.1.0-16</a></p></td>
 <td><p>The CXI .code was updated, some data in the RomFS was
 updated(none of the CROs such as webkit.cro were updated). The manual
 CFA was updated too.</p></td>
@@ -635,7 +635,7 @@ CFA was updated too.</p></td>
 <tr class="even">
 <td><p>1.7585</p></td>
 <td><p>v5121</p></td>
-<td><p><a href="9.5.0-23" title="wikilink">9.5.0-23</a></p></td>
+<td><p><a href="../9.5.0-23" title="wikilink">9.5.0-23</a></p></td>
 <td><p>The CXI .code was updated, and the manual CFA was updated. RomFS
 changes:</p>
 <ul>
@@ -660,19 +660,19 @@ for spider was fixed, which also fixed the removewinframe exploit from
 <tr class="even">
 <td><p>1.7610</p></td>
 <td><p>v6149</p></td>
-<td><p><a href="9.9.0-26" title="wikilink">9.9.0-26</a></p></td>
+<td><p><a href="../9.9.0-26" title="wikilink">9.9.0-26</a></p></td>
 <td><p>See below.</p></td>
 </tr>
 <tr class="odd">
 <td><p>1.7616</p></td>
 <td><p>v7168</p></td>
-<td><p><a href="10.2.0-28" title="wikilink">10.2.0-28</a></p></td>
+<td><p><a href="../10.2.0-28" title="wikilink">10.2.0-28</a></p></td>
 <td><p>See below.</p></td>
 </tr>
 <tr class="even">
 <td><p>1.7622</p></td>
 <td><p>v8192</p></td>
-<td><p><a href="10.6.0-31" title="wikilink">10.6.0-31</a></p></td>
+<td><p><a href="../10.6.0-31" title="wikilink">10.6.0-31</a></p></td>
 <td><p>See below.</p></td>
 </tr>
 <tr class="odd">
@@ -684,25 +684,25 @@ for spider was fixed, which also fixed the removewinframe exploit from
 <tr class="even">
 <td><p>1.7625</p></td>
 <td><p>v9232</p></td>
-<td><p><a href="10.7.0-32" title="wikilink">10.7.0-32</a></p></td>
+<td><p><a href="../10.7.0-32" title="wikilink">10.7.0-32</a></p></td>
 <td><p>See below.</p></td>
 </tr>
 <tr class="odd">
 <td><p>1.7630</p></td>
 <td><p>v10240</p></td>
-<td><p><a href="11.1.0-34" title="wikilink">11.1.0-34</a></p></td>
+<td><p><a href="../11.1.0-34" title="wikilink">11.1.0-34</a></p></td>
 <td><p>See below.</p></td>
 </tr>
 <tr class="even">
 <td><p>1.7636</p></td>
 <td><p>v11297</p></td>
-<td><p><a href="11.9.0-42" title="wikilink">11.9.0-42</a></p></td>
+<td><p><a href="../11.9.0-42" title="wikilink">11.9.0-42</a></p></td>
 <td><p>See below.</p></td>
 </tr>
 <tr class="odd">
 <td><p>1.7639</p></td>
 <td><p>v12288</p></td>
-<td><p><a href="11.14.0-46" title="wikilink">11.14.0-46</a></p></td>
+<td><p><a href="../11.14.0-46" title="wikilink">11.14.0-46</a></p></td>
 <td><p>See below.</p></td>
 </tr>
 </tbody>

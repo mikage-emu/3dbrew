@@ -321,9 +321,9 @@ background:
 - Dark red: unused
 
 <figure>
-<img src="Crane_image_layout.png" title="File:Crane_image_layout.png" />
+<img src="../../Crane_image_layout.png" title="File:Crane_image_layout.png" />
 <figcaption><a
-href="File:Crane_image_layout.png">File:Crane_image_layout.png</a></figcaption>
+href="../../File:Crane_image_layout.png">File:Crane_image_layout.png</a></figcaption>
 </figure>
 
 ## Fixed Object (fob)

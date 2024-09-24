@@ -48,7 +48,7 @@ updated)</p></td>
 <tr class="even">
 <td><p>0xE</p></td>
 <td><p>0x2</p></td>
-<td><p><a href="#Aging_masks" title="wikilink">Bitmask of successful
+<td><p><a href="../#Aging_masks" title="wikilink">Bitmask of successful
 Aging tests</a></p></td>
 </tr>
 <tr class="odd">

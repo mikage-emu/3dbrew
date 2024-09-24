@@ -46,7 +46,7 @@ Header structure:
 <td><p>0x4</p></td>
 <td><p>0x4</p></td>
 <td><p>Region. Indicates which <a
-href="Title_list#0004009B_-_Shared_Data_Archives"
+href="../Title_list#0004009B_-_Shared_Data_Archives"
 title="wikilink">system font archive</a> is loaded 1: region JPN/EUR/USA
 (archive 0004009B00014002)</p>
 <p>2: region CHN (archive 0004009B00014102)</p>

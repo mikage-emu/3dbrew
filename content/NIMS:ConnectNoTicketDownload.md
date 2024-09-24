@@ -27,7 +27,7 @@ title = 'NIMS:ConnectNoTicketDownload'
 <tr class="even">
 <td><p>3</p></td>
 <td><p>(size &lt;&lt; 4)}} for mapping a <a
-href="IPC#Buffer_Mapping_Translation" title="wikilink">write-only
+href="../IPC#Buffer_Mapping_Translation" title="wikilink">write-only
 buffer</a> in the target process</p></td>
 </tr>
 <tr class="odd">

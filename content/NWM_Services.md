@@ -389,7 +389,7 @@ for the MAC address, when the u8 at offset 0x8 in the network-struct is
 <td><p>0x0</p></td>
 <td><p>0x6</p></td>
 <td><p>This is the MAC address of the host. This is used for when <a
-href="NWMUDS:ConnectToNetwork" title="wikilink">connecting</a> to the
+href="../NWMUDS:ConnectToNetwork" title="wikilink">connecting</a> to the
 network.</p></td>
 </tr>
 <tr class="even">
@@ -429,12 +429,12 @@ is 001F32.</p></td>
 <td><p>0x10</p></td>
 <td><p>0x4</p></td>
 <td><p>wlancommID. Local-WLAN communication ID, normally this is:
-(user_process <a href="Title_list" title="wikilink">uniqueID</a>
+(user_process <a href="../Title_list" title="wikilink">uniqueID</a>
 &lt;&lt; 8) | val. Where val is 0x10 on retail(<a
-href="Configuration_Memory#ENVINFO" title="wikilink">ENVINFO</a> bit0
+href="../Configuration_Memory#ENVINFO" title="wikilink">ENVINFO</a> bit0
 set), 0x90 for devunit. Official software includes an input bool flag
 parameter for setting bit0 in this wlancommID, normally that flag isn't
-set. For <a href="Download_Play" title="wikilink">Download Play</a>,
+set. For <a href="../Download_Play" title="wikilink">Download Play</a>,
 this is always 0x2810 on retail(0x2890 on devunit).</p>
 <p>This wlancommID can have the side affect of region-locking when the
 title uses the uniqueID for the current title(hard-coded in .text
@@ -444,7 +444,7 @@ the title.</p></td>
 <tr class="even">
 <td><p>0x14</p></td>
 <td><p>0x1</p></td>
-<td><p>id8. ID, for <a href="Download_Play" title="wikilink">Download
+<td><p>id8. ID, for <a href="../Download_Play" title="wikilink">Download
 Play</a> this is 0x55. 0x55/'U' seems to be used for networks where Wii
 U can host it(Download Play, Smash Bros, ...) - this value isn't known
 to be actually checked anywhere however.</p></td>
@@ -458,12 +458,12 @@ to be actually checked anywhere however.</p></td>
 <td><p>0x16</p></td>
 <td><p>0x2</p></td>
 <td><p>This network attributes u16 bitmask can be written via <a
-href="NWMUDS:UpdateNetworkAttribute"
+href="../NWMUDS:UpdateNetworkAttribute"
 title="wikilink">NWMUDS:UpdateNetworkAttribute</a>. Bitmasks:</p>
 <ul>
 <li>0x1: When set, spectators are not allowed to connect(see <a
-href="NWMUDS:EjectSpectator" title="wikilink">here</a>). Checked by
-official user-processes before using <a href="NWMUDS:ConnectToNetwork"
+href="../NWMUDS:EjectSpectator" title="wikilink">here</a>). Checked by
+official user-processes before using <a href="../NWMUDS:ConnectToNetwork"
 title="wikilink">NWMUDS:ConnectToNetwork</a>, when connecting as a
 Spectator. Must be clear otherwise that code returns error 0xE10113EA.
 If the initialized_flag at offset 0x8 is zero, this code handles it the

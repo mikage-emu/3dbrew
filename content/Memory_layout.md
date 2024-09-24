@@ -182,7 +182,7 @@ to the bootroms.</p></td>
 <td><p>0x3800</p></td>
 <td><p>0x100</p></td>
 <td><p>This is the first 0x90 bytes of <a
-href="OTP_Registers#Plaintext_OTP" title="wikilink">plaintext OTP</a>
+href="../OTP_Registers#Plaintext_OTP" title="wikilink">plaintext OTP</a>
 when OTP hash verification is successful. The remaining 0x70 bytes are
 cleared.</p></td>
 </tr>
@@ -207,7 +207,7 @@ keys or the OTP hash in ITCM.</p></td>
 <td><p>0x3B00</p></td>
 <td><p>0x200</p></td>
 <td><p>This is the 0x200-bytes from the plaintext FIRM header for the
-FIRM which was loaded by <a href="Bootloader"
+FIRM which was loaded by <a href="../Bootloader"
 title="wikilink">Boot9</a>. This is the only location Boot9 uses for
 storing the loaded FIRM headers internally, it's not stored anywhere
 else.</p></td>
@@ -217,7 +217,7 @@ else.</p></td>
 <td></td>
 <td><p>0x3D00</p></td>
 <td><p>0x100</p></td>
-<td><p>This is the RSA-2048 modulus for <a href="RSA_Registers"
+<td><p>This is the RSA-2048 modulus for <a href="../RSA_Registers"
 title="wikilink">RSA</a>-engine slot0 set by bootrom.</p></td>
 </tr>
 <tr class="even">
@@ -252,7 +252,7 @@ Slot+0 is the modulus, slot+0x100 is the private exponent. This can be
 confirmed by RSA-decrypting a message into a signature, then
 RSA-encrypting the signature back into a message, and comparing the
 original message with the output from the last operation.</p>
-<p><a href="FIRM" title="wikilink">FIRM</a> doesn't seem to ever use
+<p><a href="../FIRM" title="wikilink">FIRM</a> doesn't seem to ever use
 these. None of these are related to RSA-keyslot0 used for v6.0/v7.0 key
 generation. These moduli are separate from all other moduli used
 elsewhere.</p></td>
@@ -265,7 +265,7 @@ elsewhere.</p></td>
 <td><p>The unprotected ARM9-bootrom copies data to 0x07FFC900(mirror of
 0x01FFC900) size 0x400. This data is copied from AXI WRAM, initialized
 by ARM11-bootrom(the addr used for the src is determined by <a
-href="CONFIG_Registers" title="wikilink">REG_UNITINFO</a>). These are
+href="../CONFIG_Registers" title="wikilink">REG_UNITINFO</a>). These are
 RSA moduli: retailsrcptr = 0x1FFFD000, devsrvptr = 0x1FFFD400.</p>
 <ul>
 <li>The first 0x100-bytes here is the RSA-2048 modulus for the CFA NCCH
@@ -273,7 +273,7 @@ header, and for the gamecard NCSD header.</li>
 <li>0x01FFCA00 is the RSA-2048 modulus for the CXI accessdesc signature,
 written to rsaengine keyslot1 by NATIVE_FIRM.</li>
 <li>0x01FFCB00 size 0x200 is unknown, probably RSA related, these aren't
-used by <a href="FIRM" title="wikilink">FIRM</a>(these are not
+used by <a href="../FIRM" title="wikilink">FIRM</a>(these are not
 console-unique).</li>
 </ul></td>
 </tr>
@@ -282,7 +282,7 @@ console-unique).</li>
 <td></td>
 <td><p>0x4D00</p></td>
 <td><p>0x80</p></td>
-<td><p>Unknown, not used by <a href="FIRM" title="wikilink">FIRM</a>.
+<td><p>Unknown, not used by <a href="../FIRM" title="wikilink">FIRM</a>.
 This isn't console-unique. The first 0x10-bytes are checked by the
 v6.0/v7.0 NATIVE_FIRM keyinit function, when non-zero it clears this
 block and continues to do the key generation. Otherwise when this block
@@ -358,7 +358,7 @@ retail DSis.</p></td>
 <td></td>
 <td><p>0x7C00</p></td>
 <td><p>0x100</p></td>
-<td><p>Starting with <a href="9.5.0-22" title="wikilink">9.5.0-X</a> is
+<td><p>Starting with <a href="../9.5.0-22" title="wikilink">9.5.0-X</a> is
 the FIRM header used during FIRM-launching.</p></td>
 </tr>
 </tbody>

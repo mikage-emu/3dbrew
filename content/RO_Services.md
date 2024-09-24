@@ -67,9 +67,9 @@ done.</p>
 <td><p>No changes.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="9.0.0-20" title="wikilink">v5120</a></p></td>
+<td><p><a href="../9.0.0-20" title="wikilink">v5120</a></p></td>
 <td><p>No actual changes, just a rebuild with latest CTRSDK(only the
-CTRSDK version values in .code for <a href="ErrDisp"
+CTRSDK version values in .code for <a href="../ErrDisp"
 title="wikilink">ErrDisp</a> were updated).</p></td>
 </tr>
 </tbody>

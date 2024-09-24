@@ -18,7 +18,7 @@ title = 'NIMS:RegisterSelf'
 </tr>
 <tr class="even">
 <td><p>1</p></td>
-<td><p>for <a href="IPC#Handle_Translation" title="wikilink">process
+<td><p>for <a href="../IPC#Handle_Translation" title="wikilink">process
 ID</a></p></td>
 </tr>
 <tr class="odd">

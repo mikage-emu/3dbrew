@@ -299,7 +299,7 @@ scanlines blitted regardless of framebuffer height)</p></td>
 <tr class="even">
 <td><p>0x70</p></td>
 <td><p>Framebuffer format and other settings</p></td>
-<td><p>See <a href="#Framebuffer_format" title="wikilink">framebuffer
+<td><p>See <a href="../../#Framebuffer_format" title="wikilink">framebuffer
 format</a></p></td>
 </tr>
 <tr class="odd">
@@ -372,7 +372,7 @@ bottom screen in userland.</p></td>
 <tbody>
 <tr class="odd">
 <td><p>2-0</p></td>
-<td><p><a href="#Framebuffer_color_formats" title="wikilink">Color
+<td><p><a href="../../#Framebuffer_color_formats" title="wikilink">Color
 format</a></p></td>
 </tr>
 <tr class="even">

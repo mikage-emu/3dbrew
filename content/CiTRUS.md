@@ -110,7 +110,7 @@ Version 0.2:
 ## MEDIA
 
 <figure>
-<img src="CiTRUS_v0.1.png" title="File:CiTRUS_v0.1.png" />
+<img src="../CiTRUS_v0.1.png" title="File:CiTRUS_v0.1.png" />
 <figcaption><a
-href="File:CiTRUS_v0.1.png">File:CiTRUS_v0.1.png</a></figcaption>
+href="../File:CiTRUS_v0.1.png">File:CiTRUS_v0.1.png</a></figcaption>
 </figure>

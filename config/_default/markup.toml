@@ -1,0 +1,2 @@
+[goldmark.renderer]
+unsafe = true

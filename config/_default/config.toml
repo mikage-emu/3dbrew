@@ -2,6 +2,7 @@ baseURL = 'https://mikage-emu.github.io/3dbrew/'
 languageCode = 'en-us'
 title = '3dbrew'
 disablePathToLower = true
+theme = "hugo-book"
 
 # Broken, see https://github.com/gohugoio/hugo/issues/12130
 # relativeURLs = true

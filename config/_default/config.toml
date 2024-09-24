@@ -9,3 +9,6 @@ theme = "hugo-book"
 
 [taxonomies]
 categories = 'categories'
+
+[pagination]
+pagerSize = 10000

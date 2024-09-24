@@ -25,7 +25,7 @@ categories = ["Services"]
 | 0x00100040     | When the input value is 0, value 1 is written to an u8 MIC module state field. Otherwise, value 0 is written there. Normally the input value is non-zero. |
 
 This is an interface for using the MIC hardware via the "cdc:MIC"
-service and the MIC [IO](IO "wikilink") registers.
+service and the MIC [IO](IO_Registers "wikilink") registers.
 
 Only one session can be open for this service total(that is, only one
 process can use this service at a time).

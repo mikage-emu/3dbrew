@@ -1,6 +1,13 @@
 {{- if (not (or (strings.HasPrefix .Destination "http") (strings.HasPrefix .Destination "#"))) }}
+  {{ $style := "" }}
+  {{ with $.PageInner.GetPage (index (strings.Split .Destination "#") 0) }}
+  {{ else }}
+    {{ $style = "color:#ba0000" }}
+  {{ end }}
+
   <a href="/3dbrew/{{ strings.Replace .Destination ":" "" }}"
     {{- with .Title }} title="{{ . }}"{{ end -}}
+    style={{ $style }}
   >
     {{- with .Text }}{{ . }}{{ end -}}
   </a>

@@ -61,12 +61,14 @@ downloaded by the installer and can be found in \$DEVKITPRO/examples/3ds
 These can be built from the command line.
 
 To start a new homebrew project from the `bash` shell, simply type the
-following (replacing **`~/projects/my3dsproject`** with the place you
+following (replacing `~/projects/my3dsproject` with the place you
 would like your project to be stored, with `~` meaning your HOME
 directory):
 
-`cp -r $DEVKITPRO/examples/3ds/templates/application `**`~/projects/my3dsproject`**
-`cd `**`~/projects/my3dsproject`**
+```
+cp -r $DEVKITPRO/examples/3ds/templates/application ~/projects/my3dsproject
+cd ~/projects/my3dsproject
+```
 
 The standard Makefile will use the folder as the name of the 3dsx that
 will be built. You can keep that behaviour or simply change the

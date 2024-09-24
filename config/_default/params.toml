@@ -1,3 +1,6 @@
+BookRepo = 'https://github.com/mikage-emu/3dbrew'
+BookEditPath = 'edit/main'
+
 [article]
 readingTime = false
 

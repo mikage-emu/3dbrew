@@ -1,1 +1,0 @@
-1.  REDIRECT [3DS开发机软件](3DS开发机软件 "wikilink")

@@ -36,24 +36,15 @@ width="300" />
 The 3DS Dev Homemenu have some features that the retail one don't have.
 
 - Debug informations (top screen left, can be shown by pressing X+Y):
-
-:\*Banner region (have every regions and languages, can be changed by
+    - Banner region (have every regions and languages, can be changed by
 pressing B+X),
-
-:\*Build date,
-
-:\*Homemenu rev,
-
-:\*System mode (see config system mode for more infos),
-
-:\*Screen capture (seems to be only for ctr debugger?),
-
-:\*First red bar: Maximum level for the other bars (100%),
-
-:\*Second bar: CPU processing,
-
-:\*Third bar: GPU processing.
-
+    - Build date,
+    - Homemenu rev,
+    - System mode (see config system mode for more infos),
+    - Screen capture (seems to be only for ctr debugger?),
+    - First red bar: Maximum level for the other bars (100%),
+    - Second bar: CPU processing,
+    - Third bar: GPU processing.
 - Themes:
 
 
@@ -172,44 +163,29 @@ continuous development; some features include:
   Menu](3DS_Development_Unit_GUI#Test_Menu "wikilink"), as the menu
   loaded by the [NS](NS "wikilink") module.
 
-<!-- -->
-
 - Language - same options found in the Language section of [System
   Settings](System_Settings "wikilink") but also has an "invalid" option
-
-<!-- -->
 
 - System Mode - [Changes the memory
   mode](Memory_layout#FCRAM_memory-regions_layout "wikilink") for the
   Home/Test Menu. (Launching applications will be able to override this
   setting)
-
-:\*Prod - 64MB Memory mode ([Home Menu](Home_Menu "wikilink") can
+    - Prod - 64MB Memory mode ([Home Menu](Home_Menu "wikilink") can
 usually only run in this mode and *most* retail-looking units cannot
 switch out of this mode)
-
-:\*Dev1 - 96MB Memory mode (No browser/Miiverse)
-
-:\*Dev2 - 80MB Memory mode
-
-:\*Dev3 - 72MB Memory mode
-
-:\*Dev4 - 32MB Memory mode
-
-:\*snake Prod - 124MB for New-3DS
-
-:\*snake dev1 - 178MB for New-3DS (No browser/Miiverse)
-
-:\*snake dev2 - 124MB for New-3DS
-
-
-All CTR Debuggers/Prototype units can change memory allowance. For
+    - Dev1 - 96MB Memory mode (No browser/Miiverse)
+    - Dev2 - 80MB Memory mode
+    - Dev3 - 72MB Memory mode
+    - Dev4 - 32MB Memory mode
+    - snake Prod - 124MB for New-3DS
+    - snake dev1 - 178MB for New-3DS (No browser/Miiverse)
+    - snake dev2 - 124MB for New-3DS<br><br>
+    All CTR Debuggers/Prototype units can change memory allowance. For
 Developer Test Units, the ability to change Memory Allowance, appears to
 be dependent on an option when buying the Test Unit (similar to having a
 choice to purchase IS-Nitro's Wireless/USG options when buying an
 IS-Nitro from Nintendo). If anything other than prod or dev2 is
-selected, menu settings are automatically changed to test menu.
-
+selected, menu settings are automatically changed to test menu.<br>
 On some Test Units, it's possible to run the [Home
 Menu](Home_Menu "wikilink") outside of Prod. However, software with
 limited memory (such as the web browser) cannot be launched from the
@@ -217,24 +193,17 @@ home menu if the home menu is outside of Prod.
 
 - Exception handler - Selects whether to enable or disable the
   application's handling of exceptions that arise in the non-debug
-  environment.
-
-
-If the application is not set to handle exceptions, the application
-quits when an exception occurs. - enable/disable
+  environment.<br>
+  If the application is not set to handle exceptions, the application quits when an exception occurs. - enable/disable
 
 - Break Stop - (enable/disable) - Selects whether to enable or disable
   stopping the application when a break is encountered in the non-debug
   environment. If the application is not made to stop, it quits on a
   break.
 
-<!-- -->
-
 - Debug Mode - (enable/disable) - Select enable or disable to enable and
-  disable debugging functions.
-
-
-Debugging is always disabled for retail products.
+  disable debugging functions.<br>
+  Debugging is always disabled for retail products.
 
 - Dlp Force Child Import/Dlp Debug - (enable/disable) - normally the 3ds
   caches downloaded "Download Play (Dlp)" applications on the nand and
@@ -245,82 +214,58 @@ Debugging is always disabled for retail products.
   version of the application being downloaded. This is of course for
   testing purposes.
 
-<!-- -->
-
 - Fangate Failure Emulation - Unknown, related to the [external Amiibo
   receiver](NFC_adapter "wikilink")?
 
-<!-- -->
-
 - Nup - Enable/disable online check for updates? Such a feature exists
   on WiiU
-
-<!-- -->
 
 - FS Latency Emulation - Filesystem Latency, in milliseconds
   (0ms-2550ms). Selection is in increments of 10. (ie
   0ms-\>10ms-\>20ms...)
 
-<!-- -->
+<br>
 
 - User Name - Console owner's "profile" nickname, unrelated to the
   Personal Mii
-
-<!-- -->
 
 - NG Name Flag - declares whether the name is "not good", i.e. contains
   a banned word. Normally automatically set by System Settings after a
   warning; effect unknown.
 
-<!-- -->
-
 - CountryId - Changes 3DS between installed countries. It can also be
   set to an undefined ID (255).
-
-<!-- -->
 
 - RegionId - Selects the sub-location (region, state, county), if
   supported by the selected country. Unidentified is displayed when
   RegionId is set to 255.
 
-<!-- -->
-
 - Hid Setting - (human interface device) Calibrates touch screen and
   Analog stick.
 
-<!-- -->
+<br>
 
 - FLICKER TOP - Bias voltage for top screen (the misattributed
   "contrast" or "scanline" control found as potentiometers in the
   battery compartment in previous color-display Nintendo portables)
 
-<!-- -->
-
 - FLICKER BOTTOM - Bias voltage for bottom screen
-
-<!-- -->
 
 - ABL ENABLE - "Power Save mode", adjusts backlight according to
   displayed image. Can also be enabled on 2DS, on which it is fully
   functional but the single backlight design may bring questionable
   results.
 
-<!-- -->
-
 - LUMINANCE LEVEL - Brightness. In older versions of Config, it could be
   set above 5, with no further increment and resulting in crashes of the
   Home Menu's quick settings.
 
-<!-- -->
-
 - BACKLIGHT DIMMING - Camera-controlled automatic backlight of New-3DS
 
-<!-- -->
+<br>
 
 - RTC Setting - (real time clock) Sets system time, with equivalent
   results to System Settings.
-
-<!-- -->
 
 - Raw RTC Setting - Adjusts time directly on [the hardware
   RTC](MCU_Services "wikilink"). The resulting time is also displayed as
@@ -329,7 +274,7 @@ Debugging is always disabled for retail products.
   clock](Anti_Time-Travel "wikilink"), this can be used to change the
   clock without the application detecting it.
 
-<!-- -->
+<br>
 
 - Eula Setting - Input the "Agree Version", a 2-byte number representing
   the latest accepted version (major and minor) of the online services
@@ -338,11 +283,7 @@ Debugging is always disabled for retail products.
   playing foreign region games online caused by mismatching latest
   agreement versions.
 
-<!-- -->
-
 - Sound Mode - mono/stereo/surround
-
-<!-- -->
 
 - Coppacs Setting - In the U.S., a law called the Children's Online
   Privacy Protection Act (COPPA) requires consent from the parent or
@@ -352,35 +293,23 @@ Debugging is always disabled for retail products.
   country in System Settings is set to the US or
   Canada](Cfg:GetRegionCanadaUSA "wikilink").
 
-<!-- -->
-
 - Olv Access Key - Related to Olive/OLV/Miiverse. Always appears to be 0
   on retail units. WiiU titles have numbers also called OLV access keys
   in their metadata XMLs.
 
-<!-- -->
-
 - Test Setting - Verify operation and calibration of touchscreen and
   joystick.
-
-<!-- -->
 
 - Stereo Camera Cal for Check - Apparently writes incorrect calibration
   data for the camera.
 
-<!-- -->
-
 - Gyro / Accel Cal for Check - Apparently writes incorrect calibration
   data for the motion sensors.
 
-<!-- -->
-
 - Ctr Info Setting - Loads settings from a ctrsetting.txt present on the
   SD. Such a sample file is provided in the resources/configtool folder
-  of the SDK.
-
-
-The feature set of this option is only in most part the same as the
+  of the SDK. <br>
+  The feature set of this option is only in most part the same as the
 interactive UI's, for instance ctrsetting.txt can also configure the DS
 Profile and [Parental Controls](Parental_Controls "wikilink").
 
@@ -488,8 +417,8 @@ User save data is exported to
 sdmc:/filer/UserSaveData/YYYYMMDD(Hour)(Minute)(Second)
 
 It creates a folder in that path and 3 files. The 2 files exported to
-the above path are <uniqueID>.dat and <uniqueID>_.dat while a folder
-named /<uniqueID>/ in that path contains <ExHeader Name>.dat
+the above path are `<uniqueID>.dat` and `<uniqueID>_.dat` while a folder
+named `/<uniqueID>/` in that path contains `<ExHeader Name>.dat`
 
 Pressing L+R+Start will, after confirmation, delete all [Shared
 Extdata](Shared_Extdata "wikilink"). Home Menu will crash if returned to
@@ -517,8 +446,8 @@ removed as a standard application.
 ## CecBoxTool
 
 <figure>
-<img src="../devCECBoxTool.jpg" title="devCECBoxTool.jpg" />
-<figcaption>devCECBoxTool.jpg</figcaption>
+<img src="../DevCECBoxTool.jpg" title="DevCECBoxTool.jpg" />
+<figcaption>DevCECBoxTool.jpg</figcaption>
 </figure>
 
 Streetpass backup and restore tool, can also delete boxes (disable
@@ -543,7 +472,7 @@ such, the boxes in this application correspond to the applications in
 'StreetPass Management', in 'System Settings' (StreetPass Management is
 accessible from retail 3DSs). The functions of this application:
 
-- <Y> BOX Options - this opens up a sub menu with the following
+- &lt;Y&gt; BOX Options - this opens up a sub menu with the following
   options(when hovering over Nintendo 3DS Sounds BOX - the only one I
   can test the app with):
 
@@ -566,16 +495,16 @@ accessible from retail 3DSs). The functions of this application:
 
 <!-- -->
 
-- <A> Create Dummy BOXes - Creates dummy BOXes to fill any unused slots.
+- &lt;A&gt; Create Dummy BOXes - Creates dummy BOXes to fill any unused slots.
   (does not overwrite any present slots)
 
 <!-- -->
 
-- <X> Delete BOXes - Deletes all of the BOXes from the slots.
+- &lt;X&gt; Delete BOXes - Deletes all of the BOXes from the slots.
 
 <!-- -->
 
-- <START> CEC Filter Reset - Resets 8-hour per source rate limit. The
+- &lt;START&gt; CEC Filter Reset - Resets 8-hour per source rate limit. The
   [StreetPass driver](CECD "wikilink") runs a
   [ENVINFO](Configuration_Memory#ENVINFO "wikilink") check to verify
   independently whether the console is not retail before applying this.
@@ -609,9 +538,7 @@ DataSize : Size of Content (in bytes)
 Last_Modified : Last time the BOSS content (on server) was modified
 StartTime : when the BOSS task was registered
 OptOut : Whether the user can/has opted out of BOSS communication for this task
-```
 
-```
 It also possible to manually execute the BOSS task from here
 ```
 

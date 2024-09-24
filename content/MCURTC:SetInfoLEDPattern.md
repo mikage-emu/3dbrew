@@ -31,10 +31,10 @@ register 0x2D.
 <table>
 <thead>
 <tr class="header">
-<th><p>u8 delay</p></th>
-<th><p>u8 smoothing</p></th>
-<th><p>u8 loop_delay</p></th>
-<th><p>u8 blink_speed</p></th>
+<th>u8 delay</th>
+<th>u8 smoothing</th>
+<th>u8 loop_delay</th>
+<th>u8 blink_speed</th>
 </tr>
 </thead>
 <tbody>

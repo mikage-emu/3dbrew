@@ -38,8 +38,8 @@ one from inputaddr. Otherwise, the address is: mapvaddr = inputaddr -
 <table>
 <thead>
 <tr class="header">
-<th><p>Version</p></th>
-<th><p>Changes</p></th>
+<th>Version</th>
+<th>Changes</th>
 </tr>
 </thead>
 <tbody>

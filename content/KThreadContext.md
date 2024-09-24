@@ -22,9 +22,9 @@ from the beginning.
 <table>
 <thead>
 <tr class="header">
-<th><p>Offset</p></th>
-<th><p>Type</p></th>
-<th><p>Description</p></th>
+<th>Offset</th>
+<th>Type</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

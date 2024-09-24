@@ -76,9 +76,9 @@ fields. 3DS NZone is not region-locked like DS(i).
 <table>
 <thead>
 <tr class="header">
-<th><p>OFFSET</p></th>
-<th><p>SIZE</p></th>
-<th><p>DESCRIPTION</p></th>
+<th>OFFSET</th>
+<th>SIZE</th>
+<th>DESCRIPTION</th>
 </tr>
 </thead>
 <tbody>

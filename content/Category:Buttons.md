@@ -10,8 +10,8 @@ This category contains all the templates for the controller buttons.
 <table>
 <thead>
 <tr class="header">
-<th><p>Button</p></th>
-<th><p>Template</p></th>
+<th>Button</th>
+<th>Template</th>
 </tr>
 </thead>
 <tbody>

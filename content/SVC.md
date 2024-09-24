@@ -463,10 +463,10 @@ operation involving synchronization between cores.
 <table>
 <thead>
 <tr class="header">
-<th><p>Type</p></th>
-<th><p>Enabled for the NATIVE_FIRM ARM11 kernel</p></th>
-<th><p>Enabled for the TWL_FIRM ARM11 kernel</p></th>
-<th><p>Description</p></th>
+<th>Type</th>
+<th>Enabled for the NATIVE_FIRM ARM11 kernel</th>
+<th>Enabled for the TWL_FIRM ARM11 kernel</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

@@ -130,10 +130,10 @@ Controls "Master Key".
 <table>
 <thead>
 <tr class="header">
-<th><p>System version, for the mset title</p></th>
-<th><p>Parental controls reset functionality version</p></th>
-<th><p>Inquiry number length</p></th>
-<th><p>Notes</p></th>
+<th>System version, for the mset title</th>
+<th>Parental controls reset functionality version</th>
+<th>Inquiry number length</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>

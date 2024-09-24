@@ -7,8 +7,8 @@ title = 'NIMS:RegisterTask'
 <table>
 <thead>
 <tr class="header">
-<th><p>Index Word</p></th>
-<th><p>Description</p></th>
+<th>Index Word</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

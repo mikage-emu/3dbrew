@@ -601,9 +601,9 @@ root
 <table>
 <thead>
 <tr class="header">
-<th><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Description</p></th>
+<th>Offset</th>
+<th>Size</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -634,8 +634,8 @@ root
 <table>
 <thead>
 <tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
+<th>Value</th>
+<th>Meaning</th>
 </tr>
 </thead>
 <tbody>
@@ -817,10 +817,10 @@ handling [SD_Savedata_Backups](SD_Savedata_Backups "wikilink").
 <table>
 <thead>
 <tr class="header">
-<th><p>Archive</p></th>
-<th><p>Filename</p></th>
-<th><p>Read size</p></th>
-<th><p>Notes</p></th>
+<th>Archive</th>
+<th>Filename</th>
+<th>Read size</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>

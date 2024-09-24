@@ -45,8 +45,8 @@ nonce data in the middle. (See [Wrap](APT:Wrap "wikilink") and
 <table>
 <thead>
 <tr class="header">
-<th><p>Offset</p></th>
-<th><p>Length</p></th>
+<th>Offset</th>
+<th>Length</th>
 <th></th>
 </tr>
 </thead>

@@ -77,9 +77,9 @@ This CMAC type is used for gamecard savegames. It is 0x28-byte long.
 <table>
 <thead>
 <tr class="header">
-<th><p>Offset</p></th>
-<th><p>Length</p></th>
-<th><p>Description</p></th>
+<th>Offset</th>
+<th>Length</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -95,9 +95,9 @@ This CMAC type is used for gamecard savegames. It is 0x28-byte long.
 <table>
 <thead>
 <tr class="header">
-<th><p>Offset</p></th>
-<th><p>Length</p></th>
-<th><p>Description</p></th>
+<th>Offset</th>
+<th>Length</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -124,9 +124,9 @@ This CMAC type is used for SD savegames. It is 0x30-byte long.
 <table>
 <thead>
 <tr class="header">
-<th><p>Offset</p></th>
-<th><p>Length</p></th>
-<th><p>Description</p></th>
+<th>Offset</th>
+<th>Length</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -147,9 +147,9 @@ This CMAC type is used for SD savegames. It is 0x30-byte long.
 <table>
 <thead>
 <tr class="header">
-<th><p>Offset</p></th>
-<th><p>Length</p></th>
-<th><p>Description</p></th>
+<th>Offset</th>
+<th>Length</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

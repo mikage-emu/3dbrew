@@ -24,10 +24,10 @@ format used on the Wii.
 <table>
 <thead>
 <tr class="header">
-<th><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Type</p></th>
-<th><p>Description</p></th>
+<th>Offset</th>
+<th>Size</th>
+<th>Type</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -51,8 +51,8 @@ format used on the Wii.
 <table>
 <thead>
 <tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
+<th>Value</th>
+<th>Meaning</th>
 </tr>
 </thead>
 <tbody>
@@ -112,10 +112,10 @@ After this, the material entries follow.
 <table>
 <thead>
 <tr class="header">
-<th><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Type</p></th>
-<th><p>Description</p></th>
+<th>Offset</th>
+<th>Size</th>
+<th>Type</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -145,8 +145,8 @@ After this, the material entries follow.
 <table>
 <thead>
 <tr class="header">
-<th><p>Bit</p></th>
-<th><p>Flag / data</p></th>
+<th>Bit</th>
+<th>Flag / data</th>
 </tr>
 </thead>
 <tbody>
@@ -189,10 +189,10 @@ After this, the material entries follow.
 <table>
 <thead>
 <tr class="header">
-<th><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Type</p></th>
-<th><p>Description</p></th>
+<th>Offset</th>
+<th>Size</th>
+<th>Type</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -210,8 +210,8 @@ After this, the material entries follow.
 <table>
 <thead>
 <tr class="header">
-<th><p>Bit</p></th>
-<th><p>Data</p></th>
+<th>Bit</th>
+<th>Data</th>
 </tr>
 </thead>
 <tbody>
@@ -234,8 +234,8 @@ After this, the material entries follow.
 <table>
 <thead>
 <tr class="header">
-<th><p>Bit</p></th>
-<th><p>Data</p></th>
+<th>Bit</th>
+<th>Data</th>
 </tr>
 </thead>
 <tbody>
@@ -266,10 +266,10 @@ After this, the material entries follow.
 <table>
 <thead>
 <tr class="header">
-<th><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Type</p></th>
-<th><p>Description</p></th>
+<th>Offset</th>
+<th>Size</th>
+<th>Type</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -281,8 +281,8 @@ After this, the material entries follow.
 <table>
 <thead>
 <tr class="header">
-<th><p>Value</p></th>
-<th><p>Meaning</p></th>
+<th>Value</th>
+<th>Meaning</th>
 </tr>
 </thead>
 <tbody>
@@ -319,10 +319,10 @@ individually.
 <table>
 <thead>
 <tr class="header">
-<th><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Type</p></th>
-<th><p>Description</p></th>
+<th>Offset</th>
+<th>Size</th>
+<th>Type</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -346,8 +346,8 @@ individually.
 <table>
 <thead>
 <tr class="header">
-<th><p>Bit</p></th>
-<th><p>Flag</p></th>
+<th>Bit</th>
+<th>Flag</th>
 </tr>
 </thead>
 <tbody>
@@ -478,10 +478,10 @@ what mode it's set to.
 <table>
 <thead>
 <tr class="header">
-<th><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Type</p></th>
-<th><p>Description</p></th>
+<th>Offset</th>
+<th>Size</th>
+<th>Type</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -634,10 +634,10 @@ frames. (W)</p></td>
 <td><table>
 <thead>
 <tr class="header">
-<th><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Type</p></th>
-<th><p>Description</p></th>
+<th>Offset</th>
+<th>Size</th>
+<th>Type</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -755,10 +755,10 @@ Where an entry is as follows:
 <table>
 <thead>
 <tr class="header">
-<th><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Type</p></th>
-<th><p>Description</p></th>
+<th>Offset</th>
+<th>Size</th>
+<th>Type</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -789,8 +789,8 @@ string that serves as key.</p></td>
 <table>
 <thead>
 <tr class="header">
-<th><p>Value</p></th>
-<th><p>Type</p></th>
+<th>Value</th>
+<th>Type</th>
 </tr>
 </thead>
 <tbody>

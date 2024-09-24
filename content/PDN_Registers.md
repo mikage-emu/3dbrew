@@ -264,8 +264,8 @@ all-zeros even when one tried writing data here prior to the read.
 <table>
 <thead>
 <tr class="header">
-<th><p>Bits</p></th>
-<th><p>Description</p></th>
+<th>Bits</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

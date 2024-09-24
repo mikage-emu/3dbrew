@@ -592,10 +592,10 @@ User-agent format: `Mozilla/5.0 (Nintendo 3DS; U; ; <lang>) Version/<version>.<r
 <table>
 <thead>
 <tr class="header">
-<th><p>Browser version</p></th>
-<th><p>CDN Title-version</p></th>
-<th><p>Network-only system-update version</p></th>
-<th><p>Notes</p></th>
+<th>Browser version</th>
+<th>CDN Title-version</th>
+<th>Network-only system-update version</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>

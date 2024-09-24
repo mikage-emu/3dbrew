@@ -48,9 +48,9 @@ specified period.
 <table>
 <thead>
 <tr class="header">
-<th><p>offset</p></th>
-<th><p>Size</p></th>
-<th><p>Description</p></th>
+<th>offset</th>
+<th>Size</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

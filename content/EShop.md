@@ -175,9 +175,9 @@ Common parameters described above can always be sent.
 <table>
 <thead>
 <tr class="header">
-<th><p>Path</p></th>
-<th><p>Description</p></th>
-<th><p>Parameters</p></th>
+<th>Path</th>
+<th>Description</th>
+<th>Parameters</th>
 </tr>
 </thead>
 <tbody>

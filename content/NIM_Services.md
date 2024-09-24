@@ -360,8 +360,8 @@ Despite this being for debug purposes, it's used in retail if present.
 <table>
 <thead>
 <tr class="header">
-<th><p>Result</p></th>
-<th><p>Description</p></th>
+<th>Result</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

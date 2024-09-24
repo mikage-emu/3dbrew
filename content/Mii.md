@@ -23,8 +23,8 @@ extdata](Extdata#NAND_Shared_Extdata "wikilink") archive f0000000b.
 <table>
 <thead>
 <tr class="header">
-<th><p>Offset</p></th>
-<th><p>Length</p></th>
+<th>Offset</th>
+<th>Length</th>
 <th></th>
 </tr>
 </thead>
@@ -182,8 +182,8 @@ checksum := crc16_CCITTWii(miidb[0:0xc81e]) # checksum over the first 0xc81e byt
 <table>
 <thead>
 <tr class="header">
-<th><p>Offset</p></th>
-<th><p>Length</p></th>
+<th>Offset</th>
+<th>Length</th>
 <th></th>
 </tr>
 </thead>

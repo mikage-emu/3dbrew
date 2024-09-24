@@ -23,9 +23,9 @@ title = 'SSLC:RootCertChainAddDefaultCert'
 <table>
 <thead>
 <tr class="header">
-<th><p>ID</p></th>
-<th><p>Cert parsing output</p></th>
-<th><p>Notes</p></th>
+<th>ID</th>
+<th>Cert parsing output</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>

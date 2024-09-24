@@ -11,8 +11,8 @@ in other pages.
 <table>
 <thead>
 <tr class="header">
-<th><p>Type</p></th>
-<th><p>Description</p></th>
+<th>Type</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

@@ -379,9 +379,9 @@ for the MAC address, when the u8 at offset 0x8 in the network-struct is
 <table>
 <thead>
 <tr class="header">
-<th><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Description</p></th>
+<th>Offset</th>
+<th>Size</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

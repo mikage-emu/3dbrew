@@ -6,9 +6,9 @@ categories = ["File formats","DSP"]
 <table>
 <thead>
 <tr class="header">
-<th><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Description</p></th>
+<th>Offset</th>
+<th>Size</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

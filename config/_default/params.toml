@@ -1,0 +1,5 @@
+[[widgets.homepage]]
+type = "categories"
+
+[[widgets.page]]
+type = "toc"

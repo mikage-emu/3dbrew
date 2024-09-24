@@ -58,7 +58,7 @@ sharedMemBase + 0x240 + (clientID \* 0x80).
 When a process sets this framebuffer info, it sets index to (index+1)
 & 1. Then it writes the framebuffer info entry, and sets flag to
 value 1. The GSP module loads this framebuffer info entry data into GSP
-state once the [GPU](GPU "wikilink") finishes processing GX commands 3
+state once the [GPU](categories/GPU "wikilink") finishes processing GX commands 3
 or 4. Once the GSP module finishes loading this framebuffer info, it
 sets flag to value 0, then it will not load the framebuffer info again
 until flag is value 1. After loading this entry data into GSP state, the
@@ -143,7 +143,7 @@ is used to flush the source buffer.
 | 7          | Flush buffer (0 = don't flush, 1 = flush)                        |
 
 This command converts the specified address to a physical address, then
-writes the physical address and size to the [GPU](GPU "wikilink")
+writes the physical address and size to the [GPU](categories/GPU "wikilink")
 registers at 0x1EF018E0. This buffer contains [GPU
 commands](GPU/Internal_Registers "wikilink"). When flushing is enabled,
 svcFlushProcessDataCache is used to flush the buffer.
@@ -163,7 +163,7 @@ svcFlushProcessDataCache is used to flush the buffer.
 
 This command converts the specified addresses to physical addresses,
 then writes these addresses and the specified parameters to the
-[GPU](GPU "wikilink") registers at 0x1EF00010 and 0x1EF00020. Doing so
+[GPU](categories/GPU "wikilink") registers at 0x1EF00010 and 0x1EF00020. Doing so
 fills the specified buffers with the associated 4-byte value. This is
 used to clear GPU framebuffers. The associated buffer address must not
 be \<= to the main buffer address, thus the associated buffer address
@@ -181,14 +181,14 @@ for more information about memory fill parameters.
 | 0          | u8 CommandID is 0x03                                                                                            |
 | 1          | Input framebuffer address                                                                                       |
 | 2          | Output framebuffer address                                                                                      |
-| 3          | Input framebuffer [dimensions](GPU "wikilink")                                                                  |
+| 3          | Input framebuffer [dimensions](categories/GPU "wikilink")                                                                  |
 | 4          | Output framebuffer dimensions                                                                                   |
-| 5          | [Flags](GPU "wikilink"), for applications this is 0x1001000 for the main screen, and 0x1000 for the sub screen. |
+| 5          | [Flags](categories/GPU "wikilink"), for applications this is 0x1001000 for the main screen, and 0x1000 for the sub screen. |
 | 7-6        | Unused                                                                                                          |
 
 This command converts the specified addresses to physical addresses,
 then writes these physical addresses and parameters to the
-[GPU](GPU "wikilink") registers at 0x1EF00C00. This GPU command copies
+[GPU](categories/GPU "wikilink") registers at 0x1EF00C00. This GPU command copies
 the already rendered framebuffer data from the input GPU framebuffer
 address to the specified output LCD framebuffer. The input framebuffer
 is normally located in VRAM.

@@ -18,7 +18,7 @@ title = 'GSPGPU:WriteHWRegs'
 </tr>
 <tr class="even">
 <td><p>1</p></td>
-<td><p><a href="GPU" title="wikilink">GPU</a> address based at
+<td><p><a href="/categories/GPU" title="wikilink">GPU</a> address based at
 0x1EB00000, must be word-aligned</p></td>
 </tr>
 <tr class="odd">

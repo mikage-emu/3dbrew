@@ -7,7 +7,7 @@ title = 'GSPGPU:WriteHWRegRepeat'
 | Index Word | Description                                                             |
 |------------|-------------------------------------------------------------------------|
 | 0          | Header code \[0x00030082\]                                              |
-| 1          | [GPU](GPU "wikilink") address based at 0x1EB00000, must be word-aligned |
+| 1          | [GPU](categories/GPU "wikilink") address based at 0x1EB00000, must be word-aligned |
 | 2          | Size, must be \<=0x80 and word-aligned                                  |
 | 3          | (Size\<\<14) \| 2                                                       |
 | 4          | Data pointer                                                            |

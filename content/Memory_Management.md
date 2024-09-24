@@ -21,7 +21,7 @@ title = 'Memory Management'
 
 The LINEAR memory-operation indicates that the mapped physical address
 is always MappedVAddr+0x0C000000, thus this memory can be used for
-hardware devices' DMA(such as the [GPU](GPU "wikilink")). Addr0+size for
+hardware devices' DMA(such as the [GPU](categories/GPU "wikilink")). Addr0+size for
 this must be within the 0x14000000-0x1C000000 range when Addr0 is
 non-zero(Addr1 must be zero), Addr0 isn't actually used by
 svcControlMemory for mapping memory: Addr0 is not used by the kernel

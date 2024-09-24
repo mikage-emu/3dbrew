@@ -1,5 +1,6 @@
 +++
 title = 'Makerom'
+categories = ["PC utilities"]
 +++
 
 makerom is a tool which can be used to create [NCCH](NCCH "wikilink"),

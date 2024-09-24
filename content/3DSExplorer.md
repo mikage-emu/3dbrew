@@ -1,5 +1,6 @@
 +++
 title = '3DSExplorer'
+categories = ["PC utilities"]
 +++
 
 **This software is vastly outdated. Use

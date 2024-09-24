@@ -1,5 +1,6 @@
 +++
 title = '3DS Save DeEncrypter3DS'
+categories = ["PC utilities"]
 +++
 
 3DS Save DeEncrypter v1.4 released by Blite to Decrypt and encrypt 3DS

@@ -1,5 +1,6 @@
 +++
 title = '005tools'
+categories = ["PC utilities"]
 +++
 
 005tools is a simple command line application designed to work with

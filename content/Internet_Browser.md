@@ -1083,7 +1083,7 @@ including mobile site mode):
 <script type="text/javascript">
 
 `    if(navigator.userAgent.indexOf("Nintendo 3DS") == -1) { // If the user agent does not contain "Nintendo 3DS"`
-`        location.replace("`[`http://www.3dbrew.org`](http://www.3dbrew.org)`"); // Redirect to another page`
+`        location.replace("http://www.3dbrew.org"); // Redirect to another page`
 `    }`
 
 </script>

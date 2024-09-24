@@ -1,3 +1,7 @@
++++
+title = 'BOSS:GetTaskFinishHandle'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

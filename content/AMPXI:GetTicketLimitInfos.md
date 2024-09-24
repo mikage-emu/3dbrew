@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:GetTicketLimitInfos'
++++
+
 # Request
 
 | Index Word | Description                             |

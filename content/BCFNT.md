@@ -1,3 +1,8 @@
++++
+title = 'BCFNT'
+categories = ["File formats"]
++++
+
 # CTR Font Format
 
 [.bcfnt](.bcfnt "wikilink") files are bitmap fonts made for the 3ds. The

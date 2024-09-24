@@ -1,3 +1,7 @@
++++
+title = 'AMNet:GetNumCurrentContentInfos'
++++
+
 # Request
 
 | Index Word | Description                |

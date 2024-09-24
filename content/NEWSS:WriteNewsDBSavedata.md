@@ -1,3 +1,7 @@
++++
+title = 'NEWSS:WriteNewsDBSavedata'
++++
+
 # Request
 
 | Index Word | Description                |

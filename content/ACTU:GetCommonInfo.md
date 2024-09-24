@@ -1,3 +1,7 @@
++++
+title = 'ACTU:GetCommonInfo'
++++
+
 # Request
 
 | Index Word | Description                                 |

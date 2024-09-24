@@ -1,3 +1,7 @@
++++
+title = 'Serials'
++++
+
 This page talks about the 3DS products' serial number and model number
 structures (the console, manual, accessories, games, etc...).
 

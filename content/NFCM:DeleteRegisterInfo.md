@@ -1,3 +1,7 @@
++++
+title = 'NFCM:DeleteRegisterInfo'
++++
+
 # Request
 
 | Index Word | Description                |

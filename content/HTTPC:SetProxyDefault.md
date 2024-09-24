@@ -1,3 +1,7 @@
++++
+title = 'HTTPC:SetProxyDefault'
++++
+
 # Request
 
 | Index Word | Description                |

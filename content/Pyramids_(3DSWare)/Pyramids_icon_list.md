@@ -1,3 +1,7 @@
++++
+title = 'Pyramids Icon List'
++++
+
 <noinclude>== Overview ==
 
 This page details game asset bytes is used in both

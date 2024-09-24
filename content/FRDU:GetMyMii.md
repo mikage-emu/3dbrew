@@ -1,3 +1,7 @@
++++
+title = 'FRDU:GetMyMii'
++++
+
 # Request
 
 | Index Word | Description                |

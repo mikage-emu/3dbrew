@@ -1,3 +1,7 @@
++++
+title = 'NWMUDS:GetNodeInformation'
++++
+
 # Request
 
 | Index Word | Description                                          |

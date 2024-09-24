@@ -1,3 +1,7 @@
++++
+title = 'CAMU:StartCapture'
++++
+
 # Request
 
 | Index Word | Description                             |

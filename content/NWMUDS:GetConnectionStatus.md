@@ -1,3 +1,7 @@
++++
+title = 'NWMUDS:GetConnectionStatus'
++++
+
 # Request
 
 | Index Word | Description                |

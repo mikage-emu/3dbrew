@@ -1,3 +1,7 @@
++++
+title = 'IRRST Shared Memory'
++++
+
 This is the shared-memory for ["ir:rst"](IR_Services "wikilink"). The
 additional [New 3DS](New_3DS "wikilink") HID data is stored here. The
 structure of this is similar to the

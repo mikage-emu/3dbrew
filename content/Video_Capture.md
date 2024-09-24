@@ -1,3 +1,7 @@
++++
+title = 'Video Capture'
++++
+
 This page documents the procedure of capturing the video signal of the
 upper and lower screens of the 3DS.
 

@@ -1,3 +1,7 @@
++++
+title = 'NSS:TerminateProcess'
++++
+
 # Request
 
 | Index Word | Description                |

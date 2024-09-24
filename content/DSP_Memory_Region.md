@@ -1,3 +1,8 @@
++++
+title = 'DSP Memory Region'
+categories = ["DSP"]
++++
+
 *Note that everything below may vary depending on the exact DSP firmware
 used and different variants have slightly different behaviours.*
 

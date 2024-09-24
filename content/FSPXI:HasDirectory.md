@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:HasDirectory'
++++
+
 # Request
 
 | Index Word | Description                |

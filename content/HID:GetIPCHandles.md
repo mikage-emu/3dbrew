@@ -1,3 +1,7 @@
++++
+title = 'HID:GetIPCHandles'
++++
+
 # Request
 
 | Index Word | Description                |

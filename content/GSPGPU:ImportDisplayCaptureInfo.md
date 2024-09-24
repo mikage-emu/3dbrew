@@ -1,3 +1,7 @@
++++
+title = 'GSPGPU:ImportDisplayCaptureInfo'
++++
+
 # Request
 
 | Index Word | Description                |

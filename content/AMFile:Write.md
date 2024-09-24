@@ -1,3 +1,7 @@
++++
+title = 'AMFile:Write'
++++
+
 # Request
 
 | Index Word | Description                |

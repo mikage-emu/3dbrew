@@ -1,3 +1,7 @@
++++
+title = 'IPCCommandExample2'
++++
+
 Adapted from [PS:EncryptDecryptAes](PS:EncryptDecryptAes "wikilink") to
 illustrate the new IPC command templates.
 

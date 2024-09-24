@@ -1,3 +1,7 @@
++++
+title = 'APT:PrepareToStartNewestHomeMenu'
++++
+
 # Request
 
 | Index Word | Description                |

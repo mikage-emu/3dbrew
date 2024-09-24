@@ -1,3 +1,7 @@
++++
+title = 'DSP:InvalidateDCache'
++++
+
 # Request
 
 | Index Word | Description                            |

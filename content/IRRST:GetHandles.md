@@ -1,3 +1,7 @@
++++
+title = 'IRRST:GetHandles'
++++
+
 # Request
 
 | Index Word | Description                |

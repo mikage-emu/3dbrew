@@ -1,3 +1,7 @@
++++
+title = 'NEWSS:GetTotalArrivedNotifications'
++++
+
 # Request
 
 | Index Word | Description                |

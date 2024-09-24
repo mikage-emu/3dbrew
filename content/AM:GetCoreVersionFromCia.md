@@ -1,3 +1,7 @@
++++
+title = 'AM:GetCoreVersionFromCia'
++++
+
 # Request
 
 | Index Word | Description                        |

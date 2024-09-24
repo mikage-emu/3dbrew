@@ -1,3 +1,7 @@
++++
+title = 'Category:File Formats'
++++
+
 The following is a list of known file formats used by the 3DS.
 
 ## [NCCH](NCCH "wikilink")

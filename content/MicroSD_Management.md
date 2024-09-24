@@ -1,3 +1,7 @@
++++
+title = 'MicroSD Management'
++++
+
 This is the [New_3DS](New_3DS "wikilink")-only system application used
 for microSD data transfer for New3DS\<\>PC. This is launched via [System
 Settings](System_Settings "wikilink").

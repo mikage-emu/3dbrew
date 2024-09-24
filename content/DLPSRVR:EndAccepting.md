@@ -1,3 +1,7 @@
++++
+title = 'DLPSRVR:EndAccepting'
++++
+
 # Request
 
 | Index Word | Description                |

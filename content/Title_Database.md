@@ -1,3 +1,7 @@
++++
+title = 'Title Database'
++++
+
 These files contain data relating to install/usage/management of
 installed 3DS titles. The database files are located at:
 

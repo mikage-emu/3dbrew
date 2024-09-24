@@ -1,3 +1,7 @@
++++
+title = 'FS:GetSdmcArchiveResource'
++++
+
 # Request
 
 | Index Word | Description                |

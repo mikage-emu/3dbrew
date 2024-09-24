@@ -1,3 +1,7 @@
++++
+title = 'DSP:GetSemaphoreEventHandle'
++++
+
 # Request
 
 | Index Word | Description                |

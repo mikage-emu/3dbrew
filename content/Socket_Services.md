@@ -1,3 +1,8 @@
++++
+title = 'Socket Services'
+categories = ["Services"]
++++
+
 The socket sysmodule has a maximum limit of 64 sockets in total.
 
 # Socket user service "soc:U"

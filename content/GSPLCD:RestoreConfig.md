@@ -1,3 +1,7 @@
++++
+title = 'GSPLCD:RestoreConfig'
++++
+
 # Request
 
 | Index Word | Description                        |

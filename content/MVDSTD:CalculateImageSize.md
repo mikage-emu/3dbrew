@@ -1,3 +1,7 @@
++++
+title = 'MVDSTD:CalculateImageSize'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'PXIDEV:SPIWriteRead'
++++
+
 # Request
 
 | Index Word | Description                                                                    |

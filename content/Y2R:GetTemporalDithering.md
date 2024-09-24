@@ -1,3 +1,7 @@
++++
+title = 'Y2R:GetTemporalDithering'
++++
+
 # Request
 
 | Index Word | Description                |

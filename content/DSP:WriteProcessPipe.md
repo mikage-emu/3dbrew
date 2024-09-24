@@ -1,3 +1,7 @@
++++
+title = 'DSP:WriteProcessPipe'
++++
+
 # Request
 
 | Index Word | Description                |

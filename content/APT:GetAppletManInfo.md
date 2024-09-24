@@ -1,3 +1,7 @@
++++
+title = 'APT:GetAppletManInfo'
++++
+
 # Request
 
 | Index Word | Description                                           |

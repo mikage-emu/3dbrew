@@ -1,3 +1,7 @@
++++
+title = 'Memory Management'
++++
+
 # Types and structures
 
 ## enum MemoryOperation

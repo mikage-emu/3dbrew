@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:ListDataTitleTicketInfos'
++++
+
 # Request
 
 | Index Word | Description                       |

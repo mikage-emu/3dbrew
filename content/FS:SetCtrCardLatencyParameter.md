@@ -1,3 +1,7 @@
++++
+title = 'FS:SetCtrCardLatencyParameter'
++++
+
 # Request
 
 | Index Word | Description                                            |

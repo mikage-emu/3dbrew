@@ -1,3 +1,7 @@
++++
+title = 'PRUDP'
++++
+
 **PRUDP** is a third-party network protocol used for network
 communications by some Nintendo software on the 3DS. It presumably
 stands for "pretty reliable UDP" or "partially reliable UDP" or some

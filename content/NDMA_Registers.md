@@ -1,3 +1,7 @@
++++
+title = 'NDMA Registers'
++++
+
 3DS NDMA has 8 channels. The first 0x100-bytes of this IO mem is
 mirrored at 0x10002100, repeated every 0x100-bytes until the end of the
 0x1000-byte IO mem. NDMA can access the Arm9 bootrom, including the

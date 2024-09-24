@@ -1,3 +1,7 @@
++++
+title = 'MIC Shared Memory'
++++
+
 This is the shared memory used by the MIC service. It contains recorded
 audio data and the offset of the current data's end.
 

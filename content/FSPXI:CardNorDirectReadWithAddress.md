@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:CardNorDirectReadWithAddress'
++++
+
 # Request
 
 | Index Word | Description                |

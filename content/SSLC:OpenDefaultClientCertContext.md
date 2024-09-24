@@ -1,3 +1,7 @@
++++
+title = 'SSLC:OpenDefaultClientCertContext'
++++
+
 # Request
 
 | Index Word | Description                |

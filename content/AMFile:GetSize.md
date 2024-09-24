@@ -1,3 +1,7 @@
++++
+title = 'AMFile:GetSize'
++++
+
 # Request
 
 | Index Word | Description                |

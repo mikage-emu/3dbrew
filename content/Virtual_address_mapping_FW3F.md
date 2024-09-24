@@ -1,3 +1,7 @@
++++
+title = 'Virtual Address Mapping FW3F'
++++
+
 `[L1 ] VA d8000000..d8600000 -> PA 18000000..18600000 [ XN ] [ Priv: RW, User: -- ]`
 `[L1 ] VA dff00000..e0000000 -> PA 1ff00000..20000000 [ XN ] [ Priv: RW, User: -- ]`
 `[L1 ] VA e0000000..e8000000 -> PA 20000000..28000000 [ XN ] [ Priv: RW, User: -- ]`

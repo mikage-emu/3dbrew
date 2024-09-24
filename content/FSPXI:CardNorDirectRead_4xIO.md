@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:CardNorDirectRead 4xIO'
++++
+
 # Request
 
 | Index Word | Description                |

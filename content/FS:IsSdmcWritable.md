@@ -1,3 +1,7 @@
++++
+title = 'FS:IsSdmcWritable'
++++
+
 # Request
 
 | Index Word | Description                |

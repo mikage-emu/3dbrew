@@ -1,3 +1,7 @@
++++
+title = 'CAMU:PlayShutterSoundWithWave'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'HTTPC:GetResponseStatusCodeTimeout'
++++
+
 # Request
 
 | Index Word | Description                |

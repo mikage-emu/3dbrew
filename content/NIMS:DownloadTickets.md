@@ -1,3 +1,7 @@
++++
+title = 'NIMS:DownloadTickets'
++++
+
 # Request
 
 | Index Word | Description                                                                     |

@@ -1,3 +1,7 @@
++++
+title = 'CAMU:GetTransferBytes'
++++
+
 # Request
 
 | Index Word | Description                             |

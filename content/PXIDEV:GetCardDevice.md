@@ -1,3 +1,7 @@
++++
+title = 'PXIDEV:GetCardDevice'
++++
+
 # Request
 
 | Index Word | Description                |

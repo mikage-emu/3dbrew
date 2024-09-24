@@ -1,3 +1,7 @@
++++
+title = 'Fitted'
++++
+
 Hello. I am ジョシ (Joshi, aka [Joshi 3DS
 Forums](http://joshi3dsforums.do.am) admin gjdog), the creator of [Joshi
 3DS](http://joshi3ds.do.am), and I am here to teach you how to make your

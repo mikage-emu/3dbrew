@@ -1,3 +1,7 @@
++++
+title = 'NFC:GetAppDataInitStruct'
++++
+
 # Request
 
 | Index Word | Description                                       |

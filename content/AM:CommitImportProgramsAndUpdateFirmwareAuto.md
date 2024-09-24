@@ -1,3 +1,7 @@
++++
+title = 'AM:CommitImportProgramsAndUpdateFirmwareAuto'
++++
+
 # Request
 
 | Index Word | Description                                                            |

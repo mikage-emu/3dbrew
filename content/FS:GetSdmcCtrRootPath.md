@@ -1,3 +1,7 @@
++++
+title = 'FS:GetSdmcCtrRootPath'
++++
+
 # Request
 
 | Index Word | Description                              |

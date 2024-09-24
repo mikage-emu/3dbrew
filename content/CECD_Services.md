@@ -1,3 +1,8 @@
++++
+title = 'CECD Services'
+categories = ["Services"]
++++
+
 Streetpass stuff.
 
 # CECD Service "cecd:u"

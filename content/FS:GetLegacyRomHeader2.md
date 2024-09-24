@@ -1,3 +1,7 @@
++++
+title = 'FS:GetLegacyRomHeader2'
++++
+
 # Request
 
 | Index Word | Description                                            |

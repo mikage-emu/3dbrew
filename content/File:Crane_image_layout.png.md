@@ -1,3 +1,7 @@
++++
+title = 'File:Crane Image Layout.png'
++++
+
 ## Summary
 
 Layout of a crane image (Nintendo Badge Arcade).

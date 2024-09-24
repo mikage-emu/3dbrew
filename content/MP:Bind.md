@@ -1,3 +1,7 @@
++++
+title = 'MP:Bind'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

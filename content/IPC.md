@@ -1,3 +1,7 @@
++++
+title = 'IPC'
++++
+
 The 3DS software stack follows a server/client architecture, where
 common functionality is provided by global server processes through
 interfaces called *ports* and *services*. Applications can access this

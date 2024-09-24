@@ -1,3 +1,7 @@
++++
+title = 'BOSSP:ReadNsDataPrivileged'
++++
+
 # Request
 
 | Index Word | Description                |

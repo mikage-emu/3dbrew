@@ -1,3 +1,7 @@
++++
+title = 'NFC:ReadAppData'
++++
+
 # Request
 
 | Index Word | Description                                       |

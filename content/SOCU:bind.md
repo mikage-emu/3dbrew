@@ -1,3 +1,7 @@
++++
+title = 'SOCU:bind'
++++
+
 # Request
 
 | Index Word | Description                         |

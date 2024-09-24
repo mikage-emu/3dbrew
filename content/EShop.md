@@ -1,3 +1,7 @@
++++
+title = 'EShop'
++++
+
 The Nintendo 3DS eShop was added in the June 2011 update for JP/EUR/USA.
 
 From here, you can download Virtual Console games, 3D Classics, DSiware

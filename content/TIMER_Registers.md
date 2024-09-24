@@ -1,3 +1,7 @@
++++
+title = 'TIMER Registers'
++++
+
 There are 4 timers. These timers run at a frequency of 67,027,964.0 ±
 2<sup>-32</sup> Hz (i.e. exactly half the ARM9 clock frequency).
 

@@ -1,3 +1,8 @@
++++
+title = 'PDN Services'
+categories = ["Services"]
++++
+
 # PDN PTM Service "pdn:s"
 
 | Command Header | Description                                                                                                                                                                                                                                                                                               |

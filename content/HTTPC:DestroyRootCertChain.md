@@ -1,3 +1,7 @@
++++
+title = 'HTTPC:DestroyRootCertChain'
++++
+
 # Request
 
 | Index Word | Description                  |

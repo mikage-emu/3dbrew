@@ -1,3 +1,7 @@
++++
+title = 'BOSS:GetOptoutFlag'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

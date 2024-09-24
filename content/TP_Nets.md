@@ -1,3 +1,7 @@
++++
+title = 'TP Nets'
++++
+
 This page lists and describes the purposes of the testpoints accessible
 on a 3DS's circuit board.
 

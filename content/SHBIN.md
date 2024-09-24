@@ -1,3 +1,8 @@
++++
+title = 'SHBIN'
+categories = ["File formats"]
++++
+
 The SHBIN (SHader BINary) format is used to contain compiled and linked
 shader programs. These can include vertex shaders and geometry shaders.
 In commercial applications, SHBIN files can be found as standalone files

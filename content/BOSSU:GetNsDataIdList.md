@@ -1,3 +1,7 @@
++++
+title = 'BOSSU:GetNsDataIdList'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

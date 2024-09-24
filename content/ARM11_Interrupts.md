@@ -1,3 +1,7 @@
++++
+title = 'ARM11 Interrupts'
++++
+
 ## Interrupts
 
 Interrupt priority is 0-0xF. A priority of 0xF means that the interrupt

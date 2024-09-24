@@ -1,3 +1,7 @@
++++
+title = 'IRU:GetBitRate'
++++
+
 # Request
 
 | Index Word | Description                |

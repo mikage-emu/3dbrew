@@ -1,3 +1,7 @@
++++
+title = 'NDMU:GetScanInterval'
++++
+
 # Request
 
 | Index Word | Description                |

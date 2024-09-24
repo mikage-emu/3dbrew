@@ -1,3 +1,7 @@
++++
+title = 'Y2R Registers'
++++
+
 # Registers
 
 | Old3DS | Name                                 | Address    | Width | Used by                                       |

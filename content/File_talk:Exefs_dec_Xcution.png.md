@@ -1,3 +1,7 @@
++++
+title = 'File Talk:Exefs Dec Xcution.png'
++++
+
 How did you get decrypted content? The 3DS keys haven't been dumped yet,
 and the encryption layer is atleast as complex as the DSi's. Or is that
 some kind of debug CXI that was encrypted with a simpler, insecure key?

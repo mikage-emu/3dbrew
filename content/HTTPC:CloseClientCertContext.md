@@ -1,3 +1,7 @@
++++
+title = 'HTTPC:CloseClientCertContext'
++++
+
 # Request
 
 | Index Word | Description                |

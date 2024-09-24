@@ -1,3 +1,8 @@
++++
+title = 'KThreadContext'
+categories = ["Kernel objects"]
++++
+
 Size : 0x1000 bytes (1 page)
 
 Each [thread](KThread "wikilink") is allocated a 0x1000-byte page in

@@ -1,3 +1,7 @@
++++
+title = 'NIMU:GetTitleDownloadProgress'
++++
+
 # Request
 
 | Index Word | Description                |

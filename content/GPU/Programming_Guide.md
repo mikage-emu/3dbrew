@@ -1,3 +1,8 @@
++++
+title = 'Programming Guide'
+categories = ["GPU"]
++++
+
 This page is intended to contain more higher-level explanation of
 concepts and features provided by the 3DS GPU. For more detailed
 register-level information check [GPU/Internal

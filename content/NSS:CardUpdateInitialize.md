@@ -1,3 +1,7 @@
++++
+title = 'NSS:CardUpdateInitialize'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'EShop Titles'
++++
+
 [Go Back to Title list](Title_list "wikilink")
 
 ## Overview

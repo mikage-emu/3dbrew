@@ -1,3 +1,7 @@
++++
+title = 'FS:CheckAuthorityToAccessExtSaveData'
++++
+
 # Request
 
 | Index Word | Description                                            |

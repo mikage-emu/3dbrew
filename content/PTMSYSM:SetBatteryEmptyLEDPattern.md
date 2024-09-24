@@ -1,3 +1,7 @@
++++
+title = 'PTMSYSM:SetBatteryEmptyLEDPattern'
++++
+
 # Request
 
 | Index Word | Description                                                                                               |

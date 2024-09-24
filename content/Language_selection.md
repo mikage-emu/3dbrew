@@ -1,3 +1,7 @@
++++
+title = 'Language Selection'
++++
+
 ![](FRFLAG.jpg "FRFLAG.jpg")
 <img src="JPFLAG.gif" title="JPFLAG.gif" width="50" alt="JPFLAG.gif" />
 <img src="USFLAG.gif" title="USFLAG.gif" width="50" alt="USFLAG.gif" />

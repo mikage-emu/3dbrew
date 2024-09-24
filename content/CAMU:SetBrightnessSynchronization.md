@@ -1,3 +1,7 @@
++++
+title = 'CAMU:SetBrightnessSynchronization'
++++
+
 # Request
 
 | Index Word | Description                 |

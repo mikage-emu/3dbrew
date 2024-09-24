@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:InstallTikWrite'
++++
+
 # Request
 
 | Index Word | Description                |

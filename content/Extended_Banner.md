@@ -1,3 +1,7 @@
++++
+title = 'Extended Banner'
++++
+
 ## Overview
 
 The Extended Banner format is very simple. The Extended Banner is used

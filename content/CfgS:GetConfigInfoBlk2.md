@@ -1,3 +1,7 @@
++++
+title = 'CfgS:GetConfigInfoBlk2'
++++
+
 # Request
 
 | Index Word | Description                |

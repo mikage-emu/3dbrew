@@ -1,3 +1,7 @@
++++
+title = 'SD Dateisystem'
++++
+
 Der 3DS benutzt eine SD Karte als allgemeine Datenbank für zusätzliche
 Spieldaten und Fotos, die mit dem 3DS aufgenommen wurden.
 

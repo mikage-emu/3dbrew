@@ -1,3 +1,7 @@
++++
+title = 'SOCU:gethostbyname'
++++
+
 # Request
 
 | Index Word | Description                                            |

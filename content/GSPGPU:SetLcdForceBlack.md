@@ -1,3 +1,7 @@
++++
+title = 'GSPGPU:SetLcdForceBlack'
++++
+
 # Request
 
 | Index Word | Description                |

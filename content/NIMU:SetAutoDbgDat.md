@@ -1,3 +1,7 @@
++++
+title = 'NIMU:SetAutoDbgDat'
++++
+
 # Request
 
 | Index Word | Description                                     |

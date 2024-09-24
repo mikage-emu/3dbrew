@@ -1,3 +1,8 @@
++++
+title = 'Activity Log'
+categories = ["Nintendo Software"]
++++
+
 The activity log is a stock application that comes with retail units.
 The application allows you to review various statistics about the step
 counter and your gaming habits.

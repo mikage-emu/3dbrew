@@ -1,3 +1,7 @@
++++
+title = 'MICU:SetGain'
++++
+
 # Request
 
 | Index Word | Description                |

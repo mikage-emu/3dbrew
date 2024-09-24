@@ -1,3 +1,8 @@
++++
+title = 'KClassToken'
+categories = ["Kernel objects"]
++++
+
 Size : 0x5 bytes
 
 | Offset | Type          | Description                        |

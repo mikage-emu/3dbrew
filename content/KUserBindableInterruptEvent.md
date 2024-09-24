@@ -1,3 +1,8 @@
++++
+title = 'KUserBindableInterruptEvent'
+categories = ["Kernel interrupt events"]
++++
+
 class
 [KUserBindableInterruptEvent](KUserBindableInterruptEvent "wikilink")
 extends

@@ -1,3 +1,7 @@
++++
+title = 'NS CFA'
++++
+
 This pages describes the content of the
 [CFA](NCCH#CFA "wikilink")(titleID 0004001B00010702) RomFS used by NS.
 

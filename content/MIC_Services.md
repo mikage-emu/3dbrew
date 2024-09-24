@@ -1,3 +1,8 @@
++++
+title = 'MIC Services'
+categories = ["Services"]
++++
+
 # Microphone service "mic:u"
 
 | Command Header | Description                                                                                                                                               |

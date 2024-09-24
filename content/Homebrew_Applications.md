@@ -1,3 +1,7 @@
++++
+title = 'Homebrew Applications'
++++
+
 ## Installing
 
 Applications are installed by copying the necessary files directly to

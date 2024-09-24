@@ -1,3 +1,7 @@
++++
+title = 'NFC:GetModelInfo'
++++
+
 # Request
 
 | Index Word | Description                                                              |

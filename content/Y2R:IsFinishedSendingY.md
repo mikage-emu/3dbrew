@@ -1,3 +1,7 @@
++++
+title = 'Y2R:IsFinishedSendingY'
++++
+
 # Request
 
 | Index Word | Description                |

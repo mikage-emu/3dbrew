@@ -1,3 +1,7 @@
++++
+title = 'Y2R:GetTransferEndEvent'
++++
+
 # Request
 
 | Index Word | Description                |

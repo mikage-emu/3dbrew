@@ -1,3 +1,8 @@
++++
+title = 'CTPK'
+categories = ["File formats"]
++++
+
 **CTPK - CTR Texture PacKage**
 
 CTPK is a container file for one or multiple textures that are in

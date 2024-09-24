@@ -1,3 +1,7 @@
++++
+title = 'MCUNWM:GetWirelessDisabledFlag'
++++
+
 # Request
 
 | Index Word | Description                |

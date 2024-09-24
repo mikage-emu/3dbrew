@@ -1,3 +1,7 @@
++++
+title = 'MVDSTD:SetupOutputBuffers'
++++
+
 # Request
 
 | Index Word | Description                |

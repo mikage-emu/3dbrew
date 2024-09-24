@@ -1,3 +1,7 @@
++++
+title = 'GSPGPU:RestoreVramSysArea'
++++
+
 # Request
 
 | Index Word | Description                |

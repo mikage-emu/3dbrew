@@ -1,3 +1,8 @@
++++
+title = 'KObjectName'
+categories = ["Kernel objects"]
++++
+
 Size : 0x10 bytes
 
 | Offset | Type          | Description                                                       |

@@ -1,3 +1,7 @@
++++
+title = 'AM:GetTransferSizeFromCia'
++++
+
 # Request
 
 | Index Word | Description                        |

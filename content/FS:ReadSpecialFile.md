@@ -1,3 +1,7 @@
++++
+title = 'FS:ReadSpecialFile'
++++
+
 # Request
 
 | Index Word | Description                |

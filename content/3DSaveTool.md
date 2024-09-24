@@ -1,3 +1,7 @@
++++
+title = '3DSaveTool'
++++
+
 **3DSaveTool** can be used to find the XOR key used for encryption and
 use it to encrypt/decrypt EEPROM savefiles of 3DS games.
 

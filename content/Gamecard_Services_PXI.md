@@ -1,3 +1,7 @@
++++
+title = 'Gamecard Services PXI'
++++
+
 # "pxi:dev" service
 
 | Command Header | Available since system version | Description                                                                                                                                                                                                              |

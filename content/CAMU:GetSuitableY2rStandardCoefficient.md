@@ -1,3 +1,7 @@
++++
+title = 'CAMU:GetSuitableY2rStandardCoefficient'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'FS:CardSlotPowerOn'
++++
+
 # Request
 
 | Index Word | Description                |

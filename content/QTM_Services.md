@@ -1,3 +1,8 @@
++++
+title = 'QTM Services'
+categories = ["Services"]
++++
+
 QTM is the [New_3DS](New_3DS "wikilink") system module in charge of
 handling head tracking. A maximum of two sessions can be opened for each
 QTM service.

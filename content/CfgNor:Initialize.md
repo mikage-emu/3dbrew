@@ -1,3 +1,7 @@
++++
+title = 'CfgNor:Initialize'
++++
+
 # Request
 
 | Index Word | Description                          |

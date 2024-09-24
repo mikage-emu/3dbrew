@@ -1,3 +1,7 @@
++++
+title = 'AMNet:GetDeviceCert'
++++
+
 # Request
 
 | Index Word | Description                |

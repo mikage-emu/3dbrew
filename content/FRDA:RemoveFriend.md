@@ -1,3 +1,7 @@
++++
+title = 'FRDA:RemoveFriend'
++++
+
 # Request
 
 | Index Word | Description                |

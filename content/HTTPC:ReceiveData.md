@@ -1,3 +1,7 @@
++++
+title = 'HTTPC:ReceiveData'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'IRC Quotes'
++++
+
 *This page contains quotes from the IRC channel, \#3dsdev.*
 
 - "BARK BARK BARK BARK BARK BARK BARK BARK BARK BARK BARK BARK"

@@ -1,3 +1,8 @@
++++
+title = 'BCWAV'
+categories = ["File formats"]
++++
+
 This document is about the format of Binary CTR Wave files (BCWAV). The
 structure is very similar to Microsoft's Wave file.
 

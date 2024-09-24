@@ -1,3 +1,7 @@
++++
+title = 'NFC:GetRegisterInfo'
++++
+
 # Request
 
 | Index Word | Description                                                              |

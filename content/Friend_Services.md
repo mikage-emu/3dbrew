@@ -1,3 +1,8 @@
++++
+title = 'Friend Services'
+categories = ["Services"]
++++
+
 # Friend Service "frd:u"
 
 | Command Header | Description                                                            |

@@ -1,3 +1,7 @@
++++
+title = 'MCURTC:GetBatteryLevel'
++++
+
 # Request
 
 | Index Word | Description                |

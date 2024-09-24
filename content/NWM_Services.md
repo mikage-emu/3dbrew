@@ -1,3 +1,8 @@
++++
+title = 'NWM Services'
+categories = ["Services"]
++++
+
 These NWM services are used for local-WLAN communications, NWM module
 handles regular wifi APs as well. These services are used for
 creating/connecting to networks, and for sending/receiving data over the

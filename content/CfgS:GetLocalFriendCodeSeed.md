@@ -1,3 +1,7 @@
++++
+title = 'CfgS:GetLocalFriendCodeSeed'
++++
+
 # Request
 
 | Index Word | Description                                                             |

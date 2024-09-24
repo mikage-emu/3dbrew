@@ -1,3 +1,7 @@
++++
+title = 'Flash Filesystem'
++++
+
 The Nintendo 3DS has several differently sized NAND flash chips. Due to
 the NCSD header, the actual used size of the Old3DS NAND is
 0x3AF00000-bytes(943MiB). On New3DS, the actual NAND size and the total

@@ -1,3 +1,7 @@
++++
+title = 'NDMU:QueryStatus'
++++
+
 # Request
 
 | Index Word | Description                                             |

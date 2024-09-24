@@ -1,3 +1,7 @@
++++
+title = 'SOCU:InitializeSockets'
++++
+
 # Request
 
 | Index Word | Description                            |

@@ -1,3 +1,7 @@
++++
+title = 'Circle Pad Pro'
++++
+
 Also known as CTR-009, it sends the commands to the console through the
 IR interface on the back of the console.
 

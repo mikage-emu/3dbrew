@@ -1,3 +1,8 @@
++++
+title = 'Fragment Lighting'
+categories = ["GPU"]
++++
+
 Fragment lighting is a DMP extension to the standard OpenGL pipeline
 with which applications can calculate object lighting for each rendered
 pixel instead of just per vertex. The fragment lighting algorithm

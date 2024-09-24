@@ -1,3 +1,7 @@
++++
+title = 'BOSSP:SendPropertyPrivileged'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

@@ -1,3 +1,8 @@
++++
+title = 'KObjectMutex'
+categories = ["Kernel objects"]
++++
+
 Size : 0x8 bytes
 
 This is used to provide thread-safety when manipulating kernel objects

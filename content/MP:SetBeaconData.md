@@ -1,3 +1,7 @@
++++
+title = 'MP:SetBeaconData'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

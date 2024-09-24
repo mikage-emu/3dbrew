@@ -1,3 +1,7 @@
++++
+title = 'FRDU:GetMyPlayingGame'
++++
+
 # Request
 
 | Index Word | Description                |

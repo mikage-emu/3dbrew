@@ -1,3 +1,7 @@
++++
+title = 'IRU:GetSendState'
++++
+
 # Request
 
 | Index Word | Description                |

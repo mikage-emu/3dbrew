@@ -1,3 +1,8 @@
++++
+title = 'KTimerAndWDTManager'
+categories = ["Kernel interrupt events"]
++++
+
 class [KTimerAndWDTManager](KTimerAndWDTManager "wikilink") extends
 [KSchedulableInterruptEvent](KSchedulableInterruptEvent "wikilink")
 

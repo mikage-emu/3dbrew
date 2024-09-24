@@ -1,3 +1,7 @@
++++
+title = 'BOSS:SetStorageInfo'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

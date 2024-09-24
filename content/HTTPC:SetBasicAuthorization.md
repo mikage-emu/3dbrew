@@ -1,3 +1,7 @@
++++
+title = 'HTTPC:SetBasicAuthorization'
++++
+
 # Request
 
 | Index Word | Description                       |

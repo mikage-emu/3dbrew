@@ -1,3 +1,8 @@
++++
+title = 'HID Services'
+categories = ["Services"]
++++
+
 The maximum number of sessions that can open with all of these services
 combined is 6.
 

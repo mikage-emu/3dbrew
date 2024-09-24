@@ -1,3 +1,7 @@
++++
+title = 'FS:CardSlotGetCardIFPowerStatus'
++++
+
 # Request
 
 | Index Word | Description                |

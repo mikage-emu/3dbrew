@@ -1,3 +1,7 @@
++++
+title = 'GSPLCD:GetPowerState'
++++
+
 # Request
 
 | Index Word | Description                |

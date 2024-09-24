@@ -1,3 +1,7 @@
++++
+title = 'IRUSER Shared Memory'
++++
+
 This is the shared-memory for ["ir:USER"](IR_Services "wikilink"), which
 is provided by the application via
 [InitializeIrnop](IRUSER:InitializeIrnop "wikilink") or

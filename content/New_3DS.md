@@ -1,3 +1,7 @@
++++
+title = 'New 3DS'
++++
+
 “New 3DS” refers to the updated lineup of Nintendo 3DS systems, released
 between 2014 and 2017. The “New 3DS” line includes the New Nintendo 3DS,
 New Nintendo 3DS XL, and New Nintendo 2DS XL. The systems feature

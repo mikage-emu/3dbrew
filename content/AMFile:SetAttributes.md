@@ -1,3 +1,7 @@
++++
+title = 'AMFile:SetAttributes'
++++
+
 # Request
 
 | Index Word | Description                                             |

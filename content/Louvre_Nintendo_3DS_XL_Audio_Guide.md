@@ -1,3 +1,7 @@
++++
+title = 'Louvre Nintendo 3DS XL Audio Guide'
++++
+
 The famous French museum "Louvre" is also famous for [using heavily
 modified old 3DS XL units as audio- (and 3D photo-)
 guides](https://www.louvre.fr/en/museum-audio-guide) (although the

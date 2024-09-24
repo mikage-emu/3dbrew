@@ -1,3 +1,7 @@
++++
+title = 'FS:SendInitializeInfoTo9'
++++
+
 # Request
 
 | Index Word | Description                |

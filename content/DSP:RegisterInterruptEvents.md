@@ -1,3 +1,7 @@
++++
+title = 'DSP:RegisterInterruptEvents'
++++
+
 # Request
 
 | Index Word | Description                                                          |

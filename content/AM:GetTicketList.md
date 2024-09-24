@@ -1,3 +1,7 @@
++++
+title = 'AM:GetTicketList'
++++
+
 # Request
 
 | Index Word | Description                         |

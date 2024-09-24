@@ -1,3 +1,7 @@
++++
+title = 'NIMU:GetBackgroundProgress'
++++
+
 # Request
 
 | Index Word | Description                |

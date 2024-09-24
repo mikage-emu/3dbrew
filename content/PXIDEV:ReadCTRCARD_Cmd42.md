@@ -1,3 +1,7 @@
++++
+title = 'PXIDEV:ReadCTRCARD Cmd42'
++++
+
 # Request
 
 | Index Word | Description                                                   |

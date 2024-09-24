@@ -1,3 +1,7 @@
++++
+title = 'Multi Threading'
++++
+
 This page documents all kernel functionality for managing multiple
 processes and threads as well as handling synchronization between them.
 

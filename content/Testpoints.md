@@ -1,3 +1,7 @@
++++
+title = 'Testpoints'
++++
+
 ---
 ---
 - TP52: Powerbutton. Active low with pull-up.

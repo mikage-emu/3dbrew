@@ -1,3 +1,7 @@
++++
+title = 'Online Play'
++++
+
 **Online Play** is a functionality of the Nintendo 3DS to play games
 online with other people.
 

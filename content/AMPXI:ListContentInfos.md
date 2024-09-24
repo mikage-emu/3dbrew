@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:ListContentInfos'
++++
+
 # Request
 
 | Index Word | Description                                           |

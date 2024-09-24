@@ -1,3 +1,8 @@
++++
+title = 'HTTP Services'
+categories = ["Services"]
++++
+
 # HTTP service "<http:C>"
 
 | Command Header | Available since system-version | Available from service-sessions | Description                                                                                                |

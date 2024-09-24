@@ -1,3 +1,7 @@
++++
+title = 'GSPLCD:PowerOnBacklight'
++++
+
 # Request
 
 | Index Word | Description                            |

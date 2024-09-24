@@ -1,3 +1,7 @@
++++
+title = 'MediaWiki:Cookiewarning Info'
++++
+
 By entering this site you need to consent to the use of cookies and
 their functional use according to this privacy policy. Cookies help us
 to provide the functional services of the website. Kindly read the below

@@ -1,3 +1,7 @@
++++
+title = '3Ds Server List'
++++
+
 A list of all 3Ds Servers:
 [ccs.cdn.c.shop.nintendowifi.net](http://ccs.cdn.c.shop.nintendowifi.net) -
 Used if you download a [3DsWare](3DsWare "wikilink")

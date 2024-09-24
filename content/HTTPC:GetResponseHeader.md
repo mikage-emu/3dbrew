@@ -1,3 +1,7 @@
++++
+title = 'HTTPC:GetResponseHeader'
++++
+
 # Request
 
 | Index Word | Description                                              |

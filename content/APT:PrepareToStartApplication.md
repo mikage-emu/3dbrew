@@ -1,3 +1,7 @@
++++
+title = 'APT:PrepareToStartApplication'
++++
+
 # Request
 
 | Index Word | Description                                                                                                                                                                                                                                                        |

@@ -1,3 +1,7 @@
++++
+title = 'CAMU:SetFrameRate'
++++
+
 # Request
 
 | Index Word | Description                                             |

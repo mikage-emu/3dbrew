@@ -1,3 +1,7 @@
++++
+title = 'AM:GetTicketLimitInfos'
++++
+
 # Request
 
 | Index Word | Description                            |

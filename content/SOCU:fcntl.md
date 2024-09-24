@@ -1,3 +1,7 @@
++++
+title = 'SOCU:fcntl'
++++
+
 # Request
 
 | Index Word | Description                        |

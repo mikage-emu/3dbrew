@@ -1,3 +1,7 @@
++++
+title = 'Themes'
++++
+
 This page describes the formats/structure of the data stored in RomFS
 for [Home Menu](Home_Menu "wikilink") DLC, for themes.
 

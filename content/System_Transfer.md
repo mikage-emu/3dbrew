@@ -1,3 +1,7 @@
++++
+title = 'System Transfer'
++++
+
 **System Transfer** is functionality that was added with the
 [2.0.0-2](2.0.0-2 "wikilink") June 6/7 2011 system update, which allows
 you to transfer DSiWare, recorded audio from the Nintendo DSi Sound

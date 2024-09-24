@@ -1,3 +1,8 @@
++++
+title = 'KProcessHwInfo'
+categories = ["Kernel objects"]
++++
+
 Struct inside the [KProcess](KProcess "wikilink") object. Starts at
 KProcess+0x1C.
 

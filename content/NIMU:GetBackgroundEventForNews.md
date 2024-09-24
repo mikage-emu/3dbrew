@@ -1,3 +1,7 @@
++++
+title = 'NIMU:GetBackgroundEventForNews'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'Nintendo Badge Arcade'
++++
+
 **Nintendo Badge Arcade** is an application that allows getting badges
 for the 3DS's [Home Menu](Home_Menu "wikilink") via a claw machine-like
 game.

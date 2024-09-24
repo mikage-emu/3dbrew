@@ -1,3 +1,7 @@
++++
+title = 'MCURTC:GetInfoLEDStatus'
++++
+
 # Request
 
 | Index Word | Description                |

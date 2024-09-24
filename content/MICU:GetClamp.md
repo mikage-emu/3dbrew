@@ -1,3 +1,7 @@
++++
+title = 'MICU:GetClamp'
++++
+
 # Request
 
 | Index Word | Description                |

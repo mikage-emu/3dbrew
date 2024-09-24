@@ -1,3 +1,7 @@
++++
+title = 'APT:PrepareToCloseSystemApplet'
++++
+
 # Request
 
 | Index Word | Description                |

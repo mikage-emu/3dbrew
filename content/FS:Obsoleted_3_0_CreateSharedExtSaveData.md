@@ -1,3 +1,7 @@
++++
+title = 'FS:Obsoleted 3 0 CreateSharedExtSaveData'
++++
+
 # Request
 
 | Index Word | Description                                            |

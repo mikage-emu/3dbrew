@@ -1,3 +1,7 @@
++++
+title = 'DSP:ForceHeadphoneOut'
++++
+
 # Request
 
 | Index Word | Description                    |

@@ -1,3 +1,7 @@
++++
+title = 'DLP:GetWirelessRebootPassphrase'
++++
+
 # Request
 
 | Index Word | Description                                          |

@@ -1,3 +1,7 @@
++++
+title = 'Cfg:GetCountryCodeID'
++++
+
 # Request
 
 | Index Word | Description                     |

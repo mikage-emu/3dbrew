@@ -1,3 +1,7 @@
++++
+title = 'MICU:AdjustSampling'
++++
+
 # Request
 
 | Index Word | Description                                          |

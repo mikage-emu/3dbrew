@@ -1,3 +1,7 @@
++++
+title = 'BOSSU:SendPropertyHandle'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

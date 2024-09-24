@@ -1,3 +1,7 @@
++++
+title = 'IRU:WaitRecvTransfer'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'StreetPass Mii Plaza'
++++
+
 ## Overview
 
 This is [system

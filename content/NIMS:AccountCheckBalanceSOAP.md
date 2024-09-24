@@ -1,3 +1,7 @@
++++
+title = 'NIMS:AccountCheckBalanceSOAP'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

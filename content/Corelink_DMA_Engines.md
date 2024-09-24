@@ -1,3 +1,7 @@
++++
+title = 'Corelink DMA Engines'
++++
+
 XDMA cannot access the ARM9 bootrom at all.
 
 ## DmaConfig

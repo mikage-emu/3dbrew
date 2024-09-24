@@ -1,3 +1,7 @@
++++
+title = 'NFC:Initialize'
++++
+
 # Request
 
 | Index Word | Description                                                                                                                        |

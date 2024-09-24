@@ -1,3 +1,7 @@
++++
+title = 'MCURTC:GetRTC'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,8 @@
++++
+title = 'Procedural Texture Generation'
+categories = ["GPU"]
++++
+
 The 3DS GPU supports procedural generation of texture data using
 [texture unit
 3](GPU/Internal_Registers#GPUREG_TEXUNIT3_PROCTEX0 "wikilink"). Little

@@ -1,3 +1,7 @@
++++
+title = 'IRU:SetBitRate'
++++
+
 # Request
 
 | Index Word | Description                |

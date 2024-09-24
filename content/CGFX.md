@@ -1,3 +1,8 @@
++++
+title = 'CGFX'
+categories = ["File formats"]
++++
+
 CGFX is a container format used to store graphics resources. It can
 contain 3D models, textures and animation data.
 

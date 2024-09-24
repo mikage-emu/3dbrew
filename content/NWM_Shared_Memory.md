@@ -1,3 +1,7 @@
++++
+title = 'NWM Shared Memory'
++++
+
 This page is for the [NWMSOC](NWM_Services "wikilink") shared memory.
 Total size is 0x22000-bytes.
 

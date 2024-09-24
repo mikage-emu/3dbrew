@@ -1,3 +1,7 @@
++++
+title = 'Cfg:GetSystemModel'
++++
+
 # Request
 
 | Index Word | Description                |

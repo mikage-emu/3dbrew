@@ -1,3 +1,7 @@
++++
+title = '3dbrew:Copyrights'
++++
+
 3DBrew.org is a website devoted to hacking and documenting Nintendo's
 3DS portable video game console. Information found on this website is
 found through legal reverse engineering (both in the hardware and

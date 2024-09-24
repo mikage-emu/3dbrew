@@ -1,3 +1,8 @@
++++
+title = 'NS and APT Services'
+categories = ["Services"]
++++
+
 The NS (**N**intendo User Interface **S**hell) system module is the
 first module launched from a CTR-NAND title after the
 [FIRM](FIRM "wikilink") processes are loaded (also see

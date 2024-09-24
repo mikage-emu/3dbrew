@@ -1,3 +1,7 @@
++++
+title = 'SOCP:gethostid'
++++
+
 # Request
 
 | Index Word | Description                |

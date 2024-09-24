@@ -1,3 +1,7 @@
++++
+title = 'AM:UpdateFirmwareAuto'
++++
+
 # Request
 
 | Index Word | Description                |

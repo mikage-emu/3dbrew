@@ -1,3 +1,7 @@
++++
+title = 'APT:GetWirelessRebootInfo'
++++
+
 # Request
 
 | Index Word | Description                |

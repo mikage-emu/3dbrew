@@ -1,3 +1,7 @@
++++
+title = 'BOSS:RegisterNewArrivalEvent'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

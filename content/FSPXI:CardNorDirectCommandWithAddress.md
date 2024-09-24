@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:CardNorDirectCommandWithAddress'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:GetDSiWareExportSize'
++++
+
 # Request
 
 | Index Word | Description                |

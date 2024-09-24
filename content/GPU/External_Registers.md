@@ -1,3 +1,8 @@
++++
+title = 'External Registers'
+categories = ["GPU"]
++++
+
 This page describes the address range accessible from the ARM11, used to
 configure the basic GPU functionality. For information about the
 internal registers used for 3D rendering, see [GPU/Internal

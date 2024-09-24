@@ -1,3 +1,7 @@
++++
+title = 'APT:IsRegistered'
++++
+
 # Request
 
 | Index Word | Description                                    |

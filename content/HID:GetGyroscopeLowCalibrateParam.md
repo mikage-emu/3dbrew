@@ -1,3 +1,7 @@
++++
+title = 'HID:GetGyroscopeLowCalibrateParam'
++++
+
 # Request
 
 | Index Word | Description                |

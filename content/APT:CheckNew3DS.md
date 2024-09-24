@@ -1,3 +1,7 @@
++++
+title = 'APT:CheckNew3DS'
++++
+
 # Request
 
 | Index Word | Description                |

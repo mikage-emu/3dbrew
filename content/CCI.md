@@ -1,3 +1,8 @@
++++
+title = 'CCI'
+categories = ["File formats"]
++++
+
 See also: [NCSD](NCSD "wikilink").
 
 This page documents the format of NCSD. CTR cart images (CCI) is NCSD,

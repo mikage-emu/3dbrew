@@ -1,3 +1,7 @@
++++
+title = 'PSPXI:GetLocalFriendCodeSeed'
++++
+
 # Request
 
 | Index Word | Description                |

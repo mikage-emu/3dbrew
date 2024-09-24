@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:GetSdmcSpeedInfo'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'NWMINF:ConnectToEncryptedAP'
++++
+
 # Request
 
 | Index Word | Description                                                                            |

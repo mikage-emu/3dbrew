@@ -1,3 +1,7 @@
++++
+title = 'FRDU:UpdateGameModeDescription'
++++
+
 # Request
 
 | Index Word | Description                                                               |

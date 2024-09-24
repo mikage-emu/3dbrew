@@ -1,3 +1,7 @@
++++
+title = 'AMNet:GetTicketIdList'
++++
+
 # Request
 
 | Index Word | Description                            |

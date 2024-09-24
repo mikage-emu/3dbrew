@@ -1,3 +1,7 @@
++++
+title = 'ACU:GetConnectingSsidLength'
++++
+
 # Request
 
 | Index Word | Description                |

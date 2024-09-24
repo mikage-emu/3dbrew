@@ -1,3 +1,7 @@
++++
+title = 'Cfg:SecureInfoGetRegion'
++++
+
 # Request
 
 | Index Word | Description                                                                                        |

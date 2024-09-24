@@ -1,3 +1,7 @@
++++
+title = 'ACT:GetErrorCode'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

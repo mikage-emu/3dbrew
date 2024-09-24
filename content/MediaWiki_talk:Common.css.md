@@ -1,3 +1,7 @@
++++
+title = 'MediaWiki Talk:Common.css'
++++
+
 Can we add a CSS style for selectively disabling auto-numbering in
 table-of-contents? The section numbering in
 [Glossary](Glossary "wikilink") is pointless and should be omitted.

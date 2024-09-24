@@ -1,3 +1,7 @@
++++
+title = 'AM:GetNumExistingContentInfos'
++++
+
 # Request
 
 | Index Word | Description                                            |

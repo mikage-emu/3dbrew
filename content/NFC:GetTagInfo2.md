@@ -1,3 +1,7 @@
++++
+title = 'NFC:GetTagInfo2'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

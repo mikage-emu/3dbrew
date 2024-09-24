@@ -1,3 +1,7 @@
++++
+title = 'NFCM:GetAdminInfo'
++++
+
 # Request
 
 | Index Word | Description                |

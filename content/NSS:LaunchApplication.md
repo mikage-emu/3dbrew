@@ -1,3 +1,7 @@
++++
+title = 'NSS:LaunchApplication'
++++
+
 # Request
 
 | Index Word | Description                                                |

@@ -1,3 +1,7 @@
++++
+title = 'SOCU:SendToMultiple'
++++
+
 # Request
 
 | Index Word | Description                                  |

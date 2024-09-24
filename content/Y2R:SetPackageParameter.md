@@ -1,3 +1,7 @@
++++
+title = 'Y2R:SetPackageParameter'
++++
+
 # Request
 
 | Index Word | Description                                                     |

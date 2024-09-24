@@ -1,3 +1,7 @@
++++
+title = 'NWMUDS:PullPacket'
++++
+
 # Request
 
 | Index Word | Description                               |

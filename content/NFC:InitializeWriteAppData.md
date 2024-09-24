@@ -1,3 +1,7 @@
++++
+title = 'NFC:InitializeWriteAppData'
++++
+
 # Request
 
 | Index Word | Description                                                           |

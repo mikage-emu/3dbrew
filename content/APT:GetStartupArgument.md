@@ -1,3 +1,7 @@
++++
+title = 'APT:GetStartupArgument'
++++
+
 # Request
 
 | Index Word | Description                                                                      |

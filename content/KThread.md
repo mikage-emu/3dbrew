@@ -1,3 +1,8 @@
++++
+title = 'KThread'
+categories = ["Kernel synchronization objects","Kernel interrupt events"]
++++
+
 class [KThread](KThread "wikilink") extends
 [KSynchronizationObject](KSynchronizationObject "wikilink"),
 [KTimeableInterruptEvent](KTimeableInterruptEvent "wikilink"),

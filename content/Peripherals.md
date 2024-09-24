@@ -1,3 +1,7 @@
++++
+title = 'Peripherals'
++++
+
 ## Overview
 
 A list of 3DS system and accessory model numbers.

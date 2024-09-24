@@ -1,3 +1,7 @@
++++
+title = 'Mysteries'
++++
+
 The following is a list of mysteries.
 
 ## General

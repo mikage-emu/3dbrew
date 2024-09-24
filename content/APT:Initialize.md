@@ -1,3 +1,7 @@
++++
+title = 'APT:Initialize'
++++
+
 # Request
 
 | Index Word | Description                                             |

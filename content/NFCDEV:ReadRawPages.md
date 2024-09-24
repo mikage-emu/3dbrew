@@ -1,3 +1,7 @@
++++
+title = 'NFCDEV:ReadRawPages'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

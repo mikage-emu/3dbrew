@@ -1,3 +1,7 @@
++++
+title = 'SOCU:accept'
++++
+
 # Request
 
 | Index Word | Description                        |

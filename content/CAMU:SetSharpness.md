@@ -1,3 +1,7 @@
++++
+title = 'CAMU:SetSharpness'
++++
+
 # Request
 
 | Index Word | Description                                             |

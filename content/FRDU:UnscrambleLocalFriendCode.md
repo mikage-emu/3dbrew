@@ -1,3 +1,7 @@
++++
+title = 'FRDU:UnscrambleLocalFriendCode'
++++
+
 # Request
 
 | Index Word | Description                                              |

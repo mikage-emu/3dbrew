@@ -1,3 +1,8 @@
++++
+title = 'SPI Services'
+categories = ["Services"]
++++
+
 # SPI Services
 
 - "SPI::NOR" (used by cfg:NOR)

@@ -1,3 +1,7 @@
++++
+title = 'GSPGPU:WriteHWRegs'
++++
+
 # Request
 
 <table>

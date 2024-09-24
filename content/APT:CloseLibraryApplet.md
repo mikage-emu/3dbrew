@@ -1,3 +1,7 @@
++++
+title = 'APT:CloseLibraryApplet'
++++
+
 # Request
 
 | Index Word | Description                    |

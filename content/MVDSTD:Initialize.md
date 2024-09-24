@@ -1,3 +1,7 @@
++++
+title = 'MVDSTD:Initialize'
++++
+
 # Request
 
 | Index Word | Description                                                                                                                                       |

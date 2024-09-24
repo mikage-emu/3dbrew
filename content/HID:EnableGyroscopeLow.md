@@ -1,3 +1,7 @@
++++
+title = 'HID:EnableGyroscopeLow'
++++
+
 # Request
 
 | Index Word | Description                |

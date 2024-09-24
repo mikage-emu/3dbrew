@@ -1,3 +1,7 @@
++++
+title = 'Principal ID'
++++
+
 The **Principal ID** is an identification number that can be seen as a
 login name for Nintendo's game servers.
 

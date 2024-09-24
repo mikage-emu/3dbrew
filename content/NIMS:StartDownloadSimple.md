@@ -1,3 +1,7 @@
++++
+title = 'NIMS:StartDownloadSimple'
++++
+
 # Request
 
 | Index Word | Description                                                                                                   |

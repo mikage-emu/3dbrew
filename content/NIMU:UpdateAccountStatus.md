@@ -1,3 +1,7 @@
++++
+title = 'NIMU:UpdateAccountStatus'
++++
+
 # Request
 
 | Index Word | Description                |

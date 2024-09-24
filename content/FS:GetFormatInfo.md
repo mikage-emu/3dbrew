@@ -1,3 +1,7 @@
++++
+title = 'FS:GetFormatInfo'
++++
+
 # Request
 
 | Index Word | Description                                            |

@@ -1,3 +1,7 @@
++++
+title = 'HID:GetSoundVolume'
++++
+
 # Request
 
 | Index Word | Description                |

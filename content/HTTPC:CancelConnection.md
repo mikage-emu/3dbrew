@@ -1,3 +1,7 @@
++++
+title = 'HTTPC:CancelConnection'
++++
+
 # Request
 
 | Index Word | Description                |

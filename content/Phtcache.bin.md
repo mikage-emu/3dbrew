@@ -1,3 +1,7 @@
++++
+title = 'Phtcache.bin'
++++
+
 ## File Header
 
 | Offset | Size                       | Description                                                                                                                   |

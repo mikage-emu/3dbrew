@@ -1,3 +1,7 @@
++++
+title = 'FRDU:IsValidFriendCode'
++++
+
 # Request
 
 | Index Word | Description                   |

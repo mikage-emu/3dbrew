@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:DeleteTicketId'
++++
+
 # Request
 
 | Index Word | Description                |

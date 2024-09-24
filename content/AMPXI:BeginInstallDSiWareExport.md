@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:BeginInstallDSiWareExport'
++++
+
 # Request
 
 | Index Word | Description                                           |

@@ -1,3 +1,7 @@
++++
+title = 'Other:SecretPage'
++++
+
 Welcome to the Secret Page!
 
 **Rules**:

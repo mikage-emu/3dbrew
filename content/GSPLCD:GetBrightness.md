@@ -1,3 +1,7 @@
++++
+title = 'GSPLCD:GetBrightness'
++++
+
 # Request
 
 | Index Word | Description                        |

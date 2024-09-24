@@ -1,3 +1,7 @@
++++
+title = 'AM:GetStorageId'
++++
+
 # Request
 
 | Index Word | Description                                            |

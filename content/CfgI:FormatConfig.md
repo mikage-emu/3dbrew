@@ -1,3 +1,7 @@
++++
+title = 'CfgI:FormatConfig'
++++
+
 # Request
 
 | Index Word | Description                |

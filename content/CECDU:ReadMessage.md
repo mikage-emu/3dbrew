@@ -1,3 +1,7 @@
++++
+title = 'CECDU:ReadMessage'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

@@ -1,3 +1,7 @@
++++
+title = 'PS:GetCTRCardAutoStartupBit'
++++
+
 # Request
 
 | Index Word | Description                |

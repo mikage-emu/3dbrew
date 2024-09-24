@@ -1,3 +1,7 @@
++++
+title = 'Category:Buttons'
++++
+
 **Until the wiki would accept svg files, the files are ready to be
 uploaded from [here](http://sherer.co.il/svg/)**
 

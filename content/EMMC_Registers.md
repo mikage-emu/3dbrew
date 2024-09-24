@@ -1,3 +1,7 @@
++++
+title = 'EMMC Registers'
++++
+
 These registers are used to access the system
 [NAND](Flash_Filesystem "wikilink") and the inserted SD card. Both
 devices use the same interface. HCLK of the SDMMC controller is

@@ -1,3 +1,7 @@
++++
+title = 'NWMEXT:ControlWirelessEnabled'
++++
+
 # Request
 
 | Index Word | Description                       |

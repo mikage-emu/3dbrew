@@ -1,3 +1,7 @@
++++
+title = 'CfgI:DeleteConfigNANDSavefile'
++++
+
 # Request
 
 | Index Word | Description                |

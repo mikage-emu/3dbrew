@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:GetTitleCount'
++++
+
 # Request
 
 | Index Word | Description                                           |

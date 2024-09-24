@@ -1,3 +1,8 @@
++++
+title = 'KRecursiveLock'
+categories = ["Kernel objects"]
++++
+
 Size : 0x8 bytes
 
 Used to implement critical sections, etc.

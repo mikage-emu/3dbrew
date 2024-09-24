@@ -1,3 +1,7 @@
++++
+title = 'APT:GetProgramInfo'
++++
+
 # Request
 
 | Index Word | Description                                                |

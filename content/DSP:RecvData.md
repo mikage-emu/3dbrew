@@ -1,3 +1,7 @@
++++
+title = 'DSP:RecvData'
++++
+
 # Request
 
 | Index Word | Description                                          |

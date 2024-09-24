@@ -1,3 +1,7 @@
++++
+title = 'APT:PrepareToJumpToHomeMenu'
++++
+
 # Request
 
 | Index Word | Description                |

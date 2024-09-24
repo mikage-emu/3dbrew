@@ -1,3 +1,7 @@
++++
+title = 'PTMSYSM:ConfigureNew3DSCPU'
++++
+
 # Request
 
 | Index Word | Description                |

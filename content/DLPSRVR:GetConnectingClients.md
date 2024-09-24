@@ -1,3 +1,7 @@
++++
+title = 'DLPSRVR:GetConnectingClients'
++++
+
 # Request
 
 | Index Word | Description                      |

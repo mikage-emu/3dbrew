@@ -1,3 +1,7 @@
++++
+title = 'DSP:SetSemaphore'
++++
+
 # Request
 
 | Index Word | Description                |

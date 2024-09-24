@@ -1,3 +1,7 @@
++++
+title = 'PTMSYSM:GetInfoLEDStatus'
++++
+
 # Request
 
 | Index Word | Description                |

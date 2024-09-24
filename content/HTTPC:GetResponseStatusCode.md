@@ -1,3 +1,7 @@
++++
+title = 'HTTPC:GetResponseStatusCode'
++++
+
 # Request
 
 | Index Word | Description                |

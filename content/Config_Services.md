@@ -1,3 +1,8 @@
++++
+title = 'Config Services'
+categories = ["Services"]
++++
+
 # Config service "cfg:u"
 
 | Command Header | Available since system version  | Description                                                                                                                 |

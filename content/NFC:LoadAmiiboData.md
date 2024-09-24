@@ -1,3 +1,7 @@
++++
+title = 'NFC:LoadAmiiboData'
++++
+
 # Request
 
 | Index Word | Description                                       |

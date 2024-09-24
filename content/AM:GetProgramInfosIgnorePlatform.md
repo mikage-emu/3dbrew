@@ -1,3 +1,7 @@
++++
+title = 'AM:GetProgramInfosIgnorePlatform'
++++
+
 # Request
 
 | Index Word | Description                                                                     |

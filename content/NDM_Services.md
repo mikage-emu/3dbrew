@@ -1,3 +1,8 @@
++++
+title = 'NDM Services'
+categories = ["Services"]
++++
+
 # NDM service "ndm:u"
 
 | Command Header | Description                                                          |

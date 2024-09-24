@@ -1,3 +1,7 @@
++++
+title = 'GSPGPU:SetBufferSwap'
++++
+
 # Request
 
 | Index Word | Description                                                                           |

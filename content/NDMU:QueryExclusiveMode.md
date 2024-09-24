@@ -1,3 +1,7 @@
++++
+title = 'NDMU:QueryExclusiveMode'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'HTTPC:InitializeConnectionSession'
++++
+
 # Request
 
 | Index Word | Description                                            |

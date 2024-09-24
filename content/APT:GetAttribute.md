@@ -1,3 +1,7 @@
++++
+title = 'APT:GetAttribute'
++++
+
 # Request
 
 | Index Word | Description                                    |

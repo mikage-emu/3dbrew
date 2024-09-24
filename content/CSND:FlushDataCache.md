@@ -1,3 +1,7 @@
++++
+title = 'CSND:FlushDataCache'
++++
+
 # Request
 
 | Index Word | Description                            |

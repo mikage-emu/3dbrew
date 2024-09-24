@@ -1,3 +1,8 @@
++++
+title = 'NIM Services'
+categories = ["Services"]
++++
+
 # NIM updater service "nim:u"
 
 | Command Header | Description                                                                                        |

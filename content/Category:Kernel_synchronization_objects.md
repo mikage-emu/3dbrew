@@ -1,3 +1,8 @@
++++
+title = 'Category:Kernel Synchronization Objects'
+categories = ["Kernel auto objects"]
++++
+
 [KSynchronizationObject](KSynchronizationObject "wikilink") and
 subclasses.
 

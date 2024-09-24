@@ -1,3 +1,7 @@
++++
+title = 'SOCU:AddGlobalSocket'
++++
+
 # Request
 
 | Index Word | Description                |

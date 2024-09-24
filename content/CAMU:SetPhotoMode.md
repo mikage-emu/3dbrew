@@ -1,3 +1,7 @@
++++
+title = 'CAMU:SetPhotoMode'
++++
+
 # Request
 
 | Index Word | Description                                             |

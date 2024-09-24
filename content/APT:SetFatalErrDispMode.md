@@ -1,3 +1,7 @@
++++
+title = 'APT:SetFatalErrDispMode'
++++
+
 # Request
 
 | Index Word | Description                |

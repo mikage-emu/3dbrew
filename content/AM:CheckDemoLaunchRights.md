@@ -1,3 +1,7 @@
++++
+title = 'AM:CheckDemoLaunchRights'
++++
+
 # Request
 
 | Index Word | Description                |

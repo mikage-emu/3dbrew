@@ -1,3 +1,8 @@
++++
+title = 'KObjectLink'
+categories = ["Kernel objects"]
++++
+
 Size : 0x10 bytes
 
 This is used to keep track of kernel objects and allocate new ones.

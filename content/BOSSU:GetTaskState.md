@@ -1,3 +1,7 @@
++++
+title = 'BOSSU:GetTaskState'
++++
+
 # Request
 
 | Index Word | Description                |

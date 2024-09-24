@@ -1,3 +1,7 @@
++++
+title = 'MCUPLS:GetSeconds'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

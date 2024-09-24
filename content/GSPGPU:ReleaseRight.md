@@ -1,3 +1,7 @@
++++
+title = 'GSPGPU:ReleaseRight'
++++
+
 # Request
 
 | Index Word | Description                |

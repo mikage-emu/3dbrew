@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:CheckContentRights'
++++
+
 # Request
 
 | Index Word | Description                |

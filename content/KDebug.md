@@ -1,3 +1,8 @@
++++
+title = 'KDebug'
+categories = ["Kernel synchronization objects","Kernel interrupt events"]
++++
+
 class [KDebug](KDebug "wikilink") extends
 [KSynchronizationObject](KSynchronizationObject "wikilink") and
 [KSendableInterruptEvent](KSendableInterruptEvent "wikilink");

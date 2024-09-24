@@ -1,3 +1,7 @@
++++
+title = 'ACI:GetConnectingNetworkMtu'
++++
+
 # Request
 
 | Index Word | Description                |

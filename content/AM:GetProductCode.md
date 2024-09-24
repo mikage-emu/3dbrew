@@ -1,3 +1,7 @@
++++
+title = 'AM:GetProductCode'
++++
+
 # Request
 
 | Index Word | Description                                            |

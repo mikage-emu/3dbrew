@@ -1,3 +1,7 @@
++++
+title = 'Category Talk:File Formats'
++++
+
 "with padding in between the two files to make sure the .BCWAV *starts
 on a new line*." Isn't .BNR the same as ExeFS:/banner, which is binary?
 --[Yellows8](User:Yellows8 "wikilink") 17:58, 13 June 2012 (CEST)

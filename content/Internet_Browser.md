@@ -1,3 +1,7 @@
++++
+title = 'Internet Browser'
++++
+
 The 3DS Internet Browser was added in the June 2011 Update for
 JPN/EUR/USA.
 

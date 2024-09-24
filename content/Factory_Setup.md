@@ -1,3 +1,7 @@
++++
+title = 'Factory Setup'
++++
+
 ## Setup Process
 
 [Nandrw/sys/updater.log](Nandrw/sys/updater.log "wikilink"),

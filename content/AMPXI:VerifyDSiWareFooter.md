@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:VerifyDSiWareFooter'
++++
+
 # Request
 
 | Index Word | Description                                                                     |

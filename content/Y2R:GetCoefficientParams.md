@@ -1,3 +1,7 @@
++++
+title = 'Y2R:GetCoefficientParams'
++++
+
 # Request
 
 | Index Word | Description                |

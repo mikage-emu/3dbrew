@@ -1,3 +1,7 @@
++++
+title = 'SRV:RegisterService'
++++
+
 # Request
 
 | Index Word | Description                |

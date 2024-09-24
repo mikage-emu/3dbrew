@@ -1,3 +1,7 @@
++++
+title = 'FRDU:GetMyComment'
++++
+
 # Request
 
 | Index Word | Description                |

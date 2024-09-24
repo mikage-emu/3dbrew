@@ -1,3 +1,8 @@
++++
+title = 'KFIQInterruptEvent'
+categories = ["Kernel interrupt events"]
++++
+
 class [KFIQInterruptEvent](KFIQInterruptEvent "wikilink") extends
 [KSynchronizationInterruptEvent](KSynchronizationInterruptEvent "wikilink")
 

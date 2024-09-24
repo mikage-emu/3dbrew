@@ -1,3 +1,7 @@
++++
+title = 'FRDU:GetMyFavoriteGame'
++++
+
 # Request
 
 | Index Word | Description                |

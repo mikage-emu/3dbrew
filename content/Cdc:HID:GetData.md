@@ -1,3 +1,7 @@
++++
+title = 'Cdc:HID:GetData'
++++
+
 # Request
 
 | Index Word | Description                |

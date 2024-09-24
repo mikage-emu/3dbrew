@@ -1,3 +1,7 @@
++++
+title = 'GSPLCD:SetRSParams'
++++
+
 # Request
 
 | Index Word | Description                            |

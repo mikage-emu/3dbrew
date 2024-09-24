@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:DeleteContents'
++++
+
 # Request
 
 | Index Word | Description                                           |

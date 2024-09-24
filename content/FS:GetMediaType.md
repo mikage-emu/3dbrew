@@ -1,3 +1,7 @@
++++
+title = 'FS:GetMediaType'
++++
+
 # Request
 
 | Index Word | Description                |

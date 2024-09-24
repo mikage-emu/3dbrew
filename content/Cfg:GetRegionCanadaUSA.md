@@ -1,3 +1,7 @@
++++
+title = 'Cfg:GetRegionCanadaUSA'
++++
+
 # Request
 
 | Index Word | Description                |

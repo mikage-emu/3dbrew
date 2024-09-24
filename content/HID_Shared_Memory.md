@@ -1,3 +1,7 @@
++++
+title = 'HID Shared Memory'
++++
+
 This page describes the format of the [HID](HID_Services "wikilink")
 shared memory.
 

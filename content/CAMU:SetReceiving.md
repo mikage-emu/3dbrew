@@ -1,3 +1,7 @@
++++
+title = 'CAMU:SetReceiving'
++++
+
 # Request
 
 | Index Word | Description                                     |

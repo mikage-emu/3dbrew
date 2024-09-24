@@ -1,3 +1,7 @@
++++
+title = 'NIMU:GetBackgroundEventForMenu'
++++
+
 # Request
 
 | Index Word | Description                |

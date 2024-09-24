@@ -1,3 +1,7 @@
++++
+title = 'MVDSTD:CalculateWorkBufSize'
++++
+
 # Request
 
 | Index Word | Description                |

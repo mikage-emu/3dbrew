@@ -1,3 +1,7 @@
++++
+title = 'DLPSRVR:GetClientInfo'
++++
+
 # Request
 
 | Index Word | Description                |

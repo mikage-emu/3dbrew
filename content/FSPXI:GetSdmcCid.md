@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:GetSdmcCid'
++++
+
 # Request
 
 | Index Word | Description                                        |

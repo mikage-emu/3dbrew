@@ -1,3 +1,7 @@
++++
+title = 'HTTPC:GetDownloadSizeState'
++++
+
 # Request
 
 | Index Word | Description                |

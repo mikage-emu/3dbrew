@@ -1,3 +1,7 @@
++++
+title = 'AM:DeleteAllTwlUserPrograms'
++++
+
 # Request
 
 | Index Word | Description                |

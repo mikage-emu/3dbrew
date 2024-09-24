@@ -1,3 +1,7 @@
++++
+title = 'Y2R:GetRotation'
++++
+
 # Request
 
 | Index Word | Description                |

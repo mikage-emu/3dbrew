@@ -1,3 +1,7 @@
++++
+title = 'APT:HardwareResetAsync'
++++
+
 # Request
 
 | Index Word | Description                |

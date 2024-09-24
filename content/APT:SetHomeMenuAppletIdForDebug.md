@@ -1,3 +1,7 @@
++++
+title = 'APT:SetHomeMenuAppletIdForDebug'
++++
+
 # Request
 
 | Index Word | Description                                    |

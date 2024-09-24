@@ -1,3 +1,8 @@
++++
+title = 'GSP Services'
+categories = ["Services"]
++++
+
 # GSP service "gsp::Gpu"
 
 | Command Header | Available since system version  | GSP rights required | Description                                                                      |

@@ -1,3 +1,8 @@
++++
+title = 'Primitive Engine'
+categories = ["GPU"]
++++
+
 Primitive Engine (PE) is one of the PICA200's four vertex processor
 units and provides some unique features which are used to implement a
 geometry shader stage and variable-size primitive rendering.

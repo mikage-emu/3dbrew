@@ -1,3 +1,7 @@
++++
+title = 'HTTPC:OpenClientCertContext'
++++
+
 # Request
 
 | Index Word | Description                |

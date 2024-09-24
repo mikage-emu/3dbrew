@@ -1,3 +1,7 @@
++++
+title = 'APT:GetLockHandle'
++++
+
 # Request
 
 | Index Word | Description                |

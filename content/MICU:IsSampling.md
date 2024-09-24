@@ -1,3 +1,7 @@
++++
+title = 'MICU:IsSampling'
++++
+
 # Request
 
 | Index Word | Description                |

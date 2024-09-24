@@ -1,3 +1,8 @@
++++
+title = 'CSND Services'
+categories = ["Services"]
++++
+
 The CSND service talks to the DSP using the DSP FIFO to negotiate what
 CSND channels are allocated to the DSP, and this seems to be channels
 0-7 (usually). The rest are dedicated to CSND services.

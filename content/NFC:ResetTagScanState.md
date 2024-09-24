@@ -1,3 +1,7 @@
++++
+title = 'NFC:ResetTagScanState'
++++
+
 # Request
 
 | Index Word | Description                                       |

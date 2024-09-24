@@ -1,3 +1,7 @@
++++
+title = 'Services'
++++
+
 Services are an abstraction of ports and are the commonly used way of
 inter-process communication outside of the kernel. While handles of
 regular ports are retrieved from [svcConnectToPort](SVC "wikilink"),

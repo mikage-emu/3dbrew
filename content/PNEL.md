@@ -1,3 +1,7 @@
++++
+title = 'PNEL'
++++
+
 **PNEL** is a file format that is used by Puzzle Swap of [StreetPass Mii
 Plaza](StreetPass_Mii_Plaza "wikilink") for loading additional puzzles
 to the 7 default ones. PNEL probably stands for *Panel*.

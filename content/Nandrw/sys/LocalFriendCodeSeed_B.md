@@ -1,3 +1,7 @@
++++
+title = 'LocalFriendCodeSeed B'
++++
+
 # Format
 
 | Offset | Size  | Description                                                                                                                                                                     |

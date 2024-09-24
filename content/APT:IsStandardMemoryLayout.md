@@ -1,3 +1,7 @@
++++
+title = 'APT:IsStandardMemoryLayout'
++++
+
 # Request
 
 | Index Word | Description                |

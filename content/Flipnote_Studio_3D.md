@@ -1,3 +1,7 @@
++++
+title = 'Flipnote Studio 3D'
++++
+
 This is the 3DS version of the DSi Flipnote Studio application. At the
 time of writing this is only available in JPN, this 3DS application also
 ships with the launch JPN [New_3DS](New_3DS "wikilink").

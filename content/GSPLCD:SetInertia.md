@@ -1,3 +1,7 @@
++++
+title = 'GSPLCD:SetInertia'
++++
+
 # Request
 
 | Index Word | Description                            |

@@ -1,3 +1,7 @@
++++
+title = 'AM:DeleteDLCContents'
++++
+
 TID high value must be 0x0004008C, otherwise error 0xE0E0803C is
 returned.
 

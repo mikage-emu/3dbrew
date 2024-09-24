@@ -1,3 +1,7 @@
++++
+title = 'MCURTC:SetInfoLEDPatternHeader'
++++
+
 # Request
 
 | Index Word | Description                                                |

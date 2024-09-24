@@ -1,3 +1,7 @@
++++
+title = 'Config Savegame'
++++
+
 This page describes the format of the [Cfg](Config_Services "wikilink")
 [NAND](System_SaveData "wikilink") savegame. These blocks can be
 accessed with the Cfg service commands.

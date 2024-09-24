@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:GetPendingTitleInfo'
++++
+
 # Request
 
 | Index Word | Description                                           |

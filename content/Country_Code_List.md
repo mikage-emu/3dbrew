@@ -1,3 +1,7 @@
++++
+title = 'Country Code List'
++++
+
 | Index | Code | Country                          |
 |-------|------|----------------------------------|
 | 1     | JP   | Japan                            |

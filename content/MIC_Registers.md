@@ -1,3 +1,7 @@
++++
+title = 'MIC Registers'
++++
+
 ## Registers
 
 | NAME                                   | PHYSICAL ADDRESS | PROCESS VIRTUAL ADDRESS | WIDTH |

@@ -1,3 +1,7 @@
++++
+title = '3DS System Flaws'
++++
+
 Exploits are used to execute unofficial code (homebrew) on the Nintendo
 3DS. This page is a list of publicly known system flaws, for userland
 applications/applets flaws see [here](3DS_Userland_Flaws "wikilink").

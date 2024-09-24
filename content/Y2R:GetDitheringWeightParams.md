@@ -1,3 +1,7 @@
++++
+title = 'Y2R:GetDitheringWeightParams'
++++
+
 # Request
 
 | Index Word | Description                |

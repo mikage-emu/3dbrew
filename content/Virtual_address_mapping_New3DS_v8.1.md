@@ -1,3 +1,7 @@
++++
+title = 'Virtual Address Mapping New3DS V8.1'
++++
+
 `[L1 ] VA 1f300000..1f400000 -> PA 1f300000..1f400000 [  X ] [ Priv: RW, User: -- ]`
 `[L1 ] VA d8000000..d8600000 -> PA 18000000..18600000 [ XN ] [ Priv: RW, User: -- ]`
 `[L1 ] VA df000000..df400000 -> PA 1f000000..1f400000 [ XN ] [ Priv: RW, User: -- ]`

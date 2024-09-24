@@ -1,3 +1,7 @@
++++
+title = 'Y2R:GetInputFormat'
++++
+
 # Request
 
 | Index Word | Description                |

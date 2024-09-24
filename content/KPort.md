@@ -1,3 +1,8 @@
++++
+title = 'KPort'
+categories = ["Kernel auto objects"]
++++
+
 class [KPort](KPort "wikilink") extends
 [KAutoObject](KAutoObject "wikilink");
 

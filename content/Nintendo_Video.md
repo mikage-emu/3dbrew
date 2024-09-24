@@ -1,3 +1,7 @@
++++
+title = 'Nintendo Video'
++++
+
 **Nintendo Video** is a service allowing owners of American, Japanese,
 and European 3DS's to download and watch various videos offered by
 Nintendo. Nintendo Video uses SpotPass to download videos, even when the

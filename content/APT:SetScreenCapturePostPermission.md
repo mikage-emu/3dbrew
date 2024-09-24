@@ -1,3 +1,7 @@
++++
+title = 'APT:SetScreenCapturePostPermission'
++++
+
 # Request
 
 | Index Word | Description                                |

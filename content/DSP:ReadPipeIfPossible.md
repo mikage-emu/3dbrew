@@ -1,3 +1,7 @@
++++
+title = 'DSP:ReadPipeIfPossible'
++++
+
 # Request
 
 | Index Word | Description                                                           |

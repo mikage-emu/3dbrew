@@ -1,3 +1,7 @@
++++
+title = 'NEWSS:GetNotificationHeader'
++++
+
 # Request
 
 | Index Word | Description                |

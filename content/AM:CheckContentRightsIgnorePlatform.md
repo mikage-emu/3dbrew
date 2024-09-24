@@ -1,3 +1,7 @@
++++
+title = 'AM:CheckContentRightsIgnorePlatform'
++++
+
 # Request
 
 | Index Word | Description                |

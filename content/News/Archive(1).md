@@ -1,3 +1,7 @@
++++
+title = 'Archive(1)'
++++
+
 ---
 ---
 - **27 July 2021** Nintendo released system update

@@ -1,3 +1,7 @@
++++
+title = 'Y2R:GetSpacialDithering'
++++
+
 # Request
 
 | Index Word | Description                |

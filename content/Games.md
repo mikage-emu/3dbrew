@@ -1,3 +1,7 @@
++++
+title = 'Games'
++++
+
 This page lists off many 3DS games and info about them, as well info
 about the product code and serial format. If the list is missing a game,
 and you have info about it, feel free to add it to the list.

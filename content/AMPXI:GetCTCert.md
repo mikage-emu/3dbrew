@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:GetCTCert'
++++
+
 # Request
 
 | Index Word | Description                |

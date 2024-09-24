@@ -1,3 +1,8 @@
++++
+title = 'ARC'
+categories = ["File formats"]
++++
+
 This page documents the format of ARC.
 
 ## Overview

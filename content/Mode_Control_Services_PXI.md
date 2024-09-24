@@ -1,3 +1,7 @@
++++
+title = 'Mode Control Services PXI'
++++
+
 # "pxi:mc" service
 
 | Command Header | Available since system version | Description                                                                                                                                                                                                                                                                                                                                                                                         |

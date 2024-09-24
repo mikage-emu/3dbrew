@@ -1,3 +1,7 @@
++++
+title = 'APT:CountRegisteredApplet'
++++
+
 # Request
 
 | Index Word | Description                |

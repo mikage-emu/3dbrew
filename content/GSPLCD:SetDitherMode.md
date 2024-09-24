@@ -1,3 +1,7 @@
++++
+title = 'GSPLCD:SetDitherMode'
++++
+
 # Request
 
 | Index Word | Description                            |

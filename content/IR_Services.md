@@ -1,3 +1,8 @@
++++
+title = 'IR Services'
+categories = ["Services"]
++++
+
 # IR Service "ir:u"
 
 | Command Header | Available since system version | Description                                                 |

@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:ReadDirectory'
++++
+
 # Request
 
 | Index Word | Description                                                           |

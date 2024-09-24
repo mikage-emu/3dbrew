@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:IsImportDatabaseInitialized'
++++
+
 # Request
 
 | Index Word | Description                                            |

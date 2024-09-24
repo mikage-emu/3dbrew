@@ -1,3 +1,7 @@
++++
+title = 'DSaveManager'
++++
+
 **DSaveManager** can be used to transfer savefiles from DS/3DS games via
 wlan to a PC.
 

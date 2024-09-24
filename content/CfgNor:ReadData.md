@@ -1,3 +1,7 @@
++++
+title = 'CfgNor:ReadData'
++++
+
 # Request
 
 | Index Word | Description                |

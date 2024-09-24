@@ -1,3 +1,7 @@
++++
+title = 'Ninjhax'
++++
+
 ninjhax is an exploit by smea for the game Cubic Ninja. It was released
 on November 20th, 2014. It can be used on all 3DS firmware versions from
 4.0 up to and including 9.2.0-20. It was partially patched in

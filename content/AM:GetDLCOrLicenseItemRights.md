@@ -1,3 +1,7 @@
++++
+title = 'AM:GetDLCOrLicenseItemRights'
++++
+
 TID high value must be 0x0004008C (DLC) or 0x0004000D (License),
 otherwise 0xE0E0803C is returned.
 

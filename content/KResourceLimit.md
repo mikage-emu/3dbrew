@@ -1,3 +1,8 @@
++++
+title = 'KResourceLimit'
+categories = ["Kernel auto objects"]
++++
+
 class [KResourceLimit](KResourceLimit "wikilink") extends
 [KAutoObject](KAutoObject "wikilink");
 

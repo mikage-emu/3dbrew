@@ -1,3 +1,7 @@
++++
+title = 'CfgNor:ReadDataOther'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

@@ -1,3 +1,7 @@
++++
+title = 'GSPGPU:GetPerfLog'
++++
+
 # Request
 
 | Index Word | Description                |

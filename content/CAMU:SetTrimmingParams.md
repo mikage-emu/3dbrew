@@ -1,3 +1,7 @@
++++
+title = 'CAMU:SetTrimmingParams'
++++
+
 # Request
 
 | Index Word | Description                             |

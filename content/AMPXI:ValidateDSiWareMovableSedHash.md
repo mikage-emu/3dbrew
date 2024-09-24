@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:ValidateDSiWareMovableSedHash'
++++
+
 # Request
 
 | Index Word | Description                |

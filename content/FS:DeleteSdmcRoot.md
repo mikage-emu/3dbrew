@@ -1,3 +1,7 @@
++++
+title = 'FS:DeleteSdmcRoot'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'NFC:StopCommunication'
++++
+
 # Request
 
 | Index Word | Description                                       |

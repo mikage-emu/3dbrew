@@ -1,3 +1,7 @@
++++
+title = 'CECDU:GetSystemInfo'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

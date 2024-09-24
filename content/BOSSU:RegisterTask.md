@@ -1,3 +1,7 @@
++++
+title = 'BOSSU:RegisterTask'
++++
+
 # Request
 
 | Index Word | Description                                                   |

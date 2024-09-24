@@ -1,3 +1,7 @@
++++
+title = 'CDCCHK:ReadSPI'
++++
+
 # Request
 
 | Index Word | Description                                     |

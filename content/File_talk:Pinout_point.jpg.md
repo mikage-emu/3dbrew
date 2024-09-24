@@ -1,3 +1,7 @@
++++
+title = 'File Talk:Pinout Point.jpg'
++++
+
 Without the description of these numbers the photo is useless, please
 add them!--[Lazymarek9614](User:Lazymarek9614 "wikilink") 17:36, 19
 March 2012 (CET)

@@ -1,3 +1,8 @@
++++
+title = 'KEvent'
+categories = ["Kernel synchronization objects","Kernel interrupt events"]
++++
+
 class [KEvent](KEvent "wikilink") extends
 [KSynchronizationObject](KSynchronizationObject "wikilink") and
 [KUserBindableInterruptEvent](KUserBindableInterruptEvent "wikilink");

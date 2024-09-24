@@ -1,3 +1,7 @@
++++
+title = '3dbrew:About'
++++
+
 3DBrew is a wiki for the discussion and research of homebrew for the
 Nintendo 3DS.
 

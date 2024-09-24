@@ -1,3 +1,7 @@
++++
+title = 'GSPGPU:SetAxiConfigQoSMode'
++++
+
 # Request
 
 | Index Word | Description                |

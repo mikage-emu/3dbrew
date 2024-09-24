@@ -1,3 +1,7 @@
++++
+title = 'MCURTC:PublishNotifications'
++++
+
 # Request
 
 | Index Word | Description                                            |

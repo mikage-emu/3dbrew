@@ -1,3 +1,7 @@
++++
+title = 'FS:StartDeviceMoveAsDestination'
++++
+
 # Request
 
 | Index Word | Description                                                             |

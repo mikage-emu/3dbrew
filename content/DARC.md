@@ -1,3 +1,8 @@
++++
+title = 'DARC'
+categories = ["File formats"]
++++
+
 This page documents the format of DARC.
 
 ## Overview

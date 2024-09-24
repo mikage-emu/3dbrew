@@ -1,3 +1,7 @@
++++
+title = 'CSND:Initialize'
++++
+
 # Request
 
 | Index Word | Description                                                                                                                           |

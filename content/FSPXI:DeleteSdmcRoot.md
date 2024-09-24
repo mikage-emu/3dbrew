@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:DeleteSdmcRoot'
++++
+
 # Request
 
 | Index Word | Description                |

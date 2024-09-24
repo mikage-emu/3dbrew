@@ -1,3 +1,7 @@
++++
+title = 'Update Data'
++++
+
 This page lists what titles were updated with system updates. Most of
 the below is straight from the wiki tables generated
 [here](http://yls8.mtheall.com/ninupdates/reports.php)(see that site for

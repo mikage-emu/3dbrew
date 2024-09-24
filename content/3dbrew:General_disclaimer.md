@@ -1,3 +1,7 @@
++++
+title = '3dbrew:General Disclaimer'
++++
+
 3DBrew does not condone or absolve any illegal conduct relating to
 Nintendo or other major companies.
 

@@ -1,3 +1,7 @@
++++
+title = 'System SaveData'
++++
+
 Savegames stored in NAND are located at
 [nand:/data/<ID0>/sysdata/<SaveID-Low>/<SaveID-High>](Flash_Filesystem "wikilink"),
 where SaveID-High is the filename. SaveID-High is normally 00000000.

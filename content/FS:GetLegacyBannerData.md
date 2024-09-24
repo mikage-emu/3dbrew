@@ -1,3 +1,7 @@
++++
+title = 'FS:GetLegacyBannerData'
++++
+
 # Request
 
 | Index Word | Description                                            |

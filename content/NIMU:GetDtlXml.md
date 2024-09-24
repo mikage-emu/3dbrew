@@ -1,3 +1,7 @@
++++
+title = 'NIMU:GetDtlXml'
++++
+
 # Request
 
 | Index Word | Description                                      |

@@ -1,3 +1,7 @@
++++
+title = 'APT:CloseSystemApplet'
++++
+
 # Request
 
 | Index Word | Description                    |

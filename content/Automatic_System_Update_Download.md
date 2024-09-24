@@ -1,3 +1,7 @@
++++
+title = 'Automatic System Update Download'
++++
+
 Beginning with the [2.0.0-2](2.0.0-2 "wikilink") update, system updates
 are automatically downloaded via the [NIM](NIM_Services "wikilink")
 module. The system only downloads updates, Home Menu will only

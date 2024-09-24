@@ -1,3 +1,7 @@
++++
+title = 'NDMU:GetTargetState'
++++
+
 # Request
 
 | Index Word | Description                |

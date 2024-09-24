@@ -1,3 +1,7 @@
++++
+title = 'SSLC:SeedRNG'
++++
+
 # Request
 
 | Index Word | Description                |

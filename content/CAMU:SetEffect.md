@@ -1,3 +1,7 @@
++++
+title = 'CAMU:SetEffect'
++++
+
 # Request
 
 | Index Word | Description                                             |

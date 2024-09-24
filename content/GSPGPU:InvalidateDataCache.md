@@ -1,3 +1,7 @@
++++
+title = 'GSPGPU:InvalidateDataCache'
++++
+
 # Request
 
 | Index Word | Description                            |

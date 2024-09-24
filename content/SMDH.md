@@ -1,3 +1,7 @@
++++
+title = 'SMDH'
++++
+
 This page describes the format of the icon stored at
 [CXI](NCCH#CXI "wikilink") ExeFS:/icon and [CIA](CIA "wikilink") icons.
 The size of icons are 0x36c0 bytes. The CXI icon is displayed by [Home

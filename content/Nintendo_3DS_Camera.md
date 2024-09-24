@@ -1,3 +1,7 @@
++++
+title = 'Nintendo 3DS Camera'
++++
+
 ## Overview
 
 ![](Nintendo_3DS_Camera_scnshot.png "Nintendo_3DS_Camera_scnshot.png")

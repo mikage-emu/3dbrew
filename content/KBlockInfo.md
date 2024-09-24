@@ -1,3 +1,8 @@
++++
+title = 'KBlockInfo'
+categories = ["Kernel objects"]
++++
+
 Size : 0x8 bytes
 
 | Offset | Type | Description                                                          |

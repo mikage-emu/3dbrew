@@ -1,3 +1,7 @@
++++
+title = 'AM:GetDLCTitleInfos'
++++
+
 Iterates through a list of TIDs to return [Title
 Infos](Application_Manager_Services#TitleInfo "wikilink"). One pass over
 the TID list is done initially to validate that all TID high values are

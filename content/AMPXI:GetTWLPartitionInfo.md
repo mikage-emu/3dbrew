@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:GetTWLPartitionInfo'
++++
+
 # Request
 
 | Index Word | Description                |

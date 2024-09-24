@@ -1,3 +1,7 @@
++++
+title = 'NWMINF:ConnectToAP'
++++
+
 # Request
 
 | Index Word | Description                                                                            |

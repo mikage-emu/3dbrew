@@ -1,3 +1,7 @@
++++
+title = 'Decaf Fundraiser'
++++
+
 (April Fools)
 
 There has been alot of tinkering with the 3DS since launch, and although

@@ -1,3 +1,7 @@
++++
+title = 'ACI:InitializeNetworkSetting'
++++
+
 # Request
 
 | Index Word | Description                |

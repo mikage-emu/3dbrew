@@ -1,3 +1,7 @@
++++
+title = 'BOSS Savegame'
++++
+
 This page describes the content of the [BOSS](SpotPass "wikilink")
 sysmodule savegame.
 

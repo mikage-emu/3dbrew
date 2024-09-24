@@ -1,3 +1,8 @@
++++
+title = 'StreetPass'
+categories = ["Nintendo Software"]
++++
+
 **StreetPass** is a feature that allows your 3DS to connect with other
 3DS consoles using WiFi in standby mode. It can be used to share Mii(s)
 on Mii Plaza for example. Applications' StreetPass data are stored in

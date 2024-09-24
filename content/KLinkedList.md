@@ -1,3 +1,8 @@
++++
+title = 'KLinkedList'
+categories = ["Kernel objects"]
++++
+
 Size : 0xC bytes
 
 | Offset | Type                |                                                 |

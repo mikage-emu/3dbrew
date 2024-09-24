@@ -1,3 +1,7 @@
++++
+title = 'Y2R:SetReceiving'
++++
+
 # Request
 
 | Index Word | Description                                     |

@@ -1,3 +1,7 @@
++++
+title = 'NTRCARD Registers'
++++
+
 ## Registers
 
 These registers are similar to the old NDS Cartridge registers, check

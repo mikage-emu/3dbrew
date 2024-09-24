@@ -1,3 +1,7 @@
++++
+title = 'GSPLCD:SetDitherParams'
++++
+
 # Request
 
 | Index Word | Description                            |

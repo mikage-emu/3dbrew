@@ -1,3 +1,8 @@
++++
+title = 'Internal Registers'
+categories = ["GPU"]
++++
+
 ## Overview
 
 GPU internal registers are written to through GPU commands. They are

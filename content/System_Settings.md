@@ -1,3 +1,7 @@
++++
+title = 'System Settings'
++++
+
 **System Settings** allows you to manage various settings, use [System
 Transfer](System_Transfer "wikilink"), and use Data Management.
 

@@ -1,3 +1,7 @@
++++
+title = 'GSP Shared Memory'
++++
+
 This page describes the structure of the GSP
 [shared](GSPGPU:RegisterInterruptRelayQueue "wikilink") memory.
 Interrupt, framebuffer, and GX command data is stored here.

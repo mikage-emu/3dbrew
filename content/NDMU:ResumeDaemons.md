@@ -1,3 +1,7 @@
++++
+title = 'NDMU:ResumeDaemons'
++++
+
 # Request
 
 | Index Word | Description                                                           |

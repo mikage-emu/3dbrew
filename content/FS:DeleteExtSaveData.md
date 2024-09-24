@@ -1,3 +1,7 @@
++++
+title = 'FS:DeleteExtSaveData'
++++
+
 # Request
 
 | Index Word | Description                                                       |

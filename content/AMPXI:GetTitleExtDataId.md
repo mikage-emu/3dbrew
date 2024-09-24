@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:GetTitleExtDataId'
++++
+
 # Request
 
 | Index Word | Description                                           |

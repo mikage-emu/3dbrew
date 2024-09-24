@@ -1,3 +1,7 @@
++++
+title = 'CfgS:SetConfigInfoBlk4'
++++
+
 # Request
 
 | Index Word | Description                                                   |

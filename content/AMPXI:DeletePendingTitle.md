@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:DeletePendingTitle'
++++
+
 # Request
 
 | Index Word | Description                                           |

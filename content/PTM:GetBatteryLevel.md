@@ -1,3 +1,7 @@
++++
+title = 'PTM:GetBatteryLevel'
++++
+
 # Request
 
 | Index Word | Description                |

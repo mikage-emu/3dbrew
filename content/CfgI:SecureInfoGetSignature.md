@@ -1,3 +1,7 @@
++++
+title = 'CfgI:SecureInfoGetSignature'
++++
+
 # Request
 
 | Index Word | Description                                                                                                                               |

@@ -1,3 +1,7 @@
++++
+title = 'NDMU:EnterExclusiveState'
++++
+
 # Request
 
 | Index Word | Description                                                      |

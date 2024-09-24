@@ -1,3 +1,7 @@
++++
+title = 'HTTPC:GetResponseData'
++++
+
 # Request
 
 | Index Word | Description                |

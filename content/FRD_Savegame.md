@@ -1,3 +1,7 @@
++++
+title = 'FRD Savegame'
++++
+
 This page describes the contents of the
 [friend](Friend_Services "wikilink") sysmodule savegame. Except for the
 config file, all of the data is stored inside a folder that represents

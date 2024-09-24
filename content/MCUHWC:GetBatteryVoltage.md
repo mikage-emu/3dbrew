@@ -1,3 +1,7 @@
++++
+title = 'MCUHWC:GetBatteryVoltage'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

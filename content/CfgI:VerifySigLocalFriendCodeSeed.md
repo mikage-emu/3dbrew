@@ -1,3 +1,7 @@
++++
+title = 'CfgI:VerifySigLocalFriendCodeSeed'
++++
+
 # Request
 
 | Index Word | Description                |

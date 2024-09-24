@@ -1,3 +1,7 @@
++++
+title = 'Error Codes'
++++
+
 All system error codes follow a shared format.
 
 | Bits  | Description |

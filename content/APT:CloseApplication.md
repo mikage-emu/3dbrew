@@ -1,3 +1,7 @@
++++
+title = 'APT:CloseApplication'
++++
+
 # Request
 
 | Index Word | Description                    |

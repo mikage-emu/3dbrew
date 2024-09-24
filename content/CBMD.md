@@ -1,3 +1,8 @@
++++
+title = 'CBMD'
+categories = ["File formats"]
++++
+
 **CBMD - CTR Banner Model Data**
 
 This page describes the format used for banners' models. These are

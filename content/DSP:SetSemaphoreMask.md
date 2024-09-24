@@ -1,3 +1,7 @@
++++
+title = 'DSP:SetSemaphoreMask'
++++
+
 # Request
 
 | Index Word | Description                |

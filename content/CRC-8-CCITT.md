@@ -1,3 +1,7 @@
++++
+title = 'CRC 8 CCITT'
++++
+
 CRC-8-CCITT is a fast error detection algorithm. It's a standard CRC-8,
 with polynomial x⁸+x²+x+1. See the [Wikipedia article on
 CRC](http://en.wikipedia.org/wiki/Cyclic_redundancy_check) for more

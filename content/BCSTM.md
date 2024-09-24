@@ -1,3 +1,8 @@
++++
+title = 'BCSTM'
+categories = ["File formats"]
++++
+
 This document is about the format of CTR Streams (CSTM).
 
 ### Overview

@@ -1,3 +1,7 @@
++++
+title = 'MSBT'
++++
+
 Nintendo Badge Arcade uses `MSBT` files for Badge Bunny's dialog and
 animations
 

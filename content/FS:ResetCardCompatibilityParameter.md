@@ -1,3 +1,7 @@
++++
+title = 'FS:ResetCardCompatibilityParameter'
++++
+
 # Request
 
 | Index Word | Description                |

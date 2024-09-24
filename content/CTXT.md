@@ -1,3 +1,7 @@
++++
+title = 'CTXT'
++++
+
 This page describes the structure of the .ctx files located at
 [nand:/title/<titlepath>/00000000.ctx](Title_Data_Structure "wikilink").
 

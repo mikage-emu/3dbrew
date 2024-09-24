@@ -1,3 +1,7 @@
++++
+title = 'NIMU:IsRegistered'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'NIMS:CheckSysupdateAvailableSOAP'
++++
+
 # Request
 
 | Index Word | Description                |

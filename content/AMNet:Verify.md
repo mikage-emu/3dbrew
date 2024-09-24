@@ -1,3 +1,7 @@
++++
+title = 'AMNet:Verify'
++++
+
 # Request
 
 | Index Word | Description                |

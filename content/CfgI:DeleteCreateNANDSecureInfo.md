@@ -1,3 +1,7 @@
++++
+title = 'CfgI:DeleteCreateNANDSecureInfo'
++++
+
 # Request
 
 | Index Word | Description                |

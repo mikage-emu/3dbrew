@@ -1,3 +1,7 @@
++++
+title = 'ExeFS'
++++
+
 ExeFS or Executable Filesystem contains information related to the
 executable program, and is the part of the [CXI](NCCH#CXI "wikilink")
 format.

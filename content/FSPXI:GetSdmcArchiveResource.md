@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:GetSdmcArchiveResource'
++++
+
 # Request
 
 | Index Word | Description                |

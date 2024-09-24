@@ -1,3 +1,7 @@
++++
+title = 'NWMUDS:GetChannel'
++++
+
 # Request
 
 | Index Word | Description                |

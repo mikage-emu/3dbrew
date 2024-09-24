@@ -1,3 +1,7 @@
++++
+title = 'Gamecards'
++++
+
 ![](Gamecard.jpg "Gamecard.jpg") ![](GamecardPhy.jpg "GamecardPhy.jpg")
 
 ### Physical interface

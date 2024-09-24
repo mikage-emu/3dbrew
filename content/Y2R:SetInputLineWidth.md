@@ -1,3 +1,7 @@
++++
+title = 'Y2R:SetInputLineWidth'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'File:ACToR.png'
++++
+
 Showing off BCSAR reading/extraction program, ACToR (Audio CTR). The
 program itself isn't released but I thought I'd show it off a little
 since I've been adding a lot of information to the BCSAR page here. I

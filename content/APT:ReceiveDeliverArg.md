@@ -1,3 +1,7 @@
++++
+title = 'APT:ReceiveDeliverArg'
++++
+
 # Request
 
 | Index Word | Description                      |

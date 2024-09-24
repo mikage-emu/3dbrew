@@ -1,3 +1,7 @@
++++
+title = 'PTMSYSM:SetInfoLEDPattern'
++++
+
 # Request
 
 | Index Word | Description                                                                                     |

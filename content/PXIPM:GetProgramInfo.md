@@ -1,3 +1,7 @@
++++
+title = 'PXIPM:GetProgramInfo'
++++
+
 # Request
 
 | Index Word | Description                   |

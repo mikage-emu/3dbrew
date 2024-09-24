@@ -1,5 +1,5 @@
 {{- if (not (or (strings.HasPrefix .Destination "http") (strings.HasPrefix .Destination "#"))) }}
-  <a href="/3dbrew/{{ .Destination }}"
+  <a href="/3dbrew/{{ strings.Replace .Destination ":" "" }}"
     {{- with .Title }} title="{{ . }}"{{ end -}}
   >
     {{- with .Text }}{{ . }}{{ end -}}

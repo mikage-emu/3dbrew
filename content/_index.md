@@ -1,5 +1,5 @@
 +++
-title = ''
+title = 'Main Page'
 +++
 
 {{< Main/Welcome >}}

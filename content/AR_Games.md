@@ -1,6 +1,6 @@
 +++
 title = 'AR Games'
-categories = ["Nintendo Software","Playcoin Software"]
+categories = ["Nintendo Software"]
 +++
 
 AR Games is one of the stock applications on retail units.

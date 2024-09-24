@@ -502,7 +502,7 @@ likewise only used if bit 3 is set, and ignored otherwise.
 | 4     | Not writable                                                                                                                                                              |
 | 5     | Don't perform tiled-linear conversion. Incompatible with bit 1, so only tiled-tiled transfers can be done, not linear-linear.                                             |
 | 7-6   | Not writable                                                                                                                                                              |
-| 10-8  | Input framebuffer color format, value0 and value1 are the same as the [LCD Source Framebuffer Formats](GPU_Registers#Framebuffer_color_formats "wikilink") (usually zero) |
+| 10-8  | Input framebuffer color format, value0 and value1 are the same as the [LCD Source Framebuffer Formats](categories/GPU#Framebuffer_color_formats "wikilink") (usually zero) |
 | 11    | Not writable                                                                                                                                                              |
 | 14-12 | Output framebuffer color format                                                                                                                                           |
 | 15    | Not writable                                                                                                                                                              |

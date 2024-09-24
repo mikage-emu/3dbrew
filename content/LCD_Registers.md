@@ -2,8 +2,7 @@
 title = 'LCD Registers'
 +++
 
-Other registers that used to be documented on this page are now at [GPU
-Registers](GPU_Registers "wikilink").
+Other registers that used to be documented on this page are now at [GPU](categories/GPU "wikilink").
 
 # Registers
 

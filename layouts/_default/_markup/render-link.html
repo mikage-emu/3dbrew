@@ -12,13 +12,10 @@
     style={{ $style }}
   >
     {{- with .Text }}{{ . }}{{ end -}}
-  </a>
-{{ else }}
-  <a href="{{ .Destination | safeURL }}"
+  </a>{{ else }}<a href="{{ .Destination | safeURL }}"
     {{- with .Title }} title="{{ . }}"{{ end -}}
     {{- if (strings.HasPrefix .Destination "http") }} target="_blank" rel="external"{{ end -}}
   >
     {{ if $isExternal }}🔗&nbsp;{{ end }}
     {{- with .Text }}{{ . }}{{ end -}}
-  </a>
-{{ end -}}
+  </a>{{ end -}}

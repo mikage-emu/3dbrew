@@ -47,3 +47,32 @@ The charts submode allows you to sort the data using any of the
 previously mentioned statistics.
 
 [Category:Nintendo Software](Category:Nintendo_Software "wikilink")
+
+## Title name "????????"
+
+This appears in the play log when Nintendo wants to
+[hide](SMDH "wikilink") usage of an application. This is seen when some
+[Developer Applications](3DS_Development_Unit_Software "wikilink") are
+run as well as when [Nintendo Service Center
+Tools](Nintendo_Service_Center_Tools "wikilink") are run. When an
+application's usage is hidden like this, it also affects the 'Friends
+List' app. When using a 'masked' application the Friends List will not
+show it in the list of applications to pick as "Favourite Title", nor
+will it show up on the 3DS's friend card if the user is using the
+application (The user appears to be running no application).
+
+This "icon" is used whenever there's a title in the playlog where the
+title isn't found in the icon [cache](Home_Menu "wikilink")(as mentioned
+[here](SMDH "wikilink")), which can be caused by the title not being
+launched by Home Menu. For example, the Download Play application will
+be listed like this when it was only ever run by \*hax payload without
+launching from Home Menu. The SMDH icon flag for this appears to only
+affect icon cache storage, [PTM](PTM_Services "wikilink") playlog is
+unaffected.
+
+<figure>
+<img src="Activity_Log_-_Invisable_App.png"
+title="File:Activity_Log_-_Invisable_App.png" />
+<figcaption><a
+href="File:Activity_Log_-_Invisable_App.png">File:Activity_Log_-_Invisable_App.png</a></figcaption>
+</figure>

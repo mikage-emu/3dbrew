@@ -1,0 +1,47 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <siteinfo>
+    <sitename>3dbrew</sitename>
+    <dbname>3dbrew</dbname>
+    <base>https://www.3dbrew.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.8</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">3dbrew</namespace>
+      <namespace key="5" case="first-letter">3dbrew talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>File:3ds devmenulower.jpg</title>
+    <ns>6</ns>
+    <id>203</id>
+    <revision>
+      <id>1396</id>
+      <timestamp>2011-10-16T13:00:31Z</timestamp>
+      <contributor>
+        <username>3dsguy</username>
+        <id>191</id>
+      </contributor>
+      <comment>An example of the 3DS Dev Menu</comment>
+      <origin>1396</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="30" sha1="1s2gel4mczhrto74t1v0bn7xgcp3e8b" xml:space="preserve">An example of the 3DS Dev Menu</text>
+    </revision>
+  </page>
+</mediawiki>

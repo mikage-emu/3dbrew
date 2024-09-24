@@ -153,8 +153,8 @@ are:
 |            |                                     |                                     |
 |------------|-------------------------------------|-------------------------------------|
 |            | [NAND](Flash_Filesystem "wikilink") | [SD](SD_Filesystem "wikilink")      |
-| Title Data | nand/title                          | sdmc/Nintendo 3DS/<ID0>/<ID1>/title |
-| Save Data  | nand/data/<ID0>/sysdata             |                                     |
+| Title Data | nand/title                          | sdmc/Nintendo 3DS/&lt;ID0&gt;/&lt;ID1&gt;/title |
+| Save Data  | nand/data/&lt;ID0&gt;/sysdata             |                                     |
 |            |                                     |                                     |
 
 ID0 is the first 0x10-bytes from a SHA256
@@ -186,68 +186,69 @@ stored in a different way):
 <thead>
 <tr class="header">
 <th></th>
-<th scope="col"><p>NAND</p></th>
-<th scope="col"><p>SD (non-DLC)</p></th>
-<th scope="col"><p>SD (DLC)</p></th>
+<th scope="col">NAND</th>
+<th scope="col">SD (non-DLC)</th>
+<th scope="col">SD (DLC)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td scope="row"><p>Title Data:</p></td>
-<td><Title ID High>
-<p><code>└── </code></p>
-<Title ID Low>
-<p><code>    ├── 00000000.ctx</code><br />
-<code>    └── content</code><br />
-<code>        ├── </code><ContentID><code>.app</code><br />
-<code>        ├── </code><ContentID><code>.tmd</code><br />
-<code>        └── cmd</code><br />
-<code>            └── </code><ContentID><code>.cmd</code></p></td>
-<td rowspan="2"><Title ID High>
-<p><code>└── </code></p>
-<Title ID Low>
-<p><code>    ├── 00000000.ctx</code><br />
-<code>    ├── content</code><br />
-<code>    │   ├── </code><ContentID><code>.app</code><br />
-<code>    │   ├── </code><ContentID><code>.tmd</code><br />
-<code>    │   └── cmd</code><br />
-<code>    │       └── </code><ContentID><code>.cmd</code><br />
-<code>    └── data</code><br />
-<code>        └── 00000001.sav</code></p></td>
-<td rowspan="2"><p><code>0004008C</code><br />
-<code>└── </code></p>
-<Title ID Low>
-<p><code>    ├── 00000000.ctx</code><br />
-<code>    └── content</code><br />
-<code>        ├── </code><ContentID><code>.tmd</code><br />
-<code>        ├── </code><IndexSeparator><br />
-<code>        │   └── </code><ContentID><code>.app</code><br />
-<code>        └── cmd</code><br />
-<code>            └── </code><ContentID><code>.cmd</code></p></td>
+<td scope="row">Title Data:</td>
+<td><pre>&lt;Title ID High&gt;
+└── &lt;Title ID Low&gt;
+    ├── 00000000.ctx
+    └── content
+        ├── &lt;ContentID&gt;.app
+        ├── &lt;ContentID&gt;.tmd
+        └── cmd
+            └── &lt;ContentID&gt;.cmd
+</pre>
+</td>
+<td rowspan="2"><pre>&lt;Title ID High&gt;
+└──
+&lt;Title ID Low&gt;
+    ├── 00000000.ctx
+    ├── content
+    │   ├── &lt;ContentID&gt;.app
+    │   ├── &lt;ContentID&gt;.tmd
+    │   └── cmd
+    │       └── &lt;ContentID&gt;.cmd
+    └── data
+        └── 00000001.sav</pre></td>
+<td rowspan="2"><pre>0004008C
+└──
+&lt;Title ID Low&gt;
+    ├── 00000000.ctx
+    └── content
+        ├── &lt;ContentID>.tmd
+        ├── &lt;IndexSeparator&gt;
+        │   └── &lt;ContentID&gt;.app
+        └── cmd
+            └── &lt;ContentID&gt;.cmd</pre></td>
 </tr>
 <tr class="even">
-<td scope="row"><p>Save Data:</p></td>
-<td><p><SaveID0><br />
-<code>└── </code><SaveID1><br />
-<code>    └── 00000001.sav</code></p></td>
+<td scope="row">Save Data:</td>
+<td><pre>&lt;SaveID0&gt;
+└── &lt;SaveID1&gt;
+    └── 00000001.sav</pre></td>
 </tr>
 </tbody>
 </table>
 
-"**<ContentID>.tmd**" - (The Content ID is a u32, initially:
+"**&lt;ContentID&gt;.tmd**" - (The Content ID is a u32, initially:
 **00000000** when the title is first installed. Changing by an increment
 of +**0x1** for each title update the 3DS installs) This is the [Title
 metadata](Title_metadata "wikilink") associated with the title. The
 decrypted TMD is available on Nintendo's CDN server at
-"<http://nus.cdn.c.shop.nintendowifi.net/ccs/download/TitleIDhere/tmd.OptionallyTitleVersionHere>".
+`http://nus.cdn.c.shop.nintendowifi.net/ccs/download/TitleIDhere/tmd.OptionallyTitleVersionHere`.
 Though CDN version of the title TMD has a certificate chain attached at
 the end of the TMD, so removing it will give you the 1:1 decrypted TMD.
-After installation the "<ContentID>.tmd" is redundant, because important
+After installation the "&lt;ContentID&gt;.tmd" is redundant, because important
 title data is extracted and imported into the
 [title.db](Title_Database "wikilink") and ".cmd" files, but is however
 kept as a reference.
 
-"**<ContentID>.app**" - (The Content ID is a u32, taken from the title's
+"**&lt;ContentID&gt;.app**" - (The Content ID is a u32, taken from the title's
 [TMD](TMD "wikilink")) These files are [NCCH](NCCH "wikilink") files.
 There can be more than one NCCH in this directory, as seen with
 .[CCI](CCI "wikilink") files, the game executable
@@ -277,7 +278,7 @@ the application to not load, and the 3D Banner does not show(The banner
 is loaded each time from the game's executable NCCH when the home menu
 loads, it is not cached like the icon and name).
 
-"**<ContentID>.cmd**" - (The Content ID is a u32, initially:
+"**&lt;ContentID&gt;.cmd**" - (The Content ID is a u32, initially:
 **00000001** when the title is first installed. Changing by an increment
 of +**0x1** for each time the 3DS adds/removes '.app' files) This file
 contains data taken from the title's [TMD](TMD "wikilink"). See the
@@ -343,17 +344,17 @@ installed. DLC titles can receive 'updates', this is usually in the form
 of more DLC content and/or DLC bug fixes. Individual DLC content can
 only be managed from with-in the application using the DLC.
 
-**"<IndexSeparator>"** - DLC [NCCH](NCCH "wikilink") contents are split
+**"&lt;IndexSeparator&gt;"** - DLC [NCCH](NCCH "wikilink") contents are split
 across different directories, depending on the Content Index. Starting
 with 00000000, there is a directory for every 256 contents. All the
 directories are created upon install, which means some may be empty if
 the contents within its index range are not installed.
 
-"**<ContentID>.tmd**" - This is not modified by the 3DS, and contains
+"**&lt;ContentID&gt;.tmd**" - This is not modified by the 3DS, and contains
 the details for all DLC content(installed or not).
 
-"**<ContentID>.cmd**" - This contains entries for all **installed** DLC
-[NCCH](NCCH "wikilink") content, and is updated (<ContentID> will
+"**&lt;ContentID&gt;.cmd**" - This contains entries for all **installed** DLC
+[NCCH](NCCH "wikilink") content, and is updated (&lt;ContentID&gt; will
 change) every time DLC content is installed/removed.
 
 # Installing other-model system-titles

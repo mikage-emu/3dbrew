@@ -25,9 +25,9 @@ downloaded.(This only disables downloading of free titles via SpotPass)
 
 In some cases the BOSS module will add the following URL parameter to
 HTTPS requests, when connected to a [Nintendo
-Zone](Nintendo_Zone "wikilink") AP: "ap=<NZoneApNum>" or when using a
+Zone](Nintendo_Zone "wikilink") AP: `ap=<NZoneApNum>` or when using a
 specific [system model](Cfg:GetSystemModel "wikilink"):
-"tm=<SystemModelNumber>". The Old 3DS and Old 3DS XL don't set this
+`tm=<SystemModelNumber>`. The Old 3DS and Old 3DS XL don't set this
 value.
 
 ## policylist
@@ -35,7 +35,7 @@ value.
 Every time the system connects to the wifi AP, the BOSS ("Background
 online storage service" = SpotPass) module itself will download the
 cleartext xml policylist:
-"<https://nppl.c.app.nintendowifi.net/p01/policylist/3/><countrycode>".
+`https://nppl.c.app.nintendowifi.net/p01/policylist/3/<countrycode>`.
 This policylist contains a list of SpotPass tasks for certain titles.
 This policylist can control whether the specified tasks are processed at
 all.
@@ -51,7 +51,7 @@ blocked for いつの間にテレビ (`0004000000034700`).
 The default user-agent used for SpotPass HTTPS requests (including the
 policylist) has the following format:
 
-<user agent codename>`-`<user agent version>`/<printed hex u64 `[`LocalFriendCodeSeed`](CfgS:GetLocalFriendCodeSeed "wikilink")`>-<printed hex u64 `[`Friend`](FRDU:GetMyFriendKey "wikilink")` `[`Code`](FRDU:PrincipalIdToFriendCode "wikilink")`>/<text `[`system`](CVer "wikilink")` `[`version`](NVer "wikilink")`>/`<CTRSDK version of sysmodule>`/<`[`system model number`](Cfg:GetSystemModel "wikilink")`>`
+&lt;user agent codename>-&lt;user agent version&gt;/&lt;printed hex u64 [LocalFriendCodeSeed](CfgS:GetLocalFriendCodeSeed "wikilink")&gt;-&lt;printed hex u64 [Friend](FRDU:GetMyFriendKey "wikilink") [Code](FRDU:PrincipalIdToFriendCode "wikilink")&gt;/&lt;text [system](CVer "wikilink") [version](NVer "wikilink")&gt;/&lt;CTRSDK version of sysmodule&gt;/&lt;[system model number](Cfg:GetSystemModel "wikilink")&gt;
 
 The codename can be set to either `PBOS` (Production BOSS?) or `DBOS`
 (Development BOSS?) depending if the console is a

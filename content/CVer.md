@@ -24,7 +24,7 @@ This file was removed from the CDN CVer RomFS, starting with
 This 8-byte file contains most of the data used for displaying the
 system version in [System Settings](System_Settings "wikilink"). Format
 of the system version:
-"<major>.<minor>.<build>-[<revision><region>](NVer "wikilink")".
+&lt;major&gt;.&lt;minor&gt;.&lt;build&gt;-[&lt;revision&gt;&lt;region&gt;](NVer "wikilink")</pre>.
 
 | Offset | Size | Description                                   |
 |--------|------|-----------------------------------------------|

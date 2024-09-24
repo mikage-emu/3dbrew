@@ -355,6 +355,6 @@ CANMs are used to store skeletal animation data.
 ## Links
 
 - Another CGFX Format Description (Archived Page):
-  [<http://florian.nouwt.com/wiki/index.php/CGFX_(File_Format)>](https://web.archive.org/web/20150511211029/http://florian.nouwt.com/wiki/index.php/CGFX_(File_Format))
+  [http://florian.nouwt.com/wiki/index.php/CGFX_(File_Format)](https://web.archive.org/web/20150511211029/http://florian.nouwt.com/wiki/index.php/CGFX_(File_Format))
 
 [Category:File formats](Category:File_formats "wikilink")

@@ -3,3 +3,6 @@ type = "categories"
 
 [[widgets.page]]
 type = "toc"
+
+[sidebar.avatar]
+src = "3dbrew2.png"

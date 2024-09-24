@@ -14,8 +14,6 @@ information that is submitted to this website. If information is found
 to infringe copyright, or IP (Intellectual Property) laws, etc., it must
 be removed and reported to a site administrator immediately.
 
-- このウェブサイトに掲載されている情報は、10名以上のユーザーの賛成なしで逐次刊行物には掲載しないでください。また、誤りのある情報を掲載しないよう、事前にその内容を知らせること。
-
 ## NDAs (Non-Disclosure Agreements)
 
 NDAs (Non-Disclosure Agreements) are legal agreements issued to

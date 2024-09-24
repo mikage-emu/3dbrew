@@ -1,5 +1,6 @@
 +++
 title = '3DS System Flaws'
+BookToC = false
 +++
 
 Exploits are used to execute unofficial code (homebrew) on the Nintendo

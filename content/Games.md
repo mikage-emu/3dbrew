@@ -1,5 +1,6 @@
 +++
 title = 'Games'
+BookToC = false
 +++
 
 This page lists off many 3DS games and info about them, as well info

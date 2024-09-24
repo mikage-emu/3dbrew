@@ -991,7 +991,7 @@ title="wikilink">AMPXI:ExportDSiWare</a> export path</p></td>
 then verifies that the actual allocated size matches the input size.
 Then Process9 copies the input path from FCRAM to this buffer, and uses
 it with the Process9 FS openfile code, which use paths in the form of
-"<mountpoint>:/<path>". Process9 does not check the contents of this
+<code>&lt;mountpoint&gt;:/&lt;path&gt;</code>. Process9 does not check the contents of this
 path at all before passing it to the FS code, besides writing a
 NUL-terminator to the end of the buffer.</p></td>
 <td><p>Exporting of DSiWare to arbitrary Process9 file-paths, such as

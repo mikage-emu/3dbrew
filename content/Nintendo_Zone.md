@@ -37,7 +37,7 @@ completely different however. Unlike the regular [Internet
 Browser](Internet_Browser "wikilink") which uses the socket/SSL services
 directly, the Nintendo Zone application uses the
 [HTTP](HTTP_Services "wikilink") service instead. 3D stereoscopic videos
-are supported via html "<media>" tags, for 3D videos the "mediatype"
+are supported via html `<media>` tags, for 3D videos the "mediatype"
 attribute is set to "3D". For 2D videos videos the "mediatype" attribute
 is set to "2D". This uses Mobiclip with file extension .moflex, the
 magic number from the first word in the video file is

@@ -148,10 +148,10 @@ this is incompatible with the data-loading method used with
 SpotPass-container content(NsData commands can't be used with it).
 
 When writing the raw content, it firsts deletes and creates the
-"<taskID>" file under the data-storage extdata with normal extdata(not
+`<taskID>` file under the data-storage extdata with normal extdata(not
 the separate boss archive). Once successful, the final filename
 specified by the task config will be deleted if needed, then the
-"<taskID>" file will be renamed to the final filename. Afterwards, the
+`<taskID>` file will be renamed to the final filename. Afterwards, the
 user-process can access the final file just like any other extdata file.
 
 For using custom content with the SpotPass container(like official

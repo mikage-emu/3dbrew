@@ -1,3 +1,8 @@
++++
+title = 'KSemaphore'
+categories = ["Kernel synchronization objects","Kernel interrupt events"]
++++
+
 class [KSemaphore](KSemaphore "wikilink") extends
 [KSynchronizationObject](KSynchronizationObject "wikilink") and
 [KUserBindableInterruptEvent](KUserBindableInterruptEvent "wikilink");

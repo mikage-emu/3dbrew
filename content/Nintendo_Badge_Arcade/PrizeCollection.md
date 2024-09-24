@@ -37,30 +37,31 @@ compression.
 This file has an index of all of the game data stored here. It has the
 following data:
 
+```
 <?xml version="1.0" encoding="UTF-8"?>
-
 <CenterPrizeCollectionFile>
-`  `<Categories count="x">
-`    `<Category name="CategoryName" />
-`  `</Categories>
-`  `<Cranes count="x">
-`    `<Crane name="CraneName" />
-`  `</Cranes>
-`  `<CraneIcons count="x">
-`    `<CraneIcon name="CraneIconName" />
-`  `</CraneIcons>
-`  `<Prizes count="x">
-`    `<Prize name="PrizeName" />
-`  `<Attachments count="x">
-`    `<Attachment name="AttachmentName" />
-`  `</Attachments>
-`  `<FixedObjects count="x">
-`    `<FixedObject name="FixedObjectName" />
-`  `</FixedObjects>
-`  `<CraneInstances>
-`    `<CraneInstance name="CraneInstanceName" />
-`  `</CraneInstances>
+  <Categories count="x">
+    <Category name="CategoryName" />
+  </Categories>
+  <Cranes count="x">
+    <Crane name="CraneName" />
+  </Cranes>
+  <CraneIcons count="x">
+    <CraneIcon name="CraneIconName" />
+  </CraneIcons>
+  <Prizes count="x">
+    <Prize name="PrizeName" />
+  <Attachments count="x">
+    <Attachment name="AttachmentName" />
+  </Attachments>
+  <FixedObjects count="x">
+    <FixedObject name="FixedObjectName" />
+  </FixedObjects>
+  <CraneInstances>
+    <CraneInstance name="CraneInstanceName" />
+  </CraneInstances>
 </CenterPrizeCollectionFile>
+```
 
 ## Crane Instance (cib)
 

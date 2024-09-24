@@ -18,7 +18,9 @@ storage](Twln/shared2/0000 "wikilink") is for DSi-mode software, and the
 
 ### File naming pattern
 
-`   `[`sdmc:`](SD_Filesystem "wikilink")`/Nintendo 3DS/private/00020500/voice/01/V13303.m4a`
+<pre>
+<a href="../SD_Filesystem">sdmc:</a>/Nintendo 3DS/private/00020500/voice/01/V13303.m4a
+</pre>
 
 - 01: folder (page) number
 - 13: file number

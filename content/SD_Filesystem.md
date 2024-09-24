@@ -7,20 +7,22 @@ title = 'SD Filesystem'
 The 3DS uses an SD Card for general storage of game data, music, photos
 and videos taken with the 3DS.
 
-`sdmc`
-`├── DCIM`
-`├── Nintendo 3DS`
-`│   ├── `<ID0>
-`│   │   └── `<ID1>
-`│   │       ├── `[`backups`](SD_Savedata_Backups "wikilink")
-`│   │       ├── `[`dbs`](Title_Database "wikilink")
-`│   │       ├── `[`extdata`](extdata "wikilink")
-`│   │       ├── `[`title`](Title_Data_Structure "wikilink")
-`│   │       └── `[`Nintendo DSiWare`](DSiWare_Exports "wikilink")
-`│   └── `[`Private`](SD_Filesystem#Private "wikilink")
-`└── `[`private`](SD_Filesystem#Other_Private_Data "wikilink")
-`    └── Nintendo 3DS`
-`        └── app`
+<pre>
+sdmc
+├── DCIM
+├── Nintendo 3DS
+│   ├── &lt;ID0&gt;
+│   │   └── &lt;ID1&gt;
+│   │       ├── <a href="../SD_Savedata_Backups">backups</a>
+│   │       ├── <a href="../Title_Database">dbs</a>
+│   │       ├── <a href="../Extdata">extdata</a>
+│   │       ├── <a href="../Titles">title</a>
+│   │       └── <a href="../DSiWare_Exports">Nintendo DSiWare</a>
+│   └── <a href="../SD_Filesystem#private">Private</a>
+└── <a href="../SD_Filesystem#other-private-data">private</a>
+    └── Nintendo 3DS
+        └── app
+</pre>
 
 - Everything stored under sdmc/Nintendo 3DS/<ID0>/<ID1> is encrypted by
   128 bit AES-CTR with console-unique [keyslots](AES "wikilink"). The
@@ -84,11 +86,7 @@ see [Title Data Structure](Title_Data_Structure "wikilink").
 
 "Private" data is stored here as cleartext:
 
-`/Nintendo 3DS/Private/`
-
-<Title ID Low>
-
-/
+`/Nintendo 3DS/Private/<Title ID Low>/`
 
 `00020400 - Nintendo 3DS Camera `
 `00020500 - Nintendo 3DS Sound`
@@ -111,7 +109,7 @@ directory inside it. Inside the app directory contains a directory with
 the game code of the application (eg. "JKZP" for Flipnote Studio 3D),
 then its corresponding data, as shown here:
 
-`/private/Nintendo 3DS/app/`<Game Code>`/`
+`/private/Nintendo 3DS/app/<Game Code>/`
 
 In this case of Flipnote Studio 3D, there are multiple files with an ID,
 then ending with the .kwz extension. There is also a !!.lst file as

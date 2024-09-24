@@ -7,15 +7,15 @@ title = 'I2C Registers'
 | Old3DS | Name                            | Address    | Width | Used by           |
 |--------|---------------------------------|------------|-------|-------------------|
 | Yes    | I2C1_DATA                       | 0x10161000 | 1     | I2C bus 1 devices |
-| Yes    | [I2C1_CNT](#I2C_CNT "wikilink") | 0x10161001 | 1     | I2C bus 1 devices |
+| Yes    | [I2C1_CNT](#i2c_cnt "wikilink") | 0x10161001 | 1     | I2C bus 1 devices |
 | Yes    | I2C1_CNTEX                      | 0x10161002 | 2     | I2C bus 1 devices |
 | Yes    | I2C1_SCL                        | 0x10161004 | 2     | I2C bus 1 devices |
 | Yes    | I2C2_DATA                       | 0x10144000 | 1     | I2C bus 2 devices |
-| Yes    | [I2C2_CNT](#I2C_CNT "wikilink") | 0x10144001 | 1     | I2C bus 2 devices |
+| Yes    | [I2C2_CNT](#i2c_cnt "wikilink") | 0x10144001 | 1     | I2C bus 2 devices |
 | Yes    | I2C2_CNTEX                      | 0x10144002 | 2     | I2C bus 2 devices |
 | Yes    | I2C2_SCL                        | 0x10144004 | 2     | I2C bus 2 devices |
 | Yes    | I2C3_DATA                       | 0x10148000 | 1     | I2C bus 3 devices |
-| Yes    | [I2C3_CNT](#I2C_CNT "wikilink") | 0x10148001 | 1     | I2C bus 3 devices |
+| Yes    | [I2C3_CNT](#i2c_cnt "wikilink") | 0x10148001 | 1     | I2C bus 3 devices |
 | Yes    | I2C3_CNTEX                      | 0x10148002 | 2     | I2C bus 3 devices |
 | Yes    | I2C3_SCL                        | 0x10148004 | 2     | I2C bus 3 devices |
 

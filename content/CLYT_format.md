@@ -679,7 +679,7 @@ Mario Kart Wii Wiki)</small></sup>
 
 ## bnd1 (Bounding 1)
 
-Same data structure as [Panes](#pan1_(Pane_1) "wikilink"), but used to
+Same data structure as [Panes](#pan1_(pane_1) "wikilink"), but used to
 limit interaction with buttons.
 
 | Offset                        | Size | Type   | Description                                      |

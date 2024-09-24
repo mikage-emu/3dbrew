@@ -6,11 +6,11 @@ title = 'CTRCARD Registers'
 
 | Old3DS | Name                                         | Address    | Width | Used by  |
 |--------|----------------------------------------------|------------|-------|----------|
-| Yes    | [CTRCARD_CNT](#CTRCARD_CNT "wikilink")       | 0x10004000 | 4     | Process9 |
-| Yes    | [CTRCARD_BLKCNT](#CTRCARD_BLKCNT "wikilink") | 0x10004004 | 4     | Process9 |
-| Yes    | [CTRCARD_SECCNT](#CTRCARD_SECCNT "wikilink") | 0x10004008 | 4     | Process9 |
+| Yes    | [CTRCARD_CNT](#ctrcard_cnt "wikilink")       | 0x10004000 | 4     | Process9 |
+| Yes    | [CTRCARD_BLKCNT](#ctrcard_blkcnt "wikilink") | 0x10004004 | 4     | Process9 |
+| Yes    | [CTRCARD_SECCNT](#ctrcard_seccnt "wikilink") | 0x10004008 | 4     | Process9 |
 | Yes    | CTRCARD_SECSEED                              | 0x10004010 | 4     | Process9 |
-| Yes    | [CTRCARD_CMD](#CTRCARD_CMD "wikilink")       | 0x10004020 | 16    | Process9 |
+| Yes    | [CTRCARD_CMD](#ctrcard_cmd "wikilink")       | 0x10004020 | 16    | Process9 |
 | Yes    | CTRCARD_FIFO                                 | 0x10004030 | 4     | Process9 |
 
 ## CTRCARD_CNT

@@ -147,8 +147,8 @@ The following entries use little-endian.
 | 0xC    | 0x4    | End address of metadata and video                                |
 | 0x10   | 0x4    | Video thumbnail length                                           |
 | 0x14   | 0x4    | Unknown (padding?)                                               |
-| 0x18   |        | [Interactive links header](#Interactive_links_header "wikilink") |
-|        |        | [Metadata](#Metadata "wikilink")                                 |
+| 0x18   |        | [Interactive links header](#interactive_links_header "wikilink") |
+|        |        | [Metadata](#metadata "wikilink")                                 |
 
 ### Metadata
 
@@ -156,8 +156,8 @@ The following entries use little-endian.
 |--------|-----------------------------|----------------------------------------------------------------------------------------|
 | 0x0    | 0x4                         | Metadata length (0x248)                                                                |
 | 0x4    | 0x20                        | Video ID (M<shortvidtitle>video ID)                                                    |
-| 0x24   | 0x8                         | [Release date](#Timestamp "wikilink")                                                  |
-| 0x2C   | 0x8                         | [Expire date](#Timestamp "wikilink")                                                   |
+| 0x24   | 0x8                         | [Release date](#timestamp "wikilink")                                                  |
+| 0x2C   | 0x8                         | [Expire date](#timestamp "wikilink")                                                   |
 | 0x34   | 0x78                        | UTF-16 video title                                                                     |
 | 0xAC   | 0x8                         | ?                                                                                      |
 | 0xB4   | 0x4                         | Video length                                                                           |
@@ -165,7 +165,7 @@ The following entries use little-endian.
 | 0x248  | 0x20 \* number of links     | Interactive link IDs (I<shortvidtitle>video ID)                                        |
 |        | Video size                  | Mobiclip .moflex video data (first word here is little-endian magic number 0xABAA324C) |
 |        | Thumbnail size              | Video thumbnail                                                                        |
-|        | Interactive links data size | [Interactive links data](#Interactive_links_data "wikilink")                           |
+|        | Interactive links data size | [Interactive links data](#interactive_links_data "wikilink")                           |
 
 ### Timestamp
 

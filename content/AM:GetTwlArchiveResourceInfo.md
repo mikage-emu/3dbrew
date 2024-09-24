@@ -14,7 +14,7 @@ title = 'AM:GetTwlArchiveResourceInfo'
 |------------|--------------------------------------------------------------|
 | 0          | Header code                                                  |
 | 1          | Result code                                                  |
-| 2-9        | [TwlArchiveResourceInfo](#TwlArchiveResourceInfo "wikilink") |
+| 2-9        | [TwlArchiveResourceInfo](#twlarchiveresourceinfo "wikilink") |
 
 # TwlArchiveResourceInfo
 

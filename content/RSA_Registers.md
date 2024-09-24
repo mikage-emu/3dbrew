@@ -16,15 +16,15 @@ so its behavior can be incoherent when RSA's invariants are broken.
 
 | Old3DS | Name                                   | Address    | Width                                                             | Used by |
 |--------|----------------------------------------|------------|-------------------------------------------------------------------|---------|
-| Yes    | [RSA_CNT](#RSA_CNT "wikilink")         | 0x1000B000 | 0x04                                                              |         |
+| Yes    | [RSA_CNT](#rsa_cnt "wikilink")         | 0x1000B000 | 0x04                                                              |         |
 | Yes    | RSA_?                                 | 0x1000B0F0 | 0x04                                                              |         |
-| Yes    | [RSA_SLOT](#RSA_SLOT "wikilink")0      | 0x1000B100 | 0x10                                                              |         |
-| Yes    | [RSA_SLOT](#RSA_SLOT "wikilink")1      | 0x1000B110 | 0x10                                                              |         |
-| Yes    | [RSA_SLOT](#RSA_SLOT "wikilink")2      | 0x1000B120 | 0x10                                                              |         |
-| Yes    | [RSA_SLOT](#RSA_SLOT "wikilink")3      | 0x1000B130 | 0x10                                                              |         |
-| Yes    | [RSA_EXPFIFO](#RSA_EXPFIFO "wikilink") | 0x1000B200 | 0x100 (can handle u32 writes to any aligned position in the FIFO) |         |
-| Yes    | [RSA_MOD](#RSA_MOD "wikilink")         | 0x1000B400 | 0x100                                                             |         |
-| Yes    | [RSA_TXT](#RSA_TXT "wikilink")         | 0x1000B800 | 0x100                                                             |         |
+| Yes    | [RSA_SLOT](#rsa_slot "wikilink")0      | 0x1000B100 | 0x10                                                              |         |
+| Yes    | [RSA_SLOT](#rsa_slot "wikilink")1      | 0x1000B110 | 0x10                                                              |         |
+| Yes    | [RSA_SLOT](#rsa_slot "wikilink")2      | 0x1000B120 | 0x10                                                              |         |
+| Yes    | [RSA_SLOT](#rsa_slot "wikilink")3      | 0x1000B130 | 0x10                                                              |         |
+| Yes    | [RSA_EXPFIFO](#rsa_expfifo "wikilink") | 0x1000B200 | 0x100 (can handle u32 writes to any aligned position in the FIFO) |         |
+| Yes    | [RSA_MOD](#rsa_mod "wikilink")         | 0x1000B400 | 0x100                                                             |         |
+| Yes    | [RSA_TXT](#rsa_txt "wikilink")         | 0x1000B800 | 0x100                                                             |         |
 
 ## RSA_CNT
 
@@ -40,8 +40,8 @@ so its behavior can be incoherent when RSA's invariants are broken.
 
 | Name                                     | Offset | Width |
 |------------------------------------------|--------|-------|
-| [RSA_SLOTCNT](#RSA_SLOTCNT "wikilink")   | 0x0    | 0x4   |
-| [RSA_SLOTSIZE](#RSA_SLOTSIZE "wikilink") | 0x4    | 0x4   |
+| [RSA_SLOTCNT](#rsa_slotcnt "wikilink")   | 0x0    | 0x4   |
+| [RSA_SLOTSIZE](#rsa_slotsize "wikilink") | 0x4    | 0x4   |
 | ?                                        | 0x8    | 0x4   |
 | ?                                        | 0xC    | 0x4   |
 

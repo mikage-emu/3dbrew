@@ -6,37 +6,37 @@ title = 'SPI Registers'
 
 | Old3DS | Name                                        | Address    | Width | Used by |
 |--------|---------------------------------------------|------------|-------|---------|
-| Yes    | [SPI_CNT](#SPI_CNT "wikilink")1             | 0x10142000 | 2     |         |
+| Yes    | [SPI_CNT](#spi_cnt "wikilink")1             | 0x10142000 | 2     |         |
 | Yes    | SPI_DATA1                                   | 0x10142002 | 1     |         |
-| Yes    | [NSPI_CNT](#NSPI_CNT "wikilink")1           | 0x10142800 | 4     |         |
-| Yes    | [NSPI_DONE](#NSPI_DONE "wikilink")1         | 0x10142804 | 4     |         |
-| Yes    | [NSPI_BLKLEN](#NSPI_BLKLEN "wikilink")1     | 0x10142808 | 4     |         |
-| Yes    | [NSPI_FIFO](#NSPI_FIFO "wikilink")1         | 0x1014280C | 4     |         |
-| Yes    | [NSPI_STATUS](#NSPI_STATUS "wikilink")1     | 0x10142810 | 4     |         |
-| Yes    | [NSPI_AUTOPOLL](#NSPI_AUTOPOLL "wikilink")1 | 0x10142814 | 4     | \-      |
-| Yes    | [NSPI_INT_MASK](#NSPI_INT_MASK "wikilink")1 | 0x10142818 | 4     | \-      |
-| Yes    | [NSPI_INT_STAT](#NSPI_INT_STAT "wikilink")1 | 0x1014281C | 4     | \-      |
+| Yes    | [NSPI_CNT](#nspi_cnt "wikilink")1           | 0x10142800 | 4     |         |
+| Yes    | [NSPI_DONE](#nspi_done "wikilink")1         | 0x10142804 | 4     |         |
+| Yes    | [NSPI_BLKLEN](#nspi_blklen "wikilink")1     | 0x10142808 | 4     |         |
+| Yes    | [NSPI_FIFO](#nspi_fifo "wikilink")1         | 0x1014280C | 4     |         |
+| Yes    | [NSPI_STATUS](#nspi_status "wikilink")1     | 0x10142810 | 4     |         |
+| Yes    | [NSPI_AUTOPOLL](#nspi_autopoll "wikilink")1 | 0x10142814 | 4     | \-      |
+| Yes    | [NSPI_INT_MASK](#nspi_int_mask "wikilink")1 | 0x10142818 | 4     | \-      |
+| Yes    | [NSPI_INT_STAT](#nspi_int_stat "wikilink")1 | 0x1014281C | 4     | \-      |
 |        |                                             |            |       |         |
-| Yes    | [SPI_CNT](#SPI_CNT "wikilink")2             | 0x10143000 | 2     |         |
+| Yes    | [SPI_CNT](#spi_cnt "wikilink")2             | 0x10143000 | 2     |         |
 | Yes    | SPI_DATA2                                   | 0x10143002 | 1     |         |
-| Yes    | [NSPI_CNT](#NSPI_CNT "wikilink")2           | 0x10143800 | 4     |         |
-| Yes    | [NSPI_DONE](#NSPI_DONE "wikilink")2         | 0x10143804 | 4     |         |
-| Yes    | [NSPI_BLKLEN](#NSPI_BLKLEN "wikilink")2     | 0x10143808 | 4     |         |
-| Yes    | [NSPI_FIFO](#NSPI_FIFO "wikilink")2         | 0x1014380C | 4     |         |
-| Yes    | [NSPI_STATUS](#NSPI_STATUS "wikilink")2     | 0x10143810 | 4     |         |
-| Yes    | [NSPI_AUTOPOLL](#NSPI_AUTOPOLL "wikilink")2 | 0x10143814 | 4     | \-      |
-| Yes    | [NSPI_INT_MASK](#NSPI_INT_MASK "wikilink")2 | 0x10143818 | 4     | \-      |
-| Yes    | [NSPI_INT_STAT](#NSPI_INT_STAT "wikilink")2 | 0x1014381C | 4     | \-      |
-| Yes    | [SPI_CNT](#SPI_CNT "wikilink")3             | 0x10160000 | 2     |         |
+| Yes    | [NSPI_CNT](#nspi_cnt "wikilink")2           | 0x10143800 | 4     |         |
+| Yes    | [NSPI_DONE](#nspi_done "wikilink")2         | 0x10143804 | 4     |         |
+| Yes    | [NSPI_BLKLEN](#nspi_blklen "wikilink")2     | 0x10143808 | 4     |         |
+| Yes    | [NSPI_FIFO](#nspi_fifo "wikilink")2         | 0x1014380C | 4     |         |
+| Yes    | [NSPI_STATUS](#nspi_status "wikilink")2     | 0x10143810 | 4     |         |
+| Yes    | [NSPI_AUTOPOLL](#nspi_autopoll "wikilink")2 | 0x10143814 | 4     | \-      |
+| Yes    | [NSPI_INT_MASK](#nspi_int_mask "wikilink")2 | 0x10143818 | 4     | \-      |
+| Yes    | [NSPI_INT_STAT](#nspi_int_stat "wikilink")2 | 0x1014381C | 4     | \-      |
+| Yes    | [SPI_CNT](#spi_cnt "wikilink")3             | 0x10160000 | 2     |         |
 | Yes    | SPI_DATA3                                   | 0x10160002 | 1     |         |
-| Yes    | [NSPI_CNT](#NSPI_CNT "wikilink")3           | 0x10160800 | 4     |         |
-| Yes    | [NSPI_DONE](#NSPI_DONE "wikilink")3         | 0x10160804 | 4     |         |
-| Yes    | [NSPI_BLKLEN](#NSPI_BLKLEN "wikilink")3     | 0x10160808 | 4     |         |
-| Yes    | [NSPI_FIFO](#NSPI_FIFO "wikilink")3         | 0x1016080C | 4     |         |
-| Yes    | [NSPI_STATUS](#NSPI_STATUS "wikilink")3     | 0x10160810 | 4     |         |
-| Yes    | [NSPI_AUTOPOLL](#NSPI_AUTOPOLL "wikilink")3 | 0x10160814 | 4     | \-      |
-| Yes    | [NSPI_INT_MASK](#NSPI_INT_MASK "wikilink")3 | 0x10160818 | 4     | \-      |
-| Yes    | [NSPI_INT_STAT](#NSPI_INT_STAT "wikilink")3 | 0x1016081C | 4     | \-      |
+| Yes    | [NSPI_CNT](#nspi_cnt "wikilink")3           | 0x10160800 | 4     |         |
+| Yes    | [NSPI_DONE](#nspi_done "wikilink")3         | 0x10160804 | 4     |         |
+| Yes    | [NSPI_BLKLEN](#nspi_blklen "wikilink")3     | 0x10160808 | 4     |         |
+| Yes    | [NSPI_FIFO](#nspi_fifo "wikilink")3         | 0x1016080C | 4     |         |
+| Yes    | [NSPI_STATUS](#nspi_status "wikilink")3     | 0x10160810 | 4     |         |
+| Yes    | [NSPI_AUTOPOLL](#nspi_autopoll "wikilink")3 | 0x10160814 | 4     | \-      |
+| Yes    | [NSPI_INT_MASK](#nspi_int_mask "wikilink")3 | 0x10160818 | 4     | \-      |
+| Yes    | [NSPI_INT_STAT](#nspi_int_stat "wikilink")3 | 0x1016081C | 4     | \-      |
 
 There are two register interfaces: the old NDS/DSi one and an
 alternative faster interface introduced with the 3DS.
@@ -122,7 +122,7 @@ At transfer start and every 32 bytes the FIFO becomes busy.
 | BIT   | DESCRIPTION                                                                     |
 |-------|---------------------------------------------------------------------------------|
 | 0-7   | Command                                                                         |
-| 16-19 | Timeout (Tries = 31\<\<Clock (from [NSPI_CNT](#NSPI_CNT "wikilink")) + Timeout) |
+| 16-19 | Timeout (Tries = 31\<\<Clock (from [NSPI_CNT](#nspi_cnt "wikilink")) + Timeout) |
 | 24-26 | Bit offset (0-7)                                                                |
 | 30    | Poll for a set or unset bit                                                     |
 | 31    | 1 = Enable/Busy                                                                 |
@@ -150,5 +150,5 @@ occurs.
 [Interrupt](ARM11_Interrupts#Hardware_Interrupts "wikilink") ID 0x24,
 0x56 or 0x57 (depending on the bus) is fired when any of the bits change
 to 1 except for interrupts masked in
-[NSPI_INT_MASK](#NSPI_INT_MASK "wikilink"). Writing 1 to a bit in this
+[NSPI_INT_MASK](#nspi_int_mask "wikilink"). Writing 1 to a bit in this
 register aknowledges the interrupt.

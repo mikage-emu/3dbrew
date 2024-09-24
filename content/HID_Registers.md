@@ -6,8 +6,8 @@ title = 'HID Registers'
 
 | Old3DS | Name                                   | Address    | Width | Used by                                                    |
 |--------|----------------------------------------|------------|-------|------------------------------------------------------------|
-| Yes    | [HID_PAD](#HID_PAD "wikilink")         | 0x10146000 | 2     | Boot9, Boot11, Kernel11, TwlBg, HID Services, dlp Services |
-| Yes    | [HID_PAD_CNT](#HID_PAD_CNT "wikilink") | 0x10146002 | 2     | TwlBg                                                      |
+| Yes    | [HID_PAD](#hid_pad "wikilink")         | 0x10146000 | 2     | Boot9, Boot11, Kernel11, TwlBg, HID Services, dlp Services |
+| Yes    | [HID_PAD_CNT](#hid_pad_cnt "wikilink") | 0x10146002 | 2     | TwlBg                                                      |
 
 ## HID_PAD
 

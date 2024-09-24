@@ -77,9 +77,9 @@ Most of these fields are used in
 
 | Offset  | Size    | Description                                                                    |
 |---------|---------|--------------------------------------------------------------------------------|
-| `0x0`   | `0x170` | [ARM11 local system capabilities](#ARM11_Local_System_Capabilities "wikilink") |
-| `0x170` | `0x80`  | [ARM11 kernel capabilities](#ARM11_Kernel_Capabilities "wikilink")             |
-| `0x1F0` | `0x10`  | [ARM9 access control](#ARM9_Access_Control "wikilink")                         |
+| `0x0`   | `0x170` | [ARM11 local system capabilities](#arm11_local_system_capabilities "wikilink") |
+| `0x170` | `0x80`  | [ARM11 kernel capabilities](#arm11_kernel_capabilities "wikilink")             |
+| `0x1F0` | `0x10`  | [ARM9 access control](#arm9_access_control "wikilink")                         |
 
 ### ARM11 Local System Capabilities
 
@@ -87,12 +87,12 @@ Most of these fields are used in
 |---------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | `0x0`   | `0x8`            | Program ID                                                                                                                                  |
 | `0x8`   | `0x4`            | Core version (The Title ID low of the required [FIRM](FIRM "wikilink"))                                                                     |
-| `0xC`   | `0x2`            | [Flag1](#Flag1 "wikilink") and [Flag2](#Flag2 "wikilink") (both implemented starting from [8.0.0-18](8.0.0-18 "wikilink")).                 |
-| `0xE`   | `0x1`            | [Flag0](#Flag0 "wikilink")                                                                                                                  |
+| `0xC`   | `0x2`            | [Flag1](#Flag1 "wikilink") and [Flag2](#flag2 "wikilink") (both implemented starting from [8.0.0-18](8.0.0-18 "wikilink")).                 |
+| `0xE`   | `0x1`            | [Flag0](#flag0 "wikilink")                                                                                                                  |
 | `0xF`   | `0x1`            | Priority                                                                                                                                    |
 | `0x10`  | `0x20` (`16*2`)  | Resource limit descriptors. The first byte here controls the maximum allowed [`CpuTime`](PMApp:SetAppResourceLimit "wikilink").             |
-| `0x30`  | `0x20`           | [Storage info](#Storage_Info "wikilink")                                                                                                    |
-| `0x50`  | `0x100` (`32*8`) | [Service access control](#Service_Access_Control "wikilink")                                                                                |
+| `0x30`  | `0x20`           | [Storage info](#storage_info "wikilink")                                                                                                    |
+| `0x50`  | `0x100` (`32*8`) | [Service access control](#service_access_control "wikilink")                                                                                |
 | `0x150` | `0x10` (`2*8`)   | Extended service access control, support for this was implemented with [9.3.0-X](9.3.0-21 "wikilink").                                      |
 | `0x160` | `0xF`            | Reserved                                                                                                                                    |
 | `0x16F` | `0x1`            | Resource limit category. (0 = `APPLICATION`, 1 = `SYS_APPLET`, 2 = `LIB_APPLET`, 3 = `OTHER` (sysmodules running under the BASE memregion)) |
@@ -271,7 +271,7 @@ different types are laid out as follows:
 | `0b11110xxxxxxx`      | System call mask                               | Bits 24-26: System call mask table index; Bits 0-23: mask                                                                                                                                                                                                                                                                                                                                         |
 | `0b1111110xxxxx`      | Kernel release version                         | Bits 8-15: Major version; Bits 0-7: Minor version                                                                                                                                                                                                                                                                                                                                                 |
 | `0b11111110xxxx`      | Handle table size                              | Bits 0-18: size                                                                                                                                                                                                                                                                                                                                                                                   |
-| `0b111111110xxx`      | [Kernel flags](#ARM11_Kernel_Flags "wikilink") | See below                                                                                                                                                                                                                                                                                                                                                                                         |
+| `0b111111110xxx`      | [Kernel flags](#arm11_kernel_flags "wikilink") | See below                                                                                                                                                                                                                                                                                                                                                                                         |
 | `0b11111111100x`      | Map IO/static address range                    | Describes a memory mapping like the 0b111111111110 descriptor, but an entire range rather than a single page is mapped. Another 0b11111111100x descriptor must follow this one to denote the (exclusive) end of the address range to map. Bit20 on the first descriptor: map read-only (otherwise RW), bit20 on the second descriptor: map static (cacheable, otherwise IO if the bit is not set) |
 | `0b111111111110`      | Map IO memory page                             | Bits 0-19: page index to map (virtual address \>\> 12; the physical address is determined per-page according to [Memory layout](Memory_layout "wikilink")); Bit 20: Map read-only (otherwise read-write)                                                                                                                                                                                          |
 

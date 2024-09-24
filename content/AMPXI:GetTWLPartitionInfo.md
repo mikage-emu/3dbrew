@@ -14,7 +14,7 @@ title = 'AMPXI:GetTWLPartitionInfo'
 |------------|--------------------------------------------------|
 | 0          | Header code                                      |
 | 1          | Result code                                      |
-| 2-9        | [TWLPartitionInfo](#TWLPartitionInfo "wikilink") |
+| 2-9        | [TWLPartitionInfo](#twlpartitioninfo "wikilink") |
 
 # TWLPartitionInfo
 

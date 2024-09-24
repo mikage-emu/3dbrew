@@ -6,7 +6,7 @@ title = 'Y2R Registers'
 
 | Old3DS | Name                                 | Address    | Width | Used by                                       |
 |--------|--------------------------------------|------------|-------|-----------------------------------------------|
-| Yes    | [Y2R_PARAMS](#Y2R_PARAMS "wikilink") | 0x10102000 | 4     | [Camera Services](Camera_Services "wikilink") |
+| Yes    | [Y2R_PARAMS](#y2r_params "wikilink") | 0x10102000 | 4     | [camera services](camera_services "wikilink") |
 | Yes    | Y2R_LINEW                            | 0x10102004 | 2     | [Camera Services](Camera_Services "wikilink") |
 | Yes    | Y2R_LINES                            | 0x10102006 | 2     | [Camera Services](Camera_Services "wikilink") |
 | Yes    | Y2R_COEFFICIENTS                     | 0x10102010 | 0x10  | [Camera Services](Camera_Services "wikilink") |

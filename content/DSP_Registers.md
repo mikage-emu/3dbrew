@@ -6,20 +6,20 @@ title = 'DSP Registers'
 
 | Old3DS | Name                                 | Physical Address | Width | Used by |
 |--------|--------------------------------------|------------------|-------|---------|
-| Yes    | [DSP_PDATA](#DSP_PDATA "wikilink")   | 0x10203000       | 2     |         |
-| Yes    | [DSP_PADR](#DSP_PADR "wikilink")     | 0x10203004       | 2     |         |
-| Yes    | [DSP_PCFG](#DSP_PCFG "wikilink")     | 0x10203008       | 2     |         |
-| Yes    | [DSP_PSTS](#DSP_PSTS "wikilink")     | 0x1020300C       | 2     |         |
-| Yes    | [DSP_PSEM](#DSP_PSEM "wikilink")     | 0x10203010       | 2     |         |
-| Yes    | [DSP_PMASK](#DSP_PMASK "wikilink")   | 0x10203014       | 2     |         |
-| Yes    | [DSP_PCLEAR](#DSP_PCLEAR "wikilink") | 0x10203018       | 2     |         |
-| Yes    | [DSP_SEM](#DSP_SEM "wikilink")       | 0x1020301C       | 2     |         |
-| Yes    | [DSP_CMD0](#DSP_CMD0 "wikilink")     | 0x10203020       | 2     |         |
-| Yes    | [DSP_REP0](#DSP_REP0 "wikilink")     | 0x10203024       | 2     |         |
-| Yes    | [DSP_CMD1](#DSP_CMD1 "wikilink")     | 0x10203028       | 2     |         |
-| Yes    | [DSP_REP1](#DSP_REP1 "wikilink")     | 0x1020302C       | 2     |         |
-| Yes    | [DSP_CMD2](#DSP_CMD2 "wikilink")     | 0x10203030       | 2     |         |
-| Yes    | [DSP_REP2](#DSP_REP2 "wikilink")     | 0x10203034       | 2     |         |
+| Yes    | [DSP_PDATA](#dsp_pdata "wikilink")   | 0x10203000       | 2     |         |
+| Yes    | [DSP_PADR](#dsp_padr "wikilink")     | 0x10203004       | 2     |         |
+| Yes    | [DSP_PCFG](#dsp_pcfg "wikilink")     | 0x10203008       | 2     |         |
+| Yes    | [DSP_PSTS](#dsp_psts "wikilink")     | 0x1020300C       | 2     |         |
+| Yes    | [DSP_PSEM](#dsp_psem "wikilink")     | 0x10203010       | 2     |         |
+| Yes    | [DSP_PMASK](#dsp_pmask "wikilink")   | 0x10203014       | 2     |         |
+| Yes    | [DSP_PCLEAR](#dsp_pclear "wikilink") | 0x10203018       | 2     |         |
+| Yes    | [DSP_SEM](#dsp_sem "wikilink")       | 0x1020301C       | 2     |         |
+| Yes    | [DSP_CMD0](#dsp_cmd0 "wikilink")     | 0x10203020       | 2     |         |
+| Yes    | [DSP_REP0](#dsp_rep0 "wikilink")     | 0x10203024       | 2     |         |
+| Yes    | [DSP_CMD1](#dsp_cmd1 "wikilink")     | 0x10203028       | 2     |         |
+| Yes    | [DSP_REP1](#dsp_rep1 "wikilink")     | 0x1020302C       | 2     |         |
+| Yes    | [DSP_CMD2](#dsp_cmd2 "wikilink")     | 0x10203030       | 2     |         |
+| Yes    | [DSP_REP2](#dsp_rep2 "wikilink")     | 0x10203034       | 2     |         |
 
 ## DSP_PDATA
 

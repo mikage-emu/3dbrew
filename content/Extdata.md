@@ -71,7 +71,7 @@ The file seems to limit the extdata total size.
 | 0x00   | 4      | Magic "QUOT"                                                                                                                                   |
 | 0x04   | 4      | Magic 0x30000                                                                                                                                  |
 | 0x08   | 4      | 0x1000, block size                                                                                                                             |
-| 0x0C   | 4      | Always 126. Probably device directory capacity. See the [\#Device Directory Capacity](#Device_Directory_Capacity "wikilink") more information. |
+| 0x0C   | 4      | Always 126. Probably device directory capacity. See the [\#Device Directory Capacity](#device_directory_capacity "wikilink") more information. |
 | 0x10   | 4      | Always 0?                                                                                                                                      |
 | 0x14   | 4      | Max number of blocks                                                                                                                           |
 | 0x18   | 4      | Always 0?                                                                                                                                      |

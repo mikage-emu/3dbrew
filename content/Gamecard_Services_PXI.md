@@ -51,8 +51,8 @@ __TOC__
 
 | Bits | Description                              |
 |------|------------------------------------------|
-| 0-3  | [WaitType](#WaitType "wikilink")         |
-| 4-7  | [DeassertType](#DeassertType "wikilink") |
+| 0-3  | [WaitType](#waittype "wikilink")         |
+| 4-7  | [DeassertType](#deasserttype "wikilink") |
 | 8-63 | Nanoseconds                              |
 
 ### WaitType

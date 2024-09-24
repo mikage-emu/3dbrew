@@ -221,7 +221,7 @@ titles added with [9.3.0-21](9.3.0-21 "wikilink") which use NFC.
 | 0x60   | 0x16 | Amiibo Name (NUL-Terminated)                                                                               |
 | 0x76   | 0x01 | Flags (bit0 = amiibo initialized, bit1 = has application area)                                             |
 | 0x77   | 0x01 | Font Region                                                                                                |
-| 0x78   | 0x04 | Creation [Date](#Date "wikilink")                                                                          |
+| 0x78   | 0x04 | Creation [Date](#date "wikilink")                                                                          |
 | 0x7C   | 0x2C | Reserved                                                                                                   |
 
 This data originates from the [Amiibo](Amiibo "wikilink") settings data
@@ -231,7 +231,7 @@ stored under the encrypted NFC data.
 
 | Offset | Size | Description                               |
 |--------|------|-------------------------------------------|
-| 0x00   | 0x04 | Last Write [Date](#Date "wikilink")       |
+| 0x00   | 0x04 | Last Write [Date](#date "wikilink")       |
 | 0x04   | 0x02 | Write Counter                             |
 | 0x06   | 0x02 | Character ID                              |
 | 0x08   | 0x01 | Character Variant                         |

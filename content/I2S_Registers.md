@@ -6,8 +6,8 @@ title = 'I2S Registers'
 
 | Old3DS | Name                             | Address    | Width | Used by                       |
 |--------|----------------------------------|------------|-------|-------------------------------|
-| Yes    | [I2S1_CNT](#I2S1_CNT "wikilink") | 0x10145000 | 2     | Codec sysmodule, AgbBg, TwlBg |
-| Yes    | [I2S2_CNT](#I2S2_CNT "wikilink") | 0x10145002 | 2     | Codec sysmodule, AgbBg, TwlBg |
+| Yes    | [I2S1_CNT](#i2s1_cnt "wikilink") | 0x10145000 | 2     | Codec sysmodule, AgbBg, TwlBg |
+| Yes    | [I2S2_CNT](#i2s2_cnt "wikilink") | 0x10145002 | 2     | Codec sysmodule, AgbBg, TwlBg |
 
 ## I2S1_CNT
 

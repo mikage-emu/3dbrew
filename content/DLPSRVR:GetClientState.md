@@ -15,7 +15,7 @@ title = 'DLPSRVR:GetClientState'
 |------------|--------------------------------------------------------------|
 | 0          | Header code                                                  |
 | 1          | Result code                                                  |
-| 2-4        | [ClientStatus structure](#ClientStatus_structure "wikilink") |
+| 2-4        | [ClientStatus structure](#clientstatus_structure "wikilink") |
 
 # Description
 

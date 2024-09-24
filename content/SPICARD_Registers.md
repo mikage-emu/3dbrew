@@ -6,14 +6,14 @@ title = 'SPICARD Registers'
 
 | Old3DS | Name                                       | Address    | Width | RW  | Used by |
 |--------|--------------------------------------------|------------|-------|-----|---------|
-| Yes    | [NSPI_CNT](#NSPI_CNT "wikilink")           | 0x1000D800 | 4     | RW  |         |
-| Yes    | [NSPI_DONE](#NSPI_DONE "wikilink")         | 0x1000D804 | 4     | RW  |         |
-| Yes    | [NSPI_BLKLEN](#NSPI_BLKLEN "wikilink")     | 0x1000D808 | 4     | RW  |         |
-| Yes    | [NSPI_FIFO](#NSPI_FIFO "wikilink")         | 0x1000D80C | 4     | RW  |         |
-| Yes    | [NSPI_STATUS](#NSPI_STATUS "wikilink")     | 0x1000D810 | 4     | R   |         |
-| Yes    | [NSPI_AUTOPOLL](#NSPI_AUTOPOLL "wikilink") | 0x1000D814 | 4     | RW  |         |
-| Yes    | [NSPI_INT_MASK](#NSPI_INT_MASK "wikilink") | 0x1000D818 | 4     | W?  |         |
-| Yes    | [NSPI_INT_STAT](#NSPI_INT_STAT "wikilink") | 0x1000D81C | 4     | RW  |         |
+| Yes    | [NSPI_CNT](#nspi_cnt "wikilink")           | 0x1000D800 | 4     | RW  |         |
+| Yes    | [NSPI_DONE](#nspi_done "wikilink")         | 0x1000D804 | 4     | RW  |         |
+| Yes    | [NSPI_BLKLEN](#nspi_blklen "wikilink")     | 0x1000D808 | 4     | RW  |         |
+| Yes    | [NSPI_FIFO](#nspi_fifo "wikilink")         | 0x1000D80C | 4     | RW  |         |
+| Yes    | [NSPI_STATUS](#nspi_status "wikilink")     | 0x1000D810 | 4     | R   |         |
+| Yes    | [NSPI_AUTOPOLL](#nspi_autopoll "wikilink") | 0x1000D814 | 4     | RW  |         |
+| Yes    | [NSPI_INT_MASK](#nspi_int_mask "wikilink") | 0x1000D818 | 4     | W?  |         |
+| Yes    | [NSPI_INT_STAT](#nspi_int_stat "wikilink") | 0x1000D81C | 4     | RW  |         |
 
 ## NSPI_CNT
 
@@ -88,5 +88,5 @@ for write operation finished or write enable.
 
 [Interrupt](IRQ_Registers "wikilink") ID 23 is fired when any of the
 bits change to 1 except for interrupts masked in
-[NSPI_INT_MASK](#NSPI_INT_MASK "wikilink"). Writing 1 to a bit in this
+[NSPI_INT_MASK](#nspi_int_mask "wikilink"). Writing 1 to a bit in this
 register aknowledges the interrupt.

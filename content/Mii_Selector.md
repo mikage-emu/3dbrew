@@ -10,7 +10,7 @@ Internally it is called *appletEd*.
 *appletEd* can be launched by calling
 [<APT:StartLibraryApplet>](APT:StartLibraryApplet "wikilink") with
 [AppID](NS_and_APT_Services#AppIDs "wikilink") 0x402. It expects a
-pointer to a [buffer](#Parameter_Buffer "wikilink") of 0x104 bytes to be
+pointer to a [buffer](#parameter_buffer "wikilink") of 0x104 bytes to be
 passed as parameter. It does not use other resources, so an invalid
 [handle](SVC#typedef_Handle "wikilink") of value 0 is expected.
 

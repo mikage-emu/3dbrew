@@ -240,14 +240,14 @@ OSS diff:
 `--- a/NewNintendo3DS_OpenSources9.9.0-/webkit/WebCore/ChangeLog`
 `+++ b/NewNintendo3DS_OpenSources10.2.0-/webkit/WebCore/ChangeLog`
 `@@ -1,3 +1,12 @@`
-`+2013-11-05  Ryosuke Niwa  <rniwa@webkit.org>`
+`y+2013-11-05  Ryosuke Niwa  <rniwa@webkit.org>`
 `+`
 `+        Use-after-free in SliderThumbElement::dragFrom`
-`+        `[`https://bugs.webkit.org/show_bug.cgi?id=123873`](https://bugs.webkit.org/show_bug.cgi?id=123873)
+`+        https://bugs.webkit.org/show_bug.cgi?id=123873`
 `+`
 `+        Reviewed by Andreas Kling.`
 `+`
-`+        Merge `[`https://chromium.googlesource.com/chromium/blink/+/04a23bfca2d04101a1828d36ff36c29f3a24f34b`](https://chromium.googlesource.com/chromium/blink/+/04a23bfca2d04101a1828d36ff36c29f3a24f34b)
+`+        Merge https://chromium.googlesource.com/chromium/blink/+/04a23bfca2d04101a1828d36ff36c29f3a24f34b`
 `+`
 ` 2015-02-06  Maciej Stachowiak  <mjs@apple.com>`
 ` `
@@ -260,14 +260,14 @@ OSS diff:
 `+2014-01-21  Laszlo Lango  <llango.u-szeged@partner.samsung.com>`
 ` `
 `         Assertion failure in Range::nodeWillBeRemoved`
-`         `[`https://bugs.webkit.org/show_bug.cgi?id=121694`](https://bugs.webkit.org/show_bug.cgi?id=121694)
+`         https://bugs.webkit.org/show_bug.cgi?id=121694`
 `@@ -1879,7 +1888,7 @@`
 ` `
 ` 2012-09-14  Simon Fraser  <simon.fraser@apple.com>`
 ` `
 `-        REGRESSION: transition doesnât always override transition-property`
 `+        REGRESSION: transition doesnft always override transition-property`
-`         `[`https://bugs.webkit.org/show_bug.cgi?id=96658`](https://bugs.webkit.org/show_bug.cgi?id=96658)
+`         https://bugs.webkit.org/show_bug.cgi?id=96658`
 ` `
 `         Reviewed by Dean Jackson.`
 `@@ -3691,8 +3700,8 @@`
@@ -290,7 +290,7 @@ OSS diff:
 `     if (targetNode != element() && !targetNode->isDescendantOf(element()->shadowTree()->oldestShadowRoot()))`
 `         return;`
 `-    SliderThumbElement* thumb = sliderThumbElementOf(element());`
-`+    RefPtr`<SliderThumbElement>` thumb = sliderThumbElementOf(element());`
+`+    RefPtr<SliderThumbElement> thumb = sliderThumbElementOf(element());`
 `     if (targetNode == thumb)`
 `         return;`
 `     thumb->dragFrom(event->absoluteLocation());`
@@ -520,11 +520,8 @@ which the 3DS does not support.
 
 #### Notes
 
-- Viewport information can be specified with the
-  <meta>
-
-  element.
-- The html "color" <input> type is not supported.
+- Viewport information can be specified with the `<meta>` element.
+- The html "color" `<input>` type is not supported.
 - 3D images appear as their right-eye image within webpages.
 - Webpages are locked to the bottom screen when zooming is disabled, the
   webpage's initial scale is 1, and the entire webpage can fit within
@@ -565,11 +562,10 @@ Old3DS browser doesn't support events "focusin" and "focusout"
 
 ### User-Agent and Browser Versions
 
-User-agent format:
-`Mozilla/5.0 (Nintendo 3DS; U; ; `<lang>`) Version/`<version>`.`<region>.
+User-agent format: `Mozilla/5.0 (Nintendo 3DS; U; ; <lang>) Version/<version>.<region>`
 
-<lang> is "en", "fr", etc. <region> is "US", "EU", etc. See below for
-<version>.
+`<lang>` is "en", "fr", etc. <region> is "US", "EU", etc. See below for
+`<version>`.
 
 <table>
 <thead>
@@ -937,11 +933,11 @@ returns 0.
 
 `if(internal_browserver > server_browserver)`
 `{`
-`    `<safe>
+`    <safe>`
 `}`
 `else`
 `{`
-`    `<update message>
+`    <update message>`
 `}`
 
 Hence, internal_browserver == server_browserver will trigger the
@@ -1067,7 +1063,9 @@ then fails with favicon in this case, this error would then trigger.
   Nintendo 3DS system memory can be uploaded to blogs or other sites
   that allow the uploading of photos using :
 
+```
 <input type="file" />
+```
 
 - HTML5Test.com say that Drag and drop is supported but it's not (code
   on WebKit is ready, but it's not implemented on interface of browser)
@@ -1200,33 +1198,23 @@ Generally the easiest way to accomplish the correct layout is to create
 HTML elements that "contain" the top and bottom screens. Here's an
 example:
 
-`<!DOCTYPE html>`
-
+```
+<!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=400, initial-scale=1">
-<style>
-
-`      body { margin: 0px; }`
-`      #topscreen { width: 400px; height: 215px; overflow: hidden; background-color: red; }`
-`      #bottomscreen { width: 320px; height: 212px; overflow: hidden; background-color: blue; margin: 0 40px 28px; }`
-`    `
-
-</style>
-</head>
-<body>
-<div id="topscreen">
-
-Top Screen
-
-</div>
-<div id="bottomscreen">
-
-Bottom Screen
-
-</div>
-</body>
+  <head>
+    <meta name="viewport" content="width=400, initial-scale=1">
+    <style>
+      body { margin: 0px; }
+      #topscreen { width: 400px; height: 215px; overflow: hidden; background-color: red; }
+      #bottomscreen { width: 320px; height: 212px; overflow: hidden; background-color: blue; margin: 0 40px 28px; }
+    </style>
+  </head>
+  <body>
+    <div id="topscreen">Top Screen</div>
+    <div id="bottomscreen">Bottom Screen</div>
+  </body>
 </html>
+```
 
 This scheme allows the page to be easily manipulated through JavaScript.
 In order to have the window snap to the correct position, use the
@@ -1238,11 +1226,7 @@ following JavaScript code:
 
 This automatically resets the position if the user accidentally scrolls
 the page. Zooming should probably also be disabled by adding
-`user-scalable=no` to the
-
-<meta>
-
-viewport element, though this will only have an effect in the New3DS
+`user-scalable=no` to the `<meta>` viewport element, though this will only have an effect in the New3DS
 browser.
 
 ## Example Sites

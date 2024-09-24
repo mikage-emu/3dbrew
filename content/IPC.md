@@ -313,8 +313,8 @@ Usage examples:
 `Result ReplyAndReceive(s32* index, Handle* handles, s32 handleCount, Handle replyTarget)`
 
 In a single operation, sends a IPC reply and waits for a new request.
-`handles` should be a pointer to an array of `handleCount`
-handles.<sup>TODO: Are only port/session handles supported?</sup>
+`handles` should be a pointer to an array of `handleCount` handles.<sup>TODO:
+Are only port/session handles supported?</sup>
 `replyTarget` should contain a handle to the session to send the reply
 to. (This is usually the session from which we received the previous
 request.) If `replyTarget` is 0, no reply and the call will simply wait
@@ -332,32 +332,34 @@ and then reply to it by calling svcReplyAndReceive again with
 
 An example of a server svcReplyAndReceive loop is:
 
-`#define MAX_CLIENTS 4`
-`Handle server_port = ...;`
-`s32 requesting_index;`
-`Handle handles[1 + MAX_CLIENTS] = { server_port };`
-`s32 connected_clients = 0;`
-`Handle reply_target = 0;`
+```
+#define MAX_CLIENTS 4
+Handle server_port = ...;
+s32 requesting_index;
+Handle handles[1 + MAX_CLIENTS] = { server_port };
+s32 connected_clients = 0;
+Handle reply_target = 0;
 
-`while (true) {`
-`    Result res = svcReplyAndReceive(&requesting_index, handles, 1 + connected_clients, reply_target);`
+while (true) {
+    Result res = svcReplyAndReceive(&requesting_index, handles, 1 + connected_clients, reply_target);
 
-`    if (res == 0xC920181A) {`
-`        // Session was closed by remote`
-`        // TODO: Handle disconnects`
-`        reply_target = 0;`
-`        continue;`
-`    }`
+    if (res == 0xC920181A) {
+        // Session was closed by remote
+        // TODO: Handle disconnects
+        reply_target = 0;
+        continue;
+    }
 
-`    if (requesting_index == 0) {`
-`        // New connection in server_port`
-`        ASSERT(connected_client < MAX_CLIENTS);`
-`        svcAcceptSession(&handles[1 + connected_clients++], server_port);`
-`        reply_target = 0;`
-`        continue;`
-`    }`
+    if (requesting_index == 0) {
+        // New connection in server_port
+        ASSERT(connected_client < MAX_CLIENTS);
+        svcAcceptSession(&handles[1 + connected_clients++], server_port);
+        reply_target = 0;
+        continue;
+    }
 
-`    reply_target = handles[requesting_index];`
+    reply_target = handles[requesting_index];
 
-`    // Handle command here and write reply to command buffer`
-`}`
+    // Handle command here and write reply to command buffer
+}
+```

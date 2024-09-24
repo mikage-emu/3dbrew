@@ -138,22 +138,15 @@ Yaz0 compressed BCH files.
 This folder has the sounds and music used ingame. It has the following
 files inside:
 
-`sound`
-`├── center.bcsar`
-`├── center.bkas`
-`├── dspaudio.cdc`
-`└── stream`
-`    ├── `
-
-<audio file name>
-
-.aac
-
-`    └── `
-
-<audio file name>
-
-.bcstm
+```
+sound
+├── center.bcsar
+├── center.bkas
+├── dspaudio.cdc
+└── stream
+    ├── <audio file name>.aac
+    └── <audio file name>.bcstm
+```
 
 ## ExtData
 
@@ -219,15 +212,16 @@ following sructure:
 
 The post.xml file contains the following data:
 
+```
 <?xml version="1.0" encoding="utf-8"?>
-
 <DistributablePost xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-`  `<index>`x`</index>
-`  `<Id><Post ID></Id>
-`  `<Name>`Mii name`</Name>
-`  `<PathMii>`Mii.Etc1_a4`</PathMii>
-`  `<PathImage>`Image.jpg`</PathImage>
+  <index>x</index>
+  <Id><Post ID></Id>
+  <Name>Mii name</Name>
+  <PathMii>Mii.Etc1_a4</PathMii>
+  <PathImage>Image.jpg</PathImage>
 </DistributablePost>
+```
 
 The Mii.Etc1_a4 image has a 128x128 resolution.
 
@@ -240,7 +234,7 @@ with the badges and machines available for the belonging week.
 The file is named using the starting and ending dates that the
 collection is active for, in yy/mm/dd format separated with an
 underscore. For example, a collection active between the dates December
-15th, 2022 to December 22nd, 2022 is named \`221215_221222.sarc\`
+15th, 2022 to December 22nd, 2022 is named `221215_221222.sarc`.
 
 #### talkpic
 
@@ -249,7 +243,7 @@ files. Each SARC file has the following content:
 
 `root`
 `└── talkpic`
-`    └── `<Name of SARC file>
+`    └── <Name of SARC file>`
 `        └── The images...`
 
 #### xml
@@ -263,64 +257,54 @@ promotional images. It has the following structure:
 
 The TalkPic.xml file has the following data:
 
+```
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
-
 <CenterTalkPicProperty>
-`    `<TalkPicSet>
-`        `<TalkPic Key='<Name of image>`' Arc='`<Name of SARC file>`' Width='512' Height='256' Format='Etc1 or Etc1_a4 or Rgb565' Type='400x240 (Original image resolution?)' Path='path/to/image'/>`
-`    `</TalkPicSet>
+    <TalkPicSet>
+        <TalkPic Key='<Name of image>' Arc='<Name of SARC file>' Width='512' Height='256' Format='Etc1 or Etc1_a4 or Rgb565' Type='400x240 (Original image resolution?)' Path='path/to/image'/>
+    </TalkPicSet>
 </CenterTalkPicProperty>
+```
 
 #### Schedule.xml
 
 This file controls the availability of each of the features inside this
 structure within the specified dates. It has the following data:
 
+```
 <?xml version="1.0" encoding="utf-8"?>
-
 <FileItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-`  `<Items>
-`    `<FileItem>
-`      `<DateStartText>`YYYYmmdd`</DateStartText>
-`      `<DateExpireText>`YYYYmmdd`</DateExpireText>
-`      `<ColorText>`#aaaaff`</ColorText>
-`      `<Comment />
-`      `<RegexSetName>`MessageDir`</RegexSetName>
-`      `<Expression>`boss/output/message/(?`<Region>`boss_(JPN|EUR|USA))/(?`<Locale>`[a-zA-Z]+)/boss/(?`
-
-<Dir>
-
-.+)</Expression>
-
-`      `<KeyVariable>`Boss/`</KeyVariable>
-`      `<ValueVariable>`boss/$(Dir)/`</ValueVariable>
-`      `<OutputVariable>`boss/archive_src/$(ArchiveName)/message/$(Region)/$(Locale)/boss/$(Dir)/`</OutputVariable>
-`      `<PreviewVariable />
-`      `<CommandVariable>`path/to/command_used.bat`</CommandVariable>
-`      `<ArgumentsVariable />
-`      `<Key>`Boss/`</Key>
-`      `<Value>`boss/slotAXX/`</Value>
-`      `
-
-<Output>
-
-boss/archive_src/BossYYYYmmdd_YYYYmmdd/message/boss_XXX/XXxx/boss/slotAXX/
-
-</Output>
-
-`      `<Preview />
-`      `<SrcPath>`boss/output/message/boss_XXX/XXxx/boss/slotAXX`</SrcPath>
-`      `<Command>`path/to/command_used.bat`</Command>
-`      `<Arguments />
-`    `</FileItem>
-`  `</Items>
-`  `<ItemsCount><Number of items></ItemsCount>
-`  `<BasePath>`%CTR_CENTER_ROOT%/`</BasePath>
-`  `<XMLPath>`boss/archive_src/$(ArchiveName)/Schedule.xml`</XMLPath>
-`  `<ArchiveName>`Boss$(DateFrom)_$(DateTo)`</ArchiveName>
-`  `<DateFrom>`YYYY-mm-ddT00:00:00`</DateFrom>
-`  `<DateTo>`YYYY-mm-ddT00:00:00`</DateTo>
+  <Items>
+    <FileItem>
+      <DateStartText>YYYYmmdd</DateStartText>
+      <DateExpireText>YYYYmmdd</DateExpireText>
+      <ColorText>#aaaaff</ColorText>
+      <Comment />
+      <RegexSetName>MessageDir</RegexSetName>
+      <Expression>boss/output/message/(?<Region>boss_(JPN|EUR|USA))/(?<Locale>[a-zA-Z]+)/boss/(?<Dir>.+)</Expression>
+      <KeyVariable>Boss/</KeyVariable>
+      <ValueVariable>boss/$(Dir)/</ValueVariable>
+      <OutputVariable>boss/archive_src/$(ArchiveName)/message/$(Region)/$(Locale)/boss/$(Dir)/</OutputVariable>
+      <PreviewVariable />
+      <CommandVariable>path/to/command_used.bat</CommandVariable>
+      <ArgumentsVariable />
+      <Key>Boss/</Key>
+      <Value>boss/slotAXX/</Value>
+      <Output>boss/archive_src/BossYYYYmmdd_YYYYmmdd/message/boss_XXX/XXxx/boss/slotAXX/</Output>
+      <Preview />
+      <SrcPath>boss/output/message/boss_XXX/XXxx/boss/slotAXX</SrcPath>
+      <Command>path/to/command_used.bat</Command>
+      <Arguments />
+    </FileItem>
+  </Items>
+  <ItemsCount><Number of items></ItemsCount>
+  <BasePath>%CTR_CENTER_ROOT%/</BasePath>
+  <XMLPath>boss/archive_src/$(ArchiveName)/Schedule.xml</XMLPath>
+  <ArchiveName>Boss$(DateFrom)_$(DateTo)</ArchiveName>
+  <DateFrom>YYYY-mm-ddT00:00:00</DateFrom>
+  <DateTo>YYYY-mm-ddT00:00:00</DateTo>
 </FileItems>
+```
 
 Each FileItem's content varies depending on its RegexSetName. Below are
 the possible values:

@@ -1122,15 +1122,13 @@ then fails with favicon in this case, this error would then trigger.
 To detect if the user agent is the Nintendo 3DS Internet Browser (not
 including mobile site mode):
 
+```
 <script type="text/javascript">
-
-```
     if(navigator.userAgent.indexOf("Nintendo 3DS") == -1) { // If the user agent does not contain "Nintendo 3DS"
-        location.replace("http://www.3dbrew.org"); // Redirect to another page
+        location.replace("https://example.com"); // Redirect to another page
     }
-```
-
 </script>
+```
 
 - You can check using `navigator.platform.indexOf("Nintendo 3DS") > -1`
   as well.

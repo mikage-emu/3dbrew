@@ -86,14 +86,16 @@ StreetPass services. The sequence numbers for these probe request
 increment by 3 for every probe, until another 3DS responds with a probe
 response.
 
-` 0000   00 00 1a 00 2f 48 00 00 19 7d 19 de 2a 00 00 00  ..../H...}..*...`
-` 0010   12 16 9e 09 a0 00 c9 02 00 00 40 00 00 00 ff ff  ..........@.....`
-` 0020   ff ff ff ff da 6b f7 22 f3 77 ff ff ff ff ff ff  .....k.".w......`
-` 0030   40 77 00 20 4e 69 6e 74 65 6e 64 6f 5f 33 44 53  @w. Nintendo_3DS`
-` 0040   5f 63 6f 6e 74 69 6e 75 6f 75 73 5f 73 63 61 6e  _continuous_scan`
-` 0050   5f 30 30 30 01 08 82 84 8b 0c 12 96 18 24 32 04  _000.........$2.`
+```
+ 0000   00 00 1a 00 2f 48 00 00 19 7d 19 de 2a 00 00 00  ..../H...}..*...
+ 0010   12 16 9e 09 a0 00 c9 02 00 00 40 00 00 00 ff ff  ..........@.....
+ 0020   ff ff ff ff da 6b f7 22 f3 77 ff ff ff ff ff ff  .....k.".w......
+ 0030   40 77 00 20 4e 69 6e 74 65 6e 64 6f 5f 33 44 53  @w. Nintendo_3DS
+ 0040   5f 63 6f 6e 74 69 6e 75 6f 75 73 5f 73 63 61 6e  _continuous_scan
+ 0050   5f 30 30 30 01 08 82 84 8b 0c 12 96 18 24 32 04  _000.........$2.
 ``  0060   30 48 60 6c dd 15 00 1f 32 01 11 05 00 02 08 00  0H`l....2....... ``
-` 0070   00 f0 08 c8 34 6e 05 0f c9 c6 80 5b 6f bc 5a     ....4n.....[o.Z`
+ 0070   00 f0 08 c8 34 6e 05 0f c9 c6 80 5b 6f bc 5a     ....4n.....[o.Z
+```
 
 #### Nintendo Tag Format
 
@@ -134,22 +136,26 @@ service seems to be identified by a 5-byte ID. If you enable or disable
 services, the number of 5-byte IDs grows and shrinks within this list.
 Observed service IDs include:
 
-` Mii Plaza: 00 02 08 00 00`
-` Ridge Racer: 00 03 58 00 30`
-` Sims 3: 00 03 65 00 30`
-` Street Fighter: 00 03 05 00 02 (FF FF FF FF FF FF)`
+```
+ Mii Plaza: 00 02 08 00 00
+ Ridge Racer: 00 03 58 00 30
+ Sims 3: 00 03 65 00 30
+ Street Fighter: 00 03 05 00 02 (FF FF FF FF FF FF)
+```
 
 The first 4 bytes are the titleID of the service, the last byte seems to
 contain flags.
 
 The last byte (flags) have been observed between those possibilities :
 
-` 00000000`
-` 00000010`
-` 00010000`
-` 00100000`
-` 00110000`
-` 00110010`
+```
+ 00000000
+ 00000010
+ 00010000
+ 00100000
+ 00110000
+ 00110010
+```
 
 Only the bits 2,5,6 were used. When set, the bit n°2 indicates the
 presence of a followinf 6-byte field filled with 0xff.
@@ -165,8 +171,10 @@ locations.
 
 The fact that a same titleID can have different flags should be noted.
 
-` 0db6-00100000 5`
-` 0db6-00110000 20`
+```
+ 0db6-00100000 5
+ 0db6-00110000 20
+```
 
 | Occurrences | TitleID | Flags    |
 |-------------|---------|----------|

@@ -624,15 +624,19 @@ code which uses the MPCore private memory region registers.</p></td>
 
 Input:
 
-`R0 = unused`
-`R1 = Handle process`
-`R2 = ProcessInfoType type`
+```
+R0 = unused
+R1 = Handle process
+R2 = ProcessInfoType type
+```
 
 Output:
 
-`R0 = Result`
-`R1 = output value lower word`
-`R2 = output value upper word`
+```
+R0 = Result
+R1 = output value lower word
+R2 = output value upper word
+```
 
 | ProcessInfoType value | Available since system version                                                           | Description                                                                                                                                                                                                                                                                                     |
 |-----------------------|------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -714,10 +718,12 @@ This same register is also initialized during kernel boot starting with
 
 Like what NWM did previously, this one does the following:
 
-` if (in_flag)`
-`    CFG11_WIFICNT |= 1;`
-` else`
-`    CFG11_WIFICNT &= ~1;`
+```
+ if (in_flag)
+    CFG11_WIFICNT |= 1;
+ else
+    CFG11_WIFICNT &= ~1;
+```
 
 # Kernel error-codes
 

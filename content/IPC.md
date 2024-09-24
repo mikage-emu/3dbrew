@@ -310,7 +310,9 @@ Usage examples:
 
 **Signature:**
 
-`Result ReplyAndReceive(s32* index, Handle* handles, s32 handleCount, Handle replyTarget)`
+```
+Result ReplyAndReceive(s32* index, Handle* handles, s32 handleCount, Handle replyTarget)
+```
 
 In a single operation, sends a IPC reply and waits for a new request.
 `handles` should be a pointer to an array of `handleCount` handles.<sup>TODO:

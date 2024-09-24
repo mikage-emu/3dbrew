@@ -9,9 +9,13 @@ DSiWare?), including demos and updates.
 
 ## URLs
 
-`https://idbe-ctr.cdn.nintendo.net/icondata/`**`%02X`**`/`**`%016llX`**`.idbe`
+```
+https://idbe-ctr.cdn.nintendo.net/icondata/`**`%02X`**`/`**`%016llX`**`.idbe
+```
 
-`https://idbe-ctr.cdn.nintendo.net/icondata/`**`%02X`**`/`**`%016llX`**`-`**`%d`**`.idbe`
+```
+https://idbe-ctr.cdn.nintendo.net/icondata/`**`%02X`**`/`**`%016llX`**`-`**`%d`**`.idbe
+```
 
 **%02X** seems to always be 0x10 (?)
 

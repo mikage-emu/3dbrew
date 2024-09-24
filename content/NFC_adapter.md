@@ -94,56 +94,60 @@ may use one byte or two, depending on the how big the payload is.
 
 In C:
 
-`uint8_t * setPacketHeader(uint8_t * buffer, size_t payloadSize) {`
-`    assert(payloadSize < 16384);`
+```
+uint8_t * setPacketHeader(uint8_t * buffer, size_t payloadSize) {
+    assert(payloadSize < 16384);
 ``
-`    buffer[0] = 0xA5;`
-`    buffer[1] = 0x00;`
+    buffer[0] = 0xA5;
+    buffer[1] = 0x00;
 ``
-`    if (payloadSize < 64) {`
-`        buffer[2] = payloadSize;`
-`        buffer += 3;`
-`    } else {`
-`        buffer[2] = 0x40 | (payloadSize >> 8);`
-`        buffer[3] = payloadSize;`
-`        buffer += 4;`
-`    }`
+    if (payloadSize < 64) {
+        buffer[2] = payloadSize;
+        buffer += 3;
+    } else {
+        buffer[2] = 0x40 | (payloadSize >> 8);
+        buffer[3] = payloadSize;
+        buffer += 4;
+    }
 ``
-`    return buffer;`
-`}`
+    return buffer;
+}
+```
 
 ### Payload
 
 The payload is obfuscated using a XOR-based encryption. In C:
 
-`void payloadObfuscate(const void * voidplain, void * voidcipher, size_t size) {`
-`    uint16_t * plain = (uint16_t *) voidplain;`
-`    uint16_t * cipher = (uint16_t *) voidcipher;`
-`    size_t halfCount = size >> 1; // Divide by 2 rounding towards zero`
+```
+void payloadObfuscate(const void * voidplain, void * voidcipher, size_t size) {
+    uint16_t * plain = (uint16_t *) voidplain;
+    uint16_t * cipher = (uint16_t *) voidcipher;
+    size_t halfCount = size >> 1; // Divide by 2 rounding towards zero
 ``
-`    uint16_t xorval = htobe16(0xE963);`
-`    size_t i;`
+    uint16_t xorval = htobe16(0xE963);
+    size_t i;
 ``
-`    for (i = 0; i < halfCount; i++) {`
-`        xorval ^= plain[i];`
-`        cipher[i] = xorval;`
-`    }`
-`}`
+    for (i = 0; i < halfCount; i++) {
+        xorval ^= plain[i];
+        cipher[i] = xorval;
+    }
+}
 ``
-`void payloadDeobfuscate(const void * voidcipher, void * voidplain, size_t size) {`
-`    uint16_t * cipher = (uint16_t *) voidcipher;`
-`    uint16_t * plain = (uint16_t *) voidplain;`
-`    size_t halfCount = size >> 1; // Divide by 2 rounding towards zero`
+void payloadDeobfuscate(const void * voidcipher, void * voidplain, size_t size) {
+    uint16_t * cipher = (uint16_t *) voidcipher;
+    uint16_t * plain = (uint16_t *) voidplain;
+    size_t halfCount = size >> 1; // Divide by 2 rounding towards zero
 ``
-`    uint16_t xorval = htobe16(0xE963);`
-`    size_t i;`
+    uint16_t xorval = htobe16(0xE963);
+    size_t i;
 ``
-`    for (i = 0; i < halfCount; i++) {`
-`        uint16_t word = plain[i];`
-`        cipher[i] = xorval ^ word;`
-`        xorval = word;`
-`    }`
-`}`
+    for (i = 0; i < halfCount; i++) {
+        uint16_t word = plain[i];
+        cipher[i] = xorval ^ word;
+        xorval = word;
+    }
+}
+```
 
 ### Error detection
 
@@ -244,7 +248,9 @@ Layer 3 contains the following data:
 #### 0x0000
 
 Acknowledgement message always send by slave. Payload always contains
-`0x000000AA`
+```
+0x000000AA
+```
 
 #### 0x0004
 

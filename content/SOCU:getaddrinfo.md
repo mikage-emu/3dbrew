@@ -2,21 +2,25 @@
 title = 'SOCU:getaddrinfo'
 +++
 
-` int socu_getaddrinfo(const char *node, const char *service, const struct addrinfo *hints, struct addrinfo **res, addrinfo_3ds_t *info, s32 info_count, s32 * count)`
+```
+ int socu_getaddrinfo(const char *node, const char *service, const struct addrinfo *hints, struct addrinfo **res, addrinfo_3ds_t *info, s32 info_count, s32 * count)
+```
 
 This function will store each result entry in the form of the following
 structure :
 
-`struct addrinfo_3ds_t`
-`{`
-`   s32                     ai_flags;`
-`   s32                     ai_family;`
-`   s32                     ai_socktype;`
-`   s32                     ai_protocol;`
-`   u32                     ai_addrlen;`
-`   char                    ai_canonname[256];`
-`   struct sockaddr_storage ai_addr;`
-`};`
+```
+struct addrinfo_3ds_t
+{
+   s32                     ai_flags;
+   s32                     ai_family;
+   s32                     ai_socktype;
+   s32                     ai_protocol;
+   u32                     ai_addrlen;
+   char                    ai_canonname[256];
+   struct sockaddr_storage ai_addr;
+};
+```
 
 Its size is 0x130.
 

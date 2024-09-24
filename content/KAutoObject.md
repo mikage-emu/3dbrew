@@ -15,11 +15,13 @@ Size : 0x8 bytes
 
 # Class Definition
 
-`   class KAutoObject {`
-`    public:`
-`       u32 m_referenceCount;       // 0x4`
-`    protected:`
-`       virtual ~KAutoObject() { }`
-`   };`
+```
+   class KAutoObject {
+    public:
+       u32 m_referenceCount;       // 0x4
+    protected:
+       virtual ~KAutoObject() { }
+   };
+```
 
 [Category:Kernel auto objects](Category:Kernel_auto_objects "wikilink")

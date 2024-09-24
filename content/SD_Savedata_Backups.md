@@ -16,14 +16,18 @@ able to backup, restore and delete savedata backups. There are however,
 
 Savedata backups are located in the directory:
 
-`sdmc:/Nintendo 3DS/`<ID0>`/`<ID1>`/backups`
+```
+sdmc:/Nintendo 3DS/`<ID0>`/`<ID1>`/backups
+```
 
 The savedata backup directory structure(this structure is repeated for
 every slot):
 
-`backups`
-`└───XXX`
-`    └───`<Application TitleID>
+```
+backups
+└───XXX
+    └───
+```<Application TitleID>
 
 - **XXX** - A three digit hexadecimal number representing the slot
   number i.e. (000-01d).

@@ -35,11 +35,13 @@ below table.
 
 Inside the romfs data, we can find the following folders:
 
-`root`
-`├── message`
-`├── primitive_renderer`
-`├── region_common`
-`└── region_XXX`
+```
+root
+├── message
+├── primitive_renderer
+├── region_common
+└── region_XXX
+```
 
 - "message" has all in-game dialogues
 - "region_common" has a similar scheme to data.dat, but has all in-game
@@ -52,15 +54,17 @@ Inside the romfs data, we can find the following folders:
 
 The message folder has the following structure:
 
-`message`
-`├── boss_EUR`
-`    └─ XXxx`
-`├── boss_JPN`
-`    └─ XXxx`
-`├── boss_USA`
-`    └─ XXxx`
-`└── rom`
-`    └─ XXxx`
+```
+message
+├── boss_EUR
+    └─ XXxx
+├── boss_JPN
+    └─ XXxx
+├── boss_USA
+    └─ XXxx
+└── rom
+    └─ XXxx
+```
 
 Where XX goes the region and xx belongs to the language. The dialogues
 are stored within SARC files.
@@ -77,15 +81,17 @@ Tags](Nintendo_Badge_Arcade/Format_Tags "wikilink").
 The region_common folder stores all assets that aren't region dependent.
 Below are the assets folders:
 
-`region_common`
-`├── banner`
-`├── camera`
-`├── cfl`
-`├── effect`
-`├── layout`
-`├── model`
-`├── scene`
-`└── sound`
+```
+region_common
+├── banner
+├── camera
+├── cfl
+├── effect
+├── layout
+├── model
+├── scene
+└── sound
+```
 
 #### banner
 
@@ -113,10 +119,12 @@ the following files:
 
 These folders contain layout, Images and Animation for basic UI
 
-`root`
-`├── anim`
-`├── blyt`
-`└── timg`
+```
+root
+├── anim
+├── blyt
+└── timg
+```
 
 #### model
 
@@ -168,33 +176,37 @@ structure.
 
 All game data stored here has the following structure:
 
-`root`
-`├── message`
-`├── post`
-`├── sharc`
-`├── talkpic`
-`├── xml`
-`└── Schedule.xml`
+```
+root
+├── message
+├── post
+├── sharc
+├── talkpic
+├── xml
+└── Schedule.xml
+```
 
 #### message
 
 This folder stores all online-related game dialogues on each language
 supported by the region. It goes down the following directories:
 
-`message`
-`└── boss_XXX`
-`    └── XXxx`
-`        └── boss`
-`            └── slotAXX`
-`                ├── BossText.msbt`
-`                ├── Emergency.msbf`
-`                ├── HallAd.msbf`
-`                ├── PaidTalk.msbf`
-`                ├── PostComment.msbf`
-`                ├── RetnHall.msbf`
-`                ├── StartUp.msbf`
-`                ├── ThemeShop.msbf`
-`                └── Training.msbf`
+```
+message
+└── boss_XXX
+    └── XXxx
+        └── boss
+            └── slotAXX
+                ├── BossText.msbt
+                ├── Emergency.msbf
+                ├── HallAd.msbf
+                ├── PaidTalk.msbf
+                ├── PostComment.msbf
+                ├── RetnHall.msbf
+                ├── StartUp.msbf
+                ├── ThemeShop.msbf
+                └── Training.msbf
+```
 
 Where X goes the region, and x belongs to the language. Within slotAXX,
 A is a letter and XX are numbers.
@@ -205,10 +217,12 @@ This folder stores all Miiverse posts related to customizing the Home
 Menu with themes and badges. Each SARC file inside here has the
 following sructure:
 
-`root`
-`├── Image.jpg`
-`├── Mii.Etc1_a4`
-`└── post.xml`
+```
+root
+├── Image.jpg
+├── Mii.Etc1_a4
+└── post.xml
+```
 
 The post.xml file contains the following data:
 
@@ -241,19 +255,23 @@ underscore. For example, a collection active between the dates December
 This folder contains the promotional images shown on the hub inside SARC
 files. Each SARC file has the following content:
 
-`root`
-`└── talkpic`
-`    └── <Name of SARC file>`
-`        └── The images...`
+```
+root
+└── talkpic
+    └── <Name of SARC file>
+        └── The images...
+```
 
 #### xml
 
 This folder has some XML data that controls the parameters of the
 promotional images. It has the following structure:
 
-`xml`
-`└── talkpic`
-`    └── TalkPic.xml`
+```
+xml
+└── talkpic
+    └── TalkPic.xml
+```
 
 The TalkPic.xml file has the following data:
 

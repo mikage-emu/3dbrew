@@ -12,7 +12,9 @@ title = 'Cfg:TranslateCountryInfo'
 
 # Description
 
-`This goes through table matching country info code between version A and version B. If the specified code doesn't exist in the table, the original code is returned as the translated code. Currently the table only contains 5 entries, all of which are in country 0x6E (GB, United Kingdom):`
+```
+This goes through table matching country info code between version A and version B. If the specified code doesn't exist in the table, the original code is returned as the translated code. Currently the table only contains 5 entries, all of which are in country 0x6E (GB, United Kingdom):
+```
 
 | Version A code | Version B code |
 |----------------|----------------|

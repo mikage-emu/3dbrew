@@ -16,14 +16,16 @@ note data stored. The graphics data for these notes are stored via MPOs.
 The ExtData [File System](Extdata#Filesystem "wikilink") for Swapnote is
 as follows:
 
-`root`
-`├── icon`
-`├── boss`
-`│   └── wTJ$.LlMB~!!+s2`
-`└── user`
-`    ├── letter.tmp`
-`    ├── fruit.tbl`
-`    ├── 000`
-`    │   └── XXX (where XXX is the result of sprintf(filename,"%03x",value); )`
-`    └── letterpaper`
-`         └── XXX.apd (where XXX.apd is the result of sprintf(filename,"%03x.apd",value); )`
+```
+root
+├── icon
+├── boss
+│   └── wTJ$.LlMB~!!+s2
+└── user
+    ├── letter.tmp
+    ├── fruit.tbl
+    ├── 000
+    │   └── XXX (where XXX is the result of sprintf(filename,"%03x",value); )
+    └── letterpaper
+         └── XXX.apd (where XXX.apd is the result of sprintf(filename,"%03x.apd",value); )
+```

@@ -59,25 +59,31 @@ reply before sending another command request for that same pxi_id).
 
 ## Request
 
-`A11->A9 (u32) pxi_id`
-`A11->A9 (u32) cmd_hdr`
-`A11->A9 (u32[]) cmd_buf`
+```
+A11->A9 (u32) pxi_id
+A11->A9 (u32) cmd_hdr
+A11->A9 (u32[]) cmd_buf
+```
 
 ## Response
 
-`A9->A11 (u32) pxi_id`
-`A9->A11 (u32) cmd_hdr`
-`A9->A11 (u32[]) cmd_buf`
+```
+A9->A11 (u32) pxi_id
+A9->A11 (u32) cmd_hdr
+A9->A11 (u32[]) cmd_buf
+```
 
 ## pxi_id
 
-`0 = pxi_mc`
-`1 = pxi_fs`
-`2 = pxi_fs`
-`3 = pxi_fs`
-`4 = pxi_fs`
-`5 = pxi_pm`
-`6 = pxi_dev`
-`7 = pxi_am`
-`8 = pxi_ps`
-`9 = pxi_11`
+```
+0 = pxi_mc
+1 = pxi_fs
+2 = pxi_fs
+3 = pxi_fs
+4 = pxi_fs
+5 = pxi_pm
+6 = pxi_dev
+7 = pxi_am
+8 = pxi_ps
+9 = pxi_11
+```

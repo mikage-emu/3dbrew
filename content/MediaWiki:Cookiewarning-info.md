@@ -9,7 +9,9 @@ message of use and consent to the use.
 
 The following cookies are stored and shared when accessing this website:
 
-`- Internal cookies for the MediaWiki site. This is used for user authentication and article modifications. `
-`- Third-party cookies from Google providing services for Google AdSense and Google Analytics`
+```
+- Internal cookies for the MediaWiki site. This is used for user authentication and article modifications. 
+- Third-party cookies from Google providing services for Google AdSense and Google Analytics
+```
 
 We will never use data collected outside of the above scope.

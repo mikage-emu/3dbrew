@@ -6,17 +6,19 @@ title = 'PrizeCollection'
 
 A **PrizeCollection** SARC file has the following folder structure:
 
-`root`
-`└── pc`
-`    ├── PrizeCollection.xml`
-`    ├── ci`
-`    └── rt`
-`        ├── At`
-`        ├── CI`
-`        ├── Ca`
-`        ├── Cr`
-`        ├── FO`
-`        └── Pr`
+```
+root
+└── pc
+    ├── PrizeCollection.xml
+    ├── ci
+    └── rt
+        ├── At
+        ├── CI
+        ├── Ca
+        ├── Cr
+        ├── FO
+        └── Pr
+```
 
 Each of the subfolders contains a custom file format storing different
 properties between those. Each of those files are compressed using Yaz0

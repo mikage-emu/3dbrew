@@ -92,13 +92,15 @@ RTC-related registers are used. They contain the following structure,
 set up on the stack then both u32 registers are written one after the
 other:
 
-`s8 year_since_2000_bcd;`
-`s8 month_bcd;`
-`s8 day_bcd;`
-`s8 day_of_week;`
-`s8 hour_bcd;`
-`s8 minute_bcd;`
-`s8 second_bcd;`
+```
+s8 year_since_2000_bcd;
+s8 month_bcd;
+s8 day_bcd;
+s8 day_of_week;
+s8 hour_bcd;
+s8 minute_bcd;
+s8 second_bcd;
+```
 
 ### ARM7_RTC_VAL_SETTINGS
 

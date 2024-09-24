@@ -131,40 +131,58 @@ nand/data/<ID0>. The nand/data/<ID0>/extdata directory contains the
 shared [extdata](extdata "wikilink"), and is structured exactly the same
 way as SD extdata.
 
-`nand`
-`├── __journal.nn_`
-`├── `[`data`](nand/data "wikilink")
+```
+nand
+├── __journal.nn_
+├── `[`data
+```](nand/data "wikilink")
 `│   └── `<ID0>
-`│       ├── `[`extdata`](Extdata "wikilink")`          `
-`│       └── `[`sysdata`](System_SaveData "wikilink")
+```
+│       ├── `[`extdata`](Extdata "wikilink")`          
+│       └── `[`sysdata
+```](System_SaveData "wikilink")
 `├── `[`dbs`](Title_Database "wikilink")
 `├── `[`fixdata`](nand/fixdata "wikilink")
 `│   └── `[`sysdata`](nand/fixdata/sysdata "wikilink")
-`├── private`
-`│   └── `[`movable.sed`](nand/private/movable.sed "wikilink")
+```
+├── private
+│   └── `[`movable.sed
+```](nand/private/movable.sed "wikilink")
 `├── `[`ro`](nand/ro "wikilink")
 `├── `[`rw`](nand/rw "wikilink")
-`├── `[`ticket`](nand/ticket "wikilink")` (This directory is empty since tickets are stored in `[`ticket.db`](Title_Database "wikilink")`)`
-`├── `[`title`](Title_Data_Structure "wikilink")
-`└── `[`tmp`](nand/tmp "wikilink")` (This is usually empty, even when installation for a system update still needs `[`finalized`](AMNet:FinishInstallToMedia "wikilink")`)`
+```
+├── `[`ticket`](nand/ticket "wikilink")` (This directory is empty since tickets are stored in `[`ticket.db`](Title_Database "wikilink")`)
+├── `[`title
+```](Title_Data_Structure "wikilink")
+```
+└── `[`tmp`](nand/tmp "wikilink")` (This is usually empty, even when installation for a system update still needs `[`finalized`](AMNet:FinishInstallToMedia "wikilink")`)
+```
 
 The "ro" and "rw" directories are accessible through the "nandrw" and
 "nandro" [archives](FS:OpenArchive "wikilink"), respectively. Their
 contents are as follows:
 
-`ro`
-`├── `[`private`](nandro/private "wikilink")
+```
+ro
+├── `[`private
+```](nandro/private "wikilink")
 `├── `[`shared`](nandro/shared "wikilink")
 `└── `[`sys`](nandro/sys "wikilink")
 `    ├── `[`HWCAL0.dat`](nandro/sys/HWCAL0.dat "wikilink")
 `    └── `[`HWCAL1.dat`](nandro/sys/HWCAL1.dat "wikilink")
-`rw`
-`├── `[`shared`](nandrw/shared "wikilink")
+```
+rw
+├── `[`shared
+```](nandrw/shared "wikilink")
 `└── `[`sys`](nandrw/sys "wikilink")
-`    ├── `[`lgy.log`](nandrw/sys/lgy.log "wikilink")` (This is written to by `[`TWL_FIRM`](FIRM "wikilink")` when errors occur, this is equivalent to native.log)`
-`    ├── `[`LocalFriendCodeSeed_B`](nandrw/sys/LocalFriendCodeSeed_B "wikilink")
-`    ├── `[`native.log`](nandrw/sys/native.log "wikilink")` (This is written to by `[`ErrDisp`](ErrDisp "wikilink")`)`
-`    ├── `[`rand_seed`](nandrw/sys/rand_seed "wikilink")
+```
+    ├── `[`lgy.log`](nandrw/sys/lgy.log "wikilink")` (This is written to by `[`TWL_FIRM`](FIRM "wikilink")` when errors occur, this is equivalent to native.log)
+    ├── `[`LocalFriendCodeSeed_B
+```](nandrw/sys/LocalFriendCodeSeed_B "wikilink")
+```
+    ├── `[`native.log`](nandrw/sys/native.log "wikilink")` (This is written to by `[`ErrDisp`](ErrDisp "wikilink")`)
+    ├── `[`rand_seed
+```](nandrw/sys/rand_seed "wikilink")
 `    ├── `[`SecureInfo_A`](nandrw/sys/SecureInfo_A "wikilink")
 `    └── `[`updater.log`](nandrw/sys/updater.log "wikilink")
 
@@ -179,8 +197,10 @@ titles' /title directory does not exist, this likely only exists for
 DSiWare. The directory names titleID-High used under
 [twln/title](twln/title "wikilink") is from DSi.
 
-`twln`
-`├── `[`import`](twln/import/ "wikilink")
+```
+twln
+├── `[`import
+```](twln/import/ "wikilink")
 `├── `[`shared1`](twln/shared1/ "wikilink")
 `├── `[`shared2`](twln/shared2/ "wikilink")
 `│   └── `[`0000`](twln/shared2/0000 "wikilink")
@@ -193,5 +213,7 @@ DSiWare. The directory names titleID-High used under
 `├── `[`title`](twln/title/ "wikilink")
 `└── `[`tmp`](twln/tmp/ "wikilink")
 
-`twlp`
-`└── `[`photo`](twlp/photo/ "wikilink")
+```
+twlp
+└── `[`photo
+```](twlp/photo/ "wikilink")

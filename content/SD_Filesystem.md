@@ -86,10 +86,14 @@ see [Title Data Structure](Title_Data_Structure "wikilink").
 
 "Private" data is stored here as cleartext:
 
-`/Nintendo 3DS/Private/<Title ID Low>/`
+```
+/Nintendo 3DS/Private/<Title ID Low>/
+```
 
-`00020400 - Nintendo 3DS Camera `
-`00020500 - Nintendo 3DS Sound`
+```
+00020400 - Nintendo 3DS Camera 
+00020500 - Nintendo 3DS Sound
+```
 
 Under the camera private dir is [phtcache.bin](phtcache.bin "wikilink").
 When you want to install and see pictures with 3DS, rename to 8
@@ -109,7 +113,9 @@ directory inside it. Inside the app directory contains a directory with
 the game code of the application (eg. "JKZP" for Flipnote Studio 3D),
 then its corresponding data, as shown here:
 
-`/private/Nintendo 3DS/app/<Game Code>/`
+```
+/private/Nintendo 3DS/app/<Game Code>/
+```
 
 In this case of Flipnote Studio 3D, there are multiple files with an ID,
 then ending with the .kwz extension. There is also a !!.lst file as

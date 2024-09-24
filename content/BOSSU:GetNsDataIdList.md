@@ -14,7 +14,9 @@ title = 'BOSSU:GetNsDataIdList'
 
 Content filtering is enabled when this word isn't 0xffffffff. This is
 only used for the following:
-`if(filterword_u16high!=contentdatatype_u16high || (filterword_u16low & contentdatatype_u16low) == 0)continue;`
+```
+if(filterword_u16high!=contentdatatype_u16high || (filterword_u16low & contentdatatype_u16low) == 0)continue;
+```
 Hence, filterword_u16high must match contentdatatype_u16high, and the
 bitmask specified by filterword_u16low must be non-zero in
 contentdatatype_u16low. The contentdatatype is extracted from the

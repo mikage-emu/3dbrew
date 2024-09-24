@@ -74,8 +74,10 @@ Each u16 field is only 12bits in size. timin
 The horizontal timing parameter order is as follows (values may overflow
 through HTotal register value):
 
-`0x10 < 0x14 <= 0x60.LO <= 0x04 <= 0x60.HI <= 0x08 <= 0x0C <= 0x10`
-`0x18 <= 0x60.LO`
+```
+0x10 < 0x14 <= 0x60.LO <= 0x04 <= 0x60.HI <= 0x08 <= 0x0C <= 0x10
+0x18 <= 0x60.LO
+```
 
 Timing starts from HCount == 0, then each absolute value in the
 beforementioned register chain triggers when HCount == register,
@@ -83,14 +85,16 @@ latching the primitive display controller into a new mode. There is an
 inherent latch order, where if two simultenaous events occur, one event
 wins over another.
 
-`Known latched modes (in order):`
-`- HSync (triggers a line to the LCD to move to the next line)`
-`- Back porch (area between HSync and border being displayed, no pixels pushed, min 16 pixel clocks, otherwise the screen gets glitchy)`
-`- Left border start (no image data is being displayed, just a configurable solid color)`
-`- Image start (pixel data is being DMA'd from video memory or main RAM)`
-`- Right border start/Image end (border color is being displayed after the main image)`
-`- Unknown synchronization (supposed to be probably right border end, but this mode seems to be broken or not do anything)`
-`- Front porch (no pixels pushed, 68 clock min, otherwise the screen doesn't sync properly, and really glitches out)`
+```
+Known latched modes (in order):
+- HSync (triggers a line to the LCD to move to the next line)
+- Back porch (area between HSync and border being displayed, no pixels pushed, min 16 pixel clocks, otherwise the screen gets glitchy)
+- Left border start (no image data is being displayed, just a configurable solid color)
+- Image start (pixel data is being DMA'd from video memory or main RAM)
+- Right border start/Image end (border color is being displayed after the main image)
+- Unknown synchronization (supposed to be probably right border end, but this mode seems to be broken or not do anything)
+- Front porch (no pixels pushed, 68 clock min, otherwise the screen doesn't sync properly, and really glitches out)
+```
 
 <table>
 <thead>

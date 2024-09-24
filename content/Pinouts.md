@@ -97,10 +97,12 @@ Orientation: Pin 1 marker in bottom left corner
 
 ### Pin assignment
 
-`und = undocumented / custom`
-`SFR = Special Function Register (SFR bank 1, range FFF00h - FFFFFh)`
-`ESR = Extended Special Function Register (SFR bank 2, range F0000h - F0806h)`
-`/   = active low (ground to enable, pull to power supply to disable)`
+```
+und = undocumented / custom
+SFR = Special Function Register (SFR bank 1, range FFF00h - FFFFFh)
+ESR = Extended Special Function Register (SFR bank 2, range F0000h - F0806h)
+/   = active low (ground to enable, pull to power supply to disable)
+```
 
 | TP   | Pin | Port                   | Purpose                                                                                          |
 |------|-----|------------------------|--------------------------------------------------------------------------------------------------|

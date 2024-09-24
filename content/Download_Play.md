@@ -70,10 +70,12 @@ adding as well.
 
 Then this is run:
 
-` //During init before the above adding, shift and count are initialized:`
-` //shift = (((u8*)&checksum_seed)[2] & 0xf) + 0x4;`
-` //count = (((u8*)&checksum_seed)[3] & 0x7) + 0x2;`
-` for(pos=0; pos<count; pos++)checksum = (checksum<<shift | checksum>>shift) ^ checksum_seed;//The u32 checksum_seed is byte-swapped on 3DS for this.`
+```
+ //During init before the above adding, shift and count are initialized:
+ //shift = (((u8*)&checksum_seed)[2] & 0xf) + 0x4;
+ //count = (((u8*)&checksum_seed)[3] & 0x7) + 0x2;
+ for(pos=0; pos<count; pos++)checksum = (checksum<<shift | checksum>>shift) ^ checksum_seed;//The u32 checksum_seed is byte-swapped on 3DS for this.
+```
 
 Lastly the calculated checksum is written to output as big-endian(hence
 on 3DS it's byte-swapped before writing to output).

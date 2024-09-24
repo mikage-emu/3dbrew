@@ -8,17 +8,21 @@ gamesaves. Windows GUI used so no need for console commands.
 v1.4 -Decryption now places "FF" into decrypted file incase of CRC
 checksum miscalculations.
 
-`    So now removed the need for backwards compatability with 3DS SaveTool by crediar.`
-`   -Some people have said they needed a file to get the application running so added`
-`    COMCTL32.OCX to archive for those people that need it.`
-`   -Added an icon for aesthetics.`
+```
+    So now removed the need for backwards compatability with 3DS SaveTool by crediar.
+   -Some people have said they needed a file to get the application running so added
+    COMCTL32.OCX to archive for those people that need it.
+   -Added an icon for aesthetics.
+```
 
 v1.3 -Added creation of EEPROM save Reset to restore Game cartridges to
 Factory default (e.g. 0xFF)
 
 v1.2 -Major upgrade to the speed of the decryption/encryption.
 
-`   -Save File info added to FIle menu.`
+```
+   -Save File info added to FIle menu.
+```
 
 v1.1 -Conversion of decrypted files using 3DS Save DeEncrypter to those
 that 3DSaveTool will support

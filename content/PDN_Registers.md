@@ -351,7 +351,9 @@ The overlay overrides all *instruction* reads from phyiscal addresses
 by using low exception vectors and configuring the b11 veeners
 accordingly):
 
-` ldr pc, [pc, #(0x20 - 8)]`
+```
+ ldr pc, [pc, #(0x20 - 8)]
+```
 
 and all *data* reads from the same ranges to
 [CFG11_BOOTROM_OVERLAY_VAL](CONFIG11_Registers#CFG11_BOOTROM_OVERLAY_VAL "wikilink").

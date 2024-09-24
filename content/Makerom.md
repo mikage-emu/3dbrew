@@ -93,7 +93,9 @@ The number of DLC data archives in DLC varies for each DLC.
 
 ### Command line
 
-`makerom [general args] [rsf args] [crypto args] [ncch 0 build args] [cci args] [cia args]`
+```
+makerom [general args] [rsf args] [crypto args] [ncch 0 build args] [cci args] [cia args]
+```
 
 **General Arguments**
 
@@ -165,34 +167,48 @@ General examples:
 
 **Create CXI**
 
-`makerom -o sample.cxi -rsf sample.rsf -target t -elf sample.elf -icon sample.icn -banner sample.bnr -desc app:4`
+```
+makerom -o sample.cxi -rsf sample.rsf -target t -elf sample.elf -icon sample.icn -banner sample.bnr -desc app:4
+```
 
 **Create CFA**
 
-`makerom -o sample.cfa -rsf sample.rsf -target t`
+```
+makerom -o sample.cfa -rsf sample.rsf -target t
+```
 
 **Create CCI**
 
-`makerom -f cci -o sample.cci -target t -i sample.cxi:0 -i sample.cfa:1`
+```
+makerom -f cci -o sample.cci -target t -i sample.cxi:0 -i sample.cfa:1
+```
 
 **Create CIA**
 
-`makerom -f cia -o sample.cia -target t -i sample.cxi:0:0 -i sample.cfa:1:1`
+```
+makerom -f cia -o sample.cia -target t -i sample.cxi:0:0 -i sample.cfa:1:1
+```
 
 Makerom supports building a NCCH file and including it automatically (as
 index 0) into a NCCH container:
 
 **Create CCI and CXI at the same time and include a CFA**
 
-`makerom -f cci -o sample.cci -rsf sample.rsf -target t -elf sample.elf -icon sample.icn -banner sample.bnr -desc app:4 -i sample.cfa:1`
+```
+makerom -f cci -o sample.cci -rsf sample.rsf -target t -elf sample.elf -icon sample.icn -banner sample.bnr -desc app:4 -i sample.cfa:1
+```
 
 **Create CIA and CXI at the same time and include a CFA**
 
-`makerom -f cia -o sample.cia -rsf sample.rsf -target t -elf sample.elf -icon sample.icn -banner sample.bnr -desc app:4 -i sample.cfa:1:1`
+```
+makerom -f cia -o sample.cia -rsf sample.rsf -target t -elf sample.elf -icon sample.icn -banner sample.bnr -desc app:4 -i sample.cfa:1:1
+```
 
 Rebuilding CXI:
 
-`makerom -o rebuild.cxi -rsf rebuild.rsf -target t -code rebuild/code.bin -exheader rebuild/exheader.bin -icon rebuild/icon.bin -banner rebuild/banner.bin -romfs rebuild/romfs.bin`
+```
+makerom -o rebuild.cxi -rsf rebuild.rsf -target t -code rebuild/code.bin -exheader rebuild/exheader.bin -icon rebuild/icon.bin -banner rebuild/banner.bin -romfs rebuild/romfs.bin
+```
 
 ### Creating RSF files
 

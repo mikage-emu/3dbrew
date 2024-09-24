@@ -113,8 +113,10 @@ The following is a diff of the OSS archives from
 [here](http://www.nintendo.co.jp/support/oss/index.html), for v9.0 and
 v9.3.
 
-`Files NewNintendo3DS_OpenSources9.0.0-/WKC/WebCore/platform/network/WKC/ResourceHandleManagerWKC.cpp and NewNintendo3DS_OpenSources9.3.0-/WKC/WebCore/platform/network/WKC/ResourceHandleManagerWKC.cpp differ`
-`Files NewNintendo3DS_OpenSources9.0.0-/WKC/WebKit/WKC/webkit/WKCVersion.h and NewNintendo3DS_OpenSources9.3.0-/WKC/WebKit/WKC/webkit/WKCVersion.h differ`
+```
+Files NewNintendo3DS_OpenSources9.0.0-/WKC/WebCore/platform/network/WKC/ResourceHandleManagerWKC.cpp and NewNintendo3DS_OpenSources9.3.0-/WKC/WebCore/platform/network/WKC/ResourceHandleManagerWKC.cpp differ
+Files NewNintendo3DS_OpenSources9.0.0-/WKC/WebKit/WKC/webkit/WKCVersion.h and NewNintendo3DS_OpenSources9.3.0-/WKC/WebKit/WKC/webkit/WKCVersion.h differ
+```
 
 WKC_CUSTOMER_RELEASE_VERSION was changed from "0.5.8" to "0.5.10".
 
@@ -149,31 +151,33 @@ ExeFS:/.code was updated.
 The only RomFS changes is file-updating, all of the following files were
 updated:
 
-`/browser/rootca.pem`
-`/build/buildinfo.dat`
-`/cairo.cro.lex`
-`/.crr/static.crr`
-`/message/CN_Simp_Chinese/skater.msbt`
-`/message/EU_Dutch/skater.msbt`
-`/message/EU_English/skater.msbt`
-`/message/EU_French/skater.msbt`
-`/message/EU_German/skater.msbt`
-`/message/EU_Italian/skater.msbt`
-`/message/EU_Portuguese/skater.msbt`
-`/message/EU_Russian/skater.msbt`
-`/message/EU_Spanish/skater.msbt`
-`/message/JP_Japanese/skater.msbt`
-`/message/KR_Hangeul/skater.msbt`
-`/message/TW_English/skater.msbt`
-`/message/TW_Trad_Chinese/skater.msbt`
-`/message/US_English/skater.msbt`
-`/message/US_French/skater.msbt`
-`/message/US_Portuguese/skater.msbt`
-`/message/US_Spanish/skater.msbt`
-`/oss.cro.lex`
-`/peer.cro.lex`
-`/static.crs`
-`/webkit.cro.lex`
+```
+/browser/rootca.pem
+/build/buildinfo.dat
+/cairo.cro.lex
+/.crr/static.crr
+/message/CN_Simp_Chinese/skater.msbt
+/message/EU_Dutch/skater.msbt
+/message/EU_English/skater.msbt
+/message/EU_French/skater.msbt
+/message/EU_German/skater.msbt
+/message/EU_Italian/skater.msbt
+/message/EU_Portuguese/skater.msbt
+/message/EU_Russian/skater.msbt
+/message/EU_Spanish/skater.msbt
+/message/JP_Japanese/skater.msbt
+/message/KR_Hangeul/skater.msbt
+/message/TW_English/skater.msbt
+/message/TW_Trad_Chinese/skater.msbt
+/message/US_English/skater.msbt
+/message/US_French/skater.msbt
+/message/US_Portuguese/skater.msbt
+/message/US_Spanish/skater.msbt
+/oss.cro.lex
+/peer.cro.lex
+/static.crs
+/webkit.cro.lex
+```
 
 See [here](https://gist.github.com/yellows8/9fb509fde4112339f342) for a
 diff of the OSS(WebKitLibraries/ is not included due to the massive
@@ -196,104 +200,110 @@ The only RomFS changes is file-updating, all of the following files were
 updated(see the forced-sysupdate section regarding what changed in the
 message files):
 
-`/browser/rootca.pem`
-`/build/buildinfo.dat`
-`/.crr/static.crr`
-`/message/CN_Simp_Chinese/skater.msbt`
-`/message/EU_Dutch/skater.msbt`
-`/message/EU_English/skater.msbt`
-`/message/EU_French/skater.msbt`
-`/message/EU_German/skater.msbt`
-`/message/EU_Italian/skater.msbt`
-`/message/EU_Portuguese/skater.msbt`
-`/message/EU_Russian/skater.msbt`
-`/message/EU_Spanish/skater.msbt`
-`/message/JP_Japanese/skater.msbt`
-`/message/KR_Hangeul/skater.msbt`
-`/message/TW_English/skater.msbt`
-`/message/TW_Trad_Chinese/skater.msbt`
-`/message/US_English/skater.msbt`
-`/message/US_French/skater.msbt`
-`/message/US_Portuguese/skater.msbt`
-`/message/US_Spanish/skater.msbt`
-`/oss.cro.lex`
-`/static.crs`
-`/webkit.cro.lex`
+```
+/browser/rootca.pem
+/build/buildinfo.dat
+/.crr/static.crr
+/message/CN_Simp_Chinese/skater.msbt
+/message/EU_Dutch/skater.msbt
+/message/EU_English/skater.msbt
+/message/EU_French/skater.msbt
+/message/EU_German/skater.msbt
+/message/EU_Italian/skater.msbt
+/message/EU_Portuguese/skater.msbt
+/message/EU_Russian/skater.msbt
+/message/EU_Spanish/skater.msbt
+/message/JP_Japanese/skater.msbt
+/message/KR_Hangeul/skater.msbt
+/message/TW_English/skater.msbt
+/message/TW_Trad_Chinese/skater.msbt
+/message/US_English/skater.msbt
+/message/US_French/skater.msbt
+/message/US_Portuguese/skater.msbt
+/message/US_Spanish/skater.msbt
+/oss.cro.lex
+/static.crs
+/webkit.cro.lex
+```
 
 OSS diff:
 
-`diff --git a/NewNintendo3DS_OpenSources9.9.0-/WKC/WebKit/WKC/webkit/WKCVersion.h b/NewNintendo3DS_OpenSources10.2.0-/WKC/WebKit/WKC/webkit/WKCVersion.h`
-`index 4543297..0860336 100644`
-`--- a/NewNintendo3DS_OpenSources9.9.0-/WKC/WebKit/WKC/webkit/WKCVersion.h`
-`+++ b/NewNintendo3DS_OpenSources10.2.0-/WKC/WebKit/WKC/webkit/WKCVersion.h`
-`@@ -29,7 +29,7 @@`
-` #define WKC_VERSION_CHECK(major, minor, micro) \`
-`     (((major)*10000) + ((minor)*100) + (micro)) >= ((WKC_VERSION_MAJOR*10000) + (WKC_VERSION_MINOR*100) + (WKC_VERSION_MICRO))`
-` `
-`-#define WKC_CUSTOMER_RELEASE_VERSION "0.5.15"`
-`+#define WKC_CUSTOMER_RELEASE_VERSION "0.5.17"`
-` `
-` #define WKC_WEBKIT_VERSION "536.30"`
-` `
-`diff --git a/NewNintendo3DS_OpenSources9.9.0-/webkit/WebCore/ChangeLog b/NewNintendo3DS_OpenSources10.2.0-/webkit/WebCore/ChangeLog`
-`index a5abb35..cf5a9fa 100644`
-`--- a/NewNintendo3DS_OpenSources9.9.0-/webkit/WebCore/ChangeLog`
-`+++ b/NewNintendo3DS_OpenSources10.2.0-/webkit/WebCore/ChangeLog`
-`@@ -1,3 +1,12 @@`
-`y+2013-11-05  Ryosuke Niwa  <rniwa@webkit.org>`
-`+`
-`+        Use-after-free in SliderThumbElement::dragFrom`
-`+        https://bugs.webkit.org/show_bug.cgi?id=123873`
-`+`
-`+        Reviewed by Andreas Kling.`
-`+`
-`+        Merge https://chromium.googlesource.com/chromium/blink/+/04a23bfca2d04101a1828d36ff36c29f3a24f34b`
-`+`
-` 2015-02-06  Maciej Stachowiak  <mjs@apple.com>`
-` `
-`         REGRESSION(r179706): Caused memory corruption on some tests (Requested by _ap_ on #webkit).`
-`@@ -879,7 +888,7 @@`
-`         * rendering/RenderLineBoxList.cpp:`
-`         (WebCore::RenderLineBoxList::dirtyLinesFromChangedChild):`
-` `
-`-2014-01-21  LÃ¡szlÃ³ LangÃ³  <llango.u-szeged@partner.samsung.com>`
-`+2014-01-21  Laszlo Lango  <llango.u-szeged@partner.samsung.com>`
-` `
-`         Assertion failure in Range::nodeWillBeRemoved`
-`         https://bugs.webkit.org/show_bug.cgi?id=121694`
-`@@ -1879,7 +1888,7 @@`
-` `
-` 2012-09-14  Simon Fraser  <simon.fraser@apple.com>`
-` `
-`-        REGRESSION: transition doesnât always override transition-property`
-`+        REGRESSION: transition doesnft always override transition-property`
-`         https://bugs.webkit.org/show_bug.cgi?id=96658`
-` `
-`         Reviewed by Dean Jackson.`
-`@@ -3691,8 +3700,8 @@`
-`             glyph with font data for the primary font, presumably to meet the SVG`
-`             spec requirement: "If the references to alternate glyphs do not result`
-`             in successful identification of alternate glyphs to use, then the`
-`-            character(s) that are inside of the çª¶åltGlyphçª¶?element are rendered as`
-`-            if the çª¶åltGlyphçª¶?element were a çª¶?spançª¶?element instead."`
-`+            character(s) that are inside of the âaltGlyphâ?element are rendered as`
-`+            if the âaltGlyphâ?element were a â?spanâ?element instead."`
+```
+diff --git a/NewNintendo3DS_OpenSources9.9.0-/WKC/WebKit/WKC/webkit/WKCVersion.h b/NewNintendo3DS_OpenSources10.2.0-/WKC/WebKit/WKC/webkit/WKCVersion.h
+index 4543297..0860336 100644
+--- a/NewNintendo3DS_OpenSources9.9.0-/WKC/WebKit/WKC/webkit/WKCVersion.h
++++ b/NewNintendo3DS_OpenSources10.2.0-/WKC/WebKit/WKC/webkit/WKCVersion.h
+@@ -29,7 +29,7 @@
+ #define WKC_VERSION_CHECK(major, minor, micro) \
+     (((major)*10000) + ((minor)*100) + (micro)) >= ((WKC_VERSION_MAJOR*10000) + (WKC_VERSION_MINOR*100) + (WKC_VERSION_MICRO))
+ 
+-#define WKC_CUSTOMER_RELEASE_VERSION "0.5.15"
++#define WKC_CUSTOMER_RELEASE_VERSION "0.5.17"
+ 
+ #define WKC_WEBKIT_VERSION "536.30"
+ 
+diff --git a/NewNintendo3DS_OpenSources9.9.0-/webkit/WebCore/ChangeLog b/NewNintendo3DS_OpenSources10.2.0-/webkit/WebCore/ChangeLog
+index a5abb35..cf5a9fa 100644
+--- a/NewNintendo3DS_OpenSources9.9.0-/webkit/WebCore/ChangeLog
++++ b/NewNintendo3DS_OpenSources10.2.0-/webkit/WebCore/ChangeLog
+@@ -1,3 +1,12 @@
+y+2013-11-05  Ryosuke Niwa  <rniwa@webkit.org>
++
++        Use-after-free in SliderThumbElement::dragFrom
++        https://bugs.webkit.org/show_bug.cgi?id=123873
++
++        Reviewed by Andreas Kling.
++
++        Merge https://chromium.googlesource.com/chromium/blink/+/04a23bfca2d04101a1828d36ff36c29f3a24f34b
++
+ 2015-02-06  Maciej Stachowiak  <mjs@apple.com>
+ 
+         REGRESSION(r179706): Caused memory corruption on some tests (Requested by _ap_ on #webkit).
+@@ -879,7 +888,7 @@
+         * rendering/RenderLineBoxList.cpp:
+         (WebCore::RenderLineBoxList::dirtyLinesFromChangedChild):
+ 
+-2014-01-21  LÃ¡szlÃ³ LangÃ³  <llango.u-szeged@partner.samsung.com>
++2014-01-21  Laszlo Lango  <llango.u-szeged@partner.samsung.com>
+ 
+         Assertion failure in Range::nodeWillBeRemoved
+         https://bugs.webkit.org/show_bug.cgi?id=121694
+@@ -1879,7 +1888,7 @@
+ 
+ 2012-09-14  Simon Fraser  <simon.fraser@apple.com>
+ 
+-        REGRESSION: transition doesnât always override transition-property
++        REGRESSION: transition doesnft always override transition-property
+         https://bugs.webkit.org/show_bug.cgi?id=96658
+ 
+         Reviewed by Dean Jackson.
+@@ -3691,8 +3700,8 @@
+             glyph with font data for the primary font, presumably to meet the SVG
+             spec requirement: "If the references to alternate glyphs do not result
+             in successful identification of alternate glyphs to use, then the
+-            character(s) that are inside of the çª¶åltGlyphçª¶?element are rendered as
+-            if the çª¶åltGlyphçª¶?element were a çª¶?spançª¶?element instead."
++            character(s) that are inside of the âaltGlyphâ?element are rendered as
++            if the âaltGlyphâ?element were a â?spanâ?element instead."
+```
 
-`             If the alt glyph is not then found we are in the case from the spec`
-`             and indeed we should use the primary font. However, we end up replacing the GlyphPage`
-`diff --git a/NewNintendo3DS_OpenSources9.9.0-/webkit/WebCore/html/RangeInputType.cpp b/NewNintendo3DS_OpenSources10.2.0-/webkit/WebCore/html/RangeInputType.cpp`
-`index 484adec..d7e9e8d 100644`
-`--- a/NewNintendo3DS_OpenSources9.9.0-/webkit/WebCore/html/RangeInputType.cpp`
-`+++ b/NewNintendo3DS_OpenSources10.2.0-/webkit/WebCore/html/RangeInputType.cpp`
-`@@ -164,7 +164,7 @@ void RangeInputType::handleMouseDownEvent(MouseEvent* event)`
-`     ASSERT(element()->hasShadowRoot());`
-`     if (targetNode != element() && !targetNode->isDescendantOf(element()->shadowTree()->oldestShadowRoot()))`
-`         return;`
-`-    SliderThumbElement* thumb = sliderThumbElementOf(element());`
-`+    RefPtr<SliderThumbElement> thumb = sliderThumbElementOf(element());`
-`     if (targetNode == thumb)`
-`         return;`
-`     thumb->dragFrom(event->absoluteLocation());`
+```
+             If the alt glyph is not then found we are in the case from the spec
+             and indeed we should use the primary font. However, we end up replacing the GlyphPage
+diff --git a/NewNintendo3DS_OpenSources9.9.0-/webkit/WebCore/html/RangeInputType.cpp b/NewNintendo3DS_OpenSources10.2.0-/webkit/WebCore/html/RangeInputType.cpp
+index 484adec..d7e9e8d 100644
+--- a/NewNintendo3DS_OpenSources9.9.0-/webkit/WebCore/html/RangeInputType.cpp
++++ b/NewNintendo3DS_OpenSources10.2.0-/webkit/WebCore/html/RangeInputType.cpp
+@@ -164,7 +164,7 @@ void RangeInputType::handleMouseDownEvent(MouseEvent* event)
+     ASSERT(element()->hasShadowRoot());
+     if (targetNode != element() && !targetNode->isDescendantOf(element()->shadowTree()->oldestShadowRoot()))
+         return;
+-    SliderThumbElement* thumb = sliderThumbElementOf(element());
++    RefPtr<SliderThumbElement> thumb = sliderThumbElementOf(element());
+     if (targetNode == thumb)
+         return;
+     thumb->dragFrom(event->absoluteLocation());
+```
 
 #### v10.4
 
@@ -312,31 +322,33 @@ libpng was updated from version 1.5.21 to 1.5.24.
 The following RomFS files were updated(see the forced-sysupdate section
 regarding what changed in the message files):
 
-`/browser/rootca.pem`
-`/build/buildinfo.dat`
-`/cairo.cro.lex`
-`/.crr/static.crr`
-`/message/CN_Simp_Chinese/skater.msbt`
-`/message/EU_Dutch/skater.msbt`
-`/message/EU_English/skater.msbt`
-`/message/EU_French/skater.msbt`
-`/message/EU_German/skater.msbt`
-`/message/EU_Italian/skater.msbt`
-`/message/EU_Portuguese/skater.msbt`
-`/message/EU_Russian/skater.msbt`
-`/message/EU_Spanish/skater.msbt`
-`/message/JP_Japanese/skater.msbt`
-`/message/KR_Hangeul/skater.msbt`
-`/message/TW_English/skater.msbt`
-`/message/TW_Trad_Chinese/skater.msbt`
-`/message/US_English/skater.msbt`
-`/message/US_French/skater.msbt`
-`/message/US_Portuguese/skater.msbt`
-`/message/US_Spanish/skater.msbt`
-`/oss.cro.lex differ`
-`/peer.cro.lex differ`
-`/static.crs differ`
-`/webkit.cro.lex differ`
+```
+/browser/rootca.pem
+/build/buildinfo.dat
+/cairo.cro.lex
+/.crr/static.crr
+/message/CN_Simp_Chinese/skater.msbt
+/message/EU_Dutch/skater.msbt
+/message/EU_English/skater.msbt
+/message/EU_French/skater.msbt
+/message/EU_German/skater.msbt
+/message/EU_Italian/skater.msbt
+/message/EU_Portuguese/skater.msbt
+/message/EU_Russian/skater.msbt
+/message/EU_Spanish/skater.msbt
+/message/JP_Japanese/skater.msbt
+/message/KR_Hangeul/skater.msbt
+/message/TW_English/skater.msbt
+/message/TW_Trad_Chinese/skater.msbt
+/message/US_English/skater.msbt
+/message/US_French/skater.msbt
+/message/US_Portuguese/skater.msbt
+/message/US_Spanish/skater.msbt
+/oss.cro.lex differ
+/peer.cro.lex differ
+/static.crs differ
+/webkit.cro.lex differ
+```
 
 #### v10.6
 
@@ -350,8 +362,10 @@ libstagefright mentioned above).
 
 The following RomFS files were updated:
 
-`/build/buildinfo.dat`
-`/static.crs`
+```
+/build/buildinfo.dat
+/static.crs
+```
 
 #### v10.7
 
@@ -360,26 +374,32 @@ buildinfo.dat update in RomFS. The below date is 6 days after the
 browser-version-check [bypass](3DS_Userland_Flaws "wikilink") was
 publicly disclosed.
 
-`cat v7184/00000025_romfs/build/buildinfo.dat`
-`10150`
-`applet`
-`2016-03-02 18:25`
+```
+cat v7184/00000025_romfs/build/buildinfo.dat
+10150
+applet
+2016-03-02 18:25
+```
 
 #### v11.1
 
 The ExeFS codebin was updated. The following files in RomFS were
 updated:
 
-` /build/buildinfo.dat`
-` /.crr/static.crr`
-` /oss.cro.lex`
-` /static.crs`
-` /webkit.cro.lex`
+```
+ /build/buildinfo.dat
+ /.crr/static.crr
+ /oss.cro.lex
+ /static.crs
+ /webkit.cro.lex
+```
 
-` cat v8192/00000026_romfs/build/buildinfo.dat`
-` 10156`
-` applet`
-` 2016-08-26 19:47`
+```
+ cat v8192/00000026_romfs/build/buildinfo.dat
+ 10156
+ applet
+ 2016-08-26 19:47
+```
 
 Minus the 4 functions that changed due to compiler optimization, only 1
 function was actually updated. This is LT_1a4004, previous version at
@@ -408,10 +428,12 @@ The only changes in RomFS was for "/build/buildinfo.dat" and
 The main codebin was updated. Exactly two functions were updated, these
 are not related to code exec vulns.
 
-` cat v9232/00000027_romfs/build/buildinfo.dat`
-` 10160`
-` applet`
-` 2017-03-08 19:44`
+```
+ cat v9232/00000027_romfs/build/buildinfo.dat
+ 10160
+ applet
+ 2017-03-08 19:44
+```
 
 ### New3DS Browser Specifications
 
@@ -717,75 +739,81 @@ ExeFS:/.code was updated.
 The only changes in RomFS were file-updating, the following files were
 updated:
 
-`/browser/rootca.pem`
-`/cro/oss.cro`
-`/cro/static.crs`
-`/cro/webkit.cro`
-`/.crr/static.crr`
-`/message/CN_Simp_Chinese/spider.msbt`
-`/message/EU_Dutch/spider.msbt`
-`/message/EU_English/spider.msbt`
-`/message/EU_French/spider.msbt`
-`/message/EU_German/spider.msbt`
-`/message/EU_Italian/spider.msbt`
-`/message/EU_Portuguese/spider.msbt`
-`/message/EU_Russian/spider.msbt`
-`/message/EU_Spanish/spider.msbt`
-`/message/JP_Japanese/spider.msbt`
-`/message/KR_Hangeul/spider.msbt`
-`/message/TW_English/spider.msbt`
-`/message/TW_Trad_Chinese/spider.msbt`
-`/message/US_English/spider.msbt`
-`/message/US_French/spider.msbt`
-`/message/US_Portuguese/spider.msbt`
-`/message/US_Spanish/spider.msbt`
+```
+/browser/rootca.pem
+/cro/oss.cro
+/cro/static.crs
+/cro/webkit.cro
+/.crr/static.crr
+/message/CN_Simp_Chinese/spider.msbt
+/message/EU_Dutch/spider.msbt
+/message/EU_English/spider.msbt
+/message/EU_French/spider.msbt
+/message/EU_German/spider.msbt
+/message/EU_Italian/spider.msbt
+/message/EU_Portuguese/spider.msbt
+/message/EU_Russian/spider.msbt
+/message/EU_Spanish/spider.msbt
+/message/JP_Japanese/spider.msbt
+/message/KR_Hangeul/spider.msbt
+/message/TW_English/spider.msbt
+/message/TW_Trad_Chinese/spider.msbt
+/message/US_English/spider.msbt
+/message/US_French/spider.msbt
+/message/US_Portuguese/spider.msbt
+/message/US_Spanish/spider.msbt
+```
 
 OSS diff for v9.5 and v9.9, without the .dox changes:
 
-`diff --git a/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.5.0(23J_23U_23E_19K_18T_3C)/WKC/WebKit/WKC/webkit/WKCVersion.h b/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.9.0/WKC/WebKit/WKC/webkit/WKCVersion.h`
-`index be5ff09..55a7274 100644`
-`--- a/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.5.0(23J_23U_23E_19K_18T_3C)/WKC/WebKit/WKC/webkit/WKCVersion.h`
-`+++ b/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.9.0/WKC/WebKit/WKC/webkit/WKCVersion.h`
-`@@ -29,7 +29,7 @@`
-` #define WKC_VERSION_CHECK(major, minor, micro) \`
-`     (((major)*10000) + ((minor)*100) + (micro)) >= ((WKC_VERSION_MAJOR*10000) + (WKC_VERSION_MINOR*100) + (WKC_VERSION_MICRO))`
-` `
-`-#define WKC_CUSTOMER_RELEASE_VERSION "1.8.14"`
-`+#define WKC_CUSTOMER_RELEASE_VERSION "1.8.16"`
-` `
-` #define WKC_WEBKIT_VERSION "532.7"`
-` `
-`diff --git a/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.5.0(23J_23U_23E_19K_18T_3C)/webkit/WebCore/rendering/RenderBox.cpp b/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.9.0/webkit/WebCore/rendering/RenderBox.cpp`
-`index da4127e..d03403e 100644`
-`--- a/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.5.0(23J_23U_23E_19K_18T_3C)/webkit/WebCore/rendering/RenderBox.cpp`
-`+++ b/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.9.0/webkit/WebCore/rendering/RenderBox.cpp`
-`@@ -305,23 +305,23 @@ int RenderBox::scrollHeight() const`
-` `
-` int RenderBox::scrollLeft() const`
-` {`
-`-    return hasOverflowClip() ? layer()->scrollXOffset() : 0;`
-`+    return layer() && hasOverflowClip() ? layer()->scrollXOffset() : 0;`
-` }`
-` `
-` int RenderBox::scrollTop() const`
-` {`
-`-    return hasOverflowClip() ? layer()->scrollYOffset() : 0;`
-`+    return layer() && hasOverflowClip() ? layer()->scrollYOffset() : 0;`
-` }`
+```
+diff --git a/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.5.0(23J_23U_23E_19K_18T_3C)/WKC/WebKit/WKC/webkit/WKCVersion.h b/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.9.0/WKC/WebKit/WKC/webkit/WKCVersion.h
+index be5ff09..55a7274 100644
+--- a/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.5.0(23J_23U_23E_19K_18T_3C)/WKC/WebKit/WKC/webkit/WKCVersion.h
++++ b/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.9.0/WKC/WebKit/WKC/webkit/WKCVersion.h
+@@ -29,7 +29,7 @@
+ #define WKC_VERSION_CHECK(major, minor, micro) \
+     (((major)*10000) + ((minor)*100) + (micro)) >= ((WKC_VERSION_MAJOR*10000) + (WKC_VERSION_MINOR*100) + (WKC_VERSION_MICRO))
+ 
+-#define WKC_CUSTOMER_RELEASE_VERSION "1.8.14"
++#define WKC_CUSTOMER_RELEASE_VERSION "1.8.16"
+ 
+ #define WKC_WEBKIT_VERSION "532.7"
+ 
+diff --git a/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.5.0(23J_23U_23E_19K_18T_3C)/webkit/WebCore/rendering/RenderBox.cpp b/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.9.0/webkit/WebCore/rendering/RenderBox.cpp
+index da4127e..d03403e 100644
+--- a/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.5.0(23J_23U_23E_19K_18T_3C)/webkit/WebCore/rendering/RenderBox.cpp
++++ b/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.9.0/webkit/WebCore/rendering/RenderBox.cpp
+@@ -305,23 +305,23 @@ int RenderBox::scrollHeight() const
+ 
+ int RenderBox::scrollLeft() const
+ {
+-    return hasOverflowClip() ? layer()->scrollXOffset() : 0;
++    return layer() && hasOverflowClip() ? layer()->scrollXOffset() : 0;
+ }
+ 
+ int RenderBox::scrollTop() const
+ {
+-    return hasOverflowClip() ? layer()->scrollYOffset() : 0;
++    return layer() && hasOverflowClip() ? layer()->scrollYOffset() : 0;
+ }
+```
 
-` void RenderBox::setScrollLeft(int newLeft)`
-` {`
-`-    if (hasOverflowClip())`
-`+    if (hasOverflowClip() && layer())`
-`         layer()->scrollToXOffset(newLeft);`
-` }`
-` `
-` void RenderBox::setScrollTop(int newTop)`
-` {`
-`-    if (hasOverflowClip())`
-`+    if (hasOverflowClip() && layer())`
-`         layer()->scrollToYOffset(newTop);`
-` }`
+```
+ void RenderBox::setScrollLeft(int newLeft)
+ {
+-    if (hasOverflowClip())
++    if (hasOverflowClip() && layer())
+         layer()->scrollToXOffset(newLeft);
+ }
+ 
+ void RenderBox::setScrollTop(int newTop)
+ {
+-    if (hasOverflowClip())
++    if (hasOverflowClip() && layer())
+         layer()->scrollToYOffset(newTop);
+ }
+```
 
 ### Old3DS v10.2
 
@@ -796,48 +824,52 @@ The main codebin .text only increased by 0x10-bytes.
 
 The only changes in RomFS was that the following files were updated:
 
-`/cro/oss.cro`
-`/cro/static.crs`
-`/cro/webkit.cro`
-`/.crr/static.crr`
+```
+/cro/oss.cro
+/cro/static.crs
+/cro/webkit.cro
+/.crr/static.crr
+```
 
 OSS diff:
 
-`diff --git a/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.9.0/WKC/WebKit/WKC/webkit/WKCVersion.h b/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_10.2.0/WKC/WebKit/WKC/webkit/WKCVersion.h`
-`index 55a7274..fc153c4 100644`
-`--- a/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.9.0/WKC/WebKit/WKC/webkit/WKCVersion.h`
-`+++ b/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_10.2.0/WKC/WebKit/WKC/webkit/WKCVersion.h`
-`@@ -29,7 +29,7 @@`
-` #define WKC_VERSION_CHECK(major, minor, micro) \`
-`     (((major)*10000) + ((minor)*100) + (micro)) >= ((WKC_VERSION_MAJOR*10000) + (WKC_VERSION_MINOR*100) + (WKC_VERSION_MICRO))`
-` `
-`-#define WKC_CUSTOMER_RELEASE_VERSION "1.8.16"`
-`+#define WKC_CUSTOMER_RELEASE_VERSION "1.8.17"`
-` `
-` #define WKC_WEBKIT_VERSION "532.7"`
-` `
-`diff --git a/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.9.0/webkit/WebCore/rendering/RenderSlider.cpp b/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_10.2.0/webkit/WebCore/rendering/RenderSlider.cpp`
-`index b2f5cef..1dd3dbd 100644`
-`--- a/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.9.0/webkit/WebCore/rendering/RenderSlider.cpp`
-`+++ b/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_10.2.0/webkit/WebCore/rendering/RenderSlider.cpp`
-`@@ -221,6 +221,7 @@ RenderSlider::~RenderSlider()`
-` {`
-`     if (m_thumb)`
-`         m_thumb->detach();`
-`+    m_thumb = 0;`
-` }`
-` `
-` int RenderSlider::baselinePosition(bool, bool) const`
-`@@ -493,7 +494,8 @@ void RenderSlider::forwardEvent(Event* event)`
-`         }`
-`     }`
-` `
-`-    m_thumb->defaultEventHandler(event);`
-`+    if (m_thumb)`
-`+        m_thumb->defaultEventHandler(event);`
-` }`
-` `
-` bool RenderSlider::inDragMode() const`
+```
+diff --git a/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.9.0/WKC/WebKit/WKC/webkit/WKCVersion.h b/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_10.2.0/WKC/WebKit/WKC/webkit/WKCVersion.h
+index 55a7274..fc153c4 100644
+--- a/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.9.0/WKC/WebKit/WKC/webkit/WKCVersion.h
++++ b/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_10.2.0/WKC/WebKit/WKC/webkit/WKCVersion.h
+@@ -29,7 +29,7 @@
+ #define WKC_VERSION_CHECK(major, minor, micro) \
+     (((major)*10000) + ((minor)*100) + (micro)) >= ((WKC_VERSION_MAJOR*10000) + (WKC_VERSION_MINOR*100) + (WKC_VERSION_MICRO))
+ 
+-#define WKC_CUSTOMER_RELEASE_VERSION "1.8.16"
++#define WKC_CUSTOMER_RELEASE_VERSION "1.8.17"
+ 
+ #define WKC_WEBKIT_VERSION "532.7"
+ 
+diff --git a/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.9.0/webkit/WebCore/rendering/RenderSlider.cpp b/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_10.2.0/webkit/WebCore/rendering/RenderSlider.cpp
+index b2f5cef..1dd3dbd 100644
+--- a/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_9.9.0/webkit/WebCore/rendering/RenderSlider.cpp
++++ b/3DS_InternetBrowser_OpenSources_JP_US_EU_KR_TW_HK_CN_10.2.0/webkit/WebCore/rendering/RenderSlider.cpp
+@@ -221,6 +221,7 @@ RenderSlider::~RenderSlider()
+ {
+     if (m_thumb)
+         m_thumb->detach();
++    m_thumb = 0;
+ }
+ 
+ int RenderSlider::baselinePosition(bool, bool) const
+@@ -493,7 +494,8 @@ void RenderSlider::forwardEvent(Event* event)
+         }
+     }
+ 
+-    m_thumb->defaultEventHandler(event);
++    if (m_thumb)
++        m_thumb->defaultEventHandler(event);
+ }
+ 
+ bool RenderSlider::inDragMode() const
+```
 
 ### Old3DS v10.6
 
@@ -856,11 +888,13 @@ The .text size increased by 0x478-bytes.
 
 The only changes in RomFS was that the following files were updated:
 
-`/cro/oss.cro`
-`/cro/static.crs`
-`/cro/webkit.cro`
-`/.crr/static.crr`
-`/manual/Manual.bcma`
+```
+/cro/oss.cro
+/cro/static.crs
+/cro/webkit.cro
+/.crr/static.crr
+/manual/Manual.bcma
+```
 
 ### Old3DS v10.7
 
@@ -873,26 +907,32 @@ updated(RomFS wasn't changed), code for browser-version-check was
 Nothing changed in the ExeFS codebin besides the usual version values.
 The following files in RomFS were updated:
 
-` /cro/oss.cro`
-` /cro/webkit.cro`
-` /.crr/static.crr`
+```
+ /cro/oss.cro
+ /cro/webkit.cro
+ /.crr/static.crr
+```
 
 ## Forced system-update
 
 The Old3DS/New3DS Internet Browser updated with
 [9.9.0-26](9.9.0-26 "wikilink") added the following message strings:
 
-`In order to use the Internet `
-`browser, a system update `
-`is required.`
-`To perform a system update, `
-`select System Update from Other`
-`Settings in System Settings.`
+```
+In order to use the Internet 
+browser, a system update 
+is required.
+To perform a system update, 
+select System Update from Other
+Settings in System Settings.
+```
 
-`The Internet browser cannot be`
-`used at this time.`
-`Please check your network`
-`environment or try again later.`
+```
+The Internet browser cannot be
+used at this time.
+Please check your network
+environment or try again later.
+```
 
 For whatever reason, the above *message strings* were removed with
 New3DS-browser v10.2, then re-added with v10.4. This does not apply to
@@ -931,14 +971,16 @@ As of October 26, 2015, the "1" URLs return the browser-version for
 v9.9(decimal number as a string without any "."), while the "2" URLs
 returns 0.
 
-`if(internal_browserver > server_browserver)`
-`{`
-`    <safe>`
-`}`
-`else`
-`{`
-`    <update message>`
-`}`
+```
+if(internal_browserver > server_browserver)
+{
+    <safe>
+}
+else
+{
+    <update message>
+}
+```
 
 Hence, internal_browserver == server_browserver will trigger the
 sysupdate message, which appears to be the normal way to indicate that
@@ -984,10 +1026,12 @@ The browser(with New3DS at least) does the following with
 
 Raw request data(New3DS USA v10.2 browser):
 
-`000000: 47 45 54 20 2f 53 4e 41 4b 45 2f 32 2f 55 53 41  GET /SNAKE/2/USA`
-`000010: 20 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a   HTTP/1.1..Host:`
-`000020: 20 63 62 76 63 2e 63 64 6e 2e 6e 69 6e 74 65 6e   cbvc.cdn.ninten`
-`000030: 64 6f 2e 6e 65 74 0d 0a 0d 0a                    do.net....`
+```
+000000: 47 45 54 20 2f 53 4e 41 4b 45 2f 32 2f 55 53 41  GET /SNAKE/2/USA
+000010: 20 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a   HTTP/1.1..Host:
+000020: 20 63 62 76 63 2e 63 64 6e 2e 6e 69 6e 74 65 6e   cbvc.cdn.ninten
+000030: 64 6f 2e 6e 65 74 0d 0a 0d 0a                    do.net....
+```
 
 ### v10.7
 
@@ -1080,9 +1124,11 @@ including mobile site mode):
 
 <script type="text/javascript">
 
-`    if(navigator.userAgent.indexOf("Nintendo 3DS") == -1) { // If the user agent does not contain "Nintendo 3DS"`
-`        location.replace("http://www.3dbrew.org"); // Redirect to another page`
-`    }`
+```
+    if(navigator.userAgent.indexOf("Nintendo 3DS") == -1) { // If the user agent does not contain "Nintendo 3DS"
+        location.replace("http://www.3dbrew.org"); // Redirect to another page
+    }
+```
 
 </script>
 
@@ -1220,9 +1266,11 @@ This scheme allows the page to be easily manipulated through JavaScript.
 In order to have the window snap to the correct position, use the
 following JavaScript code:
 
-`window.setInterval(function() {`
-`    window.scrollTo(40, 215);`
-`}, 0);`
+```
+window.setInterval(function() {
+    window.scrollTo(40, 215);
+}, 0);
+```
 
 This automatically resets the position if the user accidentally scrolls
 the page. Zooming should probably also be disabled by adding

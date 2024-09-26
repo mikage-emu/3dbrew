@@ -1,5 +1,6 @@
 +++
 title = 'GPU Internal Registers'
+BookHref = '../GPU:Internal_Registers'
 +++
 
-1.  REDIRECT [GPU:Internal Registers](GPU:Internal_Registers "wikilink")
+GPU:Internal_Registers

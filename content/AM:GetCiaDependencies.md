@@ -1,6 +1,6 @@
 +++
 title = 'AM:GetCiaDependencies'
+BookHref = '../AM:GetDependencyListFromCia'
 +++
 
-1.  REDIRECT
-    [AM:GetDependencyListFromCia](AM:GetDependencyListFromCia "wikilink")
+AM:GetDependencyListFromCia

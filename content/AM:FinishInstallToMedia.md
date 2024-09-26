@@ -1,6 +1,6 @@
 +++
 title = 'AM:FinishInstallToMedia'
+BookHref = '../AM:FinalizePendingTitles'
 +++
 
-1.  REDIRECT
-    [AM:FinalizePendingTitles](AM:FinalizePendingTitles "wikilink")
+AM:FinalizePendingTitles

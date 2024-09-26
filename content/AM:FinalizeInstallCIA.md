@@ -1,6 +1,6 @@
 +++
 title = 'AM:FinalizeInstallCIA'
+BookHref = '../AM:FinalizeTitlesInstall'
 +++
 
-1.  REDIRECT
-    [AM:FinalizeTitlesInstall](AM:FinalizeTitlesInstall "wikilink")
+AM:FinalizeTitlesInstall

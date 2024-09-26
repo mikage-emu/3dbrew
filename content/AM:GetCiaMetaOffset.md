@@ -1,6 +1,6 @@
 +++
 title = 'AM:GetCiaMetaOffset'
+BookHref = '../AM:GetTransferSizeFromCia'
 +++
 
-1.  REDIRECT
-    [AM:GetTransferSizeFromCia](AM:GetTransferSizeFromCia "wikilink")
+AM:GetTransferSizeFromCia

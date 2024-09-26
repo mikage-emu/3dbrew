@@ -1,6 +1,6 @@
 +++
 title = 'AMNet:InstallTitleSetContentIndices'
+BookHref = '../AMNet:CreateImportContentContexts'
 +++
 
-1.  REDIRECT
-    [AMNet:CreateImportContentContexts](AMNet:CreateImportContentContexts "wikilink")
+AMNet:CreateImportContentContexts

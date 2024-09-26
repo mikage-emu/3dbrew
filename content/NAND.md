@@ -1,5 +1,6 @@
 +++
 title = 'NAND'
+BookHref = '../SDMC'
 +++
 
-1.  REDIRECT [SDMC](SDMC "wikilink")
+SDMC

@@ -1,5 +1,6 @@
 +++
 title = 'I2C'
+BookHref = '../I2C_Registers'
 +++
 
-1.  REDIRECT [I2C Registers](I2C_Registers "wikilink")
+I2C_Registers

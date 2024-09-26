@@ -1,6 +1,6 @@
 +++
 title = 'NEWSS:GetNotificationHeaderOther'
+BookHref = '../NEWSS:SetNotificationHeaderOther'
 +++
 
-1.  REDIRECT
-    [NEWSS:SetNotificationHeaderOther](NEWSS:SetNotificationHeaderOther "wikilink")
+NEWSS:SetNotificationHeaderOther

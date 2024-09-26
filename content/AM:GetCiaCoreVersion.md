@@ -1,6 +1,6 @@
 +++
 title = 'AM:GetCiaCoreVersion'
+BookHref = '../AM:GetCoreVersionFromCia'
 +++
 
-1.  REDIRECT
-    [AM:GetCoreVersionFromCia](AM:GetCoreVersionFromCia "wikilink")
+AM:GetCoreVersionFromCia

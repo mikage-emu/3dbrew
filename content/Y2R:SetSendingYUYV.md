@@ -1,5 +1,6 @@
 +++
 title = 'Y2R:SetSendingYUYV'
+BookHref = '../Y2R:SetSendingYuv'
 +++
 
-1.  REDIRECT [Y2R:SetSendingYuv](Y2R:SetSendingYuv "wikilink")
+Y2R:SetSendingYuv

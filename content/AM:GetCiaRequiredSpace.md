@@ -1,6 +1,6 @@
 +++
 title = 'AM:GetCiaRequiredSpace'
+BookHref = '../AM:GetRequiredSizeFromCia'
 +++
 
-1.  REDIRECT
-    [AM:GetRequiredSizeFromCia](AM:GetRequiredSizeFromCia "wikilink")
+AM:GetRequiredSizeFromCia

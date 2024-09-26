@@ -1,5 +1,6 @@
 +++
 title = 'HTTPC:AddRequestFormEntry'
+BookHref = '../HTTPC:AddPostDataAscii'
 +++
 
-1.  REDIRECT [HTTPC:AddPostDataAscii](HTTPC:AddPostDataAscii "wikilink")
+HTTPC:AddPostDataAscii

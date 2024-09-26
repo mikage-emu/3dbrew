@@ -1,6 +1,6 @@
 +++
 title = 'AM:GetCiaIcon'
+BookHref = '../AM:GetSystemMenuDataFromCia'
 +++
 
-1.  REDIRECT
-    [AM:GetSystemMenuDataFromCia](AM:GetSystemMenuDataFromCia "wikilink")
+AM:GetSystemMenuDataFromCia

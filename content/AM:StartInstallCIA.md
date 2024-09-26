@@ -1,5 +1,6 @@
 +++
 title = 'AM:StartInstallCIA'
+BookHref = '../AM:BeginImportProgram'
 +++
 
-1.  REDIRECT [AM:BeginImportProgram](AM:BeginImportProgram "wikilink")
+AM:BeginImportProgram

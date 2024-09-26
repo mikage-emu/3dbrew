@@ -1,5 +1,6 @@
 +++
 title = 'PMApp:LaunchFIRMSetParams'
+BookHref = '../PMApp:LaunchFIRM'
 +++
 
-1.  REDIRECT [PMApp:LaunchFIRM](PMApp:LaunchFIRM "wikilink")
+PMApp:LaunchFIRM

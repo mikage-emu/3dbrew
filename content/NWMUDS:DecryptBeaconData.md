@@ -1,6 +1,6 @@
 +++
 title = 'NWMUDS:DecryptBeaconData'
+BookHref = '../NWMUDS:GetNodeInformationList'
 +++
 
-1.  REDIRECT
-    [NWMUDS:GetNodeInformationList](NWMUDS:GetNodeInformationList "wikilink")
+NWMUDS:GetNodeInformationList

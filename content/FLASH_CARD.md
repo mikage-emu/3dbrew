@@ -1,5 +1,6 @@
 +++
 title = 'FLASH CARD'
+BookHref = '../Trash:FLASH_CARD'
 +++
 
-1.  REDIRECT [Trash:FLASH CARD](Trash:FLASH_CARD "wikilink")
+Trash:FLASH_CARD

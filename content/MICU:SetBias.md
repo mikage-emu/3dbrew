@@ -1,5 +1,6 @@
 +++
 title = 'MICU:SetBias'
+BookHref = '../MICU:SetPower'
 +++
 
-1.  REDIRECT [MICU:SetPower](MICU:SetPower "wikilink")
+MICU:SetPower

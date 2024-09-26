@@ -1,5 +1,6 @@
 +++
 title = 'PMApp:TerminateProcessTID'
+BookHref = '../PMApp:TerminateTitle'
 +++
 
-1.  REDIRECT [PMApp:TerminateTitle](PMApp:TerminateTitle "wikilink")
+PMApp:TerminateTitle

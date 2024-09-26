@@ -1,5 +1,6 @@
 +++
 title = 'NWMUDS:BeginHostingNetwork'
+BookHref = '../NWMUDS:CreateNetwork2'
 +++
 
-1.  REDIRECT [NWMUDS:CreateNetwork2](NWMUDS:CreateNetwork2 "wikilink")
+NWMUDS:CreateNetwork2

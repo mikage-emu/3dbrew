@@ -1,5 +1,6 @@
 +++
 title = 'NSS:SetFIRMParams4B0'
+BookHref = '../NSS:SetTWLBannerHMAC'
 +++
 
-1.  REDIRECT [NSS:SetTWLBannerHMAC](NSS:SetTWLBannerHMAC "wikilink")
+NSS:SetTWLBannerHMAC

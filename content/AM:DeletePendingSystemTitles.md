@@ -1,6 +1,6 @@
 +++
 title = 'AM:DeletePendingSystemTitles'
+BookHref = '../AM:DeleteAllPendingTitles'
 +++
 
-1.  REDIRECT
-    [AM:DeleteAllPendingTitles](AM:DeleteAllPendingTitles "wikilink")
+AM:DeleteAllPendingTitles

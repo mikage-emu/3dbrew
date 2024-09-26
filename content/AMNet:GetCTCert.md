@@ -1,5 +1,6 @@
 +++
 title = 'AMNet:GetCTCert'
+BookHref = '../AMNet:GetDeviceCert'
 +++
 
-1.  REDIRECT [AMNet:GetDeviceCert](AMNet:GetDeviceCert "wikilink")
+AMNet:GetDeviceCert

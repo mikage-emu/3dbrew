@@ -1,5 +1,6 @@
 +++
 title = 'NWMUDS:Shutdown'
+BookHref = '../NWMUDS:Finalize'
 +++
 
-1.  REDIRECT [NWMUDS:Finalize](NWMUDS:Finalize "wikilink")
+NWMUDS:Finalize

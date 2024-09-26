@@ -1,6 +1,6 @@
 +++
 title = 'AMNet:SetCertificates'
+BookHref = '../AMNet:ImportCertificates'
 +++
 
-1.  REDIRECT
-    [AMNet:ImportCertificates](AMNet:ImportCertificates "wikilink")
+AMNet:ImportCertificates

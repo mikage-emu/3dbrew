@@ -1,5 +1,6 @@
 +++
 title = 'Cards'
+BookHref = '../Gamecards'
 +++
 
-1.  REDIRECT [Gamecards](Gamecards "wikilink")
+Gamecards

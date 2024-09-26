@@ -1,5 +1,6 @@
 +++
 title = 'Memchunkhdr'
+BookHref = '../KHeapHeader'
 +++
 
-1.  REDIRECT [KHeapHeader](KHeapHeader "wikilink")
+KHeapHeader

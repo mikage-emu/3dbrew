@@ -1,6 +1,6 @@
 +++
 title = 'FSPXI:CardNorDirectRead4IO'
+BookHref = '../FSPXI:CardNorDirectRead_4xIO'
 +++
 
-1.  REDIRECT [FSPXI:CardNorDirectRead
-    4xIO](FSPXI:CardNorDirectRead_4xIO "wikilink")
+FSPXI:CardNorDirectRead_4xIO

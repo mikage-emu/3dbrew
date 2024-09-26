@@ -1,6 +1,6 @@
 +++
 title = 'NWMUDS:Initialize'
+BookHref = '../NWMUDS:InitializeWithVersion'
 +++
 
-1.  REDIRECT
-    [NWMUDS:InitializeWithVersion](NWMUDS:InitializeWithVersion "wikilink")
+NWMUDS:InitializeWithVersion

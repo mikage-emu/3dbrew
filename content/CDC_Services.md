@@ -1,5 +1,6 @@
 +++
 title = 'CDC Services'
+BookHref = '../Codec_Services'
 +++
 
-1.  REDIRECT [Codec Services](Codec_Services "wikilink")
+Codec_Services

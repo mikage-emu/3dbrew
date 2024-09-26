@@ -1,6 +1,6 @@
 +++
 title = 'FS:GetMovableSedHashedKeyYRandomData'
+BookHref = '../FS:StartDeviceMoveAsSource'
 +++
 
-1.  REDIRECT
-    [FS:StartDeviceMoveAsSource](FS:StartDeviceMoveAsSource "wikilink")
+FS:StartDeviceMoveAsSource

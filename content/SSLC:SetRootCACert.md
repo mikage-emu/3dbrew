@@ -1,5 +1,6 @@
 +++
 title = 'SSLC:SetRootCACert'
+BookHref = '../SSLC:AddTrustedRootCA'
 +++
 
-1.  REDIRECT [SSLC:AddTrustedRootCA](SSLC:AddTrustedRootCA "wikilink")
+SSLC:AddTrustedRootCA

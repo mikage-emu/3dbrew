@@ -1,5 +1,6 @@
 +++
 title = 'NWMUDS:ConnectToNetwork'
+BookHref = '../NWMUDS:ConnectNetwork2'
 +++
 
-1.  REDIRECT [NWMUDS:ConnectNetwork2](NWMUDS:ConnectNetwork2 "wikilink")
+NWMUDS:ConnectNetwork2

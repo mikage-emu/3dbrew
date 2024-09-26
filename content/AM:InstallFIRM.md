@@ -1,5 +1,6 @@
 +++
 title = 'AM:InstallFIRM'
+BookHref = '../AM:UpdateFirmwareTo'
 +++
 
-1.  REDIRECT [AM:UpdateFirmwareTo](AM:UpdateFirmwareTo "wikilink")
+AM:UpdateFirmwareTo

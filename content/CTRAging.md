@@ -1,5 +1,6 @@
 +++
 title = 'CTRAging'
+BookHref = '../Factory_Setup'
 +++
 
-1.  REDIRECT [Factory Setup](Factory_Setup "wikilink")
+Factory_Setup

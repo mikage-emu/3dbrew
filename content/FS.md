@@ -1,5 +1,6 @@
 +++
 title = 'FS'
+BookHref = '../Filesystem_services'
 +++
 
-1.  REDIRECT [Filesystem services](Filesystem_services "wikilink")
+Filesystem_services

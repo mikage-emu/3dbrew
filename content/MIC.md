@@ -1,5 +1,6 @@
 +++
 title = 'MIC'
+BookHref = '../MIC_Registers'
 +++
 
-1.  REDIRECT [MIC Registers](MIC_Registers "wikilink")
+MIC_Registers

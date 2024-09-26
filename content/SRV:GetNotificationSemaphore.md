@@ -1,5 +1,6 @@
 +++
 title = 'SRV:GetNotificationSemaphore'
+BookHref = '../SRV:EnableNotification'
 +++
 
-1.  REDIRECT [SRV:EnableNotification](SRV:EnableNotification "wikilink")
+SRV:EnableNotification

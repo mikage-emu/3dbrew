@@ -1,5 +1,6 @@
 +++
 title = 'DSM'
+BookHref = '../DSaveManager'
 +++
 
-1.  REDIRECT [DSaveManager](DSaveManager "wikilink")
+DSaveManager

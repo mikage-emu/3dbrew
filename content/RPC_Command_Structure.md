@@ -1,5 +1,6 @@
 +++
 title = 'RPC Command Structure'
+BookHref = '../IPC_Command_Structure'
 +++
 
-1.  REDIRECT [IPC Command Structure](IPC_Command_Structure "wikilink")
+IPC_Command_Structure

@@ -1,5 +1,6 @@
 +++
 title = 'HTTPC:SetRootCACert'
+BookHref = '../HTTPC:AddTrustedRootCA'
 +++
 
-1.  REDIRECT [HTTPC:AddTrustedRootCA](HTTPC:AddTrustedRootCA "wikilink")
+HTTPC:AddTrustedRootCA

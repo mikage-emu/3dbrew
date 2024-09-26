@@ -1,5 +1,6 @@
 +++
 title = 'Quick Camera'
+BookHref = '../Camera_Applet'
 +++
 
-1.  REDIRECT [Camera Applet](Camera_Applet "wikilink")
+Camera_Applet

@@ -1,5 +1,6 @@
 +++
 title = 'PXI'
+BookHref = '../PXI_Registers'
 +++
 
-1.  REDIRECT [PXI Registers](PXI_Registers "wikilink")
+PXI_Registers

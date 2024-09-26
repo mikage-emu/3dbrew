@@ -1,8 +1,7 @@
 +++
 title = 'CSU'
 categories = ["File formats"]
+BookHref = '../NCSD'
 +++
 
-1.  REDIRECT [NCSD](NCSD "wikilink")
-
-[Category:File formats](Category:File_formats "wikilink")
+NCSD

@@ -1,6 +1,6 @@
 +++
 title = 'AM:DeletePendingTitle'
+BookHref = '../AM:DeleteImportTitleContext'
 +++
 
-1.  REDIRECT
-    [AM:DeleteImportTitleContext](AM:DeleteImportTitleContext "wikilink")
+AM:DeleteImportTitleContext

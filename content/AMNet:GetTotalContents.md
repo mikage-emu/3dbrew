@@ -1,6 +1,6 @@
 +++
 title = 'AMNet:GetTotalContents'
+BookHref = '../AMNet:GetNumCurrentImportContentContexts'
 +++
 
-1.  REDIRECT
-    [AMNet:GetNumCurrentImportContentContexts](AMNet:GetNumCurrentImportContentContexts "wikilink")
+AMNet:GetNumCurrentImportContentContexts

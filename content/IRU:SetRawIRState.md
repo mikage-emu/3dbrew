@@ -1,5 +1,6 @@
 +++
 title = 'IRU:SetRawIRState'
+BookHref = '../IRU:SetSleepModeActive'
 +++
 
-1.  REDIRECT [IRU:SetSleepModeActive](IRU:SetSleepModeActive "wikilink")
+IRU:SetSleepModeActive

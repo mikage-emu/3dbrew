@@ -1,5 +1,6 @@
 +++
 title = 'File Formats'
+BookHref = '../:Category:File_formats'
 +++
 
-1.  REDIRECT [:Category:File_formats](:Category:File_formats "wikilink")
+:Category:File_formats

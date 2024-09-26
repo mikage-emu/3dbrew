@@ -1,5 +1,6 @@
 +++
 title = 'GPU Commands'
+BookHref = '../GPU/Commands'
 +++
 
-1.  REDIRECT [GPU/Commands](GPU/Commands "wikilink")
+GPU/Commands

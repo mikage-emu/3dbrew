@@ -1,5 +1,6 @@
 +++
 title = 'APTU:GetSignalType'
+BookHref = '../APT:GetSignalType'
 +++
 
-1.  REDIRECT [<APT:GetSignalType>](APT:GetSignalType "wikilink")
+APT:GetSignalType

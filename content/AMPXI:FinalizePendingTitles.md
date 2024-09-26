@@ -1,5 +1,6 @@
 +++
 title = 'AMPXI:FinalizePendingTitles'
+BookHref = '../AMPXI:DoCleanup'
 +++
 
-1.  REDIRECT [AMPXI:DoCleanup](AMPXI:DoCleanup "wikilink")
+AMPXI:DoCleanup

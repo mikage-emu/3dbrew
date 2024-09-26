@@ -1,6 +1,6 @@
 +++
 title = 'AMNet:FinishInstallToMedia'
+BookHref = '../AM:FinishInstallToMedia'
 +++
 
-1.  REDIRECT
-    [AM:FinishInstallToMedia](AM:FinishInstallToMedia "wikilink")
+AM:FinishInstallToMedia

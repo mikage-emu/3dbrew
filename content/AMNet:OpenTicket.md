@@ -1,6 +1,6 @@
 +++
 title = 'AMNet:OpenTicket'
+BookHref = '../AMNet:InstallTicketBegin'
 +++
 
-1.  REDIRECT
-    [AMNet:InstallTicketBegin](AMNet:InstallTicketBegin "wikilink")
+AMNet:InstallTicketBegin

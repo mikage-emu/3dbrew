@@ -1,5 +1,6 @@
 +++
 title = 'HID'
+BookHref = '../HID_Registers'
 +++
 
-1.  REDIRECT [HID Registers](HID_Registers "wikilink")
+HID_Registers

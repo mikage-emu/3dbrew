@@ -1,6 +1,6 @@
 +++
 title = 'AMNet:ContentAbortInstall'
+BookHref = '../AMNet:InstallContentAbort'
 +++
 
-1.  REDIRECT
-    [AMNet:InstallContentAbort](AMNet:InstallContentAbort "wikilink")
+AMNet:InstallContentAbort

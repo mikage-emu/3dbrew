@@ -1,6 +1,6 @@
 +++
 title = 'AM'
+BookHref = '../Application_Manager_Services'
 +++
 
-1.  REDIRECT [Application Manager
-    Services](Application_Manager_Services "wikilink")
+Application_Manager_Services

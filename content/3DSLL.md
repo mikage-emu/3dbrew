@@ -1,5 +1,6 @@
 +++
 title = '3DSLL'
+BookHref = '../New_3DS'
 +++
 
-1.  REDIRECT [New 3DS](New_3DS "wikilink")
+New_3DS

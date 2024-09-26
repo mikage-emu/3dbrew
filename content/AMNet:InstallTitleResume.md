@@ -1,6 +1,6 @@
 +++
 title = 'AMNet:InstallTitleResume'
+BookHref = '../AMNet:ResumeImportTitle'
 +++
 
-1.  REDIRECT
-    [AMNet:ResumeImportTitle](AMNet:ResumeImportTitle "wikilink")
+AMNet:ResumeImportTitle

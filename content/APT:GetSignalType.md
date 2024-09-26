@@ -1,6 +1,6 @@
 +++
 title = 'APT:GetSignalType'
+BookHref = '../APT:InquireNotification'
 +++
 
-1.  REDIRECT
-    [<APT:InquireNotification>](APT:InquireNotification "wikilink")
+APT:InquireNotification

@@ -1,5 +1,6 @@
 +++
 title = 'AM:FindContentInfos'
+BookHref = '../AM:FindDLCContentInfos'
 +++
 
-1.  REDIRECT [AM:FindDLCContentInfos](AM:FindDLCContentInfos "wikilink")
+AM:FindDLCContentInfos

@@ -1,6 +1,6 @@
 +++
 title = 'FRDU:DecodeLocalFriendCode'
+BookHref = '../FRDU:UnscrambleLocalFriendCode'
 +++
 
-1.  REDIRECT
-    [FRDU:UnscrambleLocalFriendCode](FRDU:UnscrambleLocalFriendCode "wikilink")
+FRDU:UnscrambleLocalFriendCode

@@ -1,6 +1,6 @@
 +++
 title = 'AMNet:OpenContentEncrypted'
+BookHref = '../AMNet:InstallContentBegin'
 +++
 
-1.  REDIRECT
-    [AMNet:InstallContentBegin](AMNet:InstallContentBegin "wikilink")
+AMNet:InstallContentBegin

@@ -1,6 +1,6 @@
 +++
 title = 'AMNet:InstallTicketFinalize'
+BookHref = '../AMNet:InstallTicketFinish'
 +++
 
-1.  REDIRECT
-    [AMNet:InstallTicketFinish](AMNet:InstallTicketFinish "wikilink")
+AMNet:InstallTicketFinish

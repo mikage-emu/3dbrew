@@ -1,5 +1,6 @@
 +++
 title = 'CONFIG'
+BookHref = '../CONFIG_Registers'
 +++
 
-1.  REDIRECT [CONFIG Registers](CONFIG_Registers "wikilink")
+CONFIG_Registers

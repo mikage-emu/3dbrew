@@ -1,5 +1,6 @@
 +++
 title = 'SHA'
+BookHref = '../SHA_Registers'
 +++
 
-1.  REDIRECT [SHA Registers](SHA_Registers "wikilink")
+SHA_Registers

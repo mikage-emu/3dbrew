@@ -1,5 +1,6 @@
 +++
 title = 'GSPLCD:SetAdaptiveArea'
+BookHref = '../GSPLCD:SetABLArea'
 +++
 
-1.  REDIRECT [GSPLCD:SetABLArea](GSPLCD:SetABLArea "wikilink")
+GSPLCD:SetABLArea

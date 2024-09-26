@@ -1,6 +1,6 @@
 +++
 title = 'AM:MigrateAGBtoSAV'
+BookHref = '../AM:PerpetuateAgbSaveData'
 +++
 
-1.  REDIRECT
-    [AM:PerpetuateAgbSaveData](AM:PerpetuateAgbSaveData "wikilink")
+AM:PerpetuateAgbSaveData

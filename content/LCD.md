@@ -1,5 +1,6 @@
 +++
 title = 'LCD'
+BookHref = '../LCD_Registers'
 +++
 
-1.  REDIRECT [LCD Registers](LCD_Registers "wikilink")
+LCD_Registers

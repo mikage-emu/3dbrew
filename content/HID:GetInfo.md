@@ -1,5 +1,6 @@
 +++
 title = 'HID:GetInfo'
+BookHref = '../HID:GetIPCHandles'
 +++
 
-1.  REDIRECT [HID:GetIPCHandles](HID:GetIPCHandles "wikilink")
+HID:GetIPCHandles

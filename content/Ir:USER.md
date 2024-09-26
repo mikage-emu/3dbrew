@@ -1,5 +1,6 @@
 +++
 title = 'Ir:USER'
+BookHref = '../IR_Services#iruser'
 +++
 
-1.  REDIRECT [IR Services#ir:USER](IR_Services#iruser "wikilink")
+IR_Services#iruser

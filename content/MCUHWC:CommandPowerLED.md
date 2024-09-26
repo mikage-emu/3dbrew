@@ -1,6 +1,6 @@
 +++
 title = 'MCUHWC:CommandPowerLED'
+BookHref = '../MCUHWC:SetPowerLEDPattern'
 +++
 
-1.  REDIRECT
-    [MCUHWC:SetPowerLEDPattern](MCUHWC:SetPowerLEDPattern "wikilink")
+MCUHWC:SetPowerLEDPattern

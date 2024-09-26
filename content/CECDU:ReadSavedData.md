@@ -1,5 +1,6 @@
 +++
 title = 'CECDU:ReadSavedData'
+BookHref = '../CECDU:OpenAndRead'
 +++
 
-1.  REDIRECT [CECDU:OpenAndRead](CECDU:OpenAndRead "wikilink")
+CECDU:OpenAndRead

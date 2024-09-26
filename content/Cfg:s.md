@@ -1,5 +1,6 @@
 +++
 title = 'Cfg:s'
+BookHref = '../Config_Services#cfgs'
 +++
 
-1.  REDIRECT [Config_Services#cfg:s](Config_Services#cfgs "wikilink")
+Config_Services#cfgs

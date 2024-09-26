@@ -1,6 +1,6 @@
 +++
 title = 'Am:sys'
+BookHref = '../Application_Manager_Services#amsys'
 +++
 
-1.  REDIRECT
-    [Application_Manager_Services#am:sys](Application_Manager_Services#amsys "wikilink")
+Application_Manager_Services#amsys

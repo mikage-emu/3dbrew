@@ -1,5 +1,6 @@
 +++
 title = 'GSPLCD:DisableAdaptiveBacklight'
+BookHref = '../GSPLCD:DisableABL'
 +++
 
-1.  REDIRECT [GSPLCD:DisableABL](GSPLCD:DisableABL "wikilink")
+GSPLCD:DisableABL

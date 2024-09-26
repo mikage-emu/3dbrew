@@ -1,6 +1,6 @@
 +++
 title = 'AMNet:InstallTitlesFinish'
+BookHref = '../AMNet:CommitImportTitles'
 +++
 
-1.  REDIRECT
-    [AMNet:CommitImportTitles](AMNet:CommitImportTitles "wikilink")
+AMNet:CommitImportTitles

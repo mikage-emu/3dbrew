@@ -1,6 +1,6 @@
 +++
 title = 'AM:CloseCIA'
+BookHref = '../AM:EndImportProgramWithoutCommit'
 +++
 
-1.  REDIRECT
-    [AM:EndImportProgramWithoutCommit](AM:EndImportProgramWithoutCommit "wikilink")
+AM:EndImportProgramWithoutCommit

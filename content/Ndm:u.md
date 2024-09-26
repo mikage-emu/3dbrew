@@ -1,5 +1,6 @@
 +++
 title = 'Ndm:u'
+BookHref = '../NDM_Services#ndmu'
 +++
 
-1.  REDIRECT [NDM_Services#ndm:u](NDM_Services#ndmu "wikilink")
+NDM_Services#ndmu

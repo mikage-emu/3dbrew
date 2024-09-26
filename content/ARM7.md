@@ -1,5 +1,6 @@
 +++
 title = 'ARM7'
+BookHref = '../ARM7_Registers'
 +++
 
-1.  REDIRECT [ARM7 Registers](ARM7_Registers "wikilink")
+ARM7_Registers

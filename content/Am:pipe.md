@@ -1,6 +1,6 @@
 +++
 title = 'Am:pipe'
+BookHref = '../Application_Manager_Services#ampipe'
 +++
 
-1.  REDIRECT
-    [Application_Manager_Services#am:pipe](Application_Manager_Services#ampipe "wikilink")
+Application_Manager_Services#ampipe

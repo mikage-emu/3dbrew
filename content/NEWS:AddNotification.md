@@ -1,5 +1,6 @@
 +++
 title = 'NEWS:AddNotification'
+BookHref = '../NEWSS:AddNotification'
 +++
 
-1.  REDIRECT [NEWSS:AddNotification](NEWSS:AddNotification "wikilink")
+NEWSS:AddNotification

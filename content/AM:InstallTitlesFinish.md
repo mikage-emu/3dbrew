@@ -1,6 +1,6 @@
 +++
 title = 'AM:InstallTitlesFinish'
+BookHref = '../AM:CommitImportProgramsAndUpdateFirmwareAuto'
 +++
 
-1.  REDIRECT
-    [AM:CommitImportProgramsAndUpdateFirmwareAuto](AM:CommitImportProgramsAndUpdateFirmwareAuto "wikilink")
+AM:CommitImportProgramsAndUpdateFirmwareAuto

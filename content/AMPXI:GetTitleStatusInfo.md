@@ -1,6 +1,6 @@
 +++
 title = 'AMPXI:GetTitleStatusInfo'
+BookHref = '../AMPXI:GetPendingTitleInfo'
 +++
 
-1.  REDIRECT
-    [AMPXI:GetPendingTitleInfo](AMPXI:GetPendingTitleInfo "wikilink")
+AMPXI:GetPendingTitleInfo

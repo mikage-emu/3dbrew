@@ -1,5 +1,6 @@
 +++
 title = 'Gamecard PXI'
+BookHref = '../Gamecard_Services_PXI'
 +++
 
-1.  REDIRECT [Gamecard Services PXI](Gamecard_Services_PXI "wikilink")
+Gamecard_Services_PXI

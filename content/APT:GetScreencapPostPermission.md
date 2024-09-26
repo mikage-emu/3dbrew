@@ -1,6 +1,6 @@
 +++
 title = 'APT:GetScreencapPostPermission'
+BookHref = '../APT:GetScreenCapturePostPermission'
 +++
 
-1.  REDIRECT
-    [<APT:GetScreenCapturePostPermission>](APT:GetScreenCapturePostPermission "wikilink")
+APT:GetScreenCapturePostPermission

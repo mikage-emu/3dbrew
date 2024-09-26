@@ -1,6 +1,6 @@
 +++
 title = 'Format Tags'
+BookHref = '../Nintendo_Badge_Arcade/MSBT'
 +++
 
-1.  REDIRECT [Nintendo Badge
-    Arcade/MSBT](Nintendo_Badge_Arcade/MSBT "wikilink")
+Nintendo_Badge_Arcade/MSBT

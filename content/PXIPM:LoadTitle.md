@@ -1,5 +1,6 @@
 +++
 title = 'PXIPM:LoadTitle'
+BookHref = '../PXIPM:RegisterProgram'
 +++
 
-1.  REDIRECT [PXIPM:RegisterProgram](PXIPM:RegisterProgram "wikilink")
+PXIPM:RegisterProgram

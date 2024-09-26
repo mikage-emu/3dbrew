@@ -1,6 +1,6 @@
 +++
 title = 'APT:S'
+BookHref = '../NS_and_APT_Services#apts'
 +++
 
-1.  REDIRECT [NS_and_APT
-    Services#APT:S](NS_and_APT_Services#apts "wikilink")
+NS_and_APT_Services#apts

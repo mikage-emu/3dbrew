@@ -1,6 +1,6 @@
 +++
 title = 'PMApp:GetResourceLimitMax'
+BookHref = '../PMApp:GetAppResourceLimit'
 +++
 
-1.  REDIRECT
-    [PMApp:GetAppResourceLimit](PMApp:GetAppResourceLimit "wikilink")
+PMApp:GetAppResourceLimit

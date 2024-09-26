@@ -1,5 +1,6 @@
 +++
 title = 'NTRCARD'
+BookHref = '../NTRCARD_Registers'
 +++
 
-1.  REDIRECT [NTRCARD Registers](NTRCARD_Registers "wikilink")
+NTRCARD_Registers

@@ -1,6 +1,6 @@
 +++
 title = 'AM:GetItemRights'
+BookHref = '../AM:GetDLCOrLicenseItemRights'
 +++
 
-1.  REDIRECT
-    [AM:GetDLCOrLicenseItemRights](AM:GetDLCOrLicenseItemRights "wikilink")
+AM:GetDLCOrLicenseItemRights

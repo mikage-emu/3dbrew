@@ -1,6 +1,6 @@
 +++
 title = 'NIMU:CheckSysupdateAvailable'
+BookHref = '../NIMU:IsCommittableAllSystemTitles'
 +++
 
-1.  REDIRECT
-    [NIMU:IsCommittableAllSystemTitles](NIMU:IsCommittableAllSystemTitles "wikilink")
+NIMU:IsCommittableAllSystemTitles

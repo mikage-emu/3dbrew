@@ -1,5 +1,6 @@
 +++
 title = 'RSA'
+BookHref = '../RSA_Registers'
 +++
 
-1.  REDIRECT [RSA Registers](RSA_Registers "wikilink")
+RSA_Registers

@@ -1,5 +1,6 @@
 +++
 title = 'NWMUDS:RecvBroadcastDataFrame'
+BookHref = '../NWMUDS:PullPacket'
 +++
 
-1.  REDIRECT [NWMUDS:PullPacket](NWMUDS:PullPacket "wikilink")
+NWMUDS:PullPacket

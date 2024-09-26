@@ -1,6 +1,6 @@
 +++
 title = 'Fixed Vertex Attributes'
+BookHref = '../GPU/Programming_Guide#fixed_vertex_attributes'
 +++
 
-1.  REDIRECT [GPU/Programming Guide#Fixed Vertex
-    Attributes](GPU/Programming_Guide#fixed_vertex_attributes "wikilink")
+GPU/Programming_Guide#fixed_vertex_attributes

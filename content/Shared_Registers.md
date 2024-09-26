@@ -1,5 +1,6 @@
 +++
 title = 'Shared Registers'
+BookHref = '../Configuration_Memory'
 +++
 
-1.  REDIRECT [Configuration Memory](Configuration_Memory "wikilink")
+Configuration_Memory

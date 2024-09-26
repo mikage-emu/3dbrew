@@ -1,6 +1,6 @@
 +++
 title = 'AMNet:TicketAbortInstall'
+BookHref = '../AMNet:InstallTicketAbort'
 +++
 
-1.  REDIRECT
-    [AMNet:InstallTicketAbort](AMNet:InstallTicketAbort "wikilink")
+AMNet:InstallTicketAbort

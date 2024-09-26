@@ -1,5 +1,6 @@
 +++
 title = 'AMNet:InstallContentFinish'
+BookHref = '../AMNet:EndImportContent'
 +++
 
-1.  REDIRECT [AMNet:EndImportContent](AMNet:EndImportContent "wikilink")
+AMNet:EndImportContent

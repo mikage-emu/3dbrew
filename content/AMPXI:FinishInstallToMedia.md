@@ -1,6 +1,6 @@
 +++
 title = 'AMPXI:FinishInstallToMedia'
+BookHref = '../AMPXI:FinalizePendingTitles'
 +++
 
-1.  REDIRECT
-    [AMPXI:FinalizePendingTitles](AMPXI:FinalizePendingTitles "wikilink")
+AMPXI:FinalizePendingTitles

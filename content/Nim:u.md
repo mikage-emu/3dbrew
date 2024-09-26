@@ -1,5 +1,6 @@
 +++
 title = 'Nim:u'
+BookHref = '../NIM_Services#nimu'
 +++
 
-1.  REDIRECT [NIM_Services#nim:u](NIM_Services#nimu "wikilink")
+NIM_Services#nimu

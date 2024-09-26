@@ -1,6 +1,6 @@
 +++
 title = 'Process Manager Ports'
+BookHref = '../Process_Manager_Services'
 +++
 
-1.  REDIRECT [Process Manager
-    Services](Process_Manager_Services "wikilink")
+Process_Manager_Services

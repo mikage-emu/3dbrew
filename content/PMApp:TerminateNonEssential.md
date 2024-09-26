@@ -1,5 +1,6 @@
 +++
 title = 'PMApp:TerminateNonEssential'
+BookHref = '../PMApp:PrepareForReboot'
 +++
 
-1.  REDIRECT [PMApp:PrepareForReboot](PMApp:PrepareForReboot "wikilink")
+PMApp:PrepareForReboot

@@ -1,5 +1,6 @@
 +++
 title = 'GX Commands'
+BookHref = '../GSP_Shared_Memory'
 +++
 
-1.  REDIRECT [GSP Shared Memory](GSP_Shared_Memory "wikilink")
+GSP_Shared_Memory

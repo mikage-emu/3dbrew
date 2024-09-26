@@ -1,6 +1,6 @@
 +++
 title = 'AMPXI'
+BookHref = '../Application_Manager_Services_PXI'
 +++
 
-1.  REDIRECT [Application Manager Services
-    PXI](Application_Manager_Services_PXI "wikilink")
+Application_Manager_Services_PXI

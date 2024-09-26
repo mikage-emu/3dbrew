@@ -1,5 +1,6 @@
 +++
 title = 'NFCM:SetRegisterInfoPrivate'
+BookHref = '../NFCM:SetRegisterInfo'
 +++
 
-1.  REDIRECT [NFCM:SetRegisterInfo](NFCM:SetRegisterInfo "wikilink")
+NFCM:SetRegisterInfo

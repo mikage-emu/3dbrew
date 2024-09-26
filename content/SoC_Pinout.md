@@ -1,5 +1,6 @@
 +++
 title = 'SoC Pinout'
+BookHref = '../Pinouts'
 +++
 
-1.  REDIRECT [Pinouts](Pinouts "wikilink")
+Pinouts

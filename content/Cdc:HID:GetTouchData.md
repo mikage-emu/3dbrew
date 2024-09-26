@@ -1,5 +1,6 @@
 +++
 title = 'Cdc:HID:GetTouchData'
+BookHref = '../Cdc:HID:GetData'
 +++
 
-1.  REDIRECT [Cdc:HID:GetData](Cdc:HID:GetData "wikilink")
+Cdc:HID:GetData

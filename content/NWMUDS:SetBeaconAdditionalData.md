@@ -1,6 +1,6 @@
 +++
 title = 'NWMUDS:SetBeaconAdditionalData'
+BookHref = '../NWMUDS:SetApplicationData'
 +++
 
-1.  REDIRECT
-    [NWMUDS:SetApplicationData](NWMUDS:SetApplicationData "wikilink")
+NWMUDS:SetApplicationData

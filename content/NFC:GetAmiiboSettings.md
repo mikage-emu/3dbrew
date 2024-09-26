@@ -1,5 +1,6 @@
 +++
 title = 'NFC:GetAmiiboSettings'
+BookHref = '../NFC:GetRegisterInfo'
 +++
 
-1.  REDIRECT [NFC:GetRegisterInfo](NFC:GetRegisterInfo "wikilink")
+NFC:GetRegisterInfo

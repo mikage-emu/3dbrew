@@ -1,6 +1,6 @@
 +++
 title = 'SRV:HasAccessToService'
+BookHref = '../SRV:IsServiceRegistered'
 +++
 
-1.  REDIRECT
-    [SRV:IsServiceRegistered](SRV:IsServiceRegistered "wikilink")
+SRV:IsServiceRegistered

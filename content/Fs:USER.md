@@ -1,6 +1,6 @@
 +++
 title = 'Fs:USER'
+BookHref = '../Filesystem_services#fsuser'
 +++
 
-1.  REDIRECT
-    [Filesystem_services#fs:USER](Filesystem_services#fsuser "wikilink")
+Filesystem_services#fsuser

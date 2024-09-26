@@ -1,6 +1,6 @@
 +++
 title = 'AMPXI:InstallTitleSetContentIndices'
+BookHref = '../AMPXI:CreateImportContentContexts'
 +++
 
-1.  REDIRECT
-    [AMPXI:CreateImportContentContexts](AMPXI:CreateImportContentContexts "wikilink")
+AMPXI:CreateImportContentContexts

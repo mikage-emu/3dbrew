@@ -1,5 +1,6 @@
 +++
 title = 'AM:ExportDSiWare'
+BookHref = '../AM:ExportTwlBackup'
 +++
 
-1.  REDIRECT [AM:ExportTwlBackup](AM:ExportTwlBackup "wikilink")
+AM:ExportTwlBackup

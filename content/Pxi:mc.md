@@ -1,6 +1,6 @@
 +++
 title = 'Pxi:mc'
+BookHref = '../Mode_Control_Services_PXI#pximc'
 +++
 
-1.  REDIRECT
-    [Mode_Control_Services_PXI#pxi:mc](Mode_Control_Services_PXI#pximc "wikilink")
+Mode_Control_Services_PXI#pximc

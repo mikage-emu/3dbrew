@@ -1,5 +1,6 @@
 +++
 title = 'AM:IsDataTitleInUse'
+BookHref = '../AM:IsDLCTitleInUse'
 +++
 
-1.  REDIRECT [AM:IsDLCTitleInUse](AM:IsDLCTitleInUse "wikilink")
+AM:IsDLCTitleInUse

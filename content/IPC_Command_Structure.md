@@ -1,5 +1,6 @@
 +++
 title = 'IPC Command Structure'
+BookHref = '../IPC#message_structure'
 +++
 
-1.  REDIRECT [IPC#Message_Structure](IPC#message_structure "wikilink")
+IPC#message_structure

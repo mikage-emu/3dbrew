@@ -1,6 +1,6 @@
 +++
 title = 'Cfg:SetCountryCodeString'
+BookHref = '../Cfg:GetCountryCodeString'
 +++
 
-1.  REDIRECT
-    [Cfg:GetCountryCodeString](Cfg:GetCountryCodeString "wikilink")
+Cfg:GetCountryCodeString

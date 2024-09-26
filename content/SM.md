@@ -1,5 +1,6 @@
 +++
 title = 'SM'
+BookHref = '../Services'
 +++
 
-1.  REDIRECT [Services](Services "wikilink")
+Services

@@ -1,5 +1,6 @@
 +++
 title = 'AM:DeleteApplicationTitle'
+BookHref = '../AM:DeleteUserProgram'
 +++
 
-1.  REDIRECT [AM:DeleteUserProgram](AM:DeleteUserProgram "wikilink")
+AM:DeleteUserProgram

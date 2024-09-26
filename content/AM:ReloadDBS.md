@@ -1,6 +1,6 @@
 +++
 title = 'AM:ReloadDBS'
+BookHref = '../AM:QueryAvailableExternalTitleDatabase'
 +++
 
-1.  REDIRECT
-    [AM:QueryAvailableExternalTitleDatabase](AM:QueryAvailableExternalTitleDatabase "wikilink")
+AM:QueryAvailableExternalTitleDatabase

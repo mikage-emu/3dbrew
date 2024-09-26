@@ -1,5 +1,6 @@
 +++
 title = 'AM:CloseCIAFinalizeInstall'
+BookHref = '../AM:EndImportProgram'
 +++
 
-1.  REDIRECT [AM:EndImportProgram](AM:EndImportProgram "wikilink")
+AM:EndImportProgram

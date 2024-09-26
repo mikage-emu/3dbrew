@@ -1,6 +1,6 @@
 +++
 title = 'Pm:dbg'
+BookHref = '../Process_Manager_Services#pmdbg'
 +++
 
-1.  REDIRECT
-    [Process_Manager_Services#pm:dbg](Process_Manager_Services#pmdbg "wikilink")
+Process_Manager_Services#pmdbg

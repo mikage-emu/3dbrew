@@ -1,5 +1,6 @@
 +++
 title = 'AES'
+BookHref = '../AES_Registers'
 +++
 
-1.  REDIRECT [AES Registers](AES_Registers "wikilink")
+AES_Registers

@@ -1,6 +1,6 @@
 +++
 title = 'PXIDEV:ReadCTRCARD'
+BookHref = '../PXIDEV:ReadCTRCARD_Cmd40'
 +++
 
-1.  REDIRECT [PXIDEV:ReadCTRCARD
-    Cmd40](PXIDEV:ReadCTRCARD_Cmd40 "wikilink")
+PXIDEV:ReadCTRCARD_Cmd40

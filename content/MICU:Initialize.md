@@ -1,5 +1,6 @@
 +++
 title = 'MICU:Initialize'
+BookHref = '../MICU:StartSampling'
 +++
 
-1.  REDIRECT [MICU:StartSampling](MICU:StartSampling "wikilink")
+MICU:StartSampling

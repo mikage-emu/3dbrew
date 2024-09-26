@@ -1,6 +1,6 @@
 +++
 title = 'HTTPC:SendPOSTDataDelay'
+BookHref = '../HTTPC:SendPOSTDataTimeout'
 +++
 
-1.  REDIRECT
-    [HTTPC:SendPOSTDataTimeout](HTTPC:SendPOSTDataTimeout "wikilink")
+HTTPC:SendPOSTDataTimeout

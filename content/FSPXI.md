@@ -1,6 +1,6 @@
 +++
 title = 'FSPXI'
+BookHref = '../Filesystem_services_PXI'
 +++
 
-1.  REDIRECT [Filesystem services
-    PXI](Filesystem_services_PXI "wikilink")
+Filesystem_services_PXI

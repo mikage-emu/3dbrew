@@ -1,6 +1,6 @@
 +++
 title = 'Fs:REG'
+BookHref = '../Filesystem_services#fsreg'
 +++
 
-1.  REDIRECT
-    [Filesystem_services#fs:REG](Filesystem_services#fsreg "wikilink")
+Filesystem_services#fsreg

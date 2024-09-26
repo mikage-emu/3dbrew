@@ -1,6 +1,6 @@
 +++
 title = 'AMNet:InstallContentBegin'
+BookHref = '../AMNet:BeginImportContent'
 +++
 
-1.  REDIRECT
-    [AMNet:BeginImportContent](AMNet:BeginImportContent "wikilink")
+AMNet:BeginImportContent

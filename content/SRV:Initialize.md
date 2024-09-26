@@ -1,5 +1,6 @@
 +++
 title = 'SRV:Initialize'
+BookHref = '../SRV:RegisterClient'
 +++
 
-1.  REDIRECT [SRV:RegisterClient](SRV:RegisterClient "wikilink")
+SRV:RegisterClient

@@ -1,5 +1,6 @@
 +++
 title = 'LOADER:GetExheader'
+BookHref = '../LOADER:GetProgramInfo'
 +++
 
-1.  REDIRECT [LOADER:GetProgramInfo](LOADER:GetProgramInfo "wikilink")
+LOADER:GetProgramInfo

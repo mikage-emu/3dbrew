@@ -1,6 +1,6 @@
 +++
 title = 'MCUHWC:CommandCameraLED'
+BookHref = '../MCUHWC:SetCameraLEDPattern'
 +++
 
-1.  REDIRECT
-    [MCUHWC:SetCameraLEDPattern](MCUHWC:SetCameraLEDPattern "wikilink")
+MCUHWC:SetCameraLEDPattern

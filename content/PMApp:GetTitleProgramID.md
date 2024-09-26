@@ -1,6 +1,6 @@
 +++
 title = 'PMApp:GetTitleProgramID'
+BookHref = '../PMApp:GetTitleExheaderFlags'
 +++
 
-1.  REDIRECT
-    [PMApp:GetTitleExheaderFlags](PMApp:GetTitleExheaderFlags "wikilink")
+PMApp:GetTitleExheaderFlags

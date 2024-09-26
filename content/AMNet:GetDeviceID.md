@@ -1,5 +1,6 @@
 +++
 title = 'AMNet:GetDeviceID'
+BookHref = '../AM:GetDeviceID'
 +++
 
-1.  REDIRECT [AM:GetDeviceID](AM:GetDeviceID "wikilink")
+AM:GetDeviceID

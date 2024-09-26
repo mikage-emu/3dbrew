@@ -1,5 +1,6 @@
 +++
 title = 'IRQ'
+BookHref = '../IRQ_Registers'
 +++
 
-1.  REDIRECT [IRQ Registers](IRQ_Registers "wikilink")
+IRQ_Registers

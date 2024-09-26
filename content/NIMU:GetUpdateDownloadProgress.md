@@ -1,5 +1,6 @@
 +++
 title = 'NIMU:GetUpdateDownloadProgress'
+BookHref = '../NIMU:GetProgress'
 +++
 
-1.  REDIRECT [NIMU:GetProgress](NIMU:GetProgress "wikilink")
+NIMU:GetProgress

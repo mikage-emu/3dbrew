@@ -1,6 +1,6 @@
 +++
 title = 'Memory Regions'
+BookHref = '../Memory_layout#fcram-memory-regions-layout'
 +++
 
-1.  REDIRECT
-    [Memory_layout#FCRAM_memory-regions_layout](Memory_layout#fcram-memory-regions-layout "wikilink")
+Memory_layout#fcram-memory-regions-layout

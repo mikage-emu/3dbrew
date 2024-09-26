@@ -1,6 +1,6 @@
 +++
 title = 'HTTPC:GetResponseStatusCodeDelay'
+BookHref = '../HTTPC:GetResponseStatusCodeTimeout'
 +++
 
-1.  REDIRECT
-    [HTTPC:GetResponseStatusCodeTimeout](HTTPC:GetResponseStatusCodeTimeout "wikilink")
+HTTPC:GetResponseStatusCodeTimeout

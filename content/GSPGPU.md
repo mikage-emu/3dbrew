@@ -1,5 +1,6 @@
 +++
 title = 'GSPGPU'
+BookHref = '../GSP_Services#gspgpu'
 +++
 
-1.  REDIRECT [GSP_Services#GSPGPU](GSP_Services#gspgpu "wikilink")
+GSP_Services#gspgpu

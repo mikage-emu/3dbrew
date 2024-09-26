@@ -1,6 +1,6 @@
 +++
 title = 'Development PXI'
+BookHref = '../Development_Services_PXI'
 +++
 
-1.  REDIRECT [Development Services
-    PXI](Development_Services_PXI "wikilink")
+Development_Services_PXI

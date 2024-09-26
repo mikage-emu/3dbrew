@@ -1,5 +1,6 @@
 +++
 title = 'GPU GL Arrays'
+BookHref = '../GPU/GL_Arrays'
 +++
 
-1.  REDIRECT [GPU/GL Arrays](GPU/GL_Arrays "wikilink")
+GPU/GL_Arrays

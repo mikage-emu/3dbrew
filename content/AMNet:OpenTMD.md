@@ -1,5 +1,6 @@
 +++
 title = 'AMNet:OpenTMD'
+BookHref = '../AMNet:InstallTmdBegin'
 +++
 
-1.  REDIRECT [AMNet:InstallTmdBegin](AMNet:InstallTmdBegin "wikilink")
+AMNet:InstallTmdBegin

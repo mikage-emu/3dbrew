@@ -1,5 +1,6 @@
 +++
 title = 'GSPLCD'
+BookHref = '../GSP_Services#gsplcd'
 +++
 
-1.  REDIRECT [GSP_Services#GSPLCD](GSP_Services#gsplcd "wikilink")
+GSP_Services#gsplcd

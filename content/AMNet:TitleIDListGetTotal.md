@@ -1,5 +1,6 @@
 +++
 title = 'AMNet:TitleIDListGetTotal'
+BookHref = '../AM:GetTitleCount'
 +++
 
-1.  REDIRECT [AM:GetTitleCount](AM:GetTitleCount "wikilink")
+AM:GetTitleCount

@@ -1,5 +1,6 @@
 +++
 title = 'FRD'
+BookHref = '../Friend_Services'
 +++
 
-1.  REDIRECT [Friend Services](Friend_Services "wikilink")
+Friend_Services

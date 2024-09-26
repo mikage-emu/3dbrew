@@ -1,5 +1,6 @@
 +++
 title = 'PMDbg:LaunchTitleDebug'
+BookHref = '../PMDbg:LaunchAppDebug'
 +++
 
-1.  REDIRECT [PMDbg:LaunchAppDebug](PMDbg:LaunchAppDebug "wikilink")
+PMDbg:LaunchAppDebug

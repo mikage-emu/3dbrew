@@ -1,6 +1,6 @@
 +++
 title = 'Fangate Updater.bin'
+BookHref = '../Fangate_updater#fangate_updaterbin'
 +++
 
-1.  REDIRECT [Fangate
-    updater#fangate_updater.bin](Fangate_updater#fangate_updaterbin "wikilink")
+Fangate_updater#fangate_updaterbin

@@ -1,5 +1,6 @@
 +++
 title = 'Title'
+BookHref = '../Titles'
 +++
 
-1.  REDIRECT [Titles](Titles "wikilink")
+Titles

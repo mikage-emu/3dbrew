@@ -1,6 +1,6 @@
 +++
 title = 'Cfg:nor'
+BookHref = '../Config_Services#cfgnor'
 +++
 
-1.  REDIRECT
-    [Config_Services#cfg:nor](Config_Services#cfgnor "wikilink")
+Config_Services#cfgnor

@@ -1,6 +1,6 @@
 +++
 title = 'MVDSTD:CalculateVideoOutBufSize'
+BookHref = '../MVDSTD:CalculateWorkBufSize'
 +++
 
-1.  REDIRECT
-    [MVDSTD:CalculateWorkBufSize](MVDSTD:CalculateWorkBufSize "wikilink")
+MVDSTD:CalculateWorkBufSize

@@ -1,6 +1,6 @@
 +++
 title = 'AMNet:InstallTitlesFinishFIRM'
+BookHref = '../AMNet:CommitImportTitlesAndUpdateFirmwareAuto'
 +++
 
-1.  REDIRECT
-    [AMNet:CommitImportTitlesAndUpdateFirmwareAuto](AMNet:CommitImportTitlesAndUpdateFirmwareAuto "wikilink")
+AMNet:CommitImportTitlesAndUpdateFirmwareAuto

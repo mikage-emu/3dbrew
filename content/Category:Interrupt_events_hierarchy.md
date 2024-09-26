@@ -1,6 +1,6 @@
 +++
 title = 'Category:Interrupt Events Hierarchy'
+BookHref = '../:Category:Kernel_interrupt_events'
 +++
 
-1.  REDIRECT [:Category:Kernel interrupt
-    events](:Category:Kernel_interrupt_events "wikilink")
+:Category:Kernel_interrupt_events

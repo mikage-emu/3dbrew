@@ -1,5 +1,6 @@
 +++
 title = 'AM:GetTitleProductCode'
+BookHref = '../AM:GetProductCode'
 +++
 
-1.  REDIRECT [AM:GetProductCode](AM:GetProductCode "wikilink")
+AM:GetProductCode

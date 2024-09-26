@@ -1,5 +1,6 @@
 +++
 title = 'Ldr:ro'
+BookHref = '../RO_Services#ldrro'
 +++
 
-1.  REDIRECT [RO_Services#ldr:ro](RO_Services#ldrro "wikilink")
+RO_Services#ldrro

@@ -1,6 +1,6 @@
 +++
 title = 'Pm:app'
+BookHref = '../Process_Manager_Services#pmapp'
 +++
 
-1.  REDIRECT
-    [Process_Manager_Services#pm:app](Process_Manager_Services#pmapp "wikilink")
+Process_Manager_Services#pmapp

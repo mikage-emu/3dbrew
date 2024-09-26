@@ -1,6 +1,6 @@
 +++
 title = 'Product Code'
+BookHref = '../Serials#ncch_product_code'
 +++
 
-1.  REDIRECT [Serials#NCCH Product
-    Code](Serials#ncch_product_code "wikilink")
+Serials#ncch_product_code

@@ -58,19 +58,19 @@ command buffer:
 
 # Utility
 
-| ID  | Description                            |
-|-----|----------------------------------------|
-| 0   | void ClearPowerButtonState()           |
-| 1   | ?                                      |
-| 2   | Sets current applet slot to Home Menu? |
-| 3   | void ClearExclusiveControl()           |
-| 4   | void SleepIfShellClosed()              |
-| 5   | void LockTransition(u32 transition)    |
-| 6   | bool TryLockTransition(u32 transition) |
-| 7   | void UnlockTransition(u32 transition)  |
-| 10  | void StartExitTask()                   |
-| 11  | void SetInitialSenderId(u32 id)        |
-| 12  | void SetPowerButtonClick()             |
-| 16  | ?                                      |
-| 17  | ?                                      |
-| 18  | ?                                      |
+| ID  | Description                                                                                  |
+|-----|----------------------------------------------------------------------------------------------|
+| 0   | void ClearPowerButtonState()                                                                 |
+| 1   | ?                                                                                            |
+| 2   | Sets current applet slot to Home Menu?                                                       |
+| 3   | void ClearExclusiveControl()                                                                 |
+| 4   | void SleepIfShellClosed()                                                                    |
+| 5   | void LockTransition(u32 transition)                                                          |
+| 6   | bool TryLockTransition(u32 transition)                                                       |
+| 7   | void UnlockTransition(u32 transition)                                                        |
+| 10  | void StartExitTask()                                                                         |
+| 11  | void SetInitialSenderId(u32 id)                                                              |
+| 12  | void SetPowerButtonClick()                                                                   |
+| 16  | void UnlockCartAndSdSlot(bool unlocked) (Prevents a "card removed" error when passing true)  |
+| 17  | ?                                                                                            |
+| 18  | ?                                                                                            |

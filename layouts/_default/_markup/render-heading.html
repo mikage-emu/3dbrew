@@ -1,0 +1,7 @@
+<!-- .Anchor will turn whitespace in header names to "-", but mediawiki uses "_". Attach a second id with "-" changed to "_" here to make both work. -->
+<span id="{{ replace (.Anchor | safeURL) "-" "_" }}">
+  <h{{ .Level }} id="{{ .Anchor | safeURL }}">
+    {{ .Text | safeHTML }}
+    <a class="anchor" href="#{{ .Anchor | safeURL }}">#</a>
+  </h{{ .Level }}>
+</span>

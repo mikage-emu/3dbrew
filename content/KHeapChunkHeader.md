@@ -1,5 +1,6 @@
 +++
 title = 'KHeapChunkHeader'
+BookHref = '../MemoryBlockHeader'
 +++
 
-1.  REDIRECT [MemoryBlockHeader](MemoryBlockHeader "wikilink")
+MemoryBlockHeader

@@ -1,5 +1,6 @@
 +++
 title = 'SPICARD'
+BookHref = '../SPICARD_Registers'
 +++
 
-1.  REDIRECT [SPICARD Registers](SPICARD_Registers "wikilink")
+SPICARD_Registers

@@ -1,6 +1,6 @@
 +++
 title = 'Y2R:SetConversionParams'
+BookHref = '../Y2R:SetPackageParameter'
 +++
 
-1.  REDIRECT
-    [Y2R:SetPackageParameter](Y2R:SetPackageParameter "wikilink")
+Y2R:SetPackageParameter

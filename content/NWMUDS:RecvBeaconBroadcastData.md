@@ -1,5 +1,6 @@
 +++
 title = 'NWMUDS:RecvBeaconBroadcastData'
+BookHref = '../NWMUDS:StartScan'
 +++
 
-1.  REDIRECT [NWMUDS:StartScan](NWMUDS:StartScan "wikilink")
+NWMUDS:StartScan

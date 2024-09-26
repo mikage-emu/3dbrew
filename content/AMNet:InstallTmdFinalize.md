@@ -1,5 +1,6 @@
 +++
 title = 'AMNet:InstallTmdFinalize'
+BookHref = '../AMNet:InstallTmdFinish'
 +++
 
-1.  REDIRECT [AMNet:InstallTmdFinish](AMNet:InstallTmdFinish "wikilink")
+AMNet:InstallTmdFinish

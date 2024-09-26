@@ -1,5 +1,6 @@
 +++
 title = '3DSViewer'
+BookHref = '../3DSExplorer'
 +++
 
-1.  REDIRECT [3DSExplorer](3DSExplorer "wikilink")
+3DSExplorer

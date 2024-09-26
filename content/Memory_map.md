@@ -1,5 +1,6 @@
 +++
 title = 'Memory Map'
+BookHref = '../Memory_layout'
 +++
 
-1.  REDIRECT [Memory layout](Memory_layout "wikilink")
+Memory_layout

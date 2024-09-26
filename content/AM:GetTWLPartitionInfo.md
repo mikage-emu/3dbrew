@@ -1,6 +1,6 @@
 +++
 title = 'AM:GetTWLPartitionInfo'
+BookHref = '../AM:GetTwlArchiveResourceInfo'
 +++
 
-1.  REDIRECT
-    [AM:GetTwlArchiveResourceInfo](AM:GetTwlArchiveResourceInfo "wikilink")
+AM:GetTwlArchiveResourceInfo

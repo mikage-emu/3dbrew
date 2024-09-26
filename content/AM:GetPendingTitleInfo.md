@@ -1,6 +1,6 @@
 +++
 title = 'AM:GetPendingTitleInfo'
+BookHref = '../AM:GetImportTitleContexts'
 +++
 
-1.  REDIRECT
-    [AM:GetImportTitleContexts](AM:GetImportTitleContexts "wikilink")
+AM:GetImportTitleContexts

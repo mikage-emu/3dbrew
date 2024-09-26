@@ -1,6 +1,6 @@
 +++
 title = 'FSPXI:GetSystemSaveDataList'
+BookHref = '../FSPXI:EnumerateSystemSaveData'
 +++
 
-1.  REDIRECT
-    [FSPXI:EnumerateSystemSaveData](FSPXI:EnumerateSystemSaveData "wikilink")
+FSPXI:EnumerateSystemSaveData

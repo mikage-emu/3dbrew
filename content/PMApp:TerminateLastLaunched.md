@@ -1,6 +1,6 @@
 +++
 title = 'PMApp:TerminateLastLaunched'
+BookHref = '../PMApp:TerminateApplication'
 +++
 
-1.  REDIRECT
-    [PMApp:TerminateApplication](PMApp:TerminateApplication "wikilink")
+PMApp:TerminateApplication

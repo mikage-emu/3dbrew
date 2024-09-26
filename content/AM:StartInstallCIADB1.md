@@ -1,6 +1,6 @@
 +++
 title = 'AM:StartInstallCIADB1'
+BookHref = '../AM:StartInstallDlpChildCIA'
 +++
 
-1.  REDIRECT
-    [AM:StartInstallDlpChildCIA](AM:StartInstallDlpChildCIA "wikilink")
+AM:StartInstallDlpChildCIA

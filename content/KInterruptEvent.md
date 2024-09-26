@@ -1,6 +1,6 @@
 +++
 title = 'KInterruptEvent'
+BookHref = '../KSynchronizationInterruptEvent'
 +++
 
-1.  REDIRECT
-    [KSynchronizationInterruptEvent](KSynchronizationInterruptEvent "wikilink")
+KSynchronizationInterruptEvent

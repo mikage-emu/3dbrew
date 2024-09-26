@@ -1,5 +1,6 @@
 +++
 title = 'AMNet:InstallTmdAbort'
+BookHref = '../AMNet:CancelImportTmd'
 +++
 
-1.  REDIRECT [AMNet:CancelImportTmd](AMNet:CancelImportTmd "wikilink")
+AMNet:CancelImportTmd

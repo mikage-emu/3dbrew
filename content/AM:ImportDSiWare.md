@@ -1,5 +1,6 @@
 +++
 title = 'AM:ImportDSiWare'
+BookHref = '../AM:ImportTwlBackup'
 +++
 
-1.  REDIRECT [AM:ImportTwlBackup](AM:ImportTwlBackup "wikilink")
+AM:ImportTwlBackup

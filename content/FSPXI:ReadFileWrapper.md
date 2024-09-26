@@ -1,5 +1,6 @@
 +++
 title = 'FSPXI:ReadFileWrapper'
+BookHref = '../FSPXI:ReadFileSHA256'
 +++
 
-1.  REDIRECT [FSPXI:ReadFileSHA256](FSPXI:ReadFileSHA256 "wikilink")
+FSPXI:ReadFileSHA256

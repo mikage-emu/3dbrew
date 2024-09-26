@@ -1,5 +1,6 @@
 +++
 title = 'CLYT'
+BookHref = '../CLYT_format'
 +++
 
-1.  REDIRECT [CLYT format](CLYT_format "wikilink")
+CLYT_format

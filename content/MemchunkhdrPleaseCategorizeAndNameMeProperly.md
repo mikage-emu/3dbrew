@@ -1,5 +1,6 @@
 +++
 title = 'MemchunkhdrPleaseCategorizeAndNameMeProperly'
+BookHref = '../Memchunkhdr'
 +++
 
-1.  REDIRECT [Memchunkhdr](Memchunkhdr "wikilink")
+Memchunkhdr

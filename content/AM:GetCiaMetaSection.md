@@ -1,5 +1,6 @@
 +++
 title = 'AM:GetCiaMetaSection'
+BookHref = '../AM:GetMetaDataFromCia'
 +++
 
-1.  REDIRECT [AM:GetMetaDataFromCia](AM:GetMetaDataFromCia "wikilink")
+AM:GetMetaDataFromCia

@@ -1,5 +1,6 @@
 +++
 title = 'MP'
+BookHref = '../MP_Registers'
 +++
 
-1.  REDIRECT [MP Registers](MP_Registers "wikilink")
+MP_Registers

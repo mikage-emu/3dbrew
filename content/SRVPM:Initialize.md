@@ -1,5 +1,6 @@
 +++
 title = 'SRVPM:Initialize'
+BookHref = '../SRVPM:PublishToProcess'
 +++
 
-1.  REDIRECT [SRVPM:PublishToProcess](SRVPM:PublishToProcess "wikilink")
+SRVPM:PublishToProcess

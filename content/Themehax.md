@@ -1,5 +1,6 @@
 +++
 title = 'Themehax'
+BookHref = '../Menuhax'
 +++
 
-1.  REDIRECT [Menuhax](Menuhax "wikilink")
+Menuhax

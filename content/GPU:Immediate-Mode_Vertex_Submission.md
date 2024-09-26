@@ -1,6 +1,6 @@
 +++
 title = 'GPU:Immediate Mode Vertex Submission'
+BookHref = '../GPU/Immediate-Mode_Vertex_Submission'
 +++
 
-1.  REDIRECT [GPU/Immediate-Mode Vertex
-    Submission](GPU/Immediate-Mode_Vertex_Submission "wikilink")
+GPU/Immediate-Mode_Vertex_Submission

@@ -1,5 +1,6 @@
 +++
 title = 'AM:GetDSiWareExportSize'
+BookHref = '../AM:CalcTwlBackupSize'
 +++
 
-1.  REDIRECT [AM:CalcTwlBackupSize](AM:CalcTwlBackupSize "wikilink")
+AM:CalcTwlBackupSize

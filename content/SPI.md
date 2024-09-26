@@ -1,5 +1,6 @@
 +++
 title = 'SPI'
+BookHref = '../SPI_Registers'
 +++
 
-1.  REDIRECT [SPI Registers](SPI_Registers "wikilink")
+SPI_Registers

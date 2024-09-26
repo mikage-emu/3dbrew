@@ -1,6 +1,6 @@
 +++
 title = 'HTTPC:GetResponseHeaderDelay'
+BookHref = '../HTTPC:GetResponseHeaderTimeout'
 +++
 
-1.  REDIRECT
-    [HTTPC:GetResponseHeaderTimeout](HTTPC:GetResponseHeaderTimeout "wikilink")
+HTTPC:GetResponseHeaderTimeout

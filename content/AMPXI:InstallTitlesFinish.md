@@ -1,6 +1,6 @@
 +++
 title = 'AMPXI:InstallTitlesFinish'
+BookHref = '../AMPXI:CommitImportPrograms'
 +++
 
-1.  REDIRECT
-    [AMPXI:CommitImportPrograms](AMPXI:CommitImportPrograms "wikilink")
+AMPXI:CommitImportPrograms

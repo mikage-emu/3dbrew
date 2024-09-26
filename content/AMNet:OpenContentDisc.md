@@ -1,6 +1,6 @@
 +++
 title = 'AMNet:OpenContentDisc'
+BookHref = '../AMNet:InstallContentResume'
 +++
 
-1.  REDIRECT
-    [AMNet:InstallContentResume](AMNet:InstallContentResume "wikilink")
+AMNet:InstallContentResume

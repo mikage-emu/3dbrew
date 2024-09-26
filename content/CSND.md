@@ -1,5 +1,6 @@
 +++
 title = 'CSND'
+BookHref = '../CSND_Registers'
 +++
 
-1.  REDIRECT [CSND Registers](CSND_Registers "wikilink")
+CSND_Registers

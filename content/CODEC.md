@@ -1,5 +1,6 @@
 +++
 title = 'CODEC'
+BookHref = '../CODEC_Registers'
 +++
 
-1.  REDIRECT [CODEC Registers](CODEC_Registers "wikilink")
+CODEC_Registers

@@ -1,5 +1,6 @@
 +++
 title = 'AM:FinalizePendingTitles'
+BookHref = '../AM:DoCleanup'
 +++
 
-1.  REDIRECT [AM:DoCleanup](AM:DoCleanup "wikilink")
+AM:DoCleanup

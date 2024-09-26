@@ -1,5 +1,6 @@
 +++
 title = 'AMNet:ListTitles2'
+BookHref = '../AM:GetPendingTitleInfo'
 +++
 
-1.  REDIRECT [AM:GetPendingTitleInfo](AM:GetPendingTitleInfo "wikilink")
+AM:GetPendingTitleInfo

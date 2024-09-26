@@ -1,5 +1,6 @@
 +++
 title = 'ERR:ThrowFatalError'
+BookHref = '../ERR:Throw'
 +++
 
-1.  REDIRECT [ERR:Throw](ERR:Throw "wikilink")
+ERR:Throw

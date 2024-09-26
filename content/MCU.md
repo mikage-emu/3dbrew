@@ -1,5 +1,6 @@
 +++
 title = 'MCU'
+BookHref = '../MCU_Services'
 +++
 
-1.  REDIRECT [MCU Services](MCU_Services "wikilink")
+MCU_Services

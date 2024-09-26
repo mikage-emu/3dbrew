@@ -1,5 +1,6 @@
 +++
 title = 'AM:AbortCIAInstall'
+BookHref = '../AM:CancelImportProgram'
 +++
 
-1.  REDIRECT [AM:CancelImportProgram](AM:CancelImportProgram "wikilink")
+AM:CancelImportProgram

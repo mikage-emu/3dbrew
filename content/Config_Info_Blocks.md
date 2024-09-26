@@ -1,5 +1,6 @@
 +++
 title = 'Config Info Blocks'
+BookHref = '../Config_Savegame'
 +++
 
-1.  REDIRECT [Config Savegame](Config_Savegame "wikilink")
+Config_Savegame

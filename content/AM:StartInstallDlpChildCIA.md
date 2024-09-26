@@ -1,6 +1,6 @@
 +++
 title = 'AM:StartInstallDlpChildCIA'
+BookHref = '../AM:BeginImportProgramTemporarily'
 +++
 
-1.  REDIRECT
-    [AM:BeginImportProgramTemporarily](AM:BeginImportProgramTemporarily "wikilink")
+AM:BeginImportProgramTemporarily

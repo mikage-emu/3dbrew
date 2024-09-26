@@ -1,5 +1,6 @@
 +++
 title = 'CommonETicket'
+BookHref = '../Ticket'
 +++
 
-1.  REDIRECT [Ticket](Ticket "wikilink")
+Ticket

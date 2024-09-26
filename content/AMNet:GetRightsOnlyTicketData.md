@@ -1,6 +1,6 @@
 +++
 title = 'AMNet:GetRightsOnlyTicketData'
+BookHref = '../AMNet:ExportLicenseTicket'
 +++
 
-1.  REDIRECT
-    [AMNet:ExportLicenseTicket](AMNet:ExportLicenseTicket "wikilink")
+AMNet:ExportLicenseTicket

@@ -1,6 +1,6 @@
 +++
 title = 'NIMU:FinishTitlesInstall'
+BookHref = '../NIMU:CommitSystemTitles'
 +++
 
-1.  REDIRECT
-    [NIMU:CommitSystemTitles](NIMU:CommitSystemTitles "wikilink")
+NIMU:CommitSystemTitles

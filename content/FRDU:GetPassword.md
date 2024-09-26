@@ -1,5 +1,6 @@
 +++
 title = 'FRDU:GetPassword'
+BookHref = '../FRDU:GetMyPassword'
 +++
 
-1.  REDIRECT [FRDU:GetMyPassword](FRDU:GetMyPassword "wikilink")
+FRDU:GetMyPassword

@@ -1,5 +1,6 @@
 +++
 title = 'APT:CheckNew3DSApp'
+BookHref = '../APT:GetTargetPlatform'
 +++
 
-1.  REDIRECT [<APT:GetTargetPlatform>](APT:GetTargetPlatform "wikilink")
+APT:GetTargetPlatform

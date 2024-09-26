@@ -1,6 +1,6 @@
 +++
 title = 'FSPXI:GetMovableSedHashedKeyYRandomData'
+BookHref = '../FSPXI:StartDeviceMoveAsSource'
 +++
 
-1.  REDIRECT
-    [FSPXI:StartDeviceMoveAsSource](FSPXI:StartDeviceMoveAsSource "wikilink")
+FSPXI:StartDeviceMoveAsSource

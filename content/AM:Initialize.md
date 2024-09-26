@@ -1,6 +1,6 @@
 +++
 title = 'AM:Initialize'
+BookHref = '../AM:GetSystemUpdaterMutex'
 +++
 
-1.  REDIRECT
-    [AM:GetSystemUpdaterMutex](AM:GetSystemUpdaterMutex "wikilink")
+AM:GetSystemUpdaterMutex

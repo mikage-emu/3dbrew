@@ -1,6 +1,6 @@
 +++
 title = 'AMPXI:ValidateDSiWareMovableSedMAC'
+BookHref = '../AMPXI:ValidateDSiWareSectionMAC'
 +++
 
-1.  REDIRECT
-    [AMPXI:ValidateDSiWareSectionMAC](AMPXI:ValidateDSiWareSectionMAC "wikilink")
+AMPXI:ValidateDSiWareSectionMAC

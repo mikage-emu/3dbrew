@@ -1,5 +1,6 @@
 +++
 title = 'AM:GetTitleExtDataId'
+BookHref = '../AM:GetStorageId'
 +++
 
-1.  REDIRECT [AM:GetStorageId](AM:GetStorageId "wikilink")
+AM:GetStorageId

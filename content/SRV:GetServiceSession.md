@@ -1,5 +1,6 @@
 +++
 title = 'SRV:GetServiceSession'
+BookHref = '../SRV:GetServiceHandle'
 +++
 
-1.  REDIRECT [SRV:GetServiceHandle](SRV:GetServiceHandle "wikilink")
+SRV:GetServiceHandle

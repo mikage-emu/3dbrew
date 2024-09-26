@@ -1,5 +1,6 @@
 +++
 title = 'CSTRM'
+BookHref = '../BCSTM'
 +++
 
-1.  REDIRECT [BCSTM](BCSTM "wikilink")
+BCSTM

@@ -1,6 +1,6 @@
 +++
 title = 'NFCM:SetAmiiboSettings'
+BookHref = '../NFCM:SetRegisterInfoPrivate'
 +++
 
-1.  REDIRECT
-    [NFCM:SetRegisterInfoPrivate](NFCM:SetRegisterInfoPrivate "wikilink")
+NFCM:SetRegisterInfoPrivate

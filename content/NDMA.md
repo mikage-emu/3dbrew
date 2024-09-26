@@ -1,5 +1,6 @@
 +++
 title = 'NDMA'
+BookHref = '../NDMA_Registers'
 +++
 
-1.  REDIRECT [NDMA Registers](NDMA_Registers "wikilink")
+NDMA_Registers

@@ -1,5 +1,6 @@
 +++
 title = 'PDN'
+BookHref = '../PDN_Registers'
 +++
 
-1.  REDIRECT [PDN Registers](PDN_Registers "wikilink")
+PDN_Registers

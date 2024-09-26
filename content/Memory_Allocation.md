@@ -1,5 +1,6 @@
 +++
 title = 'Memory Allocation'
+BookHref = '../Memory_Management'
 +++
 
-1.  REDIRECT [Memory Management](Memory_Management "wikilink")
+Memory_Management

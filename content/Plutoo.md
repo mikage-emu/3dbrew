@@ -1,5 +1,6 @@
 +++
 title = 'Plutoo'
+BookHref = '../User:Plutooo'
 +++
 
-1.  REDIRECT [User:Plutooo](User:Plutooo "wikilink")
+User:Plutooo

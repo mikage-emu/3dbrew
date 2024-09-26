@@ -1,6 +1,6 @@
 +++
 title = 'AMPXI:CompareDSiWareMovableSedHash'
+BookHref = '../AMPXI:ValidateDSiWareMovableSedHash'
 +++
 
-1.  REDIRECT
-    [AMPXI:ValidateDSiWareMovableSedHash](AMPXI:ValidateDSiWareMovableSedHash "wikilink")
+AMPXI:ValidateDSiWareMovableSedHash

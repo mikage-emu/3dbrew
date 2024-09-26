@@ -1,5 +1,6 @@
 +++
 title = 'AMPXI:InstallTmd'
+BookHref = '../AMPXI:InstallTmdWrite'
 +++
 
-1.  REDIRECT [AMPXI:InstallTmdWrite](AMPXI:InstallTmdWrite "wikilink")
+AMPXI:InstallTmdWrite

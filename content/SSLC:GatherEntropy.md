@@ -1,5 +1,6 @@
 +++
 title = 'SSLC:GatherEntropy'
+BookHref = '../SSLC:SeedRNG'
 +++
 
-1.  REDIRECT [SSLC:SeedRNG](SSLC:SeedRNG "wikilink")
+SSLC:SeedRNG

@@ -1,5 +1,6 @@
 +++
 title = 'NSS:TerminateProcessTID'
+BookHref = '../NSS:TerminateTitle'
 +++
 
-1.  REDIRECT [NSS:TerminateTitle](NSS:TerminateTitle "wikilink")
+NSS:TerminateTitle

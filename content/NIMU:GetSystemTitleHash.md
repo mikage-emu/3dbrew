@@ -1,5 +1,6 @@
 +++
 title = 'NIMU:GetSystemTitleHash'
+BookHref = '../NIMU:GetSavedHash'
 +++
 
-1.  REDIRECT [NIMU:GetSavedHash](NIMU:GetSavedHash "wikilink")
+NIMU:GetSavedHash

@@ -1,6 +1,6 @@
 +++
 title = 'NSS:SetFIRMParams4A0'
+BookHref = '../NSS:SetWirelessRebootInfo'
 +++
 
-1.  REDIRECT
-    [NSS:SetWirelessRebootInfo](NSS:SetWirelessRebootInfo "wikilink")
+NSS:SetWirelessRebootInfo

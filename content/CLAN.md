@@ -1,5 +1,6 @@
 +++
 title = 'CLAN'
+BookHref = '../CLAN_format'
 +++
 
-1.  REDIRECT [CLAN format](CLAN_format "wikilink")
+CLAN_format

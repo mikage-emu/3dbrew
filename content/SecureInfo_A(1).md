@@ -1,6 +1,6 @@
 +++
 title = 'SecureInfo A(1)'
+BookHref = '../Nandrw/sys/SecureInfo_A'
 +++
 
-1.  REDIRECT
-    [Nandrw/sys/SecureInfo_A](Nandrw/sys/SecureInfo_A "wikilink")
+Nandrw/sys/SecureInfo_A

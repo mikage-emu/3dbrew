@@ -1,6 +1,6 @@
 +++
 title = 'FRDU:SetCurrentlyPlayingText'
+BookHref = '../FRDU:UpdateGameModeDescription'
 +++
 
-1.  REDIRECT
-    [FRDU:UpdateGameModeDescription](FRDU:UpdateGameModeDescription "wikilink")
+FRDU:UpdateGameModeDescription

@@ -1,5 +1,6 @@
 +++
 title = 'APTU:Initialize'
+BookHref = '../APT:Initialize'
 +++
 
-1.  REDIRECT [<APT:Initialize>](APT:Initialize "wikilink")
+APT:Initialize

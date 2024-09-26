@@ -1,5 +1,6 @@
 +++
 title = 'TIMER'
+BookHref = '../TIMER_Registers'
 +++
 
-1.  REDIRECT [TIMER Registers](TIMER_Registers "wikilink")
+TIMER_Registers

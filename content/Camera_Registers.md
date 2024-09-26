@@ -1,5 +1,6 @@
 +++
 title = 'Camera Registers'
+BookHref = '../Y2R_Registers'
 +++
 
-1.  REDIRECT [Y2R Registers](Y2R_Registers "wikilink")
+Y2R_Registers

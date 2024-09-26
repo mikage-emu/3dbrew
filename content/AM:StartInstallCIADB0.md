@@ -1,5 +1,6 @@
 +++
 title = 'AM:StartInstallCIADB0'
+BookHref = '../AM:StartInstallCIA'
 +++
 
-1.  REDIRECT [AM:StartInstallCIA](AM:StartInstallCIA "wikilink")
+AM:StartInstallCIA

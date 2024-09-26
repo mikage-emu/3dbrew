@@ -1,5 +1,6 @@
 +++
 title = 'AM:GetTitleCount'
+BookHref = '../AM:GetNumPrograms'
 +++
 
-1.  REDIRECT [AM:GetNumPrograms](AM:GetNumPrograms "wikilink")
+AM:GetNumPrograms

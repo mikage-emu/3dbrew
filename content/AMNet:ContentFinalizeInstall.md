@@ -1,6 +1,6 @@
 +++
 title = 'AMNet:ContentFinalizeInstall'
+BookHref = '../AMNet:InstallContentFinalize'
 +++
 
-1.  REDIRECT
-    [AMNet:InstallContentFinalize](AMNet:InstallContentFinalize "wikilink")
+AMNet:InstallContentFinalize

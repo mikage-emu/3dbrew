@@ -1,5 +1,6 @@
 +++
 title = 'SDMC'
+BookHref = '../EMMC_Registers'
 +++
 
-1.  REDIRECT [EMMC Registers](EMMC_Registers "wikilink")
+EMMC_Registers

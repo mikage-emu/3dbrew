@@ -1,5 +1,6 @@
 +++
 title = 'AMNet:GetTitleIDList3'
+BookHref = '../AM:GetTicketList'
 +++
 
-1.  REDIRECT [AM:GetTicketList](AM:GetTicketList "wikilink")
+AM:GetTicketList

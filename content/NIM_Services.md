@@ -366,113 +366,113 @@ Despite this being for debug purposes, it's used in retail if present.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0xE0E0D001</p></td>
-<td><p>Non-null terminated string on IPC parameter for given
-length.</p></td>
+<td>0xE0E0D001</td>
+<td>Non-null terminated string on IPC parameter for given
+length.</td>
 </tr>
 <tr class="even">
-<td><p>0xD960D003</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of
-unhandled values or -4199.</p></td>
+<td>0xD960D003</td>
+<td>SOAP EC/NUP manager internal error number translation of
+unhandled values or -4199.</td>
 </tr>
 <tr class="odd">
-<td><p>0xD960D004</p></td>
-<td><p>Unexpected/invalid state enums. (generic)</p></td>
+<td>0xD960D004</td>
+<td>Unexpected/invalid state enums. (generic)</td>
 </tr>
 <tr class="even">
-<td><p>0xC820D005</p></td>
-<td><p>Invalid state under one title install manager.</p></td>
+<td>0xC820D005</td>
+<td>Invalid state under one title install manager.</td>
 </tr>
 <tr class="odd">
-<td><p>0xD8A0D006</p></td>
-<td><p>Error state enum value. (generic)</p></td>
+<td>0xD8A0D006</td>
+<td>Error state enum value. (generic)</td>
 </tr>
 <tr class="even">
-<td><p>0xC920D008</p></td>
-<td><p>When content downloading, HTTP Status was not 200 or 206 when
+<td>0xC920D008</td>
+<td>When content downloading, HTTP Status was not 200 or 206 when
 connecting, and when status is 206, the Content-Range values failed
-sanity check.</p></td>
+sanity check.</td>
 </tr>
 <tr class="odd">
-<td><p>0xC920D009</p></td>
-<td><p>Mismatch system title hash with server system title
-hash.</p></td>
+<td>0xC920D009</td>
+<td>Mismatch system title hash with server system title
+hash.</td>
 </tr>
 <tr class="even">
-<td><p>0xC960D00C</p></td>
-<td><p>Failed to convert country enum value in CFG save block 0xB0000 to
-country ISO 3166-1 Alpha-2 code.</p></td>
+<td>0xC960D00C</td>
+<td>Failed to convert country enum value in CFG save block 0xB0000 to
+country ISO 3166-1 Alpha-2 code.</td>
 </tr>
 <tr class="odd">
-<td><p>0xC960D00D</p></td>
-<td><p>CFG didn't reply any serial number or dummy serial number
-"000000000000000" was given.</p></td>
+<td>0xC960D00D</td>
+<td>CFG didn't reply any serial number or dummy serial number
+"000000000000000" was given.</td>
 </tr>
 <tr class="even">
-<td><p>0xC860D00E</p></td>
-<td><p>Max total size exceeded for system update pending titles. (128
-MiB)</p></td>
+<td>0xC860D00E</td>
+<td>Max total size exceeded for system update pending titles. (128
+MiB)</td>
 </tr>
 <tr class="odd">
-<td><p>0xC880D00F</p></td>
-<td><p>*to be filled*</p></td>
+<td>0xC880D00F</td>
+<td>*to be filled*</td>
 </tr>
 <tr class="even">
-<td><p>0xC8E0D011</p></td>
-<td><p>Bad condition, title id for purpose or size under one title
-install manager.</p></td>
+<td>0xC8E0D011</td>
+<td>Bad condition, title id for purpose or size under one title
+install manager.</td>
 </tr>
 <tr class="odd">
-<td><p>0xC960D012</p></td>
-<td><p>Invalid .dat or less than expected size of buffer length read
-from .dat save files during raw data load.</p></td>
+<td>0xC960D012</td>
+<td>Invalid .dat or less than expected size of buffer length read
+from .dat save files during raw data load.</td>
 </tr>
 <tr class="even">
-<td><p>0xC960D013</p></td>
-<td><p>Daemon service is suspended.</p></td>
+<td>0xC960D013</td>
+<td>Daemon service is suspended.</td>
 </tr>
 <tr class="odd">
-<td><p>0xC8A0D014</p></td>
-<td><p>*to be filled*</p></td>
+<td>0xC8A0D014</td>
+<td>*to be filled*</td>
 </tr>
 <tr class="even">
-<td><p>0xC960D015</p></td>
-<td><p>Version mismatch for reinstall condition.</p></td>
+<td>0xC960D015</td>
+<td>Version mismatch for reinstall condition.</td>
 </tr>
 <tr class="odd">
-<td><p>0xC960D016</p></td>
-<td><p>Used in a few contexts where length does not match expected or
-the limit. Example, seed data size from HTTP is not 16 bytes.</p></td>
+<td>0xC960D016</td>
+<td>Used in a few contexts where length does not match expected or
+the limit. Example, seed data size from HTTP is not 16 bytes.</td>
 </tr>
 <tr class="even">
-<td><p>0xC920D017</p></td>
-<td><p>SetIVSData will not perform, conditions are not adequate to set
+<td>0xC920D017</td>
+<td>SetIVSData will not perform, conditions are not adequate to set
 IVS. In Service Standby mode or not registered successfully in
-IAS.</p></td>
+IAS.</td>
 </tr>
 <tr class="odd">
-<td><p>0xC920D019</p></td>
-<td><p>Certain EC connect flows disallowed to continue while IVS is
+<td>0xC920D019</td>
+<td>Certain EC connect flows disallowed to continue while IVS is
 waiting to be synced from servers. System Transfer has previously
-occurred and IVS is pending.</p></td>
+occurred and IVS is pending.</td>
 </tr>
 <tr class="even">
-<td><p>0xC920D01A</p></td>
-<td><p>For nim:s IPC cmd id 0x40, IVS not flagged for synchronization on
-target console on EC connect after system transfer.</p></td>
+<td>0xC920D01A</td>
+<td>For nim:s IPC cmd id 0x40, IVS not flagged for synchronization on
+target console on EC connect after system transfer.</td>
 </tr>
 <tr class="odd">
-<td><p>0xC960D01B</p></td>
-<td><p>Failed to convert language enum value in CFG save block 0xA0002
-to language ISO 639-1 code.</p></td>
+<td>0xC960D01B</td>
+<td>Failed to convert language enum value in CFG save block 0xA0002
+to language ISO 639-1 code.</td>
 </tr>
 <tr class="even">
-<td><p>0xE0E0D01C</p></td>
-<td><p>Invalid installation mode for some IPC contexts.</p></td>
+<td>0xE0E0D01C</td>
+<td>Invalid installation mode for some IPC contexts.</td>
 </tr>
 <tr class="odd">
-<td><p>0xE0C0D01E</p></td>
-<td><p>May be either:</p>
+<td>0xE0C0D01E</td>
+<td>May be either:</p>
 <ul>
 <li>Trying to set autodbg or dbgtasks with too many tasks on nim:u IPC
 cmd ids 0x19 and 0x1B, respectively.</li>
@@ -482,8 +482,8 @@ IPC cmd id 0x56.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>0xD860D020</p></td>
-<td><p>May be either:</p>
+<td>0xD860D020</td>
+<td>May be either:</p>
 <ul>
 <li>Result translation of 0xC860D06E if returned by the early attributes
 filter handler.</li>
@@ -492,32 +492,32 @@ length lesser than 32 bytes. This buffer is given over IPC.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>0xC860D021</p></td>
-<td><p>Task manager has run out of task slots.</p></td>
+<td>0xC860D021</td>
+<td>Task manager has run out of task slots.</td>
 </tr>
 <tr class="even">
-<td><p>0xC920D022</p></td>
-<td><p>Buffer size too small for ticket length on nim:aoc IPC cmd id
-0x1B.</p></td>
+<td>0xC920D022</td>
+<td>Buffer size too small for ticket length on nim:aoc IPC cmd id
+0x1B.</td>
 </tr>
 <tr class="odd">
-<td><p>0xD880D023</p></td>
-<td><p>When Account Id missing for nim:aoc IPC cmd id 0x1B and 0x20 or
-when Account Id or Token are missing for nim:s IPC cmd id 0x53.</p></td>
+<td>0xD880D023</td>
+<td>When Account Id missing for nim:aoc IPC cmd id 0x1B and 0x20 or
+when Account Id or Token are missing for nim:s IPC cmd id 0x53.</td>
 </tr>
 <tr class="even">
-<td><p>0xD860D024</p></td>
-<td><p>Failed to initialize Data Heap using buffer given over
-IPC.</p></td>
+<td>0xD860D024</td>
+<td>Failed to initialize Data Heap using buffer given over
+IPC.</td>
 </tr>
 <tr class="odd">
-<td><p>0xD920D025</p></td>
-<td><p>SOAP reply implied that Service Standby mode is enabled. Certain
-EC flows cancelled.</p></td>
+<td>0xD920D025</td>
+<td>SOAP reply implied that Service Standby mode is enabled. Certain
+EC flows cancelled.</td>
 </tr>
 <tr class="even">
-<td><p>0xC8A0D026</p></td>
-<td><p>May be either:</p>
+<td>0xC8A0D026</td>
+<td>May be either:</p>
 <ul>
 <li>Result translation, NIM ran into NPNS result 0xD8A15C06 or NIM
 result 0xD960D02B.</li>
@@ -526,8 +526,8 @@ download while processing auto downloads.</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>0xC8A0D027</p></td>
-<td><p>This occurs under certain code paths.</p>
+<td>0xC8A0D027</td>
+<td>This occurs under certain code paths.</p>
 <ol>
 <li>Result translation of result error from:</li>
 </ol>
@@ -549,296 +549,296 @@ with 54400 + http status, result value used as a 005-xxxx error</p>
 </ol></td>
 </tr>
 <tr class="even">
-<td><p>0xD960D028</p></td>
-<td><p>Generic XML parsing error. Not related to SOAP XML.</p></td>
+<td>0xD960D028</td>
+<td>Generic XML parsing error. Not related to SOAP XML.</td>
 </tr>
 <tr class="odd">
-<td><p>0xD960D029</p></td>
-<td><p>XML processor stub function called. Not related to SOAP
-XML.</p></td>
+<td>0xD960D029</td>
+<td>XML processor stub function called. Not related to SOAP
+XML.</td>
 </tr>
 <tr class="even">
-<td><p>0xD960D02A</p></td>
-<td><p>Generic XML data processing error: bad length or insufficient
-memory. Not related to SOAP XML.</p></td>
+<td>0xD960D02A</td>
+<td>Generic XML data processing error: bad length or insufficient
+memory. Not related to SOAP XML.</td>
 </tr>
 <tr class="odd">
-<td><p>0xD960D02B</p></td>
-<td><p>Result translation of 0xD960D028.</p></td>
+<td>0xD960D02B</td>
+<td>Result translation of 0xD960D028.</td>
 </tr>
 <tr class="even">
-<td><p>0xD960D02C</p></td>
-<td><p>Auto download programmed max task count exceeded trying to add
-more to list. (64)</p></td>
+<td>0xD960D02C</td>
+<td>Auto download programmed max task count exceeded trying to add
+more to list. (64)</td>
 </tr>
 <tr class="odd">
-<td><p>0xD960D02D</p></td>
-<td><p>tsl.xml or tsl.xml.tmp couldn't be opened. FS result translation
-of description between 100 and 179, inclusive.</p></td>
+<td>0xD960D02D</td>
+<td>tsl.xml or tsl.xml.tmp couldn't be opened. FS result translation
+of description between 100 and 179, inclusive.</td>
 </tr>
 <tr class="even">
-<td><p>0xD960D02E</p></td>
-<td><p>During tsl.xml task condition check. Still unclear, type of task
-check</p></td>
+<td>0xD960D02E</td>
+<td>During tsl.xml task condition check. Still unclear, type of task
+check</td>
 </tr>
 <tr class="odd">
-<td><p>0xD960D030</p></td>
-<td><p>During tsl.xml task condition check. Ticket missing for title
-when expected. Will not occur with autodbg flag bit 4 set.</p></td>
+<td>0xD960D030</td>
+<td>During tsl.xml task condition check. Ticket missing for title
+when expected. Will not occur with autodbg flag bit 4 set.</td>
 </tr>
 <tr class="even">
-<td><p>0xD960D031</p></td>
-<td><p>During tsl.xml task condition check. Title already installed when
-not overwrite mode.</p></td>
+<td>0xD960D031</td>
+<td>During tsl.xml task condition check. Title already installed when
+not overwrite mode.</td>
 </tr>
 <tr class="odd">
-<td><p>0xD960D032</p></td>
-<td><p>During tsl.xml task condition check. Task for title already
-exists with same or higher version in task.dat.</p></td>
+<td>0xD960D032</td>
+<td>During tsl.xml task condition check. Task for title already
+exists with same or higher version in task.dat.</td>
 </tr>
 <tr class="even">
-<td><p>0xD960D033</p></td>
-<td><p>During tsl.xml task condition check. Task for title already
-exists in task.dat.</p></td>
+<td>0xD960D033</td>
+<td>During tsl.xml task condition check. Task for title already
+exists in task.dat.</td>
 </tr>
 <tr class="odd">
-<td><p>0xD8E0D034</p></td>
-<td><p>During tsl.xml task condition check. Unexpected task title
-type.</p></td>
+<td>0xD8E0D034</td>
+<td>During tsl.xml task condition check. Unexpected task title
+type.</td>
 </tr>
 <tr class="even">
-<td><p>0xD960D035</p></td>
-<td><p>During tsl.xml task condition check. Tsl.xml task will not be
+<td>0xD960D035</td>
+<td>During tsl.xml task condition check. Tsl.xml task will not be
 processed while max programmed maximum for tasks pending in task.dat is
-equal or exceeded. (10)</p></td>
+equal or exceeded. (10)</td>
 </tr>
 <tr class="odd">
-<td><p>0xD960D037</p></td>
-<td><p>Failed to load saved dtl.xml with result error of FS with
-description between 100 and 179, inclusive.</p></td>
+<td>0xD960D037</td>
+<td>Failed to load saved dtl.xml with result error of FS with
+description between 100 and 179, inclusive.</td>
 </tr>
 <tr class="even">
-<td><p>0xD960D038</p></td>
-<td><p>During tsl.xml task condition check. Not enough space for target
-SDMC user title.</p></td>
+<td>0xD960D038</td>
+<td>During tsl.xml task condition check. Not enough space for target
+SDMC user title.</td>
 </tr>
 <tr class="odd">
-<td><p>0xD8A0D03A</p></td>
-<td><p>No valid NPNS X-Device-Token was available while trying to fetch
-it from CFG save block 0xF0006.</p></td>
+<td>0xD8A0D03A</td>
+<td>No valid NPNS X-Device-Token was available while trying to fetch
+it from CFG save block 0xF0006.</td>
 </tr>
 <tr class="even">
-<td><p>0xD940D03B</p></td>
-<td><p>Selected tsl.xml task was cancelled with nim:u IPC cmd id
-0x18.</p></td>
+<td>0xD940D03B</td>
+<td>Selected tsl.xml task was cancelled with nim:u IPC cmd id
+0x18.</td>
 </tr>
 <tr class="odd">
-<td><p>0xD960D03C</p></td>
-<td><p>Result translation for 0xD960D028 while trying to read XML. Not
-related to SOAP XML.</p></td>
+<td>0xD960D03C</td>
+<td>Result translation for 0xD960D028 while trying to read XML. Not
+related to SOAP XML.</td>
 </tr>
 <tr class="even">
-<td><p>0xD8A0D03D</p></td>
-<td><p>During tsl.xml task condition check. SDMC not inserted or
-non-writable for SDMC title. (bad media status)</p></td>
+<td>0xD8A0D03D</td>
+<td>During tsl.xml task condition check. SDMC not inserted or
+non-writable for SDMC title. (bad media status)</td>
 </tr>
 <tr class="odd">
-<td><p>0xD960D03E</p></td>
-<td><p>During tsl.xml task condition check. Not enough space for target
-TWL user title.</p></td>
+<td>0xD960D03E</td>
+<td>During tsl.xml task condition check. Not enough space for target
+TWL user title.</td>
 </tr>
 <tr class="even">
-<td><p>0xD940D03F</p></td>
-<td><p>NPNS notification url is not HTTPS.</p></td>
+<td>0xD940D03F</td>
+<td>NPNS notification url is not HTTPS.</td>
 </tr>
 <tr class="odd">
-<td><p>0xD940D040</p></td>
-<td><p>NIM ran into NPNS result 0xD8A15C07. Result translation.</p></td>
+<td>0xD940D040</td>
+<td>NIM ran into NPNS result 0xD8A15C07. Result translation.</td>
 </tr>
 <tr class="even">
-<td><p>0xD860D041</p></td>
-<td><p>During tsl.xml task condition check. Pending task count of
+<td>0xD860D041</td>
+<td>During tsl.xml task condition check. Pending task count of
 task.dat and installed SDMC user title count exceed programmed max.
-(300)</p></td>
+(300)</td>
 </tr>
 <tr class="odd">
-<td><p>0xD860D042</p></td>
-<td><p>During tsl.xml task condition check. Pending task count of
+<td>0xD860D042</td>
+<td>During tsl.xml task condition check. Pending task count of
 task.dat and installed TWL user title count exceed programmed max.
-(40)</p></td>
+(40)</td>
 </tr>
 <tr class="even">
-<td><p>0xD880D043</p></td>
-<td><p>HTTP 404 while fetching title crypto seed from kagiya.</p></td>
+<td>0xD880D043</td>
+<td>HTTP 404 while fetching title crypto seed from kagiya.</td>
 </tr>
 <tr class="odd">
-<td><p>0xD880D044</p></td>
-<td><p>HTTP 503 while fetching title crypto seed from kagiya.</p></td>
+<td>0xD880D044</td>
+<td>HTTP 503 while fetching title crypto seed from kagiya.</td>
 </tr>
 <tr class="even">
-<td><p>0xC960D065</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4001</p></td>
+<td>0xC960D065</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4001</td>
 </tr>
 <tr class="odd">
-<td><p>0xE0C0D066</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4002</p></td>
+<td>0xE0C0D066</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4002</td>
 </tr>
 <tr class="even">
-<td><p>0xE0E0D068</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4004</p></td>
+<td>0xE0E0D068</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4004</td>
 </tr>
 <tr class="odd">
-<td><p>0xC860D069</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4005</p></td>
+<td>0xC860D069</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4005</td>
 </tr>
 <tr class="even">
-<td><p>0xC880D06A</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4006</p></td>
+<td>0xC880D06A</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4006</td>
 </tr>
 <tr class="odd">
-<td><p>0xC8A0D06B</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4007</p></td>
+<td>0xC8A0D06B</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4007</td>
 </tr>
 <tr class="even">
-<td><p>0xC8A0D06C</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4008</p></td>
+<td>0xC8A0D06C</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4008</td>
 </tr>
 <tr class="odd">
-<td><p>0xC860D06E</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4010</p></td>
+<td>0xC860D06E</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4010</td>
 </tr>
 <tr class="even">
-<td><p>0xC920D073</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4015</p></td>
+<td>0xC920D073</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4015</td>
 </tr>
 <tr class="odd">
-<td><p>0xC900D075</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4017</p></td>
+<td>0xC900D075</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4017</td>
 </tr>
 <tr class="even">
-<td><p>0xC860D076</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4018</p></td>
+<td>0xC860D076</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4018</td>
 </tr>
 <tr class="odd">
-<td><p>0xC920D077</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4019</p></td>
+<td>0xC920D077</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4019</td>
 </tr>
 <tr class="even">
-<td><p>0xC900D084</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4032</p></td>
+<td>0xC900D084</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4032</td>
 </tr>
 <tr class="odd">
-<td><p>0xC900D085</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4033</p></td>
+<td>0xC900D085</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4033</td>
 </tr>
 <tr class="even">
-<td><p>0xC920D086</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4034</p></td>
+<td>0xC920D086</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4034</td>
 </tr>
 <tr class="odd">
-<td><p>0xC920D08A</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4038</p></td>
+<td>0xC920D08A</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4038</td>
 </tr>
 <tr class="even">
-<td><p>0xC900D08B</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4039</p></td>
+<td>0xC900D08B</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4039</td>
 </tr>
 <tr class="odd">
-<td><p>0xC920D08C</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4040</p></td>
+<td>0xC920D08C</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4040</td>
 </tr>
 <tr class="even">
-<td><p>0xE0A0D08D</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4041</p></td>
+<td>0xE0A0D08D</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4041</td>
 </tr>
 <tr class="odd">
-<td><p>0xC920D08F</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4043</p></td>
+<td>0xC920D08F</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4043</td>
 </tr>
 <tr class="even">
-<td><p>0xC920D095</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4049</p></td>
+<td>0xC920D095</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4049</td>
 </tr>
 <tr class="odd">
-<td><p>0xE0E0D099</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4053</p></td>
+<td>0xE0E0D099</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4053</td>
 </tr>
 <tr class="even">
-<td><p>0xC900D09F</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4059</p></td>
+<td>0xC900D09F</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4059</td>
 </tr>
 <tr class="odd">
-<td><p>0xE100D0A0</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4060</p></td>
+<td>0xE100D0A0</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4060</td>
 </tr>
 <tr class="even">
-<td><p>0xE100D0A1</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4061</p></td>
+<td>0xE100D0A1</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4061</td>
 </tr>
 <tr class="odd">
-<td><p>0xC920D0A4</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4064</p></td>
+<td>0xC920D0A4</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4064</td>
 </tr>
 <tr class="even">
-<td><p>0xC920D0A7</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4067</p></td>
+<td>0xC920D0A7</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4067</td>
 </tr>
 <tr class="odd">
-<td><p>0xC920D0A8</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4068</p></td>
+<td>0xC920D0A8</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4068</td>
 </tr>
 <tr class="even">
-<td><p>0xE0A0D0A9</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4069</p></td>
+<td>0xE0A0D0A9</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4069</td>
 </tr>
 <tr class="odd">
-<td><p>0xC920D0AD</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4073</p></td>
+<td>0xC920D0AD</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4073</td>
 </tr>
 <tr class="even">
-<td><p>0xC920D0B1</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4077</p></td>
+<td>0xC920D0B1</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4077</td>
 </tr>
 <tr class="odd">
-<td><p>0xC920D0B3</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4079</p></td>
+<td>0xC920D0B3</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4079</td>
 </tr>
 <tr class="even">
-<td><p>0xC920D0B5</p></td>
-<td><p>SOAP EC/NUP manager internal error number translation of value
--4081</p></td>
+<td>0xC920D0B5</td>
+<td>SOAP EC/NUP manager internal error number translation of value
+-4081</td>
 </tr>
 </tbody>
 </table>

@@ -13,20 +13,20 @@ title = 'GSPGPU:RegisterInterruptRelayQueue'
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0</p></td>
-<td><p>Header code [0x00130042]</p></td>
+<td>0</td>
+<td>Header code [0x00130042]</td>
 </tr>
 <tr class="even">
-<td><p>1</p></td>
-<td><p>Flags</p></td>
+<td>1</td>
+<td>Flags</td>
 </tr>
 <tr class="odd">
-<td><p>2</p></td>
+<td>2</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
-<td><p><a href="../KEvent" title="wikilink">KEvent</a> handle</p></td>
+<td>3</td>
+<td><a href="../KEvent" title="wikilink">KEvent</a> handle</td>
 </tr>
 </tbody>
 </table>
@@ -42,24 +42,24 @@ title = 'GSPGPU:RegisterInterruptRelayQueue'
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0</p></td>
-<td><p>Header code [0x00130082]</p></td>
+<td>0</td>
+<td>Header code [0x00130082]</td>
 </tr>
 <tr class="even">
-<td><p>1</p></td>
-<td><p>Result code</p></td>
+<td>1</td>
+<td>Result code</td>
 </tr>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>GSP module thread index</p></td>
+<td>2</td>
+<td>GSP module thread index</td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
+<td>3</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p><a href="../SVC" title="wikilink">Shared</a> memory handle</p></td>
+<td>4</td>
+<td><a href="../SVC" title="wikilink">Shared</a> memory handle</td>
 </tr>
 </tbody>
 </table>

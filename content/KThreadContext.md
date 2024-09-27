@@ -29,15 +29,15 @@ from the beginning.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0xF38 (page_end - 0xC8)</p></td>
-<td><p>u32[4]</p></td>
-<td><p>SVC access control data copied from KThread's owner
-process</p></td>
+<td>0xF38 (page_end - 0xC8)</td>
+<td>u32[4]</td>
+<td>SVC access control data copied from KThread's owner
+process</td>
 </tr>
 <tr class="even">
-<td><p>0xF48 (page_end - 0xB8)</p></td>
-<td><p>u8[4]</p></td>
-<td><p>Debug info (read by the SVC handler): 0: Bit0: reschedule. Bit1:
+<td>0xF48 (page_end - 0xB8)</td>
+<td>u8[4]</td>
+<td>Debug info (read by the SVC handler): 0: Bit0: reschedule. Bit1:
 switch context. If non zero, and depending on
 <code>currentThread-&gt;shallTerminate</code>, send thread exit debug
 events after handling valid/authorized SVCs (except 0xFF). Cleared to
@@ -50,29 +50,29 @@ other than exception handling (incl. hardware breakpoints). If lr_svc is
 set to one in this frame, the registers are reloaded from it (used with
 svcBreak, svc 0xff, etc).</p>
 <p>2: ?</p>
-<p>3: ID of the SVC being handled (reset to 0 when done).</p></td>
+<p>3: ID of the SVC being handled (reset to 0 when done).</td>
 </tr>
 <tr class="odd">
-<td><p>0xF50 (page_end - 0xB0)</p></td>
-<td><p>u32[10]</p></td>
-<td><p>SVC mode registers, r4-r11, r13, r14</p></td>
+<td>0xF50 (page_end - 0xB0)</td>
+<td>u32[10]</td>
+<td>SVC mode registers, r4-r11, r13, r14</td>
 </tr>
 <tr class="even">
-<td><p>0xF78</p></td>
-<td><p>f64[16]</p></td>
-<td><p>VFP registers aliased as 16 double precision, 64-bit
-registers</p></td>
+<td>0xF78</td>
+<td>f64[16]</td>
+<td>VFP registers aliased as 16 double precision, 64-bit
+registers</td>
 </tr>
 <tr class="odd">
-<td><p>0xFF8</p></td>
-<td><p>u32</p></td>
-<td><p>FPEXC, floating point exception register for thread- stored and
-loaded on context switches</p></td>
+<td>0xFF8</td>
+<td>u32</td>
+<td>FPEXC, floating point exception register for thread- stored and
+loaded on context switches</td>
 </tr>
 <tr class="even">
-<td><p>0xFFC</p></td>
-<td><p>u32</p></td>
-<td><p>FPSCR, floating point status and control register</p></td>
+<td>0xFFC</td>
+<td>u32</td>
+<td>FPSCR, floating point status and control register</td>
 </tr>
 </tbody>
 </table>

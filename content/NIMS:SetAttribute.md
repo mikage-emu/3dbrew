@@ -13,38 +13,38 @@ title = 'NIMS:SetAttribute'
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0</p></td>
-<td><p>Header code [0x000B0084]</p></td>
+<td>0</td>
+<td>Header code [0x000B0084]</td>
 </tr>
 <tr class="even">
-<td><p>1</p></td>
-<td><p>Length of the attribute to set (<em>including</em> trailing
-NUL)</p></td>
+<td>1</td>
+<td>Length of the attribute to set (<em>including</em> trailing
+NUL)</td>
 </tr>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>Length of the value to set (<em>including</em> trailing NUL if
-string)</p></td>
+<td>2</td>
+<td>Length of the value to set (<em>including</em> trailing NUL if
+string)</td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
-<td><p>(size &lt;&lt; 14) {{!}} (static_buffer_id &lt;&lt; 10)}} for <a
+<td>3</td>
+<td>(size &lt;&lt; 14) {{!}} (static_buffer_id &lt;&lt; 10)}} for <a
 href="../IPC#Static_Buffer_Translation" title="wikilink">static buffer</a>
-(id 0)</p></td>
+(id 0)</td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>Pointer to the name of the attribute in ASCII to set</p></td>
+<td>4</td>
+<td>Pointer to the name of the attribute in ASCII to set</td>
 </tr>
 <tr class="even">
-<td><p>5</p></td>
-<td><p>(size &lt;&lt; 14) {{!}} (static_buffer_id &lt;&lt; 10)}} for <a
+<td>5</td>
+<td>(size &lt;&lt; 14) {{!}} (static_buffer_id &lt;&lt; 10)}} for <a
 href="../IPC#Static_Buffer_Translation" title="wikilink">static buffer</a>
-(id 1)</p></td>
+(id 1)</td>
 </tr>
 <tr class="odd">
-<td><p>6</p></td>
-<td><p>Pointer to the value of the attribute to set</p></td>
+<td>6</td>
+<td>Pointer to the value of the attribute to set</td>
 </tr>
 </tbody>
 </table>

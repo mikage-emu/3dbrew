@@ -41,24 +41,24 @@ Each file struct consists of 3 uint32:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x000</p></td>
-<td><p>4</p></td>
-<td><p>uint32</p></td>
-<td><p>File name offset (from the end of the table)</p>
+<td>0x000</td>
+<td>4</td>
+<td>uint32</td>
+<td>File name offset (from the end of the table)</p>
 <p>if (offset &amp; 0x01000000) then this is a folder (i.e. first two
-nodes 'null' &amp; '.')</p></td>
+nodes 'null' &amp; '.')</td>
 </tr>
 <tr class="even">
-<td><p>0x004</p></td>
-<td><p>4</p></td>
-<td><p>uint32</p></td>
-<td><p>File offset</p></td>
+<td>0x004</td>
+<td>4</td>
+<td>uint32</td>
+<td>File offset</td>
 </tr>
 <tr class="odd">
-<td><p>0x008</p></td>
-<td><p>4</p></td>
-<td><p>uint32</p></td>
-<td><p>File length</p></td>
+<td>0x008</td>
+<td>4</td>
+<td>uint32</td>
+<td>File length</td>
 </tr>
 </tbody>
 </table>

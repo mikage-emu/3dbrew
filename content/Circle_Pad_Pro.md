@@ -55,30 +55,30 @@ specified period.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x0</p></td>
-<td><p>0x1</p></td>
-<td><p>Response ID? Fixed value 0x10</p></td>
+<td>0x0</td>
+<td>0x1</td>
+<td>Response ID? Fixed value 0x10</td>
 </tr>
 <tr class="even">
-<td><p>0x1</p></td>
-<td><p>0x3</p></td>
-<td><p>Right circle pad position. This three bytes are two little-endian
+<td>0x1</td>
+<td>0x3</td>
+<td>Right circle pad position. This three bytes are two little-endian
 12-bit fields. The first one is for x-axis and the second one is for
-y-axis.</p></td>
+y-axis.</td>
 </tr>
 <tr class="odd">
-<td><p>0x4</p></td>
-<td><p>0x1</p></td>
-<td><p>bit[0:4] battery level? bit[5] ZL button</p>
+<td>0x4</td>
+<td>0x1</td>
+<td>bit[0:4] battery level? bit[5] ZL button</p>
 <p>bit[6] ZR button</p>
 <p>bit[7] R button</p>
 <p>Note that for the three button fields, the bit is set when the button
-is NOT pressed.</p></td>
+is NOT pressed.</td>
 </tr>
 <tr class="even">
-<td><p>0x5</p></td>
-<td><p>0x1</p></td>
-<td><p>Unknown</p></td>
+<td>0x5</td>
+<td>0x1</td>
+<td>Unknown</td>
 </tr>
 </tbody>
 </table>

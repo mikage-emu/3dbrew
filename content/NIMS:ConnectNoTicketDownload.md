@@ -13,26 +13,26 @@ title = 'NIMS:ConnectNoTicketDownload'
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0</p></td>
-<td><p>Header code [0x00570082]</p></td>
+<td>0</td>
+<td>Header code [0x00570082]</td>
 </tr>
 <tr class="even">
-<td><p>1</p></td>
-<td><p>Pointer to a buffer</p></td>
+<td>1</td>
+<td>Pointer to a buffer</td>
 </tr>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>Length of the buffer</p></td>
+<td>2</td>
+<td>Length of the buffer</td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
-<td><p>(size &lt;&lt; 4)}} for mapping a <a
+<td>3</td>
+<td>(size &lt;&lt; 4)}} for mapping a <a
 href="../IPC#Buffer_Mapping_Translation" title="wikilink">write-only
-buffer</a> in the target process</p></td>
+buffer</a> in the target process</td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>Pointer to a buffer (same as input word 1)</p></td>
+<td>4</td>
+<td>Pointer to a buffer (same as input word 1)</td>
 </tr>
 </tbody>
 </table>

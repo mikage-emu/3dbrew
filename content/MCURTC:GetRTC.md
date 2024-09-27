@@ -19,32 +19,32 @@ title = 'MCURTC:GetRTC'
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0</p></td>
-<td><p>Header code</p></td>
+<td>0</td>
+<td>Header code</td>
 </tr>
 <tr class="even">
-<td><p>1</p></td>
-<td><p>Result code</p></td>
+<td>1</td>
+<td>Result code</td>
 </tr>
 <tr class="odd">
-<td><p>2-3</p></td>
-<td><p><code> u8 seconds,</code><br />
+<td>2-3</td>
+<td><code> u8 seconds,</code><br />
 <code> u8 minutes,</code><br />
 <code> u8 hours,</code><br />
 <code> u8 dayofweek,</code><br />
 <code> u8 dayofmonth,</code><br />
 <code> u8 month,</code><br />
 <code> u8 year,</code><br />
-<code> u8 leapcount</code></p></td>
+<code> u8 leapcount</code></td>
 </tr>
 <tr class="even">
-<td><p>3-4</p></td>
-<td><p>svcGetSystemTick value corresponding to when the RTC read was
-done</p></td>
+<td>3-4</td>
+<td>svcGetSystemTick value corresponding to when the RTC read was
+done</td>
 </tr>
 <tr class="odd">
-<td><p>5-9</p></td>
-<td><p>Uninitialized data</p></td>
+<td>5-9</td>
+<td>Uninitialized data</td>
 </tr>
 <tr class="even">
 <td></td>

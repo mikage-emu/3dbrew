@@ -63,10 +63,10 @@ RLAN format used on the Wii.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x00</p></td>
-<td><p>0x4</p></td>
-<td><p>String</p></td>
-<td><p>Animation type</p>
+<td>0x00</td>
+<td>0x4</td>
+<td>String</td>
+<td>Animation type</p>
 <table>
 <thead>
 <tr class="header">
@@ -76,55 +76,55 @@ RLAN format used on the Wii.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><p>CLPA</p></td>
-<td><p><strong>C</strong>TR <strong>L</strong>ayout
-<strong>PA</strong>ne SRT (Scale/Rotate/Translate) animation.</p></td>
+<td style="text-align: center;"><p>CLPA</td>
+<td><strong>C</strong>TR <strong>L</strong>ayout
+<strong>PA</strong>ne SRT (Scale/Rotate/Translate) animation.</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><p>CLTS</p></td>
-<td><p><strong>C</strong>TR <strong>L</strong>ayout
-<strong>T</strong>exture <strong>S</strong>RT animation.</p></td>
+<td style="text-align: center;"><p>CLTS</td>
+<td><strong>C</strong>TR <strong>L</strong>ayout
+<strong>T</strong>exture <strong>S</strong>RT animation.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><p>CLVI</p></td>
-<td><p><strong>C</strong>TR <strong>L</strong>ayout
-<strong>VI</strong>sibility animation.</p></td>
+<td style="text-align: center;"><p>CLVI</td>
+<td><strong>C</strong>TR <strong>L</strong>ayout
+<strong>VI</strong>sibility animation.</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><p>CLVC</p></td>
-<td><p><strong>C</strong>TR <strong>L</strong>ayout
-<strong>V</strong>ertex <strong>C</strong>olor animation.</p></td>
+<td style="text-align: center;"><p>CLVC</td>
+<td><strong>C</strong>TR <strong>L</strong>ayout
+<strong>V</strong>ertex <strong>C</strong>olor animation.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;"><p>CLMC</p></td>
-<td><p><strong>C</strong>TR <strong>L</strong>ayout
-<strong>M</strong>aterial <strong>C</strong>olor animation.</p></td>
+<td style="text-align: center;"><p>CLMC</td>
+<td><strong>C</strong>TR <strong>L</strong>ayout
+<strong>M</strong>aterial <strong>C</strong>olor animation.</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><p>CLTP</p></td>
-<td><p><strong>C</strong>TR <strong>L</strong>ayout
-<strong>T</strong>exture <strong>P</strong>attern animation.</p></td>
+<td style="text-align: center;"><p>CLTP</td>
+<td><strong>C</strong>TR <strong>L</strong>ayout
+<strong>T</strong>exture <strong>P</strong>attern animation.</td>
 </tr>
 </tbody>
 </table></td>
 </tr>
 <tr class="even">
-<td><p>0x04</p></td>
-<td><p>0x1</p></td>
-<td><p>UInt8</p></td>
-<td><p>Nr of animations</p></td>
+<td>0x04</td>
+<td>0x1</td>
+<td>UInt8</td>
+<td>Nr of animations</td>
 </tr>
 <tr class="odd">
-<td><p>0x05</p></td>
-<td><p>0x3</p></td>
-<td><p>UInt8[3]</p></td>
-<td><p>Padding</p></td>
+<td>0x05</td>
+<td>0x3</td>
+<td>UInt8[3]</td>
+<td>Padding</td>
 </tr>
 <tr class="even">
-<td><p>?</p></td>
-<td><p>?</p></td>
-<td><p>?</p></td>
-<td><p>?</p></td>
+<td>?</td>
+<td>?</td>
+<td>?</td>
+<td>?</td>
 </tr>
 </tbody>
 </table>

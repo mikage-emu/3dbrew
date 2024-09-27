@@ -13,29 +13,29 @@ title = 'APT:AppletUtility'
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0</p></td>
-<td><p>Header code [0x004B00C2]</p></td>
+<td>0</td>
+<td>Header code [0x004B00C2]</td>
 </tr>
 <tr class="even">
-<td><p>1</p></td>
-<td><p><a href="../APT:AppletUtility#Utility"
-title="wikilink">Utility</a></p></td>
+<td>1</td>
+<td><a href="../APT:AppletUtility#Utility"
+title="wikilink">Utility</a></td>
 </tr>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>Input Size</p></td>
+<td>2</td>
+<td>Input Size</td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
-<td><p>Output Size</p></td>
+<td>3</td>
+<td>Output Size</td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
+<td>4</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>5</p></td>
-<td><p>void*, Input</p></td>
+<td>5</td>
+<td>void*, Input</td>
 </tr>
 </tbody>
 </table>

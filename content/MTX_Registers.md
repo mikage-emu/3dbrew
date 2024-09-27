@@ -37,29 +37,29 @@ the other one at +0x300 for horizontal (X) scaling.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x1EC1xn00</p></td>
-<td><p>KRN_WIDTH</p></td>
-<td><p>4</p></td>
-<td><p>Kernel width - 1 is written here, 1 &lt;= width &lt;= 8</p>
-<p>This decides how many pixels are written each batch.</p></td>
+<td>0x1EC1xn00</td>
+<td>KRN_WIDTH</td>
+<td>4</td>
+<td>Kernel width - 1 is written here, 1 &lt;= width &lt;= 8</p>
+<p>This decides how many pixels are written each batch.</td>
 </tr>
 <tr class="even">
-<td><p>0x1EC1xn04</p></td>
-<td><p>KRN_PATTERN_BITS</p></td>
-<td><p>4</p></td>
-<td><p>If the corresponding bit for the current batch iteration index is
+<td>0x1EC1xn04</td>
+<td>KRN_PATTERN_BITS</td>
+<td>4</td>
+<td>If the corresponding bit for the current batch iteration index is
 set then a new pixel is read.</p>
 <p>The amount of set bits determine how many pixels are read each batch.
 Any bit indexes past KRN_WIDTH are ignored.</p>
 <p>This value is 8 bits, but it has to be written with a 32bit
-write.</p></td>
+write.</td>
 </tr>
 <tr class="odd">
-<td><p>0x1EC1xn40</p></td>
-<td><p>KRN_MTX</p></td>
-<td><p>0xC0</p></td>
-<td><p>int kerneldata[6][8]; - matrix data is written here, height is
-always 6</p></td>
+<td>0x1EC1xn40</td>
+<td>KRN_MTX</td>
+<td>0xC0</td>
+<td>int kerneldata[6][8]; - matrix data is written here, height is
+always 6</td>
 </tr>
 <tr class="even">
 <td></td>

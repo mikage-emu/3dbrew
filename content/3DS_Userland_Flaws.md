@@ -25,22 +25,22 @@ can then for example try exploiting
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Cubic Ninja</p></td>
-<td><p>Map-data stack smash</p></td>
-<td><p>See <a href="../Ninjhax" title="wikilink">here</a> regarding
-Ninjhax.</p></td>
-<td><p>None</p></td>
-<td><p>App: Initial version. System: <a href="../10.4.0-29"
-title="wikilink">10.4.0-29</a>.</p></td>
-<td><p>Ninjhax release</p></td>
-<td><p>July 2014</p></td>
-<td><p><a href="../User:smea" title="wikilink">smea</a></p></td>
+<td>Cubic Ninja</td>
+<td>Map-data stack smash</td>
+<td>See <a href="../Ninjhax" title="wikilink">here</a> regarding
+Ninjhax.</td>
+<td>None</td>
+<td>App: Initial version. System: <a href="../10.4.0-29"
+title="wikilink">10.4.0-29</a>.</td>
+<td>Ninjhax release</td>
+<td>July 2014</td>
+<td><a href="../User:smea" title="wikilink">smea</a></td>
 </tr>
 <tr class="even">
-<td><p>The Legend of Zelda: Ocarina of Time 3D</p></td>
-<td><p>UTF-16 name string buffer overflow via unchecked u8 length
-field</p></td>
-<td><p>The u8 at offset 0x2C in the savefile is the character-length of
+<td>The Legend of Zelda: Ocarina of Time 3D</td>
+<td>UTF-16 name string buffer overflow via unchecked u8 length
+field</td>
+<td>The u8 at offset 0x2C in the savefile is the character-length of
 the UTF-16 string at offset 0x1C. When copying this string, it's
 essentially a memory-copy with lenval*2, not a string-copy. This can be
 used to trigger buffer overflows at various locations depending on the
@@ -71,30 +71,30 @@ this is what one would do with CTRSDK heap here).</li>
 was intended for warez/etc. The following exploit wasn't released before
 then mainly because doing so would (presumably) result in the vuln being
 fixed. The following old exploit was released on March 14, 2015: <a
-href="https://github.com/yellows8/oot3dhax">1</a>.</p></td>
-<td><p>None</p></td>
-<td><p>App: Initial version. System: <a href="../10.6.0-31"
-title="wikilink">10.6.0-31</a>.</p></td>
-<td><p>March 11, 2015</p></td>
-<td><p>Around October 22, 2012</p></td>
-<td><p><a href="../User:Yellows8" title="wikilink">Yellows8</a></p></td>
+href="https://github.com/yellows8/oot3dhax">1</a>.</td>
+<td>None</td>
+<td>App: Initial version. System: <a href="../10.6.0-31"
+title="wikilink">10.6.0-31</a>.</td>
+<td>March 11, 2015</td>
+<td>Around October 22, 2012</td>
+<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td><p>Super Smash Bros 3DS</p></td>
-<td><p>Buffer overflow in local-multiplayer beacon handling.</p></td>
-<td><p>See <a href="../smashbroshax" title="wikilink">here</a>.</p></td>
-<td><p>App: v1.1.3</p></td>
-<td><p>See <a href="../smashbroshax" title="wikilink">here</a>. System: <a
-href="../10.3.0-28" title="wikilink">10.3.0-28</a>.</p></td>
-<td><p>Time of exploit release.</p></td>
-<td><p>See <a href="../smashbroshax" title="wikilink">here</a>.</p></td>
-<td><p><a href="../User:Yellows8" title="wikilink">Yellows8</a></p></td>
+<td>Super Smash Bros 3DS</td>
+<td>Buffer overflow in local-multiplayer beacon handling.</td>
+<td>See <a href="../smashbroshax" title="wikilink">here</a>.</td>
+<td>App: v1.1.3</td>
+<td>See <a href="../smashbroshax" title="wikilink">here</a>. System: <a
+href="../10.3.0-28" title="wikilink">10.3.0-28</a>.</td>
+<td>Time of exploit release.</td>
+<td>See <a href="../smashbroshax" title="wikilink">here</a>.</td>
+<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
-<td><p>Pokemon Super Mystery Dungeon</p></td>
-<td><p>Heap overflow within linear memory via unchecked save file
-length</p></td>
-<td><p>Pokemon Super Mystery Dungeon uses zlib compression for most of
+<td>Pokemon Super Mystery Dungeon</td>
+<td>Heap overflow within linear memory via unchecked save file
+length</td>
+<td>Pokemon Super Mystery Dungeon uses zlib compression for most of
 its save files, possibly due to the save files being larger than its
 predecessor, Gates to Infinity. When a save file is being prepared to be
 loaded and read from, only a 0x32000 large buffer is allocated for file
@@ -106,19 +106,19 @@ Pokemon Super Mystery Dungeon stores allocation memchunks directly
 before the allocation, overwriting the next memchunk with a corrupted
 one allows for arbitrary writes of linear heap pointers when the next
 buffer is allocated or arbitrary writes of any pointer within writable
-memory when the corrupted buffer is freed.</p></td>
-<td><p>None</p></td>
-<td><p>O3DS: <a href="../11.3.0-36" title="wikilink">11.3.0-36</a>. N3DS:
-<a href="../11.4.0-37" title="wikilink">11.4.0-37</a>.</p></td>
-<td><p>Time of exploit release.</p></td>
-<td><p>April 14, 2016</p></td>
-<td><p><a href="../User:Shinyquagsire23" title="wikilink">Shiny
-Quagsire</a></p></td>
+memory when the corrupted buffer is freed.</td>
+<td>None</td>
+<td>O3DS: <a href="../11.3.0-36" title="wikilink">11.3.0-36</a>. N3DS:
+<a href="../11.4.0-37" title="wikilink">11.4.0-37</a>.</td>
+<td>Time of exploit release.</td>
+<td>April 14, 2016</td>
+<td><a href="../User:Shinyquagsire23" title="wikilink">Shiny
+Quagsire</a></td>
 </tr>
 <tr class="odd">
-<td><p>VVVVVV</p></td>
-<td><p>Buffer overflow in XML save file array parsing</p></td>
-<td><p>VVVVVV utilizes several XML files (renamed with a .vvv extension)
+<td>VVVVVV</td>
+<td>Buffer overflow in XML save file array parsing</td>
+<td>VVVVVV utilizes several XML files (renamed with a .vvv extension)
 to store level save data, stats and settings. Within these XML files are
 several tags containing an array of data which, when parsed, is not
 properly checked to be of proper length for the tag being parsed from.
@@ -127,18 +127,18 @@ where the array is parsed. With unlock.vvv, XML data is parsed to the
 stack, and with level saves the heap. This allows for the pointer where
 the level save worldmap tag array should be parsed into to be
 overwritten with a stack address, allowing for ROP from within the XML
-array parsing function on the next level load.</p></td>
-<td><p>App: v1.1</p></td>
-<td><p><a href="../10.7.0-32" title="wikilink">10.7.0-32</a>.</p></td>
-<td><p>Time of exploit release.</p></td>
-<td><p>April 25, 2016</p></td>
-<td><p><a href="../User:Shinyquagsire23" title="wikilink">Shiny
-Quagsire</a></p></td>
+array parsing function on the next level load.</td>
+<td>App: v1.1</td>
+<td><a href="../10.7.0-32" title="wikilink">10.7.0-32</a>.</td>
+<td>Time of exploit release.</td>
+<td>April 25, 2016</td>
+<td><a href="../User:Shinyquagsire23" title="wikilink">Shiny
+Quagsire</a></td>
 </tr>
 <tr class="even">
-<td><p>Citizens of Earth</p></td>
-<td><p>Save file read stack smash</p></td>
-<td><p>Citizens of Earth also uses "XML" files for saves, which are
+<td>Citizens of Earth</td>
+<td>Save file read stack smash</td>
+<td>Citizens of Earth also uses "XML" files for saves, which are
 actually entirely binary data (not XML at all) with no checksums. These
 files are read from the filesystem on to a fixed size stack buffer which
 leads to an incredibly trivial stack smash. When using the autosave slot
@@ -147,56 +147,56 @@ using one of the dedicated save slots (1-3), the save is parsed shortly
 after the company splash screens fade. Note that the save is read quite
 high (descending) on the stack - when exploiting this, one would likely
 need to move SP due to almost instantly overflowing the physical
-stack.</p></td>
-<td><p>None</p></td>
-<td><p><a href="../10.7.0-32" title="wikilink">10.7.0-32</a>.</p></td>
-<td><p>Time of exploit release.</p></td>
-<td><p>May 5, 2016</p></td>
-<td><p><a href="../User:Dazzozo" title="wikilink">Dazzozo</a></p></td>
+stack.</td>
+<td>None</td>
+<td><a href="../10.7.0-32" title="wikilink">10.7.0-32</a>.</td>
+<td>Time of exploit release.</td>
+<td>May 5, 2016</td>
+<td><a href="../User:Dazzozo" title="wikilink">Dazzozo</a></td>
 </tr>
 <tr class="odd">
-<td><p>SmileBASIC 3.x</p></td>
-<td><p>Poor parameter validation on "BGSCREEN" command</p></td>
-<td><p>The SmileBASIC "BGSCREEN" command's second parameter is not
+<td>SmileBASIC 3.x</td>
+<td>Poor parameter validation on "BGSCREEN" command</td>
+<td>The SmileBASIC "BGSCREEN" command's second parameter is not
 properly validated as being within range. As a result, one can set the
 screen size to an absurdly large value. This means that the "BGGET" and
 "BGPUT" commands can then be used on out-of-range values to read and
 write a significant chunk of the interpreter's address space. With a
 series of carefully-designed BGPUT commands, one can build a ROP chain
-and cause it to be executed.</p></td>
-<td><p>App: 3.3.2.</p></td>
-<td><p>System: <a href="../11.0.0-33"
-title="wikilink">11.0.0-33</a>.</p></td>
-<td><p>July 20, 2016</p></td>
-<td><p>Around June 26, 2016</p></td>
-<td><p>slackerSnail, 12Me12, incvoid Exploited by MrNbaYoh and <a
-href="../User:Plutooo" title="wikilink">plutoo</a>.</p></td>
+and cause it to be executed.</td>
+<td>App: 3.3.2.</td>
+<td>System: <a href="../11.0.0-33"
+title="wikilink">11.0.0-33</a>.</td>
+<td>July 20, 2016</td>
+<td>Around June 26, 2016</td>
+<td>slackerSnail, 12Me12, incvoid Exploited by MrNbaYoh and <a
+href="../User:Plutooo" title="wikilink">plutoo</a>.</td>
 </tr>
 <tr class="even">
-<td><p>SmileBASIC 3.x</p></td>
-<td><p>Subscripted TIME$/DATE$ allow write access to DATA/BSS</p></td>
-<td><p>Utf-16 characters can be assigned to subscripted TIME$/DATE$
+<td>SmileBASIC 3.x</td>
+<td>Subscripted TIME$/DATE$ allow write access to DATA/BSS</td>
+<td>Utf-16 characters can be assigned to subscripted TIME$/DATE$
 interpreter sysvars which results in write-only access to all of DATA
 and some BSS in userland. TIME$[0]/DATE$[0] actually point to somewhere
 in rodata, and an overly large subscript can be used to write well past
 it and into the aforementioned areas. Demo <a
-href="https://github.com/zoogie/smilehax-IIe">here.</a></p></td>
-<td><p>App: 3.6.2 (3.6.0 latest for US/EU, JP appvers. can be
-downgraded)</p></td>
-<td><p>System: <a href="../11.13.0-45"
-title="wikilink">11.13.0-45</a>.</p></td>
-<td><p>April 2020</p></td>
-<td><p>February 2020</p></td>
-<td><p>bug publicly documented <a
+href="https://github.com/zoogie/smilehax-IIe">here.</a></td>
+<td>App: 3.6.2 (3.6.0 latest for US/EU, JP appvers. can be
+downgraded)</td>
+<td>System: <a href="../11.13.0-45"
+title="wikilink">11.13.0-45</a>.</td>
+<td>April 2020</td>
+<td>February 2020</td>
+<td>bug publicly documented <a
 href="https://translate.google.com/translate?sl=auto&amp;tl=en&amp;u=http%3A%2F%2Fsmilebasic.com%2Fdebug%2Farchive%2F">here.</a>
-Exploited by Zoogie</p></td>
+Exploited by Zoogie</td>
 </tr>
 <tr class="odd">
-<td><p>The Legend of Zelda: Tri Force Heroes</p></td>
-<td><p><a href="../3DS_System_Flaws#General.2FCTRSDK"
+<td>The Legend of Zelda: Tri Force Heroes</td>
+<td><a href="../3DS_System_Flaws#General.2FCTRSDK"
 title="wikilink">CTRSDK</a> CTPK buffer overflow combined with game's
-usage of SpotPass</p></td>
-<td><p>During the very first screen displayed by the game during
+usage of SpotPass</td>
+<td>During the very first screen displayed by the game during
 boot("Loading..."), just seconds after title launch, the game loads CTPK
 from the <a href="../BOSS_Services" title="wikilink">stored</a> SpotPass
 content. Hence, this game could be exploited via the vulnerable CTRSDK
@@ -212,47 +212,47 @@ November 2016. It appears these were intended for use as textures for
 additional costumes(and never got used publicly), but this wasn't
 tested.</p>
 <p>This is used by <a
-href="https://github.com/yellows8/ctpkpwn">ctpkpwn_tfh</a>.</p></td>
-<td><p>None</p></td>
-<td><p>App: v2.1.0</p></td>
-<td><p>November 18, 2016</p></td>
-<td><p>November 14, 2016</p></td>
-<td><p><a href="../User:Yellows8" title="wikilink">Yellows8</a></p></td>
+href="https://github.com/yellows8/ctpkpwn">ctpkpwn_tfh</a>.</td>
+<td>None</td>
+<td>App: v2.1.0</td>
+<td>November 18, 2016</td>
+<td>November 14, 2016</td>
+<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
-<td><p>Pixel Paint</p></td>
-<td><p>Buffer overflow via unchecked extdata file length</p></td>
-<td><p>Pixel Paint loads pictures saved by the user from extdatas. The
+<td>Pixel Paint</td>
+<td>Buffer overflow via unchecked extdata file length</td>
+<td>Pixel Paint loads pictures saved by the user from extdatas. The
 file is read to a fixed size buffer but the file length remains
 unchecked, so with a large enough file, one can overwrite pointers in
-memory and gain control of the execution flow.</p></td>
-<td><p>None</p></td>
-<td><p>App: Initial version. System: <a href="../11.2.0-35"
-title="wikilink">11.2.0-35</a>.</p></td>
-<td><p>December 27, 2016</p></td>
-<td><p>November 5, 2016</p></td>
-<td><p><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></p></td>
+memory and gain control of the execution flow.</td>
+<td>None</td>
+<td>App: Initial version. System: <a href="../11.2.0-35"
+title="wikilink">11.2.0-35</a>.</td>
+<td>December 27, 2016</td>
+<td>November 5, 2016</td>
+<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="odd">
-<td><p>Steel Diver : Sub Wars</p></td>
-<td><p>Heap overflow / arbitrary memcpy</p></td>
-<td><p>Savefile datas are stored as key/value pairs, a large enough
+<td>Steel Diver : Sub Wars</td>
+<td>Heap overflow / arbitrary memcpy</td>
+<td>Savefile datas are stored as key/value pairs, a large enough
 string key makes the game overwrite a memcpy source/destination
 addresses and size arguments. So one can actually memcpy a rop on the
-stack and gain control of the execution flow.</p></td>
-<td><p>None</p></td>
-<td><p>System: <a href="../11.2.0-35"
-title="wikilink">11.2.0-35</a>.</p></td>
-<td><p>December 27, 2016</p></td>
-<td><p>Around July 15, 2016</p></td>
-<td><p><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a>,
-Vegaroxas</p></td>
+stack and gain control of the execution flow.</td>
+<td>None</td>
+<td>System: <a href="../11.2.0-35"
+title="wikilink">11.2.0-35</a>.</td>
+<td>December 27, 2016</td>
+<td>Around July 15, 2016</td>
+<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a>,
+Vegaroxas</td>
 </tr>
 <tr class="even">
-<td><p>1001 Spikes</p></td>
-<td><p>Buffer overflow via unchecked array-indexes in XML savefile
-parsing</p></td>
-<td><p>The savefiles are stored as renamed .xml files, which contain
+<td>1001 Spikes</td>
+<td>Buffer overflow via unchecked array-indexes in XML savefile
+parsing</td>
+<td>The savefiles are stored as renamed .xml files, which contain
 several tags with attributes like 'array-index="array-value"', where
 both of these are converted from ASCII strings to integers as
 signed-int32, and the array-value given blindly written to an array
@@ -260,91 +260,91 @@ inside a structure using the (unchecked) index given. With several of
 these attributes, one can overwrite the stack starting from the stored
 lr of the function that does this parsing, and write a ROP chain there.
 Testing used the "LevelAttempts" tag which is the last such tag parsed
-in that function.</p></td>
-<td><p>None</p></td>
-<td><p>App: v1.2.0 (TMD v2096)</p></td>
-<td><p>December 27, 2016</p></td>
-<td><p>Around November 2, 2016</p></td>
-<td><p><a href="../User:Riley" title="wikilink">Riley</a></p></td>
+in that function.</td>
+<td>None</td>
+<td>App: v1.2.0 (TMD v2096)</td>
+<td>December 27, 2016</td>
+<td>Around November 2, 2016</td>
+<td><a href="../User:Riley" title="wikilink">Riley</a></td>
 </tr>
 <tr class="odd">
-<td><p>Pokemon Omega Ruby/Alpha Sapphire</p></td>
-<td><p>Secret base team name heap overflow</p></td>
-<td><p>When the player wants to edit the team name, it is copied over
+<td>Pokemon Omega Ruby/Alpha Sapphire</td>
+<td>Secret base team name heap overflow</td>
+<td>When the player wants to edit the team name, it is copied over
 the heap, however its length is not verified. So with a large enough
 team name one can overwrite some pointers and get two arbitrary jumps
-and then get control of the execution flow.</p></td>
-<td><p>None</p></td>
-<td><p>App: 1.4. System: <a href="../11.2.0-35"
-title="wikilink">11.2.0-35</a>.</p></td>
-<td><p>December 30, 2016</p></td>
-<td><p>June, 2016</p></td>
-<td><p><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></p></td>
+and then get control of the execution flow.</td>
+<td>None</td>
+<td>App: 1.4. System: <a href="../11.2.0-35"
+title="wikilink">11.2.0-35</a>.</td>
+<td>December 30, 2016</td>
+<td>June, 2016</td>
+<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="even">
-<td><p>Swapdoodle</p></td>
-<td><p>Heap buffer overflow via unchecked size</p></td>
-<td><p>The letter file format used by doodlebomb is composed of multiple
+<td>Swapdoodle</td>
+<td>Heap buffer overflow via unchecked size</td>
+<td>The letter file format used by doodlebomb is composed of multiple
 chunks. Each chunks is described in the header of the file where the
 name, size and CRC of each chunk are stored. Some chunks are meant to be
 headers, every header's size should be 0x80, however the length of the
 STAHED1 chunk remains unchecked and the game memcpy the chunk to a 0x80
 byte buffer with the length provided in the file. This way one is able
 to overwrite some pointers and get control of the execution
-flow.</p></td>
-<td><p>App: &gt; v1.1.1</p></td>
-<td><p>App: v1.1.1</p></td>
-<td><p>April 24, 2017</p></td>
-<td><p>February, 2017</p></td>
-<td><p><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></p></td>
+flow.</td>
+<td>App: &gt; v1.1.1</td>
+<td>App: v1.1.1</td>
+<td>April 24, 2017</td>
+<td>February, 2017</td>
+<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="odd">
-<td><p>Pokemon Picross</p></td>
-<td><p>Arbitrary memcpy via unchecked size</p></td>
-<td><p>When reading the savefile, the game handles some lists of buffers
+<td>Pokemon Picross</td>
+<td>Arbitrary memcpy via unchecked size</td>
+<td>When reading the savefile, the game handles some lists of buffers
 that are copied to memory. These buffers should always be 0x14-bytes
 long but the game uses the size provided in the savefile to copy them.
 These buffers are copied in some structs and thus with a big enough
 length value, one can overwrite the next struct which contains a size
-and a destination address for a memcpy.</p></td>
-<td><p>None?</p></td>
-<td><p>App: ?</p></td>
-<td><p>May 29, 2017</p></td>
-<td><p>June, 2016</p></td>
-<td><p><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></p></td>
+and a destination address for a memcpy.</td>
+<td>None?</td>
+<td>App: ?</td>
+<td>May 29, 2017</td>
+<td>June, 2016</td>
+<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="even">
-<td><p>RPG Maker Fes/Player</p></td>
-<td><p>Buffer overflow on .bss section</p></td>
-<td><p>When loading a project, the game copies multiple chunks over the
+<td>RPG Maker Fes/Player</td>
+<td>Buffer overflow on .bss section</td>
+<td>When loading a project, the game copies multiple chunks over the
 BSS section. However the number of chunks to copy is not checked, thus a
 large amount of chunk result in a buffer overflow. There's multiple way
 to exploit this flaw to gain an arbitrary memcpy or an arbitrary
-jump.</p></td>
-<td><p>None?</p></td>
-<td><p>App: ?</p></td>
-<td><p>August 28, 2017</p></td>
-<td><p>August, 2017</p></td>
-<td><p><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></p></td>
+jump.</td>
+<td>None?</td>
+<td>App: ?</td>
+<td>August 28, 2017</td>
+<td>August, 2017</td>
+<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="odd">
-<td><p>RPG Maker Fes/Player</p></td>
-<td><p>Buffer overflow via unchecked file size</p></td>
-<td><p>When loading a project, the game loads the file to a 0x200000
+<td>RPG Maker Fes/Player</td>
+<td>Buffer overflow via unchecked file size</td>
+<td>When loading a project, the game loads the file to a 0x200000
 bytes long buffer. However the size remains unchecked, so with a big
 enough file one can overflow the buffer and overwrite a thread stack and
-then achieve ROP.</p></td>
-<td><p>None?</p></td>
-<td><p>App: ?</p></td>
-<td><p>August 29, 2017</p></td>
-<td><p>August, 2017</p></td>
-<td><p><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a>, <a
-href="../User:_ChampionLeake" title="wikilink">ChampionLeake</a></p></td>
+then achieve ROP.</td>
+<td>None?</td>
+<td>App: ?</td>
+<td>August 29, 2017</td>
+<td>August, 2017</td>
+<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a>, <a
+href="../User:_ChampionLeake" title="wikilink">ChampionLeake</a></td>
 </tr>
 <tr class="even">
-<td><p>Pokemon Omega Ruby/Alpha Sapphire</p></td>
-<td><p>PSS data heap/stack overflow</p></td>
-<td><p>When launching the game, multiple chunks from the save file are
+<td>Pokemon Omega Ruby/Alpha Sapphire</td>
+<td>PSS data heap/stack overflow</td>
+<td>When launching the game, multiple chunks from the save file are
 parsed and copied to a large heap buffer. When parsing PSS data
 (acquaintances, passerby) the game copies each entry to the heap buffer,
 the number of entries to copy is read from the end of the multiple pss
@@ -352,91 +352,91 @@ data chunks and is not checked, leading to an overflow. The "PSS data -
 friends" chunk is vulnerable too, but the overflow occurs on the stack
 and unfortunately this isn't exploitable because of a 4 bytes
 uncontrolled value (in each entry) that gets written on sensitive
-data.</p></td>
-<td><p>None</p></td>
-<td><p>App: 1.4. System: <a href="../11.6.0"
-title="wikilink">11.6.0</a>.</p></td>
-<td><p>October 1, 2017</p></td>
-<td><p>June, 2016</p></td>
-<td><p><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></p></td>
+data.</td>
+<td>None</td>
+<td>App: 1.4. System: <a href="../11.6.0"
+title="wikilink">11.6.0</a>.</td>
+<td>October 1, 2017</td>
+<td>June, 2016</td>
+<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="odd">
-<td><p>RPG Maker Fes/Player</p></td>
-<td><p>OOB write</p></td>
-<td><p>When handling events in a map, the indices of "buttons" are not
+<td>RPG Maker Fes/Player</td>
+<td>OOB write</td>
+<td>When handling events in a map, the indices of "buttons" are not
 checked. This results in an out of bound bit write, one can thus write a
-rop directly on the stack (bit by bit).</p></td>
-<td><p>None?</p></td>
-<td><p>App: ?</p></td>
-<td><p>August 5, 2018</p></td>
+rop directly on the stack (bit by bit).</td>
+<td>None?</td>
+<td>App: ?</td>
+<td>August 5, 2018</td>
 <td></td>
-<td><p><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></p></td>
+<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="even">
-<td><p>Unholy Heights</p></td>
-<td><p>Buffer overflow via unchecked string size</p></td>
-<td><p>The game stores some utf-16 messages in the savefile. Right
+<td>Unholy Heights</td>
+<td>Buffer overflow via unchecked string size</td>
+<td>The game stores some utf-16 messages in the savefile. Right
 before the message is the length(u32) for the string, the game uses this
 size to memcpy the message from the savefile to the stack without
 checking the length. This allows one to overwrite some function
-addresses on the stack and form a rop chain.</p></td>
-<td><p>None</p></td>
-<td><p>App: Initial Version</p></td>
-<td><p>September 13, 2018</p></td>
-<td><p>August, 2018</p></td>
-<td><p>Kartik</p></td>
+addresses on the stack and form a rop chain.</td>
+<td>None</td>
+<td>App: Initial Version</td>
+<td>September 13, 2018</td>
+<td>August, 2018</td>
+<td>Kartik</td>
 </tr>
 <tr class="odd">
-<td><p>Mononoke Forest</p></td>
-<td><p>String Buffer Overflow via unchecked string length</p></td>
-<td><p>The game stores plaintext profile names in the savefile. The
+<td>Mononoke Forest</td>
+<td>String Buffer Overflow via unchecked string length</td>
+<td>The game stores plaintext profile names in the savefile. The
 profile names are strcpy/memcpy to different areas of the game's
 functions in the stack. Using a large extensive profile name, a user can
 overwrite some stack-registers and point to stack buffer addresses to
 eventually gain control of the stack to lead and form a
-rop-chain.</p></td>
-<td><p>None</p></td>
-<td><p>App: v1.0.0</p></td>
-<td><p>August 14, 2019</p></td>
-<td><p>February 8, 2019</p></td>
-<td><p><a href="../User:_ChampionLeake" title="wikilink">ChampionLeake</a>
-and <a href="../User:_Kartik" title="wikilink">Kartik</a></p></td>
+rop-chain.</td>
+<td>None</td>
+<td>App: v1.0.0</td>
+<td>August 14, 2019</td>
+<td>February 8, 2019</td>
+<td><a href="../User:_ChampionLeake" title="wikilink">ChampionLeake</a>
+and <a href="../User:_Kartik" title="wikilink">Kartik</a></td>
 </tr>
 <tr class="even">
-<td><p>Picross 3D: Round 2</p></td>
-<td><p>Out of bounds array access allowing to point to fabricated
-objects and vtable</p></td>
-<td><p>Game only checks save header. With the last interacted save slot
+<td>Picross 3D: Round 2</td>
+<td>Out of bounds array access allowing to point to fabricated
+objects and vtable</td>
+<td>Game only checks save header. With the last interacted save slot
 index at +0xb270 in the save data unchecked we can achieve a predictable
 out of bounds access, as well inserting ROP data without detecting save
 corruption. Game references an object from an array of 3 elements and
 passes it to a function that will read object pointers and hit a vtable
 call. With a copy save data left in memory and a properly calculated
 index, we can point to a fake object position in the save, vtable jump
-to a stack pivot and start the ROP chain.</p></td>
-<td><p>None</p></td>
-<td><p>App: Initial version</p></td>
-<td><p>September 10, 2020</p></td>
-<td><p>August 24, 2020</p></td>
-<td><p><a href="../User:_Luigoalma" title="wikilink">Luigoalma</a> and <a
-href="../User:_Kartik" title="wikilink">Kartik</a></p></td>
+to a stack pivot and start the ROP chain.</td>
+<td>None</td>
+<td>App: Initial version</td>
+<td>September 10, 2020</td>
+<td>August 24, 2020</td>
+<td><a href="../User:_Luigoalma" title="wikilink">Luigoalma</a> and <a
+href="../User:_Kartik" title="wikilink">Kartik</a></td>
 </tr>
 <tr class="odd">
-<td><p>Me and My Pets 3D</p></td>
-<td><p>String buffer overflow</p></td>
-<td><p>The game stores some strings in the savegame. Using a large
+<td>Me and My Pets 3D</td>
+<td>String buffer overflow</td>
+<td>The game stores some strings in the savegame. Using a large
 enough string, once can overwrite addresses on the stack and form a
-ropchain.</p></td>
-<td><p>None</p></td>
-<td><p>App: Initial Version</p></td>
-<td><p>June 24, 2022</p></td>
-<td><p>June 12, 2022</p></td>
-<td><p><a href="../User:_Kartik" title="wikilink">Kartik</a></p></td>
+ropchain.</td>
+<td>None</td>
+<td>App: Initial Version</td>
+<td>June 24, 2022</td>
+<td>June 12, 2022</td>
+<td><a href="../User:_Kartik" title="wikilink">Kartik</a></td>
 </tr>
 <tr class="even">
-<td><p>trl CGB emulator (GBC Virtual Console)</p></td>
-<td><p>HDMA heap buffer overflow</p></td>
-<td><p>trl's CGB emulation implements normal mode HDMA by a straight
+<td>trl CGB emulator (GBC Virtual Console)</td>
+<td>HDMA heap buffer overflow</td>
+<td>trl's CGB emulation implements normal mode HDMA by a straight
 memcpy, failing to correctly bounds check the provided pointers/length.
 (hblank mode HDMA does perform proper bounds checks after each 0x10 byte
 memcpy) In addition, each area of memory (ROM, SRAM, VRAM, WRAM, SRAM,
@@ -456,12 +456,12 @@ has a savegame exploit); or by crafting an emulator save-state (for
 games where save-states are enabled).</p>
 <p>DMG (mono Game Boy) games are not exploitable; the bug is in
 CGB-specific functionality which is disabled in mono Game Boy games
-(determined by ROM header).</p></td>
-<td><p>None</p></td>
-<td><p>trl as included in Pokémon Crystal VC</p></td>
-<td><p>January 2024</p></td>
-<td><p>~2017</p></td>
-<td><p><a href="../User:Riley" title="wikilink">Riley</a></p></td>
+(determined by ROM header).</td>
+<td>None</td>
+<td>trl as included in Pokémon Crystal VC</td>
+<td>January 2024</td>
+<td>~2017</td>
+<td><a href="../User:Riley" title="wikilink">Riley</a></td>
 </tr>
 </tbody>
 </table>
@@ -607,26 +607,26 @@ CGB-specific functionality which is disabled in mono Game Boy games
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>3DS <a href="../System_Settings" title="wikilink">System
-Settings</a> DS profile string stack-smash</p></td>
-<td><p>Too long or corrupted strings (01Ah 2 Nickname length in
+<td>3DS <a href="../System_Settings" title="wikilink">System
+Settings</a> DS profile string stack-smash</td>
+<td>Too long or corrupted strings (01Ah 2 Nickname length in
 characters 050h 2 Message length in characters) in the NVRAM DS user
 settings (System Settings-&gt;Other Settings-&gt;Profile-&gt;Nintendo DS
 Profile) cause it to crash in 3DS-mode due to a stack-smash. The DSi is
 not vulnerable to this, DSi launcher(menu) and DSi System Settings will
 reset the NVRAM user-settings if the length field values are too
 long(same result as when the CRCs are invalid). TWL_FIRM also resets the
-NVRAM user-settings when the string-length(s) are too long.</p></td>
-<td><p><a href="../7.0.0-13" title="wikilink">7.0.0-13</a></p></td>
-<td><p><a href="../7.0.0-13" title="wikilink">7.0.0-13</a></p></td>
-<td><p>2012</p></td>
-<td><p><a href="../User:Ichfly" title="wikilink">Ichfly</a></p></td>
+NVRAM user-settings when the string-length(s) are too long.</td>
+<td><a href="../7.0.0-13" title="wikilink">7.0.0-13</a></td>
+<td><a href="../7.0.0-13" title="wikilink">7.0.0-13</a></td>
+<td>2012</td>
+<td><a href="../User:Ichfly" title="wikilink">Ichfly</a></td>
 </tr>
 <tr class="even">
-<td><p>3DS <a href="../System_Settings" title="wikilink">System
+<td>3DS <a href="../System_Settings" title="wikilink">System
 Settings</a> stack smash via title strings in <a href="../DSiWare_Exports"
-title="wikilink">DSiWare_Exports</a></p></td>
-<td><p>DSiWare export banners contain 16 consecutive 0x100 byte, utf-16
+title="wikilink">DSiWare_Exports</a></td>
+<td>DSiWare export banners contain 16 consecutive 0x100 byte, utf-16
 game title strings for different languages. Nintendo correctly limits
 the string's max length by placing a NULL at str[127] before it's copied
 to the stack. However, they didn't allocate enough space for all 128
@@ -637,17 +637,17 @@ Management as demonstrated <a
 href="https://github.com/zoogie/Bannerbomb3">here</a>.</p>
 <p>Interesting note: A line feed wchar (00 0A) at any point in the
 string before the crash offset will prevent the crash from
-occurring.</p></td>
-<td><p><a href="../11.17.0-50" title="wikilink">11.17.0-50</a></p></td>
-<td><p><a href="../11.13.0-45" title="wikilink">11.13.0-45</a></p></td>
-<td><p>Dec. 2018</p></td>
-<td><p>Zoogie</p></td>
+occurring.</td>
+<td><a href="../11.17.0-50" title="wikilink">11.17.0-50</a></td>
+<td><a href="../11.13.0-45" title="wikilink">11.13.0-45</a></td>
+<td>Dec. 2018</td>
+<td>Zoogie</td>
 </tr>
 <tr class="odd">
-<td><p>3DS SAFE_MODE <a
+<td>3DS SAFE_MODE <a
 href="../System_Settings#System_Updater">System
-Updater</a> stack smash from proxy-url string</p></td>
-<td><p>During <a href="../Recovery_Mode" title="wikilink">Recovery Mode</a>
+Updater</a> stack smash from proxy-url string</td>
+<td>During <a href="../Recovery_Mode" title="wikilink">Recovery Mode</a>
 and after all 3 wifi slots fail to find an access point for sysupdate, a
 user is permitted to access the wifi settings mode to make changes.
 Here, if the proxy-url field string's NULL terminator had been altered
@@ -663,34 +663,34 @@ gadgets.</p>
 safehax with one's choice of k11 and arm9 hax. Prerequisite: a userland
 exploit with cfg:s/i access to modify the wifi slot. A demonstration can
 be viewed <a
-href="https://github.com/zoogie/unSAFE_MODE">here</a>.</p></td>
-<td><p>None</p></td>
-<td><p><a href="../11.13.0-45" title="wikilink">11.13.0-45</a></p></td>
-<td><p>Jan. 2020</p></td>
-<td><p>Zoogie</p></td>
+href="https://github.com/zoogie/unSAFE_MODE">here</a>.</td>
+<td>None</td>
+<td><a href="../11.13.0-45" title="wikilink">11.13.0-45</a></td>
+<td>Jan. 2020</td>
+<td>Zoogie</td>
 </tr>
 <tr class="even">
-<td><p><a href="../Nintendo_3DS_Sound" title="wikilink">Nintendo 3DS
-Sound</a></p></td>
-<td><p>When a .m4a is loaded, the song name is copied to a 256 byte
+<td><a href="../Nintendo_3DS_Sound" title="wikilink">Nintendo 3DS
+Sound</a></td>
+<td>When a .m4a is loaded, the song name is copied to a 256 byte
 buffer. When the song name begins with a Unicode BOM marker, it memcpy's
 the tag using the user-provided length. This gives an arbitrary write
-which can be used to achieve ROP.</p></td>
-<td><p><a href="../11.4.0-37" title="wikilink">11.4.0-37</a></p></td>
-<td><p><a href="../11.4.0-37" title="wikilink">11.4.0-37</a></p></td>
-<td><p>June/July 2016</p></td>
-<td><p><a href="../User:nedwill" title="wikilink">nedwill</a></p></td>
+which can be used to achieve ROP.</td>
+<td><a href="../11.4.0-37" title="wikilink">11.4.0-37</a></td>
+<td><a href="../11.4.0-37" title="wikilink">11.4.0-37</a></td>
+<td>June/July 2016</td>
+<td><a href="../User:nedwill" title="wikilink">nedwill</a></td>
 </tr>
 <tr class="odd">
-<td><p><a href="../EShop" title="wikilink">EShop</a></p></td>
-<td><p>When creating an audio decoder object for the moflex movie
+<td><a href="../EShop" title="wikilink">EShop</a></td>
+<td>When creating an audio decoder object for the moflex movie
 player, if the audio codec is PCM16, the application uses an
 uninitialized value as a pointer. One can spray the heap to get control
-of that pointer and achieve ROP.</p></td>
-<td><p>None</p></td>
-<td><p><a href="../11.14.0-46" title="wikilink">11.14.0-46</a></p></td>
-<td><p>2020</p></td>
-<td><p><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></p></td>
+of that pointer and achieve ROP.</td>
+<td>None</td>
+<td><a href="../11.14.0-46" title="wikilink">11.14.0-46</a></td>
+<td>2020</td>
+<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
 </tr>
 </tbody>
 </table>
@@ -712,21 +712,21 @@ of that pointer and achieve ROP.</p></td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Webkit/web-browser bugs</p></td>
-<td><p>spider has had at least three different code-execution exploits.
+<td>Webkit/web-browser bugs</td>
+<td>spider has had at least three different code-execution exploits.
 Majority of them are use-after-free issues. See also <a
-href="../browserhax" title="wikilink">here</a>.</p></td>
+href="../browserhax" title="wikilink">here</a>.</td>
 <td></td>
 <td></td>
 <td></td>
-<td><p>2013?</p></td>
+<td>2013?</td>
 <td></td>
-<td><p>A lot of people.</p></td>
+<td>A lot of people.</td>
 </tr>
 <tr class="even">
-<td><p>Old3DS/New3DS <a href="../Internet_Browser"
-title="wikilink">Browser-version-check</a> bypass</p></td>
-<td><p>When the browser-version-check code runs where the savedata for
+<td>Old3DS/New3DS <a href="../Internet_Browser"
+title="wikilink">Browser-version-check</a> bypass</td>
+<td>When the browser-version-check code runs where the savedata for
 it was never initialized(such as when the user used the "Initialize
 savedata" option), it will use base_timestamp=0 instead of the timestamp
 loaded from savedata. This is then used with "if(cur_timestamp -
@@ -740,43 +740,43 @@ timestamp.</p>
 bypass usage instructions.</p>
 <p>This was fixed with <a href="../10.7.0-32"
 title="wikilink">10.7.0-32</a>, see <a href="../Internet_Browser"
-title="wikilink">here</a> for details.</p></td>
-<td><p><a href="../10.7.0-32" title="wikilink">10.7.0-32</a></p></td>
+title="wikilink">here</a> for details.</td>
+<td><a href="../10.7.0-32" title="wikilink">10.7.0-32</a></td>
 <td></td>
-<td><p><a href="../9.9.0-26" title="wikilink">9.9.0-26</a></p></td>
-<td><p>February 25, 2016</p></td>
-<td><p>November 2, 2015 (Exactly one week after the browser version
-pages were initially updated server-side)</p></td>
-<td><p><a href="../User:Yellows8" title="wikilink">Yellows8</a></p></td>
+<td><a href="../9.9.0-26" title="wikilink">9.9.0-26</a></td>
+<td>February 25, 2016</td>
+<td>November 2, 2015 (Exactly one week after the browser version
+pages were initially updated server-side)</td>
+<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td><p>Skater - Bookmark OOB write</p></td>
-<td><p>Each bookmark has an id that should not exceed 0x63 (99), however
+<td>Skater - Bookmark OOB write</td>
+<td>Each bookmark has an id that should not exceed 0x63 (99), however
 ids are not checked, this results in an OOB write on the stack, but only
-the value 0x01 can be written.</p></td>
+the value 0x01 can be written.</td>
 <td></td>
-<td><p><a href="../11.6.0-39" title="wikilink">11.6.0-39</a></p></td>
+<td><a href="../11.6.0-39" title="wikilink">11.6.0-39</a></td>
 <td></td>
-<td><p>May 21, 2018</p></td>
-<td><p>May 20, 2018</p></td>
-<td><p><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></p></td>
+<td>May 21, 2018</td>
+<td>May 20, 2018</td>
+<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="even">
-<td><p>MicroSD Management - malformed security blob causes stack buffer
-overflow (mhax)</p></td>
-<td><p>The MicroSD Management application's parsing of Windows NTLM
+<td>MicroSD Management - malformed security blob causes stack buffer
+overflow (mhax)</td>
+<td>The MicroSD Management application's parsing of Windows NTLM
 security blobs in the SMB/CIFS protocol doesn't verify that the client's
 specified NT domain name is less than 32 UTF-16 characters. When it's
 longer, a stack buffer overrun occurs, leading to a ROP chain and
 complete control of the mcopy application.</p>
 <p>The malformed security blob can be sent by an attacker within the
-SMB_COM_SESSION_SETUP_ANDX (0x73) packet.</p></td>
-<td><p><a href="../11.8.0-41" title="wikilink">11.8.0-41</a></p></td>
-<td><p><a href="../11.8.0-41" title="wikilink">11.8.0-41</a></p></td>
-<td><p><a href="../9.0.0-20" title="wikilink">9.0.0-20</a></p></td>
-<td><p>August 12, 2018</p></td>
-<td><p>2018</p></td>
-<td><p>smea</p></td>
+SMB_COM_SESSION_SETUP_ANDX (0x73) packet.</td>
+<td><a href="../11.8.0-41" title="wikilink">11.8.0-41</a></td>
+<td><a href="../11.8.0-41" title="wikilink">11.8.0-41</a></td>
+<td><a href="../9.0.0-20" title="wikilink">9.0.0-20</a></td>
+<td>August 12, 2018</td>
+<td>2018</td>
+<td>smea</td>
 </tr>
 </tbody>
 </table>
@@ -798,25 +798,25 @@ SMB_COM_SESSION_SETUP_ANDX (0x73) packet.</p></td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>u8 brightness setting OOB index (menuhax67)</p></td>
-<td><p>Config block 0x50001, which contains a u8 brightness setting that
+<td>u8 brightness setting OOB index (menuhax67)</td>
+<td>Config block 0x50001, which contains a u8 brightness setting that
 indexes a table of u32 addresses, can be set to an out-of-bounds index
 (it's normally 1-5). Located within cfg block 0x50009, there exists a
 single controllable u32 that's located within the u8's range. With these
 set properly, one can eventually redirect a function pointer to an
 address of their choice. This is triggered after the Home Menu quick
 launch tab is activated. POC <a
-href="https://github.com/zoogie/menuhax67">here</a>.</p></td>
-<td><p>None</p></td>
-<td><p><a href="../11.13.0-45" title="wikilink">11.13.0-45</a></p></td>
+href="https://github.com/zoogie/menuhax67">here</a>.</td>
+<td>None</td>
+<td><a href="../11.13.0-45" title="wikilink">11.13.0-45</a></td>
 <td></td>
-<td><p>October 4, 2020</p></td>
-<td><p>September, 2020</p></td>
-<td><p>Zoogie</p></td>
+<td>October 4, 2020</td>
+<td>September, 2020</td>
+<td>Zoogie</td>
 </tr>
 <tr class="even">
-<td><p>bossbannerhax</p></td>
-<td><p>After successfully loading <a href="../Extended_Banner"
+<td>bossbannerhax</td>
+<td>After successfully loading <a href="../Extended_Banner"
 title="wikilink">extended-banner</a> data(done when selecting an icon),
 Home Menu attempts to load "<a href="../CBMD" title="wikilink">CBMD</a>"
 data into a 0x100000-byte heap buffer from the <a href="../BOSS_Services"
@@ -825,33 +825,33 @@ magic-number is CBMD, Home Menu then decompresses the exbanner sections
 into another fixed-size heap buffer, without checking the outsize at
 all. The main CBMD CGFX code with ExeFS checks the size, but this code
 doesn't(however this is exbanner "CBMD", not a "normal" CBMD).</p>
-<p>Used with menuhax as of v3.2.</p></td>
-<td><p><a href="../11.3.0-36" title="wikilink">11.3.0-X</a></p></td>
+<p>Used with menuhax as of v3.2.</td>
+<td><a href="../11.3.0-36" title="wikilink">11.3.0-X</a></td>
 <td></td>
-<td><p><a href="../1.0.0-0" title="wikilink">1.0.0-0</a></p></td>
-<td><p>November 18, 2016</p></td>
-<td><p>December 23, 2014</p></td>
-<td><p><a href="../User:Yellows8" title="wikilink">Yellows8</a></p></td>
+<td><a href="../1.0.0-0" title="wikilink">1.0.0-0</a></td>
+<td>November 18, 2016</td>
+<td>December 23, 2014</td>
+<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td><p>sdiconhax</p></td>
-<td><p>This is basically the same as nandiconhax, the vulnerable SD/NAND
+<td>sdiconhax</td>
+<td>This is basically the same as nandiconhax, the vulnerable SD/NAND
 functions are <em>identical</em> minus the file-buffer offsets.
 Exploitation is different due to different heap-buffer location though.
 Unlike nandiconhax, the icon buffer for SD is located in linearmem(with
 recent Home Menu versions at least). This is used by <a href="../menuhax"
-title="wikilink">menuhax</a>.</p></td>
-<td><p><a href="../11.1.0-34" title="wikilink">11.1.0-X</a></p></td>
+title="wikilink">menuhax</a>.</td>
+<td><a href="../11.1.0-34" title="wikilink">11.1.0-X</a></td>
 <td></td>
-<td><p><a href="../4.0.0-7" title="wikilink">4.0.0-X</a></p></td>
-<td><p>July 27, 2016</p></td>
-<td><p>October 23, 2015</p></td>
-<td><p><a href="../User:Yellows8" title="wikilink">Yellows8</a></p></td>
+<td><a href="../4.0.0-7" title="wikilink">4.0.0-X</a></td>
+<td>July 27, 2016</td>
+<td>October 23, 2015</td>
+<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
-<td><p><a href="../System_SaveData" title="wikilink">NAND-savedata</a>
-Launcher.dat icons (nandiconhax)</p></td>
-<td><p>The homemenu code processing the titleid list @ launcherdat+8
+<td><a href="../System_SaveData" title="wikilink">NAND-savedata</a>
+Launcher.dat icons (nandiconhax)</td>
+<td>The homemenu code processing the titleid list @ launcherdat+8
 copies those titleIDs to another buffer, where the offset relative to
 that buffer is calculated using the corresponding s8/s16 entries. Those
 two values are not range checked at all. Hence, one can use this to
@@ -883,18 +883,18 @@ with Home Menu): after crashing once, Home Menu resets Launcher.dat to a
 state where it no longer crashes anymore. However, note that any
 exploits using this which hang/etc without crashing will still brick the
 system. <strong>Hence, attempting anything with this on physnand without
-hw-nand-access isn't really recommended.</strong></p></td>
-<td><p><a href="../11.1.0-34" title="wikilink">11.1.0-X</a></p></td>
+hw-nand-access isn't really recommended.</strong></td>
+<td><a href="../11.1.0-34" title="wikilink">11.1.0-X</a></td>
 <td></td>
-<td><p><a href="../4.0.0-7" title="wikilink">4.0.0-X</a></p></td>
+<td><a href="../4.0.0-7" title="wikilink">4.0.0-X</a></td>
 <td></td>
-<td><p>May 14, 2015</p></td>
-<td><p><a href="../User:Yellows8" title="wikilink">Yellows8</a></p></td>
+<td>May 14, 2015</td>
+<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td><p>Theme-data decompression buffer overflow (<a href="../menuhax"
-title="wikilink">themehax</a>)</p></td>
-<td><p>The only func-call size parameter used by the theme decompression
+<td>Theme-data decompression buffer overflow (<a href="../menuhax"
+title="wikilink">themehax</a>)</td>
+<td>The only func-call size parameter used by the theme decompression
 function is one for the compressed size, none for the decompressed size.
 The decompressed-size value from the LZ header is used by this function
 to check when to stop decompressing, but this function itself has
@@ -916,30 +916,30 @@ supported by the other function anyway.</p>
 only code change was that the following was added right after theme-load
 and before actual decompression:
 "if(<get_lzheader_decompressed_size>(compressed_buf) &gt;
-0x150000)<exit>;". This fixed the vuln.</p></td>
-<td><p><a href="../10.2.0-28" title="wikilink">10.2.0-X</a></p></td>
-<td><p><a href="../10.2.0-28" title="wikilink">10.2.0-X</a></p></td>
-<td><p><Old3DS/New3DS version which added initial theme support></p></td>
+0x150000)<exit>;". This fixed the vuln.</td>
+<td><a href="../10.2.0-28" title="wikilink">10.2.0-X</a></td>
+<td><a href="../10.2.0-28" title="wikilink">10.2.0-X</a></td>
+<td><Old3DS/New3DS version which added initial theme support></td>
 <td></td>
-<td><p>December 22, 2014</p></td>
-<td><p><a href="../User:Yellows8" title="wikilink">Yellows8</a>, <a
+<td>December 22, 2014</td>
+<td><a href="../User:Yellows8" title="wikilink">Yellows8</a>, <a
 href="../User:Myria" title="wikilink">Myria</a> independently (~spring
-2015)</p></td>
+2015)</td>
 </tr>
 <tr class="even">
-<td><p>Shuffle body-data buffer overflow (<a href="../menuhax"
-title="wikilink">shufflehax</a>)</p></td>
-<td><p>See <a href="../menuhax" title="wikilink">here</a>.</p></td>
-<td><p><a href="../10.6.0-31" title="wikilink">10.6.0-X</a></p></td>
-<td><p><a href="../10.6.0-31" title="wikilink">10.6.0-X</a></p></td>
-<td><p><a href="../9.3.0-21" title="wikilink">9.3.0-X</a></p></td>
+<td>Shuffle body-data buffer overflow (<a href="../menuhax"
+title="wikilink">shufflehax</a>)</td>
+<td>See <a href="../menuhax" title="wikilink">here</a>.</td>
+<td><a href="../10.6.0-31" title="wikilink">10.6.0-X</a></td>
+<td><a href="../10.6.0-31" title="wikilink">10.6.0-X</a></td>
+<td><a href="../9.3.0-21" title="wikilink">9.3.0-X</a></td>
 <td></td>
-<td><p>January 3, 2015</p></td>
-<td><p><a href="../User:Yellows8" title="wikilink">Yellows8</a></p></td>
+<td>January 3, 2015</td>
+<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td><p>Extdata file-data loading buffer overflow</p></td>
-<td><p>The extdata file-reading code allocates a fixed-size heap buffer
+<td>Extdata file-data loading buffer overflow</td>
+<td>The extdata file-reading code allocates a fixed-size heap buffer
 for the expected filesize, then reads the filedata into this buffer
 using the actual FS filesize. Before v5.0 the filesize used here wasn't
 validated, hence if the filesize is larger than alloc_size a buffer
@@ -952,13 +952,13 @@ Menu version, with Home Menu extdata from &gt;=v4.0 still on SD. When
 this is done with v2.0 Home Menu, a kernelpanic occurs when processing
 an AM command(it appears a buffer ptr which is then passed to a command
 was overwritten with 0x0 - of course other SaveData.dat filesizes may
-result in different behaviour).</p></td>
-<td><p><a href="../5.0.0-11" title="wikilink">5.0.0-X</a></p></td>
+result in different behaviour).</td>
+<td><a href="../5.0.0-11" title="wikilink">5.0.0-X</a></td>
 <td></td>
-<td><p><a href="../2.0.0-2" title="wikilink">2.0.0-X</a></p></td>
-<td><p>June 9, 2016</p></td>
-<td><p>June 9, 2016</p></td>
-<td><p><a href="../User:Yellows8" title="wikilink">Yellows8</a></p></td>
+<td><a href="../2.0.0-2" title="wikilink">2.0.0-X</a></td>
+<td>June 9, 2016</td>
+<td>June 9, 2016</td>
+<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
 </tr>
 </tbody>
 </table>

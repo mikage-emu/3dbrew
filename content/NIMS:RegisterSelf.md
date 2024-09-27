@@ -13,17 +13,17 @@ title = 'NIMS:RegisterSelf'
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0</p></td>
-<td><p>Header code [0x003C0002]</p></td>
+<td>0</td>
+<td>Header code [0x003C0002]</td>
 </tr>
 <tr class="even">
-<td><p>1</p></td>
-<td><p>for <a href="../IPC#Handle_Translation" title="wikilink">process
-ID</a></p></td>
+<td>1</td>
+<td>for <a href="../IPC#Handle_Translation" title="wikilink">process
+ID</a></td>
 </tr>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>0x10</p></td>
+<td>2</td>
+<td>0x10</td>
 </tr>
 </tbody>
 </table>

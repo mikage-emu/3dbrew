@@ -103,107 +103,107 @@ This is not the case for multibyte regs (0x29, 0x2D, 0x4F, 0x61 and
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x00</p></td>
-<td><p>s</p></td>
-<td><p>ro</p></td>
-<td><p>Version high</p></td>
+<td>0x00</td>
+<td>s</td>
+<td>ro</td>
+<td>Version high</td>
 </tr>
 <tr class="even">
-<td><p>0x01</p></td>
-<td><p>s</p></td>
-<td><p>ro</p></td>
-<td><p>Version low</p></td>
+<td>0x01</td>
+<td>s</td>
+<td>ro</td>
+<td>Version low</td>
 </tr>
 <tr class="odd">
-<td><p>0x02</p></td>
-<td><p>d</p></td>
-<td><p>rw</p></td>
-<td><p>For bit0 and 1 values, writing will mask away/"acknowledge" the
+<td>0x02</td>
+<td>d</td>
+<td>rw</td>
+<td>For bit0 and 1 values, writing will mask away/"acknowledge" the
 event, set to 3 by mcuMainLoop on reset if reset source is Watchdog</p>
 <p><code> bit0: RTC clock value got reset to defaults</code><br />
 <code> bit1: Watchdog reset happened</code><br />
 <code> bit5: TWL MCU reg: volume mode (0: 8-step, 1: 32-step)</code><br />
 <code> bit6: TWL MCU reg: NTR (0) vs TWL mode (1)</code><br />
-<code> bit7: TWL MCU reg: Uses NAND</code></p></td>
+<code> bit7: TWL MCU reg: Uses NAND</code></td>
 </tr>
 <tr class="even">
-<td><p>0x03</p></td>
-<td><p>ds</p></td>
-<td><p>rw</p></td>
-<td><p>Top screen Vcom</p></td>
+<td>0x03</td>
+<td>ds</td>
+<td>rw</td>
+<td>Top screen Vcom</td>
 </tr>
 <tr class="odd">
-<td><p>0x04</p></td>
-<td><p>ds</p></td>
-<td><p>rw</p></td>
-<td><p>Bottom screen Vcom</p></td>
+<td>0x04</td>
+<td>ds</td>
+<td>rw</td>
+<td>Bottom screen Vcom</td>
 </tr>
 <tr class="even">
-<td><p>0x05 - 0x07</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>Danger zone - <a href="../MCU_Services#MCU_firmware_versions"
-title="wikilink">MCU unlock sequence</a> is written here.</p></td>
+<td>0x05 - 0x07</td>
+<td>s</td>
+<td>rw</td>
+<td>Danger zone - <a href="../MCU_Services#MCU_firmware_versions"
+title="wikilink">MCU unlock sequence</a> is written here.</td>
 </tr>
 <tr class="odd">
-<td><p>0x08</p></td>
-<td><p>s</p></td>
-<td><p>ro</p></td>
-<td><p>Raw 3D slider position</p></td>
+<td>0x08</td>
+<td>s</td>
+<td>ro</td>
+<td>Raw 3D slider position</td>
 </tr>
 <tr class="even">
-<td><p>0x09</p></td>
-<td><p>s</p></td>
-<td><p>ro</p></td>
-<td><p>Volume slider state (0x00 - 0x3F) This is the same value returned
+<td>0x09</td>
+<td>s</td>
+<td>ro</td>
+<td>Volume slider state (0x00 - 0x3F) This is the same value returned
 by <a href="../MCUHWC:GetSoundVolume"
-title="wikilink">MCUHWC:GetSoundVolume</a></p></td>
+title="wikilink">MCUHWC:GetSoundVolume</a></td>
 </tr>
 <tr class="odd">
-<td><p>0x0A</p></td>
-<td><p>s</p></td>
-<td><p>ro</p></td>
-<td><p>Internal battery temperature (in Celsius)</p></td>
+<td>0x0A</td>
+<td>s</td>
+<td>ro</td>
+<td>Internal battery temperature (in Celsius)</td>
 </tr>
 <tr class="even">
-<td><p>0x0B</p></td>
-<td><p>s</p></td>
-<td><p>ro</p></td>
-<td><p>Battery percentage (integer part).</p>
-<p>Valid values are in range of 0 to 100 inclusive.</p></td>
+<td>0x0B</td>
+<td>s</td>
+<td>ro</td>
+<td>Battery percentage (integer part).</p>
+<p>Valid values are in range of 0 to 100 inclusive.</td>
 </tr>
 <tr class="odd">
-<td><p>0x0C</p></td>
-<td><p>s</p></td>
-<td><p>ro</p></td>
-<td><p>Battery percentage (fractional part).</p>
+<td>0x0C</td>
+<td>s</td>
+<td>ro</td>
+<td>Battery percentage (fractional part).</p>
 <p>Seems to have a resolution of around 0.1% according to tests.</p>
 <p>To calculate battery charge percentage in full resolution:</p>
-<p><code>MCU[0x0B] + (MCU[0x0C] / 256.0F)</code></p></td>
+<p><code>MCU[0x0B] + (MCU[0x0C] / 256.0F)</code></td>
 </tr>
 <tr class="even">
-<td><p>0x0D</p></td>
-<td><p>s</p></td>
-<td><p>ro</p></td>
-<td><p>System voltage.</p>
+<td>0x0D</td>
+<td>s</td>
+<td>ro</td>
+<td>System voltage.</p>
 <p>This voltage seems to be measured at the load side, so the voltage
 reading will always be lower than direct probes across the battery due
 to the various voltage drops in the system by the time the voltage is
 measured.</p>
 <p>To calculate system voltage in Volts:</p>
-<p><code>MCU[0x0D] * 5 / 256.0F</code></p></td>
+<p><code>MCU[0x0D] * 5 / 256.0F</code></td>
 </tr>
 <tr class="odd">
-<td><p>0x0E</p></td>
-<td><p>s</p></td>
-<td><p>ro</p></td>
-<td><p>?</p></td>
+<td>0x0E</td>
+<td>s</td>
+<td>ro</td>
+<td>?</td>
 </tr>
 <tr class="even">
-<td><p>0x0F</p></td>
-<td><p>s</p></td>
-<td><p>ro</p></td>
-<td><p>Flags: bit7-5 are read via <a href="../MCU_Services"
+<td>0x0F</td>
+<td>s</td>
+<td>ro</td>
+<td>Flags: bit7-5 are read via <a href="../MCU_Services"
 title="wikilink">mcu::GPU</a>. The rest of them are read via <a
 href="../MCU_Services" title="wikilink">mcu::RTC</a>.</p>
 <p><code> bit1: ShellState</code><br />
@@ -211,32 +211,32 @@ href="../MCU_Services" title="wikilink">mcu::RTC</a>.</p>
 <code> bit4: BatteryChargeState</code><br />
 <code> bit5: Bottom screen backlight on</code><br />
 <code> bit6: Top screen backlight on</code><br />
-<code> bit7: LCD panel voltage on</code></p></td>
+<code> bit7: LCD panel voltage on</code></td>
 </tr>
 <tr class="odd">
-<td><p>0x10 - 0x13</p></td>
-<td><p>s</p></td>
-<td><p>ro</p></td>
-<td><p>Received interrupt bitmask, see register 0x18 for possible values
-If no interrupt was received this register is 0</p></td>
+<td>0x10 - 0x13</td>
+<td>s</td>
+<td>ro</td>
+<td>Received interrupt bitmask, see register 0x18 for possible values
+If no interrupt was received this register is 0</td>
 </tr>
 <tr class="even">
-<td><p>0x14</p></td>
-<td><p>s</p></td>
-<td><p>ro</p></td>
-<td><p>Unused and unwritable byte :(</p></td>
+<td>0x14</td>
+<td>s</td>
+<td>ro</td>
+<td>Unused and unwritable byte :(</td>
 </tr>
 <tr class="odd">
-<td><p>0x15 - 0x17</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>Unused and unreferenced free RAM! Good for userdata.</p></td>
+<td>0x15 - 0x17</td>
+<td>s</td>
+<td>rw</td>
+<td>Unused and unreferenced free RAM! Good for userdata.</td>
 </tr>
 <tr class="even">
-<td><p>0x18 - 0x1B</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>Interrupt mask for register 0x10 (0=enabled,1=disabled)</p>
+<td>0x18 - 0x1B</td>
+<td>s</td>
+<td>rw</td>
+<td>Interrupt mask for register 0x10 (0=enabled,1=disabled)</p>
 <p><code> bit00: Power button press (for 27 "ticks")</code><br />
 <code> bit01: Power button held (for 375 "ticks"; the 3DS turns off regardless after a fixed time)</code><br />
 <code> bit02: HOME button press (for 5 "ticks")</code><br />
@@ -268,19 +268,19 @@ href="https://github.com/profi200/libn3ds/blob/083c8ffa3f56a49802fa74b6afe45a968
 <code> bit28: top backlight off</code><br />
 <code> bit29: top backlight on</code><br />
 <code> bit30: bit set by mcu sysmodule</code><br />
-<code> bit31: bit set by mcu sysmodule</code></p></td>
+<code> bit31: bit set by mcu sysmodule</code></td>
 </tr>
 <tr class="odd">
-<td><p>0x1C - 0x1F</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>Unused and unreferenced free RAM! Good for userdata.</p></td>
+<td>0x1C - 0x1F</td>
+<td>s</td>
+<td>rw</td>
+<td>Unused and unreferenced free RAM! Good for userdata.</td>
 </tr>
 <tr class="even">
-<td><p>0x20</p></td>
-<td><p>d</p></td>
-<td><p>wo</p></td>
-<td><p>System power control:</p>
+<td>0x20</td>
+<td>d</td>
+<td>wo</td>
+<td>System power control:</p>
 <p><code> bit0: power off</code><br />
 <code> bit1: full reboot (unused). Discards things like </code><a
 href="../CONFIG9_Registers#CFG9_BOOTENV"
@@ -303,13 +303,13 @@ bitmask of 0x0F.</p>
 <p>If any of the reset bits is set, the MCU waits for 5ms, then
 deasserts RESET1 (via PMIC), RESET2 (PM0.1 = 1 (input)) and FCRAM_RESET
 (P3.0 = 1), and reinitializes some other various registers after a 100ms
-delay.</p></td>
+delay.</td>
 </tr>
 <tr class="odd">
-<td><p>0x21</p></td>
-<td><p>d</p></td>
-<td><p>wo</p></td>
-<td><p>Used in legacy mode to signal events for TWL MCU "emulation"
+<td>0x21</td>
+<td>d</td>
+<td>wo</td>
+<td>Used in legacy mode to signal events for TWL MCU "emulation"
 (written to REG[0x5D])? Software then asserts the TWL MCU IRQ pin via <a
 href="#LGY_GPIOEMU_MASK" title="wikilink">Legacy I/O registers</a>.</p>
 <p><code> bit0: Signal TWL POWER button click</code><br />
@@ -317,13 +317,13 @@ href="#LGY_GPIOEMU_MASK" title="wikilink">Legacy I/O registers</a>.</p>
 <code> bit2: Signal TWL power off</code><br />
 <code> bit3: Signal TWL battery low</code><br />
 <code> bit4: Signal TWL battery empty</code><br />
-<code> bit5: Signal TWL volume button click</code></p></td>
+<code> bit5: Signal TWL volume button click</code></td>
 </tr>
 <tr class="even">
-<td><p>0x22</p></td>
-<td><p>d</p></td>
-<td><p>wo</p></td>
-<td><p>Used to turn on or turn off LCD-related boost circuits. Bits 5:2
+<td>0x22</td>
+<td>d</td>
+<td>wo</td>
+<td>Used to turn on or turn off LCD-related boost circuits. Bits 5:2
 can be read back so see whether backlight setting is in progress or not,
 however bits 1:0 get cleared as soon as the request gets
 acknowledged.</p>
@@ -334,52 +334,52 @@ acknowledged.</p>
 <code> bit4: Top screen backlight off</code><br />
 <code> bit5: Top screen backlight on</code></p>
 <p>Bits 4 and 5 have no effect on a 2DS because the backlight source is
-the bottom screen. The rest of the bits are masked away.</p></td>
+the bottom screen. The rest of the bits are masked away.</td>
 </tr>
 <tr class="odd">
-<td><p>0x23</p></td>
-<td><p>d</p></td>
-<td><p>wo</p></td>
-<td><p>Writing 0x72 ('r') resets the MCU, but this is stubbed on
-retail?</p></td>
+<td>0x23</td>
+<td>d</td>
+<td>wo</td>
+<td>Writing 0x72 ('r') resets the MCU, but this is stubbed on
+retail?</td>
 </tr>
 <tr class="even">
-<td><p>0x24</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>Watchdog timer. This must be set *before* the timer is triggered,
+<td>0x24</td>
+<td>s</td>
+<td>rw</td>
+<td>Watchdog timer. This must be set *before* the timer is triggered,
 otherwise the old value is used. Value zero disables the
-watchdog.</p></td>
+watchdog.</td>
 </tr>
 <tr class="odd">
-<td><p>0x25</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>?</p></td>
+<td>0x25</td>
+<td>s</td>
+<td>rw</td>
+<td>?</td>
 </tr>
 <tr class="even">
-<td><p>0x26</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>?</p></td>
+<td>0x26</td>
+<td>s</td>
+<td>rw</td>
+<td>?</td>
 </tr>
 <tr class="odd">
-<td><p>0x27</p></td>
-<td><p>sd</p></td>
-<td><p>rw</p></td>
-<td><p>Raw volume slider state</p></td>
+<td>0x27</td>
+<td>sd</td>
+<td>rw</td>
+<td>Raw volume slider state</td>
 </tr>
 <tr class="even">
-<td><p>0x28</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>Brightness of the WiFi/Power LED</p></td>
+<td>0x28</td>
+<td>s</td>
+<td>rw</td>
+<td>Brightness of the WiFi/Power LED</td>
 </tr>
 <tr class="odd">
-<td><p>0x29</p></td>
-<td><p>sd(5)</p></td>
-<td><p>rw</p></td>
-<td><p>Power mode indicator state (read-write)</p>
+<td>0x29</td>
+<td>sd(5)</td>
+<td>rw</td>
+<td>Power mode indicator state (read-write)</p>
 <p><code> 1 = forced default blue</code><br />
 <code> 2 = sleep mode animation</code><br />
 <code> 3 = "power off" mode</code><br />
@@ -388,38 +388,38 @@ watchdog.</p></td>
 <code> 6 = animate blue power LED off and flash red power LED</code><br />
 <code> anything else = automatic mode</code></p>
 <p>The other 4 bytes (32bits) affect the pattern of the red power LED
-(write only)</p></td>
+(write only)</td>
 </tr>
 <tr class="even">
-<td><p>0x2A</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>WiFi LED state, non-0 value turns on the WiFi LED, 4 bits
-wide</p></td>
+<td>0x2A</td>
+<td>s</td>
+<td>rw</td>
+<td>WiFi LED state, non-0 value turns on the WiFi LED, 4 bits
+wide</td>
 </tr>
 <tr class="odd">
-<td><p>0x2B</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>Camera LED state, 4bits wide,</p>
+<td>0x2B</td>
+<td>s</td>
+<td>rw</td>
+<td>Camera LED state, 4bits wide,</p>
 <p><code> 0, 3, 6-0xF = off</code><br />
 <code> 1 = slowly blinking</code><br />
 <code> 2 = constantly on</code><br />
 <code> 3 = "TWL" mode</code><br />
 <code> 4 = flash once</code><br />
-<code> 5 = delay before changing to 2</code></p></td>
+<code> 5 = delay before changing to 2</code></td>
 </tr>
 <tr class="even">
-<td><p>0x2C</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>3D LED state, 4 bits wide</p></td>
+<td>0x2C</td>
+<td>s</td>
+<td>rw</td>
+<td>3D LED state, 4 bits wide</td>
 </tr>
 <tr class="odd">
-<td><p>0x2D</p></td>
-<td><p>0x64</p></td>
-<td><p>wo</p></td>
-<td><p>This is used for <a href="../MCURTC:SetInfoLEDPattern"
+<td>0x2D</td>
+<td>0x64</td>
+<td>wo</td>
+<td>This is used for <a href="../MCURTC:SetInfoLEDPattern"
 title="wikilink">controlling</a> the notification LED (see <a
 href="../MCURTC:SetInfoLEDPatternHeader"
 title="wikilink">MCURTC:SetInfoLEDPatternHeader</a> as well), when this
@@ -427,27 +427,27 @@ register is written. It's possible to write data here with size less
 than 0x64, and only that portion of the pattern data will get
 overwritten. Reading from this register only returns zeroes, so it's
 considered write-only. Writing past the size of this register seems to
-do nothing.</p></td>
+do nothing.</td>
 </tr>
 <tr class="even">
-<td><p>0x2E</p></td>
-<td><p>s</p></td>
-<td><p>ro</p></td>
-<td><p>This <a href="../MCURTC:GetInfoLEDStatus"
+<td>0x2E</td>
+<td>s</td>
+<td>ro</td>
+<td>This <a href="../MCURTC:GetInfoLEDStatus"
 title="wikilink">returns</a> the notification LED status when read (1
-means new cycle started)</p></td>
+means new cycle started)</td>
 </tr>
 <tr class="odd">
-<td><p>0x2F</p></td>
-<td><p>s</p></td>
-<td><p>wo?</p></td>
-<td><p>??? The write function for this register is stubbed.</p></td>
+<td>0x2F</td>
+<td>s</td>
+<td>wo?</td>
+<td>??? The write function for this register is stubbed.</td>
 </tr>
 <tr class="even">
-<td><p>0x30 - 0x36</p></td>
-<td><p>ds</p></td>
-<td><p>rw</p></td>
-<td><p>RTC time (system clock). 7 bytes are read from this. The upper
+<td>0x30 - 0x36</td>
+<td>ds</td>
+<td>rw</td>
+<td>RTC time (system clock). 7 bytes are read from this. The upper
 nibble of each byte encodes 10s (BCD), so each byte is post-processed
 with (byte &amp; 0xF) + (10 * (byte &gt;&gt; 4)).</p>
 <p><code> byte 0: seconds</code><br />
@@ -456,87 +456,87 @@ with (byte &amp; 0xF) + (10 * (byte &gt;&gt; 4)).</p>
 <code> byte 3: current week (unused)</code><br />
 <code> byte 4: days</code><br />
 <code> byte 5: months</code><br />
-<code> byte 6: years</code></p></td>
+<code> byte 6: years</code></td>
 </tr>
 <tr class="odd">
-<td><p>0x37</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>RTC time byte 7: leap year counter / "watch error correction"
-register (unused in code)</p></td>
+<td>0x37</td>
+<td>s</td>
+<td>rw</td>
+<td>RTC time byte 7: leap year counter / "watch error correction"
+register (unused in code)</td>
 </tr>
 <tr class="even">
-<td><p>0x38 - 0x3C</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>RTC alarm registers</p>
+<td>0x38 - 0x3C</td>
+<td>s</td>
+<td>rw</td>
+<td>RTC alarm registers</p>
 <p><code> byte 0: minutes</code><br />
 <code> byte 1: hours</code><br />
 <code> byte 2: day</code><br />
 <code> byte 3: month</code><br />
-<code> byte 4: year</code></p></td>
+<code> byte 4: year</code></td>
 </tr>
 <tr class="odd">
-<td><p>0x3B</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>Could be used on extremely old MCU_FIRM versions to upload <a
+<td>0x3B</td>
+<td>s</td>
+<td>rw</td>
+<td>Could be used on extremely old MCU_FIRM versions to upload <a
 href="../MCU_Services#MCU_firmware_versions" title="wikilink">MCU
 firmware</a> if reg 0xF == 0 and reg 0x10 == 1 (presumably major and
 minor version fields for mcufw 0.1 which largely predates factory
-firm).</p></td>
+firm).</td>
 </tr>
 <tr class="even">
-<td><p>0x3D 0x3E</p></td>
-<td><p>ds</p></td>
-<td><p>ro</p></td>
-<td><p>RTC tick counter / "ITMC" (when resets to 0 the seconds increase)
-Only reading 0x3D will update the in-RAM value</p></td>
+<td>0x3D 0x3E</td>
+<td>ds</td>
+<td>ro</td>
+<td>RTC tick counter / "ITMC" (when resets to 0 the seconds increase)
+Only reading 0x3D will update the in-RAM value</td>
 </tr>
 <tr class="odd">
-<td><p>0x3F</p></td>
-<td><p>d</p></td>
-<td><p>wo</p></td>
-<td><p>2 bits</p>
+<td>0x3F</td>
+<td>d</td>
+<td>wo</td>
+<td>2 bits</p>
 <p><code> bit0: Asserts RESET1 (P0.0 = 0, PM0.0 = 0 (output)) but does NOT deassert it (wtf?). This seems to kill the entire SoC: is it because it doesn't deassert it, or does it not deassert it because the SoC hangs anyway? This is the pin that controls some security-critical regs like CFG9_BOOTENV!</code><br />
-<code> bit1: turns on a prohibited bit in an RTC Control register and turns P12 into an output</code></p></td>
+<code> bit1: turns on a prohibited bit in an RTC Control register and turns P12 into an output</code></td>
 </tr>
 <tr class="even">
-<td><p>0x40</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>Tilt sensor sampling mode. Bits 0 and 1 control the mode. If bits
-0 or 1 are set then the tilt sensor is enabled and sampled.</p></td>
+<td>0x40</td>
+<td>s</td>
+<td>rw</td>
+<td>Tilt sensor sampling mode. Bits 0 and 1 control the mode. If bits
+0 or 1 are set then the tilt sensor is enabled and sampled.</td>
 </tr>
 <tr class="odd">
-<td><p>0x41</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>Index selector for register 0x44</p></td>
+<td>0x41</td>
+<td>s</td>
+<td>rw</td>
+<td>Index selector for register 0x44</td>
 </tr>
 <tr class="even">
-<td><p>0x42</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>Unused?</p></td>
+<td>0x42</td>
+<td>s</td>
+<td>rw</td>
+<td>Unused?</td>
 </tr>
 <tr class="odd">
-<td><p>0x43</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>Unused???, accelometer related</p></td>
+<td>0x43</td>
+<td>s</td>
+<td>rw</td>
+<td>Unused???, accelometer related</td>
 </tr>
 <tr class="even">
-<td><p>0x44</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>???, pedoometer related(?)</p></td>
+<td>0x44</td>
+<td>s</td>
+<td>rw</td>
+<td>???, pedoometer related(?)</td>
 </tr>
 <tr class="odd">
-<td><p>0x45 - 0x4A</p></td>
-<td><p>s</p></td>
-<td><p>ro</p></td>
-<td><p>Tilt sensor 3D rotation from the 12bit ADC, left shifted 4 to fit
+<td>0x45 - 0x4A</td>
+<td>s</td>
+<td>ro</td>
+<td>Tilt sensor 3D rotation from the 12bit ADC, left shifted 4 to fit
 in a 16bit signed short, relative to the 3DS bottom screen</p>
 <table>
 <thead>
@@ -549,104 +549,104 @@ in a 16bit signed short, relative to the 3DS bottom screen</p>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>X (left/right)</p></td>
-<td><p>held up vertically</p></td>
-<td><p>rotated left 90° like a steering wheel</p></td>
-<td><p>rotated right 90° like a steering wheel</p></td>
+<td>X (left/right)</td>
+<td>held up vertically</td>
+<td>rotated left 90° like a steering wheel</td>
+<td>rotated right 90° like a steering wheel</td>
 </tr>
 <tr class="even">
-<td><p>Y (forwards/backwards)</p></td>
-<td><p>laid flat on the desk with the screen facing up</p></td>
-<td><p>held up vertically</p></td>
-<td><p>held up vertically with screen facing upside-down</p></td>
+<td>Y (forwards/backwards)</td>
+<td>laid flat on the desk with the screen facing up</td>
+<td>held up vertically</td>
+<td>held up vertically with screen facing upside-down</td>
 </tr>
 <tr class="odd">
-<td><p>Z (???)</p></td>
-<td><p>???</p></td>
-<td><p>???</p></td>
-<td><p>???</p></td>
+<td>Z (???)</td>
+<td>???</td>
+<td>???</td>
+<td>???</td>
 </tr>
 </tbody>
 </table></td>
 </tr>
 <tr class="even">
-<td><p>0x4B</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>PedometerStepCount (for the current day)</p></td>
+<td>0x4B</td>
+<td>s</td>
+<td>rw</td>
+<td>PedometerStepCount (for the current day)</td>
 </tr>
 <tr class="odd">
-<td><p>0x4C 0x4D</p></td>
-<td><p>??</p></td>
-<td><p>??</p></td>
-<td><p>??</p></td>
+<td>0x4C 0x4D</td>
+<td>??</td>
+<td>??</td>
+<td>??</td>
 </tr>
 <tr class="even">
-<td><p>0x4E</p></td>
-<td><p>d</p></td>
-<td><p>rw</p></td>
-<td><p>??? this = (0xFFE9E &amp; 1) ? 0x10 : 0</p></td>
+<td>0x4E</td>
+<td>d</td>
+<td>rw</td>
+<td>??? this = (0xFFE9E &amp; 1) ? 0x10 : 0</td>
 </tr>
 <tr class="odd">
-<td><p>0x4F</p></td>
-<td><p>d(6)</p></td>
-<td><p>ro</p></td>
+<td>0x4F</td>
+<td>d(6)</td>
+<td>ro</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>0x50</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>???</p></td>
+<td>0x50</td>
+<td>s</td>
+<td>rw</td>
+<td>???</td>
 </tr>
 <tr class="odd">
-<td><p>0x51</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>???</p></td>
+<td>0x51</td>
+<td>s</td>
+<td>rw</td>
+<td>???</td>
 </tr>
 <tr class="even">
-<td><p>0x52 - 0x57</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>?</p></td>
+<td>0x52 - 0x57</td>
+<td>s</td>
+<td>rw</td>
+<td>?</td>
 </tr>
 <tr class="odd">
-<td><p>0x58</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>Register-mapped ADC register DSP volume slider 0% volume offset
+<td>0x58</td>
+<td>s</td>
+<td>rw</td>
+<td>Register-mapped ADC register DSP volume slider 0% volume offset
 (setting this to 0xFF will esentially mute the DSP as it's the volume
-slider's maximum raw value)</p></td>
+slider's maximum raw value)</td>
 </tr>
 <tr class="even">
-<td><p>0x59</p></td>
-<td><p>s</p></td>
-<td><p>rw</p></td>
-<td><p>Register-mapped ADC register DSP volume slider 100% volume offset
+<td>0x59</td>
+<td>s</td>
+<td>rw</td>
+<td>Register-mapped ADC register DSP volume slider 100% volume offset
 (setting both this and the above to 0 will disable the volume slider
 with 100% volume, setting this to a lower value than the above will make
-the volume slider have only 2 states; on and off)</p></td>
+the volume slider have only 2 states; on and off)</td>
 </tr>
 <tr class="odd">
-<td><p>0x5A</p></td>
-<td><p>s</p></td>
-<td><p>ro/rw</p></td>
-<td><p>Invalid, do not use! On newer MCU_FIRM versions this is unused,
-but on older MCU_FIRM versions this is a read-only counter.</p></td>
+<td>0x5A</td>
+<td>s</td>
+<td>ro/rw</td>
+<td>Invalid, do not use! On newer MCU_FIRM versions this is unused,
+but on older MCU_FIRM versions this is a read-only counter.</td>
 </tr>
 <tr class="even">
-<td><p>0x5B - 0x5F</p></td>
-<td><p>s</p></td>
-<td><p>-</p></td>
-<td><p>These registers are out of bounds (0xFFC00 and up), they don't
-exist, writing is no-op, reading will yield FFs.</p></td>
+<td>0x5B - 0x5F</td>
+<td>s</td>
+<td>-</td>
+<td>These registers are out of bounds (0xFFC00 and up), they don't
+exist, writing is no-op, reading will yield FFs.</td>
 </tr>
 <tr class="odd">
-<td><p>0x60</p></td>
-<td><p>d</p></td>
-<td><p>rw</p></td>
-<td><p>Free register bank address (index) select Selects the index to
+<td>0x60</td>
+<td>d</td>
+<td>rw</td>
+<td>Free register bank address (index) select Selects the index to
 read from in the free register bank, up to 200. Used in conjunction with
 reg 0x61.</p>
 <p><code> byte 0: bit0 = "WirelessDisabled", bit1 = "SoftwareClosed", bit2 = "PowerOffInitiated", bit3 = "LgyNativeResolution", bit4 = "LegacyJumpProhibited"</code><br />
@@ -656,28 +656,28 @@ reg 0x61.</p>
 <code> bytes 6 and 7: Unused</code><br />
 <code> bytes 8 to 175: Playtime data for legacy titles</code><br />
 <code> bytes 176 to 188: Temporary playtime data in case console doesn't shut down gracefully, updated every 5 minutes</code><br />
-<code> bytes 188 to 199: Unused</code></p></td>
+<code> bytes 188 to 199: Unused</code></td>
 </tr>
 <tr class="even">
-<td><p>0x61</p></td>
-<td><p>d(200)</p></td>
-<td><p>rw</p></td>
-<td><p>Free register bank, data is read from/written to here.</p>
+<td>0x61</td>
+<td>d(200)</td>
+<td>rw</td>
+<td>Free register bank, data is read from/written to here.</p>
 <p>Accessing N bytes of this register increments the selected index by
-N.</p></td>
+N.</td>
 </tr>
 <tr class="odd">
-<td><p>0x62 - 0x7E</p></td>
-<td><p>s</p></td>
-<td><p>-</p></td>
-<td><p>These registers don't exist, writing is no-op, reading will yield
-FFs.</p></td>
+<td>0x62 - 0x7E</td>
+<td>s</td>
+<td>-</td>
+<td>These registers don't exist, writing is no-op, reading will yield
+FFs.</td>
 </tr>
 <tr class="even">
-<td><p>0x7F</p></td>
-<td><p>d(9-0x13)</p></td>
-<td><p>ro</p></td>
-<td><p>Various system state information (debug pointer table)</p>
+<td>0x7F</td>
+<td>d(9-0x13)</td>
+<td>ro</td>
+<td>Various system state information (debug pointer table)</p>
 <p><code> byte 0x00: Console type, see </code><a
 href="../Configuration_Memory#MCU_HW_INFO"
 title="wikilink"><code>here</code></a><br />
@@ -708,14 +708,14 @@ title="wikilink"><code>Cfg:GetSystemModel</code></a><code> for values)</code><
 <code>   bit5: unset while the charging LED is active</code><br />
 <code>   bit6: unset while charger is plugged in</code></p>
 <p>On MCU_FIRM major version 1 the size of this is 9, reading past the
-9th byte will yield AA instead of FF.</p></td>
+9th byte will yield AA instead of FF.</td>
 </tr>
 <tr class="odd">
-<td><p>0x80 - 0xFF</p></td>
-<td><p>s</p></td>
-<td><p>-</p></td>
-<td><p>These registers don't exist, writing is no-op, reading will yield
-FFs.</p></td>
+<td>0x80 - 0xFF</td>
+<td>s</td>
+<td>-</td>
+<td>These registers don't exist, writing is no-op, reading will yield
+FFs.</td>
 </tr>
 </tbody>
 </table>
@@ -756,85 +756,85 @@ Controller ID 0x00).
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x01</p></td>
-<td><p>Display enable</p></td>
-<td><p>0x11</p></td>
-<td><p>Values:</p>
+<td>0x01</td>
+<td>Display enable</td>
+<td>0x11</td>
+<td>Values:</p>
 <p><code> - 0x00 - screen off, slow burn-in</code><br />
 <code> - 0x01 - screen off, fast burn-in</code><br />
 <code> - 0x10 - screen on, color input used</code><br />
-<code> - 0x11 - screen on, color input not used, High-Z (display turns black or white depending on interface config)</code></p></td>
+<code> - 0x11 - screen on, color input not used, High-Z (display turns black or white depending on interface config)</code></td>
 </tr>
 <tr class="even">
-<td><p>0x40</p></td>
-<td><p>Read address</p></td>
+<td>0x40</td>
+<td>Read address</td>
 <td></td>
-<td><p>Write to this register to set the read address.</p>
+<td>Write to this register to set the read address.</p>
 <p>Reading from I2CLCD is non-standard. When you read, it returns pairs
 of the currently read address, and then the data byte at that address.
-The read address auto-increments.</p></td>
+The read address auto-increments.</td>
 </tr>
 <tr class="odd">
-<td><p>0x54</p></td>
-<td><p>Checksum? trigger</p></td>
-<td><p>0x01</p></td>
-<td><p>When transitioning bit0 from 0 to 1, it seems to trigger some
+<td>0x54</td>
+<td>Checksum? trigger</td>
+<td>0x01</td>
+<td>When transitioning bit0 from 0 to 1, it seems to trigger some
 sort of checksum calcuation. Broken on controller 0x01, where it's
-oneshot.</p></td>
+oneshot.</td>
 </tr>
 <tr class="even">
-<td><p>0x55</p></td>
-<td><p>???</p></td>
-<td><p>0x03 (all) / 0x07 (2DS)</p></td>
-<td><p>Unknown. When toggling 0x54 bit0 from 0 to 1, this register gets
+<td>0x55</td>
+<td>???</td>
+<td>0x03 (all) / 0x07 (2DS)</td>
+<td>Unknown. When toggling 0x54 bit0 from 0 to 1, this register gets
 changed to 0x01 (all) / 0x05 (2DS).</p>
 <p>This register is sometimes seen with a value of 0x02 at
-initialization time on the top screen.</p></td>
+initialization time on the top screen.</td>
 </tr>
 <tr class="odd">
-<td><p>0x56</p></td>
-<td><p>Checksum?</p></td>
+<td>0x56</td>
+<td>Checksum?</td>
 <td></td>
-<td><p>Unknown. Read-writable with no effect (old3DS) / read-only
+<td>Unknown. Read-writable with no effect (old3DS) / read-only
 (all).</p>
 <p>A random value is written here when 0x54 bit0 is changed from 0 to 1.
 Constantly updates with a seemingly random value, except on Controller
-ID 0x01, where it's oneshot/bugged.</p></td>
+ID 0x01, where it's oneshot/bugged.</td>
 </tr>
 <tr class="even">
-<td><p>0x60</p></td>
-<td><p>???</p></td>
-<td><p>0x01</p></td>
-<td><p>Unknown. 0x00 is written here during init. Seems to have no
-effect.</p></td>
+<td>0x60</td>
+<td>???</td>
+<td>0x01</td>
+<td>Unknown. 0x00 is written here during init. Seems to have no
+effect.</td>
 </tr>
 <tr class="odd">
-<td><p>0x61</p></td>
-<td><p>Register checksum</p></td>
+<td>0x61</td>
+<td>Register checksum</td>
 <td></td>
-<td><p>Some - but not all - register values are combined using an
+<td>Some - but not all - register values are combined using an
 unknown algorithm into this register. It's unknown which registers
 influence this value, as some registers which influence this value are
-read-only.</p></td>
+read-only.</td>
 </tr>
 <tr class="even">
-<td><p>0x62</p></td>
-<td><p>???</p></td>
-<td><p>0x01</p></td>
-<td><p>Unknown, does nothing on known controllers. During init, gsp
-waits for this to become 0x01.</p></td>
+<td>0x62</td>
+<td>???</td>
+<td>0x01</td>
+<td>Unknown, does nothing on known controllers. During init, gsp
+waits for this to become 0x01.</td>
 </tr>
 <tr class="odd">
-<td><p>0xFE</p></td>
-<td><p>???</p></td>
+<td>0xFE</td>
+<td>???</td>
 <td></td>
-<td><p>Unknown, does nothing. 0xAA is written here during init.</p></td>
+<td>Unknown, does nothing. 0xAA is written here during init.</td>
 </tr>
 <tr class="even">
-<td><p>0xFF</p></td>
-<td><p>Controller ID</p></td>
+<td>0xFF</td>
+<td>Controller ID</td>
 <td></td>
-<td><p>Upper 4bits is manufacturer. Lower 4bits is unknown, most likely
+<td>Upper 4bits is manufacturer. Lower 4bits is unknown, most likely
 revision, possibly encoded as a Johnson counter. The fields are encoded
 this way, most likely for the register checksum feature.</p>
 <p>Manufacturers:</p>
@@ -875,7 +875,7 @@ this way, most likely for the register checksum feature.</p>
 <code>     - W = *unknown coating type*</code><br />
 <code>     - 48 = model number</code><br />
 <code>     - P = *unknow suffix*</code><br />
-<code> - 0x00 - no controller, or dead (I2CLCD always ACKs reads, but returns 00 if dead)</code></p></td>
+<code> - 0x00 - no controller, or dead (I2CLCD always ACKs reads, but returns 00 if dead)</code></td>
 </tr>
 </tbody>
 </table>
@@ -903,10 +903,10 @@ its existance is due to gsp having special handling code for it.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x10</p></td>
-<td><p>Interface config</p></td>
-<td><p>0xF7</p></td>
-<td><p>Regonfigures the input pins and pin behavior of the
+<td>0x10</td>
+<td>Interface config</td>
+<td>0xF7</td>
+<td>Regonfigures the input pins and pin behavior of the
 controller.</p>
 <p><code>bit0 - color value invert (D = ~D, or D = 255 - D)</code><br />
 <code>bit1 - color format remap (D7:D2 &lt;-- D5:D0, that is left shift color data by 2)</code><br />
@@ -914,41 +914,41 @@ controller.</p>
 <code>bit4 - ???</code><br />
 <code>bit5 - ???</code><br />
 <code>bit6 - ???</code><br />
-<code>bit7 - DS-style undriven screen (it will be white instead of black, see shared register 0x01)</code></p></td>
+<code>bit7 - DS-style undriven screen (it will be white instead of black, see shared register 0x01)</code></td>
 </tr>
 <tr class="even">
-<td><p>0x11</p></td>
-<td><p>Image config</p></td>
-<td><p>0x7F</p></td>
-<td><p>Image filters and pixel clock control.</p>
+<td>0x11</td>
+<td>Image config</td>
+<td>0x7F</td>
+<td>Image filters and pixel clock control.</p>
 <p><code>bit0 - Horizontal Flip (scan from right to left)</code><br />
 <code>bit1 - red-blue swap</code><br />
 <code>bit2 - ???</code><br />
 <code>bit3 - ???</code><br />
 <code>bit4 - ???</code><br />
 <code>bit5 - ???</code><br />
-<code>bit6 - ???</code></p></td>
+<code>bit6 - ???</code></td>
 </tr>
 <tr class="odd">
-<td><p>0x1D</p></td>
-<td><p>???</p></td>
-<td><p>0x0F</p></td>
-<td><p>Unknown, bit0 enables registers 0x12 to 0x19 to control some
-analog timing controls to the display panel itself.</p></td>
+<td>0x1D</td>
+<td>???</td>
+<td>0x0F</td>
+<td>Unknown, bit0 enables registers 0x12 to 0x19 to control some
+analog timing controls to the display panel itself.</td>
 </tr>
 <tr class="even">
-<td><p>0x50</p></td>
-<td><p>???</p></td>
-<td><p>0x11</p></td>
-<td><p>Unknown. Has no effect on bottom screen. On the top screen, bit4
-blanks out the display (LVDS disable?).</p></td>
+<td>0x50</td>
+<td>???</td>
+<td>0x11</td>
+<td>Unknown. Has no effect on bottom screen. On the top screen, bit4
+blanks out the display (LVDS disable?).</td>
 </tr>
 <tr class="odd">
-<td><p>0x53</p></td>
-<td><p>???</p></td>
-<td><p>0x73</p></td>
-<td><p>Unknown. While other bits seem to have no effect, bit0 kills the
-controller until a power cycle.</p></td>
+<td>0x53</td>
+<td>???</td>
+<td>0x73</td>
+<td>Unknown. While other bits seem to have no effect, bit0 kills the
+controller until a power cycle.</td>
 </tr>
 </tbody>
 </table>
@@ -984,29 +984,29 @@ Factory mode registers for unlock register 0x03:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x10</p></td>
-<td><p>Image control?</p></td>
-<td><p>0xD7</p></td>
-<td><p>Most bits are unknown.</p>
+<td>0x10</td>
+<td>Image control?</td>
+<td>0xD7</td>
+<td>Most bits are unknown.</p>
 <p><code>bit0 - color invert</code><br />
-<code>bit1 - slight gamma increase</code></p></td>
+<code>bit1 - slight gamma increase</code></td>
 </tr>
 <tr class="even">
-<td><p>0x11</p></td>
-<td><p>Image transform?</p></td>
-<td><p>0x7F</p></td>
-<td><p>Mostly unknown.</p>
+<td>0x11</td>
+<td>Image transform?</td>
+<td>0x7F</td>
+<td>Mostly unknown.</p>
 <p><code>bit0 - Invert horizontal scan direction (0 = left to right, 1 = right to left)</code><br />
 <code>bit1 - red-blue swap</code><br />
 <code>bit2 - Invert vertical scan direction (0 = top to bottom, 1 = bottom to top)</code><br />
 <code>bit3 - Invert the order of each scanline pair (might be needed if bit2 is toggled)</code><br />
 <code>bit4 - Enable interlaced signal (use bit3 to swap fields)</code><br />
 <code>bit5 - ???</code><br />
-<code>bit6 - ???</code></p></td>
+<code>bit6 - ???</code></td>
 </tr>
 <tr class="odd">
-<td><p>0x70-0x83</p></td>
-<td><p>Color curve red</p></td>
+<td>0x70-0x83</td>
+<td>Color curve red</td>
 <td rowspan="3"></td>
 <td rowspan="3"><p>These registers are used for fine-tuning the analog
 driving curve of the screen</p>
@@ -1032,15 +1032,15 @@ driving curve of the screen</p>
 <code>- byte 16 (0x3F) - ???</code><br />
 <code>- byte 17 (0x3F) - ???</code><br />
 <code>- byte 18 (0x3F) - ???</code><br />
-<code>- byte 19 (0x3F) - ???</code></p></td>
+<code>- byte 19 (0x3F) - ???</code></td>
 </tr>
 <tr class="even">
-<td><p>0x84-0x97</p></td>
-<td><p>Color curve green</p></td>
+<td>0x84-0x97</td>
+<td>Color curve green</td>
 </tr>
 <tr class="odd">
-<td><p>0x98-0xAB</p></td>
-<td><p>Color curve blue</p></td>
+<td>0x98-0xAB</td>
+<td>Color curve blue</td>
 </tr>
 </tbody>
 </table>
@@ -1074,26 +1074,26 @@ Factory mode registers for unlock register 0x03:
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x10</p></td>
-<td><p>Image control?</p></td>
-<td><p>0xD7</p></td>
-<td><p>Most bits are unknown. This applies to the whole display
+<td>0x10</td>
+<td>Image control?</td>
+<td>0xD7</td>
+<td>Most bits are unknown. This applies to the whole display
 panel.</p>
 <p><code>bit0 - color invert</code><br />
-<code>bit1 - slight gamma increase</code></p></td>
+<code>bit1 - slight gamma increase</code></td>
 </tr>
 <tr class="even">
-<td><p>0x11</p></td>
-<td><p>Image transform</p></td>
-<td><p>0x33</p></td>
-<td><p><code>bit0 - top half horizontal flip</code><br />
+<td>0x11</td>
+<td>Image transform</td>
+<td>0x33</td>
+<td><code>bit0 - top half horizontal flip</code><br />
 <code>bit1 - top half red-blue swap</code><br />
 <code>bit4 - bottom half horizontal flip</code><br />
-<code>bit5 - bottom half red-blue swap</code></p></td>
+<code>bit5 - bottom half red-blue swap</code></td>
 </tr>
 <tr class="odd">
-<td><p>0x70-0x83</p></td>
-<td><p>Analog curve top</p></td>
+<td>0x70-0x83</td>
+<td>Analog curve top</td>
 <td rowspan="2"></td>
 <td rowspan="2"><p>Consists of two unknown curve values. Seems to be
 nonstandard.</p>
@@ -1118,11 +1118,11 @@ nonstandard.</p>
 <code>byte 16 (0x3F) - ???</code><br />
 <code>byte 17 (0x3F) - ???</code><br />
 <code>byte 18 (0x3F) - ???</code><br />
-<code>byte 19 (0x3F) - ???</code></p></td>
+<code>byte 19 (0x3F) - ???</code></td>
 </tr>
 <tr class="even">
-<td><p>0x84-0x97</p></td>
-<td><p>Analog curve bottom</p></td>
+<td>0x84-0x97</td>
+<td>Analog curve bottom</td>
 </tr>
 </tbody>
 </table>

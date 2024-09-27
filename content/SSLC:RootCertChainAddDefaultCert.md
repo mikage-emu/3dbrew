@@ -30,13 +30,13 @@ title = 'SSLC:RootCertChainAddDefaultCert'
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x0 and &gt;=0xC</p></td>
+<td>0x0 and &gt;=0xC</td>
 <td></td>
-<td><p>Invalid certID, error 0xd8e0b839 is returned for these.</p></td>
+<td>Invalid certID, error 0xd8e0b839 is returned for these.</td>
 </tr>
 <tr class="even">
-<td><p>0x1</p></td>
-<td><p><code>Certificate:</code><br />
+<td>0x1</td>
+<td><code>Certificate:</code><br />
 <code>   Data:</code><br />
 <code>       Version: 3 (0x2)</code><br />
 <code>       Serial Number: 0 (0x0)</code><br />
@@ -56,12 +56,12 @@ title = 'SSLC:RootCertChainAddDefaultCert'
 <code>       X509v3 extensions:</code><br />
 <code>           X509v3 Subject Key Identifier: </code><br />
 <code>               7B:57:53:3F:31:AC:77:71:F1:FD:4A:E6:0F:43:B0:D5:55:41:9F:D2</code><br />
-<code>       ...</code></p></td>
-<td><p>"Nintendo CA"</p></td>
+<code>       ...</code></td>
+<td>"Nintendo CA"</td>
 </tr>
 <tr class="odd">
-<td><p>0x2</p></td>
-<td><p><code>Certificate:</code><br />
+<td>0x2</td>
+<td><code>Certificate:</code><br />
 <code>   Data:</code><br />
 <code>       Version: 3 (0x2)</code><br />
 <code>       Serial Number: 1 (0x1)</code><br />
@@ -81,12 +81,12 @@ title = 'SSLC:RootCertChainAddDefaultCert'
 <code>       X509v3 extensions:</code><br />
 <code>           X509v3 Subject Key Identifier: </code><br />
 <code>               96:A7:A1:9F:81:5C:73:C9:64:10:83:7F:B6:1E:1E:87:B7:E1:33:11</code><br />
-<code>       ...</code></p></td>
-<td><p>"Nintendo CA - G2"</p></td>
+<code>       ...</code></td>
+<td>"Nintendo CA - G2"</td>
 </tr>
 <tr class="even">
-<td><p>0x3</p></td>
-<td><p><code>Certificate:</code><br />
+<td>0x3</td>
+<td><code>Certificate:</code><br />
 <code>   Data:</code><br />
 <code>       Version: 3 (0x2)</code><br />
 <code>       Serial Number: 1 (0x1)</code><br />
@@ -106,12 +106,12 @@ title = 'SSLC:RootCertChainAddDefaultCert'
 <code>       X509v3 extensions:</code><br />
 <code>           X509v3 Subject Key Identifier: </code><br />
 <code>               04:D3:DE:D3:FD:F0:C8:EB:C2:59:92:87:FB:1F:D7:3E:72:F8:ED:F9</code><br />
-<code>       ...</code></p></td>
-<td><p>"Nintendo CA - G3"</p></td>
+<code>       ...</code></td>
+<td>"Nintendo CA - G3"</td>
 </tr>
 <tr class="odd">
-<td><p>0x4</p></td>
-<td><p><code>Certificate:</code><br />
+<td>0x4</td>
+<td><code>Certificate:</code><br />
 <code>   Data:</code><br />
 <code>       Version: 3 (0x2)</code><br />
 <code>       Serial Number: 1 (0x1)</code><br />
@@ -131,12 +131,12 @@ title = 'SSLC:RootCertChainAddDefaultCert'
 <code>       X509v3 extensions:</code><br />
 <code>           X509v3 Subject Key Identifier: </code><br />
 <code>               CB:40:16:7C:B1:37:2B:26:5A:35:DE:BE:F1:5B:50:8A:8D:0C:D4:BD</code><br />
-<code>       ...</code></p></td>
-<td><p>"Nintendo Class 2 CA"</p></td>
+<code>       ...</code></td>
+<td>"Nintendo Class 2 CA"</td>
 </tr>
 <tr class="even">
-<td><p>0x5</p></td>
-<td><p><code>Certificate:</code><br />
+<td>0x5</td>
+<td><code>Certificate:</code><br />
 <code>   Data:</code><br />
 <code>       Version: 3 (0x2)</code><br />
 <code>       Serial Number: 1 (0x1)</code><br />
@@ -156,12 +156,12 @@ title = 'SSLC:RootCertChainAddDefaultCert'
 <code>       X509v3 extensions:</code><br />
 <code>           X509v3 Subject Key Identifier: </code><br />
 <code>               94:72:FA:4D:B3:DA:66:4A:B9:37:7B:AD:64:9E:9C:89:90:DA:D3:33</code><br />
-<code>       ...</code></p></td>
-<td><p>"Nintendo Class 2 CA - G2"</p></td>
+<code>       ...</code></td>
+<td>"Nintendo Class 2 CA - G2"</td>
 </tr>
 <tr class="odd">
-<td><p>0x6</p></td>
-<td><p><code>Certificate:</code><br />
+<td>0x6</td>
+<td><code>Certificate:</code><br />
 <code>   Data:</code><br />
 <code>       Version: 3 (0x2)</code><br />
 <code>       Serial Number: 1 (0x1)</code><br />
@@ -181,12 +181,12 @@ title = 'SSLC:RootCertChainAddDefaultCert'
 <code>       X509v3 extensions:</code><br />
 <code>           X509v3 Subject Key Identifier: </code><br />
 <code>               F7:C6:0A:7C:72:7C:2C:C4:BC:93:28:41:E4:EE:70:F0:03:A0:BB:B7</code><br />
-<code>       ...</code></p></td>
-<td><p>"Nintendo Class 2 CA - G3"</p></td>
+<code>       ...</code></td>
+<td>"Nintendo Class 2 CA - G3"</td>
 </tr>
 <tr class="even">
-<td><p>0x7</p></td>
-<td><p><code>Certificate:</code><br />
+<td>0x7</td>
+<td><code>Certificate:</code><br />
 <code>   Data:</code><br />
 <code>       Version: 1 (0x0)</code><br />
 <code>       Serial Number: 421 (0x1a5)</code><br />
@@ -212,12 +212,12 @@ title = 'SSLC:RootCertChainAddDefaultCert'
 <code>               Exponent: 65537 (0x10001)</code><br />
 <code>   Signature Algorithm: md5WithRSAEncryption</code><br />
 <code>        6d:eb:1b:09:e9:5e:d9:51:db:67:22:61:a4:2a:3c:48:77:e3:</code><br />
-<code>        ...</code></p></td>
-<td><p>"GTE CyberTrust Global Root"</p></td>
+<code>        ...</code></td>
+<td>"GTE CyberTrust Global Root"</td>
 </tr>
 <tr class="odd">
-<td><p>0x8</p></td>
-<td><p><code>Certificate:</code><br />
+<td>0x8</td>
+<td><code>Certificate:</code><br />
 <code>   Data:</code><br />
 <code>       Version: 3 (0x2)</code><br />
 <code>       Serial Number: 1 (0x1)</code><br />
@@ -248,12 +248,12 @@ title = 'SSLC:RootCertChainAddDefaultCert'
 <code> </code><br />
 <code>   Signature Algorithm: sha1WithRSAEncryption</code><br />
 <code>        b0:9b:e0:85:25:c2:d6:23:e2:0f:96:06:92:9d:41:98:9c:d9:</code><br />
-<code>        ...</code></p></td>
-<td><p>"AddTrust External CA Root"</p></td>
+<code>        ...</code></td>
+<td>"AddTrust External CA Root"</td>
 </tr>
 <tr class="even">
-<td><p>0x9</p></td>
-<td><p><code>Certificate:</code><br />
+<td>0x9</td>
+<td><code>Certificate:</code><br />
 <code>   Data:</code><br />
 <code>       Version: 3 (0x2)</code><br />
 <code>       Serial Number:</code><br />
@@ -280,12 +280,12 @@ title = 'SSLC:RootCertChainAddDefaultCert'
 <code>               CA:TRUE</code><br />
 <code>   Signature Algorithm: sha384WithRSAEncryption</code><br />
 <code>        0a:f1:d5:46:84:b7:ae:51:bb:6c:b2:4d:41:14:00:93:4c:9c:</code><br />
-<code>        ...</code></p></td>
-<td><p>"COMODO RSA Certification Authority"</p></td>
+<code>        ...</code></td>
+<td>"COMODO RSA Certification Authority"</td>
 </tr>
 <tr class="odd">
-<td><p>0xA</p></td>
-<td><p><code>Certificate:</code><br />
+<td>0xA</td>
+<td><code>Certificate:</code><br />
 <code>   Data:</code><br />
 <code>       Version: 3 (0x2)</code><br />
 <code>       Serial Number:</code><br />
@@ -312,12 +312,12 @@ title = 'SSLC:RootCertChainAddDefaultCert'
 <code>               CA:TRUE</code><br />
 <code>   Signature Algorithm: sha384WithRSAEncryption</code><br />
 <code>        5c:d4:7c:0d:cf:f7:01:7d:41:99:65:0c:73:c5:52:9f:cb:f8:</code><br />
-<code>        ...</code></p></td>
-<td><p>"USERTrust RSA Certification Authority"</p></td>
+<code>        ...</code></td>
+<td>"USERTrust RSA Certification Authority"</td>
 </tr>
 <tr class="even">
-<td><p>0xB</p></td>
-<td><p><code>Certificate:</code><br />
+<td>0xB</td>
+<td><code>Certificate:</code><br />
 <code>   Data:</code><br />
 <code>       Version: 3 (0x2)</code><br />
 <code>       Serial Number:</code><br />
@@ -346,8 +346,8 @@ title = 'SSLC:RootCertChainAddDefaultCert'
 <code>               keyid:B1:3E:C3:69:03:F8:BF:47:01:D4:98:26:1A:08:02:EF:63:64:2B:C3</code></p>
 <p><code>   Signature Algorithm: sha1WithRSAEncryption</code><br />
 <code>        1c:1a:06:97:dc:d7:9c:9f:3c:88:66:06:08:57:21:db:21:47:</code><br />
-<code>        ...</code></p></td>
-<td><p>"DigiCert High Assurance EV Root CA"</p></td>
+<code>        ...</code></td>
+<td>"DigiCert High Assurance EV Root CA"</td>
 </tr>
 </tbody>
 </table>

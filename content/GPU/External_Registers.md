@@ -106,52 +106,52 @@ Known latched modes (in order):
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x00</p></td>
-<td><p>HTotal</p></td>
-<td><p>The total width of a timing scanline. In other words, this is the
+<td>0x00</td>
+<td>HTotal</td>
+<td>The total width of a timing scanline. In other words, this is the
 horizontal refresh clock divider value.</p>
-<p>HClock = PClock / (HTotal + 1)</p></td>
+<p>HClock = PClock / (HTotal + 1)</td>
 </tr>
 <tr class="even">
-<td><p>0x04</p></td>
-<td><p>HStart</p></td>
-<td><p>Determines when the image is going to be displayed in the visible
-region (register 0x60).</p></td>
+<td>0x04</td>
+<td>HStart</td>
+<td>Determines when the image is going to be displayed in the visible
+region (register 0x60).</td>
 </tr>
 <tr class="odd">
-<td><p>0x08</p></td>
-<td><p>HBR</p></td>
-<td><p>Right border start(?). Does nothing.</p>
+<td>0x08</td>
+<td>HBR</td>
+<td>Right border start(?). Does nothing.</p>
 <p>While this register seems to have no impact on the image whatsoever,
-it still has to be set to a valid value.</p></td>
+it still has to be set to a valid value.</td>
 </tr>
 <tr class="even">
-<td><p>0x0C</p></td>
-<td><p>HPF</p></td>
-<td><p>Front porch. The image is blanked during this period, and no
+<td>0x0C</td>
+<td>HPF</td>
+<td>Front porch. The image is blanked during this period, and no
 pixels are pushed to the LCD.</p>
 <p>Unknown why, but a single dot of red is displayed before entering
-this mode.</p></td>
+this mode.</td>
 </tr>
 <tr class="odd">
-<td><p>0x10</p></td>
-<td><p>HSync</p></td>
-<td><p>Triggers a HSync pulse.</p>
+<td>0x10</td>
+<td>HSync</td>
+<td>Triggers a HSync pulse.</p>
 <p>Based on behavior, this needs to last at least a pixel clock for the
-LCD to register the sync.</p></td>
+LCD to register the sync.</td>
 </tr>
 <tr class="even">
-<td><p>0x14</p></td>
-<td><p>HPB</p></td>
-<td><p>Back porch? Has to be at least one bigger than HSync, otherwise
+<td>0x14</td>
+<td>HPB</td>
+<td>Back porch? Has to be at least one bigger than HSync, otherwise
 HSync never triggers.</p>
 <p>The display is blank, and the LCD displays nothing in this period
-(doesn't push pixels).</p></td>
+(doesn't push pixels).</td>
 </tr>
 <tr class="odd">
-<td><p>0x18</p></td>
-<td><p>HBL</p></td>
-<td><p>Left border trigger treshold. Enables pushing pixels to the
+<td>0x18</td>
+<td>HBL</td>
+<td>Left border trigger treshold. Enables pushing pixels to the
 display.</p>
 <p>If this value is smaller than the back porch, then the back porch
 period will be zero, and the border will be immediately displayed upon
@@ -159,12 +159,12 @@ entering the back porch period.</p>
 <p>Can be lower than HSync, as the back porch is what takes the
 controller out of HSync.</p>
 <p>Must be &lt;= HDisp start (reg 0x60 low u16), otherwise no pixels
-will be pushed due to a glitched state.</p></td>
+will be pushed due to a glitched state.</td>
 </tr>
 <tr class="even">
-<td><p>0x1C</p></td>
-<td><p>H Interrupt timing</p></td>
-<td><p>Made up from two u16 values, PDC interrupt line is asserted when
+<td>0x1C</td>
+<td>H Interrupt timing</td>
+<td>Made up from two u16 values, PDC interrupt line is asserted when
 HCount == low u16, and most likely deasserted when HCount == high
 u16.</p>
 <p>There seems to be some limitations though:</p>
@@ -176,26 +176,26 @@ than HTotal</li>
 firing</li>
 </ul>
 <p>This is configured by gsp in a way so that low u16 equals to HTotal,
-meaning the HSync interrupt will never fire.</p></td>
+meaning the HSync interrupt will never fire.</td>
 </tr>
 <tr class="odd">
-<td><p>0x20</p></td>
-<td><p>low u16: ??? high u16: ???</p></td>
-<td><p>???</p></td>
+<td>0x20</td>
+<td>low u16: ??? high u16: ???</td>
+<td>???</td>
 </tr>
 <tr class="even">
-<td><p>0x24</p></td>
-<td><p>VTotal</p></td>
-<td><p>Total height of the timing window. Can be interpreted as the
+<td>0x24</td>
+<td>VTotal</td>
+<td>Total height of the timing window. Can be interpreted as the
 vertical clock divider.</p>
 <p>VClock = PClock / (HTotal + 1) / (VTotal + 1)</p>
 <p>Setting this to 494 lowers framerate to about 50.040660858 Hz
-((268111856 / 24) / (450 + 1) / (494 + 1)).</p></td>
+((268111856 / 24) / (450 + 1) / (494 + 1)).</td>
 </tr>
 <tr class="odd">
-<td><p>0x28</p></td>
-<td><p>?</p></td>
-<td><p>Seems to determine the vertical blanking interval.</p>
+<td>0x28</td>
+<td>?</td>
+<td>Seems to determine the vertical blanking interval.</p>
 <p>Setting this to lower than <code>VTotal - VDisp</code> will cut off
 the top <code>VTotal - VDisp - thisvalue</code> lines.</p>
 <p>Setting this to higher than <code>VTotal - VDisp</code> will make the
@@ -204,139 +204,139 @@ image be pushed downwards with the overscan color visible.</p>
 skip vertical pixel data synchronization (hence filling the screen with
 the rest of the pixel data past the given screen framebuffer size). Also
 will skip <code>thisvalue + somevalue - HTotal</code> lines into the
-"global" pixel buffer.</p></td>
+"global" pixel buffer.</td>
 </tr>
 <tr class="even">
-<td><p>0x30</p></td>
-<td><p>?</p></td>
-<td><p>Total amount of vertical scanlines in the pixel buffer, must be
+<td>0x30</td>
+<td>?</td>
+<td>Total amount of vertical scanlines in the pixel buffer, must be
 bigger than *an unknown blanking-like value*. If this value is less than
 VDisp then the last two scanlines will be repeated interlaced until
-VDisp is reached.</p></td>
+VDisp is reached.</td>
 </tr>
 <tr class="odd">
-<td><p>0x34</p></td>
-<td><p>VDisp(?)</p></td>
-<td><p>Total amonut of vertical scanlines displayed (only for top screen
+<td>0x34</td>
+<td>VDisp(?)</td>
+<td>Total amonut of vertical scanlines displayed (only for top screen
 it seems like). If this value is less than VTotal then the rest of the
 scanlines will not be updated on the screen, so those will slowly fade
 out. Must be bigger than *an unknown blanking-like value*, otherwise an
-underflow will happen.</p></td>
+underflow will happen.</td>
 </tr>
 <tr class="even">
-<td><p>0x38</p></td>
-<td><p>Vertical data offset(?)</p></td>
-<td><p>??? Seems to offset the screen upwards if this value is high
+<td>0x38</td>
+<td>Vertical data offset(?)</td>
+<td>??? Seems to offset the screen upwards if this value is high
 enough. If this value is higher or equal to *some value* (aka. if less
 than one scanline is displayed on the screen) then the screen will lose
-synchronization.</p></td>
+synchronization.</td>
 </tr>
 <tr class="odd">
-<td><p>0x40</p></td>
-<td><p>V Interrupt timing</p></td>
-<td><p>Similar to H Interrupt timing (0x1C), except the comparison is
+<td>0x40</td>
+<td>V Interrupt timing</td>
+<td>Similar to H Interrupt timing (0x1C), except the comparison is
 done against VCount, the limitations are emposed on VTotal, and the
 interrupt that fires is VSync.</p>
 <p>One important note is that it seems like the VSync interrupt always
 fires at HCount == 0, and there doesn't seem to be a register to control
-this behavior.</p></td>
+this behavior.</td>
 </tr>
 <tr class="even">
-<td><p>0x44</p></td>
-<td><p>???</p></td>
-<td><p>similar functionality to 0x10</p></td>
+<td>0x44</td>
+<td>???</td>
+<td>similar functionality to 0x10</td>
 </tr>
 <tr class="odd">
-<td><p>0x48</p></td>
-<td><p>???</p></td>
-<td><p>bit0 seems to disable HSync, bit8 seems to disable VSync, rest of
-the bits aren't writable.</p></td>
+<td>0x48</td>
+<td>???</td>
+<td>bit0 seems to disable HSync, bit8 seems to disable VSync, rest of
+the bits aren't writable.</td>
 </tr>
 <tr class="even">
-<td><p>0x4C</p></td>
-<td><p>Overscan filler color</p></td>
-<td><p>24bits(? top 8bits ignored)</p>
+<td>0x4C</td>
+<td>Overscan filler color</td>
+<td>24bits(? top 8bits ignored)</p>
 <p>When the visible region is being drawn, but the timing parameters are
 set up in a way that the framebuffer is smaller than the visible region,
-it will be filled by this color.</p></td>
+it will be filled by this color.</td>
 </tr>
 <tr class="odd">
-<td><p>0x50</p></td>
-<td><p>HCount</p></td>
-<td><p>Horizontal "beam position" counter. Note that this value does not
-equal to the current pixel being drawn.</p></td>
+<td>0x50</td>
+<td>HCount</td>
+<td>Horizontal "beam position" counter. Note that this value does not
+equal to the current pixel being drawn.</td>
 </tr>
 <tr class="even">
-<td><p>0x54</p></td>
-<td><p>VCount</p></td>
-<td><p>Vertical "beam position" counter. Note that the scanline being
-drawn isn't equal to this value.</p></td>
+<td>0x54</td>
+<td>VCount</td>
+<td>Vertical "beam position" counter. Note that the scanline being
+drawn isn't equal to this value.</td>
 </tr>
 <tr class="odd">
-<td><p>0x5C</p></td>
-<td><p>???</p></td>
-<td><p>low u16: Image width (including some offset?) high u16: Image
-height??? (seems to be unused)</p></td>
+<td>0x5C</td>
+<td>???</td>
+<td>low u16: Image width (including some offset?) high u16: Image
+height??? (seems to be unused)</td>
 </tr>
 <tr class="even">
-<td><p>0x60</p></td>
-<td><p>HDisp</p></td>
-<td><p>low u16: Image start (border --&gt; pixel data) high u16: Image
-end (pixel data --&gt; border)</p></td>
+<td>0x60</td>
+<td>HDisp</td>
+<td>low u16: Image start (border --&gt; pixel data) high u16: Image
+end (pixel data --&gt; border)</td>
 </tr>
 <tr class="odd">
-<td><p>0x64</p></td>
-<td><p>???</p></td>
-<td><p>low u16: unknown high u16: framebuffer total height (amount of
-scanlines blitted regardless of framebuffer height)</p></td>
+<td>0x64</td>
+<td>???</td>
+<td>low u16: unknown high u16: framebuffer total height (amount of
+scanlines blitted regardless of framebuffer height)</td>
 </tr>
 <tr class="even">
-<td><p>0x68</p></td>
-<td><p>Framebuffer A first address</p></td>
-<td><p>For top screen, this is the left eye 3D framebuffer.</p></td>
+<td>0x68</td>
+<td>Framebuffer A first address</td>
+<td>For top screen, this is the left eye 3D framebuffer.</td>
 </tr>
 <tr class="odd">
-<td><p>0x6C</p></td>
-<td><p>Framebuffer A second address</p></td>
-<td><p>For top screen, this is the left eye 3D framebuffer.</p></td>
+<td>0x6C</td>
+<td>Framebuffer A second address</td>
+<td>For top screen, this is the left eye 3D framebuffer.</td>
 </tr>
 <tr class="even">
-<td><p>0x70</p></td>
-<td><p>Framebuffer format and other settings</p></td>
-<td><p>See <a href="#Framebuffer_format" title="wikilink">framebuffer
-format</a></p></td>
+<td>0x70</td>
+<td>Framebuffer format and other settings</td>
+<td>See <a href="#Framebuffer_format" title="wikilink">framebuffer
+format</a></td>
 </tr>
 <tr class="odd">
-<td><p>0x74</p></td>
-<td><p>PDC control</p></td>
-<td><p>Bit 0: Enable display controller. Bit 8: HBlank IRQ mask (0 =
+<td>0x74</td>
+<td>PDC control</td>
+<td>Bit 0: Enable display controller. Bit 8: HBlank IRQ mask (0 =
 enabled). Bit 9: VBlank IRQ mask (0 = enabled). Bit 10: Error IRQ mask?
-(0 = enabled). Bit 16: Output enable?</p></td>
+(0 = enabled). Bit 16: Output enable?</td>
 </tr>
 <tr class="even">
-<td><p>0x78</p></td>
-<td><p>Framebuffer select and status</p></td>
-<td><p>Bit 0: Next framebuffer to display (after VBlank). Bit 4:
+<td>0x78</td>
+<td>Framebuffer select and status</td>
+<td>Bit 0: Next framebuffer to display (after VBlank). Bit 4:
 Currently displaying framebuffer? Bit 8: Reset FIFO? Bit 16: HBlank IRQ
 status/ack. Write 1 to aknowledge. Bit 17: VBlank IRQ status/ack. Bit
-18: Error IRQ status/ack?</p></td>
+18: Error IRQ status/ack?</td>
 </tr>
 <tr class="odd">
-<td><p>0x80</p></td>
-<td><p>Color lookup table index select</p></td>
-<td><p>8bits, write-only</p></td>
+<td>0x80</td>
+<td>Color lookup table index select</td>
+<td>8bits, write-only</td>
 </tr>
 <tr class="even">
-<td><p>0x84</p></td>
-<td><p>Color lookup table indexed element</p></td>
-<td><p>Contains the value of the color lookup table indexed by the above
+<td>0x84</td>
+<td>Color lookup table indexed element</td>
+<td>Contains the value of the color lookup table indexed by the above
 register, 24bits, RGB8 (0x00BBGGRR) Accessing this register will
-increase the index register by one</p></td>
+increase the index register by one</td>
 </tr>
 <tr class="odd">
-<td><p>0x90</p></td>
-<td><p>Framebuffer stride</p></td>
-<td><p>32bits (bottom 3bits ignored?)</p>
+<td>0x90</td>
+<td>Framebuffer stride</td>
+<td>32bits (bottom 3bits ignored?)</p>
 <p>Distance in bytes between the start of two framebuffer rows (must be
 a multiple of 8).</p>
 <p>In other words, this can be interpreted as the amount to add to the
@@ -347,19 +347,19 @@ it's possible to "race the beam" to (ab)use this feature.</p>
 <p>Because of this simplicity, writing a negative value here VFlips the
 image, although that requires the framebuffer pointer register to be set
 to the start of the last scanline, instead of at the start of the
-framebuffer.</p></td>
+framebuffer.</td>
 </tr>
 <tr class="even">
-<td><p>0x94</p></td>
-<td><p>Framebuffer B first address</p></td>
-<td><p>For top screen, this is the right eye 3D framebuffer. Unused for
-bottom screen in userland.</p></td>
+<td>0x94</td>
+<td>Framebuffer B first address</td>
+<td>For top screen, this is the right eye 3D framebuffer. Unused for
+bottom screen in userland.</td>
 </tr>
 <tr class="odd">
-<td><p>0x98</p></td>
-<td><p>Framebuffer B second address</p></td>
-<td><p>For top screen, this is the right eye 3D framebuffer. Unused for
-bottom screen in userland.</p></td>
+<td>0x98</td>
+<td>Framebuffer B second address</td>
+<td>For top screen, this is the right eye 3D framebuffer. Unused for
+bottom screen in userland.</td>
 </tr>
 </tbody>
 </table>
@@ -375,13 +375,13 @@ bottom screen in userland.</p></td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2-0</p></td>
-<td><p><a href="#Framebuffer_color_formats" title="wikilink">Color
-format</a></p></td>
+<td>2-0</td>
+<td><a href="#Framebuffer_color_formats" title="wikilink">Color
+format</a></td>
 </tr>
 <tr class="even">
-<td><p>5-4</p></td>
-<td><p>Framebuffer scanline output mode (framebuffer interleave
+<td>5-4</td>
+<td>Framebuffer scanline output mode (framebuffer interleave
 config)</p>
 <p><code>0 - A  (output image as normal)</code><br />
 <code>1 - AA (output a single line twice, so framebuffer A is interleaved with itself)</code><br />
@@ -389,29 +389,29 @@ config)</p>
 <code>3 - BA (same as above, but the line from framebuffer B is outputted first)</code></p>
 <p>0 is used by bottom screen at all times. 1 is used by the top screen
 in 2D mode. 2 is used by top screen in 3D mode. 3 goes unused in
-userland.</p></td>
+userland.</td>
 </tr>
 <tr class="odd">
-<td><p>6</p></td>
-<td><p>Scan doubling enable?* (used by top screen)</p></td>
+<td>6</td>
+<td>Scan doubling enable?* (used by top screen)</td>
 </tr>
 <tr class="even">
-<td><p>7</p></td>
-<td><p>?</p></td>
+<td>7</td>
+<td>?</td>
 </tr>
 <tr class="odd">
-<td><p>9-8</p></td>
-<td><p>DMA size</p>
+<td>9-8</td>
+<td>DMA size</p>
 <p><code>0 -  4 words (32 bytes)</code><br />
 <code>1 -  8 words (64 bytes)</code><br />
 <code>2 - 16 words (128 bytes)</code><br />
 <code>3 - ???</code></p>
 <p>FCRAM doesn't support DMA size 3, as it can only burst up to 16 words
-(128 bytes), and will show a black screen instead.</p></td>
+(128 bytes), and will show a black screen instead.</td>
 </tr>
 <tr class="even">
-<td><p>31-16</p></td>
-<td><p>Unknown</p></td>
+<td>31-16</td>
+<td>Unknown</td>
 </tr>
 </tbody>
 </table>

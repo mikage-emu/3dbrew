@@ -182,11 +182,11 @@ Common parameters described above can always be sent.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>/samurai/ws/<strong>region</strong>/contents</p></td>
-<td><p>Fetches the content list, containing basic content information
+<td>/samurai/ws/<strong>region</strong>/contents</td>
+<td>Fetches the content list, containing basic content information
 like the content id (not the 3DS title id), the product code and the
-localized title name</p></td>
-<td><p>All of these are optional.</p>
+localized title name</td>
+<td>All of these are optional.</p>
 <ul>
 <li>genre[]: genre ID (unsigned int)</li>
 <li>publisher[]: publisher ID (unsigned int)</li>
@@ -204,90 +204,90 @@ localized title name</p></td>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>/samurai/ws/<strong>region</strong>/titles</p></td>
-<td><p>Same as /contents but only shows software titles</p></td>
-<td><p>see /contents</p></td>
+<td>/samurai/ws/<strong>region</strong>/titles</td>
+<td>Same as /contents but only shows software titles</td>
+<td>see /contents</td>
 </tr>
 <tr class="odd">
-<td><p>/samurai/ws/<strong>region</strong>/title/<strong>content
-id</strong></p></td>
-<td><p>Returns information about the title, more verbose than
-/titles.</p></td>
-<td><p>(none)</p></td>
+<td>/samurai/ws/<strong>region</strong>/title/<strong>content
+id</strong></td>
+<td>Returns information about the title, more verbose than
+/titles.</td>
+<td>(none)</td>
 </tr>
 <tr class="even">
-<td><p>/samurai/ws/<strong>region</strong>/title/<strong>content
-id</strong>/aocs</p></td>
-<td><p>Returns a list of add-on contents/downloadable content and prices
-in eShop region currency.</p></td>
-<td><p>(none)</p></td>
+<td>/samurai/ws/<strong>region</strong>/title/<strong>content
+id</strong>/aocs</td>
+<td>Returns a list of add-on contents/downloadable content and prices
+in eShop region currency.</td>
+<td>(none)</td>
 </tr>
 <tr class="odd">
-<td><p>/samurai/ws/<strong>region</strong>/demo/<strong>content
-id</strong></p></td>
-<td><p>Returns information about a demo. Content ID is available in the
-main game's /title entry.</p></td>
-<td><p>(none)</p></td>
+<td>/samurai/ws/<strong>region</strong>/demo/<strong>content
+id</strong></td>
+<td>Returns information about a demo. Content ID is available in the
+main game's /title entry.</td>
+<td>(none)</td>
 </tr>
 <tr class="even">
-<td><p>/samurai/ws/<strong>region</strong>/movies</p></td>
-<td><p>Same as /contents but only shows movies</p></td>
-<td><p>see /contents</p></td>
+<td>/samurai/ws/<strong>region</strong>/movies</td>
+<td>Same as /contents but only shows movies</td>
+<td>see /contents</td>
 </tr>
 <tr class="odd">
-<td><p>/samurai/ws/<strong>region</strong>/movie/<strong>content
-id</strong></p></td>
-<td><p>Returns information about the movie, more verbose than
-/movies.</p></td>
-<td><p>(none)</p></td>
+<td>/samurai/ws/<strong>region</strong>/movie/<strong>content
+id</strong></td>
+<td>Returns information about the movie, more verbose than
+/movies.</td>
+<td>(none)</td>
 </tr>
 <tr class="even">
-<td><p>/samurai/ws/<strong>region</strong>/news</p></td>
-<td><p>eShop news section</p></td>
-<td><p>(none)</p></td>
+<td>/samurai/ws/<strong>region</strong>/news</td>
+<td>eShop news section</td>
+<td>(none)</td>
 </tr>
 <tr class="odd">
-<td><p>/samurai/ws/<strong>region</strong>/telops</p></td>
-<td><p>Scrolling news on the top screen</p></td>
-<td><p>shop_id is required</p></td>
+<td>/samurai/ws/<strong>region</strong>/telops</td>
+<td>Scrolling news on the top screen</td>
+<td>shop_id is required</td>
 </tr>
 <tr class="even">
-<td><p>/samurai/ws/<strong>region</strong>/directories</p></td>
-<td><p>Returns a list of directories available on the regional server
-with the name, image, id used for the directory api point, etc.</p></td>
-<td><p>pattern: Unsure of the purpose, default value is B from what I
-can tell.</p></td>
+<td>/samurai/ws/<strong>region</strong>/directories</td>
+<td>Returns a list of directories available on the regional server
+with the name, image, id used for the directory api point, etc.</td>
+<td>pattern: Unsure of the purpose, default value is B from what I
+can tell.</td>
 </tr>
 <tr class="odd">
-<td><p>/samurai/ws/<strong>region</strong>/directory/<strong>(long long
+<td>/samurai/ws/<strong>region</strong>/directory/<strong>(long long
 unsigned int)</strong> and
-/samurai/ws/<strong>region</strong>/directory/~<strong>(string)</strong></p></td>
-<td><p>Collections, like sales</p></td>
-<td><p>(none)</p></td>
+/samurai/ws/<strong>region</strong>/directory/~<strong>(string)</strong></td>
+<td>Collections, like sales</td>
+<td>(none)</td>
 </tr>
 <tr class="even">
-<td><p>/samurai/ws/<strong>region</strong>/genres</p></td>
-<td><p>Returns a list of human-readable genre names and their
-corresponding genre id.</p></td>
-<td><p>(none)</p></td>
+<td>/samurai/ws/<strong>region</strong>/genres</td>
+<td>Returns a list of human-readable genre names and their
+corresponding genre id.</td>
+<td>(none)</td>
 </tr>
 <tr class="odd">
-<td><p>/samurai/ws/<strong>region</strong>/publishers</p></td>
-<td><p>Returns a list of human-readable publisher names and their
-corresponding publisher id.</p></td>
-<td><p>(none)</p></td>
+<td>/samurai/ws/<strong>region</strong>/publishers</td>
+<td>Returns a list of human-readable publisher names and their
+corresponding publisher id.</td>
+<td>(none)</td>
 </tr>
 <tr class="even">
-<td><p>/samurai/ws/<strong>region</strong>/platforms</p></td>
-<td><p>Returns a list of human-readable platform names and their
-corresponding platform id.</p></td>
-<td><p>(none)</p></td>
+<td>/samurai/ws/<strong>region</strong>/platforms</td>
+<td>Returns a list of human-readable platform names and their
+corresponding platform id.</td>
+<td>(none)</td>
 </tr>
 <tr class="odd">
-<td><p>/samurai/ws/<strong>region</strong>/languages</p></td>
-<td><p>Returns a list of languages available on the regional server with
-the ISO 639-1 code used for the lang parameter.</p></td>
-<td><p>(none)</p></td>
+<td>/samurai/ws/<strong>region</strong>/languages</td>
+<td>Returns a list of languages available on the regional server with
+the ISO 639-1 code used for the lang parameter.</td>
+<td>(none)</td>
 </tr>
 </tbody>
 </table>

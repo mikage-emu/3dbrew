@@ -608,29 +608,29 @@ root
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x0</p></td>
-<td><p>0x4</p></td>
-<td><p>u32, Unknown</p></td>
+<td>0x0</td>
+<td>0x4</td>
+<td>u32, Unknown</td>
 </tr>
 <tr class="even">
-<td><p>0x4</p></td>
-<td><p>0x4</p></td>
-<td><p>u32, Badge ID</p></td>
+<td>0x4</td>
+<td>0x4</td>
+<td>u32, Badge ID</td>
 </tr>
 <tr class="odd">
-<td><p>0x8</p></td>
-<td><p>0x4</p></td>
-<td><p>u32, Badge Set ID</p></td>
+<td>0x8</td>
+<td>0x4</td>
+<td>u32, Badge Set ID</td>
 </tr>
 <tr class="even">
-<td><p>0xC</p></td>
-<td><p>0x2</p></td>
-<td><p>u16, Badge Index</p></td>
+<td>0xC</td>
+<td>0x2</td>
+<td>u16, Badge Index</td>
 </tr>
 <tr class="odd">
-<td><p>0xE</p></td>
-<td><p>0x2</p></td>
-<td><p>u16, Badge Sub ID (used for multi-part badges)</p>
+<td>0xE</td>
+<td>0x2</td>
+<td>u16, Badge Sub ID (used for multi-part badges)</p>
 <table>
 <thead>
 <tr class="header">
@@ -640,40 +640,40 @@ root
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x0</p></td>
-<td><p>Badge is a standalone badge</p></td>
+<td>0x0</td>
+<td>Badge is a standalone badge</td>
 </tr>
 <tr class="even">
-<td><p>0x0100</p></td>
-<td><p>Badge is the left piece of a horizontal 2x1 badge</p></td>
+<td>0x0100</td>
+<td>Badge is the left piece of a horizontal 2x1 badge</td>
 </tr>
 <tr class="odd">
-<td><p>0x0101</p></td>
-<td><p>Badge is the right piece of a horizontal 2x1 badge</p></td>
+<td>0x0101</td>
+<td>Badge is the right piece of a horizontal 2x1 badge</td>
 </tr>
 <tr class="even">
-<td><p>0x1000</p></td>
-<td><p>Badge is the top piece of a vertical 1x2 badge</p></td>
+<td>0x1000</td>
+<td>Badge is the top piece of a vertical 1x2 badge</td>
 </tr>
 <tr class="odd">
-<td><p>0x1010</p></td>
-<td><p>Badge is the bottom piece of a vertical 1x2 badge</p></td>
+<td>0x1010</td>
+<td>Badge is the bottom piece of a vertical 1x2 badge</td>
 </tr>
 <tr class="even">
-<td><p>0x1100</p></td>
-<td><p>Badge is the top left piece of a 2x2 badge</p></td>
+<td>0x1100</td>
+<td>Badge is the top left piece of a 2x2 badge</td>
 </tr>
 <tr class="odd">
-<td><p>0x1101</p></td>
-<td><p>Badge is the top right piece of a 2x2 badge</p></td>
+<td>0x1101</td>
+<td>Badge is the top right piece of a 2x2 badge</td>
 </tr>
 <tr class="even">
-<td><p>0x1110</p></td>
-<td><p>Badge is the bottom left piece of a 2x2 badge</p></td>
+<td>0x1110</td>
+<td>Badge is the bottom left piece of a 2x2 badge</td>
 </tr>
 <tr class="odd">
-<td><p>0x1111</p></td>
-<td><p>Badge is the bottom right piece of a 2x2 badge</p></td>
+<td>0x1111</td>
+<td>Badge is the bottom right piece of a 2x2 badge</td>
 </tr>
 </tbody>
 </table></td>
@@ -828,36 +828,36 @@ handling [SD_Savedata_Backups](SD_Savedata_Backups "wikilink").
 <td></td>
 <td></td>
 <td></td>
-<td><p>srv_init(), then srv_GetServiceHandle is used to initialize the
+<td>srv_init(), then srv_GetServiceHandle is used to initialize the
 service handles for the following services: <a
 href="../NS_and_APT_Services" title="wikilink">ns:s</a>, <a
 href="../PTM_Services" title="wikilink">ptm:sysm</a>, and <a
-href="../Config_Services" title="wikilink">cfg:s</a>.</p></td>
+href="../Config_Services" title="wikilink">cfg:s</a>.</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="../CfgS:SecureInfoGetByte101"
+<td><a href="../CfgS:SecureInfoGetByte101"
 title="wikilink">CfgS:SecureInfoGetByte101</a> and <a
 href="../CfgS:GetLocalFriendCodeSeed"
 title="wikilink">CfgS:GetLocalFriendCodeSeed</a> are used, the output
 data from these are not used. If either of these return an error, Home
-Menu uses <a href="../ERR:Throw" title="wikilink">ERR:Throw</a>.</p></td>
+Menu uses <a href="../ERR:Throw" title="wikilink">ERR:Throw</a>.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="../Cfg:GetSystemModel"
+<td><a href="../Cfg:GetSystemModel"
 title="wikilink">Cfg:GetSystemModel</a> is then used to initialize a
-Home Menu state field.</p></td>
+Home Menu state field.</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu then loads the system language via <a
+<td>Home Menu then loads the system language via <a
 href="../CfgS:GetConfigInfoBlk2"
 title="wikilink">CfgS:GetConfigInfoBlk2</a>, and uses <a
 href="../Cfg:SecureInfoGetRegion"
@@ -867,109 +867,109 @@ href="../Cfg:SecureInfoGetRegion"
 title="wikilink">Cfg:SecureInfoGetRegion</a> again, then loads the <a
 href="../Config_Savegame" title="wikilink">CountryInfo</a> via <a
 href="../CfgS:GetConfigInfoBlk2"
-title="wikilink">CfgS:GetConfigInfoBlk2</a>.</p></td>
+title="wikilink">CfgS:GetConfigInfoBlk2</a>.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu initializes <a href="../Filesystem_services"
+<td>Home Menu initializes <a href="../Filesystem_services"
 title="wikilink">fs:USER</a> here. Home Menu then mounts the Home Menu
 CXI RomFS. Then Home Menu uses <a href="../Filesystem_services"
-title="wikilink">FSUSER:GetPriority</a>.</p></td>
+title="wikilink">FSUSER:GetPriority</a>.</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu starts APT initialization / using APT service commands
+<td>Home Menu starts APT initialization / using APT service commands
 here. Eventually Home Menu then <a href="../NSS:LaunchTitle"
-title="wikilink">launches</a> various system-modules.</p></td>
+title="wikilink">launches</a> various system-modules.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Here Home Menu attempts to open NAND shared-<a href="../extdata"
+<td>Here Home Menu attempts to open NAND shared-<a href="../extdata"
 title="wikilink">extdata</a> 0xe0000000, which will normally fail since
-it doesn't exist.</p></td>
+it doesn't exist.</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Here Home Menu uses <a href="../Application_Manager_Services"
+<td>Here Home Menu uses <a href="../Application_Manager_Services"
 title="wikilink">AM</a> command 0x00130040, with input u8 = value 0x0.
-Home Menu continues using APT commands after this.</p></td>
+Home Menu continues using APT commands after this.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="../HID_Services" title="wikilink">hid:SPVR</a> service
-initialization is done here.</p></td>
+<td><a href="../HID_Services" title="wikilink">hid:SPVR</a> service
+initialization is done here.</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="../PTM_Services"
-title="wikilink">PTMSYSM:GetShellStatus</a> is used here.</p></td>
+<td><a href="../PTM_Services"
+title="wikilink">PTMSYSM:GetShellStatus</a> is used here.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="../Filesystem_services"
+<td><a href="../Filesystem_services"
 title="wikilink">FSUSER:GetCardType</a> is used here. AM commands are
 then used to get the inserted gamecard programID, when successful the
 gamecard ExeFS:/icon is then read to check the auto-boot flag(see the
 auto-boot section on this page). The system-setup-required flag is then
 read here if needed, as mentioned under the auto-boot section of this
-page.</p></td>
+page.</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu then uses cfg commands to load system language, region,
-and CountryInfo.</p></td>
+<td>Home Menu then uses cfg commands to load system language, region,
+and CountryInfo.</td>
 </tr>
 <tr class="odd">
-<td><p>Home Menu CXI RomFS</p></td>
-<td><p>"/message/<Region>_<Language>/menu_msbt_LZ.bin"</p></td>
-<td><p>Presumably loaded from the filesize.</p></td>
+<td>Home Menu CXI RomFS</td>
+<td>"/message/<Region>_<Language>/menu_msbt_LZ.bin"</td>
+<td>Presumably loaded from the filesize.</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Home Menu CXI RomFS</p></td>
-<td><p>"/message/<Region>_<Language>/RI_mstl_LZ.bin"</p></td>
-<td><p>Presumably loaded from the filesize.</p></td>
+<td>Home Menu CXI RomFS</td>
+<td>"/message/<Region>_<Language>/RI_mstl_LZ.bin"</td>
+<td>Presumably loaded from the filesize.</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Home Menu CXI RomFS</p></td>
-<td><p>"/message_hud/<Region>_<Language>/hud_msbt_LZ.bin"</p></td>
-<td><p>Presumably loaded from the filesize.</p></td>
+<td>Home Menu CXI RomFS</td>
+<td>"/message_hud/<Region>_<Language>/hud_msbt_LZ.bin"</td>
+<td>Presumably loaded from the filesize.</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Home Menu CXI RomFS</p></td>
-<td><p>"/message_hud/<Region>_<Language>/RI_mstl_LZ.bin"</p></td>
-<td><p>Presumably loaded from the filesize.</p></td>
+<td>Home Menu CXI RomFS</td>
+<td>"/message_hud/<Region>_<Language>/RI_mstl_LZ.bin"</td>
+<td>Presumably loaded from the filesize.</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="../NS_and_APT_Services"
+<td><a href="../NS_and_APT_Services"
 title="wikilink"><span>APT:GetSharedFont</span></a> is used
-here.</p></td>
+here.</td>
 </tr>
 <tr class="even">
-<td><p>Home Menu CXI RomFS</p></td>
-<td><p>"/font/Hud_JP.bcfnt"</p></td>
+<td>Home Menu CXI RomFS</td>
+<td>"/font/Hud_JP.bcfnt"</td>
 <td></td>
 <td></td>
 </tr>
@@ -977,38 +977,38 @@ here.</p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p>Here Home Menu loads the <a href="../Config_Savegame"
-title="wikilink">cfg</a> state for blkID 0x50005.</p></td>
+<td>Here Home Menu loads the <a href="../Config_Savegame"
+title="wikilink">cfg</a> state for blkID 0x50005.</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Here Home Menu loads the GPU shaders from RomFS.</p></td>
+<td>Here Home Menu loads the GPU shaders from RomFS.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Here Home Menu does DSP initialization then starts using DSP
-commands etc + loads sound data from RomFS.</p></td>
+<td>Here Home Menu does DSP initialization then starts using DSP
+commands etc + loads sound data from RomFS.</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Here Home Menu does GSP initialization.</p></td>
+<td>Here Home Menu does GSP initialization.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="../APT:GetCaptureInfo"
+<td><a href="../APT:GetCaptureInfo"
 title="wikilink"><span>APT:GetCaptureInfo</span></a> is used
-here.</p></td>
+here.</td>
 </tr>
 <tr class="even">
-<td><p>Home Menu CXI RomFS</p></td>
+<td>Home Menu CXI RomFS</td>
 <td></td>
 <td></td>
 <td></td>
@@ -1017,7 +1017,7 @@ here.</p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p>Here Home Menu uses <a href="../PTM_Services"
+<td>Here Home Menu uses <a href="../PTM_Services"
 title="wikilink">PTMSYSM:GetShellStatus</a>, <a
 href="../PTMSYSM:GetSoftwareClosedFlag"
 title="wikilink">PTMSYSM:GetSoftwareClosedFlag</a>, and <a
@@ -1026,129 +1026,129 @@ title="wikilink">PTMSYSM:ClearSoftwareClosedFlag</a>. Home Menu then
 uses <a href="../PTM_Services" title="wikilink">PTMSYSM:GetShellStatus</a>
 3 times in a row. Starting from here, Home Menu uses <a
 href="../PTM_Services" title="wikilink">PTMSYSM:GetShellStatus</a>
-frequently(presumably from a separate thread).</p></td>
+frequently(presumably from a separate thread).</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu opens the archive for the Home Menu <a
+<td>Home Menu opens the archive for the Home Menu <a
 href="../System_SaveData" title="wikilink">System_SaveData</a> here. Then
 Home Menu attempts to open "/Launcher.dat" for reading, when successful
-Home Menu just closes the file.</p></td>
+Home Menu just closes the file.</td>
 </tr>
 <tr class="odd">
-<td><p>Home Menu <a href="../System_SaveData"
-title="wikilink">System_SaveData</a></p></td>
-<td><p>"/Launcher.dat"</p></td>
-<td><p>0x2490</p></td>
-<td><p>Prior to doing the read, Home Menu uses <a href="../FSFile:GetSize"
-title="wikilink">FSFile:GetSize</a>.</p></td>
+<td>Home Menu <a href="../System_SaveData"
+title="wikilink">System_SaveData</a></td>
+<td>"/Launcher.dat"</td>
+<td>0x2490</td>
+<td>Prior to doing the read, Home Menu uses <a href="../FSFile:GetSize"
+title="wikilink">FSFile:GetSize</a>.</td>
 </tr>
 <tr class="even">
-<td><p>System CFA, titleID for USA: 0004009B00013302</p></td>
-<td><p>"/country.bin"</p></td>
+<td>System CFA, titleID for USA: 0004009B00013302</td>
+<td>"/country.bin"</td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="../NS_CFA" title="wikilink">NS CFA</a></p></td>
-<td><p>"/ctr_backup_black_list"</p></td>
+<td><a href="../NS_CFA" title="wikilink">NS CFA</a></td>
+<td>"/ctr_backup_black_list"</td>
 <td></td>
-<td><p>Home Menu first reads 0x10-bytes from offset 0x0, then after that
-it reads the rest of the file.</p></td>
+<td>Home Menu first reads 0x10-bytes from offset 0x0, then after that
+it reads the rest of the file.</td>
 </tr>
 <tr class="even">
-<td><p>Home Menu CXI RomFS</p></td>
+<td>Home Menu CXI RomFS</td>
 <td></td>
 <td></td>
-<td><p>Home Menu reads various RomFS files here.</p></td>
+<td>Home Menu reads various RomFS files here.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu <a href="../NSS:LaunchTitle" title="wikilink">launches</a>
-the camera system-module here.</p></td>
+<td>Home Menu <a href="../NSS:LaunchTitle" title="wikilink">launches</a>
+the camera system-module here.</td>
 </tr>
 <tr class="even">
-<td><p>Home Menu CXI RomFS</p></td>
+<td>Home Menu CXI RomFS</td>
 <td></td>
 <td></td>
-<td><p>Home Menu reads various RomFS files here.</p></td>
+<td>Home Menu reads various RomFS files here.</td>
 </tr>
 <tr class="odd">
-<td><p>NGWord bad word list CFA</p></td>
-<td><p>"/version.dat"</p></td>
-<td><p>0x4</p></td>
-<td><p>Home Menu mounts the ngword archive here, then reads version.dat.
+<td>NGWord bad word list CFA</td>
+<td>"/version.dat"</td>
+<td>0x4</td>
+<td>Home Menu mounts the ngword archive here, then reads version.dat.
 Home Menu then loads the <a href="../Config_Savegame"
-title="wikilink">cfg</a> data for blkID 0x000A0000.</p></td>
+title="wikilink">cfg</a> data for blkID 0x000A0000.</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu <a href="../NSS:LaunchTitle" title="wikilink">launches</a>
-various system-modules here(from a separate thread?).</p></td>
+<td>Home Menu <a href="../NSS:LaunchTitle" title="wikilink">launches</a>
+various system-modules here(from a separate thread?).</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu opens the following NAND shared extdata archives here:
+<td>Home Menu opens the following NAND shared extdata archives here:
 0xf0000001, 0xf0000002, 0xf0000009, 0xf000000b, 0xf000000c, 0xf000000d,
-and 0xf000000b again.</p></td>
+and 0xf000000b again.</td>
 </tr>
 <tr class="even">
-<td><p>NAND <a href="../extdata" title="wikilink">extdata</a>
-0xf000000b</p></td>
-<td><p>"/ubll.lst"</p></td>
-<td><p>0x2ee0</p></td>
-<td><p>Prior to doing the read, Home Menu uses <a href="../FSFile:GetSize"
-title="wikilink">FSFile:GetSize</a>.</p></td>
+<td>NAND <a href="../extdata" title="wikilink">extdata</a>
+0xf000000b</td>
+<td>"/ubll.lst"</td>
+<td>0x2ee0</td>
+<td>Prior to doing the read, Home Menu uses <a href="../FSFile:GetSize"
+title="wikilink">FSFile:GetSize</a>.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu opens NAND shared extdata archive 0xf000000b
-again.</p></td>
+<td>Home Menu opens NAND shared extdata archive 0xf000000b
+again.</td>
 </tr>
 <tr class="even">
-<td><p>NAND extdata 0xf000000b</p></td>
-<td><p>"/CFL_DB.dat"</p></td>
-<td><p>0xe4c0</p></td>
-<td><p>Home Menu only does one read with size 0xe4c0 for this, even
+<td>NAND extdata 0xf000000b</td>
+<td>"/CFL_DB.dat"</td>
+<td>0xe4c0</td>
+<td>Home Menu only does one read with size 0xe4c0 for this, even
 though the value it loads from <a href="../FSFile:GetSize"
-title="wikilink">FSFile:GetSize</a> is larger than that.</p></td>
+title="wikilink">FSFile:GetSize</a> is larger than that.</td>
 </tr>
 <tr class="odd">
-<td><p>NAND extdata 0xf000000b</p></td>
-<td><p>"/CFL_OldDB.dat"</p></td>
+<td>NAND extdata 0xf000000b</td>
+<td>"/CFL_OldDB.dat"</td>
 <td></td>
-<td><p>Home Menu just closes this file immediately after opening it,
-when opening it was successful at least.</p></td>
+<td>Home Menu just closes this file immediately after opening it,
+when opening it was successful at least.</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu loads the <a href="../Config_Savegame"
-title="wikilink">cfg</a> data for blkID 0x000C0000 here.</p></td>
+<td>Home Menu loads the <a href="../Config_Savegame"
+title="wikilink">cfg</a> data for blkID 0x000C0000 here.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu opens NAND shared extdata archive 0xf000000b
-again.</p></td>
+<td>Home Menu opens NAND shared extdata archive 0xf000000b
+again.</td>
 </tr>
 <tr class="even">
-<td><p>NAND extdata 0xf000000b</p></td>
-<td><p><a href="../Extdata" title="wikilink">"/gamecoin.dat"</a></p></td>
-<td><p>0x14</p></td>
-<td><p>Home Menu first tries to use <a href="../FS:CreateFile"
+<td>NAND extdata 0xf000000b</td>
+<td><a href="../Extdata" title="wikilink">"/gamecoin.dat"</a></td>
+<td>0x14</td>
+<td>Home Menu first tries to use <a href="../FS:CreateFile"
 title="wikilink">FS:CreateFile</a> with this, which will fail when the
 file already exists. This file is then opened with openflags=RW. After
 reading this file, Home Menu then uses <a href="../PTM:GetTotalStepCount"
@@ -1157,24 +1157,24 @@ href="../FSFile:GetSize" title="wikilink">FSFile:GetSize</a>. Then the
 service handle for <a href="../NDM_Services" title="wikilink">"ndm:u"</a>
 is initialized with srv_GetServiceHandle(done from a separate thread
 perhaps?). Then Home Menu writes to the already opened gamecoin.dat
-file.</p></td>
+file.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="../Filesystem_services"
+<td><a href="../Filesystem_services"
 title="wikilink">FSUSER:CardSlotIsInserted</a> and <a
 href="../Filesystem_services" title="wikilink">FSUSER:GetCardType</a> is
 used here. AM commands are then used to get the inserted gamecard
 programID, when successful the gamecard ExeFS:/icon is then
-read.</p></td>
+read.</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="../BOSS_Services" title="wikilink">"boss:P"</a> service
+<td><a href="../BOSS_Services" title="wikilink">"boss:P"</a> service
 handle initialization with srv_GetServiceHandle is done here. Then <a
 href="../Services" title="wikilink">srv_Subscribe</a> is used with various
 noticationIDs. Home Menu then uses <a href="../FS:IsSdmcDetected"
@@ -1184,153 +1184,153 @@ href="../Config_Savegame" title="wikilink">cfg</a> data for blkID
 0x000D0000. Home Menu uses boss:P command 0x4010082, then uses
 srv_GetServiceHandle for initializing service handles with the following
 services: <a href="../News_Services"
-title="wikilink">"<span>news:s</span>"</a> and "cecd:s".</p></td>
+title="wikilink">"<span>news:s</span>"</a> and "cecd:s".</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p>srv_GetServiceHandle is used to initialize the service handle for
+<td>srv_GetServiceHandle is used to initialize the service handle for
 service <a href="../Friend_Services" title="wikilink">"frd:a"</a>, then
-various service commands are used for that.</p></td>
+various service commands are used for that.</td>
 </tr>
 <tr class="even">
-<td><p>NAND <a href="../extdata" title="wikilink">extdata</a>
-0xf000000c</p></td>
+<td>NAND <a href="../extdata" title="wikilink">extdata</a>
+0xf000000c</td>
 <td></td>
 <td></td>
-<td><p>Home Menu first attempts to use <a href="../FS:CreateFile"
+<td>Home Menu first attempts to use <a href="../FS:CreateFile"
 title="wikilink">FS:CreateFile</a> with "/bashotorya.dat", which
 normally fails since that file already exists. Home Menu then repeats
-this with "/bashotorya2.dat".</p></td>
+this with "/bashotorya2.dat".</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Here, Home Menu opens the following SD extdata archives: Home
+<td>Here, Home Menu opens the following SD extdata archives: Home
 Menu badge SD extdata, Home Menu SD extdata, and the theme-cache SD
-extdata.</p></td>
+extdata.</td>
 </tr>
 <tr class="even">
-<td><p>Home Menu SD extdata</p></td>
-<td><p>"/SaveData.dat"</p></td>
-<td><p>0x2da0</p></td>
-<td><p>Prior to doing the read, Home Menu uses <a href="../FSFile:GetSize"
-title="wikilink">FSFile:GetSize</a>.</p></td>
+<td>Home Menu SD extdata</td>
+<td>"/SaveData.dat"</td>
+<td>0x2da0</td>
+<td>Prior to doing the read, Home Menu uses <a href="../FSFile:GetSize"
+title="wikilink">FSFile:GetSize</a>.</td>
 </tr>
 <tr class="odd">
-<td><p>Home Menu SD extdata</p></td>
-<td><p>"/Cache.dat"</p></td>
-<td><p>0x1688</p></td>
-<td><p>Prior to doing the read, Home Menu uses <a href="../FSFile:GetSize"
-title="wikilink">FSFile:GetSize</a>.</p></td>
+<td>Home Menu SD extdata</td>
+<td>"/Cache.dat"</td>
+<td>0x1688</td>
+<td>Prior to doing the read, Home Menu uses <a href="../FSFile:GetSize"
+title="wikilink">FSFile:GetSize</a>.</td>
 </tr>
 <tr class="even">
-<td><p>Home Menu SD extdata</p></td>
-<td><p>"/CacheD.dat"</p></td>
-<td><p>0x36c0</p></td>
-<td><p>This is used to read the cached icon data for the currently
+<td>Home Menu SD extdata</td>
+<td>"/CacheD.dat"</td>
+<td>0x36c0</td>
+<td>This is used to read the cached icon data for the currently
 inserted gamecard, if any. Prior to doing the read, Home Menu uses <a
 href="../FSFile:GetSize" title="wikilink">FSFile:GetSize</a>. After opening
 the file and before <a href="../FSFile:GetSize"
 title="wikilink">FSFile:GetSize</a> is used, Home Menu uses AM commands
 0x10070102(for theme DLC) and 0x30084(gamecard
-"title-listing").</p></td>
+"title-listing").</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu uses the following AM commands for theme DLC here:
-0x10050084 and 0x10020104.</p></td>
+<td>Home Menu uses the following AM commands for theme DLC here:
+0x10050084 and 0x10020104.</td>
 </tr>
 <tr class="even">
-<td><p>Home Menu Theme SD extdata</p></td>
-<td><p>"/BodyCache.bin"</p></td>
-<td><p>0x150000</p></td>
-<td><p>Before opening the file, Home Menu firsts opens this archive
+<td>Home Menu Theme SD extdata</td>
+<td>"/BodyCache.bin"</td>
+<td>0x150000</td>
+<td>Before opening the file, Home Menu firsts opens this archive
 under a new archive-handle again, then closes it. Prior to doing the
 read, Home Menu uses <a href="../FSFile:GetSize"
-title="wikilink">FSFile:GetSize</a>.</p></td>
+title="wikilink">FSFile:GetSize</a>.</td>
 </tr>
 <tr class="odd">
-<td><p>Home Menu Theme SD extdata</p></td>
-<td><p>"/ThemeManage.bin"</p></td>
-<td><p>0x8</p></td>
-<td><p>Prior to doing the read, Home Menu uses <a href="../FSFile:GetSize"
+<td>Home Menu Theme SD extdata</td>
+<td>"/ThemeManage.bin"</td>
+<td>0x8</td>
+<td>Prior to doing the read, Home Menu uses <a href="../FSFile:GetSize"
 title="wikilink">FSFile:GetSize</a>(the result is filesize
-0x800).</p></td>
+0x800).</td>
 </tr>
 <tr class="even">
-<td><p>Home Menu Theme SD extdata</p></td>
-<td><p>"/BgmCache.bin"</p></td>
+<td>Home Menu Theme SD extdata</td>
+<td>"/BgmCache.bin"</td>
 <td></td>
-<td><p>The data is read from here as needed. After opening the file,
+<td>The data is read from here as needed. After opening the file,
 Home Menu uses <a href="../FSFile:GetSize"
-title="wikilink">FSFile:GetSize</a>.</p></td>
+title="wikilink">FSFile:GetSize</a>.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p>boss:P commands 0x00040000 and 0x04040080 are used here. Home
+<td>boss:P commands 0x00040000 and 0x04040080 are used here. Home
 Menu opens NAND shared-extdata 0xf000000e, then closes it when the
 archive was opened successfully. Then Home Menu uses boss:P command
-0x04500102 with the theme extdata, with string "thmtop".</p></td>
+0x04500102 with the theme extdata, with string "thmtop".</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p>boss:P command 0x04040080 is used, with the input programID set
+<td>boss:P command 0x04040080 is used, with the input programID set
 to the gamecard one. Then boss:P commands 0x000E0000 and 0x00160082 are
-used.</p></td>
+used.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="../AMNet:GetTitleIDList"
+<td><a href="../AMNet:GetTitleIDList"
 title="wikilink">AM:GetTitleIDList</a> is used with mediatype=SD and
-maxTIDs = 0x1c00.</p></td>
+maxTIDs = 0x1c00.</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p>boss:P command 0x00160082 is used.</p></td>
+<td>boss:P command 0x00160082 is used.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="../PTM_Services" title="wikilink">PTM:GetStepHistory</a> is
-used.</p></td>
+<td><a href="../PTM_Services" title="wikilink">PTM:GetStepHistory</a> is
+used.</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p>srv_GetServiceHandle is used to initialize the service handle for
+<td>srv_GetServiceHandle is used to initialize the service handle for
 <a href="../AC_Services" title="wikilink">"ac:u"</a>, then <a
 href="../AC_Services" title="wikilink">ACU:SetClientVersion</a> is used. <a
 href="../Services" title="wikilink">srv_Subscribe</a> is used, then ACU
-command 0x002F0004 is used.</p></td>
+command 0x002F0004 is used.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="../AMNet:GetTitleIDList"
+<td><a href="../AMNet:GetTitleIDList"
 title="wikilink">AM:GetTitleIDList</a> is used with mediatype=NAND and
-maxTIDs = 0x1c00.</p></td>
+maxTIDs = 0x1c00.</td>
 </tr>
 <tr class="even">
-<td><p>NAND extdata 0xf000000b</p></td>
-<td><p>"/gamecoin.dat"</p></td>
-<td><p>0x14</p></td>
-<td><p>Home Menu first tries to use FS:CreateFile with this, which will
+<td>NAND extdata 0xf000000b</td>
+<td>"/gamecoin.dat"</td>
+<td>0x14</td>
+<td>Home Menu first tries to use FS:CreateFile with this, which will
 fail when the file already exists. This file is then opened with
 openflags=RW. After reading this file, Home Menu then uses <a
 href="../PTM_Services" title="wikilink">PTM:GetTotalStepCount</a>, then
@@ -1342,84 +1342,84 @@ title="wikilink">AM:GetTitleIDList3</a> with mediatype=NAND and
 maxTIDs=0x2000. Then Home Menu uses <a href="../AMNet:ListTitles"
 title="wikilink">AM:ListTitles</a> with the NAND promotional-video
 titleID. Then Home Menu attempts to open the ExeFS:/icon in the NAND
-promotional-video title.</p></td>
+promotional-video title.</td>
 </tr>
 <tr class="odd">
-<td><p>Home Menu <a href="../System_SaveData"
-title="wikilink">System_SaveData</a></p></td>
-<td><p>"/Launcher.dat"</p></td>
+<td>Home Menu <a href="../System_SaveData"
+title="wikilink">System_SaveData</a></td>
+<td>"/Launcher.dat"</td>
 <td></td>
-<td><p>Prior to doing the write, Home Menu uses <a href="../FSFile:GetSize"
+<td>Prior to doing the write, Home Menu uses <a href="../FSFile:GetSize"
 title="wikilink">FSFile:GetSize</a>. Home Menu writes 0x2490-bytes to
 the file here. From a separate thread(?) at the same time, Home Menu
 also uses <a href="../AM:ReloadDBS" title="wikilink">AM:ReloadDBS</a> and
-AM command 0x00130040 with input=0x1.</p></td>
+AM command 0x00130040 with input=0x1.</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu loads the u8 value from <a href="../Config_Savegame"
-title="wikilink">cfg</a> blkID 0x000E0000 here.</p></td>
+<td>Home Menu loads the u8 value from <a href="../Config_Savegame"
+title="wikilink">cfg</a> blkID 0x000E0000 here.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="../AM:ReloadDBS" title="wikilink">AM:ReloadDBS</a>, AM
+<td><a href="../AM:ReloadDBS" title="wikilink">AM:ReloadDBS</a>, AM
 command 0x10070102(for theme DLC), AM command 0x00130040, and AM command
 0x10050084(for theme DLC) are used here. At the same time(from a
 different thread?), the "act:u" service handle is initialized with
 srv_GetServiceHandle. Then ACTU commands 0x00010084 and 0x000600C2 are
-used.</p></td>
+used.</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p>The <a href="../NIM_Services" title="wikilink">"nim:u"</a> service
+<td>The <a href="../NIM_Services" title="wikilink">"nim:u"</a> service
 handle is initialized with srv_GetServiceHandle. Then NIMU commands
-0x000F0042, 0x00170042, 0x00150000, and 0x00050000 are used.</p></td>
+0x000F0042, 0x00170042, 0x00150000, and 0x00050000 are used.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p>AM command 0x10020104(theme DLC) is used here. Then Home Menu CXI
-RomFS data is read.</p></td>
+<td>AM command 0x10020104(theme DLC) is used here. Then Home Menu CXI
+RomFS data is read.</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu CXI RomFS data is read. <a href="../Filesystem_services"
+<td>Home Menu CXI RomFS data is read. <a href="../Filesystem_services"
 title="wikilink">FS:GetSpecialContentIndex</a> for the gamecard is used,
-then MICU initialization is done here(separate thread maybe?).</p></td>
+then MICU initialization is done here(separate thread maybe?).</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="../ACU:GetWifiStatus"
+<td><a href="../ACU:GetWifiStatus"
 title="wikilink">ACU:GetWifiStatus</a> is used, the NAND shared-extdata
-0xf000000b archive is then opened here.</p></td>
+0xf000000b archive is then opened here.</td>
 </tr>
 <tr class="even">
-<td><p>NAND extdata 0xf000000b</p></td>
-<td><p>"/idb.dat"</p></td>
-<td><p>0x2008</p></td>
-<td><p>This first opens the file for writing, then uses <a
+<td>NAND extdata 0xf000000b</td>
+<td>"/idb.dat"</td>
+<td>0x2008</td>
+<td>This first opens the file for writing, then uses <a
 href="../FSFile:GetSize" title="wikilink">FSFile:GetSize</a>(output
 filesize is 0x6d4000). Then it writes to the file using size 0, then
 closes the file. Then <a href="../PTM_Services"
 title="wikilink">PTM:GetStepHistory</a> is used. Then Home Menu opens
-"/idbt.dat", then reads 0x2008-bytes.</p></td>
+"/idbt.dat", then reads 0x2008-bytes.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu starts using <a href="../News_Services"
+<td>Home Menu starts using <a href="../News_Services"
 title="wikilink">"<span>news:s</span>"</a> commands here. While Home
 Menu is doing this, it also uses(from another thread?) <a
 href="../NS_and_APT_Services"
@@ -1431,40 +1431,40 @@ Home Menu also uses the following commands: <a href="../ACU:GetWifiStatus"
 title="wikilink">ACU:GetWifiStatus</a>, <a href="../NDM_Services"
 title="wikilink">NDMU:QueryExclusiveMode</a>, and CECDS command
 0x000E0000. Then <a href="../Config_Savegame" title="wikilink">cfg</a>
-blkID 0x000D0000 is loaded.</p></td>
+blkID 0x000D0000 is loaded.</td>
 </tr>
 <tr class="even">
-<td><p>NAND extdata 0xf000000b</p></td>
-<td><p>"/idbt.dat"</p></td>
+<td>NAND extdata 0xf000000b</td>
+<td>"/idbt.dat"</td>
 <td></td>
-<td><p>Home Menu writes 0x2008-bytes to this file.</p></td>
+<td>Home Menu writes 0x2008-bytes to this file.</td>
 </tr>
 <tr class="odd">
-<td><p>NAND extdata 0xf000000e</p></td>
-<td><p>"/versionList.dat"</p></td>
-<td><p>Loaded from the filesize.</p></td>
+<td>NAND extdata 0xf000000e</td>
+<td>"/versionList.dat"</td>
+<td>Loaded from the filesize.</td>
 <td></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p>boss:P command 0x00200082 is used with string "mmVerDl".</p></td>
+<td>boss:P command 0x00200082 is used with string "mmVerDl".</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p>...</p></td>
+<td>...</td>
 </tr>
 <tr class="even">
-<td><p>Home Menu <a href="../System_SaveData"
-title="wikilink">System_SaveData</a></p></td>
-<td><p>"/Launcher.dat"</p></td>
+<td>Home Menu <a href="../System_SaveData"
+title="wikilink">System_SaveData</a></td>
+<td>"/Launcher.dat"</td>
 <td></td>
-<td><p>When Home Menu is terminating(?), Home Menu writes 0x2490-bytes
+<td>When Home Menu is terminating(?), Home Menu writes 0x2490-bytes
 to the file here. After doing this, Home Menu opens, writes, and closes
-the file again.</p></td>
+the file again.</td>
 </tr>
 </tbody>
 </table>

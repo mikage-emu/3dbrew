@@ -30,92 +30,92 @@ extdata](Extdata#NAND_Shared_Extdata "wikilink") archive f0000000b.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x0</p></td>
-<td><p>0x4</p></td>
-<td><p>Header "CFOG" (Mii Maker section)</p></td>
+<td>0x0</td>
+<td>0x4</td>
+<td>Header "CFOG" (Mii Maker section)</td>
 </tr>
 <tr class="even">
-<td><p>0x4</p></td>
-<td><p>0x4</p></td>
-<td><p>Header 0x00000100</p></td>
+<td>0x4</td>
+<td>0x4</td>
+<td>Header 0x00000100</td>
 </tr>
 <tr class="odd">
-<td><p>0x8</p></td>
-<td><p>0x23F0 (100 * 0x5C)</p></td>
-<td><p>Array of owned (saved in Mii Maker) Miis. Order in file is
-unrelated to canonical order in-app.</p></td>
+<td>0x8</td>
+<td>0x23F0 (100 * 0x5C)</td>
+<td>Array of owned (saved in Mii Maker) Miis. Order in file is
+unrelated to canonical order in-app.</td>
 </tr>
 <tr class="even">
-<td><p>0x23F8</p></td>
-<td><p>0x4</p></td>
-<td><p>Header "CFHE"</p></td>
+<td>0x23F8</td>
+<td>0x4</td>
+<td>Header "CFHE"</td>
 </tr>
 <tr class="odd">
-<td><p>0x23FC</p></td>
-<td><p>0x2</p></td>
-<td><p>Linked list tail index. 0xFFFF if the list is empty</p></td>
+<td>0x23FC</td>
+<td>0x2</td>
+<td>Linked list tail index. 0xFFFF if the list is empty</td>
 </tr>
 <tr class="even">
-<td><p>0x23FE</p></td>
-<td><p>0x2</p></td>
-<td><p>Linked list head index. 0xFFFF if the list is empty</p></td>
+<td>0x23FE</td>
+<td>0x2</td>
+<td>Linked list head index. 0xFFFF if the list is empty</td>
 </tr>
 <tr class="odd">
-<td><p>0x2400</p></td>
-<td><p>0xA410 (3000 * 0xE)</p></td>
-<td><p>Linked list of objects? See chapter</p></td>
+<td>0x2400</td>
+<td>0xA410 (3000 * 0xE)</td>
+<td>Linked list of objects? See chapter</td>
 </tr>
 <tr class="even">
-<td><p>0xC810</p></td>
-<td><p>0xE</p></td>
-<td><p>Padding?</p></td>
+<td>0xC810</td>
+<td>0xE</td>
+<td>Padding?</td>
 </tr>
 <tr class="odd">
-<td><p>0xC81E</p></td>
-<td><p>0x2</p></td>
-<td><p>Checksum of all of the above (the first 0xC81E byte). See section
-<a href="#Checksum" title="wikilink">below</a>.</p></td>
+<td>0xC81E</td>
+<td>0x2</td>
+<td>Checksum of all of the above (the first 0xC81E byte). See section
+<a href="#Checksum" title="wikilink">below</a>.</td>
 </tr>
 <tr class="even">
-<td><p>0xC820</p></td>
-<td><p>0x4</p></td>
-<td><p>Header "CFRA" (Invitations section)</p></td>
+<td>0xC820</td>
+<td>0x4</td>
+<td>Header "CFRA" (Invitations section)</td>
 </tr>
 <tr class="odd">
-<td><p>0xC824</p></td>
-<td><p>0x4</p></td>
-<td><p>Mii count in this section. Maximum 100</p></td>
+<td>0xC824</td>
+<td>0x4</td>
+<td>Mii count in this section. Maximum 100</td>
 </tr>
 <tr class="even">
-<td><p>0xC828</p></td>
-<td><p>0x64 (100 * 0x1)</p></td>
-<td><p>Order index of Mii in this section?</p></td>
+<td>0xC828</td>
+<td>0x64 (100 * 0x1)</td>
+<td>Order index of Mii in this section?</td>
 </tr>
 <tr class="odd">
-<td><p>0xC88C</p></td>
-<td><p>0x1C20 (100 * 0x48)</p></td>
-<td><p>Array of Miis contributed from games, used for Mii Plaza
+<td>0xC88C</td>
+<td>0x1C20 (100 * 0x48)</td>
+<td>Array of Miis contributed from games, used for Mii Plaza
 "invitations" feature.<br />
 The format isn't that of a full Mii. The "author" field is
-missing</p></td>
+missing</td>
 </tr>
 <tr class="even">
-<td><p>0xE4AC</p></td>
-<td><p>0x12</p></td>
-<td><p>01 00 [..] 00</p></td>
+<td>0xE4AC</td>
+<td>0x12</td>
+<td>01 00 [..] 00</td>
 </tr>
 <tr class="odd">
-<td><p>0xE4BE</p></td>
-<td><p>0x2</p></td>
-<td><p>Checksum over the data above starting from 0xC820</p></td>
+<td>0xE4BE</td>
+<td>0x2</td>
+<td>Checksum over the data above starting from 0xC820</td>
 </tr>
 <tr class="even">
-<td><p>0xE4C0</p></td>
-<td><p>0x3D860 (3000 * 0x54)</p></td>
-<td><p>Another array of Miis. Seems related to the CFHE section.<br />
+<td>0xE4C0</td>
+<td>0x3D860 (3000 * 0x54)</td>
+<td>Another array of Miis. Seems related to the CFHE section.<br />
 The Mii format in this section is modified. The "author" field is
 missing, A 4-byte timestamp (seconds since 2000) together with 8-byte
-zeros(?) is appended at the end.</p></td>
+zeros(?) is appended at the end.</td>
 </tr>
 </tbody>
 </table>
@@ -189,175 +189,175 @@ checksum := crc16_CCITTWii(miidb[0:0xc81e]) # checksum over the first 0xc81e byt
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>0x0</p></td>
-<td><p>0x1</p></td>
-<td><p>Mii Version - Always 3</p></td>
+<td>0x0</td>
+<td>0x1</td>
+<td>Mii Version - Always 3</td>
 </tr>
 <tr class="even">
-<td><p>0x1</p></td>
-<td><p>0x1</p></td>
-<td><p>bit 0: allow copying<br />
+<td>0x1</td>
+<td>0x1</td>
+<td>bit 0: allow copying<br />
 bit 1: profanity flag (whether in Mii name or creator name does not
 matter)<br />
 bit 2-3: region lock (0=no lock, 1=JPN, 2=USA, 3=EUR)<br />
-bit4-5:character set(0=JPN+USA+EUR, 1=CHN, 2=KOR, 3=TWN)</p></td>
+bit4-5:character set(0=JPN+USA+EUR, 1=CHN, 2=KOR, 3=TWN)</td>
 </tr>
 <tr class="odd">
-<td><p>0x2</p></td>
-<td><p>0x1</p></td>
-<td><p>Mii position shown on the selection screen<br />
+<td>0x2</td>
+<td>0x1</td>
+<td>Mii position shown on the selection screen<br />
 bit 0-3: page index<br />
-bit 4-7: slot index</p></td>
+bit 4-7: slot index</td>
 </tr>
 <tr class="even">
-<td><p>0x3</p></td>
-<td><p>0x1</p></td>
-<td><p>bit 0-3: ?<br />
+<td>0x3</td>
+<td>0x1</td>
+<td>bit 0-3: ?<br />
 bit 4-6: Device Mii was originally made on (1=Wii, 2=DS, 3=3DS, 4=Wii
-U/Switch)</p></td>
+U/Switch)</td>
 </tr>
 <tr class="odd">
-<td><p>0x4</p></td>
-<td><p>0x8</p></td>
-<td><p>System ID (identifies owner, for purpose of enforcing editing
+<td>0x4</td>
+<td>0x8</td>
+<td>System ID (identifies owner, for purpose of enforcing editing
 restrictions and blue pants).<br />
-Is not tied to the MAC address anymore.</p></td>
+Is not tied to the MAC address anymore.</td>
 </tr>
 <tr class="even">
-<td><p>0xC</p></td>
-<td><p>0x4</p></td>
-<td><p>Mii ID (big-endian 32bit unsigned integer):<br />
+<td>0xC</td>
+<td>0x4</td>
+<td>Mii ID (big-endian 32bit unsigned integer):<br />
 Bit 0..27: (bit[0..27] * 2) = date of creation (seconds since 01/01/2010
 00:00:00)<br />
 Bit 28: Always set?<br />
 Bit 29: set for temporary Mii<br />
 Bit 30: Set for DSi mii?<br />
-Bit 31: not set if Mii is special</p></td>
+Bit 31: not set if Mii is special</td>
 </tr>
 <tr class="odd">
-<td><p>0x10</p></td>
-<td><p>0x6</p></td>
-<td><p>Creator's full MAC</p></td>
+<td>0x10</td>
+<td>0x6</td>
+<td>Creator's full MAC</td>
 </tr>
 <tr class="even">
-<td><p>0x16</p></td>
-<td><p>0x2</p></td>
-<td><p>Padding (0000)</p></td>
+<td>0x16</td>
+<td>0x2</td>
+<td>Padding (0000)</td>
 </tr>
 <tr class="odd">
-<td><p>0x18</p></td>
-<td><p>0x2</p></td>
-<td><p>bit 0: sex (0 if male, 1 if female)<br />
+<td>0x18</td>
+<td>0x2</td>
+<td>bit 0: sex (0 if male, 1 if female)<br />
 bit 1-4: birthday month<br />
 bit 5-9: birthday day<br />
 bit 10-13: favorite color<br />
-bit 14: favorite mii (0 if false, 1 if true)</p></td>
+bit 14: favorite mii (0 if false, 1 if true)</td>
 </tr>
 <tr class="even">
-<td><p>0x1A</p></td>
-<td><p>0x14</p></td>
-<td><p>UTF-16 Mii Name (10 chars max, 0000 terminated)</p></td>
+<td>0x1A</td>
+<td>0x14</td>
+<td>UTF-16 Mii Name (10 chars max, 0000 terminated)</td>
 </tr>
 <tr class="odd">
-<td><p>0x2E</p></td>
-<td><p>0x2</p></td>
-<td><p>width &amp; height</p></td>
+<td>0x2E</td>
+<td>0x2</td>
+<td>width &amp; height</td>
 </tr>
 <tr class="even">
-<td><p>0x30</p></td>
-<td><p>0x1</p></td>
-<td><p>bit 0: disable sharing<br />
+<td>0x30</td>
+<td>0x1</td>
+<td>bit 0: disable sharing<br />
 bit 1-4: face shape<br />
-bit 5-7: skin color</p></td>
+bit 5-7: skin color</td>
 </tr>
 <tr class="odd">
-<td><p>0x31</p></td>
-<td><p>0x1</p></td>
-<td><p>bit 0-3: wrinkles<br />
-bit 4-7: makeup</p></td>
+<td>0x31</td>
+<td>0x1</td>
+<td>bit 0-3: wrinkles<br />
+bit 4-7: makeup</td>
 </tr>
 <tr class="even">
-<td><p>0x32</p></td>
-<td><p>0x1</p></td>
-<td><p>hair style</p></td>
+<td>0x32</td>
+<td>0x1</td>
+<td>hair style</td>
 </tr>
 <tr class="odd">
-<td><p>0x33</p></td>
-<td><p>0x1</p></td>
-<td><p>bit 0-2: hair color<br />
-bit 3: flip hair</p></td>
+<td>0x33</td>
+<td>0x1</td>
+<td>bit 0-2: hair color<br />
+bit 3: flip hair</td>
 </tr>
 <tr class="even">
-<td><p>0x34</p></td>
-<td><p>0x4</p></td>
-<td><p>bit 0-5: eye style<br />
+<td>0x34</td>
+<td>0x4</td>
+<td>bit 0-5: eye style<br />
 bit 6-8: eye color<br />
 bit 9-12: eye scale<br />
 bit 13-15: eye yscale<br />
 bit 16-20: eye rotation<br />
 bit 21-24: eye x spacing<br />
-bit 25-29: eye y position</p></td>
+bit 25-29: eye y position</td>
 </tr>
 <tr class="odd">
-<td><p>0x38</p></td>
-<td><p>0x4</p></td>
-<td><p>bit 0-4: eyebrow style<br />
+<td>0x38</td>
+<td>0x4</td>
+<td>bit 0-4: eyebrow style<br />
 bit 5-7: eyebrow color<br />
 bit 8-11: eyebrow scale<br />
 bit 12-14: eyebrow yscale<br />
 bit 16-19: eyebrow rotation<br />
 bit 21-24: eyebrow x spacing<br />
-bit 25-29: eyebrow y position</p></td>
+bit 25-29: eyebrow y position</td>
 </tr>
 <tr class="even">
-<td><p>0x3C</p></td>
-<td><p>0x2</p></td>
-<td><p>bit 0-4: nose style<br />
+<td>0x3C</td>
+<td>0x2</td>
+<td>bit 0-4: nose style<br />
 bit 5-8: nose scale<br />
-bit 9-13: nose y position</p></td>
+bit 9-13: nose y position</td>
 </tr>
 <tr class="odd">
-<td><p>0x3E</p></td>
-<td><p>0x2</p></td>
-<td><p>bit 0-5: mouth style<br />
+<td>0x3E</td>
+<td>0x2</td>
+<td>bit 0-5: mouth style<br />
 bit 6-8: mouth color<br />
 bit 9-12: mouth scale<br />
-bit 13-15: mouth yscale</p></td>
+bit 13-15: mouth yscale</td>
 </tr>
 <tr class="even">
-<td><p>0x40</p></td>
-<td><p>0x2</p></td>
-<td><p>bit 0-4: mouth y position<br />
-bit 5-7: mustach style</p></td>
+<td>0x40</td>
+<td>0x2</td>
+<td>bit 0-4: mouth y position<br />
+bit 5-7: mustach style</td>
 </tr>
 <tr class="odd">
-<td><p>0x42</p></td>
-<td><p>0x2</p></td>
-<td><p>bit 0-2: beard style<br />
+<td>0x42</td>
+<td>0x2</td>
+<td>bit 0-2: beard style<br />
 bit 3-5: beard color<br />
 bit 6-9: mustache scale<br />
-bit 10-14:mustache y position</p></td>
+bit 10-14:mustache y position</td>
 </tr>
 <tr class="even">
-<td><p>0x44</p></td>
-<td><p>0x2</p></td>
-<td><p>bit 0-3: glasses style<br />
+<td>0x44</td>
+<td>0x2</td>
+<td>bit 0-3: glasses style<br />
 bit 4-6: glasses color<br />
 bit 7-10: glasses scale<br />
-bit 11-15: glasses y position</p></td>
+bit 11-15: glasses y position</td>
 </tr>
 <tr class="odd">
-<td><p>0x46</p></td>
-<td><p>0x2</p></td>
-<td><p>bit 0: enable mole<br />
+<td>0x46</td>
+<td>0x2</td>
+<td>bit 0: enable mole<br />
 bit 1-4: mole scale<br />
 bit 5-9: mole x position<br />
-bit 10-14: mole y position</p></td>
+bit 10-14: mole y position</td>
 </tr>
 <tr class="even">
-<td><p>0x48</p></td>
-<td><p>0x14</p></td>
-<td><p>UTF-16 Author Name (10 chars max, 0000 terminated)</p></td>
+<td>0x48</td>
+<td>0x14</td>
+<td>UTF-16 Author Name (10 chars max, 0000 terminated)</td>
 </tr>
 </tbody>
 </table>

@@ -1,1 +1,0 @@
-<span class="anchor" id="{{{1}}}"></span>

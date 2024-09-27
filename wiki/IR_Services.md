@@ -1,3 +1,5 @@
+__TOC__
+
 # IR Service "ir:u"
 
 | Command Header | Available since system version | Description                                                 |

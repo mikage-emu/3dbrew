@@ -1,3 +1,5 @@
+__TOC__
+
 # NIM updater service "nim:u"
 
 | Command Header | Description                                                                                        |

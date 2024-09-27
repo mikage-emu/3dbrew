@@ -1,0 +1,1 @@
+<span style="font-family:monospace">[:](:{{{1}}} "wikilink")</span>

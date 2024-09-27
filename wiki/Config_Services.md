@@ -1,3 +1,5 @@
+__TOC__
+
 # Config service "cfg:u"
 
 | Command Header | Available since system version  | Description                                                                                                                 |
@@ -16,7 +18,8 @@
 
 # Config service "cfg:s"
 
-cfg:s contains all the commands in cfg:u, in addition to the following:
+cfg:s contains all the commands in [cfg:u](#cfg:u "wikilink"), in
+addition to the following:
 
 | Command Header | Available since system version | Description                                                             |
 |----------------|--------------------------------|-------------------------------------------------------------------------|
@@ -42,8 +45,8 @@ determine the SOAP RegionId, when sending SOAP requests. See
 
 # Config service "cfg:i"
 
-cfg:i contains all the commands in cfg:u and cfg:s, in addition to the
-following:
+cfg:i contains all the commands in [cfg:u](#cfg:u "wikilink") and
+[cfg:s](#cfg:s "wikilink"), in addition to the following:
 
 | Command Header | Available since system version | Description                                                                                                                                          |
 |----------------|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -105,7 +108,7 @@ following:
 | 0x00130000     | This uses SPI command 0xB9 for "Deep power down".                                                                                      |
 | 0x00140000     | This uses SPI command 0xAB for "Release from deep power down".                                                                         |
 
-This is an interface for the "SPI::NOR" service, for accessing the Wifi
-NVRAM/SPI Flash.
+This is an interface for the [SPI::NOR](SPI::NOR "wikilink") service,
+for accessing the Wifi NVRAM/SPI Flash.
 
 [Category:Services](Category:Services "wikilink")

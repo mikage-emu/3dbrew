@@ -1,73 +1,76 @@
 QTM is the [New_3DS](New_3DS "wikilink") system module in charge of
-handling head tracking. A maximum of two sessions can be opened for each
-QTM service.
+handling head tracking. A maximum of three (only two until
+[9.3.0-21](9.3.0-21 "wikilink")) sessions for \*all\* QTM services
+combined.
 
 Head tracking is not usable when any other process is using any of the
 cameras, QTM returns error 0xC8A18008 for this.
 
+QTM only tracks the position of the user's two eyes, but does not track
+the area they are focusing at. Hence, "eye-tracking" is sometimes used
+to refer to this feature on 3DS, even though it means something else
+outside the 3DS hacking scene.
+
+Refer to this libctru commit for more details:
+<https://github.com/devkitPro/libctru/commit/8e55cdf05d1f2c07f350ec678d0f0d6a7a2df214>
+
 # QTM services
-
-| Command Header | Description                                                     |
-|----------------|-----------------------------------------------------------------|
-| 0x00010080     | [GetHeadtrackingInfoRaw](QTM:GetHeadtrackingInfoRaw "wikilink") |
-| 0x00020080     | [GetHeadtrackingInfo](QTM:GetHeadtrackingInfo "wikilink")       |
-| 0x00030000     |                                                                 |
-| 0x00040000     |                                                                 |
-| 0x00050040     | (u8 input)                                                      |
-| 0x00060000     | Writes an output u8 to cmdreply\[2\].                           |
-
-The commands under this section are available for all QTM services
-except for "qtm:c".
 
 # QTM user service "qtm:u"
 
-The commands available for this are exactly the same as the commands
-listed under the "QTM services" section.
+| Command ID | Description               |
+|------------|---------------------------|
+| 0x00010080 | GetRawTrackingDataEx      |
+| 0x00020080 | GetTrackingDataEx         |
+| 0x00030000 | EnableManualIrLedControl  |
+| 0x00040000 | DisableManualIrLedControl |
+| 0x00050040 | SetIrLedStatus            |
+| 0x00060000 | IsCurrentAppBlacklisted   |
 
 # QTM system service "qtm:s"
 
-| Command Header | Description                           |
-|----------------|---------------------------------------|
-| 0x04010040     | (float input)                         |
-| 0x04020000     | Writes float output to cmdreply\[2\]. |
-| 0x04030000     |                                       |
-| 0x04040000     |                                       |
-| 0x04050040     | (u8 input)                            |
-| 0x04060000     | Writes an u8 to cmdreply\[2\].        |
-| 0x04070040     | (u8 input)                            |
-| 0x040801C0     |                                       |
-| 0x04090000     | Writes an u8 to cmdreply\[2\].        |
-| 0x040A0040     | (u8 input)                            |
+"qtm:s" has access to all "qtm:u" commands and more:
 
-See also the "QTM services" section.
+| Command ID | Description               |
+|------------|---------------------------|
+| 0x04010040 | SetCentralBarrierPosition |
+| 0x04020000 | GetCameraLuminance        |
+| 0x04030000 | EnableAutoBarrierControl  |
+| 0x04040000 | DisableAutoBarrierControl |
+| 0x04050040 | SetBarrierPosition        |
+| 0x04060000 | GetCurrentBarrierPosition |
+| 0x04070040 | SetIrLedStatusOverride    |
+| 0x040801C0 | SetCalibrationData        |
+| 0x04090000 | GetQtmStatus              |
+| 0x040A0040 | SetQtmStatus              |
 
 # QTM service "qtm:sp"
 
-| Command Header | Description                           |
-|----------------|---------------------------------------|
-| 0x08010040     | (u8 input) Internally compared with 2 |
-| 0x08020000     | Writes 1 to a flag                    |
-| 0x08030040     | Returns a byte loaded from a flag     |
-| 0x08040000     | Writes 1 to a flag                    |
+qtm:sp has access to all "qtm:u", "qtm:s" commands and more:
 
-This service has all of the commands listed under the "QTM services"
-section and the "qtm:s" section, in addition to the above commands.
+| Command ID | Description            |
+|------------|------------------------|
+| 0x08010040 | NotifyTopLcdModeChange |
+| 0x08020000 | NotifyTopLcdPowerOn    |
+| 0x08030000 | IsExpanderInUse        |
+| 0x08040000 | NotifyTopLcdPowerOff   |
 
-This service is used by [NS](NS "wikilink") and
-[GSP](GSP_Services "wikilink")-module, hence no other processes can use
-this service.
+GSP always keeps an handle to this service open. NS sometimes uses this
+service (to blacklist some internal test applications, see
+[NS_CFA](NS_CFA "wikilink")), but when it does it opens then immediately
+closes the session thereafter.
 
-# QTM callibration service "qtm:c"
+# QTM "hardware check" service "qtm:c"
 
-| Command Header | Description                                                            |
-|----------------|------------------------------------------------------------------------|
-| 0x00010000     | InitializeHardwareCheck (sets 0x1EB63410, 0x1EB6342B, 0x1EB6340A to 1) |
-| 0x00020000     | ? (sets 0x1EB6342B, 0x1EB6340A to 0)                                   |
-| 0x00030040     |                                                                        |
-| 0x00040000     | Writes an output u8 to cmdreply\[2\].                                  |
-| 0x00050040     | SetIrLedCheck (u8 input)                                               |
+| Command ID | Description                 |
+|------------|-----------------------------|
+| 0x00010000 | StartHardwareCheck          |
+| 0x00020000 | StopHardwareCheck           |
+| 0x00030040 | SetBarrierPattern           |
+| 0x00040000 | WaitAndCheckExpanderWorking |
+| 0x00050040 | SetIrLedStatusOverride      |
 
-The commands for this service are separate from the commands under the
-"QTM services" section.
+The commands for this service are separate from all the other services
+documented above.
 
 [Category:Services](Category:Services "wikilink")

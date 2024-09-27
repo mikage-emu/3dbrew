@@ -1,3 +1,5 @@
+__TOC__
+
 # NDM service "ndm:u"
 
 | Command Header | Description                                                          |

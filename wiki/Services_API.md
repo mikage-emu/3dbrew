@@ -5,10 +5,10 @@ background](Title_list#00040130_-_System_Modules "wikilink") which wait
 for incoming requests. When a process wants to communicate with a
 service, it first needs to get a handle to the named service, and then
 it can communicate with the service via interprocess communication. Each
-service has a name up to 8 characters, for example "nim:u".
+service has a name up to 8 characters, for example .
 
 Handles for services are retrieved from the [service manager
-port](Services "wikilink"), "srv:". Services are an abstraction of
+port](Services "wikilink"), `srv:`. Services are an abstraction of
 ports, they operate the same way except regular ports can have their
 handles retrieved directly from a SVC.
 
@@ -17,48 +17,295 @@ see [IPC Command Structure](IPC_Command_Structure "wikilink").
 
 List of services (grouped by the process which provides them):
 
-| Old3ds | Services                                                                | Service names                                                                            | Notes                                                                                                                                                                                                                                                                             |
-|--------|-------------------------------------------------------------------------|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Yes    | [Filesystem services‎](Filesystem_services‎ "wikilink")                   | fs:USER, fs:LDR, fs:REG                                                                  | USER: normal applications and system modules, LDR: loader, REG: register                                                                                                                                                                                                          |
-| Yes    | [Process Services‎](Process_Services‎ "wikilink")                         | ps:ps                                                                                    |                                                                                                                                                                                                                                                                                   |
-| Yes    | [PXI Services‎](PXI_Services‎ "wikilink")                                 | PxiFS0, PxiFS1, PxiFSB, PxiFSR, PxiPM, pxi:am9, pxi:dev, pxi:mc, pxi:ps9                 |                                                                                                                                                                                                                                                                                   |
-| Yes    | [Application Manager Services](Application_Manager_Services "wikilink") | am:app, am:net, am:u, am:sys, am:pipe                                                    | app: am for applications, net: network installation ([nim](NIM_Services "wikilink")), u: local installation, sys: am for system titles, pipe: not an actual port (internally used to represent the [FSFile-like interface](Application_Manager_Services#File_service "wikilink")) |
-| Yes    | [Process Manager Services](Process_Manager_Services "wikilink")         | pm:app, pm:dbg                                                                           | app: launching titles, dbg: launching titles with debugging enabled                                                                                                                                                                                                               |
-| Yes    | [NIM Services](NIM_Services "wikilink")                                 | nim:aoc, nim:ndm, nim:s, nim:u                                                           | aoc: DLC, ndm: for [ndm](NDM_Services "wikilink"), s: for eShop, u: for updater                                                                                                                                                                                                   |
-| Yes    | [Config Services](Config_Services "wikilink")                           | cfg:u, cfg:s, cfg:i, cfg:nor                                                             | u: for user, s: for system, i: for initialization/formatting, nor: accesses wifi SPI flash                                                                                                                                                                                        |
-| Yes    | [NS and APT Services](NS "wikilink")                                    | ns:s, ns:p, ns:c, <APT:A>, <APT:S>, <APT:U>                                              | ns:s: for system, ns:p: power (shutdown/reboot), ns:c: ?, <APT:A>: application, <APT:S>: system, <APT:U>: user                                                                                                                                                                    |
-| Yes    | [RO Services](RO_Services "wikilink")                                   | ldr:ro                                                                                   |                                                                                                                                                                                                                                                                                   |
-| Yes    | [NDM Services](NDM_Services "wikilink")                                 | ndm:u                                                                                    |                                                                                                                                                                                                                                                                                   |
-| Yes    | [CSND Services](CSND_Services "wikilink")                               | csnd:SND                                                                                 |                                                                                                                                                                                                                                                                                   |
-| Yes    | [Camera Services](Camera_Services "wikilink")                           | cam:u, y2r:u, cam:s, cam:c, cam:q (New3DS only)                                          |                                                                                                                                                                                                                                                                                   |
-| Yes    | [Codec Services](Codec_Services "wikilink")                             | cdc:HID, cdc:MIC, cdc:CSN, cdc:DSP, cdc:LGY, cdc:CHK                                     | HID: human interface device, MIC: microphone, CSN: for [csnd](CSND_Services "wikilink")?, DSP: for [dsp](DSP_Services "wikilink")?, LGY: legacy (some kind of backwards compat?), CHK: ?                                                                                          |
-| Yes    | [DLP Services](DLP_Services "wikilink")                                 | dlp:CLNT, dlp:FKCL, dlp:SRVR                                                             | CLNT: client, FKCL: fake client, SRVR: server                                                                                                                                                                                                                                     |
-| Yes    | [DSP Services](DSP_Services "wikilink")                                 | dsp::DSP                                                                                 |                                                                                                                                                                                                                                                                                   |
-| Yes    | [GSP Services](GSP_Services "wikilink")                                 | gsp::Lcd, gsp::Gpu                                                                       | Lcd: LCD control, Gpu: GPU control                                                                                                                                                                                                                                                |
-| Yes    | [BOSS Services](BOSS_Services "wikilink")                               | boss:U, boss:P, boss:M                                                                   | U: user, P: privileged, M: for [ndm](NDM_Services "wikilink")                                                                                                                                                                                                                     |
-| Yes    | [CECD Services](CECD_Services "wikilink")                               | cecd:u, cecd:s, cecd:ndm                                                                 | u: user, s: system, ndm: for [ndm](NDM_Services "wikilink")                                                                                                                                                                                                                       |
-| Yes    | [IR Services](IR_Services "wikilink")                                   | ir:u, ir:USER, ir:rst                                                                    |                                                                                                                                                                                                                                                                                   |
-| Yes    | [I2C Services](I2C_Services "wikilink")                                 | i2c::MCU, i2c::CAM, i2c::LCD, i2c::DEB, i2c::HID, i2c::IR, i2c::EEP, i2c::NFC, i2c::QTM  |                                                                                                                                                                                                                                                                                   |
-| Yes    | [GPIO Services](GPIO_Services "wikilink")                               | gpio:CDC, gpio:MCU, gpio:HID, gpio:NWM, gpio:IR, gpio:NFC, gpio:QTM                      |                                                                                                                                                                                                                                                                                   |
-| Yes    | [HID Services](HID_Services "wikilink")                                 | hid:NFC, hid:QTM, hid:SPVR, hid:USER                                                     | NFC: near-field communication (amiibo), QTM: head tracking device (related to [QTM Services](QTM_Services "wikilink"))?, SPVR: system privileged?                                                                                                                                 |
-| Yes    | [PTM Services](PTM_Services "wikilink")                                 | ptm:gets, ptm:play, ptm:s, ptm:sets, ptm:sysm, ptm:u                                     | gets: get system time, play: play history, s: system, sets: set system time, sysm: system menu (homemenu/testmenu), u: user                                                                                                                                                       |
-| Yes    | [NWM Services](NWM_Services "wikilink")                                 | nwm::CEC, nwm::EXT, nwm::INF, nwm::SAP, nwm::SOC, nwm::TST, nwm::UDS                     | CEC: streetpass, EXT: ?, INF: infrastructure, SAP: ?, SOC: socket, UDS: local WLAN, TST: ?                                                                                                                                                                                        |
-| Yes    | [HTTP Services](HTTP_Services "wikilink")                               | <http:C>                                                                                 | C: connection                                                                                                                                                                                                                                                                     |
-| Yes    | [SSL Services](SSL_Services "wikilink")                                 | ssl:C                                                                                    | C: connection                                                                                                                                                                                                                                                                     |
-| Yes    | [Socket Services](Socket_Services "wikilink")                           | soc:P, soc:U                                                                             | P: privileged, U: user                                                                                                                                                                                                                                                            |
-| Yes    | [AC Services](AC_Services "wikilink")                                   | ac:i, ac:u                                                                               | i: internal, u: user                                                                                                                                                                                                                                                              |
-| Yes    | [Friend Services](Friend_Services "wikilink")                           | frd:a, frd:n, frd:u                                                                      | a: admin, n: for [ndm](NDM_Services "wikilink"), u: user                                                                                                                                                                                                                          |
-| Yes    | [News Services](News_Services "wikilink")                               | news:s, news:u                                                                           | s: system, u:user                                                                                                                                                                                                                                                                 |
-| Yes    | [PDN Services](PDN_Services "wikilink")                                 | pdn:s, pdn:d, pdn:i, pdn:g, pdn:c                                                        |                                                                                                                                                                                                                                                                                   |
-| Yes    | [SPI Services](SPI_Services "wikilink")                                 | SPI::NOR, SPI::CD2, SPI::CS2, SPI::CS3, SPI::DEF                                         |                                                                                                                                                                                                                                                                                   |
-| Yes    | [Loader Services](Loader_Services "wikilink")                           | Loader                                                                                   |                                                                                                                                                                                                                                                                                   |
-| Yes    | [MCU Services](MCU_Services "wikilink")                                 | mcu::CAM, mcu::GPU, mcu::HID, mcu::RTC, mcu::SND, mcu::NWM, mcu::HWC, mcu::PLS, mcu::CDC |                                                                                                                                                                                                                                                                                   |
-| Yes    | [MIC Services](MIC_Services "wikilink")                                 | mic:u                                                                                    |                                                                                                                                                                                                                                                                                   |
-| Yes    | [ACT Services](ACT_Services "wikilink")                                 | act:a, act:u                                                                             | a: admin, u: user                                                                                                                                                                                                                                                                 |
-| Yes    | [MP Services](MP_Services "wikilink")                                   | mp:u                                                                                     |                                                                                                                                                                                                                                                                                   |
-| Yes    | [NFC Services](NFC_Services "wikilink")                                 | nfc:dev, nfc:m, nfc:p, nfc:r, nfc:s, nfc:u                                               | dev: developer, m: ? p: passthrough?, r: raw?, s: system, u: user                                                                                                                                                                                                                 |
-| No     | [MVD Services](MVD_Services "wikilink")                                 |                                                                                          |                                                                                                                                                                                                                                                                                   |
-| No     | [QTM Services](QTM_Services "wikilink")                                 |                                                                                          |                                                                                                                                                                                                                                                                                   |
+<table>
+<thead>
+<tr class="header">
+<th><p>Old3ds</p></th>
+<th><p>Services</p></th>
+<th><p>Service names</p></th>
+<th scope="col" width="200"><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="Filesystem_services‎" title="wikilink">Filesystem
+services‎</a></p></td>
+<td><p>, , </p></td>
+<td><p>USER: normal applications and system modules, LDR: loader, REG:
+register</p></td>
+</tr>
+<tr class="even">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="Process_Services‎" title="wikilink">Process
+Services‎</a></p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="PXI_Services‎" title="wikilink">PXI Services‎</a></p></td>
+<td><p>, , , , , , , , </p></td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="Application_Manager_Services"
+title="wikilink">Application Manager Services</a></p></td>
+<td><p>, , , , </p></td>
+<td><p>app: am for applications, net: network installation (<a
+href="NIM_Services" title="wikilink">nim</a>), u: local installation,
+sys: am for system titles, pipe: not an actual port (internally used to
+represent the <a href="Application_Manager_Services#File_service"
+title="wikilink">FSFile-like interface</a>)</p></td>
+</tr>
+<tr class="odd">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="Process_Manager_Services" title="wikilink">Process
+Manager Services</a></p></td>
+<td><p>, </p></td>
+<td><p>app: launching titles, dbg: launching titles with debugging
+enabled</p></td>
+</tr>
+<tr class="even">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="NIM_Services" title="wikilink">NIM Services</a></p></td>
+<td><p>, , , </p></td>
+<td><p>aoc: DLC, ndm: for <a href="NDM_Services"
+title="wikilink">ndm</a>, s: for eShop, u: for updater</p></td>
+</tr>
+<tr class="odd">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="Config_Services" title="wikilink">Config
+Services</a></p></td>
+<td><p>, , , </p></td>
+<td><p>u: for user, s: for system, i: for initialization/formatting,
+nor: accesses wifi SPI flash</p></td>
+</tr>
+<tr class="even">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="NS" title="wikilink">NS and APT Services</a></p></td>
+<td><p>, , , , , </p></td>
+<td><p>ns:s: for system, ns:p: power (shutdown/reboot), ns:c: ?, <a
+href="APT:A">APT:A</a>: application, <a href="APT:S">APT:S</a>: system,
+<a href="APT:U">APT:U</a>: user</p></td>
+</tr>
+<tr class="odd">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="RO_Services" title="wikilink">RO Services</a></p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="NDM_Services" title="wikilink">NDM Services</a></p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="CSND_Services" title="wikilink">CSND
+Services</a></p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="Camera_Services" title="wikilink">Camera
+Services</a></p></td>
+<td><p>, , , , (New3DS only)</p></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="Codec_Services" title="wikilink">Codec
+Services</a></p></td>
+<td><p>, , , , , </p></td>
+<td><p>HID: human interface device, MIC: microphone, CSN: for <a
+href="CSND_Services" title="wikilink">csnd</a>?, DSP: for <a
+href="DSP_Services" title="wikilink">dsp</a>?, LGY: legacy (some kind of
+backwards compat?), CHK: ?</p></td>
+</tr>
+<tr class="even">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="DLP_Services" title="wikilink">DLP Services</a></p></td>
+<td><p>, , </p></td>
+<td><p>CLNT: client, FKCL: fake client, SRVR: server</p></td>
+</tr>
+<tr class="odd">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="DSP_Services" title="wikilink">DSP Services</a></p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="GSP_Services" title="wikilink">GSP Services</a></p></td>
+<td><p>, </p></td>
+<td><p>Lcd: LCD control, Gpu: GPU control</p></td>
+</tr>
+<tr class="odd">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="BOSS_Services" title="wikilink">BOSS
+Services</a></p></td>
+<td><p>, , </p></td>
+<td><p>U: user, P: privileged, M: for <a href="NDM_Services"
+title="wikilink">ndm</a></p></td>
+</tr>
+<tr class="even">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="CECD_Services" title="wikilink">CECD
+Services</a></p></td>
+<td><p>, , </p></td>
+<td><p>u: user, s: system, ndm: for <a href="NDM_Services"
+title="wikilink">ndm</a></p></td>
+</tr>
+<tr class="odd">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="IR_Services" title="wikilink">IR Services</a></p></td>
+<td><p>, , </p></td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="I2C_Services" title="wikilink">I2C Services</a></p></td>
+<td><p>, , , , , , , , </p></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="GPIO_Services" title="wikilink">GPIO
+Services</a></p></td>
+<td><p>, , , , , , </p></td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="HID_Services" title="wikilink">HID Services</a></p></td>
+<td><p>, , , </p></td>
+<td><p>NFC: near-field communication (amiibo), QTM: head tracking device
+(related to <a href="QTM_Services" title="wikilink">QTM Services</a>)?,
+SPVR: system privileged?</p></td>
+</tr>
+<tr class="odd">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="PTM_Services" title="wikilink">PTM Services</a></p></td>
+<td><p>, , , , , </p></td>
+<td><p>gets: get system time, play: play history, s: system, sets: set
+system time, sysm: system menu (homemenu/testmenu), u: user</p></td>
+</tr>
+<tr class="even">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="NWM_Services" title="wikilink">NWM Services</a></p></td>
+<td><p>, , , , , , </p></td>
+<td><p>CEC: streetpass, EXT: ?, INF: infrastructure, SAP: ?, SOC:
+socket, UDS: local WLAN, TST: ?</p></td>
+</tr>
+<tr class="odd">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="HTTP_Services" title="wikilink">HTTP
+Services</a></p></td>
+<td></td>
+<td><p>C: connection</p></td>
+</tr>
+<tr class="even">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="SSL_Services" title="wikilink">SSL Services</a></p></td>
+<td></td>
+<td><p>C: connection</p></td>
+</tr>
+<tr class="odd">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="Socket_Services" title="wikilink">Socket
+Services</a></p></td>
+<td><p>, </p></td>
+<td><p>P: privileged, U: user</p></td>
+</tr>
+<tr class="even">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="AC_Services" title="wikilink">AC Services</a></p></td>
+<td><p>, </p></td>
+<td><p>i: internal, u: user</p></td>
+</tr>
+<tr class="odd">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="Friend_Services" title="wikilink">Friend
+Services</a></p></td>
+<td><p>, , </p></td>
+<td><p>a: admin, n: for <a href="NDM_Services" title="wikilink">ndm</a>,
+u: user</p></td>
+</tr>
+<tr class="even">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="News_Services" title="wikilink">News
+Services</a></p></td>
+<td><p>, </p></td>
+<td><p>s: system, u:user</p></td>
+</tr>
+<tr class="odd">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="PDN_Services" title="wikilink">PDN Services</a></p></td>
+<td><p>, , , , </p></td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="SPI_Services" title="wikilink">SPI Services</a></p></td>
+<td><p>, , , , </p></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="Loader_Services" title="wikilink">Loader
+Services</a></p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="MCU_Services" title="wikilink">MCU Services</a></p></td>
+<td><p>, , , , , , , , </p></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="MIC_Services" title="wikilink">MIC Services</a></p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="ACT_Services" title="wikilink">ACT Services</a></p></td>
+<td><p>, </p></td>
+<td><p>a: admin, u: user</p></td>
+</tr>
+<tr class="odd">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="MP_Services" title="wikilink">MP Services</a></p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="background: green"><p>Yes</p></td>
+<td><p><a href="NFC_Services" title="wikilink">NFC Services</a></p></td>
+<td><p>, , , , , </p></td>
+<td><p>dev: developer, m: ? p: passthrough?, r: raw?, s: system, u:
+user</p></td>
+</tr>
+<tr class="odd">
+<td style="background: red"><p>No</p></td>
+<td><p><a href="MVD_Services" title="wikilink">MVD Services</a></p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="background: red"><p>No</p></td>
+<td><p><a href="QTM_Services" title="wikilink">QTM Services</a></p></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 List of PXI services:
 

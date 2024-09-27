@@ -674,8 +674,8 @@ FFs.</p></td>
 href="Configuration_Memory#MCU_HW_INFO"
 title="wikilink"><code>here</code></a><br />
 <code> byte 0x01: PMIC vendor code</code><br />
-<code> byte 0x02: Battery vendor code</code><br />
-<code>   0x00: Maxell</code><br />
+<code> byte 0x02: Battery vendor code (determined from battery middle pin)</code><br />
+<code>   0x00: Maxell (middle pin tied to GND)</code><br />
 <code>     CTR-003 CTR-A-BP (old3DS)</code><br />
 <code>     CTR-003 CTR-A-BPMX-C3 (2DS): Wuxi Hitachi Maxell Co.,Ltd.</code><br />
 <code>     CTR-003 CTR-A-BPMX-C5 (Switch Pro Controller): Wuxi Maxell Co., Ltd.</code><br />
@@ -683,7 +683,7 @@ title="wikilink"><code>here</code></a><br />
 <code> byte 0x03: MGIC version (major?)</code><br />
 <code> byte 0x04: MGIC version (minor?)</code><br />
 <code> byte 0x05: RCOMP(?)</code><br />
-<code> byte 0x06: Battery middle terminal NTC reading (more heat causes this value to go *down*, and cooling off will make this value go back up)</code><br />
+<code> byte 0x06: On-board battery slot NTC reading (more heat causes this value to go *down*, and cooling off will make this value go back up)</code><br />
 <code> byte 0x09: system model (see </code><a
 href="Cfg:GetSystemModel#System_Model_Values"
 title="wikilink"><code>Cfg:GetSystemModel</code></a><code> for values)</code><br />

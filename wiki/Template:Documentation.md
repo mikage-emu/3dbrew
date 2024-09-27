@@ -13,8 +13,7 @@
 `   | `[`}}}`]({{fullurl:{{{1 "wikilink")
 `   | `[`}}}`]({{fullurl:{{{1 "wikilink")
 `  }}`</span>
-` }} `<span style="{{#if:{{{heading-style|}}}|{{{heading-style}}}|{{#ifeq:{{NAMESPACE}}|{{ns:template}}|font-weight: bold; font-size: 125%|font-size: 150%}}}}">`{{#if:``|``|{{#ifeq:``|``|`<img src="Template-info.svg" title="Template-info.svg" width="50"
-alt="Template-info.svg" />` Template documentation|Documentation}}}}`</span>
+` }} `<span style="{{#if:{{{heading-style|}}}|{{{heading-style}}}|{{#ifeq:{{NAMESPACE}}|{{ns:template}}|font-weight: bold; font-size: 125%|font-size: 150%}}}}">`{{#if:``|``|{{#ifeq:``|``|Template documentation|Documentation}}}}`</span>
 
 </div>
 

@@ -77,3 +77,5 @@ reply before sending another command request for that same pxi_id).
 `7 = pxi_am`
 `8 = pxi_ps`
 `9 = pxi_11`
+
+[Category:Services](Category:Services "wikilink")

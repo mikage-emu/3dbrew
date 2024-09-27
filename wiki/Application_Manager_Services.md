@@ -1,3 +1,5 @@
+__TOC__
+
 # Application Manager services "am:sys", "am:u", "am:net"
 
 | Command Header | Description                                                                          |

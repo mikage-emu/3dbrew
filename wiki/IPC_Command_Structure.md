@@ -1,1 +1,1 @@
-1.  REDIRECT [IPC](IPC "wikilink")
+1.  REDIRECT [IPC#Message_Structure](IPC#Message_Structure "wikilink")

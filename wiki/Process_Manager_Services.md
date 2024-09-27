@@ -27,3 +27,5 @@
 A maximum of three sessions can be open with both of these services
 combined, therefore only three processes can use either of these
 services at once.
+
+[Category:Services](Category:Services "wikilink")

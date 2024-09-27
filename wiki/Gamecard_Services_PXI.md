@@ -1,3 +1,5 @@
+__TOC__
+
 # "pxi:dev" service
 
 | Command Header | Available since system version | Description                                                                                                                                                                                                              |

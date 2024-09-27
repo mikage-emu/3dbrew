@@ -9,7 +9,7 @@ This page documents the format of NCSD.
 
 There are two known specialisations of the NCSD container format. The
 CTR Cart Image (CCI) format and the 3DS' raw [NAND
-format](Flash_Filesystem#NAND_structure "wikilink"). CCI is the format
+format](Flash_Filesystem#nand_structure "wikilink"). CCI is the format
 of game ROM images.
 
 **CTR System Update (CSU)** is a variant of CCI, where the only
@@ -24,11 +24,11 @@ For CCI images, the partitions are reserved as follows:
 
 | [NCCH](NCCH "wikilink") Index | Reserved Use                                                                           |
 |-------------------------------|----------------------------------------------------------------------------------------|
-| 0                             | Executable Content ([CXI](NCCH#CXI "wikilink"))                                        |
-| 1                             | E-Manual ([CFA](NCCH#CFA "wikilink"))                                                  |
-| 2                             | [Download Play](Download_Play "wikilink") Child container ([CFA](NCCH#CFA "wikilink")) |
-| 6                             | New3DS [Update Data](System_Update_CFA "wikilink") ([CFA](NCCH#CFA "wikilink"))        |
-| 7                             | [Update Data](System_Update_CFA "wikilink") ([CFA](NCCH#CFA "wikilink"))               |
+| 0                             | Executable Content ([CXI](NCCH#cxi "wikilink"))                                        |
+| 1                             | E-Manual ([CFA](NCCH#cfa "wikilink"))                                                  |
+| 2                             | [Download Play](Download_Play "wikilink") Child container ([CFA](NCCH#cfa "wikilink")) |
+| 6                             | New3DS [Update Data](System_Update_CFA "wikilink") ([CFA](NCCH#cfa "wikilink"))        |
+| 7                             | [Update Data](System_Update_CFA "wikilink") ([CFA](NCCH#cfa "wikilink"))               |
 
 The format of partitions can be determined from the partition FS flags
 (normally these are zero for CCI/CSU NCSD Images).

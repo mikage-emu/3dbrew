@@ -7,7 +7,7 @@ title = 'Y2R:SetCoefficientParams'
 | Index Word | Description                                                       |
 |------------|-------------------------------------------------------------------|
 | 0          | Header code \[0x001E0100\]                                        |
-| 1-4        | [CoefficientParams](Camera_Services#CoefficientParams "wikilink") |
+| 1-4        | [CoefficientParams](Camera_Services#coefficientparams "wikilink") |
 
 # Response
 

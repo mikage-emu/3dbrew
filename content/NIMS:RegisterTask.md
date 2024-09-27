@@ -18,7 +18,7 @@ title = 'NIMS:RegisterTask'
 </tr>
 <tr class="even">
 <td>1-6</td>
-<td><a href="../NIM_Services#TitleDownloadProgress"
+<td><a href="../NIM_Services#titledownloadprogress"
 title="wikilink">Title Download Progress</a></td>
 </tr>
 <tr class="odd">
@@ -33,7 +33,7 @@ title="wikilink">eShop</a> application service command code *at*
 </tr>
 <tr class="odd">
 <td>10</td>
-<td>for <a href="../IPC#Handle_Translation" title="wikilink">process
+<td>for <a href="../IPC#handle_translation" title="wikilink">process
 ID</a></td>
 </tr>
 <tr class="even">
@@ -43,7 +43,7 @@ ID</a></td>
 <tr class="odd">
 <td>12</td>
 <td>(size &lt;&lt; 14) {{!}} (static_buffer_id &lt;&lt; 10)}} for <a
-href="../IPC#Static_Buffer_Translation" title="wikilink">static buffer</a>
+href="../IPC#static_buffer_translation" title="wikilink">static buffer</a>
 (id 1)</td>
 </tr>
 <tr class="even">
@@ -53,7 +53,7 @@ href="../IPC#Static_Buffer_Translation" title="wikilink">static buffer</a>
 <tr class="odd">
 <td>14</td>
 <td>(size &lt;&lt; 14) {{!}} (static_buffer_id &lt;&lt; 10)}} for <a
-href="../IPC#Static_Buffer_Translation" title="wikilink">static buffer</a>
+href="../IPC#static_buffer_translation" title="wikilink">static buffer</a>
 (id 5)</td>
 </tr>
 <tr class="even">

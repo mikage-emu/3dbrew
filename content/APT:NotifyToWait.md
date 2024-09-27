@@ -7,7 +7,7 @@ title = 'APT:NotifyToWait'
 | Index Word | Description                                    |
 |------------|------------------------------------------------|
 | 0          | Header code \[0x00430040\]                     |
-| 1          | [AppID](NS_and_APT_Services#AppIDs "wikilink") |
+| 1          | [AppID](NS_and_APT_Services#appids "wikilink") |
 
 # Response
 

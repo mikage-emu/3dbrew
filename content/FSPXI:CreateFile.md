@@ -12,7 +12,7 @@ title = 'FSPXI:CreateFile'
 | 3          | Archive handle upper word                               |
 | 4          | LowPath.Type                                            |
 | 5          | LowPath.Size                                            |
-| 6          | [Attributes](Filesystem_services#Attributes "wikilink") |
+| 6          | [Attributes](Filesystem_services#attributes "wikilink") |
 | 7          | File size lower word                                    |
 | 8          | File size upper word                                    |
 | 9          | (LowPath.Size\<\<8) \| 6                                |

@@ -13,7 +13,7 @@ notes are saved. Properly recovering cleartext via XOR for the \*whole\*
 note data is difficult, since these extdata files would already have the
 note data stored. The graphics data for these notes are stored via MPOs.
 
-The ExtData [File System](Extdata#Filesystem "wikilink") for Swapnote is
+The ExtData [File System](Extdata#filesystem "wikilink") for Swapnote is
 as follows:
 
 ```

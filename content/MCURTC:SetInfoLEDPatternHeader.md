@@ -7,7 +7,7 @@ title = 'MCURTC:SetInfoLEDPatternHeader'
 | Index Word | Description                                                |
 |------------|------------------------------------------------------------|
 | 0          | Header code \[0x003C0040\]                                 |
-| 1          | [Animation](MCURTC:SetInfoLEDPattern#Animation "wikilink") |
+| 1          | [Animation](MCURTC:SetInfoLEDPattern#animation "wikilink") |
 
 # Response
 

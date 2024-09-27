@@ -3,11 +3,11 @@ title = 'SMDH'
 +++
 
 This page describes the format of the icon stored at
-[CXI](NCCH#CXI "wikilink") ExeFS:/icon and [CIA](CIA "wikilink") icons.
+[CXI](NCCH#cxi "wikilink") ExeFS:/icon and [CIA](CIA "wikilink") icons.
 The size of icons are 0x36c0 bytes. The CXI icon is displayed by [Home
 Menu](Home_Menu "wikilink") and [System
 Settings](System_Settings "wikilink")(3DS Software Management), while
-[CIA icons](CIA#Meta "wikilink") are dummies and not yet utilised by Dev
+[CIA icons](CIA#meta "wikilink") are dummies and not yet utilised by Dev
 3DS' (as of rev 47586).
 
 ## Format
@@ -99,7 +99,7 @@ example, limiting to 12 years and up would give a bitmask of 0x8C)
 ### Region Lockout
 
 This u32 flag is what the Home Menu uses to determine the [Region
-Lockout](Home_Menu#Region_Lockout "wikilink") of a title.
+Lockout](Home_Menu#region_lockout "wikilink") of a title.
 
 | REGION        | BITMASK |
 |---------------|---------|
@@ -134,14 +134,14 @@ The u32 is used for storing flags as bit-masks.
 | FLAG                                                                                                                                                                                                                                        | BITMASK VALUE |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
 | Visibility Flag (Required for visibility on the Home Menu)                                                                                                                                                                                  | 0x0001        |
-| [Auto-boot](Home_Menu#Auto-Boot_Function "wikilink") this gamecard title                                                                                                                                                                    | 0x0002        |
+| [Auto-boot](Home_Menu#auto-boot-function "wikilink") this gamecard title                                                                                                                                                                    | 0x0002        |
 | Allow use of 3D? (For use with parental Controls. An application can use the 3D affect, even when this flag isn't set)                                                                                                                      | 0x0004        |
 | Require accepting CTR EULA before being launched by Home (see below)                                                                                                                                                                        | 0x0008        |
 | Autosave on exit? (see below)                                                                                                                                                                                                               | 0x0010        |
 | Uses an [Extended Banner](Extended_Banner "wikilink")?                                                                                                                                                                                      | 0x0020        |
-| [Region game rating](SMDH#Region_Specific_Game_Age_Ratings "wikilink") required                                                                                                                                                             | 0x0040        |
+| [Region game rating](SMDH#region_specific_game_age_ratings "wikilink") required                                                                                                                                                             | 0x0040        |
 | Uses save data? (see below)                                                                                                                                                                                                                 | 0x0080        |
-| Application usage is to be recorded. If this is not set, it causes the application's usage to be omitted from the Home Menu's [icon cache](Home_Menu#Cache.dat_&_CacheD.dat "wikilink"), as well as in [other places](Activity_Log#title-name- "wikilink"). | 0x0100        |
+| Application usage is to be recorded. If this is not set, it causes the application's usage to be omitted from the Home Menu's [icon cache](Home_Menu#cachedat__cacheddat "wikilink"), as well as in [other places](Activity_Log#title-name- "wikilink"). | 0x0100        |
 | Disables [SD Savedata Backups](SD_Savedata_Backups "wikilink") for this title. This is in addition to [the blacklist](NS_CFA "wikilink").                                                                                                   | 0x0400        |
 | New 3DS exclusive title. Shows an error if used on Old 3DS.                                                                                                                                                                                 | 0x1000        |
 

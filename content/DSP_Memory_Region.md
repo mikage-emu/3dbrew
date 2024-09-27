@@ -100,7 +100,7 @@ This is a u16.
 |------|---------------------------------------------------------------------|
 | Bits | Desciption                                                          |
 | 0-1  | Number of channels: 0,1,3 = mono; 2 = stereo                        |
-| 2-3  | Buffer codec: [0:PCM8; 1:PCM16; 2:ADPCM](BCWAV#Encoding "wikilink") |
+| 2-3  | Buffer codec: [0:PCM8; 1:PCM16; 2:ADPCM](BCWAV#encoding "wikilink") |
 | 5    | Fade                                                                |
 
 ### Buffer

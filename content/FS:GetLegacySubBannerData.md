@@ -8,7 +8,7 @@ title = 'FS:GetLegacySubBannerData'
 |------------|--------------------------------------------------------|
 | 0          | Header code \[0x084D0102\]                             |
 | 1          | Output Size                                            |
-| 2          | [Media Type](Filesystem_services#MediaType "wikilink") |
+| 2          | [Media Type](Filesystem_services#mediatype "wikilink") |
 | 3-4        | u64, Program ID                                        |
 | 4          | (OutputSize \<\< 4) \| 0xC                             |
 | 5          | Output Pointer                                         |

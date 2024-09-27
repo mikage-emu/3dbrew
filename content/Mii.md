@@ -18,7 +18,7 @@ specified.
 ## Mii Database
 
 Format of the Mii main database **CFL_DB.dat**, found in [shared
-extdata](Extdata#NAND_Shared_Extdata "wikilink") archive f0000000b.
+extdata](Extdata#nand_shared_extdata "wikilink") archive f0000000b.
 
 <table>
 <thead>
@@ -74,7 +74,7 @@ unrelated to canonical order in-app.</td>
 <td>0xC81E</td>
 <td>0x2</td>
 <td>Checksum of all of the above (the first 0xC81E byte). See section
-<a href="#Checksum" title="wikilink">below</a>.</td>
+<a href="#checksum" title="wikilink">below</a>.</td>
 </tr>
 <tr class="even">
 <td>0xC820</td>

@@ -7,7 +7,7 @@ title = 'AM:DeleteAllImportContextsFiltered'
 | Index Word | Description                                             |
 |------------|---------------------------------------------------------|
 | 0          | Header code \[0x00220080\]                              |
-| 1          | [Media Type](Filesystem_services#MediaType "wikilink")  |
+| 1          | [Media Type](Filesystem_services#mediatype "wikilink")  |
 | 2          | Filter (bit0 = non-system titles, bit1 = system titles) |
 
 # Response

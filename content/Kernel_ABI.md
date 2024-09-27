@@ -18,12 +18,12 @@ back to the same registers (also starting with r0).
 <tr class="odd">
 <td>0x01</td>
 <td>ControlMemory</td>
-<td><code>r0</code>: <a href="../Memory_Management#enum_MemoryOperation"
+<td><code>r0</code>: <a href="../Memory_Management#enum_memoryoperation"
 title="wikilink"><code>MemoryOperation</code></a><code> operation</code><br />
 <code>r1</code>: <code>u32/void* addr0</code><br />
 <code>r2</code>: <code>u32/void* addr1</code><br />
 <code>r3</code>: <code>u32 size</code><br />
-<code>r4</code>: <a href="../Memory_Management#enum_MemoryPermission"
+<code>r4</code>: <a href="../Memory_Management#enum_memorypermission"
 title="wikilink"><code>MemoryPermission</code></a><code> permissions</code></td>
 <td><code>r0</code>: <code>Result</code><br />
 <code>r1</code>: <code>u32/void* addr_out</code></td>
@@ -35,11 +35,11 @@ title="wikilink"><code>MemoryPermission</code></a><code> permissions</code></td>
 <td><code>r0</code>: <code>Result</code><br />
 <code>r1</code>: <code>u32 base_process_virtual_address</code><br />
 <code>r2</code>: <code>u32 size</code><br />
-<code>r3</code>: <a href="../Memory_Management#enum_MemoryPermission"
+<code>r3</code>: <a href="../Memory_Management#enum_memorypermission"
 title="wikilink"><code>MemoryPermission</code></a><code> permission</code><br />
-<code>r4</code>: <a href="../Memory_Management#enum_MemoryState"
+<code>r4</code>: <a href="../Memory_Management#enum_memorystate"
 title="wikilink"><code>MemoryState</code></a><code> state</code><br />
-<code>r5</code>: <a href="../Memory_Management#enum_PageFlags"
+<code>r5</code>: <a href="../Memory_Management#enum_pageflags"
 title="wikilink"><code>PageFlags</code></a><code> page_flags</code></td>
 </tr>
 <tr class="odd">

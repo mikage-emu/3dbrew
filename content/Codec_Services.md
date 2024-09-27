@@ -13,7 +13,7 @@ title = 'Codec Services'
 ## Touchscreen
 
 The touchscreen is the SPI [device number
-3](SPI_Registers#SPI_NEW_CNT "wikilink"), so it uses the
+3](SPI_Registers#spi_new_cnt "wikilink"), so it uses the
 [0x10142XXX](SPI_Services "wikilink") SPI registers. It is initialized
 by issuing the following SPI commands:
 

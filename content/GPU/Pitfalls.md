@@ -11,7 +11,7 @@ used in the 3DS.
 ### Vertex attribute alignment
 
 Vertex components which are defined through
-[GPUREG_ATTRIBBUFFERi_CONFIG1](GPU/Internal_Registers#GPUREG_ATTRIBBUFFERi_CONFIG1 "wikilink")
+[GPUREG_ATTRIBBUFFERi_CONFIG1](GPU/Internal_Registers#gpureg_attribbufferi_config1 "wikilink")
 will be accessed aligned by the GPU.
 
 - Vertex attributes will be aligned to their component element size.
@@ -22,7 +22,7 @@ will be accessed aligned by the GPU.
 ### Vertex stride in GPUREG_ATTRIBBUFFERi_CONFIG2
 
 The vertex stride set in
-[GPUREG_ATTRIBBUFFERi_CONFIG2](GPU/Internal_Registers#GPUREG_ATTRIBBUFFERi_CONFIG2 "wikilink")
+[GPUREG_ATTRIBBUFFERi_CONFIG2](GPU/Internal_Registers#gpureg_attribbufferi_config2 "wikilink")
 must match the actual size of the vertex contained in the buffer or the
 PICA will freeze or it won't draw anything.
 
@@ -32,17 +32,17 @@ accordingly with padding attributes.
 ### Output mapping in GPUREG_SH_OUTMAP_MASK
 
 The output masking in
-[GPUREG_SH_OUTMAP_MASK](GPU/Internal_Registers#GPUREG_SH_OUTMAP_MASK "wikilink")
+[GPUREG_SH_OUTMAP_MASK](GPU/Internal_Registers#gpureg_sh_outmap_mask "wikilink")
 influences how the registers starting at
-[GPUREG_SH_OUTMAP_Oi](GPU/Internal_Registers#GPUREG_SH_OUTMAP_Oi "wikilink")
+[GPUREG_SH_OUTMAP_Oi](GPU/Internal_Registers#gpureg_sh_outmap_oi "wikilink")
 map to outputs in the shader.
 
 If an output is disabled in
-[GPUREG_SH_OUTMAP_MASK](GPU/Internal_Registers#GPUREG_SH_OUTMAP_MASK "wikilink")
+[GPUREG_SH_OUTMAP_MASK](GPU/Internal_Registers#gpureg_sh_outmap_mask "wikilink")
 it means that no slot in the
-[GPUREG_SH_OUTMAP_Oi](GPU/Internal_Registers#GPUREG_SH_OUTMAP_Oi "wikilink")
+[GPUREG_SH_OUTMAP_Oi](GPU/Internal_Registers#gpureg_sh_outmap_oi "wikilink")
 registers is consumed.
-[GPUREG_SH_OUTMAP_TOTAL](GPU/Internal_Registers#GPUREG_SH_OUTMAP_TOTAL "wikilink")
+[GPUREG_SH_OUTMAP_TOTAL](GPU/Internal_Registers#gpureg_sh_outmap_total "wikilink")
 configures the number of used consecutive slots in the outmap.
 
 Example:

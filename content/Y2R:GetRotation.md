@@ -14,4 +14,4 @@ title = 'Y2R:GetRotation'
 |------------|-------------------------------------------------|
 | 0          | Header code                                     |
 | 1          | Result code                                     |
-| 2          | [Rotation](Camera_Services#Rotation "wikilink") |
+| 2          | [Rotation](Camera_Services#rotation "wikilink") |

@@ -14,7 +14,7 @@ title = 'AM:ReadTwlBackupInfoEx'
 | 5          | 0x10                                                                                                                          |
 | 6          | Export File Handle                                                                                                            |
 | 7          | (Output Info Size \<\< 4) \| 0xC                                                                                              |
-| 8          | [TwlBackupInfo](Application_Manager_Services#TwlBackupInfo "wikilink") Pointer. No processing is done when this is left NULL. |
+| 8          | [TwlBackupInfo](Application_Manager_Services#twlbackupinfo "wikilink") Pointer. No processing is done when this is left NULL. |
 | 9          | (Banner Size \<\< 4) \| 0xC                                                                                                   |
 | 10         | [DSiWare](DSiWare_Exports "wikilink") Banner Output Pointer. No processing is done when this is left NULL.                    |
 | 11         | (Working Buffer Size \<\< 4) \| 0xC                                                                                           |

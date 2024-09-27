@@ -5,7 +5,7 @@ title = 'StreetPass Mii Plaza'
 ## Overview
 
 This is [system
-title](Title_list#00040010_-_System_Applications "wikilink")
+title](Title_list#00040010---system-applications "wikilink")
 pre-installed on all 3DS units since launch. The application is centered
 around using [StreetPass](StreetPass "wikilink") to "meet" other 3DS
 owners, by walking near them and exchanging Mii/user data (this is done

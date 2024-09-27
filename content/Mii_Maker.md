@@ -71,7 +71,7 @@ href="http://www.adminsub.net/mac-address-finder/nintendo">2</a></td>
 <tr class="odd">
 <td>0x8</td>
 <td>0x4</td>
-<td><a href="../Mii#Mii_ID" title="wikilink">Mii ID</a>, the encrypted
+<td><a href="../Mii#mii_id" title="wikilink">Mii ID</a>, the encrypted
 data begins here.</td>
 </tr>
 <tr class="even">
@@ -222,7 +222,7 @@ Created, received, or even met-in-multiplayer Miis are saved in
 
 ## ExtData
 
-The ExtData [File System](Extdata#Filesystem "wikilink") for Mii Maker
+The ExtData [File System](Extdata#filesystem "wikilink") for Mii Maker
 is as follows:
 
 ```

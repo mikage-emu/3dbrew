@@ -31,7 +31,7 @@ dev/debug.
 
 Boot ROM decrypts [OTP Registers](OTP_Registers "wikilink") and writes
 the private key and Nintendo's signature of CTCert to [ARM9
-ITCM](Memory_layout#ARM9_ITCM "wikilink"); the public key is computed
+ITCM](Memory_layout#arm9_itcm "wikilink"); the public key is computed
 from the private key.
 
 The curve used for ECDSA is sect233r1.

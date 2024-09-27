@@ -64,7 +64,7 @@ The hash for the signature is calculated over the Ticket Data.
 |   0x164    |    X     |                                                   Content Index                                                   |
 
 - For v0 of the format, see
-  [here](Talk:Ticket#Ticket_Format_0 "wikilink")
+  [here](Talk:Ticket#ticket_format_0 "wikilink")
 
 <!-- -->
 
@@ -118,7 +118,7 @@ stored in NATIVE_FIRM.
 
 - **CommonETicket** (for short, **cetk**) is the name given to tickets
   for titles which are not available on the [eShop](EShop "wikilink"),
-  like [system titles](Title_list#CTR_System_Titles "wikilink"). As the
+  like [system titles](Title_list#ctr_system_titles "wikilink"). As the
   name suggests, they are not unique tickets, the same ticket is common
   to each 3ds which has installed that title. This is in contrast to
   tickets for eShop content, which are generated prior to initial

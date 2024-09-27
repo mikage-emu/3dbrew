@@ -28,7 +28,7 @@ title = 'ERR:Throw'
 | 0xC    | 0x4  | Process ID                                                                                  |
 | 0x10   | 0x8  | Title ID [placeholder](FS:GetProgramLaunchInfo "wikilink")                                  |
 | 0x18   | 0x8  | Applet Title ID [placeholder](APT:GetAppletInfo "wikilink")                                 |
-| 0x20   | 0x60 | Data (type 3 = [Exception](#Exception "wikilink"), type 4 = [Failure](#failure "wikilink")) |
+| 0x20   | 0x60 | Data (type 3 = [Exception](#exception "wikilink"), type 4 = [Failure](#failure "wikilink")) |
 
 ## FatalErrType
 
@@ -82,11 +82,11 @@ title = 'ERR:Throw'
 | Entry    | Format string                 | Format args                                                                                                                                                                                              |
 |----------|-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PID      | 0x%08X_0x%08X                 | [FatalErrInfo](#fatalerrinfo "wikilink") Title ID                                                                                                                                                        |
-| REV      | %d                            | [FatalErrInfo](#FatalErrInfo "wikilink") Revision Low \| ([FatalErrInfo](#fatalerrinfo "wikilink") Revision High \<\< 16)                                                                                |
+| REV      | %d                            | [FatalErrInfo](#fatalerrinfo "wikilink") Revision Low \| ([FatalErrInfo](#fatalerrinfo "wikilink") Revision High \<\< 16)                                                                                |
 | AID      | 0x%08X_0x%08X                 | [FatalErrInfo](#fatalerrinfo "wikilink") Application Title ID                                                                                                                                            |
 | ADR      | 0x%08X                        | [FatalErrInfo](#fatalerrinfo "wikilink") PC Address                                                                                                                                                      |
 | RSL      | 0x%08X                        | [FatalErrInfo](#fatalerrinfo "wikilink") Result Code                                                                                                                                                     |
-| Level    | %d                            | [FatalErrInfo](#FatalErrInfo "wikilink") Result Code & 0x80000000 ? ([FatalErrInfo](#FatalErrInfo "wikilink") Result Code \>\> 27) - 0x20 : [FatalErrInfo](#fatalerrinfo "wikilink") Result Code \>\> 27 |
+| Level    | %d                            | [FatalErrInfo](#fatalerrinfo "wikilink") Result Code & 0x80000000 ? ([FatalErrInfo](#fatalerrinfo "wikilink") Result Code \>\> 27) - 0x20 : [FatalErrInfo](#fatalerrinfo "wikilink") Result Code \>\> 27 |
 | Summary  | %d                            | ([FatalErrInfo](#fatalerrinfo "wikilink") Result Code & 0x7E00000) \>\> 21                                                                                                                               |
 | Module   | %d                            | ([FatalErrInfo](#fatalerrinfo "wikilink") Result Code & 0x3FC00) \>\> 10                                                                                                                                 |
 | Desc     | %d                            | [FatalErrInfo](#fatalerrinfo "wikilink") Result Code & 0x3FF                                                                                                                                             |
@@ -106,14 +106,14 @@ Manual or visit support.nintendo.com."
 | Entry    | Format string                 | Format args                                                                                                                                                                                              |
 |----------|-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PID      | 0x%08X_0x%08X                 | [FatalErrInfo](#fatalerrinfo "wikilink") Title ID                                                                                                                                                        |
-| REV      | %d                            | [FatalErrInfo](#FatalErrInfo "wikilink") Revision Low \| ([FatalErrInfo](#fatalerrinfo "wikilink") Revision High \<\< 16)                                                                                |
+| REV      | %d                            | [FatalErrInfo](#fatalerrinfo "wikilink") Revision Low \| ([FatalErrInfo](#fatalerrinfo "wikilink") Revision High \<\< 16)                                                                                |
 | AID      | 0x%08X_0x%08X                 | [FatalErrInfo](#fatalerrinfo "wikilink") Application Title ID                                                                                                                                            |
 | RSL      | 0x%08X                        | [FatalErrInfo](#fatalerrinfo "wikilink") Result Code                                                                                                                                                     |
-| Level    | %d                            | [FatalErrInfo](#FatalErrInfo "wikilink") Result Code & 0x80000000 ? ([FatalErrInfo](#FatalErrInfo "wikilink") Result Code \>\> 27) - 0x20 : [FatalErrInfo](#fatalerrinfo "wikilink") Result Code \>\> 27 |
+| Level    | %d                            | [FatalErrInfo](#fatalerrinfo "wikilink") Result Code & 0x80000000 ? ([FatalErrInfo](#fatalerrinfo "wikilink") Result Code \>\> 27) - 0x20 : [FatalErrInfo](#fatalerrinfo "wikilink") Result Code \>\> 27 |
 | Summary  | %d                            | ([FatalErrInfo](#fatalerrinfo "wikilink") Result Code & 0x7E00000) \>\> 21                                                                                                                               |
 | Module   | %d                            | ([FatalErrInfo](#fatalerrinfo "wikilink") Result Code & 0x3FC00) \>\> 10                                                                                                                                 |
 | Desc     | %d                            | [FatalErrInfo](#fatalerrinfo "wikilink") Result Code & 0x3FF                                                                                                                                             |
-| ?        | %.\*s                         | [FatalErrInfo](#FatalErrInfo "wikilink") Data [Failure](#failure "wikilink") Message                                                                                                                     |
+| ?        | %.\*s                         | [FatalErrInfo](#fatalerrinfo "wikilink") Data [Failure](#failure "wikilink") Message                                                                                                                     |
 | Datetime | %04d/%02d/%02d %02d:%02d:%02d | Current Time                                                                                                                                                                                             |
 
 ## Cart Removed

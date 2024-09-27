@@ -9,9 +9,9 @@ title = 'FS:CreateFile'
 | 0          | Header code \[0x08080202\]                              |
 | 1          | Transaction (usually 0)                                 |
 | 2-3        | u64, Archive Handle                                     |
-| 4          | [Path Type](Filesystem_services#PathType "wikilink")    |
+| 4          | [Path Type](Filesystem_services#pathtype "wikilink")    |
 | 5          | Path Size                                               |
-| 6          | [Attributes](Filesystem_services#Attributes "wikilink") |
+| 6          | [Attributes](Filesystem_services#attributes "wikilink") |
 | 7-8        | u64, Bytes to fill with zeroes in the file              |
 | 9          | (PathSize \<\< 14) \| 2                                 |
 | 10         | Path Data Pointer                                       |

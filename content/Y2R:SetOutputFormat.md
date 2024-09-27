@@ -7,7 +7,7 @@ title = 'Y2R:SetOutputFormat'
 | Index Word | Description                                               |
 |------------|-----------------------------------------------------------|
 | 0          | Header code \[0x00030040\]                                |
-| 1          | [OutputFormat](Camera_Services#OutputFormat_2 "wikilink") |
+| 1          | [OutputFormat](Camera_Services#outputformat_2 "wikilink") |
 
 # Response
 

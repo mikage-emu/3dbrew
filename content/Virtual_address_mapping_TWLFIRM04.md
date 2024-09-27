@@ -3,7 +3,7 @@ title = 'Virtual Address Mapping TWLFIRM04'
 +++
 
 This page describes the virtual address mapping set up by
-[TWL_FIRM](FIRM#TWL_FIRM_and_AGB_FIRM "wikilink") 04.
+[TWL_FIRM](FIRM#twl_firm_and_agb_firm "wikilink") 04.
 
 The same translation table base is used for both ARM11 cores, and for
 both privileged-mode and user-mode.

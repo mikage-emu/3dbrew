@@ -19,7 +19,7 @@ title = 'PMApp:TerminateApplication'
 # Description
 
 This terminates the currently running application, marked by [launch
-flag 0x1](PMApp:LaunchTitle#Launch_Flags "wikilink").
+flag 0x1](PMApp:LaunchTitle#launch_flags "wikilink").
 
 This returns result code 0xC8A05801 if
 [PMApp:PrepareForReboot](PMApp:PrepareForReboot "wikilink") has been

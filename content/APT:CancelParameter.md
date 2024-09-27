@@ -8,9 +8,9 @@ title = 'APT:CancelParameter'
 |------------|---------------------------------------------------------|
 | 0          | Header code \[0x000F0100\]                              |
 | 1          | u8, Check Sender (0 = don't check, 1 = check)           |
-| 2          | Sender [AppID](NS_and_APT_Services#AppIDs "wikilink")   |
+| 2          | Sender [AppID](NS_and_APT_Services#appids "wikilink")   |
 | 3          | u8, Check Receiver (0 = don't check, 1 = check)         |
-| 4          | Receiver [AppID](NS_and_APT_Services#AppIDs "wikilink") |
+| 4          | Receiver [AppID](NS_and_APT_Services#appids "wikilink") |
 
 # Response
 

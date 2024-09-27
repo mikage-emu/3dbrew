@@ -106,7 +106,7 @@ Downloaded videos are stored in the SD card
 [SpotPass](SpotPass "wikilink") content payload, adding an additional
 header to them. Country info is presumably stored in this metadata,
 region-lock is handled by the BOSS module via the programID in the
-[payload header](SpotPass#Payload_Content_Header "wikilink").
+[payload header](SpotPass#payload_content_header "wikilink").
 
 While the SpotPass payload uses little-endian, the extra header added to
 the Extdata is stored in big-endian.

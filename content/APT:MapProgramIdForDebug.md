@@ -7,7 +7,7 @@ title = 'APT:MapProgramIdForDebug'
 | Index Word | Description                                    |
 |------------|------------------------------------------------|
 | 0          | Header code \[0x001100C0\]                     |
-| 1          | [AppID](NS_and_APT_Services#AppIDs "wikilink") |
+| 1          | [AppID](NS_and_APT_Services#appids "wikilink") |
 | 2-3        | u64, Program ID                                |
 
 # Response

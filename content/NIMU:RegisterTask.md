@@ -7,7 +7,7 @@ title = 'NIMU:RegisterTask'
 | Index Word | Description                                                        |
 |------------|--------------------------------------------------------------------|
 | 0          | Header code \[0x00290246\]                                         |
-| 1-6        | [TitleDownloadConfig](NIM_Services#TitleDownloadConfig "wikilink") |
+| 1-6        | [TitleDownloadConfig](NIM_Services#titledownloadconfig "wikilink") |
 | 7          | Unused?                                                            |
 | 8          | Unused?                                                            |
 | 9          | ? (Clamped to 0x9F and later added to 0x60?)                       |

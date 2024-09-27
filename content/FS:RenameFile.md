@@ -9,10 +9,10 @@ title = 'FS:RenameFile'
 | 0          | Header code \[0x08050244\]                                            |
 | 1          | Transaction (usually 0)                                               |
 | 2-3        | u64, Source Archive Handle                                            |
-| 4          | [Source File Path Type](Filesystem_services#PathType "wikilink")      |
+| 4          | [Source File Path Type](Filesystem_services#pathtype "wikilink")      |
 | 5          | Source File Path Size                                                 |
 | 6-7        | u64, Destination Archive Handle                                       |
-| 8          | [Destination File Path Type](Filesystem_services#PathType "wikilink") |
+| 8          | [Destination File Path Type](Filesystem_services#pathtype "wikilink") |
 | 9          | Destination File Path Size                                            |
 | 10         | (SourceFilePathSize \<\< 14) \| 0x402                                 |
 | 11         | Source File Path Data                                                 |

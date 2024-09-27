@@ -7,7 +7,7 @@ title = 'CAMU:SetTrimmingParams'
 | Index Word | Description                             |
 |------------|-----------------------------------------|
 | 0          | Header code \[0x00100140\]              |
-| 1          | [Port](Camera_Services#Port "wikilink") |
+| 1          | [Port](Camera_Services#port "wikilink") |
 | 2          | s16, X Start                            |
 | 3          | s16, Y Start                            |
 | 4          | s16, X End                              |

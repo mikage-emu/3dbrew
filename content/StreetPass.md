@@ -35,7 +35,7 @@ encrypting an all-zero block with AES-CTR via
 The CTR is the first 0x10-bytes from a SHA1-HMAC hash. The SHA1-HMAC key
 is a 17-byte text string including the NULL-terminator, a seperate HMAC
 key is used for retail/dev-units, this is determined via
-[ENVINFO](Configuration_Memory#ENVINFO "wikilink") bit0. The data hashed
+[ENVINFO](Configuration_Memory#envinfo "wikilink") bit0. The data hashed
 with SHA1-HMAC is a 0x1C-byte buffer, which is described below.
 
 ### Hash Block
@@ -384,7 +384,7 @@ structure.
 
 After the header follows the StreetPass message exactly as it is stored
 in the outbox of [CEC
-Save](CECD_Savegame#File_.3C12-char_ID.3E "wikilink").
+Save](CECD_Savegame#file-_12-char-id "wikilink").
 
 ### Response
 

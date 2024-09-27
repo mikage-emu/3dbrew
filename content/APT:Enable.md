@@ -7,7 +7,7 @@ title = 'APT:Enable'
 | Index Word | Description                                             |
 |------------|---------------------------------------------------------|
 | 0          | Header code \[0x00030040\]                              |
-| 1          | [AppletAttr](NS_and_APT_Services#AppletAttr "wikilink") |
+| 1          | [AppletAttr](NS_and_APT_Services#appletattr "wikilink") |
 
 # Response
 

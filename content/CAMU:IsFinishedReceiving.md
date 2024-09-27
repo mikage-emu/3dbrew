@@ -7,7 +7,7 @@ title = 'CAMU:IsFinishedReceiving'
 | Index Word | Description                             |
 |------------|-----------------------------------------|
 | 0          | Header code \[0x00080040\]              |
-| 1          | [Port](Camera_Services#Port "wikilink") |
+| 1          | [Port](Camera_Services#port "wikilink") |
 
 # Response
 

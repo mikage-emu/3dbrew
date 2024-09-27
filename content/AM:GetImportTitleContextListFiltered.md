@@ -8,7 +8,7 @@ title = 'AM:GetImportTitleContextListFiltered'
 |------------|--------------------------------------------------------------------------|
 | 0          | Header code \[0x002400C2\]                                               |
 | 1          | Import Title Context Count                                               |
-| 2          | [Media Type](Filesystem_services#MediaType "wikilink")                   |
+| 2          | [Media Type](Filesystem_services#mediatype "wikilink")                   |
 | 3          | Filter (bit0 = include installing, bit1 = include awaiting finalization) |
 | 4          | ((Import Title Context Count \* 8) \<\< 4) \| 0xC                        |
 | 5          | Import Title Context Title IDs Output Pointer                            |

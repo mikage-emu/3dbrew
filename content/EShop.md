@@ -96,7 +96,7 @@ parameters from
 
 ## ExtData
 
-The ExtData [File System](Extdata#Filesystem "wikilink") for eShop is as
+The ExtData [File System](Extdata#filesystem "wikilink") for eShop is as
 follows:
 
 ```

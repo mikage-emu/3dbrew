@@ -7,7 +7,7 @@ title = 'FS:DeleteSystemSaveData'
 | Index Word | Description                                                                |
 |------------|----------------------------------------------------------------------------|
 | 0          | Header code \[0x08570080\]                                                 |
-| 1-2        | [System Save Data Info](Filesystem_services#SystemSaveDataInfo "wikilink") |
+| 1-2        | [System Save Data Info](Filesystem_services#systemsavedatainfo "wikilink") |
 
 # Response
 

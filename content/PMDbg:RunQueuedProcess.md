@@ -19,7 +19,7 @@ title = 'PMDbg:RunQueuedProcess'
 # Description
 
 This starts the process last queued using [launch flag
-0x8](PMApp:LaunchTitle#Launch_Flags "wikilink").
+0x8](PMApp:LaunchTitle#launch_flags "wikilink").
 
 This returns result code 0xD8A05804 if no process is queued or the
 queued process was terminated before launch.

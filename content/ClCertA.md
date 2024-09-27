@@ -2,8 +2,8 @@
 title = 'ClCertA'
 +++
 
-This [CFA](NCCH#CFA "wikilink") (title id:
-[0004001b00010002](Title_list#0004001B_-_System_Data_Archives "wikilink"))
+This [CFA](NCCH#cfa "wikilink") (title id:
+[0004001b00010002](Title_list#0004001b---system-data-archives "wikilink"))
 contains the following [encrypted](PSPXI:EncryptDecryptAes "wikilink")
 files in the RomFS:
 
@@ -17,7 +17,7 @@ to a function used internally by SSL-module, are 0x4C7 for the cert DER,
 and 0x4AA for the key DER.
 
 Each file is encrypted in CBC mode using [keyslot
-0xD](PSPXI:EncryptDecryptAes#Key_Types "wikilink"). The first 16 bytes
+0xD](PSPXI:EncryptDecryptAes#key_types "wikilink"). The first 16 bytes
 of each file are the IV for decrypting the rest of the file.
 
 The following servers require usage of ClCertA to connect:

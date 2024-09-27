@@ -16,7 +16,7 @@ categories = ["Services"]
 | gpio:QTM     | 0x20000                 |
 
 For the mapping between GPIO bitmasks and IRQs see:
-[GPIO:BindInterrupt#Supported_values](GPIO:BindInterrupt#Supported_values "wikilink").
+[GPIO:BindInterrupt#Supported_values](GPIO:BindInterrupt#supported_values "wikilink").
 
 The commands for these services are identical.
 

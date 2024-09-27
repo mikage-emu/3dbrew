@@ -8,7 +8,7 @@ title = 'GSPGPU:AcquireRight'
 |------------|------------------------------------------------------------------------|
 | 0          | Header code \[0x00160042\]                                             |
 | 1          | Flag, normally zero.                                                   |
-| 2          | Value 0x0 ([translation descriptor](IPC#Message_Structure "wikilink")) |
+| 2          | Value 0x0 ([translation descriptor](IPC#message_structure "wikilink")) |
 | 3          | Process handle                                                         |
 
 # Response

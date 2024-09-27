@@ -5,7 +5,7 @@ title = 'Services API'
 Nintendo provides application developers with an API, which communicate
 with certain services. Services, in this sense, are [system processes
 running in the
-background](Title_list#00040130_-_System_Modules "wikilink") which wait
+background](Title_list#00040130---system-modules "wikilink") which wait
 for incoming requests. When a process wants to communicate with a
 service, it first needs to get a handle to the named service, and then
 it can communicate with the service via interprocess communication. Each
@@ -72,7 +72,7 @@ title="wikilink">am:pipe</a></td>
 <td>app: am for applications, net: network installation (<a
 href="../NIM_Services" title="wikilink">nim</a>), u: local installation,
 sys: am for system titles, pipe: not an actual port (internally used to
-represent the <a href="../Application_Manager_Services#File_service"
+represent the <a href="../Application_Manager_Services#file_service"
 title="wikilink">FSFile-like interface</a>)</td>
 </tr>
 <tr class="odd">

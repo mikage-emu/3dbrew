@@ -19,9 +19,9 @@ title = 'SPICARD Registers'
 
 | BIT | DESCRIPTION                                                 |
 |-----|-------------------------------------------------------------|
-| 0-2 | [Baud Rate](Filesystem_services#CardSpiBaudRate "wikilink") |
+| 0-2 | [Baud Rate](Filesystem_services#cardspibaudrate "wikilink") |
 | 6-7 | Unused device select.                                       |
-| 12  | [Bus Mode](Filesystem_services#CardSpiBusMode "wikilink")   |
+| 12  | [Bus Mode](Filesystem_services#cardspibusmode "wikilink")   |
 | 13  | Transfer Mode (0 = read, 1 = write)                         |
 | 15  | Trigger (0 = idle, 1 = busy)                                |
 

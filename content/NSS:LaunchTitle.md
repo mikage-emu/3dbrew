@@ -8,7 +8,7 @@ title = 'NSS:LaunchTitle'
 |------------|-----------------------------------------------------------|
 | 0          | Header code \[0x000200C0\]                                |
 | 1-2        | u64, Title ID                                             |
-| 3          | [Launch Flags](PMApp:LaunchTitle#Launch_Flags "wikilink") |
+| 3          | [Launch Flags](PMApp:LaunchTitle#launch_flags "wikilink") |
 
 # Response
 
@@ -21,15 +21,15 @@ title = 'NSS:LaunchTitle'
 # Description
 
 This is a wrapper for [PMApp:LaunchTitle](PMApp:LaunchTitle "wikilink").
-The [MediaType](Filesystem_services#MediaType "wikilink") is determined
+The [MediaType](Filesystem_services#mediatype "wikilink") is determined
 by the input title ID. The [Game Card
-MediaType](Filesystem_services#MediaType "wikilink") is used when the
+MediaType](Filesystem_services#mediatype "wikilink") is used when the
 input title ID is zero. The [NAND
-MediaType](Filesystem_services#MediaType "wikilink") is used when the
+MediaType](Filesystem_services#mediatype "wikilink") is used when the
 input title ID has the content category system flag set, otherwise the
-[SD MediaType](Filesystem_services#MediaType "wikilink") is used.
+[SD MediaType](Filesystem_services#mediatype "wikilink") is used.
 
-The [launch flags](PMApp:LaunchTitle#Launch_Flags "wikilink") passed to
+The [launch flags](PMApp:LaunchTitle#launch_flags "wikilink") passed to
 [PMApp:LaunchTitle](PMApp:LaunchTitle "wikilink") have bit 0 cleared
 (normal application) and bit 1 set (load dependencies)
 

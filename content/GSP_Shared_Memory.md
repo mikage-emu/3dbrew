@@ -50,9 +50,9 @@ sharedMemBase + 0x240 + (clientID \* 0x80).
 | 0          | Active framebuffer (0 = first, 1 = second)                                             |
 | 1          | Left framebuffer VA                                                                    |
 | 2          | Right framebuffer VA (top screen only)                                                 |
-| 3          | [Stride](GPU/External_Registers#LCD_Source_Framebuffer_Setup "wikilink") (offset 0x90) |
-| 4          | [Format](GPU/External_Registers#Framebuffer_format "wikilink")                         |
-| 5          | [Status](GPU/External_Registers#LCD_Source_Framebuffer_Setup "wikilink") (offset 0x78) |
+| 3          | [Stride](GPU/External_Registers#lcd_source_framebuffer_setup "wikilink") (offset 0x90) |
+| 4          | [Format](GPU/External_Registers#framebuffer_format "wikilink")                         |
+| 5          | [Status](GPU/External_Registers#lcd_source_framebuffer_setup "wikilink") (offset 0x78) |
 | 6          | ? ("Attribute")                                                                        |
 
 When a process sets this framebuffer info, it sets index to (index+1)
@@ -171,7 +171,7 @@ must not be zero as well. When the bufX address is zero, processing for
 the bufX parameters is skipped.
 
 The values of Control0 and Control1 give information about the type of
-memory fill. See [here](GPU/External_Registers#Memory_Fill "wikilink")
+memory fill. See [here](GPU/External_Registers#memory_fill "wikilink")
 for more information about memory fill parameters.
 
 ### Trigger Display Transfer
@@ -216,11 +216,11 @@ buffer to 128x128 made it fire correctly.
 | 3          | Total bytes to copy, not including gaps.                                                                                                                                                                                                                     |
 | 4          | Bits 0-15: Size of input line, in bytes. Bits 16-31: Gap between input lines, in bytes.                                                                                                                                                                      |
 | 5          | Same as 4, but for the output.                                                                                                                                                                                                                               |
-| 6          | Flags, corresponding to the [Transfer Engine flags](GPU/External_Registers#Transfer_Engine "wikilink"). However, for TextureCopy commands, bit 3 is always set, bit 2 is set if any output dimension is smaller than the input, and other bits are always 0. |
+| 6          | Flags, corresponding to the [Transfer Engine flags](GPU/External_Registers#transfer_engine "wikilink"). However, for TextureCopy commands, bit 3 is always set, bit 2 is set if any output dimension is smaller than the input, and other bits are always 0. |
 | 7          | Unused                                                                                                                                                                                                                                                       |
 
 This command is similar to cmd3. It also triggers the [GPU Transfer
-Engine](GPU/External_Registers#Transfer_Engine "wikilink"), but setting
+Engine](GPU/External_Registers#transfer_engine "wikilink"), but setting
 the TextureCopy parameters.
 
 ### Flush Cache Regions

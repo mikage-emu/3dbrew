@@ -363,7 +363,7 @@ beginning of the partition.
 ### Partition master hash
 
 This is a SHA-256 hash list over IVFC level 1. See [\#IVFC
-tree](#IVFC_tree "wikilink") for explanation.
+tree](#ivfc_tree "wikilink") for explanation.
 
 ## Partition
 

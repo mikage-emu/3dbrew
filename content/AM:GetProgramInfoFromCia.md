@@ -7,7 +7,7 @@ title = 'AM:GetProgramInfoFromCia'
 | Index Word | Description                                            |
 |------------|--------------------------------------------------------|
 | 0          | Header code \[0x04080042\]                             |
-| 1          | [Media Type](Filesystem_services#MediaType "wikilink") |
+| 1          | [Media Type](Filesystem_services#mediatype "wikilink") |
 | 2          | 0x0 (Send-handle translate header)                     |
 | 3          | File Handle                                            |
 

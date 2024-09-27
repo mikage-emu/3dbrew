@@ -14,4 +14,4 @@ title = 'FSFile:GetAttributes'
 |------------|---------------------------------------------------------|
 | 0          | Header code                                             |
 | 1          | Result code                                             |
-| 2          | [Attributes](Filesystem_services#Attributes "wikilink") |
+| 2          | [Attributes](Filesystem_services#attributes "wikilink") |

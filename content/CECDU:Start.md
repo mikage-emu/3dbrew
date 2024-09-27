@@ -15,4 +15,4 @@ title = 'CECDU:Start'
 Executes the given commmand.
 
 Available commands can be found
-[here](CECD_Services#CecCommand "wikilink").
+[here](CECD_Services#ceccommand "wikilink").

@@ -7,9 +7,9 @@ title = 'PMApp:LaunchTitleUpdate'
 | Index Word | Description                                                                                      |
 |------------|--------------------------------------------------------------------------------------------------|
 | 0          | Header code \[0x000D0240\]                                                                       |
-| 1-4        | [Program Info](Filesystem_services#ProgramInfo "wikilink") for main title                        |
-| 5-8        | [Program Info](Filesystem_services#ProgramInfo "wikilink") for update title                      |
-| 9          | Process launch [flags](PMApp:LaunchTitle#Launch_Flags "wikilink") (ORed with 0x10000 internally) |
+| 1-4        | [Program Info](Filesystem_services#programinfo "wikilink") for main title                        |
+| 5-8        | [Program Info](Filesystem_services#programinfo "wikilink") for update title                      |
+| 9          | Process launch [flags](PMApp:LaunchTitle#launch_flags "wikilink") (ORed with 0x10000 internally) |
 
 # Response
 

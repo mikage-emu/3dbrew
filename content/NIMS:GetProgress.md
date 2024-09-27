@@ -14,7 +14,7 @@ title = 'NIMS:GetProgress'
 |------------|---------------------------------------------------------------------------------|
 | 0          | Header code                                                                     |
 | 1          | Result code                                                                     |
-| 2-7        | [Title Download Progress](NIM_Services#TitleDownloadProgress "wikilink") struct |
+| 2-7        | [Title Download Progress](NIM_Services#titledownloadprogress "wikilink") struct |
 
 # Description
 

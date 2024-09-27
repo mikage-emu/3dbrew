@@ -26,9 +26,9 @@ inside of a CSAR.
 | 0x00C  | 4    | File Size                                                                                                              |
 | 0x010  | 2    | Number of Blocks (3)                                                                                                   |
 | 0x012  | 2    | Reserved                                                                                                               |
-| 0x014  | 12   | [Info Block](#Info_Block "wikilink") [Sized Reference](#sized_reference "wikilink") (Offset relative to start of file) |
-| 0x020  | 12   | [Seek Block](#Seek_Block "wikilink") [Sized Reference](#sized_reference "wikilink") (Offset relative to start of file) |
-| 0x02C  | 12   | [Data Block](#Data_Block "wikilink") [Sized Reference](#sized_reference "wikilink") (Offset relative to start of file) |
+| 0x014  | 12   | [Info Block](#info_block "wikilink") [Sized Reference](#sized_reference "wikilink") (Offset relative to start of file) |
+| 0x020  | 12   | [Seek Block](#seek_block "wikilink") [Sized Reference](#sized_reference "wikilink") (Offset relative to start of file) |
+| 0x02C  | 12   | [Data Block](#data_block "wikilink") [Sized Reference](#sized_reference "wikilink") (Offset relative to start of file) |
 
 ### Block Header
 
@@ -50,12 +50,12 @@ inside of a CSAR.
 | OFFSET | SIZE | DESCRIPTION                                                                                                                                                                                                                     |
 |--------|------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0x000  | 8    | [Block Header](#block_header "wikilink")                                                                                                                                                                                        |
-| 0x008  | 8    | [Stream Info](#Stream_Info "wikilink") [Reference](#reference "wikilink") (Offset relative to this field)                                                                                                                       |
-| 0x010  | 8    | [Track Info](#Track_Info "wikilink") [Reference Table](#Reference_Table "wikilink") [Reference](#Reference "wikilink") (Offset relative to [Stream Info](#Stream_Info "wikilink") [Reference](#reference "wikilink") field)     |
-| 0x018  | 8    | [Channel Info](#Channel_Info "wikilink") [Reference Table](#Reference_Table "wikilink") [Reference](#Reference "wikilink") (Offset relative to [Stream Info](#Stream_Info "wikilink") [Reference](#reference "wikilink") field) |
+| 0x008  | 8    | [Stream Info](#stream_info "wikilink") [Reference](#reference "wikilink") (Offset relative to this field)                                                                                                                       |
+| 0x010  | 8    | [Track Info](#track_info "wikilink") [Reference Table](#reference_table "wikilink") [Reference](#reference "wikilink") (Offset relative to [Stream Info](#stream_info "wikilink") [Reference](#reference "wikilink") field)     |
+| 0x018  | 8    | [Channel Info](#channel_info "wikilink") [Reference Table](#reference_table "wikilink") [Reference](#reference "wikilink") (Offset relative to [Stream Info](#stream_info "wikilink") [Reference](#reference "wikilink") field) |
 | 0x020  | 56   | [Stream Info](#stream_info "wikilink")                                                                                                                                                                                          |
-| 0x058  | X    | [Track Info](#Track_Info "wikilink") [Reference Table](#reference_table "wikilink")                                                                                                                                             |
-| X      | X    | [Channel Info](#Channel_Info "wikilink") [Reference Table](#reference_table "wikilink")                                                                                                                                         |
+| 0x058  | X    | [Track Info](#track_info "wikilink") [Reference Table](#reference_table "wikilink")                                                                                                                                             |
+| X      | X    | [Channel Info](#channel_info "wikilink") [Reference Table](#reference_table "wikilink")                                                                                                                                         |
 | X      | X    | [Track Info](#track_info "wikilink") Entries                                                                                                                                                                                    |
 | X      | X    | [Channel Info](#channel_info "wikilink") Entries                                                                                                                                                                                |
 
@@ -101,7 +101,7 @@ The info block is aligned to 0x20 bytes.
 | 0x024  | 4    | Last Sample Block Padded Size                                                                                       |
 | 0x028  | 4    | Seek Data Size                                                                                                      |
 | 0x02C  | 4    | Seek Interval Sample Count                                                                                          |
-| 0x030  | 8    | Sample Data [Reference](#Reference "wikilink") (Offset relative to [Data Block](#data_block "wikilink") Data field) |
+| 0x030  | 8    | Sample Data [Reference](#reference "wikilink") (Offset relative to [Data Block](#data_block "wikilink") Data field) |
 
 #### Track Info
 
@@ -110,7 +110,7 @@ The info block is aligned to 0x20 bytes.
 | 0x000  | 1    | Volume                                                                                                                  |
 | 0x001  | 1    | Pan                                                                                                                     |
 | 0x002  | 2    | Padding                                                                                                                 |
-| 0x004  | 8    | Channel Index [Byte Table](#Byte_Table "wikilink") [Reference](#reference "wikilink") (Offset relative to Volume field) |
+| 0x004  | 8    | Channel Index [Byte Table](#byte_table "wikilink") [Reference](#reference "wikilink") (Offset relative to Volume field) |
 | 0x00C  | X    | Channel Index [Byte Table](#byte_table "wikilink") (Padded to 4 bytes)                                                  |
 
 ##### Byte Table

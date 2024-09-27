@@ -7,9 +7,9 @@ title = 'FS:GetSpecialContentIndex'
 | Index Word | Description                                                               |
 |------------|---------------------------------------------------------------------------|
 | 0          | Header code \[0x083A0100\]                                                |
-| 1          | [Media Type](Filesystem_services#MediaType "wikilink")                    |
+| 1          | [Media Type](Filesystem_services#mediatype "wikilink")                    |
 | 2-3        | u64, Program ID                                                           |
-| 4          | [Special Content Type](Filesystem_services#SpecialContentType "wikilink") |
+| 4          | [Special Content Type](Filesystem_services#specialcontenttype "wikilink") |
 
 # Response
 

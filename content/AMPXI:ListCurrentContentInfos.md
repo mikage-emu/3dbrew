@@ -10,7 +10,7 @@ title = 'AMPXI:ListCurrentContentInfos'
 | 1          | Content Info Count                                                                  |
 | 2          | Offset                                                                              |
 | 4          | ((Content Info Count \* 0x18) \<\< 8) \| 0x4                                        |
-| 5          | [Content Infos](Application_Manager_Services#ContentInfo "wikilink") Output Pointer |
+| 5          | [Content Infos](Application_Manager_Services#contentinfo "wikilink") Output Pointer |
 
 # Response
 

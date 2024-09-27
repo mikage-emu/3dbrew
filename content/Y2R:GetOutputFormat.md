@@ -14,4 +14,4 @@ title = 'Y2R:GetOutputFormat'
 |------------|-----------------------------------------------------------|
 | 0          | Header code                                               |
 | 1          | Result code                                               |
-| 2          | [OutputFormat](Camera_Services#OutputFormat_2 "wikilink") |
+| 2          | [OutputFormat](Camera_Services#outputformat_2 "wikilink") |

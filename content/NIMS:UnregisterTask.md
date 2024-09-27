@@ -22,7 +22,7 @@ title = 'NIMS:UnregisterTask'
 </tr>
 <tr class="odd">
 <td>3</td>
-<td>for <a href="../IPC#Handle_Translation" title="wikilink">process
+<td>for <a href="../IPC#handle_translation" title="wikilink">process
 ID</a></td>
 </tr>
 <tr class="even">

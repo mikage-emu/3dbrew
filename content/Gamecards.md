@@ -39,8 +39,8 @@ banner icon.
 
 |                           | 3DS                                                                                                                        | DS and DSi                             |
 |---------------------------|----------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| VCC                       | Only enabled when the power supply bits of [CFG9_CARDSTATUS](CONFIG9_Registers#CFG9_CARDSTATUS "wikilink") are set to `10` | Always available when card is detected |
-| Card-detect               | Physical insertion switch, readable through [CFG9_CARDSTATUS](CONFIG9_Registers#CFG9_CARDSTATUS "wikilink") bit 0          | IRQ pin                                |
+| VCC                       | Only enabled when the power supply bits of [CFG9_CARDSTATUS](CONFIG9_Registers#cfg9_cardstatus "wikilink") are set to `10` | Always available when card is detected |
+| Card-detect               | Physical insertion switch, readable through [CFG9_CARDSTATUS](CONFIG9_Registers#cfg9_cardstatus "wikilink") bit 0          | IRQ pin                                |
 | Time to first clock pulse | ~280ms                                                                                                                     | ~166ms                                 |
 
 ### SPI flash
@@ -107,7 +107,7 @@ a 3DS gamecard:
 | `0200` | `E3FA23AA016BE0C93430D1F42FF41324` | `BF000000000040000000000000000000` | Read gamecard at address 0x4000                          |
 
 The header command has some initial dummy bytes, and eventually responds
-with the 0x200 byte [InitialData](NCSD#InitialData "wikilink"). Here's
+with the 0x200 byte [InitialData](NCSD#initialdata "wikilink"). Here's
 an example for Lego Starwars 3:
 
 ```

@@ -7,8 +7,8 @@ title = 'NSS:LaunchApplication'
 | Index Word | Description                                                |
 |------------|------------------------------------------------------------|
 | 0          | Header code \[0x00150140\]                                 |
-| 1-4        | [Program Info](Filesystem_services#ProgramInfo "wikilink") |
-| 5          | [Launch Flags](PMApp:LaunchTitle#Launch_Flags "wikilink")  |
+| 1-4        | [Program Info](Filesystem_services#programinfo "wikilink") |
+| 5          | [Launch Flags](PMApp:LaunchTitle#launch_flags "wikilink")  |
 
 # Response
 

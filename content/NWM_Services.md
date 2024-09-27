@@ -260,18 +260,18 @@ Server-\>Client: Association Response frame with association id
 
 Client-\>Server: Encrypted data packet containing an 8-byte 802.2 LLC
 header with ethertype = EAPoL (0x888E) and an u16 header of 0x201
-([EAPoL-Start](NWM_Services#EAPoL-Start_frame "wikilink"))
+([EAPoL-Start](NWM_Services#eapol-start-frame "wikilink"))
 
 Server-\>Broadcast: Encrypted data packet containing the updated node
 information after the client connected (Using ethertype = SecureData).
 
 Server-\>Client: Encrypted data packet containing an 8-byte 802.2 LLC
 header with ethertype = EAPoL (0x888E) and an u16 header of
-0x0202([EAPoL-Logoff](NWM_Services#EAPoL-Logoff_frame "wikilink"))
+0x0202([EAPoL-Logoff](NWM_Services#eapol-logoff-frame "wikilink"))
 
 \[From here on, data packets sent using SendTo are encapsulated with an
 LLC header with ethertype = 0x876D
-([SecureData](NWM_Services#SecureData_NWM_header "wikilink"))\]
+([SecureData](NWM_Services#securedata_nwm_header "wikilink"))\]
 
 \[The client also sends periodic SecureData data frames on its own,
 these are probably ping frames\]
@@ -431,7 +431,7 @@ is 001F32.</td>
 <td>wlancommID. Local-WLAN communication ID, normally this is:
 (user_process <a href="../Title_list" title="wikilink">uniqueID</a>
 &lt;&lt; 8) | val. Where val is 0x10 on retail(<a
-href="../Configuration_Memory#ENVINFO" title="wikilink">ENVINFO</a> bit0
+href="../Configuration_Memory#envinfo" title="wikilink">ENVINFO</a> bit0
 set), 0x90 for devunit. Official software includes an input bool flag
 parameter for setting bit0 in this wlancommID, normally that flag isn't
 set. For <a href="../Download_Play" title="wikilink">Download Play</a>,

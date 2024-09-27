@@ -5,11 +5,11 @@ categories = ["Services"]
 
 ## cam:c (PORT_REG)
 
-Same as [cam:u](#cam:u_.28port_user.29 "wikilink")
+Same as [cam:u](#camu_port_user "wikilink")
 
 ## cam:s (PORT_CAL)
 
-Same as [cam:u](#cam:u_.28port_user.29 "wikilink")
+Same as [cam:u](#camu_port_user "wikilink")
 
 ## cam:q (PORT_QTM)
 
@@ -354,16 +354,16 @@ cam:q
 
 | Type | Field                                                                      |
 |------|----------------------------------------------------------------------------|
-| u8   | [CameraSelect](Camera_Services#CameraSelect "wikilink") camera             |
+| u8   | [CameraSelect](Camera_Services#cameraselect "wikilink") camera             |
 | s8   | exposure                                                                   |
-| u8   | [WhiteBalance](Camera_Services#WhiteBalance "wikilink") whiteBalance       |
+| u8   | [WhiteBalance](Camera_Services#whitebalance "wikilink") whiteBalance       |
 | s8   | sharpness                                                                  |
 | bool | autoExposureOn                                                             |
 | bool | autoWhiteBalanceOn                                                         |
-| u8   | [FrameRate](Camera_Services#FrameRate "wikilink") frameRate                |
-| u8   | [PhotoMode](Camera_Services#PhotoMode "wikilink") photoMode                |
+| u8   | [FrameRate](Camera_Services#framerate "wikilink") frameRate                |
+| u8   | [PhotoMode](Camera_Services#photomode "wikilink") photoMode                |
 | u8   | contrast                                                                   |
-| u8   | [LensCorrection](Camera_Services#LensCorrection "wikilink") lensCorrection |
+| u8   | [LensCorrection](Camera_Services#lenscorrection "wikilink") lensCorrection |
 | bool | noiseFilterOn                                                              |
 | u8   | padding                                                                    |
 | s16  | autoExposureWindowX                                                        |
@@ -379,20 +379,20 @@ cam:q
 
 | Type | Field                                                          |
 |------|----------------------------------------------------------------|
-| u8   | [CameraSelect](Camera_Services#CameraSelect "wikilink") camera |
-| u8   | [Context](Camera_Services#Context "wikilink") context          |
-| u8   | [Flip](Camera_Services#Flip "wikilink") flip                   |
-| u8   | [Effect](Camera_Services#Effect "wikilink") effect             |
-| u8   | [Size](Camera_Services#Size "wikilink") size                   |
+| u8   | [CameraSelect](Camera_Services#cameraselect "wikilink") camera |
+| u8   | [Context](Camera_Services#context "wikilink") context          |
+| u8   | [Flip](Camera_Services#flip "wikilink") flip                   |
+| u8   | [Effect](Camera_Services#effect "wikilink") effect             |
+| u8   | [Size](Camera_Services#size "wikilink") size                   |
 
 ### PackageParameterContextDetail
 
 | Type | Field                                                          |
 |------|----------------------------------------------------------------|
-| u8   | [CameraSelect](Camera_Services#CameraSelect "wikilink") camera |
-| u8   | [Context](Camera_Services#Context "wikilink") context          |
-| u8   | [Flip](Camera_Services#Flip "wikilink") flip                   |
-| u8   | [Effect](Camera_Services#Effect "wikilink") effect             |
+| u8   | [CameraSelect](Camera_Services#cameraselect "wikilink") camera |
+| u8   | [Context](Camera_Services#context "wikilink") context          |
+| u8   | [Flip](Camera_Services#flip "wikilink") flip                   |
+| u8   | [Effect](Camera_Services#effect "wikilink") effect             |
 | s16  | width                                                          |
 | s16  | height                                                         |
 | s16  | cropX0                                                         |
@@ -532,13 +532,13 @@ cam:q
 
 | Type | Field                                                                                     |
 |------|-------------------------------------------------------------------------------------------|
-| u8   | [InputFormat](Camera_Services#InputFormat "wikilink") inputFormat                         |
-| u8   | [OutputFormat](Camera_Services#OutputFormat_2 "wikilink") outputFormat                    |
-| u8   | [Rotation](Camera_Services#Rotation "wikilink") rotation                                  |
-| u8   | [BlockAlignment](Camera_Services#BlockAlignment "wikilink") blockAlignment                |
+| u8   | [InputFormat](Camera_Services#inputformat "wikilink") inputFormat                         |
+| u8   | [OutputFormat](Camera_Services#outputformat_2 "wikilink") outputFormat                    |
+| u8   | [Rotation](Camera_Services#rotation "wikilink") rotation                                  |
+| u8   | [BlockAlignment](Camera_Services#blockalignment "wikilink") blockAlignment                |
 | s16  | inputLineWidth                                                                            |
 | s16  | inputLines                                                                                |
-| u8   | [StandardCoefficient](Camera_Services#StandardCoefficient "wikilink") standardCoefficient |
+| u8   | [StandardCoefficient](Camera_Services#standardcoefficient "wikilink") standardCoefficient |
 | u8   | padding                                                                                   |
 | s16  | alpha                                                                                     |
 

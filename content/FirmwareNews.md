@@ -12,6 +12,6 @@ See [here](Homebrew_Exploits "wikilink") regarding running homebrew.
 Software-based full system control exploits are known and publicly
 available for system versions up to and including
 [11.17.0-50](11.17.0-50 "wikilink"), while
-[ntrboothax](Bootloader#Non-NAND_FIRM_boot "wikilink") allows for ARM9
+[ntrboothax](Bootloader#non-nand-firm-boot "wikilink") allows for ARM9
 arbitrary code execution on any 3DS-family console regardless of system
 firmware version (or even its presence at all).

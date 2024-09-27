@@ -3,4 +3,4 @@ title = 'Product Code'
 +++
 
 1.  REDIRECT [Serials#NCCH Product
-    Code](Serials#NCCH_Product_Code "wikilink")
+    Code](Serials#ncch_product_code "wikilink")

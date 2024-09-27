@@ -7,7 +7,7 @@ title = 'AM:GetNumImportTitleContextsFiltered'
 | Index Word | Description                                                              |
 |------------|--------------------------------------------------------------------------|
 | 0          | Header code \[0x00230080\]                                               |
-| 1          | [Media Type](Filesystem_services#MediaType "wikilink")                   |
+| 1          | [Media Type](Filesystem_services#mediatype "wikilink")                   |
 | 2          | Filter (bit0 = include installing, bit1 = include awaiting finalization) |
 
 # Response

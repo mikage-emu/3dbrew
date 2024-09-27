@@ -7,7 +7,7 @@ title = 'APT:SetPreparationState'
 | Index Word | Description                                                                     |
 |------------|---------------------------------------------------------------------------------|
 | 0          | Header code \[0x00140040\]                                                      |
-| 1          | [AppletPreparationState](NS_and_APT_Services#AppletPreparationState "wikilink") |
+| 1          | [AppletPreparationState](NS_and_APT_Services#appletpreparationstate "wikilink") |
 
 # Response
 

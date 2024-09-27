@@ -7,7 +7,7 @@ title = 'FRDA:UpdateMii'
 | Index Word | Description                           |
 |------------|---------------------------------------|
 | 0          | Header code \[0x040C0800\]            |
-| 1-24       | [Mii Data](Mii#Mii_format "wikilink") |
+| 1-24       | [Mii Data](Mii#mii_format "wikilink") |
 | 25-30      | UTF-16 Mii name                       |
 | 31         | u8 Profanity flag                     |
 | 32         | u8 Character set                      |

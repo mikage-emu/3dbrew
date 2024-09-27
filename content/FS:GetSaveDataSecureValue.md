@@ -7,7 +7,7 @@ title = 'FS:GetSaveDataSecureValue'
 | Index Word | Description                                                         |
 |------------|---------------------------------------------------------------------|
 | 0          | Header code \[0x086600C0\]                                          |
-| 1          | [Secure Value Slot](Filesystem_services#SecureValueSlot "wikilink") |
+| 1          | [Secure Value Slot](Filesystem_services#securevalueslot "wikilink") |
 | 2          | Title Unique ID (0 = current)                                       |
 | 3          | u8, Title Variation (0 = current)                                   |
 

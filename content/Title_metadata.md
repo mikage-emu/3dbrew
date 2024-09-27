@@ -96,9 +96,9 @@ This indicates the content type:
 
 | Index | Content Type                                                                                                                                 |
 |-------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| 0000  | Main Content (.[CXI](NCCH#CXI "wikilink") for 3DS executable content/.[CFA](NCCH#CFA "wikilink") for 3DS Data Archives/.SRL for TWL content) |
-| 0001  | Home Menu Manual (.[CFA](NCCH#CFA "wikilink"))                                                                                               |
-| 0002  | DLP Child Container (.[CFA](NCCH#CFA "wikilink"))                                                                                            |
+| 0000  | Main Content (.[CXI](NCCH#cxi "wikilink") for 3DS executable content/.[CFA](NCCH#cfa "wikilink") for 3DS Data Archives/.SRL for TWL content) |
+| 0001  | Home Menu Manual (.[CFA](NCCH#cfa "wikilink"))                                                                                               |
+| 0002  | DLP Child Container (.[CFA](NCCH#cfa "wikilink"))                                                                                            |
 
 This does not apply to DLC.
 

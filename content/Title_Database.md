@@ -26,7 +26,7 @@ init etc (prior to showing the "system update required" dialog).
 
 These files are stored under this directory:
 
-| Stored on SD card | Stored in CTR-NAND | Filename  | [CTR-9DB0](DISA_and_DIFF#CTR-9DB0 "wikilink") ID | Description                                                                                                                                                                                                         |
+| Stored on SD card | Stored in CTR-NAND | Filename  | [CTR-9DB0](DISA_and_DIFF#ctr-9db0 "wikilink") ID | Description                                                                                                                                                                                                         |
 |-------------------|--------------------|-----------|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | No                | Yes                | ticket.db | 0x0                                              | This contains the installed tickets (NAND and SD).                                                                                                                                                                  |
 | No                | Yes                | certs.db  | 0x1                                              | This contains the certificate chain used to verify TMDs and other certificates.                                                                                                                                     |

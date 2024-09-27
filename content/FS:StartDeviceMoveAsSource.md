@@ -14,4 +14,4 @@ title = 'FS:StartDeviceMoveAsSource'
 |------------|-------------------------------------------------------------------------|
 | 0          | Header code                                                             |
 | 1          | Result code                                                             |
-| 2-9        | [Device Move Context](Filesystem_services#DeviceMoveContext "wikilink") |
+| 2-9        | [Device Move Context](Filesystem_services#devicemovecontext "wikilink") |

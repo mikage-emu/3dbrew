@@ -2,4 +2,4 @@
 title = 'GSPGPU'
 +++
 
-1.  REDIRECT [GSP_Services#GSPGPU](GSP_Services#GSPGPU "wikilink")
+1.  REDIRECT [GSP_Services#GSPGPU](GSP_Services#gspgpu "wikilink")

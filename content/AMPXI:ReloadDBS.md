@@ -7,7 +7,7 @@ title = 'AMPXI:ReloadDBS'
 | Index Word | Description                                                        |
 |------------|--------------------------------------------------------------------|
 | 0          | Header code \[0x00480040\]                                         |
-| 1          | [MediaType](Filesystem_services#MediaType "wikilink") (must be SD) |
+| 1          | [MediaType](Filesystem_services#mediatype "wikilink") (must be SD) |
 
 # Response
 

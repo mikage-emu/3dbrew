@@ -177,7 +177,7 @@ the "am:app" commands.
 | 0x080C0000     |                                | This just returns 0.                                                                           |
 
 This is similar to
-[FSFile](Filesystem_services#File_service "wikilink").
+[FSFile](Filesystem_services#file_service "wikilink").
 
 For handling each command that's actually implemented, the AM cmdhandler
 function calls a vtable funcptr.
@@ -212,7 +212,7 @@ though the "am:pipe" string isn't actually used.
 | Offset | Length | Description                                                                                              |
 |--------|--------|----------------------------------------------------------------------------------------------------------|
 | 0x0    | 0x2    | Index                                                                                                    |
-| 0x2    | 0x2    | [Content Type Flags](Title_metadata#Content_Type_flags "wikilink") from [TMD](Title_metadata "wikilink") |
+| 0x2    | 0x2    | [Content Type Flags](Title_metadata#content_type_flags "wikilink") from [TMD](Title_metadata "wikilink") |
 | 0x4    | 0x4    | Content ID                                                                                               |
 | 0x8    | 0x8    | Size                                                                                                     |
 | 0x10   | 0x1    | Bit 0: Downloaded, Bit 1: Owned                                                                          |

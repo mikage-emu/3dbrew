@@ -11,7 +11,7 @@ title = 'AMNet:GetCurrentImportContentContexts'
 | 2          | ((Import Content Context Count \* 2) \<\< 4) \| 0xA                                                    |
 | 3          | Import Content Context Indices Input Pointer                                                           |
 | 4          | ((Import Content Context Count \* 0x18) \<\< 4) \| 0xC                                                 |
-| 5          | [Import Content Contexts](Application_Manager_Services#ImportContentContext "wikilink") Output Pointer |
+| 5          | [Import Content Contexts](Application_Manager_Services#importcontentcontext "wikilink") Output Pointer |
 
 # Response
 

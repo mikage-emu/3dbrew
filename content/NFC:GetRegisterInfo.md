@@ -14,7 +14,7 @@ title = 'NFC:GetRegisterInfo'
 |------------|------------------------------------------------------|
 | 0          | Header code                                          |
 | 1          | Result code                                          |
-| 2-43       | [RegisterInfo](NFC_Services#RegisterInfo "wikilink") |
+| 2-43       | [RegisterInfo](NFC_Services#registerinfo "wikilink") |
 
 # Description
 

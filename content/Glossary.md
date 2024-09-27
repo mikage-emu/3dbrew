@@ -32,13 +32,13 @@ name suggests, C++ is essentially a step up from C.
 
 ### CCI
 
-[CTR Cart Image](NCSD#Overview "wikilink"). A file extension for game
+[CTR Cart Image](NCSD#overview "wikilink"). A file extension for game
 ROM images. The file format is a specialisation of the
 [NCSD](NCSD "wikilink") container format.
 
 ### CFA
 
-[CTR File Archive](NCCH#CFA "wikilink"). A file extension for
+[CTR File Archive](NCCH#cfa "wikilink"). A file extension for
 [NCCH](NCCH "wikilink") containers that contain non-executable data.
 
 ### CIA
@@ -56,7 +56,7 @@ Nintendo’s codename for the Nintendo 3DS.
 
 ### CXI
 
-[CTR eXecutable Image](NCCH#CXI "wikilink"). A file extension for
+[CTR eXecutable Image](NCCH#cxi "wikilink"). A file extension for
 [NCCH](NCCH "wikilink") containers that contain executable code.
 
 ## D
@@ -166,20 +166,20 @@ files can be read like two JPG files stuck together.
 
 A file format for storing the content of any installed
 [title](title "wikilink"). This is the format used by
-[CXI](Glossary#CXI "wikilink") and [CFA](Glossary#CFA "wikilink") files.
+[CXI](Glossary#cxi "wikilink") and [CFA](Glossary#cfa "wikilink") files.
 
 ### [NCSD](NCSD "wikilink")
 
-A file format for grouping up to eight [NCCH](Glossary#NCCH "wikilink")
-partitions. This is the format used by [CCI](Glossary#CCI "wikilink")
+A file format for grouping up to eight [NCCH](Glossary#ncch "wikilink")
+partitions. This is the format used by [CCI](Glossary#cci "wikilink")
 files and the [NAND
-structure](Flash_Filesystem#NAND_structure "wikilink").
+structure](Flash_Filesystem#nand_structure "wikilink").
 
 ## P
 
 ### PICA200
 
-The GPU used by the 3DS. See [Hardware#GPU](Hardware#GPU "wikilink").
+The GPU used by the 3DS. See [Hardware#GPU](Hardware#gpu "wikilink").
 
 ## S
 
@@ -211,11 +211,11 @@ stack. The other core is called [appcore](#appcore "wikilink").
 
 A [ticket](ticket "wikilink") is a file containing signature and
 encryption information on a particular
-[title](Glossary#Title "wikilink"). Tickets may be console-unique: In
+[title](Glossary#title "wikilink"). Tickets may be console-unique: In
 particular, tickets for [eShop](eShop "wikilink") contents are issued
 uniquely for each 3DS and hence cannot be transferred directly to other
 devices. System titles (and other content not available on eShop) are
-using tickets called [CommonETickets](Ticket#Some_facts "wikilink"),
+using tickets called [CommonETickets](Ticket#some_facts "wikilink"),
 which are common to all devices.
 
 ### Title
@@ -226,8 +226,8 @@ unique title ID, an 8 byte (4 character) long code used for title
 identification. All titles are encrypted for security purposes.
 
 Related pages: [Title list](Title_list "wikilink"), [Title
-Metadata](Glossary#Title_Metadata_.28TMD.29 "wikilink"),
-[Ticket](Glossary#Ticket "wikilink"), [Title
+Metadata](Glossary#title_metadata_tmd "wikilink"),
+[Ticket](Glossary#ticket "wikilink"), [Title
 Database](Title_Database "wikilink")
 
 ### Title Metadata (TMD)
@@ -240,5 +240,5 @@ contents they consist of and their SHA1 hashes.
 
 Codename used for the Nintendo DSi.
 
-Related pages: [TWL FIRM](FIRM#TWL_FIRM "wikilink"), [ARM7
+Related pages: [TWL FIRM](FIRM#twl_firm "wikilink"), [ARM7
 Registers](ARM7_Registers "wikilink")

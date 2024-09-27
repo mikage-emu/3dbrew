@@ -14,7 +14,7 @@ title = 'NFC:GetModelInfo'
 |------------|------------------------------------------------|
 | 0          | Header code                                    |
 | 1          | Result code                                    |
-| 2-15       | [ModelInfo](NFC_Services#ModelInfo "wikilink") |
+| 2-15       | [ModelInfo](NFC_Services#modelinfo "wikilink") |
 
 # Description
 

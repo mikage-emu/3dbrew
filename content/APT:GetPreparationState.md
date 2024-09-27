@@ -14,4 +14,4 @@ title = 'APT:GetPreparationState'
 |------------|---------------------------------------------------------------------------------|
 | 0          | Header code                                                                     |
 | 1          | Result code                                                                     |
-| 2          | [AppletPreparationState](NS_and_APT_Services#AppletPreparationState "wikilink") |
+| 2          | [AppletPreparationState](NS_and_APT_Services#appletpreparationstate "wikilink") |

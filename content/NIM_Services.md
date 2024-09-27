@@ -280,7 +280,7 @@ the titleIDs in the response are hex.
 | 0x08   | 0x04   | Title version                                          |
 | 0x0C   | 0x04   | Unknown (always 0?)                                    |
 | 0x10   | 0x01   | Age Rating (for HOME Menu parental controls)           |
-| 0x11   | 0x01   | [Media Type](Filesystem_services#MediaType "wikilink") |
+| 0x11   | 0x01   | [Media Type](Filesystem_services#mediatype "wikilink") |
 | 0x12   | 0x02   | Padding                                                |
 | 0x14   | 0x04   | Unknown (always 0?)                                    |
 

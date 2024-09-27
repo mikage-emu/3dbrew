@@ -6,7 +6,7 @@ title = 'Patches'
 
 ## Overview
 
-These are the same as the application's main [CXI](NCCH#CXI "wikilink"),
+These are the same as the application's main [CXI](NCCH#cxi "wikilink"),
 except the ExeFS/RomFS only contains files which were updated. When
 launching an application, [NS](NS "wikilink") will first try to
 [launch](Process_Manager_Services "wikilink") the specified title with

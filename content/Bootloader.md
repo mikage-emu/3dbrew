@@ -15,8 +15,8 @@ FIRM Launching.
 ## Boot ROM
 
 Upon boot, parts of the ARM9 and ARM11 boot ROMs are protected by
-writing to [CFG_SYSPROT9](CONFIG#CFG_SYSPROT9 "wikilink") and
-[CFG_SYSPROT11](CONFIG#CFG_SYSPROT11 "wikilink"), respectively. The ARM9
+writing to [CFG_SYSPROT9](CONFIG#cfg_sysprot9 "wikilink") and
+[CFG_SYSPROT11](CONFIG#cfg_sysprot11 "wikilink"), respectively. The ARM9
 and ARM11 boot ROMs are identical for all 3DS consoles (3DS, 3DS XL,
 2DS, New 3DS, New 3DS XL, New 2DS XL)
 
@@ -291,7 +291,7 @@ by the boot11 function initializing those words.
 0xffff0000 jumps to 0xffff8000. 0xffff8000 is crt0:
 
 - Very first thing this does is clear u8 register 0x10000002
-  ([CFG_RST11](CONFIG_Registers#CFG_RST11 "wikilink")) bit 0 to zero.
+  ([CFG_RST11](CONFIG_Registers#cfg_rst11 "wikilink")) bit 0 to zero.
 - Then sp is initialized for each cpumode, IRQs/FIQs are disabled during
   the first mode-switch.
 - Order of mode-switches + sp initialization: svc-mode = 0xfff04000,
@@ -435,17 +435,17 @@ LT_12454/firmboot
     ARM11-kernel, etc.
   - The [PM](Process_Manager_Services "wikilink") module launches
     [NS](NS "wikilink").
-  - If [auto-booting](Home_Menu#Auto-Boot_Function "wikilink") is
-    needed, NS will [auto-boot](NS#Auto-boot "wikilink") titles.
+  - If [auto-booting](Home_Menu#auto-boot-function "wikilink") is
+    needed, NS will [auto-boot](NS#auto-boot "wikilink") titles.
   - Otherwise, NS will instead launch [ErrDisp](ErrDisp "wikilink") and
     the [current active
-    menu](Configuration_Memory#ACTIVEMENUTID "wikilink") via the PM
+    menu](Configuration_Memory#activemenutid "wikilink") via the PM
     module. For retail units, this menu is usually the [Home
     Menu](Home_Menu "wikilink"). Note that the PM module first launches
     the module dependencies when launching a process, prior to actually
     launching the process.
   - The further Home Menu startup process is described
-    [here](Home_Menu#Home_Menu_startup "wikilink"). This includes Home
+    [here](Home_Menu#home_menu_startup "wikilink"). This includes Home
     Menu manually launching various sysmodules.
 
 <!-- -->

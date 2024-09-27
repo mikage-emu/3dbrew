@@ -7,8 +7,8 @@ title = 'APT:PrepareToStartApplication'
 | Index Word | Description                                                                                                                                                                                                                                                        |
 |------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0          | Header code \[0x00150140\]                                                                                                                                                                                                                                         |
-| 1-4        | [Program Info](Filesystem_services#ProgramInfo "wikilink")                                                                                                                                                                                                         |
-| 5          | u8 (changed to u32 with [8.0.0-18](8.0.0-18 "wikilink")), Flags (usually zero, when zero, NS writes a title-info struct with Program ID = ~0 and [MediaType](Filesystem_services#MediaType "wikilink") = NAND to the [FIRM](FIRM "wikilink") parameters structure) |
+| 1-4        | [Program Info](Filesystem_services#programinfo "wikilink")                                                                                                                                                                                                         |
+| 5          | u8 (changed to u32 with [8.0.0-18](8.0.0-18 "wikilink")), Flags (usually zero, when zero, NS writes a title-info struct with Program ID = ~0 and [MediaType](Filesystem_services#mediatype "wikilink") = NAND to the [FIRM](FIRM "wikilink") parameters structure) |
 
 # Response
 

@@ -7,7 +7,7 @@ title = 'AM:BeginImportProgramForOverWrite'
 | Index Word | Description                                            |
 |------------|--------------------------------------------------------|
 | 0          | Header code \[0x04180040\]                             |
-| 1          | [Media Type](Filesystem_services#MediaType "wikilink") |
+| 1          | [Media Type](Filesystem_services#mediatype "wikilink") |
 
 # Response
 

@@ -7,7 +7,7 @@ title = 'AMFile:SetAttributes'
 | Index Word | Description                                             |
 |------------|---------------------------------------------------------|
 | 0          | Header code \[0x08070040\]                              |
-| 1          | [Attributes](Filesystem_services#Attributes "wikilink") |
+| 1          | [Attributes](Filesystem_services#attributes "wikilink") |
 
 # Response
 

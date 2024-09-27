@@ -9,8 +9,8 @@ title = 'AES Registers'
 | Yes    | [AES_CNT](#aes_cnt "wikilink")                  | 0x10009000 | 4     | RW  |
 | Yes    | [AES_MACBLKCNT](#aes_macextrablkcnt "wikilink") | 0x10009004 | 2     | W   |
 | Yes    | [AES_BLKCNT](#aes_blkcnt "wikilink")            | 0x10009006 | 2     | W   |
-| Yes    | [AES_WRFIFO](#aes_wrfifo/aes_rdfifo "wikilink") | 0x10009008 | 4     | W   |
-| Yes    | [AES_RDFIFO](#aes_wrfifo/aes_rdfifo "wikilink") | 0x1000900C | 4     | R   |
+| Yes    | [AES_WRFIFO](aes_rdfifo /aes_rdfifo "wikilink") | 0x10009008 | 4     | W   |
+| Yes    | [AES_RDFIFO](aes_rdfifo /aes_rdfifo "wikilink") | 0x1000900C | 4     | R   |
 | Yes    | AES_KEYSEL                                      | 0x10009010 | 1     | RW  |
 | Yes    | [AES_KEYCNT](#aes_keycnt "wikilink")            | 0x10009011 | 1     | RW  |
 | Yes    | [AES_CTR](#aes_ctr "wikilink")                  | 0x10009020 | 16    | W   |
@@ -382,7 +382,7 @@ href="../NCCH" title="wikilink">NCCH</a> key, when ncchflag[3] is
 <td>0x25</td>
 <td><a href="../7.0.0-13" title="wikilink">v7.0</a> <a href="NCCH"
 title="wikilink">NCCH</a> key, when ncchflag[3] is 0x01.</td>
-<td>NATIVE_FIRM <a href="../Savegames#6.0.0-11_Savegame_keyY"
+<td>NATIVE_FIRM <a href="../Savegames#600-11-savegame-keyy"
 title="wikilink">boot</a>.</td>
 <td>NATIVE_FIRM.</td>
 <td>-</td>
@@ -419,7 +419,7 @@ title="wikilink">EncryptDecryptAes</a>.</td>
 </tr>
 <tr class="even">
 <td>0x2F</td>
-<td><a href="../Savegames#6.0.0-11_Savegame_keyY"
+<td><a href="../Savegames#600-11-savegame-keyy"
 title="wikilink">v6.0</a> save key.</td>
 <td>Bootrom.</td>
 <td>NATIVE_FIRM.</td>
@@ -550,10 +550,10 @@ title="wikilink">DSiWare_Exports</a>.</td>
 </tr>
 <tr class="even">
 <td>0x3B</td>
-<td><a href="../CTRCARD_Registers#CTRCARD_SECSEED"
+<td><a href="../CTRCARD_Registers#ctrcard_secseed"
 title="wikilink">CTR-CARD hardware-crypto seed</a> decryption key.</p>
 <p>AES-CCM is used, the keyY, nonce and MAC are stored in the <a
-href="../NCSD#Card_Info_Header" title="wikilink">Card Info
+href="../NCSD#card_info_header" title="wikilink">Card Info
 Header</a>.</td>
 <td>Bootrom.</td>
 <td>NATIVE_FIRM.</td>
@@ -575,7 +575,7 @@ title="wikilink">Ticket</a>.</td>
 <td>Used for various internal Boot9 crypto operations, different
 keydata for each one. Used to decrypt the <a href="../OTP_Registers"
 title="wikilink">OTP</a>, the FIRM sections when <a
-href="../Bootloader#Non-NAND_FIRM_boot" title="wikilink">booting from
+href="../Bootloader#non-nand-firm-boot" title="wikilink">booting from
 non-NAND</a>, and when generating the console-unique keys.</p>
 <p>The keydata for this keyslot is overwritten with other keydata before
 booting FIRM. This keyslot is not known to be used post-Boot9.</td>

@@ -33,9 +33,9 @@ other methods of updating it can be used as well.
 
 It is possible to remove the secure value easily by using
 [ControlSecureSave](FS:ControlSecureSave "wikilink"), from the
-[fs:USER](Filesystem_services#Filesystem_service_.22fs:USER.22 "wikilink")
+[fs:USER](Filesystem_services#filesystem_service_fsuser "wikilink")
 service, with the
-[SECURESAVE_ACTION_DELETE](FS:ControlSecureSave#Action "wikilink")
+[SECURESAVE_ACTION_DELETE](FS:ControlSecureSave#action "wikilink")
 action.
 
 # Applications using this feature

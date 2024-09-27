@@ -7,7 +7,7 @@ title = 'AMPXI:DeletePendingTitle'
 | Index Word | Description                                           |
 |------------|-------------------------------------------------------|
 | 0          | Header code \[0x002000C0\]                            |
-| 1          | [MediaType](Filesystem_services#MediaType "wikilink") |
+| 1          | [MediaType](Filesystem_services#mediatype "wikilink") |
 | 2-3        | u64, Title ID                                         |
 
 # Response

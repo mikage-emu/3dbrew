@@ -18,5 +18,5 @@ REG_MIC_DATA contains the current audio data from the microphone.
 
 | Bit | Description                                         |
 |-----|-----------------------------------------------------|
-| 3-2 | [Sampling rate](MIC_Services#SampleRate "wikilink") |
+| 3-2 | [Sampling rate](MIC_Services#samplerate "wikilink") |
 |     |                                                     |

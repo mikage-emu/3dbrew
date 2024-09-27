@@ -55,7 +55,7 @@ policylist) has the following format:
 
 The codename can be set to either `PBOS` (Production BOSS?) or `DBOS`
 (Development BOSS?) depending if the console is a
-[retail](Configuration_Memory#UNITINFO "wikilink") unit. As of system
+[retail](Configuration_Memory#unitinfo "wikilink") unit. As of system
 version 11.17, the user agent version is hardcoded to 8.0 and the CTRSDK
 version is set to 62452 (0xF3F4).
 
@@ -101,7 +101,7 @@ big-endian.
 
 Data following the BOSS header is encrypted with AES-CTR. The AES key
 that is used is stored in [keyslot
-0x38](AES_Registers#Keyslots "wikilink"). The first 12 bytes of the IV
+0x38](AES_Registers#keyslots "wikilink"). The first 12 bytes of the IV
 are from offset 0x1C of the header, while the last 32-bit integer of the
 IV in big-endian is 0x1. The IV from the header is random per file, and
 an unique random IV is used each time the content is updated. The

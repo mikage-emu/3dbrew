@@ -42,7 +42,7 @@ There are two register interfaces: the old NDS/DSi one and an
 alternative faster interface introduced with the 3DS.
 
 To toggle between those interfaces, use the
-[CFG11_SPI_CNT](CONFIG11_Registers#CFG11_SPI_CNT "wikilink") register.
+[CFG11_SPI_CNT](CONFIG11_Registers#cfg11_spi_cnt "wikilink") register.
 
 ## SPI_CNT
 
@@ -147,7 +147,7 @@ occurs.
 | 1   | Autopoll success                                     |
 | 2   | Autopoll timeout                                     |
 
-[Interrupt](ARM11_Interrupts#Hardware_Interrupts "wikilink") ID 0x24,
+[Interrupt](ARM11_Interrupts#hardware_interrupts "wikilink") ID 0x24,
 0x56 or 0x57 (depending on the bus) is fired when any of the bits change
 to 1 except for interrupts masked in
 [NSPI_INT_MASK](#nspi_int_mask "wikilink"). Writing 1 to a bit in this

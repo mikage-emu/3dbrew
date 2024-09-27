@@ -14,4 +14,4 @@ title = 'APT:GetLastSignaledAppletId'
 |------------|------------------------------------------------|
 | 0          | Header code                                    |
 | 1          | Result code                                    |
-| 2          | [AppID](NS_and_APT_Services#AppIDs "wikilink") |
+| 2          | [AppID](NS_and_APT_Services#appids "wikilink") |

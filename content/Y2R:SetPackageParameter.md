@@ -7,7 +7,7 @@ title = 'Y2R:SetPackageParameter'
 | Index Word | Description                                                     |
 |------------|-----------------------------------------------------------------|
 | 0          | Header code \[0x002901C0\]                                      |
-| 1-3        | [PackageParameter](Camera_Services#PackageParameter "wikilink") |
+| 1-3        | [PackageParameter](Camera_Services#packageparameter "wikilink") |
 
 # Response
 

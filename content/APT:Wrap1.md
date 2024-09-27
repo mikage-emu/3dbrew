@@ -28,4 +28,4 @@ title = 'APT:Wrap1'
 Similar to [<APT:Wrap>](APT:Wrap "wikilink"), but using a software
 AES-CCM implementation with a different key stored in the NS module.
 This is probably to avoid [a bug in the hardware
-implementation](AES_Registers#CCM_mode_pitfall "wikilink").
+implementation](AES_Registers#ccm_mode_pitfall "wikilink").

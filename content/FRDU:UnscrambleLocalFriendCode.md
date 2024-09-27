@@ -31,5 +31,5 @@ command buffer:
 This decodes one or more encoded friend codes into local friend codes
 for use with some friend-related commands. Encoded friend codes seem to
 generally be retrieved from
-[NWMUDS](NWM_Services#NWM_local-WLAN_service_.22nwm::UDS.22 "wikilink")
+[NWMUDS](NWM_Services#nwm-local-wlan-service-nwmuds "wikilink")
 command [GetNodeInformation](NWMUDS:GetNodeInformation "wikilink").

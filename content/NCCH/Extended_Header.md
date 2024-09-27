@@ -51,7 +51,7 @@ be the check for the "Ideal processor" field.
 | `0x2C`  | `0x4`            | Reserved                                                                               |
 | `0x30`  | `0xC`            | Data code set info                                                                     |
 | `0x3C`  | `0x4`            | BSS size                                                                               |
-| `0x40`  | `0x180` (`48*8`) | Dependency [module](Title_list#00040130_-_System_Modules "wikilink") (program ID) list |
+| `0x40`  | `0x180` (`48*8`) | Dependency [module](Title_list#00040130---system-modules "wikilink") (program ID) list |
 | `0x1C0` | `0x40`           | `SystemInfo`                                                                           |
 
 Most of these fields are used in
@@ -87,7 +87,7 @@ Most of these fields are used in
 |---------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | `0x0`   | `0x8`            | Program ID                                                                                                                                  |
 | `0x8`   | `0x4`            | Core version (The Title ID low of the required [FIRM](FIRM "wikilink"))                                                                     |
-| `0xC`   | `0x2`            | [Flag1](#Flag1 "wikilink") and [Flag2](#flag2 "wikilink") (both implemented starting from [8.0.0-18](8.0.0-18 "wikilink")).                 |
+| `0xC`   | `0x2`            | [Flag1](#flag1 "wikilink") and [Flag2](#flag2 "wikilink") (both implemented starting from [8.0.0-18](8.0.0-18 "wikilink")).                 |
 | `0xE`   | `0x1`            | [Flag0](#flag0 "wikilink")                                                                                                                  |
 | `0xF`   | `0x1`            | Priority                                                                                                                                    |
 | `0x10`  | `0x20` (`16*2`)  | Resource limit descriptors. The first byte here controls the maximum allowed [`CpuTime`](PMApp:SetAppResourceLimit "wikilink").             |
@@ -125,7 +125,7 @@ error is returned.
     if((1 << exheaderval) & accessdescval == 0) return error
 
 During a FIRM-launch when a `TitleInfo` structure was specified, the
-field at offset [0x400](FIRM#FIRM_Launch_Parameters "wikilink") in the
+field at offset [0x400](FIRM#firm_launch_parameters "wikilink") in the
 FIRM-launch parameters is set to the SystemMode of the specified title,
 however in some cases other values are written there. With
 [8.0.0-18](8.0.0-18 "wikilink") NS will now check the output of
@@ -288,7 +288,7 @@ different types are laid out as follows:
 | `6`    | Shared device memory                                                                    |
 | `7`    | Runnable on sleep                                                                       |
 | `8-11` | Memory type (1: application, 2: system, 3: base)                                        |
-| `12`   | [Special memory](Memory_layout#NATIVE_FIRM.2FSAFE_MODE_FIRM_Userland_Memory "wikilink") |
+| `12`   | [Special memory](Memory_layout#native_firmsafe_mode_firm_userland_memory "wikilink") |
 | `13`   | Process has access to CPU core 2 (New3DS only)                                          |
 
 ### ARM9 Access Control

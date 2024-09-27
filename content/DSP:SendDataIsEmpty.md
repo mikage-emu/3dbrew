@@ -7,7 +7,7 @@ title = 'DSP:SendDataIsEmpty'
 | Index Word | Description                                          |
 |------------|------------------------------------------------------|
 | 0          | Header code \[0x00040040\]                           |
-| 1          | [Register number](DSP_Registers#DSP_CMDX "wikilink") |
+| 1          | [Register number](DSP_Registers#dsp_cmdx "wikilink") |
 
 # Response
 

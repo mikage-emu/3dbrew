@@ -14,7 +14,7 @@ title = 'FS:GetNandArchiveResource'
 |------------|--------------------------------------------------------------------|
 | 0          | Header code                                                        |
 | 1          | Result code                                                        |
-| 2-5        | [Archive Resource](Filesystem_services#ArchiveResource "wikilink") |
+| 2-5        | [Archive Resource](Filesystem_services#archiveresource "wikilink") |
 
 # Description
 

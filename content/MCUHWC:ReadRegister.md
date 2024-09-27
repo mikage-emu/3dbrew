@@ -18,4 +18,4 @@ This is just a wrapper for [I2C](I2C_Services "wikilink") command
 # Registers
 
 This table has been merged to the [I2C
-Registers](I2C_Registers#Device_3 "wikilink") page.
+Registers](I2C_Registers#device_3 "wikilink") page.

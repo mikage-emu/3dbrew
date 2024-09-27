@@ -7,7 +7,7 @@ title = 'AMPXI:InitializeTitleDatabase'
 | Index Word | Description                                                        |
 |------------|--------------------------------------------------------------------|
 | 0          | Header code \[0x00470080\]                                         |
-| 1          | [MediaType](Filesystem_services#MediaType "wikilink") (must be SD) |
+| 1          | [MediaType](Filesystem_services#mediatype "wikilink") (must be SD) |
 | 2          | u8, Overwrite (0 = don't overwrite, 1 = overwrite)                 |
 
 # Response

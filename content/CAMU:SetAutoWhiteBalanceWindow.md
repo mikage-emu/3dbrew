@@ -7,7 +7,7 @@ title = 'CAMU:SetAutoWhiteBalanceWindow'
 | Index Word | Description                                             |
 |------------|---------------------------------------------------------|
 | 0          | Header code \[0x00270140\]                              |
-| 1          | [CameraSelect](Camera_Services#CameraSelect "wikilink") |
+| 1          | [CameraSelect](Camera_Services#cameraselect "wikilink") |
 | 2          | s16, X                                                  |
 | 3          | s16, Y                                                  |
 | 4          | s16, Width                                              |

@@ -14,4 +14,4 @@ title = 'Y2R:GetPackageParameter'
 |------------|-----------------------------------------------------------------|
 | 0          | Header code                                                     |
 | 1          | Result code                                                     |
-| 2-4        | [PackageParameter](Camera_Services#PackageParameter "wikilink") |
+| 2-4        | [PackageParameter](Camera_Services#packageparameter "wikilink") |

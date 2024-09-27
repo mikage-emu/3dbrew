@@ -71,7 +71,7 @@ alt="Old_Dev_Menu.png" />
 
 This NAND application (00040000-0ff40002) on the top screen displays the
 firmware and revision of the Dev Menu, the free space available on the
-[TWL(DSi) NAND partition](Flash_Filesystem#TWL_partition "wikilink") and
+[TWL(DSi) NAND partition](Flash_Filesystem#twl_partition "wikilink") and
 [SD card](SD_Filesystem "wikilink") if present. It also provides
 information on the current file or device selected, as well as
 navigation instructions for the bottom screen.The bottom screen has
@@ -160,14 +160,14 @@ continuous development; some features include:
   [configuration](Config_Savegame "wikilink") field containing the menu
   TID for dev units, allowing the user to choose between the [Home
   Menu](Home_Menu "wikilink") or the [Test
-  Menu](3DS_Development_Unit_GUI#Test_Menu "wikilink"), as the menu
+  Menu](3DS_Development_Unit_GUI#test_menu "wikilink"), as the menu
   loaded by the [NS](NS "wikilink") module.
 
 - Language - same options found in the Language section of [System
   Settings](System_Settings "wikilink") but also has an "invalid" option
 
 - System Mode - [Changes the memory
-  mode](Memory_layout#FCRAM_memory-regions_layout "wikilink") for the
+  mode](Memory_layout#fcram-memory-regions-layout "wikilink") for the
   Home/Test Menu. (Launching applications will be able to override this
   setting)
     - Prod - 64MB Memory mode ([Home Menu](Home_Menu "wikilink") can
@@ -433,14 +433,14 @@ This system NAND application (00040010-0ff40b02) when loaded can change
 the current 'Active Menu'(being used at the moment) by editing the menu
 TID [configuration](Config_Savegame "wikilink") field, allowing the user
 to choose between the [Home Menu](Home_Menu "wikilink") or the [Test
-Menu](3DS_Development_Unit_GUI#Test_Menu "wikilink"), as the menu loaded
+Menu](3DS_Development_Unit_GUI#test_menu "wikilink"), as the menu loaded
 by the [NS](NS "wikilink") module.
 
 It also features a basic [font](System_Font "wikilink") test.
 
 With the release of SDK 1.1.0, this application was superseded by the
 introduction of the "Menu" choice in the [Config
-Menu](3DS_Development_Unit_Software#Config "wikilink") and consequently
+Menu](3DS_Development_Unit_Software#config "wikilink") and consequently
 removed as a standard application.
 
 ## CecBoxTool
@@ -506,7 +506,7 @@ accessible from retail 3DSs). The functions of this application:
 
 - &lt;START&gt; CEC Filter Reset - Resets 8-hour per source rate limit. The
   [StreetPass driver](CECD "wikilink") runs a
-  [ENVINFO](Configuration_Memory#ENVINFO "wikilink") check to verify
+  [ENVINFO](Configuration_Memory#envinfo "wikilink") check to verify
   independently whether the console is not retail before applying this.
 
 ## BossLotCheckTool
@@ -673,7 +673,7 @@ count. These are the controls with explanation of each:
 <!-- -->
 
 - L+R+X - "Preclude today's Increment" Sets byte 6 of [the play coin
-  database](Extdata#Shared_Extdata_0xf000000b_gamecoin.dat "wikilink")
+  database](Extdata#shared_extdata_0xf000000b_gamecoindat "wikilink")
   so that no coins will be earned through walking for the current day
   anymore.
 

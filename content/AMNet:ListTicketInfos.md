@@ -11,7 +11,7 @@ title = 'AMNet:ListTicketInfos'
 | 2-3        | u64, Title ID                                                                     |
 | 4          | Offset                                                                            |
 | 5          | ((Ticket Count \* 0x18) \<\< 4) \| 0xC                                            |
-| 6          | [Ticket Infos](Application_Manager_Services#TicketInfo "wikilink") Output Pointer |
+| 6          | [Ticket Infos](Application_Manager_Services#ticketinfo "wikilink") Output Pointer |
 
 # Response
 

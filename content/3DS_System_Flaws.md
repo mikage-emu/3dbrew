@@ -165,10 +165,10 @@ keys are located in the protected ARM9 boot ROM.</td>
 <td><a href="../User:Myria" title="wikilink">Myria</a></td>
 </tr>
 <tr class="even">
-<td><a href="../CONFIG11_Registers#CFG11_GPUPROT"
+<td><a href="../CONFIG11_Registers#cfg11_gpuprot"
 title="wikilink">CFG11_GPUPROT</a> allowing acccess to
 AXIWRAM/FCRAM-BASE-memregion</td>
-<td><a href="../CONFIG11_Registers#CFG11_GPUPROT"
+<td><a href="../CONFIG11_Registers#cfg11_gpuprot"
 title="wikilink">CFG11_GPUPROT</a> can be configured by anything with
 access to it to allow the GPU to access the entire AXIWRAM+FCRAM. For
 example, this is an issue for any sysmodule that gets exploited and has
@@ -222,7 +222,7 @@ partitions.</td>
 <td>Boot9 AES keyinit function issues</td>
 <td><a href="../Bootloader" title="wikilink">Boot9</a> seems to have two
 bugs in the AES key-init function, see <a
-href="../AES_Registers#AES_key-init" title="wikilink">here</a>.</td>
+href="../AES_Registers#aes-key-init" title="wikilink">here</a>.</td>
 <td>None</td>
 <td>BootROM issue.</td>
 <td>2015</td>
@@ -389,17 +389,17 @@ title="wikilink">plutoo</a> (independently) + others</td>
 <tr class="odd">
 <td>Uncleared OTP hash keydata in console-unique 0x11
 key-generation</td>
-<td>Kernel9Loader does not clear the <a href="../SHA_Registers#SHA_HASH"
+<td>Kernel9Loader does not clear the <a href="../SHA_Registers#sha_hash"
 title="wikilink">SHA_HASH register</a> after use. As a result, the data
 stored here as K9L hands over to Kernel9 is the hash of <a
 href="../OTP_Registers" title="wikilink">OTP data</a> used to seed the <a
-href="../FIRM#New_3DS_FIRM" title="wikilink">console-unique NAND keystore
+href="../FIRM#new_3ds_firm" title="wikilink">console-unique NAND keystore
 decryption key</a> set on keyslot 0x11.</p>
-<p>Retrieving this keydata and the <a href="../Flash_Filesystem#0x12C00"
+<p>Retrieving this keydata and the <a href="../Flash_Filesystem#0x12c00"
 title="wikilink">NAND keystore</a> of the same device allows calculating
 the decrypted New3DS NAND keystore (non-unique, common to all New3DS
 units), which contains AES normal keys, also set on keyslot 0x11, which
-are then used to derive all current <a href="../AES_Registers#Keyslots"
+are then used to derive all current <a href="../AES_Registers#keyslots"
 title="wikilink">New3DS-only AES keyXs</a> including the newer batch
 introduced in <a href="../9.6.0-24#arm9loader"
 title="wikilink">9.6.0-X</a>. From there, it is trivial to perform the
@@ -474,7 +474,7 @@ various input keydata, eventually you'll find some garbage that jumps to
 your code.</p>
 <p>This gives very early ARM9 code execution (pre-ARM9 kernel). As such,
 it is possible to dump RSA keyslots with this and calculate the 6.x <a
-href="../Savegames#6.0.0-11_Savegame_keyY" title="wikilink">save</a>, and
+href="../Savegames#600-11-savegame-keyy" title="wikilink">save</a>, and
 7.x <a href="../NCCH" title="wikilink">NCCH</a> keys. This cannot be used
 to recover keys initialized by arm9loader itself. This is due to it
 wiping the area used for its stack during NAND sector decryption and
@@ -483,7 +483,7 @@ keyslot init.</p>
 can be exploited on Old3DS as well, but only if one already has the
 actual plaintext normalkey from New3DS NAND sector 0x96 offset-0 and has
 dumped the OTP area of the Old3DS.</td>
-<td>Recovery of 6.x <a href="../Savegames#6.0.0-11_Savegame_keyY"
+<td>Recovery of 6.x <a href="../Savegames#600-11-savegame-keyy"
 title="wikilink">save key</a>/7.x <a href="../NCCH"
 title="wikilink">NCCH</a> key, access to uncleared OTP hash
 keydata</td>
@@ -1187,10 +1187,10 @@ flaw was checked for</th>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="../CONFIG_Registers#CFG9_SYSPROT9"
+<td><a href="../CONFIG_Registers#cfg9_sysprot9"
 title="wikilink">CFG9_SYSPROT9</a> bit1 not set by Kernel9</td>
 <td>Old versions of Kernel9 never set bit1 of <a
-href="../CONFIG_Registers#CFG9_SYSPROT9"
+href="../CONFIG_Registers#cfg9_sysprot9"
 title="wikilink">CFG9_SYSPROT9</a>. This leaves the <a
 href="../OTP_Registers" title="wikilink">0x10012000</a>-region unprotected
 (this region should be locked early during boot!). Since it's never
@@ -1205,9 +1205,9 @@ OTP data for a New3DS console in order to decrypt the key data used in
 arm9loader (see enhanced-arm9loaderhax / description). This was
 performed by downgrading to a vulnerable system version. By accounting
 for differences in CTR-NAND crypto (0x05 -&gt; 0x04, see partition
-encryption types <a href="../Flash_Filesystem#NAND_structure"
+encryption types <a href="../Flash_Filesystem#nand_structure"
 title="wikilink">here</a>) and using an Old3DS <a
-href="../NCSD#NCSD_header" title="wikilink">NCSD Header</a>, it is possible
+href="../NCSD#ncsd_header" title="wikilink">NCSD Header</a>, it is possible
 to boot a New3DS using Old3DS firmware 1.0-2.x to retrieve the required
 OTP data using this flaw.</td>
 <td>Dumping the <a href="../OTP_Registers" title="wikilink">OTP</a>
@@ -1354,7 +1354,7 @@ most likely not exploitable</td>
 <tr class="odd">
 <td>kernelhax via gspwn</td>
 <td>Originally the kernel didn't initialize <a
-href="../CONFIG11_Registers#CFG11_GPUPROT"
+href="../CONFIG11_Registers#cfg11_gpuprot"
 title="wikilink">CFG11_GPUPROT</a>. Since it's 0 at hard-boot, this
 allowed the GPU to access the entire FCRAM + AXIWRAM.</td>
 <td>Entire FCRAM+AXIWRAM R/W.</td>
@@ -1480,7 +1480,7 @@ count for a handle object to zero.</td>
 title="wikilink">derrek</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../Memory_layout#ARM11_Detailed_virtual_memory_map"
+<td><a href="../Memory_layout#arm11_detailed_virtual_memory_map"
 title="wikilink">0xEFF00000</a> / 0xDFF00000 ARM11 kernel
 virtual-memory</td>
 <td>The ARM11 kernel-mode 0xEFF00000/0xDFF00000 virtual-memory(size
@@ -1506,7 +1506,7 @@ memchunkhax2.1 showed that it was possible to do fairly
 reliably.</td>
 <td>ARM11 kernel code execution</td>
 <td><a href="../11.0.0-33" title="wikilink">11.0.0-X</a>, via the new <a
-href="../Memory_Management#MemoryBlockHeader"
+href="../Memory_Management#memoryblockheader"
 title="wikilink">memchunkhdr</a> MAC which prevents modifying
 memchunkhdr data with DMA.</td>
 <td><a href="../11.0.0-33" title="wikilink">11.0.0-X</a></td>
@@ -1517,7 +1517,7 @@ aliaspider</td>
 <tr class="odd">
 <td>memchunkhax2</td>
 <td>When allocating a block of memory, the "next" pointer of the <a
-href="../Memory_Management#MemoryBlockHeader"
+href="../Memory_Management#memoryblockheader"
 title="wikilink">memchunkhdr</a> is accessed without being checked after
 being mapped to userland. This allows a race condition, where the
 process can change the next pointer just before it's accessed. By
@@ -1541,7 +1541,7 @@ enough to take it over.</td>
 <td>Code execution with access to all of NS's privileges. (including
 downgrading) Code execution within any applet.</td>
 <td><a href="../11.0.0-33" title="wikilink">11.0.0-X</a>, via the new <a
-href="../Memory_Management#MemoryBlockHeader"
+href="../Memory_Management#memoryblockheader"
 title="wikilink">memchunkhdr</a> MAC which prevents modifying
 memchunkhdr data with DMA.</td>
 <td><a href="../11.0.0-33" title="wikilink">11.0.0-X</a></td>
@@ -2287,7 +2287,7 @@ title-versions from eShop</td>
 href="../NIMS:StartDownload" title="wikilink">NIMS:StartDownload</a>) use a
 title-version value specified by the user-process, NIM does not validate
 that this input version matches the latest version available via SOAP.
-Therefore, when combined with AM(PXI) <a href="#Process9"
+Therefore, when combined with AM(PXI) <a href="#process9"
 title="wikilink">title-downgrading</a> via deleting the target eShop
 title with System Settings Data Management(if the title was already
 installed), this allows downloading+installing any title-version from

@@ -7,7 +7,7 @@ title = 'FS:ReadExtSaveDataIcon'
 | Index Word | Description                                                       |
 |------------|-------------------------------------------------------------------|
 | 0          | Header code \[0x08530142\]                                        |
-| 1-4        | [ExtSaveDataInfo](Filesystem_services#ExtSaveDataInfo "wikilink") |
+| 1-4        | [ExtSaveDataInfo](Filesystem_services#extsavedatainfo "wikilink") |
 | 5          | [SMDH](SMDH "wikilink") Size                                      |
 | 6          | ([SMDH](SMDH "wikilink") Size \<\< 4) \| 0xC                      |
 | 7          | [SMDH](SMDH "wikilink") Data Pointer                              |

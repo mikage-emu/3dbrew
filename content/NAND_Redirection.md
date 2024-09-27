@@ -47,6 +47,6 @@ keys](3DS_System_Flaws#arm9loader "wikilink"). This is because the [AES
 engine keyslots](AES "wikilink") introduced for NCCH decryption with 9.6
 are initialized by arm9loader using data generated from [OTP
 data](OTP_Registers "wikilink") upon boot. Since OTP access is blocked
-via [CFG_SYSPROT9](CONFIG_Registers#CFG_SYSPROT9 "wikilink") shortly
+via [CFG_SYSPROT9](CONFIG_Registers#cfg_sysprot9 "wikilink") shortly
 after that, it's impossible to perform this keyslot initialization at
 any later time.

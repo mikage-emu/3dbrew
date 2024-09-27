@@ -14,7 +14,7 @@ title = 'NIMU:GetTitleDownloadProgress'
 |------------|------------------------------------------------------------------------|
 | 0          | Header code \[0x00280240\]                                             |
 | 1          | Result code                                                            |
-| 2-7        | [TitleDownloadProgress](NIM_Services#TitleDownloadProgress "wikilink") |
+| 2-7        | [TitleDownloadProgress](NIM_Services#titledownloadprogress "wikilink") |
 | 8          | Unused?                                                                |
 | 9          | Unused?                                                                |
 

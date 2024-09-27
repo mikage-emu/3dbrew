@@ -9,7 +9,7 @@ blocks and their sizes.
 By overwriting the pointers in instances of this struct (e.g. using an
 attack like gspwn) and then (de)allocating memory, one can achieve a
 controlled ARM11 kernel-mode write on system versions up to 9.2
-([memchunkhax](3DS_System_Flaws#Kernel11 "wikilink")).
+([memchunkhax](3DS_System_Flaws#kernel11 "wikilink")).
 
 Size : 0xC bytes
 

@@ -14,4 +14,4 @@ title = 'Y2R:GetBlockAlignment'
 |------------|-------------------------------------------------------------|
 | 0          | Header code                                                 |
 | 1          | Result code                                                 |
-| 2          | [BlockAlignment](Camera_Services#BlockAlignment "wikilink") |
+| 2          | [BlockAlignment](Camera_Services#blockalignment "wikilink") |

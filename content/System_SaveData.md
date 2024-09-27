@@ -7,7 +7,7 @@ Savegames stored in NAND are located at
 where SaveID-High is the filename. SaveID-High is normally 00000000.
 
 Access to system savedata via [fs:USER](Filesystem_services "wikilink")
-is determined by the [exheader_storageinfo](NCCH#CXI "wikilink")
+is determined by the [exheader_storageinfo](NCCH#cxi "wikilink")
 accessinfo and systemsavedataid. Most ARM11 processes using fs:USER only
 have access to the SaveIDs specified by systemsavedataid, when a certain
 accessinfo bit is set the process can access all system-savedata

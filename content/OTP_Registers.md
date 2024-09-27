@@ -14,7 +14,7 @@ This is the console-unique data store, including
 [CTCert](CTCert "wikilink") etc, that ends up in ITCM at 0x01FFB800.
 After decryption, the first 0x90-bytes of plaintext are copied to
 0x01FFB800 if hash verification passes. Refer to
-[Memory_layout#ARM9_ITCM](Memory_layout#ARM9_ITCM "wikilink") for what
+[Memory_layout#ARM9_ITCM](Memory_layout#arm9_itcm "wikilink") for what
 is contained in the decrypted OTP.
 
 On [FIRM](FIRM "wikilink") versions prior to

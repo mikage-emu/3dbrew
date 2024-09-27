@@ -38,7 +38,7 @@ Size : 0x74 bytes
 There are 4 KResourceLimit objects created on the kernel heap. Each is
 used for a different category specified by the exheader's resource limit
 category specifier in the exheader [ARM11 Local System
-Capabilities](NCCH/Extended_Header#ARM11_Local_System_Capabilities "wikilink").
+Capabilities](NCCH/Extended_Header#arm11_local_system_capabilities "wikilink").
 
 **KPreemptionTimer**:
 

@@ -7,9 +7,9 @@ title = 'NIMU:SetDbgTasks'
 | Index Word | Description                                                                                   |
 |------------|-----------------------------------------------------------------------------------------------|
 | 0          | Header code \[0x001B0042\]                                                                    |
-| 1          | Number of [AutoTitleDownloadTaskInfos](NIM_Services#AutoTitleDownloadTaskInfo "wikilink")     |
+| 1          | Number of [AutoTitleDownloadTaskInfos](NIM_Services#autotitledownloadtaskinfo "wikilink")     |
 | 2          | Mapped Input Buffer Header (Size \<\< 4 \| 0xA)                                               |
-| 3          | [AutoTitleDownloadTaskInfos](NIM_Services#AutoTitleDownloadTaskInfo "wikilink") Input Pointer |
+| 3          | [AutoTitleDownloadTaskInfos](NIM_Services#autotitledownloadtaskinfo "wikilink") Input Pointer |
 
 # Response
 
@@ -18,7 +18,7 @@ title = 'NIMU:SetDbgTasks'
 | 0          | Header code \[0x001B0042\]                                                                    |
 | 1          | Result code                                                                                   |
 | 2          | Mapped Input Buffer Header (Size \<\< 4 \| 0xA)                                               |
-| 3          | [AutoTitleDownloadTaskInfos](NIM_Services#AutoTitleDownloadTaskInfo "wikilink") Input Pointer |
+| 3          | [AutoTitleDownloadTaskInfos](NIM_Services#autotitledownloadtaskinfo "wikilink") Input Pointer |
 
 # Description
 

@@ -7,7 +7,7 @@ title = 'FS:Obsoleted 3 0 DeleteSharedExtSaveData'
 | Index Word | Description                                            |
 |------------|--------------------------------------------------------|
 | 0          | Header code \[0x08360080\]                             |
-| 1          | [Media Type](Filesystem_services#MediaType "wikilink") |
+| 1          | [Media Type](Filesystem_services#mediatype "wikilink") |
 | 2          | Save ID Low                                            |
 
 # Response

@@ -14,6 +14,6 @@ title = 'NIMU:GetProgress'
 |------------|------------------------------------------------------------------------|
 | 0          | Header code \[0x00020340\]                                             |
 | 1          | Result code                                                            |
-| 2-11       | [System Update Progress](NIM_Services#SystemUpdateProgress "wikilink") |
+| 2-11       | [System Update Progress](NIM_Services#systemupdateprogress "wikilink") |
 | 12         | Unused?                                                                |
 | 13         | Unused?                                                                |

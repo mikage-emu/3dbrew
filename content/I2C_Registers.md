@@ -62,7 +62,7 @@ title = 'I2C Registers'
 | 11                                    | 3             | 0xd2                 | "i2c::HID"                                            | Gyroscope (2DS, new3DSXL, new2DSXL)                                                                                                                                                                                                                  |
 | 12                                    | 3             | 0xa4                 | "i2c::HID"                                            | DebugPad (slightly modified [Wii Classic Controller Pro](https://wiibrew.org/wiki/Wiimote/Extension_Controllers/Classic_Controller_Pro))                                                                                                             |
 | 13                                    | 3             | 0x9a                 | "i2c::IR"                                             | IR                                                                                                                                                                                                                                                   |
-| 14                                    | 3             | 0xa0                 | "i2c::EEP"                                            | HWCAL EEPROM ([only present on dev units where SHA256 is used for HWCAL verification](Hardware_calibration#Header "wikilink"))                                                                                                                       |
+| 14                                    | 3             | 0xa0                 | "i2c::EEP"                                            | HWCAL EEPROM ([only present on dev units where SHA256 is used for HWCAL verification](Hardware_calibration#header "wikilink"))                                                                                                                       |
 | 15                                    | 2             | 0xee                 | "i2c::NFC"                                            | New3DS-only [NFC](NFC_Services "wikilink")                                                                                                                                                                                                           |
 | 16                                    | 1             | 0x40                 | "i2c::QTM"                                            | New3DS-only [QTM](QTM_Services "wikilink")                                                                                                                                                                                                           |
 | 17                                    | 3             | 0x54                 | "i2c::IR"                                             | Used by IR-module starting with [8.0.0-18](8.0.0-18 "wikilink"), for New3DS-only HID via "ir:rst". This deviceid doesn't seem to be supported by i2c module on [8.0.0-18](8.0.0-18 "wikilink")(actual support was later added in New3DS i2c module). |
@@ -142,7 +142,7 @@ event, set to 3 by mcuMainLoop on reset if reset source is Watchdog</p>
 <td>0x05 - 0x07</td>
 <td>s</td>
 <td>rw</td>
-<td>Danger zone - <a href="../MCU_Services#MCU_firmware_versions"
+<td>Danger zone - <a href="../MCU_Services#mcu_firmware_versions"
 title="wikilink">MCU unlock sequence</a> is written here.</td>
 </tr>
 <tr class="odd">
@@ -245,7 +245,7 @@ If no interrupt was received this register is 0</td>
 <code> bit05: Shell close</code><br />
 <code> bit06: Shell open</code><br />
 <code> bit07: Fatal hardware condition(</code><a
-href="../Services#Notifications"
+href="../Services#notifications"
 title="wikilink"><code>?</code></a><code>) (sent when the MCU gets reset by the Watchdog timer)</code><br />
 <code> bit08: Charger removed</code><br />
 <code> bit09: Charger plugged in</code><br />
@@ -283,13 +283,13 @@ href="https://github.com/profi200/libn3ds/blob/083c8ffa3f56a49802fa74b6afe45a968
 <td>System power control:</p>
 <p><code> bit0: power off</code><br />
 <code> bit1: full reboot (unused). Discards things like </code><a
-href="../CONFIG9_Registers#CFG9_BOOTENV"
+href="../CONFIG9_Registers#cfg9_bootenv"
 title="wikilink"><code>CFG9_BOOTENV</code></a><br />
 <code>   - Asserts RESET1 via PMIC command (?) (deasserts nRESET1). This could be the reset that controls some CFG9 registers</code><br />
 <code>   - Asserts RESET2 (P0.1 = 0, PM0.1 = 0 (output)) (deasserts nRESET2)</code><br />
 <code>   - Asserts FCRAM_RESET (P3.0 = 0) (deasserts nFCRAM_RESET)</code><br />
 <code> bit2: normal reboot. Preserves </code><a
-href="../CONFIG9_Registers#CFG9_BOOTENV"
+href="../CONFIG9_Registers#cfg9_bootenv"
 title="wikilink"><code>CFG9_BOOTENV</code></a><code>, etc.</code><br />
 <code>   - Asserts RESET2 (P0.1 = 0, PM0.1 = 0)</code><br />
 <code>   - If in NTR emulation mode (see reg 0x02), asserts FCRAM_RESET (P3.0 = 0)</code><br />
@@ -311,7 +311,7 @@ delay.</td>
 <td>wo</td>
 <td>Used in legacy mode to signal events for TWL MCU "emulation"
 (written to REG[0x5D])? Software then asserts the TWL MCU IRQ pin via <a
-href="#LGY_GPIOEMU_MASK" title="wikilink">Legacy I/O registers</a>.</p>
+href="#lgy_gpioemu_mask" title="wikilink">Legacy I/O registers</a>.</p>
 <p><code> bit0: Signal TWL POWER button click</code><br />
 <code> bit1: Signal TWL reset</code><br />
 <code> bit2: Signal TWL power off</code><br />
@@ -481,7 +481,7 @@ register (unused in code)</td>
 <td>s</td>
 <td>rw</td>
 <td>Could be used on extremely old MCU_FIRM versions to upload <a
-href="../MCU_Services#MCU_firmware_versions" title="wikilink">MCU
+href="../MCU_Services#mcu_firmware_versions" title="wikilink">MCU
 firmware</a> if reg 0xF == 0 and reg 0x10 == 1 (presumably major and
 minor version fields for mcufw 0.1 which largely predates factory
 firm).</td>
@@ -679,7 +679,7 @@ FFs.</td>
 <td>ro</td>
 <td>Various system state information (debug pointer table)</p>
 <p><code> byte 0x00: Console type, see </code><a
-href="../Configuration_Memory#MCU_HW_INFO"
+href="../Configuration_Memory#mcu_hw_info"
 title="wikilink"><code>here</code></a><br />
 <code> byte 0x01: PMIC vendor code</code><br />
 <code> byte 0x02: Battery vendor code (determined from battery middle pin)</code><br />
@@ -693,7 +693,7 @@ title="wikilink"><code>here</code></a><br />
 <code> byte 0x05: RCOMP(?)</code><br />
 <code> byte 0x06: On-board battery slot NTC reading (more heat causes this value to go *down*, and cooling off will make this value go back up)</code><br />
 <code> byte 0x09: system model (see </code><a
-href="../Cfg:GetSystemModel#System_Model_Values"
+href="../Cfg:GetSystemModel#system_model_values"
 title="wikilink"><code>Cfg:GetSystemModel</code></a><code> for values)</code><br />
 <code> byte 0x0A: Red Power LED mode (0 = off, 1 = on)</code><br />
 <code> byte 0x0B: Blue Power LED intensity  (0x00 - 0xFF)</code><br />
@@ -1184,7 +1184,7 @@ which was slightly modified to have an encrypted device type of 0xF0
 [instead of
 0xFD](https://wiibrew.org/wiki/Wiimote/Extension_Controllers#The_New_Way).
 
-See [here](HID_Shared_Memory#Offset_0x238 "wikilink") for the HID shared
+See [here](HID_Shared_Memory#offset_0x238 "wikilink") for the HID shared
 memory report format.
 
 ## Device 13

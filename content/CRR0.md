@@ -23,7 +23,7 @@ categories = ["File formats"]
 | 0x348  | 0x8   | Reserved                                                                                                    |
 | 0x350  | 0x4   | Hash-table Offset                                                                                           |
 | 0x354  | 0x4   | Total hashes in the hash-table                                                                              |
-| 0x358  | 0x4   | Offset to the plain region containing text tags, from the process [NCCH](NCCH#CXI "wikilink")               |
+| 0x358  | 0x4   | Offset to the plain region containing text tags, from the process [NCCH](NCCH#cxi "wikilink")               |
 | 0x35C  | 0x4   | Size of plain region                                                                                        |
 | 0x360  |       | SHA-256 hash-table                                                                                          |
 

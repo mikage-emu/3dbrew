@@ -3,7 +3,7 @@ title = 'FIRM'
 +++
 
 This page describes the file format for the [3DS'
-Firmware](Title_list#00040138_-_System_Firmware "wikilink"), it contains
+Firmware](Title_list#00040138---system-firmware "wikilink"), it contains
 up to four 'sections' of data comprising the ARM9 and ARM11 kernels, and
 some fundamental processes. The firmware sections are not encrypted. In
 a nutshell, a FIRM contains all the data required to set up the ARM9 and
@@ -46,7 +46,7 @@ not meant to be booted from NAND, i.e. if it is meant to be booted from
 SPI flash or NTR cartridge. If hash checks fail for all FIRM sections if
 treated as plaintext, it may be worth trying to check if the sections
 are encrypted. The encryption is detailed on [the bootloader
-page](Bootloader#Non-NAND_FIRM_boot "wikilink").
+page](Bootloader#non-nand-firm-boot "wikilink").
 
 ## [New_3DS](New_3DS "wikilink") FIRM
 
@@ -62,14 +62,14 @@ main() does the following:
   r0=0 and r1=\<address of arm9binhdr+0x50\>.
 - Clears bit6 in [REG_AESKEYCNT](AES_Registers "wikilink").
 
-If [CFG_SYSPROT9](CONFIG_Registers#CFG_SYSPROT9 "wikilink") bit 1 is
+If [CFG_SYSPROT9](CONFIG_Registers#cfg_sysprot9 "wikilink") bit 1 is
 clear (which means the OTP area is unlocked and so it knows that this is
 a hard reboot), it does the following things:
 
 - Clears 0x200-bytes on the stack, then reads
   [NAND](Flash_Filesystem "wikilink") sector 0x96(NAND image offset
   0x12C00), with size 0x200-bytes into that stack buffer.
-- Checks [CFG_SYSPROT9](CONFIG_Registers#CFG_SYSPROT9 "wikilink") bit 1
+- Checks [CFG_SYSPROT9](CONFIG_Registers#cfg_sysprot9 "wikilink") bit 1
   again, if it's set then it executes a panic function(set r0-r2=0,
   execute nop instruction, then execute instruction "bkpt 0x99").
 - Hashes data from the OTP region
@@ -116,7 +116,7 @@ a hard reboot), it does the following things:
 - [9.5.0-X](9.5.0-22 "wikilink"): The normalkey, keyX, and keyY, for
   keyslot 0x11 are then cleared to zero.
 
-When [CFG_SYSPROT9](CONFIG_Registers#CFG_SYSPROT9 "wikilink") bit 1 is
+When [CFG_SYSPROT9](CONFIG_Registers#cfg_sysprot9 "wikilink") bit 1 is
 set(which means this happens only when this loader runs again for
 firm-launch), the normalkey, keyX, and keyY, for keyslot 0x11 are
 cleared to zero.
@@ -299,7 +299,7 @@ The above kernel/FIRM versions are in the format:
 ### SAFE_MODE_FIRM
 
 SAFE_MODE is used for running the [System
-Updater](System_Settings#System_Updater "wikilink"). SAFE_MODE_FIRM and
+Updater](System_Settings#system_updater "wikilink"). SAFE_MODE_FIRM and
 NATIVE_FIRM for the initial versions are exactly the same, except for
 the system core version fields. Kernel/FIRM versions for SAFE_MODE_FIRM
 are: (old3ds) v432 = 3.27-0, v5632 = 3.32-0, (new3ds) v16081 = 3.45-3.
@@ -329,7 +329,7 @@ system reboot.
 
 The TWL_FIRM ARM11-process includes a TWL bootloader, see
 [here](http://dsibrew.org/wiki/Bootloader) and
-[here](Memory_layout#Detailed_TWL_FIRM_ARM11_Memory "wikilink") for
+[here](Memory_layout#detailed_twl_firm_arm11_memory "wikilink") for
 details.
 
 TWL_FIRM verifies all TWL RSA padding with the following. This is
@@ -362,8 +362,8 @@ The FIRM-launch parameters structure is located at FCRAM+0, size
 0x1000-bytes. The ARM11-kernel copies this structure elsewhere, then
 clears the 0x1000-bytes at FCRAM+0. It will not handle an existing
 structure at FCRAM+0 if
-[CFG_BOOTENV](CONFIG_Registers#CFG_BOOTENV "wikilink") is zero. The ARM9
-kernel [writes some values](Configuration_Memory#0x1FF80016 "wikilink")
+[CFG_BOOTENV](CONFIG_Registers#cfg_bootenv "wikilink") is zero. The ARM9
+kernel [writes some values](Configuration_Memory#0x1ff80016 "wikilink")
 about the boot environment to AXI WRAM during init to enable this.
 
 Note: it seems NATIVE_FIRM ARM11-kernel didn't parse this during boot
@@ -372,13 +372,13 @@ until [3.0.0-X](3.0.0-5 "wikilink")?
 | OFFSET | SIZE  | DESCRIPTION                                                                                                                                                                                                                                                                                                                              |
 |--------|-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0x000  | 0x300 | TWL auto-load parameters, passed as-is onto the new title. NS will only read the oldTitleId field from it and add it to the TWL title list if it's a CTR titleId                                                                                                                                                                         |
-| 0x300  | 0x100 | 'TLNC' block created by TWL applications, handled by NS for backwards-compatibility purposes. See [here](NS#Auto-boot "wikilink") for more info.                                                                                                                                                                                         |
+| 0x300  | 0x100 | 'TLNC' block created by TWL applications, handled by NS for backwards-compatibility purposes. See [here](NS#auto-boot "wikilink") for more info.                                                                                                                                                                                         |
 | 0x400  | 0x4   | Flags                                                                                                                                                                                                                                                                                                                                    |
 | 0x410  | 0xC   | This is used for overriding the FIRM_\* fields in [Configuration_Memory](Configuration_Memory "wikilink"), when the flag listed below is set, in the following order(basically just data-copy from here to 0x1FF80060): "FIRM_?", FIRM_VERSIONREVISION, FIRM_VERSIONMINOR, FIRM_VERSIONMAJOR, FIRM_SYSCOREVER, and FIRM_CTRSDKVERSION. |
 | 0x438  | 0x4   | The kernel checks this field for value 0xFFFF, if it matches the kernel uses the rest of these parameter fields, otherwise FIRM-launch parameters fields are ignored by the kernel.                                                                                                                                                      |
 | 0x43C  | 0x4   | CRC32, this is calculated starting at FIRM-params offset 0x400, with size 0x140(with this field cleared to zero during calculation). When invalid the kernel clears the entire buffer used for storing the FIRM-params, therefore no actual FIRM-params are handled after that.                                                          |
-| 0x440  | 0x10  | Titleinfo [Program Info](Filesystem_services#ProgramInfo "wikilink"), used by NS during NS startup, to launch the specified title when the below flag is set.                                                                                                                                                                            |
-| 0x450  | 0x10  | Titleinfo [Program Info](Filesystem_services#ProgramInfo "wikilink"). This might be used for returning to the specified title, once the above launched title terminates?                                                                                                                                                                 |
+| 0x440  | 0x10  | Titleinfo [Program Info](Filesystem_services#programinfo "wikilink"), used by NS during NS startup, to launch the specified title when the below flag is set.                                                                                                                                                                            |
+| 0x450  | 0x10  | Titleinfo [Program Info](Filesystem_services#programinfo "wikilink"). This might be used for returning to the specified title, once the above launched title terminates?                                                                                                                                                                 |
 | 0x460  | 0x4   | Bit0: 0 = titleinfo structure isn't set, 1 = titleinfo structure is set.                                                                                                                                                                                                                                                                 |
 | 0x480  | 0x20  | This can be set via buf1 for [<APT:SendDeliverArg>](APT:SendDeliverArg "wikilink")/[<APT:StartApplication>](APT:StartApplication "wikilink").                                                                                                                                                                                            |
 | 0x4A0  | 0x10  | This can be set by [NSS:SetWirelessRebootInfo](NSS:SetWirelessRebootInfo "wikilink").                                                                                                                                                                                                                                                    |
@@ -391,7 +391,7 @@ Flags from offset 0x400:
 
 | OFFSET | SIZE | DESCRIPTION                                                                                                                                                                                                                                                                                                                                                                                                               |
 |--------|------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0x0    | 0x1  | This can be used for overriding the default FCRAM [memory-regions](Memory_layout "wikilink") allocation sizes(APPLICATION, SYSTEM, and BASE). The values for this is the same as [Configmem-APPMEMTYPE](Configuration_Memory#APPMEMTYPE "wikilink"). Values 0-1 are handled the same way by the kernel. However for NS, 0=titleinfo structure for launching a title isn't set, while non-zero=titleinfo structure is set. |
+| 0x0    | 0x1  | This can be used for overriding the default FCRAM [memory-regions](Memory_layout "wikilink") allocation sizes(APPLICATION, SYSTEM, and BASE). The values for this is the same as [Configmem-APPMEMTYPE](Configuration_Memory#appmemtype "wikilink"). Values 0-1 are handled the same way by the kernel. However for NS, 0=titleinfo structure for launching a title isn't set, while non-zero=titleinfo structure is set. |
 | 0x1    | 0x3  | Setting bit0 here enables overriding the FIRM_\* fields in [Configuration_Memory](Configuration_Memory "wikilink").                                                                                                                                                                                                                                                                                                      |
 
 Atheros WiFi configuration struct for booting TWL_FIRM, from offset

@@ -79,7 +79,7 @@ Writing to RSA_MOD does not change the exponent written with
 RSA_EXPFIFO. An attack based on the [Pohlig-Hellman
 algorithm](wikipedia:Pohlig-Hellman_algorithm "wikilink") exists to
 "read" the contents of RSA_EXPFIFO as a result (see [3DS System
-Flaws](3DS_System_Flaws#Hardware "wikilink")).
+Flaws](3DS_System_Flaws#hardware "wikilink")).
 
 ## RSA_TXT
 
@@ -96,5 +96,5 @@ hardware will only do raw RSA operations.
 | Keyslot | Description                                                                                                                                           |
 |---------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0       | Arbitrary                                                                                                                                             |
-| 1       | [CXI](NCCH#CXI "wikilink") access desc (following the exheader)                                                                                       |
+| 1       | [CXI](NCCH#cxi "wikilink") access desc (following the exheader)                                                                                       |
 | 2-3     | Initialized by the ARM9 bootrom, but not used by any of the [FIRMs](FIRM "wikilink"). It's unknown what the ARM9 bootrom uses these for, if anything. |

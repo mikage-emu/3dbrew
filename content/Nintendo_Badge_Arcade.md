@@ -22,7 +22,7 @@ The game can use four different URLs to retrieve game data.
 
 Where gameVersion goes the version of the game, which can be v130 or
 v131, langcode is the two-character language codes from
-[config](Config_Savegame#Languages "wikilink"), and regionID is from the
+[config](Config_Savegame#languages "wikilink"), and regionID is from the
 below table.
 
 | Region | ID               |

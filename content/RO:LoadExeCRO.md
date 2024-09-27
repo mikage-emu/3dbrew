@@ -18,7 +18,7 @@ title = 'RO:LoadExeCRO'
 | 9          | Register as auto-link module if non-zero.                                                                                                       |
 | 10         | Fix level.                                                                                                                                      |
 | 11         | Usually zero?                                                                                                                                   |
-| 12         | Must be zero ([translation descriptor](IPC#Message_Structure "wikilink"))                                                                       |
+| 12         | Must be zero ([translation descriptor](IPC#message_structure "wikilink"))                                                                       |
 | 13         | [KProcess](SVC "wikilink") handle                                                                                                               |
 
 # Response

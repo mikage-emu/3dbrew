@@ -7,7 +7,7 @@ title = 'APT:GetAppletInfo'
 | Index Word | Description                                    |
 |------------|------------------------------------------------|
 | 0          | Header code \[0x00060040\]                     |
-| 1          | [AppID](NS_and_APT_Services#AppIDs "wikilink") |
+| 1          | [AppID](NS_and_APT_Services#appids "wikilink") |
 
 # Response
 
@@ -16,10 +16,10 @@ title = 'APT:GetAppletInfo'
 | 0          | Header code                                             |
 | 1          | Result code                                             |
 | 2-3        | u64, Title ID                                           |
-| 4          | [MediaType](Filesystem_services#MediaType "wikilink")   |
+| 4          | [MediaType](Filesystem_services#mediatype "wikilink")   |
 | 5          | u8, Registered (0 = not registered, 1 = registered)     |
 | 6          | u8, Loaded (0 = not loaded, 1 = loaded)                 |
-| 7          | [AppletAttr](NS_and_APT_Services#AppletAttr "wikilink") |
+| 7          | [AppletAttr](NS_and_APT_Services#appletattr "wikilink") |
 
 # Description
 

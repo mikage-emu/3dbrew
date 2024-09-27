@@ -7,7 +7,7 @@ title = 'APT:GetAttribute'
 | Index Word | Description                                    |
 |------------|------------------------------------------------|
 | 0          | Header code \[0x000A0040\]                     |
-| 1          | [AppID](NS_and_APT_Services#AppIDs "wikilink") |
+| 1          | [AppID](NS_and_APT_Services#appids "wikilink") |
 
 # Response
 
@@ -15,4 +15,4 @@ title = 'APT:GetAttribute'
 |------------|---------------------------------------------------------|
 | 0          | Header code                                             |
 | 1          | Result code                                             |
-| 2          | [AppletAttr](NS_and_APT_Services#AppletAttr "wikilink") |
+| 2          | [AppletAttr](NS_and_APT_Services#appletattr "wikilink") |

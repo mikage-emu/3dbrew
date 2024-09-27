@@ -22,7 +22,7 @@ TWL_FIRM and AGB_FIRM, all system modules, TestMenu and CTRAging.
 
 On O3DS, all system titles have TID high 00040001. This may just be
 convention of a very old firmware since [NATIVE_FIRM in the
-factory](FIRM#NATIVE_FIRM "wikilink") is extremely old, being over 20
+factory](FIRM#native_firm "wikilink") is extremely old, being over 20
 versions behind 1.0. TestMenu also has this TID high.
 
 For N3DS, the title IDs match the [normal](Title_list "wikilink")
@@ -33,7 +33,7 @@ TestMenu in the Nintendo CTR SDK as well.
 Most, but apparently not all, units ship with tickets for all factory
 titles in ticket.db, signed with retail keys. All factory titles for
 retail units use the retail [NCCH](NCCH "wikilink") secure crypto; the
-[NCCH access desc](NCCH/Extended_Header#Access_Control_Info "wikilink")
+[NCCH access desc](NCCH/Extended_Header#access_control_info "wikilink")
 uses the retail keys for signatures, too. This suggests that at the
 point the factory firmware is booted for the first time, the [one-time
 programmable (OTP) region](OTP_Registers "wikilink") has already been
@@ -79,7 +79,7 @@ there may be more.
 ## TestMenu
 
 TestMenu is similar to its [Nintendo CTR SDK
-equivalent](3DS_Development_Unit_GUI#Test_Menu "wikilink").
+equivalent](3DS_Development_Unit_GUI#test_menu "wikilink").
 
 On O3DS factory TestMenu, there are two strings that do not appear to be
 part of the standard Nintendo CTR SDK TestMenu: "run TWL test app" and
@@ -90,10 +90,10 @@ TestMenu revision.
 
 No TestMenu version is capable of launching CTRAging directly: O3DS
 factory TestMenu can only launch
-[DevMenu](3DS_Development_Unit_Software#Dev_Menu "wikilink") installed
+[DevMenu](3DS_Development_Unit_Software#dev_menu "wikilink") installed
 on [NAND](Flash_Filesystem "wikilink"), the inserted cartridge and the
 TWL/AGB test apps; N3DS factory TestMenu can only launch
-[DevMenu](3DS_Development_Unit_Software#Dev_Menu "wikilink") installed
+[DevMenu](3DS_Development_Unit_Software#dev_menu "wikilink") installed
 on [NAND](Flash_Filesystem "wikilink"), the inserted cartridge and
 [System Settings](System_Settings "wikilink").
 

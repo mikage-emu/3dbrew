@@ -30,5 +30,5 @@ This allows performing extra actions on secure saves.
 
 | Value | Description                    | Input                                                                                                                          | Output            |
 |-------|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| 0     | Deletes a save's secure value. | u64, (([SecureValueSlot](Filesystem_services#SecureValueSlot "wikilink") \<\< 32) \| (TitleUniqueId \<\< 8) \| TitleVariation) | u8, Value Existed |
+| 0     | Deletes a save's secure value. | u64, (([SecureValueSlot](Filesystem_services#securevalueslot "wikilink") \<\< 32) \| (TitleUniqueId \<\< 8) \| TitleVariation) | u8, Value Existed |
 | 1     | Formats a save.                | None                                                                                                                           | None              |

@@ -20,5 +20,5 @@ title = 'NSS:RebootSystemClean'
 This calls the same code as
 [NSS:RebootSystem](NSS:RebootSystem "wikilink") does when not launching
 a title, with the
-[APPMEMTYPE](Configuration_Memory#APPMEMTYPE "wikilink") argument set to
+[APPMEMTYPE](Configuration_Memory#appmemtype "wikilink") argument set to
 the system default (O3DS = 0, N3DS = 6).

@@ -6,11 +6,11 @@ The following is a list of known file formats used by the 3DS.
 
 ## [NCCH](NCCH "wikilink")
 
-.[CXI](NCCH#CXI "wikilink") - CTR Executable image - Are either packaged
+.[CXI](NCCH#cxi "wikilink") - CTR Executable image - Are either packaged
 into a CCI/CSU for running off a cartridge, or packaged into a CIA for
 installing to the SDMC or NAND.
 
-.[CFA](NCCH#CFA "wikilink") - CTR File Archive - Externalized Rom-FS.
+.[CFA](NCCH#cfa "wikilink") - CTR File Archive - Externalized Rom-FS.
 This is non-executable specialisation of the NCCH container format.
 Generally used in conjunction with an executable specialisation of the
 NCCH container format (CXI).

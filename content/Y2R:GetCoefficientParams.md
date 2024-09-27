@@ -14,4 +14,4 @@ title = 'Y2R:GetCoefficientParams'
 |------------|-------------------------------------------------------------------|
 | 0          | Header code                                                       |
 | 1          | Result code                                                       |
-| 2-5        | [CoefficientParams](Camera_Services#CoefficientParams "wikilink") |
+| 2-5        | [CoefficientParams](Camera_Services#coefficientparams "wikilink") |

@@ -9,7 +9,7 @@ title = 'ACTU:GetAccountDataBlock'
 | 0          | Header code \[0x000600C2\]                    |
 | 1          | u8 Account slot (0xFE to use current account) |
 | 2          | Size                                          |
-| 3          | [BlkID](ACT_Services#DataBlocks "wikilink")   |
+| 3          | [BlkID](ACT_Services#datablocks "wikilink")   |
 | 4          | (Size\<\<4) \| 12                             |
 | 5          | Output buffer ptr                             |
 

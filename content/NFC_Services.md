@@ -205,7 +205,7 @@ titles added with [9.3.0-21](9.3.0-21 "wikilink") which use NFC.
 | Offset | Size | Description                                                                                                                            |
 |--------|------|----------------------------------------------------------------------------------------------------------------------------------------|
 | 0x00   | 0x08 | Program ID (From the Wii U, 3DS or Switch title who created the application area)                                                      |
-| 0x08   | 0x04 | [App ID](Amiibo#Games_using_Amiibo_AppData "wikilink")                                                                                 |
+| 0x08   | 0x04 | [App ID](Amiibo#games_using_amiibo_appdata "wikilink")                                                                                 |
 | 0x0C   | 0x02 | CRC32 Change Counter                                                                                                                   |
 | 0x0E   | 0x01 | Flags (bit0 = amiibo initialized, bit1 = has application area, bit2/bit3 unknown)                                                      |
 | 0x0F   | 0x01 | Unknown, hardcoded to 0x2                                                                                                              |
@@ -217,7 +217,7 @@ titles added with [9.3.0-21](9.3.0-21 "wikilink") which use NFC.
 
 | Offset | Size | Description                                                                                                |
 |--------|------|------------------------------------------------------------------------------------------------------------|
-| 0x00   | 0x60 | [Exported Mii Data](Mii_Maker#Mii_QR_Code_format "wikilink") (minus the AES-CCM used in the linked format) |
+| 0x00   | 0x60 | [Exported Mii Data](Mii_Maker#mii_qr_code_format "wikilink") (minus the AES-CCM used in the linked format) |
 | 0x60   | 0x16 | Amiibo Name (NUL-Terminated)                                                                               |
 | 0x76   | 0x01 | Flags (bit0 = amiibo initialized, bit1 = has application area)                                             |
 | 0x77   | 0x01 | Font Region                                                                                                |

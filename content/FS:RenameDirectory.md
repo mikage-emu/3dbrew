@@ -9,10 +9,10 @@ title = 'FS:RenameDirectory'
 | 0          | Header code \[0x080A0244\]                                                 |
 | 1          | Transaction (usually 0)                                                    |
 | 2-3        | u64, Source Archive Handle                                                 |
-| 4          | [Source Directory Path Type](Filesystem_services#PathType "wikilink")      |
+| 4          | [Source Directory Path Type](Filesystem_services#pathtype "wikilink")      |
 | 5          | Source Directory Path Size                                                 |
 | 6-7        | u64, Destination Archive Handle                                            |
-| 8          | [Destination Directory Path Type](Filesystem_services#PathType "wikilink") |
+| 8          | [Destination Directory Path Type](Filesystem_services#pathtype "wikilink") |
 | 9          | Destination Directory Path Size                                            |
 | 10         | (SourceDirectoryPathSize \<\< 14) \| 0x402                                 |
 | 11         | Source Directory Path Data Pointer                                         |

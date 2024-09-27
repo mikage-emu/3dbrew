@@ -21,7 +21,7 @@ categories = ["Services"]
 
 # Config service "cfg:s"
 
-cfg:s contains all the commands in [cfg:u](#cfg:u "wikilink"), in
+cfg:s contains all the commands in [cfg:u](#cfgu "wikilink"), in
 addition to the following:
 
 | Command Header | Available since system version | Description                                                             |
@@ -48,8 +48,8 @@ determine the SOAP RegionId, when sending SOAP requests. See
 
 # Config service "cfg:i"
 
-cfg:i contains all the commands in [cfg:u](#cfg:u "wikilink") and
-[cfg:s](#cfg:s "wikilink"), in addition to the following:
+cfg:i contains all the commands in [cfg:u](#cfgu "wikilink") and
+[cfg:s](#cfgs "wikilink"), in addition to the following:
 
 | Command Header | Available since system version | Description                                                                                                                                          |
 |----------------|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|

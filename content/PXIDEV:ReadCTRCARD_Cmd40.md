@@ -9,7 +9,7 @@ title = 'PXIDEV:ReadCTRCARD Cmd40'
 | 0          | Header code \[0x000101C2\]                                    |
 | 1          | Buffer Size                                                   |
 | 2          | Sector Count                                                  |
-| 3          | u8, [SectorSize](Gamecard_Services_PXI#SectorSize "wikilink") |
+| 3          | u8, [SectorSize](Gamecard_Services_PXI#sectorsize "wikilink") |
 | 4-7        | Command                                                       |
 | 8          | (Size \<\< 8) \| 0x4                                          |
 | 9          | Buffer Pointer                                                |
@@ -24,5 +24,5 @@ title = 'PXIDEV:ReadCTRCARD Cmd40'
 # Description
 
 Reads from CTRCARD. The command written to the
-[CTRCARD_CMD](CTRCARD_Registers#CTRCARD_CMD "wikilink") register is the
+[CTRCARD_CMD](CTRCARD_Registers#ctrcard_cmd "wikilink") register is the
 same as provided, except the highest byte is changed to 0x40.

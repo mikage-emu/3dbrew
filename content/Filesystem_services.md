@@ -322,8 +322,8 @@ archive.
 <table>
 <thead>
 <tr class="header">
-<th><p>Index word</p></th>
-<th><p>Description</p></th>
+<th>Index word</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -446,8 +446,8 @@ that lowpath set to all-zero(lowpath is different from archive
 <table>
 <thead>
 <tr class="header">
-<th><p>Index word</p></th>
-<th><p>Description</p></th>
+<th>Index word</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

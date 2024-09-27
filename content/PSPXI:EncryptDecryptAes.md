@@ -40,9 +40,9 @@ title = 'PSPXI:EncryptDecryptAes'
 <table>
 <thead>
 <tr class="header">
-<th><p>Type</p></th>
-<th><p><a href="../AES" title="wikilink">AES</a> Engine Keyslot</p></th>
-<th><p>Description</p></th>
+<th>Type</th>
+<th><a href="../AES" title="wikilink">AES</a> Engine Keyslot</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

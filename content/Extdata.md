@@ -170,11 +170,11 @@ Usually the ExtdataID low is in the format '00<Unique ID>'
 <table>
 <thead>
 <tr class="header">
-<th><p>JPN ExtdataID</p></th>
-<th><p>USA ExtdataID</p></th>
-<th><p>EUR ExtdataID</p></th>
-<th><p>Description</p></th>
-<th><p>Extdata images</p></th>
+<th>JPN ExtdataID</th>
+<th>USA ExtdataID</th>
+<th>EUR ExtdataID</th>
+<th>Description</th>
+<th>Extdata images</th>
 </tr>
 </thead>
 <tbody>

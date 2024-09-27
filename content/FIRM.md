@@ -142,9 +142,9 @@ Thus, the ARM9 binary has the following header:
 <table>
 <thead>
 <tr class="header">
-<th><p>OFFSET</p></th>
-<th><p>SIZE</p></th>
-<th><p>DESCRIPTION</p></th>
+<th>OFFSET</th>
+<th>SIZE</th>
+<th>DESCRIPTION</th>
 </tr>
 </thead>
 <tbody>

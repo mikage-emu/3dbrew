@@ -40,12 +40,12 @@ SD data is far easier by running code on the target 3DS however).
 <table>
 <thead>
 <tr class="header">
-<th><p>Summary</p></th>
-<th><p>Description</p></th>
-<th><p>Fixed with hardware model/revision</p></th>
-<th><p>Newest hardware model/revision this flaw was checked for</p></th>
-<th><p>Timeframe this was discovered</p></th>
-<th><p>Discovered by</p></th>
+<th>Summary</th>
+<th>Description</th>
+<th>Fixed with hardware model/revision</th>
+<th>Newest hardware model/revision this flaw was checked for</th>
+<th>Timeframe this was discovered</th>
+<th>Discovered by</th>
 </tr>
 </thead>
 <tbody>
@@ -188,12 +188,12 @@ below).</p>
 <table>
 <thead>
 <tr class="header">
-<th><p>Summary</p></th>
-<th><p>Description</p></th>
-<th><p>Fixed with hardware model/revision</p></th>
-<th><p>Newest hardware model/revision this flaw was checked for</p></th>
-<th><p>Timeframe this was discovered</p></th>
-<th><p>Discovered by</p></th>
+<th>Summary</th>
+<th>Description</th>
+<th>Fixed with hardware model/revision</th>
+<th>Newest hardware model/revision this flaw was checked for</th>
+<th>Timeframe this was discovered</th>
+<th>Discovered by</th>
 </tr>
 </thead>
 <tbody>
@@ -329,16 +329,16 @@ to infinite loops since they shouldn't be triggered.</p></td>
 <table>
 <thead>
 <tr class="header">
-<th><p>Summary</p></th>
-<th><p>Description</p></th>
-<th><p>Successful exploitation result</p></th>
-<th><p>Fixed in <a href="../FIRM" title="wikilink">FIRM</a> system
-version</p></th>
-<th><p>Last <a href="../FIRM" title="wikilink">FIRM</a> system version this
-flaw was checked for</p></th>
-<th><p>Timeframe this was discovered</p></th>
-<th><p>Public disclosure timeframe</p></th>
-<th><p>Discovered by</p></th>
+<th>Summary</th>
+<th>Description</th>
+<th>Successful exploitation result</th>
+<th>Fixed in <a href="../FIRM" title="wikilink">FIRM</a> system
+version</th>
+<th>Last <a href="../FIRM" title="wikilink">FIRM</a> system version this
+flaw was checked for</th>
+<th>Timeframe this was discovered</th>
+<th>Public disclosure timeframe</th>
+<th>Discovered by</th>
 </tr>
 </thead>
 <tbody>
@@ -541,16 +541,16 @@ title="wikilink">9.5.0-X</a> release)</p></td>
 <table>
 <thead>
 <tr class="header">
-<th><p>Summary</p></th>
-<th><p>Description</p></th>
-<th><p>Successful exploitation result</p></th>
-<th><p>Fixed in <a href="../FIRM" title="wikilink">FIRM</a> system
-version</p></th>
-<th><p>Last <a href="../FIRM" title="wikilink">FIRM</a> system version this
-flaw was checked for</p></th>
-<th><p>Timeframe this was discovered</p></th>
-<th><p>Public disclosure timeframe</p></th>
-<th><p>Discovered by</p></th>
+<th>Summary</th>
+<th>Description</th>
+<th>Successful exploitation result</th>
+<th>Fixed in <a href="../FIRM" title="wikilink">FIRM</a> system
+version</th>
+<th>Last <a href="../FIRM" title="wikilink">FIRM</a> system version this
+flaw was checked for</th>
+<th>Timeframe this was discovered</th>
+<th>Public disclosure timeframe</th>
+<th>Discovered by</th>
 </tr>
 </thead>
 <tbody>
@@ -1174,15 +1174,15 @@ others(?)</p></td>
 <table>
 <thead>
 <tr class="header">
-<th><p>Summary</p></th>
-<th><p>Description</p></th>
-<th><p>Successful exploitation result</p></th>
-<th><p>Fixed in <a href="../FIRM" title="wikilink">FIRM</a> system
-version</p></th>
-<th><p>Last <a href="../FIRM" title="wikilink">FIRM</a> system version this
-flaw was checked for</p></th>
-<th><p>Timeframe this was discovered</p></th>
-<th><p>Discovered by</p></th>
+<th>Summary</th>
+<th>Description</th>
+<th>Successful exploitation result</th>
+<th>Fixed in <a href="../FIRM" title="wikilink">FIRM</a> system
+version</th>
+<th>Last <a href="../FIRM" title="wikilink">FIRM</a> system version this
+flaw was checked for</th>
+<th>Timeframe this was discovered</th>
+<th>Discovered by</th>
 </tr>
 </thead>
 <tbody>
@@ -1228,15 +1228,15 @@ independently</p></td>
 <table>
 <thead>
 <tr class="header">
-<th><p>Summary</p></th>
-<th><p>Description</p></th>
-<th><p>Successful exploitation result</p></th>
-<th><p>Fixed in <a href="../FIRM" title="wikilink">FIRM</a> system
-version</p></th>
-<th><p>Last <a href="../FIRM" title="wikilink">FIRM</a> system version this
-flaw was checked for</p></th>
-<th><p>Timeframe this was discovered</p></th>
-<th><p>Discovered by</p></th>
+<th>Summary</th>
+<th>Description</th>
+<th>Successful exploitation result</th>
+<th>Fixed in <a href="../FIRM" title="wikilink">FIRM</a> system
+version</th>
+<th>Last <a href="../FIRM" title="wikilink">FIRM</a> system version this
+flaw was checked for</th>
+<th>Timeframe this was discovered</th>
+<th>Discovered by</th>
 </tr>
 </thead>
 <tbody>
@@ -1822,15 +1822,15 @@ access to these SVCs.</p></td>
 <table>
 <thead>
 <tr class="header">
-<th><p>Summary</p></th>
-<th><p>Description</p></th>
-<th><p>Successful exploitation result</p></th>
-<th><p>Fixed in <a href="../FIRM" title="wikilink">FIRM</a> system
-version</p></th>
-<th><p>Last <a href="../FIRM" title="wikilink">FIRM</a> system version this
-flaw was checked for</p></th>
-<th><p>Timeframe this was discovered</p></th>
-<th><p>Discovered by</p></th>
+<th>Summary</th>
+<th>Description</th>
+<th>Successful exploitation result</th>
+<th>Fixed in <a href="../FIRM" title="wikilink">FIRM</a> system
+version</th>
+<th>Last <a href="../FIRM" title="wikilink">FIRM</a> system version this
+flaw was checked for</th>
+<th>Timeframe this was discovered</th>
+<th>Discovered by</th>
 </tr>
 </thead>
 <tbody>
@@ -1932,15 +1932,15 @@ title="wikilink">PXI</a></p></td>
 <table>
 <thead>
 <tr class="header">
-<th><p>Summary</p></th>
-<th><p>Description</p></th>
-<th><p>Successful exploitation result</p></th>
-<th><p>Fixed in system-module system-version</p></th>
-<th><p>Last system-module system-version this flaw was checked
-for</p></th>
-<th><p>Timeframe this was discovered</p></th>
-<th><p>Timeframe this was added to wiki</p></th>
-<th><p>Discovered by</p></th>
+<th>Summary</th>
+<th>Description</th>
+<th>Successful exploitation result</th>
+<th>Fixed in system-module system-version</th>
+<th>Last system-module system-version this flaw was checked
+for</th>
+<th>Timeframe this was discovered</th>
+<th>Timeframe this was added to wiki</th>
+<th>Discovered by</th>
 </tr>
 </thead>
 <tbody>
@@ -2497,13 +2497,13 @@ ptr based at 0x0.</p></td>
 <table>
 <thead>
 <tr class="header">
-<th><p>Summary</p></th>
-<th><p>Description</p></th>
-<th><p>Successful exploitation result</p></th>
-<th><p>Fixed in version</p></th>
-<th><p>Last version this flaw was checked for</p></th>
-<th><p>Timeframe this was discovered</p></th>
-<th><p>Discovered by</p></th>
+<th>Summary</th>
+<th>Description</th>
+<th>Successful exploitation result</th>
+<th>Fixed in version</th>
+<th>Last version this flaw was checked for</th>
+<th>Timeframe this was discovered</th>
+<th>Discovered by</th>
 </tr>
 </thead>
 <tbody>

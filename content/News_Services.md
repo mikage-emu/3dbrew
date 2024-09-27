@@ -106,9 +106,9 @@ The actual main function called by main() does the following:
 <table>
 <thead>
 <tr class="header">
-<th><p>Title version</p></th>
-<th><p>System version</p></th>
-<th><p>Changes</p></th>
+<th>Title version</th>
+<th>System version</th>
+<th>Changes</th>
 </tr>
 </thead>
 <tbody>

@@ -210,12 +210,12 @@ the contents of a keyslot.
 <table>
 <thead>
 <tr class="header">
-<th><p>Keyslot</p></th>
-<th><p>Description</p></th>
-<th><p>KeyX set by</p></th>
-<th><p>KeyY set by</p></th>
-<th><p>Normal-key</p></th>
-<th><p>Old3DS</p></th>
+<th>Keyslot</th>
+<th>Description</th>
+<th>KeyX set by</th>
+<th>KeyY set by</th>
+<th>Normal-key</th>
+<th>Old3DS</th>
 </tr>
 </thead>
 <tbody>

@@ -22,10 +22,10 @@ Version/<version>.<region>". <lang> is "en", "fr", etc. <region> is
 <table>
 <thead>
 <tr class="header">
-<th><p>Browser version</p></th>
-<th><p>USA/EUR CDN Title-version</p></th>
-<th><p>Release date</p></th>
-<th><p>Notes</p></th>
+<th>Browser version</th>
+<th>USA/EUR CDN Title-version</th>
+<th>Release date</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>

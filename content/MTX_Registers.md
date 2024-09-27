@@ -29,10 +29,10 @@ the other one at +0x300 for horizontal (X) scaling.
 <table>
 <thead>
 <tr class="header">
-<th><p>VAddress</p></th>
-<th><p>Name</p></th>
-<th><p>Width</p></th>
-<th><p>Description</p></th>
+<th>VAddress</th>
+<th>Name</th>
+<th>Width</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

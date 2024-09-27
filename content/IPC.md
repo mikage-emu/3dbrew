@@ -172,8 +172,8 @@ Usage examples:
 <table>
 <thead>
 <tr class="header">
-<th scope="col" width="300"><p>Usual form</p></th>
-<th><p>Description</p></th>
+<th scope="col" width="300"><p>Usual form</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

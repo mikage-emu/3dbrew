@@ -24,10 +24,10 @@ List of services (grouped by the process which provides them):
 <table>
 <thead>
 <tr class="header">
-<th><p>Old3ds</p></th>
-<th><p>Services</p></th>
-<th><p>Service names</p></th>
-<th scope="col" width="200"><p>Notes</p></th>
+<th>Old3ds</th>
+<th>Services</th>
+<th>Service names</th>
+<th scope="col" width="200"><p>Notes</th>
 </tr>
 </thead>
 <tbody>

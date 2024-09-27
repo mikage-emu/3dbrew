@@ -12,14 +12,14 @@ can then for example try exploiting
 <table>
 <thead>
 <tr class="header">
-<th><p>Application name</p></th>
-<th><p>Summary</p></th>
-<th><p>Description</p></th>
-<th><p>Fixed in app/system version</p></th>
-<th><p>Last app/system version this flaw was checked for</p></th>
-<th><p>Timeframe info related to this was added to wiki</p></th>
-<th><p>Timeframe this vuln was discovered</p></th>
-<th><p>Vuln discovered by</p></th>
+<th>Application name</th>
+<th>Summary</th>
+<th>Description</th>
+<th>Fixed in app/system version</th>
+<th>Last app/system version this flaw was checked for</th>
+<th>Timeframe info related to this was added to wiki</th>
+<th>Timeframe this vuln was discovered</th>
+<th>Vuln discovered by</th>
 </tr>
 </thead>
 <tbody>
@@ -596,12 +596,12 @@ CGB-specific functionality which is disabled in mono Game Boy games
 <table>
 <thead>
 <tr class="header">
-<th><p>Summary</p></th>
-<th><p>Description</p></th>
-<th><p>Fixed in version</p></th>
-<th><p>Last version this flaw was checked for</p></th>
-<th><p>Timeframe this was discovered</p></th>
-<th><p>Discovered by</p></th>
+<th>Summary</th>
+<th>Description</th>
+<th>Fixed in version</th>
+<th>Last version this flaw was checked for</th>
+<th>Timeframe this was discovered</th>
+<th>Discovered by</th>
 </tr>
 </thead>
 <tbody>
@@ -699,14 +699,14 @@ of that pointer and achieve ROP.</p></td>
 <table>
 <thead>
 <tr class="header">
-<th><p>Summary</p></th>
-<th><p>Description</p></th>
-<th><p>Fixed in version</p></th>
-<th><p>Last version this flaw was checked for</p></th>
-<th><p>Introduced with version</p></th>
-<th><p>Timeframe info related to this was added to wiki</p></th>
-<th><p>Timeframe this was discovered</p></th>
-<th><p>Discovered by</p></th>
+<th>Summary</th>
+<th>Description</th>
+<th>Fixed in version</th>
+<th>Last version this flaw was checked for</th>
+<th>Introduced with version</th>
+<th>Timeframe info related to this was added to wiki</th>
+<th>Timeframe this was discovered</th>
+<th>Discovered by</th>
 </tr>
 </thead>
 <tbody>
@@ -785,14 +785,14 @@ SMB_COM_SESSION_SETUP_ANDX (0x73) packet.</p></td>
 <table>
 <thead>
 <tr class="header">
-<th><p>Summary</p></th>
-<th><p>Description</p></th>
-<th><p>Fixed in version</p></th>
-<th><p>Last version this flaw was checked for</p></th>
-<th><p>Introduced with version</p></th>
-<th><p>Timeframe info related to this was added to wiki</p></th>
-<th><p>Timeframe this was discovered</p></th>
-<th><p>Discovered by</p></th>
+<th>Summary</th>
+<th>Description</th>
+<th>Fixed in version</th>
+<th>Last version this flaw was checked for</th>
+<th>Introduced with version</th>
+<th>Timeframe info related to this was added to wiki</th>
+<th>Timeframe this was discovered</th>
+<th>Discovered by</th>
 </tr>
 </thead>
 <tbody>

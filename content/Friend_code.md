@@ -15,12 +15,12 @@ This is a list of friend codes of different users.
 </colgroup>
 <thead>
 <tr class="header">
-<th width="20%"><p>User</p></th>
-<th width="15%"><p>IrcNick</p></th>
-<th width="20%"><p>Friend code</p></th>
-<th width="10%"><p>Region</p></th>
-<th width="30%"><p>Comment here</p></th>
-<th><p>Mii image</p></th>
+<th width="20%"><p>User</th>
+<th width="15%"><p>IrcNick</th>
+<th width="20%"><p>Friend code</th>
+<th width="10%"><p>Region</th>
+<th width="30%"><p>Comment here</th>
+<th>Mii image</th>
 </tr>
 </thead>
 <tbody>

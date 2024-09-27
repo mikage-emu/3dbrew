@@ -149,9 +149,9 @@ ESR = Extended Special Function Register (SFR bank 2, range F0000h -�
 <table>
 <thead>
 <tr class="header">
-<th><p>Pin number</p></th>
-<th><p>Name</p></th>
-<th><p>Description</p></th>
+<th>Pin number</th>
+<th>Name</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

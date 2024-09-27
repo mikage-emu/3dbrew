@@ -151,11 +151,11 @@ These are the same for both Old3DS/New3DS.
 <table>
 <thead>
 <tr class="header">
-<th><p>ITCM mirror address</p></th>
-<th><p>ITCM bootrom mirror address</p></th>
-<th><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Description</p></th>
+<th>ITCM mirror address</th>
+<th>ITCM bootrom mirror address</th>
+<th>Offset</th>
+<th>Size</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

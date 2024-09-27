@@ -95,10 +95,10 @@ This is not the case for multibyte regs (0x29, 0x2D, 0x4F, 0x61 and
 <table>
 <thead>
 <tr class="header">
-<th><p>REGISTER</p></th>
-<th><p>WIDTH</p></th>
-<th><p>INFO</p></th>
-<th><p>DESCRIPTION</p></th>
+<th>REGISTER</th>
+<th>WIDTH</th>
+<th>INFO</th>
+<th>DESCRIPTION</th>
 </tr>
 </thead>
 <tbody>
@@ -541,10 +541,10 @@ in a 16bit signed short, relative to the 3DS bottom screen</p>
 <table>
 <thead>
 <tr class="header">
-<th><p>AXIS</p></th>
-<th><p>V=0x00</p></th>
-<th><p>V=0x40</p></th>
-<th><p>V=0xC0</p></th>
+<th>AXIS</th>
+<th>V=0x00</th>
+<th>V=0x40</th>
+<th>V=0xC0</th>
 </tr>
 </thead>
 <tbody>
@@ -748,10 +748,10 @@ Controller ID 0x00).
 <table>
 <thead>
 <tr class="header">
-<th><p>Register</p></th>
-<th><p>Name</p></th>
-<th><p>Valid bits</p></th>
-<th><p>Description</p></th>
+<th>Register</th>
+<th>Name</th>
+<th>Valid bits</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -895,10 +895,10 @@ its existance is due to gsp having special handling code for it.
 <table>
 <thead>
 <tr class="header">
-<th><p>Register</p></th>
-<th><p>Name</p></th>
-<th><p>Valid bits</p></th>
-<th><p>Description</p></th>
+<th>Register</th>
+<th>Name</th>
+<th>Valid bits</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -976,10 +976,10 @@ Factory mode registers for unlock register 0x03:
 <table>
 <thead>
 <tr class="header">
-<th><p>Register</p></th>
-<th><p>Name</p></th>
-<th><p>Valid bits</p></th>
-<th><p>Description</p></th>
+<th>Register</th>
+<th>Name</th>
+<th>Valid bits</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -1066,10 +1066,10 @@ Factory mode registers for unlock register 0x03:
 <table>
 <thead>
 <tr class="header">
-<th><p>Register</p></th>
-<th><p>Name</p></th>
-<th><p>Valid bits</p></th>
-<th><p>Description</p></th>
+<th>Register</th>
+<th>Name</th>
+<th>Valid bits</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

@@ -8,10 +8,10 @@ back to the same registers (also starting with r0).
 <table>
 <thead>
 <tr class="header">
-<th><p>ID</p></th>
-<th><p>Name</p></th>
-<th><p>Inputs</p></th>
-<th><p>Outputs</p></th>
+<th>ID</th>
+<th>Name</th>
+<th>Inputs</th>
+<th>Outputs</th>
 </tr>
 </thead>
 <tbody>

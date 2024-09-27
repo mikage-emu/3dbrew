@@ -103,9 +103,9 @@ set to `FF`
 <table>
 <thead>
 <tr class="header">
-<th><p>Color</p></th>
-<th><p>Value</p></th>
-<th><p>Note</p></th>
+<th>Color</th>
+<th>Value</th>
+<th>Note</th>
 </tr>
 </thead>
 <tbody>

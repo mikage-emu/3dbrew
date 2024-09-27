@@ -24,12 +24,12 @@ of the NFC pages is the following:
 <table>
 <thead>
 <tr class="header">
-<th><p>NFC page</p></th>
-<th><p>Total pages</p></th>
-<th><p>Raw byte offset in EEPROM</p></th>
-<th><p>Total byte size</p></th>
-<th><p>Writable</p></th>
-<th><p>Description</p></th>
+<th>NFC page</th>
+<th>Total pages</th>
+<th>Raw byte offset in EEPROM</th>
+<th>Total byte size</th>
+<th>Writable</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
@@ -64,9 +64,9 @@ href="../Process_Services_PXI" title="wikilink">crypto</a> init.</p>
 <table>
 <thead>
 <tr class="header">
-<th><p>Offset</p></th>
-<th><p>Size</p></th>
-<th><p>Description</p></th>
+<th>Offset</th>
+<th>Size</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

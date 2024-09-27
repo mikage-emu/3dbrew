@@ -99,9 +99,9 @@ Known latched modes (in order):
 <table>
 <thead>
 <tr class="header">
-<th><p>Offset</p></th>
-<th><p>Name</p></th>
-<th><p>Comments</p></th>
+<th>Offset</th>
+<th>Name</th>
+<th>Comments</th>
 </tr>
 </thead>
 <tbody>
@@ -369,8 +369,8 @@ bottom screen in userland.</p></td>
 <table>
 <thead>
 <tr class="header">
-<th><p>Bit</p></th>
-<th><p>Description</p></th>
+<th>Bit</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

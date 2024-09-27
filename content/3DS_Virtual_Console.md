@@ -195,9 +195,9 @@ little-endian.
 <table>
 <thead>
 <tr class="header">
-<th><p>START</p></th>
-<th><p>SIZE</p></th>
-<th><p>DESCRIPTION</p></th>
+<th>START</th>
+<th>SIZE</th>
+<th>DESCRIPTION</th>
 </tr>
 </thead>
 <tbody>

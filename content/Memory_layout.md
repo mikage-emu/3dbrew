@@ -377,7 +377,7 @@ the FIRM header used during FIRM-launching.</p></td>
 - [Virtual address mapping
   FW37](Virtual_address_mapping_FW37 "wikilink")
 - [Virtual address mapping
-  FW38‎](Virtual_address_mapping_FW38‎ "wikilink")
+  FW38](Virtual_address_mapping_FW38 "wikilink")
 - [Virtual address mapping
   FW3F](Virtual_address_mapping_FW3F "wikilink")
 - FW49([9.6.0-X](9.6.0-24 "wikilink")) and

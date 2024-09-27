@@ -33,8 +33,8 @@ List of services (grouped by the process which provides them):
 <tbody>
 <tr class="odd">
 <td style="background: green"><p>Yes</p></td>
-<td><p><a href="../Filesystem_services‎" title="wikilink">Filesystem
-services‎</a></p></td>
+<td><p><a href="../Filesystem_services" title="wikilink">Filesystem
+services</a></p></td>
 <td><p><a href="../fs:USER" title="wikilink">fs:USER</a>, <a href="../fs:LDR"
 title="wikilink">fs:LDR</a>, <a href="../fs:REG"
 title="wikilink">fs:REG</a></p></td>
@@ -43,14 +43,14 @@ register</p></td>
 </tr>
 <tr class="even">
 <td style="background: green"><p>Yes</p></td>
-<td><p><a href="../Process_Services‎" title="wikilink">Process
-Services‎</a></p></td>
+<td><p><a href="../Process_Services" title="wikilink">Process
+Services</a></p></td>
 <td><p><a href="../ps:ps" title="wikilink">ps:ps</a></p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td style="background: green"><p>Yes</p></td>
-<td><p><a href="../PXI_Services‎" title="wikilink">PXI Services‎</a></p></td>
+<td><p><a href="../PXI_Services" title="wikilink">PXI Services</a></p></td>
 <td><p><a href="../PxiFS0" title="wikilink">PxiFS0</a>, <a href="../PxiFS1"
 title="wikilink">PxiFS1</a>, <a href="../PxiFSB"
 title="wikilink">PxiFSB</a>, <a href="../PxiFSR"

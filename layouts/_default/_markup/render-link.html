@@ -2,7 +2,14 @@
 {{ $isExternal := (strings.HasPrefix .Destination "http") }}
 {{- if (not (or $isExternal (strings.HasPrefix .Destination "#"))) }}
   {{ $style := "" }}
-  {{ with $.PageInner.GetPage (index (strings.Split .Destination "#") 0) }}
+  {{ $desiredPage := (index (strings.Split .Destination "#") 0) }}
+  {{ with $.PageInner.GetPage $desiredPage }}
+    <!-- GetPage isn't case sensitive, so double-check the page name is spelled correctly -->
+    {{ with .File }}
+      {{ if (ne .Path (print $desiredPage "." .Ext)) }}
+        {{ $style = "color:#ba0000" }}
+      {{ end }}
+    {{ end }}
   {{ else }}
     {{ $style = "color:#ba0000" }}
   {{ end }}

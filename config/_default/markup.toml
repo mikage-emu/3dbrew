@@ -1,2 +1,6 @@
+[tableOfContents]
+startLevel = 1
+endLevel = 3
+
 [goldmark.renderer]
 unsafe = true

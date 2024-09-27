@@ -7,8 +7,8 @@ Size : 0x8 bytes
 
 This is used to provide thread-safety when manipulating kernel objects
 such as [KProcessHwInfo](KProcessHwInfo "wikilink"),
-[KProcessHandleTable](KProcess#KProcessHandleTable "wikilink"),
-[InterruptTable](ARM11_Interrupts#Interrupt_Table_.28New3DS.29 "wikilink"),
+[KProcessHandleTable](KProcess#kprocesshandletable "wikilink"),
+[InterruptTable](ARM11_Interrupts#interrupt_table_new3ds "wikilink"),
 etc.
 
 | Offset | Type                             | Description                                                                                                          |

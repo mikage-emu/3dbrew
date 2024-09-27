@@ -8,7 +8,7 @@ title = 'AM:GetProgramList'
 |------------|--------------------------------------------------------|
 | 0          | Header code \[0x00020082\]                             |
 | 1          | Title Count                                            |
-| 2          | [Media Type](Filesystem_services#MediaType "wikilink") |
+| 2          | [Media Type](Filesystem_services#mediatype "wikilink") |
 | 3          | ((Title Count \* 8) \<\< 4) \| 0xC                     |
 | 4          | Title IDs Output Pointer                               |
 

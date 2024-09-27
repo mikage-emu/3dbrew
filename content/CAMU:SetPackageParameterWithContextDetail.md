@@ -7,7 +7,7 @@ title = 'CAMU:SetPackageParameterWithContextDetail'
 | Index Word | Description                                                                               |
 |------------|-------------------------------------------------------------------------------------------|
 | 0          | Header code \[0x003501C0\]                                                                |
-| 1-4        | [PackageParameterContextDetail](Camera_Services#PackageParameterContextDetail "wikilink") |
+| 1-4        | [PackageParameterContextDetail](Camera_Services#packageparametercontextdetail "wikilink") |
 
 # Response
 

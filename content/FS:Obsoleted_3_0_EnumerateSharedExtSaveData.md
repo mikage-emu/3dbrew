@@ -8,7 +8,7 @@ title = 'FS:Obsoleted 3 0 EnumerateSharedExtSaveData'
 |------------|--------------------------------------------------------|
 | 0          | Header code \[0x08340082\]                             |
 | 1          | Output ID Count (size / 4)                             |
-| 2          | [Media Type](Filesystem_services#MediaType "wikilink") |
+| 2          | [Media Type](Filesystem_services#mediatype "wikilink") |
 | 3          | (outputBytes \<\< 4) \| 0xC                            |
 | 4          | Output Pointer                                         |
 

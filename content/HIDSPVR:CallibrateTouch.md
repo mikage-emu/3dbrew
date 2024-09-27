@@ -22,4 +22,4 @@ title = 'HIDSPVR:CallibrateTouch'
 # Description
 
 This just writes the values passed to [ConfigInfoBlk
-0x40000](Config_Savegame#Configuration_blocks "wikilink")
+0x40000](Config_Savegame#configuration_blocks "wikilink")

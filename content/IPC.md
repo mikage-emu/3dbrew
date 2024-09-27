@@ -16,7 +16,7 @@ Technically, this is implemented using *interprocess communication*
 Sessions are communication channels consisting of a client and server,
 through which data can be exchanged in the form of a request and
 response, respectively. Through sessions, the standard [IPC command
-protocol](#Command_Structure "wikilink") is implemented. Clients use
+protocol](#command_structure "wikilink") is implemented. Clients use
 their client session handle to send IPC commands to the server using
 svcSendSyncRequest, while servers use svcReplyAndReceive to reply.
 Client sessions can't be used with svcReplyAndReceive. In both cases,
@@ -31,7 +31,7 @@ handles](FS:OpenFile "wikilink"). In this case, fs-module creates a raw
 session using svcCreateSession, and provides the "fs:USER" client with
 the resulting client session handle, keeping the server session handle
 for its own use. These sessions expose their [own set of IPC
-commands](Filesystem_services#File_service "wikilink") which act on the
+commands](Filesystem_services#file_service "wikilink") which act on the
 file that was opened through fs:USER.
 
 ### Ports
@@ -65,7 +65,7 @@ Clients are instead expected to open a session to a service using the
 The client process must pass an access permission check for each service
 (by name) that it attempts to request a session with. These permissions
 are granted in the "service access control" of the title's [extended
-header](NCCH/Extended_Header#ARM11_Local_System_Capabilities "wikilink").
+header](NCCH/Extended_Header#arm11_local_system_capabilities "wikilink").
 A service is registered with service manager using the command
 [RegisterService](SRV:RegisterService "wikilink").
 

@@ -9,23 +9,23 @@ title = 'PXIDEV:SPIMultiWriteRead'
 | 0          | Header code \[0x000D0688\]                                                       |
 | 1-2        | Header                                                                           |
 | 3          | Header Size                                                                      |
-| 4          | Header [TransferOption](Gamecard_Services_PXI#TransferOption "wikilink")         |
-| 5-6        | Header [WaitOperation](Gamecard_Services_PXI#WaitOperation "wikilink")           |
+| 4          | Header [TransferOption](Gamecard_Services_PXI#transferoption "wikilink")         |
+| 5-6        | Header [WaitOperation](Gamecard_Services_PXI#waitoperation "wikilink")           |
 | 7          | Write Buffer 1 Size                                                              |
-| 8          | Write Buffer 1 [TransferOption](Gamecard_Services_PXI#TransferOption "wikilink") |
-| 9-10       | Write Buffer 1 [WaitOperation](Gamecard_Services_PXI#WaitOperation "wikilink")   |
+| 8          | Write Buffer 1 [TransferOption](Gamecard_Services_PXI#transferoption "wikilink") |
+| 9-10       | Write Buffer 1 [WaitOperation](Gamecard_Services_PXI#waitoperation "wikilink")   |
 | 11         | Read Buffer 1 Size                                                               |
-| 12         | Read Buffer 1 [TransferOption](Gamecard_Services_PXI#TransferOption "wikilink")  |
-| 13-14      | Read Buffer 1 [WaitOperation](Gamecard_Services_PXI#WaitOperation "wikilink")    |
+| 12         | Read Buffer 1 [TransferOption](Gamecard_Services_PXI#transferoption "wikilink")  |
+| 13-14      | Read Buffer 1 [WaitOperation](Gamecard_Services_PXI#waitoperation "wikilink")    |
 | 15         | Write Buffer 2 Size                                                              |
-| 16         | Write Buffer 2 [TransferOption](Gamecard_Services_PXI#TransferOption "wikilink") |
-| 17-18      | Write Buffer 2 [WaitOperation](Gamecard_Services_PXI#WaitOperation "wikilink")   |
+| 16         | Write Buffer 2 [TransferOption](Gamecard_Services_PXI#transferoption "wikilink") |
+| 17-18      | Write Buffer 2 [WaitOperation](Gamecard_Services_PXI#waitoperation "wikilink")   |
 | 19         | Read Buffer 2 Size                                                               |
-| 20         | Read Buffer 2 [TransferOption](Gamecard_Services_PXI#TransferOption "wikilink")  |
-| 21-22      | Read Buffer 2 [WaitOperation](Gamecard_Services_PXI#WaitOperation "wikilink")    |
+| 20         | Read Buffer 2 [TransferOption](Gamecard_Services_PXI#transferoption "wikilink")  |
+| 21-22      | Read Buffer 2 [WaitOperation](Gamecard_Services_PXI#waitoperation "wikilink")    |
 | 23-24      | Footer                                                                           |
 | 25         | Footer Size                                                                      |
-| 26         | Footer [TransferOption](Gamecard_Services_PXI#TransferOption "wikilink")         |
+| 26         | Footer [TransferOption](Gamecard_Services_PXI#transferoption "wikilink")         |
 | 27         | (WriteBuffer1Size \<\< 8) \| 0x6                                                 |
 | 28         | Write Buffer 1 Pointer                                                           |
 | 29         | (WriteBuffer2Size \<\< 8) \| 0x16                                                |

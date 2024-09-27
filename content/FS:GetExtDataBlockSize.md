@@ -7,7 +7,7 @@ title = 'FS:GetExtDataBlockSize'
 | Index Word | Description                                                       |
 |------------|-------------------------------------------------------------------|
 | 0          | Header code \[0x08540100\]                                        |
-| 1-4        | [ExtSaveDataInfo](Filesystem_services#ExtSaveDataInfo "wikilink") |
+| 1-4        | [ExtSaveDataInfo](Filesystem_services#extsavedatainfo "wikilink") |
 
 # Response
 

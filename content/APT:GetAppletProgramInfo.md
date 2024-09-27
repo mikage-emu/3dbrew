@@ -7,7 +7,7 @@ title = 'APT:GetAppletProgramInfo'
 | Index Word | Description                                                     |
 |------------|-----------------------------------------------------------------|
 | 0          | Header code \[0x004D0080\]                                      |
-| 1          | [AppID](NS_and_APT_Services#AppIDs "wikilink") / Program ID Low |
+| 1          | [AppID](NS_and_APT_Services#appids "wikilink") / Program ID Low |
 | 2          | Flags                                                           |
 
 # Response
@@ -22,10 +22,10 @@ title = 'APT:GetAppletProgramInfo'
 
 | Bit Mask | Description                                                                                                                                                                                                           |
 |----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0x1      | When set, this enables using [AMNet:ListTitles](AMNet:ListTitles "wikilink") with [MediaType](Filesystem_services#MediaType "wikilink") = NAND.                                                                       |
-| 0x2      | When set, this enables using [AMNet:ListTitles](AMNet:ListTitles "wikilink") with [MediaType](Filesystem_services#MediaType "wikilink") = SD.                                                                         |
-| 0x4      | When set, this enables using [AMNet:ListTitles](AMNet:ListTitles "wikilink") with [MediaType](Filesystem_services#MediaType "wikilink") = gamecard.                                                                   |
-| 0x10     | When set, the Program ID is determined via the input [AppID](NS_and_APT_Services#AppIDs "wikilink"). When clear, Program ID Low = input cmdword\[1\], with the Program ID High determined by the following bit masks. |
+| 0x1      | When set, this enables using [AMNet:ListTitles](AMNet:ListTitles "wikilink") with [MediaType](Filesystem_services#mediatype "wikilink") = NAND.                                                                       |
+| 0x2      | When set, this enables using [AMNet:ListTitles](AMNet:ListTitles "wikilink") with [MediaType](Filesystem_services#mediatype "wikilink") = SD.                                                                         |
+| 0x4      | When set, this enables using [AMNet:ListTitles](AMNet:ListTitles "wikilink") with [MediaType](Filesystem_services#mediatype "wikilink") = gamecard.                                                                   |
+| 0x10     | When set, the Program ID is determined via the input [AppID](NS_and_APT_Services#appids "wikilink"). When clear, Program ID Low = input cmdword\[1\], with the Program ID High determined by the following bit masks. |
 | 0x20     | This bit mask must be set when bit mask 0x10 is not set, otherwise an error is returned.                                                                                                                              |
 | 0x100    | This is used when bit mask 0x10 is clear and bit mask 0x20 is set. When this is clear, Program ID High = 0x00040000, otherwise Program ID High = 0x00040010.                                                          |
 
@@ -33,6 +33,6 @@ title = 'APT:GetAppletProgramInfo'
 
 This returns the title-version for the specified applet/application. NS
 will attempt to use [AMNet:ListTitles](AMNet:ListTitles "wikilink") for
-each [MediaType](Filesystem_services#MediaType "wikilink") when the bit
-mask for the [MediaType](Filesystem_services#MediaType "wikilink") is
+each [MediaType](Filesystem_services#mediatype "wikilink") when the bit
+mask for the [MediaType](Filesystem_services#mediatype "wikilink") is
 enabled, in the following order: NAND, SD, and Gamecard.

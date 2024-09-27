@@ -9,7 +9,7 @@ title = 'SecureInfo A'
 | 0x0    | 0x100 | RSA-2048 signature over the following 0x11-bytes.                                         |
 | 0x100  | 0x1   | Region                                                                                    |
 | 0x101  | 0x1   | Normally zero                                                                             |
-| 0x102  | 0xF   | ASCII serial number, without the [check digit](Serials#Console_Serial_Numbers "wikilink") |
+| 0x102  | 0xF   | ASCII serial number, without the [check digit](Serials#console_serial_numbers "wikilink") |
 
 The RSA private key for dev systems is embedded inside the dev system
 updater package so that the region can be changed.

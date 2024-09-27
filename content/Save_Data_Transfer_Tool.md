@@ -23,7 +23,7 @@ might be savedata-transfer related? This app includes code for using
 
 ## ExtData
 
-The ExtData [File System](Extdata#Filesystem "wikilink") for Save Data
+The ExtData [File System](Extdata#filesystem "wikilink") for Save Data
 Transfer Tool is as follows:
 
 ```

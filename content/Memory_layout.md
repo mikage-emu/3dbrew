@@ -182,7 +182,7 @@ to the bootroms.</td>
 <td>0x3800</td>
 <td>0x100</td>
 <td>This is the first 0x90 bytes of <a
-href="../OTP_Registers#Plaintext_OTP" title="wikilink">plaintext OTP</a>
+href="../OTP_Registers#plaintext_otp" title="wikilink">plaintext OTP</a>
 when OTP hash verification is successful. The remaining 0x70 bytes are
 cleared.</td>
 </tr>
@@ -439,12 +439,12 @@ ARM11 kernel in order by region as it initializes after loading
 FCRAM is partitioned into three regions of memory (APPLICATION, SYSTEM,
 and BASE). Most applications can only allocate memory from one of these
 regions (which is encoded in the [process kernel
-flags](NCCH/Extended_Header#ARM11_Kernel_Flags "wikilink")). There is a
+flags](NCCH/Extended_Header#arm11_kernel_flags "wikilink")). There is a
 fixed set of possible size of each memory region, determined by the
 APPMEMTYPE value in [configuration
-memory](Configuration_Memory#APPMEMTYPE "wikilink") (which in turn is
+memory](Configuration_Memory#appmemtype "wikilink") (which in turn is
 set up according to the [firmware launch
-parameters](FIRM#FIRM_Launch_Parameters "wikilink")).
+parameters](FIRM#firm_launch_parameters "wikilink")).
 
 Support for APPMEMTYPEs 6 and 7 (and 8?) was implemented in
 [NS](NS "wikilink") with [8.0.0-18](8.0.0-18 "wikilink"). These
@@ -452,7 +452,7 @@ configurations are only supported in the [New_3DS](New_3DS "wikilink")
 ARM11-kernel, and are in fact the only ones supported there at all.
 Applications only get access to the larger memory regions when this is
 specified in their [extended
-header](NCCH/Extended_Header#New3DS_System_Mode "wikilink").
+header](NCCH/Extended_Header#new3ds_system_mode "wikilink").
 
 | APPMEMTYPE                                                                                                                              | APPLICATION starting address (relative to FCRAM) | APPLICATION region size | SYSTEM starting address (relative to FCRAM) | SYSTEM region size | BASE starting address (relative to FCRAM) | BASE region size |
 |-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-------------------------|---------------------------------------------|--------------------|-------------------------------------------|------------------|
@@ -482,7 +482,7 @@ Internet Browser, with the default APPMEMTYPE on retail:
 # ARM11 Detailed virtual memory map
 
 (valid only for FW0B, see [Memory map by
-firmware](#Memory_map_by_firmware "wikilink") for subsequent versions)
+firmware](#memory_map_by_firmware "wikilink") for subsequent versions)
 
 ```
 E8000000 - E8600000: mapped VRAM (18000000 - 18600000)
@@ -647,7 +647,7 @@ there is no fixed address equivalence.
 | 0x1FF80000              | FCRAM memory page allocated by the ARM11 kernel.                              | 0x1000                                                         | No                                            | [Configuration Memory](Configuration_Memory "wikilink"), all processes have read-only access to this.                                                                                                                                                                                                                                                                                                                                                                 |
 | 0x1FF81000              | FCRAM memory page allocated by the ARM11 kernel.                              | 0x1000                                                         | No                                            | [Shared](Configuration_Memory "wikilink") page, all processes have read-access to this. Write access to this is specified by the exheader "Shared page writing" kernel flag.                                                                                                                                                                                                                                                                                          |
 | 0x1FF82000              | Dynamically taken from the BASE region of FCRAM                               | Number of threads \* 0x1000 / 8                                | No                                            | [Thread Local Storage](Thread_Local_Storage "wikilink")                                                                                                                                                                                                                                                                                                                                                                                                               |
-| 0x30000000              | FCRAM+0                                                                       | 0x08000000(Old3DS) / 0x10000000([New_3DS](New_3DS "wikilink")) | No                                            | This LINEAR memory mapping was added with [8.0.0-18](8.0.0-18 "wikilink"), see [here](SVC#enum_MemoryOperation "wikilink"). This replaces the original 0x14000000 mapping, for system(memory-region=BASE)/newer titles. The Old3DS kernel uses size 0x08000000 for LINEAR-memory address range checks, while the New3DS kernel uses size 0x10000000 for those range checks. Old3DS/New3DS system-module code doing vaddr-\>phys-addr conversion uses size 0x10000000. |
+| 0x30000000              | FCRAM+0                                                                       | 0x08000000(Old3DS) / 0x10000000([New_3DS](New_3DS "wikilink")) | No                                            | This LINEAR memory mapping was added with [8.0.0-18](8.0.0-18 "wikilink"), see [here](SVC#enum_memoryoperation "wikilink"). This replaces the original 0x14000000 mapping, for system(memory-region=BASE)/newer titles. The Old3DS kernel uses size 0x08000000 for LINEAR-memory address range checks, while the New3DS kernel uses size 0x10000000 for those range checks. Old3DS/New3DS system-module code doing vaddr-\>phys-addr conversion uses size 0x10000000. |
 | 0x20000000 / 0x40000000 |                                                                               |                                                                |                                               | This is the end-address of userland memory, memory under this address is process-unique. Memory starting at this address is only accessible in privileged-mode. This address was changed from 0x20000000 to 0x40000000 with [8.0.0-18](8.0.0-18 "wikilink").                                                                                                                                                                                                          |
 
 All executable pages are read-only, and data pages have the

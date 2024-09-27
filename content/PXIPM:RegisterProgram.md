@@ -7,8 +7,8 @@ title = 'PXIPM:RegisterProgram'
 | Index Word | Description                                                                    |
 |------------|--------------------------------------------------------------------------------|
 | 0          | Header code \[0x00020200\]                                                     |
-| 1-4        | [Program Info](Filesystem_services#ProgramInfo "wikilink") for the title       |
-| 5-8        | [Program Info](Filesystem_services#ProgramInfo "wikilink") for an update title |
+| 1-4        | [Program Info](Filesystem_services#programinfo "wikilink") for the title       |
+| 5-8        | [Program Info](Filesystem_services#programinfo "wikilink") for an update title |
 
 # Response
 

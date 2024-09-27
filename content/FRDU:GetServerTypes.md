@@ -15,8 +15,8 @@ title = 'FRDU:GetServerTypes'
 | 0          | Header code                                                         |
 | 1          | Result code                                                         |
 | 2          | NASC Environment (0: Prod, 1: Test, 2: Dev)                         |
-| 3          | [Server type](Friend_Services#Server_Types "wikilink") letter value |
-| 4          | [Server type](Friend_Services#Server_Types "wikilink") number value |
+| 3          | [Server type](Friend_Services#server_types "wikilink") letter value |
+| 4          | [Server type](Friend_Services#server_types "wikilink") number value |
 
 # Description
 

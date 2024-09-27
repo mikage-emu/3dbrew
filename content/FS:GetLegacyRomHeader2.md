@@ -8,7 +8,7 @@ title = 'FS:GetLegacyRomHeader2'
 |------------|--------------------------------------------------------|
 | 0          | Header code \[0x08460102\]                             |
 | 1          | Output Size                                            |
-| 2          | [Media Type](Filesystem_services#MediaType "wikilink") |
+| 2          | [Media Type](Filesystem_services#mediatype "wikilink") |
 | 3-4        | u64, Program ID                                        |
 | 5          | (OutputSize \<\< 4) \| 0xC                             |
 | 6          | Output Pointer                                         |

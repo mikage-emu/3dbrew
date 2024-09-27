@@ -90,7 +90,7 @@ DLP clients via
 The dlplay client system-application then loads it via
 [DLP:GetWirelessRebootPassphrase](DLP:GetWirelessRebootPassphrase "wikilink")
 for [setting](NSS:SetWirelessRebootInfo "wikilink") the NS
-[WirelessRebootInfo](NS_and_APT_Services#WirelessRebootInfo "wikilink").
+[WirelessRebootInfo](NS_and_APT_Services#wirelessrebootinfo "wikilink").
 Afterwards once launched, the DLP child application can then use
 [<APT:GetWirelessRebootInfo>](APT:GetWirelessRebootInfo "wikilink") to
 load that data.

@@ -14,4 +14,4 @@ title = 'Y2R:GetDitheringWeightParams'
 |------------|---------------------------------------------------------------------------|
 | 0          | Header code                                                               |
 | 1          | Result code                                                               |
-| 2-9        | [DitheringWeightParams](Camera_Services#DitheringWeightParams "wikilink") |
+| 2-9        | [DitheringWeightParams](Camera_Services#ditheringweightparams "wikilink") |

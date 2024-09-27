@@ -7,7 +7,7 @@ title = 'Y2R:SetInputFormat'
 | Index Word | Description                                           |
 |------------|-------------------------------------------------------|
 | 0          | Header code \[0x00010040\]                            |
-| 1          | [InputFormat](Camera_Services#InputFormat "wikilink") |
+| 1          | [InputFormat](Camera_Services#inputformat "wikilink") |
 
 # Response
 

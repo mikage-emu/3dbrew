@@ -16,7 +16,7 @@ title = 'FSPXI:GetProductInfo'
 |------------|------------------------------------------------------------|
 | 0          | Header code                                                |
 | 1          | Result code                                                |
-| 2-6        | [Product Info](Filesystem_services#ProductInfo "wikilink") |
+| 2-6        | [Product Info](Filesystem_services#productinfo "wikilink") |
 
 # Description
 

@@ -7,9 +7,9 @@ title = 'FSDir:Read'
 | Index Word | Description                                                           |
 |------------|-----------------------------------------------------------------------|
 | 0          | Header code \[0x08010042\]                                            |
-| 1          | [Entry](Filesystem_services#DirectoryEntry "wikilink") Count          |
+| 1          | [Entry](Filesystem_services#directoryentry "wikilink") Count          |
 | 2          | ((EntryCount \* 0x228) \<\< 4) \| 0xC                                 |
-| 3          | [Entry](Filesystem_services#DirectoryEntry "wikilink") Output Pointer |
+| 3          | [Entry](Filesystem_services#directoryentry "wikilink") Output Pointer |
 
 # Response
 

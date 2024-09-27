@@ -32,7 +32,7 @@ the alternate menu. This title could be used as a recovery process,
 however it's normally not used after the factory.
 
 At the factory for all 3DS systems, [Test
-Menu](3DS_Development_Unit_GUI#Test_Menu "wikilink") is installed with
+Menu](3DS_Development_Unit_GUI#test_menu "wikilink") is installed with
 this TID. On retail this title is eventually deleted during [Factory
 Setup](Factory_Setup "wikilink").
 
@@ -45,7 +45,7 @@ The same code called by [<APT:Reboot>](APT:Reboot "wikilink") is used
 for launching FIRM here. When the
 [UPDATEFLAG](Configuration_Memory "wikilink") is set, NS will launch
 SAFE_MODE_FIRM with the application titleID set to the [System
-Updater](System_Settings#System_Updater "wikilink") titleID for this
+Updater](System_Settings#system_updater "wikilink") titleID for this
 region. When the UPDATEFLAG is not set, NS can auto-boot the following
 titles as well if [0x1FF80016](Configuration_Memory "wikilink") bit0 is
 set.
@@ -271,7 +271,7 @@ does the actual title launching via NS commands.
 
 | Bits | Description                                           |
 |------|-------------------------------------------------------|
-| 0-2  | [AppletPos](NS_and_APT_Services#AppletPos "wikilink") |
+| 0-2  | [AppletPos](NS_and_APT_Services#appletpos "wikilink") |
 | 3    | Manually Acquire/Release GPU Rights                   |
 | 4    | Manually Acquire/Release DSP Rights                   |
 | 5    | ?                                                     |
@@ -288,7 +288,7 @@ does the actual title launching via NS commands.
 | 0xFFFFFFFF | FORMAT_UNIMPORTABLE |
 
 This is the same mapping as used for the [GPU framebuffer color
-formats](GPU/External_Registers#Framebuffer_color_formats "wikilink").
+formats](GPU/External_Registers#framebuffer_color_formats "wikilink").
 
 ## AppletPos
 
@@ -393,10 +393,10 @@ formats](GPU/External_Registers#Framebuffer_color_formats "wikilink").
 | 0x5    | 0x3  | Reserved                                                                          |
 | 0x8    | 0x4  | Main Screen Left Offset                                                           |
 | 0xC    | 0x4  | Main Screen Right Offset                                                          |
-| 0x10   | 0x4  | Main Screen [DisplayBufferMode](NS_and_APT_Services#DisplayBufferMode "wikilink") |
+| 0x10   | 0x4  | Main Screen [DisplayBufferMode](NS_and_APT_Services#displaybuffermode "wikilink") |
 | 0x14   | 0x4  | Sub Screen Left Offset                                                            |
 | 0x18   | 0x4  | Sub Screen Right Offset                                                           |
-| 0x1C   | 0x4  | Sub Screen [DisplayBufferMode](NS_and_APT_Services#DisplayBufferMode "wikilink")  |
+| 0x1C   | 0x4  | Sub Screen [DisplayBufferMode](NS_and_APT_Services#displaybuffermode "wikilink")  |
 
 ## WirelessRebootInfo
 
@@ -477,7 +477,7 @@ applet can also use the specified shared-mem for output too.
 | 0x204 | Photo Selector (PNOTE_AP) (?)                                               |
 | 0x205 | Sound Selector (SNOTE_AP) (?)                                               |
 | 0x206 | Error Display ([error](ErrDisp "wikilink")) (?)                             |
-| 0x207 | eShop applet ([mint](EShop#NS_eShop_application_parameters "wikilink")) (?) |
+| 0x207 | eShop applet ([mint](EShop#ns_eshop_application_parameters "wikilink")) (?) |
 | 0x208 | Circle Pad Pro Calibrator ([extrapad](Extrapad_Applet "wikilink")) (?)      |
 | 0x209 | Notepad (memolib) (?)                                                       |
 | 0x300 | Application                                                                 |

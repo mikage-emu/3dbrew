@@ -13,17 +13,17 @@ such as DS INTERNET and [System Transfer](System_Transfer "wikilink").
 
 | Service                                                                        | Last seen on version         |
 |--------------------------------------------------------------------------------|------------------------------|
-| [fs:USER](Filesystem_services#Filesystem_service_.22fs:USER.22 "wikilink")     | [v8202](9.0.0-20 "wikilink") |
+| [fs:USER](Filesystem_services#filesystem_service_fsuser "wikilink")     | [v8202](9.0.0-20 "wikilink") |
 | [gsp:Gpu](GSP_Services "wikilink")                                             | [v8202](9.0.0-20 "wikilink") |
 | [ndm:u](NDM_Services "wikilink")                                               | [v8202](9.0.0-20 "wikilink") |
 | [APT:A](NS_and_APT_Services#apta-service "wikilink")                                   | [v8202](9.0.0-20 "wikilink") |
 | [ac:i](AC_Services "wikilink")                                                 | [v8202](9.0.0-20 "wikilink") |
 | [act:a](ACT_Services "wikilink")                                               | [v8202](9.0.0-20 "wikilink") |
-| [am:sys](Application_Manager_Services#Application_Manager_services "wikilink") | [v8202](9.0.0-20 "wikilink") |
+| [am:sys](Application_Manager_Services#application_manager_services "wikilink") | [v8202](9.0.0-20 "wikilink") |
 | [boss:P](BOSS_Services "wikilink")                                             | [v8202](9.0.0-20 "wikilink") |
-| [cam:s](Camera_Services#cam:s_.28PORT_CAL.29 "wikilink")                       | [v8202](9.0.0-20 "wikilink") |
+| [cam:s](Camera_Services#cams_port_cal "wikilink")                       | [v8202](9.0.0-20 "wikilink") |
 | [cecd:s](CECD_Services "wikilink")                                             | [v8202](9.0.0-20 "wikilink") |
-| [cfg:nor](Config_Services#Config_NVRAM_service_.22cfg:nor.22 "wikilink")       | [v8202](9.0.0-20 "wikilink") |
+| [cfg:nor](Config_Services#config_nvram_service_cfgnor "wikilink")       | [v8202](9.0.0-20 "wikilink") |
 | [dsp::DSP](DSP_Services "wikilink")                                            | [v8202](9.0.0-20 "wikilink") |
 | [frd:a](Friend_Services "wikilink")                                            | [v8202](9.0.0-20 "wikilink") |
 | [gsp::Lcd](GSP_Services "wikilink")                                            | [v8202](9.0.0-20 "wikilink") |
@@ -31,19 +31,19 @@ such as DS INTERNET and [System Transfer](System_Transfer "wikilink").
 | [mic:u](MIC_Services "wikilink")                                               | [v8202](9.0.0-20 "wikilink") |
 | [news:s](News_Services#news-service-newss "wikilink")                 | [v8202](9.0.0-20 "wikilink") |
 | [nim:u](NIM_Services#nim-updater-service-nimu "wikilink")                  | [v8202](9.0.0-20 "wikilink") |
-| [ns:s](NS#NS_Service_.22ns:s.22 "wikilink")                                    | [v8202](9.0.0-20 "wikilink") |
-| [nwm::EXT](NWM_Services#NWM_service_.22nwm::EXT.22 "wikilink")                 | [v8202](9.0.0-20 "wikilink") |
-| [nwm::INF](NWM_Services#NWM_infrastructure_service_.22nwm::INF.22 "wikilink")  | [v8202](9.0.0-20 "wikilink") |
-| [nwm::SOC](NWM_Services#NWM_socket_service_.22nwm::SOC.22 "wikilink")          | [v8202](9.0.0-20 "wikilink") |
-| [ptm:gets](PTM_Services#GetSystemTime_PTM_Service_.22ptm:gets.22 "wikilink")   | [v8202](9.0.0-20 "wikilink") |
-| [ptm:sysm](PTM_Services#SysMenu_PTM_Service_.22ptm:sysm.22 "wikilink")         | [v8202](9.0.0-20 "wikilink") |
-| [soc:P](Socket_Services#Socket_privileged_service_.22soc:P.22 "wikilink")      | [v8202](9.0.0-20 "wikilink") |
-| [soc:U](Socket_Services#Socket_user_service_.22soc:U.22 "wikilink")            | [v8202](9.0.0-20 "wikilink") |
+| [ns:s](NS#ns_service_nss "wikilink")                                    | [v8202](9.0.0-20 "wikilink") |
+| [nwm::EXT](NWM_Services#nwm_service_nwmext "wikilink")                 | [v8202](9.0.0-20 "wikilink") |
+| [nwm::INF](NWM_Services#nwm_infrastructure_service_nwminf "wikilink")  | [v8202](9.0.0-20 "wikilink") |
+| [nwm::SOC](NWM_Services#nwm_socket_service_nwmsoc "wikilink")          | [v8202](9.0.0-20 "wikilink") |
+| [ptm:gets](PTM_Services#getsystemtime_ptm_service_ptmgets "wikilink")   | [v8202](9.0.0-20 "wikilink") |
+| [ptm:sysm](PTM_Services#sysmenu_ptm_service_ptmsysm "wikilink")         | [v8202](9.0.0-20 "wikilink") |
+| [soc:P](Socket_Services#socket_privileged_service_socp "wikilink")      | [v8202](9.0.0-20 "wikilink") |
+| [soc:U](Socket_Services#socket_user_service_socu "wikilink")            | [v8202](9.0.0-20 "wikilink") |
 | [ssl:C](SSL_Services "wikilink")                                               | [v8202](9.0.0-20 "wikilink") |
-| [y2r:u](Camera_Services#y2r:u "wikilink")                                      | [v8202](9.0.0-20 "wikilink") |
-| [qtm:s](QTM_Services#QTM_system_service_.22qtm:s.22 "wikilink")                | [v8202](9.0.0-20 "wikilink") |
-| [cfg:i](Config_Services#Config_service_.22cfg:i.22 "wikilink")                 | [v8202](9.0.0-20 "wikilink") |
-| [hid:SPVR](HID_Services#HID_service_.22hid:SPVR.22 "wikilink")                 | [v8202](9.0.0-20 "wikilink") |
+| [y2r:u](Camera_Services#y2ru "wikilink")                                      | [v8202](9.0.0-20 "wikilink") |
+| [qtm:s](QTM_Services#qtm_system_service_qtms "wikilink")                | [v8202](9.0.0-20 "wikilink") |
+| [cfg:i](Config_Services#config_service_cfgi "wikilink")                 | [v8202](9.0.0-20 "wikilink") |
+| [hid:SPVR](HID_Services#hid_service_hidspvr "wikilink")                 | [v8202](9.0.0-20 "wikilink") |
 
 ## Data Management
 
@@ -182,7 +182,7 @@ current</td>
 <td>Extension of v1 featuring a number of changes which serve to
 obscure the HMAC key used.</p>
 <p>The HMAC key is now stored in a separate file stored in the CVer
-RomFS, called <a href="../CVer#masterkey.bin"
+RomFS, called <a href="../CVer#masterkeybin"
 title="wikilink">masterkey.bin</a>. This is used to update the key
 independently of the mset title. In order to make this possible, a
 scheme was devised to encode the required key within the inquiry number
@@ -206,7 +206,7 @@ these IDs is the same.</td>
 
 ## ExtData
 
-The ExtData [File System](Extdata#Filesystem "wikilink") for System
+The ExtData [File System](Extdata#filesystem "wikilink") for System
 Settings is as follows:
 
 ```

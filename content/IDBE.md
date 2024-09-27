@@ -50,8 +50,8 @@ Icon data is uncompressed RGB565.
 |     **Offset**      | **Size** |                                **Description**                                |
 |         0x0         |   0x20   |                                  SHA256 hash                                  |
 |        0x20         |   0x10   |                                       ?                                       |
-|        0x30         |   0x4    |     [Region lockout](SMDH#Region_Lockout "wikilink") (u32 little endian)      |
+|        0x30         |   0x4    |     [Region lockout](SMDH#region_lockout "wikilink") (u32 little endian)      |
 |        0x34         |   0x1C   |                                       ?                                       |
-| 0x50 + *i* \* 0x200 |  0x200   | [Title struct](SMDH#Application_Titles "wikilink") where *i* = language index |
+| 0x50 + *i* \* 0x200 |  0x200   | [Title struct](SMDH#application_titles "wikilink") where *i* = language index |
 |       0x2050        |  0x480   |                                24x24 Icon data                                |
 |       0x24D0        |  0x1200  |                                48x48 Icon data                                |

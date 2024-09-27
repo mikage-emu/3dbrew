@@ -9,7 +9,7 @@ title = 'AMPXI:GetPersonalizedTicketInfoList'
 | 0          | Header code \[0x004C0042\]                                                        |
 | 1          | Ticket Count                                                                      |
 | 2          | ((Ticket Count \* 0x18) \<\< 8) \| 0x4                                            |
-| 3          | [Ticket Infos](Application_Manager_Services#TicketInfo "wikilink") Output Pointer |
+| 3          | [Ticket Infos](Application_Manager_Services#ticketinfo "wikilink") Output Pointer |
 
 # Response
 

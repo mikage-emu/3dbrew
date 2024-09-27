@@ -7,7 +7,7 @@ title = 'NIMU:StartTitleDownload'
 | Index Word | Description                                                        |
 |------------|--------------------------------------------------------------------|
 | 0          | Header code \[0x00260180\]                                         |
-| 1-6        | [TitleDownloadConfig](NIM_Services#TitleDownloadConfig "wikilink") |
+| 1-6        | [TitleDownloadConfig](NIM_Services#titledownloadconfig "wikilink") |
 
 # Response
 

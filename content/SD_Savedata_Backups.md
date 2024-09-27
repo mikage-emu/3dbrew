@@ -10,7 +10,7 @@ maximum of 30 'slots'. Users can backup savedata while in the [Home
 Menu](Home_Menu "wikilink"), available as an option when selecting an
 application. In [System Settings](System_Settings "wikilink"), user are
 able to backup, restore and delete savedata backups. There are however,
-[restrictions](SD_Savedata_Backups#Restrictions "wikilink").
+[restrictions](SD_Savedata_Backups#restrictions "wikilink").
 
 ## Backups
 
@@ -36,9 +36,9 @@ backups
   located).
 
 There can only be one savedata per slot, and details about the slots are
-recorded in [Backup.dat](System_Settings#ExtData "wikilink") and hence
+recorded in [Backup.dat](System_Settings#extdata "wikilink") and hence
 cannot manually be created. For recovery reasons, if
-[Backup.dat](System_Settings#ExtData "wikilink") is damaged, details
+[Backup.dat](System_Settings#extdata "wikilink") is damaged, details
 about the backup slots will be recreated from the files in the backup
 directory.
 
@@ -48,7 +48,7 @@ Some titles are restricted in how their saves are backed up. These
 restricted saves can can only be backed up when the title is deleted and
 can only be restored once. GBA titles however are not allowed to be
 backed up at all, the reasons for this are unknown. This restriction is
-triggered if a [certain flag](SMDH#Byte.5B1.5D "wikilink") in the
+triggered if a [certain flag](SMDH#byte5b15d "wikilink") in the
 title's icon is set. Or if the SaveID of the title is located in the
 [ctr_backup_black_list](NS_CFA "wikilink") file in the NS CFA, which is
 practically a Unique-ID blacklist. The titles blacklisted in the

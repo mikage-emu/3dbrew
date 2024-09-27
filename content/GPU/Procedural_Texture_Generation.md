@@ -5,14 +5,14 @@ categories = ["GPU"]
 
 The 3DS GPU supports procedural generation of texture data using
 [texture unit
-3](GPU/Internal_Registers#GPUREG_TEXUNIT3_PROCTEX0 "wikilink"). Little
+3](GPU/Internal_Registers#gpureg_texunit3_proctex0 "wikilink"). Little
 is known about this feature, albeit a few public hints have been
 dropped. The contents of this page are solely based on reports on a
 [presentation](http://www.4gamer.net/games/017/G001762/20120822007/)
 given by DMP.
 
 The related GPU registers can be found starting
-[here](GPU/Internal_Registers#GPUREG_TEXUNIT3_PROCTEX0 "wikilink").
+[here](GPU/Internal_Registers#gpureg_texunit3_proctex0 "wikilink").
 
 ## Overview
 
@@ -33,7 +33,7 @@ this other than that there are three noise parameters:
 - Phase
 
 These parameters are configured starting
-[here](GPU/Internal_Registers#GPUREG_TEXUNIT3_PROCTEX1 "wikilink").
+[here](GPU/Internal_Registers#gpureg_texunit3_proctex1 "wikilink").
 
 ## Repeat Module
 
@@ -46,7 +46,7 @@ seem to be configurable beyond that.
 The U’’ and V’’ coordinates are used to generate a scalar value in the
 range \[0;1\] from the wrapped coordinates using one of six functions
 documented
-[here](GPU/Internal_Registers#GPUREG_TEXUNIT3_PROCTEX0 "wikilink").
+[here](GPU/Internal_Registers#gpureg_texunit3_proctex0 "wikilink").
 
 The output of this function is named "g".
 
@@ -60,6 +60,6 @@ There are two known options for F:
 
 The final texel color is determined by using the value of F(g) as an
 index into a configurable [lookup
-table](GPU/Internal_Registers#GPUREG_PROCTEX_LUT "wikilink").
+table](GPU/Internal_Registers#gpureg_proctex_lut "wikilink").
 
 [Category:GPU](Category:GPU "wikilink")

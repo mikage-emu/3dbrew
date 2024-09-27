@@ -21,7 +21,7 @@ and when other checks with the errorinfo structure are successful
 The bottom screen displays the error screen like "error has occurred",
 even with a development 3DS. The top screen can display the development
 error info, this is only displayed when
-[ENVINFO](Configuration_Memory#ENVINFO "wikilink") bit0 is clear, for a
+[ENVINFO](Configuration_Memory#envinfo "wikilink") bit0 is clear, for a
 development 3DS.
 
 ErrDisp handles "returning" to Home Menu via

@@ -7,8 +7,8 @@ title = 'CAMU:SynchronizeVsyncTiming'
 | Index Word | Description                                               |
 |------------|-----------------------------------------------------------|
 | 0          | Header code \[0x00290080\]                                |
-| 1          | [CameraSelect](Camera_Services#CameraSelect "wikilink") 1 |
-| 2          | [CameraSelect](Camera_Services#CameraSelect "wikilink") 2 |
+| 1          | [CameraSelect](Camera_Services#cameraselect "wikilink") 1 |
+| 2          | [CameraSelect](Camera_Services#cameraselect "wikilink") 2 |
 
 # Response
 

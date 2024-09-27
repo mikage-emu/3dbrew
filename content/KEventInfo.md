@@ -6,7 +6,7 @@ categories = ["Kernel objects"]
 Size : 0x38 bytes
 
 It is converted to [struct
-DebugEventInfo](SVC#struct_DebugEventInfo "wikilink") by using
+DebugEventInfo](SVC#struct_debugeventinfo "wikilink") by using
 svcContinueDebugEvent.
 
 ## Object definition

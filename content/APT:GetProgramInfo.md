@@ -7,7 +7,7 @@ title = 'APT:GetProgramInfo'
 | Index Word | Description                                                |
 |------------|------------------------------------------------------------|
 | 0          | Header code \[0x00480100\]                                 |
-| 1-4        | [Program Info](Filesystem_services#ProgramInfo "wikilink") |
+| 1-4        | [Program Info](Filesystem_services#programinfo "wikilink") |
 
 # Response
 
@@ -15,7 +15,7 @@ title = 'APT:GetProgramInfo'
 |------------|----------------------------------------------------------|
 | 0          | Header code                                              |
 | 1          | Result code                                              |
-| 2          | u8, [System Mode](NCCH/Extended_Header#Flag0 "wikilink") |
+| 2          | u8, [System Mode](NCCH/Extended_Header#flag0 "wikilink") |
 | 3          | FIRM Program ID Low                                      |
 
 # Description

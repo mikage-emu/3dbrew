@@ -7,7 +7,7 @@ title = 'AM:GetNumImportTitleContexts'
 | Index Word | Description                                            |
 |------------|--------------------------------------------------------|
 | 0          | Header code \[0x000B0040\]                             |
-| 1          | [Media Type](Filesystem_services#MediaType "wikilink") |
+| 1          | [Media Type](Filesystem_services#mediatype "wikilink") |
 
 # Response
 

@@ -8,7 +8,7 @@ title = 'CAMU:SetReceiving'
 |------------|-------------------------------------------------|
 | 0          | Header code \[0x00070102\]                      |
 | 1          | Destination Pointer                             |
-| 2          | [Port](Camera_Services#Port "wikilink")         |
+| 2          | [Port](Camera_Services#port "wikilink")         |
 | 3          | Image Size                                      |
 | 4          | s16, Transfer Unit                              |
 | 5          | 0x0                                             |

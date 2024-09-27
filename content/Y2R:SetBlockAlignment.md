@@ -7,7 +7,7 @@ title = 'Y2R:SetBlockAlignment'
 | Index Word | Description                                                 |
 |------------|-------------------------------------------------------------|
 | 0          | Header code \[0x00070040\]                                  |
-| 1          | [BlockAlignment](Camera_Services#BlockAlignment "wikilink") |
+| 1          | [BlockAlignment](Camera_Services#blockalignment "wikilink") |
 
 # Response
 

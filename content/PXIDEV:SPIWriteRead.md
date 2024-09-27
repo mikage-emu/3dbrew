@@ -7,13 +7,13 @@ title = 'PXIDEV:SPIWriteRead'
 | Index Word | Description                                                                    |
 |------------|--------------------------------------------------------------------------------|
 | 0          | Header code \[0x000E0284\]                                                     |
-| 1-2        | Initial [WaitOperation](Gamecard_Services_PXI#WaitOperation "wikilink")        |
+| 1-2        | Initial [WaitOperation](Gamecard_Services_PXI#waitoperation "wikilink")        |
 | 3          | Write Buffer Size                                                              |
-| 4          | Write Buffer [TransferOption](Gamecard_Services_PXI#TransferOption "wikilink") |
-| 5-6        | Write Buffer [WaitOperation](Gamecard_Services_PXI#WaitOperation "wikilink")   |
+| 4          | Write Buffer [TransferOption](Gamecard_Services_PXI#transferoption "wikilink") |
+| 5-6        | Write Buffer [WaitOperation](Gamecard_Services_PXI#waitoperation "wikilink")   |
 | 7          | Read Buffer Size                                                               |
-| 8          | Read Buffer [TransferOption](Gamecard_Services_PXI#TransferOption "wikilink")  |
-| 9-10       | Read Buffer [WaitOperation](Gamecard_Services_PXI#WaitOperation "wikilink")    |
+| 8          | Read Buffer [TransferOption](Gamecard_Services_PXI#transferoption "wikilink")  |
+| 9-10       | Read Buffer [WaitOperation](Gamecard_Services_PXI#waitoperation "wikilink")    |
 | 11         | (WriteBufferSize \<\< 8) \| 0x6                                                |
 | 12         | Write Buffer Pointer                                                           |
 | 13         | (ReadBufferSize \<\< 8) \| 0x24                                                |

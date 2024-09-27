@@ -20,9 +20,9 @@ This is very similiar to NARC (the DS archives).
 | 0x006  | 2    | uint16    | Header's length                                                                  |
 | 0x008  | 4    | uint32    | Version                                                                          |
 | 0x00C  | 4    | uint32    | File's length                                                                    |
-| 0x010  | 4    | uint32    | [File table](DARC#File_table "wikilink") offset (from the beginning of the file) |
-| 0x014  | 4    | uint32    | [File table](DARC#File_table "wikilink") length                                  |
-| 0x018  | 4    | uint32    | [Files data](DARC#Files_data "wikilink") offset                                  |
+| 0x010  | 4    | uint32    | [File table](DARC#file_table "wikilink") offset (from the beginning of the file) |
+| 0x014  | 4    | uint32    | [File table](DARC#file_table "wikilink") length                                  |
+| 0x018  | 4    | uint32    | [Files data](DARC#files_data "wikilink") offset                                  |
 
 ### File table
 

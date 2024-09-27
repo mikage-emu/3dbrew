@@ -7,7 +7,7 @@ title = 'AMPXI:GetTitleCount'
 | Index Word | Description                                           |
 |------------|-------------------------------------------------------|
 | 0          | Header code \[0x00010040\]                            |
-| 1          | [MediaType](Filesystem_services#MediaType "wikilink") |
+| 1          | [MediaType](Filesystem_services#mediatype "wikilink") |
 
 # Response
 

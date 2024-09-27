@@ -8,7 +8,7 @@ title = 'AMPXI:GetTitleList'
 |------------|-------------------------------------------------------|
 | 0          | Header code \[0x00020082\]                            |
 | 1          | Title count                                           |
-| 2          | [MediaType](Filesystem_services#MediaType "wikilink") |
+| 2          | [MediaType](Filesystem_services#mediatype "wikilink") |
 | 3          | (TitleCount \* 8) \<\< 8 \| 4                         |
 | 4          | Title IDs output pointer                              |
 

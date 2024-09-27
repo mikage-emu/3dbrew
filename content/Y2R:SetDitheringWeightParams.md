@@ -7,7 +7,7 @@ title = 'Y2R:SetDitheringWeightParams'
 | Index Word | Description                                                               |
 |------------|---------------------------------------------------------------------------|
 | 0          | Header code \[0x00240200\]                                                |
-| 1-8        | [DitheringWeightParams](Camera_Services#DitheringWeightParams "wikilink") |
+| 1-8        | [DitheringWeightParams](Camera_Services#ditheringweightparams "wikilink") |
 
 # Response
 

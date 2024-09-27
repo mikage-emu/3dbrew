@@ -14,7 +14,7 @@ title = 'NFCM:GetAdminInfo'
 |------------|------------------------------------------------|
 | 0          | Header code \[0x04020440\]                     |
 | 1          | Result code                                    |
-| 2-17       | [AdminInfo](NFC_Services#AdminInfo "wikilink") |
+| 2-17       | [AdminInfo](NFC_Services#admininfo "wikilink") |
 
 # Description
 

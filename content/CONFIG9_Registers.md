@@ -42,7 +42,7 @@ prior to the next reset, NATIVE_FIRM will see that the OTP area is
 disabled, and skip this step.
 
 On New 3DS, the above is instead done by the [Kernel9
-loader](FIRM#New_3DS_FIRM "wikilink"). In addition to using the OTP data
+loader](FIRM#new_3ds_firm "wikilink"). In addition to using the OTP data
 for initializing the TWL console-unique keys, the Kernel9 loader will
 generate the decryption key for NATIVE_FIRM. The final keyslot for
 NATIVE_FIRM is preserved, so that at a non-reset FIRM launch, the
@@ -132,7 +132,7 @@ This register is New3DS-only.
 
 ## CFG9_MPCORECFG
 
-Identical to [PDN_MPCORE_CFG](PDN#PDN_MPCORE_CFG "wikilink").
+Identical to [PDN_MPCORE_CFG](PDN#pdn_mpcore_cfg "wikilink").
 
 ## CFG9_BOOTENV
 

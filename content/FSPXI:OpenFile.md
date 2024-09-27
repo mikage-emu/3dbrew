@@ -12,7 +12,7 @@ title = 'FSPXI:OpenFile'
 | 3          | Archive handle upper word                                                  |
 | 4          | LowPath.Type                                                               |
 | 5          | LowPath.Size                                                               |
-| 6          | Open flags (see [FS:OpenFile#OpenFlags](FS:OpenFile#OpenFlags "wikilink")) |
+| 6          | Open flags (see [FS:OpenFile#OpenFlags](FS:OpenFile#openflags "wikilink")) |
 | 7          | Attributes (usually 0)                                                     |
 | 8          | (LowPath.Size\<\<8) \| 6                                                   |
 | 9          | LowPath.Data pointer                                                       |

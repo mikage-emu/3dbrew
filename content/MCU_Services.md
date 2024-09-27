@@ -97,7 +97,7 @@ bits 0x1800 get cleared.
 | 0x00210080     | u8 GetStepCount (for the current day)                                                                                                        |
 | 0x00220042     | ReadRegister4Fh(u32 unused_size, translation_param size=0x156 \<\< 4 \| 0xC, u8\[0x156\] ptr)                                                |
 | 0x00230000     | void ??? writes 1 to register 0x4E which is not writable                                                                                     |
-| 0x00240000     | Handle GetPowerEventHandle. MCU notifications 1, 8, 9, 10, 13, 14 and 15 signal this. see [Register 0x18](I2C_Registers#Device_3 "wikilink") |
+| 0x00240000     | Handle GetPowerEventHandle. MCU notifications 1, 8, 9, 10, 13, 14 and 15 signal this. see [Register 0x18](I2C_Registers#device_3 "wikilink") |
 | 0x00250000     | u32 GetPowerInterruptHistory                                                                                                                 |
 | 0x00260000     | bool CheckRegister02hBit0                                                                                                                    |
 | 0x00270000     | void ClearRegister02hBit0 (does nothing since the register is not writable)                                                                  |
@@ -107,12 +107,12 @@ bits 0x1800 get cleared.
 | 0x002B0000     | bool GetAdapterState. This writes the value of I2C-MCU register 0xf bit3 to u8 cmdreply\[2\].                                                |
 | 0x002C0000     | bool GetBatteryChargeState. This writes the value of I2C-MCU register 0xf bit4 to u8 cmdreply\[2\].                                          |
 | 0x002D0000     | [GetBatteryLevel](MCURTC:GetBatteryLevel "wikilink")                                                                                         |
-| 0x002E0000     | u8 SetPowerModeIndicatorState (see [Register 0x29](I2C_Registers#Device_3 "wikilink"))                                                       |
+| 0x002E0000     | u8 SetPowerModeIndicatorState (see [Register 0x29](I2C_Registers#device_3 "wikilink"))                                                       |
 | 0x002F0000     | u8 GetBatteryEmptyPatternByte0_safe™                                                                                                         |
-| 0x00300040     | SetLEDBrightness(u8 brightness) (see [Register 0x28](I2C_Registers#Device_3 "wikilink"))                                                     |
-| 0x00310000     | u8 GetLEDBrightness (see [Register 0x28](I2C_Registers#Device_3 "wikilink"))                                                                 |
-| 0x00320000     | void PowerOff (writes 0x1 to i2c MCU device, [reg 0x20](I2C_Registers#Device_3 "wikilink"))                                                  |
-| 0x00330000     | void HardwareReboot (writes 0x4 to i2c MCU device, [reg 0x20](I2C_Registers#Device_3 "wikilink"))                                            |
+| 0x00300040     | SetLEDBrightness(u8 brightness) (see [Register 0x28](I2C_Registers#device_3 "wikilink"))                                                     |
+| 0x00310000     | u8 GetLEDBrightness (see [Register 0x28](I2C_Registers#device_3 "wikilink"))                                                                 |
+| 0x00320000     | void PowerOff (writes 0x1 to i2c MCU device, [reg 0x20](I2C_Registers#device_3 "wikilink"))                                                  |
+| 0x00330000     | void HardwareReboot (writes 0x4 to i2c MCU device, [reg 0x20](I2C_Registers#device_3 "wikilink"))                                            |
 | 0x00340000     | ResetMcu                                                                                                                                     |
 | 0x00350000     | Writes 0x10 to i2c MCU device, reg 0x20 (this bit of the register is not writable)                                                           |
 | 0x00360040     | SetWatchdogTimer(u8 timer)                                                                                                                   |
@@ -132,13 +132,13 @@ bits 0x1800 get cleared.
 | 0x00440000     | u8 GetScreenFlickerTop                                                                                                                       |
 | 0x00450040     | SetScreenFlickerBottom(u8 flicker)                                                                                                           |
 | 0x00460000     | u8 GetScreenFlickerBottom                                                                                                                    |
-| 0x00470080     | SetVolumeSliderBounds(u8 low, u8 high) (see [Register 0x58](I2C_Registers#Device_3 "wikilink"))                                              |
+| 0x00470080     | SetVolumeSliderBounds(u8 low, u8 high) (see [Register 0x58](I2C_Registers#device_3 "wikilink"))                                              |
 | 0x00480000     | u8 low, u8 high GetVolumeSliderBounds                                                                                                        |
-| 0x00490040     | SetInterruptMask(u32 mask) (see [Register 0x18](I2C_Registers#Device_3 "wikilink"))                                                          |
-| 0x004A0000     | u32 GetInterruptMask (see [Register 0x18](I2C_Registers#Device_3 "wikilink"))                                                                |
+| 0x00490040     | SetInterruptMask(u32 mask) (see [Register 0x18](I2C_Registers#device_3 "wikilink"))                                                          |
+| 0x004A0000     | u32 GetInterruptMask (see [Register 0x18](I2C_Registers#device_3 "wikilink"))                                                                |
 | 0x004B0000     | void ExitExclusiveInterruptMode                                                                                                              |
 | 0x004C0000     | void EnterExclusiveInterruptMode                                                                                                             |
-| 0x004D0000     | [ReadInterrupt](MCURTC:ReadInterrupt "wikilink") (see [Register 0x10](I2C_Registers#Device_3 "wikilink"))                                    |
+| 0x004D0000     | [ReadInterrupt](MCURTC:ReadInterrupt "wikilink") (see [Register 0x10](I2C_Registers#device_3 "wikilink"))                                    |
 | 0x004E0040     | [TriggerInterrupt](MCURTC:PublishNotifications "wikilink")                                                                                   |
 | 0x004F0040     | SetMCUFirmUpdated(u32 flag) used by PTM module                                                                                               |
 | 0x00500000     | u32 IsMCUFirmUpdated                                                                                                                         |

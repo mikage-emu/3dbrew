@@ -24,8 +24,8 @@ Opens:
 
 - CTR Cartridge Image files
   ([CCI](NCSD "wikilink")/[CSU](NCSD "wikilink")) (NCSD)
-- CTR eXecutable Image files ([CXI](NCCH#CXI "wikilink")) (NCCH)
-- CTR File Archives ([CFA](NCCH#CFA "wikilink")) (NCCH)
+- CTR eXecutable Image files ([CXI](NCCH#cxi "wikilink")) (NCCH)
+- CTR File Archives ([CFA](NCCH#cfa "wikilink")) (NCCH)
 - CTR Importable Archives ([CIA](CIA "wikilink"))
 - CTR Icons ([ICN](SMDH "wikilink")) (SMDH)
 - CTR Banners (BNR) (CBMD + BCWAV)

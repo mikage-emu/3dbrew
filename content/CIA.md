@@ -16,10 +16,10 @@ Under normal circumstances CIA files are used where downloading a title
 is impractical or not possible. Such as distributing a [Download
 Play](Download_Play "wikilink") child, or installing forced Gamecard
 updates. Those CIA(s) are stored by the titles in question, in an
-auxiliary [CFA](NCCH#CFA "wikilink") file.
+auxiliary [CFA](NCCH#cfa "wikilink") file.
 
 Development Units, are capable of manually installing CIA files via the
-[Dev Menu](3DS_Development_Unit_Software#Dev_Menu "wikilink").
+[Dev Menu](3DS_Development_Unit_Software#dev_menu "wikilink").
 
 ## Format
 
@@ -59,7 +59,7 @@ The order of the sections in the CIA file:
 
 The contents (NCCH/SRL) are encrypted using 128-bit AES-CBC. The
 encryption uses the decrypted titlekey from the
-[ticket](Ticket#Structure "wikilink"), and the content index from the
+[ticket](Ticket#structure "wikilink"), and the content index from the
 TMD padded with zeros as the IV.
 
 ### Certificate Chain
@@ -88,7 +88,7 @@ The structure of this data is as follows:
 | 0x400 | 0x36C0 | [Icon Data](SMDH "wikilink")(.ICN) - Taken from the application's [ExeFS](ExeFS "wikilink")         |
 
 Obviously this section is not present in TWL CIA files, or any other CIA
-file which does not contain a [CXI](NCCH#CXI "wikilink").
+file which does not contain a [CXI](NCCH#cxi "wikilink").
 
 ## Tools
 

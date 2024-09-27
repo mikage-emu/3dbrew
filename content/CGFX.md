@@ -292,7 +292,7 @@ the case, then their structure is as follows :
 | 0xD               | ETC1A4 ?               |
 
 Every texture format has its texture data divided into 8x8 tiles. See
-[SMDH](SMDH#Icon_graphics "wikilink") for more information. ETC1 is a
+[SMDH](SMDH#icon_graphics "wikilink") for more information. ETC1 is a
 compressed texture format which compresses blocks of 4x4 pixels into
 u64s. These u64 are traditionally stored in big endian; however,
 nintendo's implementation stores them in little endian. ETC1 textures

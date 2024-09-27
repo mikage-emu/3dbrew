@@ -19,11 +19,11 @@ On O3DS the exheader name of this title is "SPIDER"; on N3DS, "SKATER".
 The only difference between the ExeFS .code for each region of the
 Old3DS/New3DS browser, is byte values for the title uniqueID/region.
 
-A ["dummy" browser](#dummy_web-browser "wikilink") (which replaces the
+A ["dummy" browser](#dummy-web-browser "wikilink") (which replaces the
 actual browser) is being included with cartdrige games shipping with
 system updates starting with [9.9.0-X](9.9.0-26 "wikilink"). In
 addition, versions of the real browser since 9.9.0-26X attempt to
-[check-in with a Nintendo server](#forced_system-update "wikilink") to
+[check-in with a Nintendo server](#forced-system-update "wikilink") to
 determine if the existing browser version is out of date.
 
 ## [New 3DS](New_3DS "wikilink") Internet Browser
@@ -900,7 +900,7 @@ The only changes in RomFS was that the following files were updated:
 
 *Nothing* changed except some words for version-values in .text being
 updated(RomFS wasn't changed), code for browser-version-check was
-[updated](#v10.7_2 "wikilink").
+[updated](#v107_2 "wikilink").
 
 ### Old3DS v11.1
 
@@ -1216,7 +1216,7 @@ highlight text, zoom out, and interact with the bottom browser bar.
 #### System Font Characters
 
 The [system
-font](System_Font#Unicode_Private_Use_characters "wikilink")'s
+font](System_Font#unicode_private_use_characters "wikilink")'s
 private-use characters can be viewed within the web browser.
 
 ## Screen Resolution

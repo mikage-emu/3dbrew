@@ -39,10 +39,10 @@ archive:
 
 | Archive path                                             | Comment                                                                                             |
 |----------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| [./BcmaInfo.arc](#bcmainfo.arc "wikilink")               | Archive containing metadata about this manual, such as available languages and version information. |
-| [./*REG*_*la*_index.arc](#reg_la_index.arc "wikilink") | Archive containing the table of contents for a specific locale.                                     |
-| [./*REG*_*la*_large.arc](#reg_la_size.arc "wikilink")  | Archive containing the pages of the manual in a large font size.                                    |
-| [./*REG*_*la*_small.arc](#reg_la_size.arc "wikilink")  | Archive containing the pages of the manual in a small font size.                                    |
+| [./BcmaInfo.arc](#bcmainfoarc "wikilink")               | Archive containing metadata about this manual, such as available languages and version information. |
+| [./*REG*_*la*_index.arc](#reg_la_indexarc "wikilink") | Archive containing the table of contents for a specific locale.                                     |
+| [./*REG*_*la*_large.arc](#reg_la_sizearc "wikilink")  | Archive containing the pages of the manual in a large font size.                                    |
+| [./*REG*_*la*_small.arc](#reg_la_sizearc "wikilink")  | Archive containing the pages of the manual in a small font size.                                    |
 
 Other archives not named here may be present as well. Usually, these
 contain locale specific images.

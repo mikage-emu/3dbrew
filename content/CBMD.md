@@ -6,7 +6,7 @@ categories = ["File formats"]
 **CBMD - CTR Banner Model Data**
 
 This page describes the format used for banners' models. These are
-stored in [CXI](NCCH#CXI "wikilink") ExeFS:/banner and optionally in
+stored in [CXI](NCCH#cxi "wikilink") ExeFS:/banner and optionally in
 [extdata](extdata "wikilink") exbanner. CBMD is a container file for
 [CGFX](CGFX "wikilink") blocks. This is used for banners of titles you
 see in the home menu. BNR used for the app banners in the CXI/exbanner

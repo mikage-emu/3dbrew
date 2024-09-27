@@ -7,7 +7,7 @@ title = 'Y2R:SetStandardCoefficient'
 | Index Word | Description                                                           |
 |------------|-----------------------------------------------------------------------|
 | 0          | Header code \[0x00200040\]                                            |
-| 1          | [StandardCoefficient](Camera_Services#StandardCoefficient "wikilink") |
+| 1          | [StandardCoefficient](Camera_Services#standardcoefficient "wikilink") |
 
 # Response
 

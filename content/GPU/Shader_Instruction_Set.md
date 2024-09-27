@@ -347,7 +347,7 @@ Constant registers.
 Address registers and the Loop count register can be used to to provide
 relative addressing for the designated SRC operand. For more
 information, see the section on [relative
-addressing](#Relative_addressing "wikilink").
+addressing](#relative_addressing "wikilink").
 
 DST mapping :
 

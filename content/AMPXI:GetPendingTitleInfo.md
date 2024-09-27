@@ -8,7 +8,7 @@ title = 'AMPXI:GetPendingTitleInfo'
 |------------|-------------------------------------------------------|
 | 0          | Header code \[0x001F0084\]                            |
 | 1          | Title count                                           |
-| 2          | [MediaType](Filesystem_services#MediaType "wikilink") |
+| 2          | [MediaType](Filesystem_services#mediatype "wikilink") |
 | 3          | (TitleCount \* 8) \<\< 8 \| 4                         |
 | 4          | Title IDs input pointer                               |
 | 5          | (TitleCount \* 24) \<\< 8 \| 0x14                     |

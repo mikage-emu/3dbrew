@@ -172,6 +172,6 @@ if it finds system updates are necessary before distributing the
 child-application. ( eg. multiplayer game or a demo. ) Like "update"
 partitions on CTR Cards, this is not an "automatic feature" and not
 implemented for all Download Play titles. This system update data is
-from the application's system update [CFA](NCCH#CFA "wikilink"), prior
+from the application's system update [CFA](NCCH#cfa "wikilink"), prior
 to beginning the data transfer the host broadcasts data-frames which
 contain a title-list from the system update CFA.

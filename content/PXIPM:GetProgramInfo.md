@@ -21,6 +21,6 @@ title = 'PXIPM:GetProgramInfo'
 # Description
 
 This retrieves the [System Control
-Info](Exheader#System_Control_Info "wikilink") and [Access Control
-Info](Exheader#Access_Control_Info "wikilink") of a program, writing
+Info](Exheader#system_control_info "wikilink") and [Access Control
+Info](Exheader#access_control_info "wikilink") of a program, writing
 them to the output buffer.

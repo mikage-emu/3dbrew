@@ -105,7 +105,7 @@ Bit0: Enable bootrom overlay functionality.
 ## CFG11_BOOTROM_OVERLAY_VAL
 
 The 32-bit value to overlay data-reads to bootrom with. See
-[PDN_LGR_CPU_CNT](PDN_Registers#PDN_LGR_CPU_CNT<0-3> "wikilink")\<0-3\>.
+[PDN_LGR_CPU_CNT](PDN_Registers#pdn_lgr_cpu_cnt0-3 "wikilink")\<0-3\>.
 
 ## CFG11_SOCINFO
 

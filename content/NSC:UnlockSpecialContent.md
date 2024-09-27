@@ -7,9 +7,9 @@ title = 'NSC:UnlockSpecialContent'
 | Index Word | Description                                                             |
 |------------|-------------------------------------------------------------------------|
 | 0          | Header code \[0x00020100\]                                              |
-| 1          | [MediaType](Filesystem_services#MediaType "wikilink")                   |
+| 1          | [MediaType](Filesystem_services#mediatype "wikilink")                   |
 | 2-3        | Title ID                                                                |
-| 4          | [SpecialContentType](Filesystem_services#SpecialContentType "wikilink") |
+| 4          | [SpecialContentType](Filesystem_services#specialcontenttype "wikilink") |
 
 # Response
 

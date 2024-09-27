@@ -220,7 +220,7 @@ system setup is required.
 
 One of the Home Menu's functions, is to regulate region lockout. The
 region lockout data for any given title is held in the [ICN
-data](SMDH#BNR_Region "wikilink"). There are 6 regions of which have
+data](SMDH#bnr_region "wikilink"). There are 6 regions of which have
 their own region lockout, Japan, USA, Europe(including Nintendo
 Australia), China, Taiwan and Korea. There is also a value which makes a
 title exempt from region lockout, and consequently accessible from any
@@ -270,7 +270,7 @@ stores this content in Home-menu's NAND shared extdata.
 - The system notifications are downloaded from:
   `https://a248.e.akamai.net/f/248/103046/10m/npdl.c.app.nintendowifi.net/p01/nsa/<regionID>/<filename>/<langcode>/<filename>`
   Where langcode is the two-character language codes from
-  [config](Config_Savegame#Languages "wikilink"), and regionID is from
+  [config](Config_Savegame#languages "wikilink"), and regionID is from
   the below table. `<filename>` is bashoX/sysmsgX where X is 0-3.
 - `https://pls.c.shop.nintendowifi.net/pl/upload` This URL is used for
   uploading data from the home menu NAND shared extdata, it's unknown
@@ -388,7 +388,7 @@ regions(which is invalid).
 
 ## SD ExtData
 
-The SD ExtData [File System](Extdata#Filesystem "wikilink") for Home
+The SD ExtData [File System](Extdata#filesystem "wikilink") for Home
 Menu introduced with [2.0.0-X](2.0.0-2 "wikilink") is as follows:
 
 ```
@@ -567,8 +567,8 @@ root
 
 | File             | Details                                             | Size     | Extdata image ID | FW Introduced                   |
 |------------------|-----------------------------------------------------|----------|------------------|---------------------------------|
-| BadgeData.dat    | [See below.](Home_Menu#BadgeData.dat "wikilink")    | 0xF4DF80 |                  | [9.0.0-20](9.0.0-20 "wikilink") |
-| BadgeMngFile.dat | [See below.](Home_Menu#BadgeMngFile.dat "wikilink") | 0xD4A8   |                  | [9.0.0-20](9.0.0-20 "wikilink") |
+| BadgeData.dat    | [See below.](Home_Menu#badgedatadat "wikilink")    | 0xF4DF80 |                  | [9.0.0-20](9.0.0-20 "wikilink") |
+| BadgeMngFile.dat | [See below.](Home_Menu#badgemngfiledat "wikilink") | 0xD4A8   |                  | [9.0.0-20](9.0.0-20 "wikilink") |
 
 ### BadgeData.dat
 
@@ -752,8 +752,8 @@ root
 | 0x4      | 0xC                     | array of 8 u8, 0 if the corresponding layout slot is not set, 1 if it is                                                                                                                              |
 | 0xC      | 0x3000 \* 8             | Start of the layout entries.                                                                                                                                                                          |
 | 0x1800C  | 0xC                     | Padding                                                                                                                                                                                               |
-| 0x18010  | 0x2DA0 \* 8             | Start of the [SaveData.dat](Home_Menu#SaveData.dat "wikilink") entries.                                                                                                                               |
-| 0x2ED10  | 0xD4A8 \* 8             | Start of the [BadgeMngFile.dat](Home_Menu#BadgeMngFile.dat "wikilink") entries.                                                                                                                       |
+| 0x18010  | 0x2DA0 \* 8             | Start of the [SaveData.dat](Home_Menu#savedatadat "wikilink") entries.                                                                                                                               |
+| 0x2ED10  | 0xD4A8 \* 8             | Start of the [BadgeMngFile.dat](Home_Menu#badgemngfiledat "wikilink") entries.                                                                                                                       |
 | 0x99250  | 0x30                    | Padding                                                                                                                                                                                               |
 | 0x99280  | 256\*3\*8 \* 400/8 \* 8 | Start of the top screen (400x240) screenshots, in BGR8 tiled format, rotated 90 degrees and with 8 rows per "chunk", and actually 256 pixels wide instead of 240, with the last 16 being all black    |
 | 0x2F1280 | 256\*3\*8 \* 320/8 \* 8 | Start of the bottom screen (320x240) screenshots, in BGR8 tiled format, rotated 90 degrees and with 8 rows per "chunk", and actually 256 pixels wide instead of 240, with the last 16 being all black |
@@ -762,7 +762,7 @@ Layout entries structure:
 
 | Offset | Size   | Description                                                                                                                                                         |
 |--------|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0x0    | 0x2558 | Exact copy of the entire Home Menu [System_SaveData](System_SaveData "wikilink") [Launcher.dat](Home_Menu#Launcher.dat "wikilink"), this is the actual layout data. |
+| 0x0    | 0x2558 | Exact copy of the entire Home Menu [System_SaveData](System_SaveData "wikilink") [Launcher.dat](Home_Menu#launcherdat "wikilink"), this is the actual layout data. |
 | 0x2558 | 0xAA8  | Padding                                                                                                                                                             |
 
 The filesize must match 0x004D1280, otherwise the Home Menu code returns
@@ -804,7 +804,7 @@ large as presented here.
 |-----|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0x0 | Does Nothing                   | None                                                                                                                                                                                                                                                                                                                                                                                           |
 | 0x1 | Open Instruction Manual        | None                                                                                                                                                                                                                                                                                                                                                                                           |
-| 0x2 | Download Theme from Theme Shop | 4-byte ID of the theme (total command size 0xC bytes). This is divided by 1000000 to determine the [title ID variation](Titles#Title_IDs "wikilink"), and the remainder corresponds to the theme's DLC content index. If the value is 0 the theme shop will not open correctly, and if the ID isn't valid the theme shop will just return to the home screen after initializing the DLC title. |
+| 0x2 | Download Theme from Theme Shop | 4-byte ID of the theme (total command size 0xC bytes). This is divided by 1000000 to determine the [title ID variation](Titles#title_ids "wikilink"), and the remainder corresponds to the theme's DLC content index. If the value is 0 the theme shop will not open correctly, and if the ID isn't valid the theme shop will just return to the home screen after initializing the DLC title. |
 | 0x3 | Open Badge Picker              | None                                                                                                                                                                                                                                                                                                                                                                                           |
 
 ## Home Menu startup

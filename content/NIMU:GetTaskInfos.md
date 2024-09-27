@@ -7,9 +7,9 @@ title = 'NIMU:GetTaskInfos'
 | Index Word | Description                                                                                                   |
 |------------|---------------------------------------------------------------------------------------------------------------|
 | 0          | Header code \[0x000F0042\]                                                                                    |
-| 1          | Maximum Number of [BackgroundTitleDownloadTaskInfos](NIM_Services#BackgroundTitleDownloadTaskInfo "wikilink") |
+| 1          | Maximum Number of [BackgroundTitleDownloadTaskInfos](NIM_Services#backgroundtitledownloadtaskinfo "wikilink") |
 | 2          | Mapped Output Buffer Header (Size \<\< 4 \| 0xC)                                                              |
-| 3          | [BackgroundTitleDownloadTaskInfos](NIM_Services#BackgroundTitleDownloadTaskInfo "wikilink") Output Pointer    |
+| 3          | [BackgroundTitleDownloadTaskInfos](NIM_Services#backgroundtitledownloadtaskinfo "wikilink") Output Pointer    |
 
 # Response
 
@@ -17,9 +17,9 @@ title = 'NIMU:GetTaskInfos'
 |------------|------------------------------------------------------------------------------------------------------------|
 | 0          | Header code \[0x000F0082\]                                                                                 |
 | 1          | Result code                                                                                                |
-| 2          | Number of [BackgroundTitleDownloadTaskInfos](NIM_Services#BackgroundTitleDownloadTaskInfo "wikilink") Read |
+| 2          | Number of [BackgroundTitleDownloadTaskInfos](NIM_Services#backgroundtitledownloadtaskinfo "wikilink") Read |
 | 3          | Mapped Output Buffer Header (Size \<\< 4 \| 0xC)                                                           |
-| 4          | [BackgroundTitleDownloadTaskInfos](NIM_Services#BackgroundTitleDownloadTaskInfo "wikilink") Output Pointer |
+| 4          | [BackgroundTitleDownloadTaskInfos](NIM_Services#backgroundtitledownloadtaskinfo "wikilink") Output Pointer |
 
 # Description
 

@@ -275,7 +275,7 @@ above for file sessions.
 | 0x567890B0 | ?                                                                                                                                                                    | No                                                  | Yes                                                        | No                                     | No                                                |                                                                      |
 | 0x567890B1 | Gamecard SaveData (for check). This is a wrapper for UserSaveDataForCheck: the OpenArchive code for that is called with archive-lowpath TID=0/mediatype=2(gamecard). | Yes                                                 | No                                                         | No                                     | No                                                | 0x6                                                                  |
 | 0x567890B2 | UserSaveData (for check). This is the same as the regular SaveData archive, except with this the savedata ID and mediatype is loaded from the input archive lowpath. | Yes                                                 | No                                                         | No                                     | Yes                                               | 0x6                                                                  |
-| 0x567890B4 | Similar to 0x567890B2 but can only access Accessible Save specified in [exheader](NCCH/Extended_Header#Storage_Info "wikilink")?                                     | Yes                                                 | No                                                         | No                                     | Yes                                               | ?                                                                    |
+| 0x567890B4 | Similar to 0x567890B2 but can only access Accessible Save specified in [exheader](NCCH/Extended_Header#storage_info "wikilink")?                                     | Yes                                                 | No                                                         | No                                     | Yes                                               | ?                                                                    |
 
 Archives listed as not requiring a binary lowpath, use lowpath type
 [empty](FS:OpenFile "wikilink").
@@ -428,7 +428,7 @@ The 0x14-byte lowpath is all-zero for accessing the title's main RomFS.
 ### [RomFS](RomFS "wikilink")
 
 Archives 0x3 and 0x2345678E both allow for accessing the [level-3 IVFC
-images](RomFS#Level_3_Format "wikilink") for RomFS access. The main CXI
+images](RomFS#level_3_format "wikilink") for RomFS access. The main CXI
 RomFS is accessible via an all-zero 0xc-byte binary file-lowpath. The
 update RomFS can be accessed with the first u32 in the binary
 file-lowpath being set to 0x5. The user must handle parsing the
@@ -534,7 +534,7 @@ The SEEDDB savedata contains the title-unique seed-data used for the new
 | 0x216  | 0x4   | 8.3 short filename extension                            |
 | 0x21A  | 0x1   | Always 1                                                |
 | 0x21B  | 0x1   | Reserved                                                |
-| 0x21C  | 0x4   | [Attributes](Filesystem_services#Attributes "wikilink") |
+| 0x21C  | 0x4   | [Attributes](Filesystem_services#attributes "wikilink") |
 | 0x220  | 0x8   | Entry Size                                              |
 
 ## ArchiveResource
@@ -551,7 +551,7 @@ The SEEDDB savedata contains the title-unique seed-data used for the new
 | Offset | Size | Description                                            |
 |--------|------|--------------------------------------------------------|
 | 0x0    | 0x8  | Program ID                                             |
-| 0x8    | 0x1  | [Media Type](Filesystem_services#MediaType "wikilink") |
+| 0x8    | 0x1  | [Media Type](Filesystem_services#mediatype "wikilink") |
 | 0x9    | 0x7  | Padding                                                |
 
 ## ProductInfo
@@ -573,7 +573,7 @@ The SEEDDB savedata contains the title-unique seed-data used for the new
 
 | Offset | Size | Description                                            |
 |--------|------|--------------------------------------------------------|
-| 0x0    | 0x1  | [Media Type](Filesystem_services#MediaType "wikilink") |
+| 0x0    | 0x1  | [Media Type](Filesystem_services#mediatype "wikilink") |
 | 0x1    | 0x1  | Unknown                                                |
 | 0x2    | 0x2  | Reserved                                               |
 | 0x4    | 0x8  | Save ID                                                |
@@ -583,7 +583,7 @@ The SEEDDB savedata contains the title-unique seed-data used for the new
 
 | Offset | Size | Description                                            |
 |--------|------|--------------------------------------------------------|
-| 0x0    | 0x1  | [Media Type](Filesystem_services#MediaType "wikilink") |
+| 0x0    | 0x1  | [Media Type](Filesystem_services#mediatype "wikilink") |
 | 0x1    | 0x1  | Unknown                                                |
 | 0x2    | 0x2  | Reserved                                               |
 | 0x4    | 0x4  | Save ID                                                |

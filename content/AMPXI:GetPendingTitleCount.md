@@ -7,7 +7,7 @@ title = 'AMPXI:GetPendingTitleCount'
 | Index Word | Description                                                                   |
 |------------|-------------------------------------------------------------------------------|
 | 0          | Header code \[0x001D0080\]                                                    |
-| 1          | [MediaType](Filesystem_services#MediaType "wikilink")                         |
+| 1          | [MediaType](Filesystem_services#mediatype "wikilink")                         |
 | 2          | Status mask (bit0 = include installing, bit1 = include awaiting finalization) |
 
 # Response

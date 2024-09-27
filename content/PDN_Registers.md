@@ -31,7 +31,7 @@ title = 'PDN Registers'
 | No     | [PDN_MVD_CNT](#pdn_mvd_cnt "wikilink")                       | 0x10141240 | 1     |                                                                                         |
 | No     | [PDN_LGR_SOCMODE](#pdn_lgr_socmode "wikilink")               | 0x10141300 | 2     | NewKernel11                                                                             |
 | No     | [PDN_LGR_CNT](#pdn_lgr_cnt "wikilink")                       | 0x10141304 | 2     | NewKernel11                                                                             |
-| No     | [PDN_LGR_CPU_CNT](#pdn_lgr_cpu_cnt<0-3> "wikilink")\<0-3\>   | 0x10141310 | 1\*4  | NewKernel11                                                                             |
+| No     | [PDN_LGR_CPU_CNT](#pdn_lgr_cpu_cnt0-3 "wikilink")\<0-3\>   | 0x10141310 | 1\*4  | NewKernel11                                                                             |
 
 # Sleep registers
 
@@ -45,7 +45,7 @@ title = 'PDN Registers'
 
 Kernel11 powers down VRAM (it's unclear whether bit15 is power-down or
 self-refresh mode) by first disabling the 8 banks using [GX register
-0x10400030](GPU/External_Registers#Map "wikilink"), then by disabling
+0x10400030](GPU/External_Registers#map "wikilink"), then by disabling
 the GPU clock using [PDN_GPU_CNT](#pdn_gpu_cnt "wikilink") bit 16 and
 finally writes to and polls this register.
 
@@ -53,12 +53,12 @@ finally writes to and polls this register.
 
 | Bits | Description                                         |
 |------|-----------------------------------------------------|
-| 1    | [HID_PAD_CNT](HID_Registers#HID_PAD_CNT "wikilink") |
+| 1    | [HID_PAD_CNT](HID_Registers#hid_pad_cnt "wikilink") |
 | 3    | Shell opened                                        |
 | 4    | Headphones not plugged in                           |
 | 8    | WiFi (?)                                            |
 | 19   | Shell GPIO (?)                                      |
-| 26   | [MCU interrupt](I2C_Registers#Device_3 "wikilink")  |
+| 26   | [MCU interrupt](I2C_Registers#device_3 "wikilink")  |
 | 30   | Touch screen pressed                                |
 | 31   | CTR gamecard inserted/removed                       |
 |      |                                                     |
@@ -128,7 +128,7 @@ when GBA mode enters sleep.
 
 Set bits will use the corresponding values from
 [LGY_HIDEMU_PAD](#lgy_hidemu_pad "wikilink") instead of allowing the
-hardware to read it from [HID_PAD](HID_Registers#HID_PAD "wikilink").
+hardware to read it from [HID_PAD](HID_Registers#hid_pad "wikilink").
 
 This is set to 0x1FFF (all buttons and the debug key) and
 [LGY_HIDEMU_PAD](#lgy_hidemu_pad "wikilink") is set to 0 when the "Close
@@ -137,7 +137,7 @@ button presses from propagating to the DS/GBA CPU.
 
 ## LGY_HIDEMU_PAD
 
-Works the same way as [HID_PAD](HID_Registers#HID_PAD "wikilink"), but
+Works the same way as [HID_PAD](HID_Registers#hid_pad "wikilink"), but
 the values set here are only replaced in the HID_PAD seen by the DS/GBA
 CPU when the corresponding bits in
 [LGY_HIDEMU_MASK](#lgy_hidemu_mask "wikilink") are set.
@@ -299,11 +299,11 @@ registers) are usable in LGR1 mode.
 
 On firmlaunch, the kernel sets the mode to O3DS.
 
-[svcKernelSetState](SVC#KernelSetState "wikilink") type10, only
+[svcKernelSetState](SVC#kernelsetstate "wikilink") type10, only
 implemented on New3DS, uses this register. This piece of code choses the
 mode matching the input Param0 bit0 state (1 for higher clock), using
 the state of
-[CFG11_SOCINFO](CONFIG11_Registers#CFG11_SOCINFO "wikilink") to
+[CFG11_SOCINFO](CONFIG11_Registers#cfg11_socinfo "wikilink") to
 determine which mode is the best (which is always LGR2 on all released
 New 3DS units).
 
@@ -315,7 +315,7 @@ New 3DS units).
 | 8    | Enables the L2C block (LGR2 only) |
 
 Kernel11 sets this to 0x101 when bit 2 in
-[CFG11_SOCINFO](CONFIG11_Registers#CFG11_SOCINFO "wikilink") (LGR2
+[CFG11_SOCINFO](CONFIG11_Registers#cfg11_socinfo "wikilink") (LGR2
 supported) is set otherwise 1.
 
 ## PDN_LGR_CPU_CNT\<0-3\>
@@ -342,9 +342,9 @@ bootrom with a configurable branch to a kernel function. This overlay
 feature was added with the New3DS.
 
 The overlay should be enabled by setting bit0 in
-[CFG11_BOOTROM_OVERLAY_CNT](CONFIG11_Registers#CFG11_BOOTROM_OVERLAY_CNT "wikilink")
+[CFG11_BOOTROM_OVERLAY_CNT](CONFIG11_Registers#cfg11_bootrom_overlay_cnt "wikilink")
 and configured by setting the entrypoint address to
-[CFG11_BOOTROM_OVERLAY_VAL](CONFIG11_Registers#CFG11_BOOTROM_OVERLAY_VAL "wikilink").
+[CFG11_BOOTROM_OVERLAY_VAL](CONFIG11_Registers#cfg11_bootrom_overlay_val "wikilink").
 
 The overlay overrides all *instruction* reads from phyiscal addresses
 0xFFFF0000-0xFFFF1000 and 0x10000-0x11000 to the following (figured out
@@ -356,4 +356,4 @@ accordingly):
 ```
 
 and all *data* reads from the same ranges to
-[CFG11_BOOTROM_OVERLAY_VAL](CONFIG11_Registers#CFG11_BOOTROM_OVERLAY_VAL "wikilink").
+[CFG11_BOOTROM_OVERLAY_VAL](CONFIG11_Registers#cfg11_bootrom_overlay_val "wikilink").

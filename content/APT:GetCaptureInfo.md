@@ -15,7 +15,7 @@ command buffer:
 | Index Word | Description                                                                   |
 |------------|-------------------------------------------------------------------------------|
 | 0          | (Size \<\< 14) \| 2                                                           |
-| 1          | void\*, [CaptureBufferInfo](NS_and_APT_Services#CaptureBufferInfo "wikilink") |
+| 1          | void\*, [CaptureBufferInfo](NS_and_APT_Services#capturebufferinfo "wikilink") |
 
 # Response
 

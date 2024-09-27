@@ -7,7 +7,7 @@ title = 'APT:SendDspSleep'
 | Index Word | Description                                           |
 |------------|-------------------------------------------------------|
 | 0          | Header code \[0x003C0042\]                            |
-| 1          | Source [AppID](NS_and_APT_Services#AppIDs "wikilink") |
+| 1          | Source [AppID](NS_and_APT_Services#appids "wikilink") |
 | 2          | 0x0                                                   |
 | 3          | Handle                                                |
 

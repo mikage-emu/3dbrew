@@ -7,8 +7,8 @@ title = 'CAMU:SetContrast'
 | Index Word | Description                                             |
 |------------|---------------------------------------------------------|
 | 0          | Header code \[0x00230080\]                              |
-| 1          | [CameraSelect](Camera_Services#CameraSelect "wikilink") |
-| 2          | [Contrast](Camera_Services#Contrast "wikilink")         |
+| 1          | [CameraSelect](Camera_Services#cameraselect "wikilink") |
+| 2          | [Contrast](Camera_Services#contrast "wikilink")         |
 
 # Response
 

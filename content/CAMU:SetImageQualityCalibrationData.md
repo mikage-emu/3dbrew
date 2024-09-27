@@ -7,7 +7,7 @@ title = 'CAMU:SetImageQualityCalibrationData'
 | Index Word | Description                                                                           |
 |------------|---------------------------------------------------------------------------------------|
 | 0          | Header code \[0x00310180\]                                                            |
-| 1-6        | [ImageQualityCalibrationData](Camera_Services#ImageQualityCalibrationData "wikilink") |
+| 1-6        | [ImageQualityCalibrationData](Camera_Services#imagequalitycalibrationdata "wikilink") |
 
 # Response
 

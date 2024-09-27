@@ -16,7 +16,7 @@ title = 'NIMU:FindTaskInfo'
 | 0          | Header code \[0x000E0042\]                                                                         |
 | 1          | Result code                                                                                        |
 | 2          | Static Buffer Header (Size = 0x120)                                                                |
-| 3          | [BackgroundTitleDownloadTaskInfo](NIM_Services#BackgroundTitleDownloadTaskInfo "wikilink") Pointer |
+| 3          | [BackgroundTitleDownloadTaskInfo](NIM_Services#backgroundtitledownloadtaskinfo "wikilink") Pointer |
 
 # Description
 

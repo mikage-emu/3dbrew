@@ -26,7 +26,7 @@ all.
 The first virtual method returns `event->interruptEvent` and the second
 calls the corresponding second method of that interrupt event.
 
-Bit1 of [PDN_FIQ_CNT](PDN_Registers#PDN_FIQ_CNT "wikilink") is set when
+Bit1 of [PDN_FIQ_CNT](PDN_Registers#pdn_fiq_cnt "wikilink") is set when
 handling a FIQ and when unbinding SGI \#15 using svcUnbindInterrupt, and
 cleared after the associated event has been signaled, as well as when
 svcBindInterrupt is used for SGI \#15.

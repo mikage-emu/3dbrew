@@ -7,7 +7,7 @@ title = 'AMPXI:GetTitleInfo'
 | Index Word | Description                                           |
 |------------|-------------------------------------------------------|
 | 0          | Header code \[0x00030084\]                            |
-| 1          | [MediaType](Filesystem_services#MediaType "wikilink") |
+| 1          | [MediaType](Filesystem_services#mediatype "wikilink") |
 | 2          | Title count                                           |
 | 3          | (TitleCount \* 8) \<\< 8 \| 6                         |
 | 4          | Title IDs input pointer                               |

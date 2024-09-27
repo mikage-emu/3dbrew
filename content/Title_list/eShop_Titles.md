@@ -7,10 +7,10 @@ title = 'EShop Titles'
 ## Overview
 
 This titleID-High (00040000) is also used for gamecard applications. The
-[CXI](NCCH#CXI "wikilink") for retail applications available via
+[CXI](NCCH#cxi "wikilink") for retail applications available via
 gamecard and eShop are exactly the same, except the exheader differs.
 For SD applications exheader_systeminfoflags.flag
-[bit1](NCCH#NCCH_Specs "wikilink") is set, for gamecard applications
+[bit1](NCCH#ncch_specs "wikilink") is set, for gamecard applications
 this bit is clear. The ExeFS and RomFS are exactly the same for the
 gamecard/eShop versions. The eShop version of the CXI has additional
 padding.

@@ -31,7 +31,7 @@ title = 'AMNet:ImportCertificates'
 
 This is called before
 [AMNet:BeginImportTicket](AMNet:BeginImportTicket "wikilink") to set the
-[certificate chain](Ticket#Certificate_Chain "wikilink") for the tickets
+[certificate chain](Ticket#certificate_chain "wikilink") for the tickets
 to be installed. You can submit up to four certificates at a time, and
 if you have more than four, you can make multiple calls. If you have
 less than four certificates, you can pass in NULL for the pointers, 0

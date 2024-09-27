@@ -51,7 +51,7 @@ filling unit. Upon completion, the hardware unsets bit0 and sets bit1
 and fires interrupt PSC0.
 
 These registers are used by [GX
-SetMemoryFill](GSP_Shared_Memory#GX_SetMemoryFill "wikilink").
+SetMemoryFill](GSP_Shared_Memory#gx_setmemoryfill "wikilink").
 
 ## LCD Source Framebuffer Setup
 
@@ -303,7 +303,7 @@ scanlines blitted regardless of framebuffer height)</td>
 <tr class="even">
 <td>0x70</td>
 <td>Framebuffer format and other settings</td>
-<td>See <a href="../../#Framebuffer_format" title="wikilink">framebuffer
+<td>See <a href="../../#framebuffer_format" title="wikilink">framebuffer
 format</a></td>
 </tr>
 <tr class="odd">
@@ -376,7 +376,7 @@ bottom screen in userland.</td>
 <tbody>
 <tr class="odd">
 <td>2-0</td>
-<td><a href="../../#Framebuffer_color_formats" title="wikilink">Color
+<td><a href="../../#framebuffer_color_formats" title="wikilink">Color
 format</a></td>
 </tr>
 <tr class="even">
@@ -506,7 +506,7 @@ likewise only used if bit 3 is set, and ignored otherwise.
 | 4     | Not writable                                                                                                                                                              |
 | 5     | Don't perform tiled-linear conversion. Incompatible with bit 1, so only tiled-tiled transfers can be done, not linear-linear.                                             |
 | 7-6   | Not writable                                                                                                                                                              |
-| 10-8  | Input framebuffer color format, value0 and value1 are the same as the [LCD Source Framebuffer Formats](categories/GPU#Framebuffer_color_formats "wikilink") (usually zero) |
+| 10-8  | Input framebuffer color format, value0 and value1 are the same as the [LCD Source Framebuffer Formats](categories/GPU#framebuffer_color_formats "wikilink") (usually zero) |
 | 11    | Not writable                                                                                                                                                              |
 | 14-12 | Output framebuffer color format                                                                                                                                           |
 | 15    | Not writable                                                                                                                                                              |

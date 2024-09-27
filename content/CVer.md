@@ -2,7 +2,7 @@
 title = 'CVer'
 +++
 
-This [CFA](NCCH#CFA "wikilink") contains the files listed below in the
+This [CFA](NCCH#cfa "wikilink") contains the files listed below in the
 RomFS.
 
 ### cup_list
@@ -39,7 +39,7 @@ of the system version:
 
 This 0x40-byte file was added with [7.2.0-17](7.2.0-17 "wikilink"). This
 is used by [System
-Settings](System_Settings#Parental_Controls_Reset "wikilink").
+Settings](System_Settings#parental_controls_reset "wikilink").
 
 | Offset | Size | Description                                                                                                         |
 |--------|------|---------------------------------------------------------------------------------------------------------------------|

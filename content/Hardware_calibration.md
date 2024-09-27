@@ -48,7 +48,7 @@ updated)</td>
 <tr class="even">
 <td>0xE</td>
 <td>0x2</td>
-<td><a href="../#Aging_masks" title="wikilink">Bitmask of successful
+<td><a href="../#aging_masks" title="wikilink">Bitmask of successful
 Aging tests</a></td>
 </tr>
 <tr class="odd">
@@ -94,7 +94,7 @@ used:</p>
 
 ## Data blocks
 
-| Offset | Size  | [ConfigInfoBlk](Config_Savegame#Configuration_blocks "wikilink") | Since version | Description                                                        |
+| Offset | Size  | [ConfigInfoBlk](Config_Savegame#configuration_blocks "wikilink") | Since version | Description                                                        |
 |--------|-------|------------------------------------------------------------------|---------------|--------------------------------------------------------------------|
 | 0x00   | 0x10  | 0x00040000                                                       |               | [Touch panel](#touch "wikilink")                                   |
 | 0x14   | 0x08  | ???                                                              |               | [Circle pad](#circle_pad "wikilink")                               |

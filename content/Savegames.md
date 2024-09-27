@@ -24,7 +24,7 @@ below the wear leveling layer (if exists). The same key Y used for
 encryption is also used for DISA CMAC signing. Several versions of
 encryption scheme have been introduced over the time.
 
-| FW Introduced                   | Old3DS | [AES Keyslots](AES#Keyslot "wikilink") (Encryption / CMAC) | KeyY generation method | Repeating CTR |
+| FW Introduced                   | Old3DS | [AES Keyslots](AES#keyslot "wikilink") (Encryption / CMAC) | KeyY generation method | Repeating CTR |
 |---------------------------------|--------|------------------------------------------------------------|------------------------|---------------|
 | The initial version             | Yes    | 0x37 / 0x33                                                | v1                     | Yes           |
 | [2.0.0-2](2.0.0-2 "wikilink")   | Yes    | 0x37 / 0x33                                                | v2                     | Yes           |
@@ -67,7 +67,7 @@ keyY is the following:
 
 | Offset | Size | Description                                                                                                                                                                                                                                               |
 |--------|------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0x0    | 0x8  | First 8-bytes from the plaintext [CXI](NCCH#CXI "wikilink") accessdesc signature.                                                                                                                                                                         |
+| 0x0    | 0x8  | First 8-bytes from the plaintext [CXI](NCCH#cxi "wikilink") accessdesc signature.                                                                                                                                                                         |
 | 0x8    | 0x4  | u32 CardID0 from [gamecard](Gamecards "wikilink") plaintext-mode command 0x90, Process9 reads this with the [NTRCARD](NTRCARD "wikilink") hw. The actual cmdID used by Process9 is different since Process9 reads it with the gamecard in encrypted-mode. |
 | 0xC    | 0x4  | u32 CardID1 from [gamecard](Gamecards "wikilink") plaintext-mode command 0xA0, Process9 reads this with the [NTRCARD](NTRCARD "wikilink") hw. The actual cmdID used by Process9 is different since Process9 reads it with the gamecard in encrypted-mode. |
 
@@ -78,7 +78,7 @@ data
 
 | Offset | Size | Description                                                                                                                                   |
 |--------|------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| 0x0    | 0x8  | First 8-bytes from the plaintext [CXI](NCCH#CXI "wikilink") accessdesc signature.                                                             |
+| 0x0    | 0x8  | First 8-bytes from the plaintext [CXI](NCCH#cxi "wikilink") accessdesc signature.                                                             |
 | 0x8    | 0x40 | read from a gamecard command(this 0x40-byte data is also read by [GetRomId](Process_Services_PXI "wikilink"), which is the gamecard-uniqueID) |
 
 This keyY generation method was implemented with
@@ -102,7 +102,7 @@ First, a SHA-256 hash is calculated over the following data
 
 | Offset | Size | Description                                                                       |
 |--------|------|-----------------------------------------------------------------------------------|
-| 0x0    | 0x8  | First 8-bytes from the plaintext [CXI](NCCH#CXI "wikilink") accessdesc signature. |
+| 0x0    | 0x8  | First 8-bytes from the plaintext [CXI](NCCH#cxi "wikilink") accessdesc signature. |
 | 0x8    | 0x40 | Same ID as [GetRomId](Process_Services_PXI "wikilink")                            |
 | 0x48   | 0x8  | CXI Program ID                                                                    |
 | 0x50   | 0x20 | ExeFS:/.code hash from the decrypted [ExeFS](ExeFS "wikilink") header             |

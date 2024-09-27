@@ -168,7 +168,7 @@ Bits 1 to 7: Unknown</td>
 
 The list of NZone hotspots is loaded from "conf:/hotspot.conf" by the AC
 system applet, where "conf:" is the 000400DB00010502
-[CFA](NCCH#CFA "wikilink") archive. This is a CSV file, with LF-style
+[CFA](NCCH#cfa "wikilink") archive. This is a CSV file, with LF-style
 newlines. All of the information stored in the NZone beacon is also
 stored in this file for each hotspot. This file can list a max of 100
 hotspots.(As of title version v1024, hotspot.conf lists 52 hotspots)

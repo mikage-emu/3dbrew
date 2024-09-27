@@ -23,8 +23,8 @@ title = 'GSPGPU:ImportDisplayCaptureInfo'
 |------------|----------------------------------------------------------------------------------------|
 | 0          | Left framebuffer VA                                                                    |
 | 1          | Right framebuffer VA (top screen only)                                                 |
-| 2          | [Format](GPU/External_Registers#Framebuffer_format "wikilink")                         |
-| 3          | [Stride](GPU/External_Registers#LCD_Source_Framebuffer_Setup "wikilink") (offset 0x90) |
+| 2          | [Format](GPU/External_Registers#framebuffer_format "wikilink")                         |
+| 3          | [Stride](GPU/External_Registers#lcd_source_framebuffer_setup "wikilink") (offset 0x90) |
 
 # Description
 

@@ -14,7 +14,7 @@ title = 'FS:GetMediaType'
 |------------|--------------------------------------------------------|
 | 0          | Header code                                            |
 | 1          | Result code                                            |
-| 2          | [Media Type](Filesystem_services#MediaType "wikilink") |
+| 2          | [Media Type](Filesystem_services#mediatype "wikilink") |
 
 # Description
 

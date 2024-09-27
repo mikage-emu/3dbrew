@@ -15,7 +15,7 @@ title = 'APT:GetLockHandle'
 |------------|--------------------------------------------------------------------|
 | 0          | Header code                                                        |
 | 1          | Result code                                                        |
-| 2          | [AppletAttr](NS_and_APT_Services#AppletAttr "wikilink")            |
+| 2          | [AppletAttr](NS_and_APT_Services#appletattr "wikilink")            |
 | 3          | APT State (bit0 = Power Button State, bit1 = Order To Close State) |
 | 4          | 0x0 ([translation descriptor](IPC "wikilink"))                     |
 | 5          | Lock Handle                                                        |

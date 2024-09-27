@@ -65,7 +65,7 @@ screen:
 
 - Firmware version, CTR-SDK version
 - System Mode (see
-  [here](3DS_Development_Unit_Software#Config "wikilink"))
+  [here](3DS_Development_Unit_Software#config "wikilink"))
 - Debug Mode enabled/disabled
 - SD Card information
 - EULA version

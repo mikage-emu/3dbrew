@@ -15,7 +15,7 @@ title = 'DLPSRVR:GetClientInfo'
 |------------|------------------------------------------------------------------|
 | 0          | Header code                                                      |
 | 1          | Result code                                                      |
-| 2-11       | [NodeInfo structure](NWM_Services#NodeInfo_structure "wikilink") |
+| 2-11       | [NodeInfo structure](NWM_Services#nodeinfo_structure "wikilink") |
 
 # Description
 

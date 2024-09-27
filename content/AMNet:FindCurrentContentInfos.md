@@ -11,7 +11,7 @@ title = 'AMNet:FindCurrentContentInfos'
 | 2          | ((Content Info Count \* 2) \<\< 4) \| 0xA                                           |
 | 3          | Content Info Indices Input Pointer                                                  |
 | 4          | ((Content Info Count \* 0x18) \<\< 4) \| 0xC                                        |
-| 5          | [Content Infos](Application_Manager_Services#ContentInfo "wikilink") Output Pointer |
+| 5          | [Content Infos](Application_Manager_Services#contentinfo "wikilink") Output Pointer |
 
 # Response
 

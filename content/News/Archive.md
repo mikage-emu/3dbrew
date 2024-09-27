@@ -243,7 +243,7 @@ title = 'Archive'
   [3ds_smashbroshax](https://github.com/yellows8/3ds_smashbroshax/releases)
   v1.2.
 - **26 October 15** A [dummy web
-  browser](Internet_Browser#v9.9_dummy_web-browser "wikilink") is now
+  browser](Internet_Browser#v99-dummy-web-browser "wikilink") is now
   being included in CUPs (cart updates) on Old3DS/New3DS likely starting
   with games shipping [9.9.0-X](9.9.0-26 "wikilink"). NVer is not
   updated by this.
@@ -251,7 +251,7 @@ title = 'Archive'
   a "sysupdate required" message on systems with
   [9.9.0-26](9.9.0-26 "wikilink") or above installed, if the installed
   browser(?) is not the latest version. See
-  [here](Internet_Browser#Forced_system-update "wikilink") for details.
+  [here](Internet_Browser#forced-system-update "wikilink") for details.
 - **25 October 15** [smea](User:Smea "wikilink") released \*hax 2.5
   payloads, which fixes a number of bugs and adds new features such as
   screenshot-taking, romhacking and eshop access.
@@ -379,7 +379,7 @@ title = 'Archive'
 - **19 May 12** [3DSExplorer v1.2.1](3DSExplorer "wikilink") updated by
   [Elisherer](User:Elisherer "wikilink")
 - **15 May 12** Nintendo released its first implementation of 3DS
-  '[Add-on Content](Title_list#0004000E_-_Add-on_Content "wikilink")'
+  '[Add-on Content](Title_list#0004000e---add-on-content "wikilink")'
   with the Mario Kart 1.1 update.
 - **14 May 12** Nintendo released system update
   [4.1.0-8](4.1.0-8 "wikilink").

@@ -19,7 +19,7 @@ RomFS can be used:
 <!-- -->
 
 - to contain the [DLP Child
-  CIA](Download_Play#Broadcasted_application_data "wikilink"))
+  CIA](Download_Play#broadcasted_application_data "wikilink"))
 
 <!-- -->
 

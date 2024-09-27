@@ -14,4 +14,4 @@ title = 'CAMU:GetStereoCameraCalibrationData'
 |------------|---------------------------------------------------------------------------------------|
 | 0          | Header code                                                                           |
 | 1          | Result code                                                                           |
-| 2-17       | [StereoCameraCalibrationData](Camera_Services#StereoCameraCalibrationData "wikilink") |
+| 2-17       | [StereoCameraCalibrationData](Camera_Services#stereocameracalibrationdata "wikilink") |

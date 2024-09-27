@@ -7,7 +7,7 @@ title = 'MICU:AdjustSampling'
 | Index Word | Description                                          |
 |------------|------------------------------------------------------|
 | 0          | Header code \[0x00040040\]                           |
-| 1          | u8, [SampleRate](MIC_Services#SampleRate "wikilink") |
+| 1          | u8, [SampleRate](MIC_Services#samplerate "wikilink") |
 
 # Response
 

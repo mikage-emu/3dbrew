@@ -8,10 +8,10 @@ processes and threads as well as handling synchronization between them.
 # Processes
 
 Each process is given an array of [kernel capability
-descriptors](NCCH/Extended_Header#ARM11_Kernel_Capabilities "wikilink")
+descriptors](NCCH/Extended_Header#arm11_kernel_capabilities "wikilink")
 upon creation (see CreateProcess). Official software forwards the
 descriptors specified in the [NCCH
-exheader](NCCH#Extended_Header "wikilink").
+exheader](NCCH#extended_header "wikilink").
 
 Any process can only use SVCs which are enabled in its kernel capability
 descriptors. This is enforced by the ARM11 kernel SVC handler by
@@ -51,7 +51,7 @@ Sets up a process using the segments managed by the given CodeSet
 handle.
 
 This system call furthermore processes the [kernel
-capabilities](NCCH/Extended_Header#ARM11_Kernel_Capabilities "wikilink")
+capabilities](NCCH/Extended_Header#arm11_kernel_capabilities "wikilink")
 from the [ExHeader](NCCH/Extended_Header "wikilink"), hence setting up
 virtual address mappings, CPU clock frequency/L2 cache configuration,
 and other things.

@@ -7,7 +7,7 @@ title = 'APT:IsTitleAllowed'
 | Index Word | Description                                               |
 |------------|-----------------------------------------------------------|
 | 0          | Header code \[0x01050100\]                                |
-| 1-4        | [ProgramInfo](Filesystem_services#ProgramInfo "wikilink") |
+| 1-4        | [ProgramInfo](Filesystem_services#programinfo "wikilink") |
 
 # Response
 

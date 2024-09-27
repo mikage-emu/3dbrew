@@ -7,7 +7,7 @@ title = 'AM:GetNumExistingContentInfos'
 | Index Word | Description                                            |
 |------------|--------------------------------------------------------|
 | 0          | Header code \[0x002A00C0\]                             |
-| 1          | [Media Type](Filesystem_services#MediaType "wikilink") |
+| 1          | [Media Type](Filesystem_services#mediatype "wikilink") |
 | 2-3        | u64, Title ID                                          |
 
 # Response

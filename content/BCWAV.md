@@ -25,8 +25,8 @@ equivalent to fmt) and a DATA struct (the equivalent to data).
 | 0x00C  | 4    | File Size                                                                                                              |
 | 0x010  | 2    | Number of Blocks (2)                                                                                                   |
 | 0x012  | 2    | Reserved                                                                                                               |
-| 0x014  | 12   | [Info Block](#Info_Block "wikilink") [Sized Reference](#sized_reference "wikilink") (Offset relative to start of file) |
-| 0x020  | 12   | [Data Block](#Data_Block "wikilink") [Sized Reference](#sized_reference "wikilink") (Offset relative to start of file) |
+| 0x014  | 12   | [Info Block](#info_block "wikilink") [Sized Reference](#sized_reference "wikilink") (Offset relative to start of file) |
+| 0x020  | 12   | [Data Block](#data_block "wikilink") [Sized Reference](#sized_reference "wikilink") (Offset relative to start of file) |
 
 ### Block Header
 
@@ -54,7 +54,7 @@ equivalent to fmt) and a DATA struct (the equivalent to data).
 | 0x010  | 4    | Loop Start Frame                                                                        |
 | 0x014  | 4    | Loop End Frame                                                                          |
 | 0x018  | 4    | Reserved                                                                                |
-| 0x01C  | X    | [Channel Info](#Channel_Info "wikilink") [Reference Table](#reference_table "wikilink") |
+| 0x01C  | X    | [Channel Info](#channel_info "wikilink") [Reference Table](#reference_table "wikilink") |
 | X      | X    | [Channel Info](#channel_info "wikilink") Entries                                        |
 
 If encoding is DSP ADPCM:
@@ -84,8 +84,8 @@ The info block is aligned to 0x20 bytes.
 
 | OFFSET | SIZE | DESCRIPTION                                                                                                         |
 |--------|------|---------------------------------------------------------------------------------------------------------------------|
-| 0x000  | 8    | Samples [Reference](#Reference "wikilink") (Offset relative to [Data Block](#data_block "wikilink") Data field)     |
-| 0x008  | 8    | ADPCM Info [Reference](#Reference "wikilink") (Offset relative to Samples [Reference](#reference "wikilink") field) |
+| 0x000  | 8    | Samples [Reference](#reference "wikilink") (Offset relative to [Data Block](#data_block "wikilink") Data field)     |
+| 0x008  | 8    | ADPCM Info [Reference](#reference "wikilink") (Offset relative to Samples [Reference](#reference "wikilink") field) |
 | 0x010  | 4    | Reserved                                                                                                            |
 
 ##### DSP ADPCM Info

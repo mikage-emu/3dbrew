@@ -8,7 +8,7 @@ title = 'APT:GetStartupArgument'
 |------------|----------------------------------------------------------------------------------|
 | 0          | Header code \[0x00510080\]                                                       |
 | 1          | Parameter Size (capped to 0x300 or 0x1000 depending on different system version) |
-| 2          | [StartupArgumentType](NS_and_APT_Services#StartupArgumentType "wikilink")        |
+| 2          | [StartupArgumentType](NS_and_APT_Services#startupargumenttype "wikilink")        |
 
 The following is located 0x100-bytes after the beginning of the above
 command buffer:

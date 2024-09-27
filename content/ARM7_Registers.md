@@ -46,7 +46,7 @@ This region is an arm7 bootrom overlay, over the vector table at address
 vector will be jumped to, beginning execution. `TwlProcess9` uses this
 to put ARM7 in a loop (TWL), and to set the `POSTFLG` and branch to more
 copied code (GBA). Execution is started by writing `0x8001` to
-[LGY_MODE](PDN_Registers#LGY_MODE "wikilink") after setting the mode via
+[LGY_MODE](PDN_Registers#lgy_mode "wikilink") after setting the mode via
 `ARM7_CNT`. Later, this overlay is disabled by the ARM7 via the
 "biosprot" register (0x04000308).
 
@@ -59,7 +59,7 @@ This tells the save storage emulation hardware which device type to
 emulate (64k EEPROM, a 512k Flash chip model, and SRAM are all that have
 been used officially; several other 512k Flash chip models, two 1 Mbit
 Flash chip models and 4k EEPROM are also supported). This comes directly
-from the [ROM footer](3DS_Virtual_Console#Footer "wikilink").
+from the [ROM footer](3DS_Virtual_Console#footer "wikilink").
 
 ### ARM7_SAVE_MEMORY_CNT
 
@@ -150,7 +150,7 @@ from from rom footer + `0x1C`.
 ## Memory map
 
 The virtual memory mapping for the ARM7 is the same as for the [other
-core](Memory_layout#TWL_FIRM_Userland_Memory "wikilink"). However, it
+core](Memory_layout#twl_firm_userland_memory "wikilink"). However, it
 has additional internal memory mapped to it. Interestingly enough, much
 of this memory seems to lie within ARM9's own internal memory.
 

@@ -18,7 +18,7 @@ built-in modules (fs, sm, pm, pxi, ldr) have access to all services.
 This value is obtained from [svcGetSystemInfo](SVC "wikilink"). Other
 processes are limited to access services listed in their [service access
 control
-list](NCCH/Extended_Header#ARM11_Local_System_Capabilities "wikilink"),
+list](NCCH/Extended_Header#arm11_local_system_capabilities "wikilink"),
 as passed to [SRVPM:RegisterProcess](SRVPM:RegisterProcess "wikilink").
 
 Attempting to use [GetServiceHandle](SRV:GetServiceHandle "wikilink")
@@ -88,7 +88,7 @@ Manager](Process_Manager_Services "wikilink").
 | 0x109       | CFG          | GSP                                                                                         | CFG block 0x00050001 has been modified, change LCD brightness/PWM settings                                                             |
 | 0x10B       | CFG          | CAMERA                                                                                      | ?                                                                                                                                      |
 | 0x10C       | PM           |                                                                                             | A Regular application has started.                                                                                                     |
-| 0x110-0x11F | PM           | NS                                                                                          | Sent on application exit. See [PM launch flags](PMApp:LaunchTitle#Launch_Flags "wikilink").                                            |
+| 0x110-0x11F | PM           | NS                                                                                          | Sent on application exit. See [PM launch flags](PMApp:LaunchTitle#launch_flags "wikilink").                                            |
 | 0x179       | PM           | PTM, NS                                                                                     | All processes other than PTM and NS have terminated.                                                                                   |
 | 0x200       |              | NS                                                                                          | Signaled just before sleep mode is exited from.                                                                                        |
 | 0x202       | MCU          | NS                                                                                          | POWER button pressed                                                                                                                   |

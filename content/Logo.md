@@ -3,7 +3,7 @@ title = 'Logo'
 +++
 
 This page describes the format of the file stored in
-[CXI](NCCH#CXI "wikilink") ExeFS:/logo.
+[CXI](NCCH#cxi "wikilink") ExeFS:/logo.
 
 The Logo contains distribution licensing Binary data. (Types: Nintendo,
 Licensed, Published, or Distributed) Additionally it could have no

@@ -14,4 +14,4 @@ title = 'CAMU:GetSleepCamera'
 |------------|---------------------------------------------------------|
 | 0          | Header code                                             |
 | 1          | Result code                                             |
-| 2          | [CameraSelect](Camera_Services#CameraSelect "wikilink") |
+| 2          | [CameraSelect](Camera_Services#cameraselect "wikilink") |

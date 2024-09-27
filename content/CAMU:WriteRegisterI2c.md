@@ -7,7 +7,7 @@ title = 'CAMU:WriteRegisterI2c'
 | Index Word | Description                                             |
 |------------|---------------------------------------------------------|
 | 0          | Header code \[0x002D00C0\]                              |
-| 1          | [CameraSelect](Camera_Services#CameraSelect "wikilink") |
+| 1          | [CameraSelect](Camera_Services#cameraselect "wikilink") |
 | 2          | u16, Register Address                                   |
 | 3          | u16, Data                                               |
 

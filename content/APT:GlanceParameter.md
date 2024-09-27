@@ -7,7 +7,7 @@ title = 'APT:GlanceParameter'
 | Index Word | Description                                    |
 |------------|------------------------------------------------|
 | 0          | Header code \[0x000E0080\]                     |
-| 1          | [AppID](NS_and_APT_Services#AppIDs "wikilink") |
+| 1          | [AppID](NS_and_APT_Services#appids "wikilink") |
 | 2          | Parameter Size (max is 0x1000)                 |
 
 The following is located 0x100-bytes after the beginning of the above
@@ -25,8 +25,8 @@ buffer in the response:
 |------------|-----------------------------------------------------------------|
 | 0          | Header code \[0x000E0104\]                                      |
 | 1          | Result code                                                     |
-| 2          | Sender [AppID](NS_and_APT_Services#AppIDs "wikilink")           |
-| 3          | [Command](NS_and_APT_Services#Command "wikilink")               |
+| 2          | Sender [AppID](NS_and_APT_Services#appids "wikilink")           |
+| 3          | [Command](NS_and_APT_Services#command "wikilink")               |
 | 4          | Actual Parameter Size                                           |
 | 5          | 0x0                                                             |
 | 6          | Handle Parameter                                                |

@@ -8,7 +8,7 @@ title = 'AM:GetImportContentContextList'
 |------------|--------------------------------------------------------|
 | 0          | Header code \[0x00100102\]                             |
 | 1          | Import Content Context Count                           |
-| 2          | [Media Type](Filesystem_services#MediaType "wikilink") |
+| 2          | [Media Type](Filesystem_services#mediatype "wikilink") |
 | 3-4        | u64, Title ID                                          |
 | 5          | ((Import Content Context Count \* 2) \<\< 4) \| 0xC    |
 | 6          | Import Content Context Indices Output Pointer          |

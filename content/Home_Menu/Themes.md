@@ -36,7 +36,7 @@ MetaDataContentHeader.bin format:
 | 0x16..0x2E      | 0x2  | Primary language for region? (0x0 for JPN, 0x1 for US and EU)                             |
 | 0x30            | 0x4  | Number of ContentInfoArchive languages                                                    |
 | 0x34+i          | 0x2  | ContentInfoArchive [region](Nandrw/sys/SecureInfo_A "wikilink")                           |
-| 0x36+i          | 0x2  | ContentInfoArchive [language](Config_Savegame#Languages "wikilink")                       |
+| 0x36+i          | 0x2  | ContentInfoArchive [language](Config_Savegame#languages "wikilink")                       |
 
 ContentInfoArchive header format, size 0x08:
 

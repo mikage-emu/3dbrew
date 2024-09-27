@@ -55,7 +55,7 @@ Besides mem-region related fields, the data written here by the old
 | 3D_SLIDERSTATE                                                                                                                                                                                              | 0x1FF81080              | 4     |
 | 3D_LEDSTATE                                                                                                                                                                                                 | 0x1FF81084              | 1     |
 | BATTERY_LEDSTATE                                                                                                                                                                                            | 0x1FF81085              | 1     |
-| PTM sets bit0 to 1 when it has done writing MCU-originating hw info to [RUNNING_HW](#RUNNING_HW "wikilink"), [MCU_HW_INFO](#mcu_hw_info "wikilink"). There are no other bits.                               | 0x1FF81086              | 1     |
+| PTM sets bit0 to 1 when it has done writing MCU-originating hw info to [RUNNING_HW](#running_hw "wikilink"), [MCU_HW_INFO](#mcu_hw_info "wikilink"). There are no other bits.                               | 0x1FF81086              | 1     |
 | MENUTID                                                                                                                                                                                                     | 0x1FF810A0              | 8     |
 | ACTIVEMENUTID                                                                                                                                                                                               | 0x1FF810A8              | 8     |
 | Signed? Headsets connected?                                                                                                                                                                                 | 0x1FF810C0              | 1     |
@@ -83,7 +83,7 @@ This is the version-revision for the currently running
 This is the version-minor from ((title-version & 0x3FF) \>\> 4), for the
 currently running [FIRM](FIRM "wikilink"). The values from
 KERNEL_VERSIONMINOR and KERNEL_VERSIONMAJOR can be stored in
-applications' [CXI](NCCH#CXI "wikilink") exheader.
+applications' [CXI](NCCH#cxi "wikilink") exheader.
 
 ## FIRM_VERSIONMINOR
 
@@ -110,7 +110,7 @@ non-factory FIRM it will set this flag to 1, when bit0 from the data
 which field 0x1FF80016 is loaded from is clear, if the following
 [PAD](PAD "wikilink") buttons are pressed: L, R, A, Up. When this flag
 is set, [NS](NS "wikilink") will launch the [System
-Updater](System_Settings#System_Updater "wikilink") title instead of
+Updater](System_Settings#system_updater "wikilink") title instead of
 [Home Menu](Home_Menu "wikilink").
 
 ## NSTID
@@ -127,7 +127,7 @@ the NS TID from [here](Factory_Setup "wikilink").
 ## SYSCOREVER
 
 This field is initialized by the ARM11 kernel, this is the programID-low
-of the running FIRM. When launching [CXIs](NCCH#CXI "wikilink"), the
+of the running FIRM. When launching [CXIs](NCCH#cxi "wikilink"), the
 value stored here must match the core version field stored in the CXI
 exheader. If they do not match, the
 [PM](Process_Manager_Services "wikilink") module will refuse to launch
@@ -174,7 +174,7 @@ bit0 is clear.
 | 3     | Firm     |
 
 The ARM11 loads the value of
-[CFG_UNITINFO](CONFIG_Registers#CFG_UNITINFO "wikilink") from
+[CFG_UNITINFO](CONFIG_Registers#cfg_unitinfo "wikilink") from
 0x1FFFFFF0+1 during startup, which is written by the ARM9 during
 ARM9\<\>ARM11 kernel sync.
 
@@ -299,4 +299,4 @@ This contains the titleID of the currently running menu launched by
 
 # NATIVE_FIRM Versions
 
-See [FIRM](FIRM#NATIVE_FIRM "wikilink").
+See [FIRM](FIRM#native_firm "wikilink").

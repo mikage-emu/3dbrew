@@ -7,7 +7,7 @@ title = 'FSReg:LoadProgram'
 | Index Word | Description                                                |
 |------------|------------------------------------------------------------|
 | 0          | Header code \[0x04040100\]                                 |
-| 1-4        | [Program Info](Filesystem_services#ProgramInfo "wikilink") |
+| 1-4        | [Program Info](Filesystem_services#programinfo "wikilink") |
 
 # Response
 

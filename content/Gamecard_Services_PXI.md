@@ -42,8 +42,8 @@ title = 'Gamecard Services PXI'
 
 | Bits | Description                                                       |
 |------|-------------------------------------------------------------------|
-| 0-5  | [CardSpiBaudRate](Filesystem_services#CardSpiBaudRate "wikilink") |
-| 6-7  | [CardSpiBusMode](Filesystem_services#CardSpiBusMode "wikilink")   |
+| 0-5  | [CardSpiBaudRate](Filesystem_services#cardspibaudrate "wikilink") |
+| 6-7  | [CardSpiBusMode](Filesystem_services#cardspibusmode "wikilink")   |
 
 ### WaitOperation
 

@@ -21,6 +21,6 @@ title = 'PMApp:GetFIRMLaunchParams'
 # Description
 
 The size is clamped to 0x1000-bytes, then the
-[mapped](SVC#KernelSetState "wikilink") buffer for
+[mapped](SVC#kernelsetstate "wikilink") buffer for
 [FIRM](FIRM "wikilink") launch parameters is copied to the output
 buffer.

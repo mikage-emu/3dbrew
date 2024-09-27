@@ -9,7 +9,7 @@ title = 'APT:SendCaptureBufferInfo'
 | 0          | Header code \[0x00400042\]                                                    |
 | 1          | Size                                                                          |
 | 2          | (Size \<\< 14) \| 2                                                           |
-| 3          | void\*, [CaptureBufferInfo](NS_and_APT_Services#CaptureBufferInfo "wikilink") |
+| 3          | void\*, [CaptureBufferInfo](NS_and_APT_Services#capturebufferinfo "wikilink") |
 
 # Response
 

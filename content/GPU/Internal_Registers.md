@@ -2122,7 +2122,7 @@ This register enables the early depth test.
 
 This register configures the framebuffer block mode. To untile the color
 buffer when using the 32x32 block format, use bit 16 of the [display
-transfer flags](GPU/External_Registers#Transfer_Engine "wikilink"). It
+transfer flags](GPU/External_Registers#transfer_engine "wikilink"). It
 is unknown if there are any advantages to using the 32x32 format.
 
 Render block mode values:

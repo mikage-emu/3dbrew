@@ -2,7 +2,7 @@
 title = 'System Update CFA'
 +++
 
-This system update [CFA](NCCH#CFA "wikilink") contains the below files
+This system update [CFA](NCCH#cfa "wikilink") contains the below files
 in the RomFS. This CFA is stored in the [NCSD](NCSD "wikilink")
 system-update partition(partition 7), the data from this CFA RomFS can
 also be transferred for [Download Play](Download_Play "wikilink") when

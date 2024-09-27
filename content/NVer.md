@@ -2,7 +2,7 @@
 title = 'NVer'
 +++
 
-This [CFA](NCCH#CFA "wikilink") contains the below file in the RomFS.
+This [CFA](NCCH#cfa "wikilink") contains the below file in the RomFS.
 
 ### version.bin
 

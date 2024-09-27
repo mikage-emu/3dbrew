@@ -7,9 +7,9 @@ title = 'NIMS:StartDownload'
 | Index Word | Description                                                                                                   |
 |------------|---------------------------------------------------------------------------------------------------------------|
 | 0          | Header code \[0x00420240\]                                                                                    |
-| 1-6        | [Title Download Config](NIM_Services#TitleDownloadConfig "wikilink")                                          |
+| 1-6        | [Title Download Config](NIM_Services#titledownloadconfig "wikilink")                                          |
 | 7-8        | Unknown, not written by the system [eShop](eShop "wikilink") application service command code \*at\* \*all\*. |
-| 9          | [Installation Mode](NIM_Services#InstallationMode "wikilink")                                                 |
+| 9          | [Installation Mode](NIM_Services#installationmode "wikilink")                                                 |
 
 # Response
 

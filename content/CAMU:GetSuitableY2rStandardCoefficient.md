@@ -14,4 +14,4 @@ title = 'CAMU:GetSuitableY2rStandardCoefficient'
 |------------|-----------------------------------------------------------------------|
 | 0          | Header code                                                           |
 | 1          | Result code                                                           |
-| 2          | [StandardCoefficient](Camera_Services#StandardCoefficient "wikilink") |
+| 2          | [StandardCoefficient](Camera_Services#standardcoefficient "wikilink") |

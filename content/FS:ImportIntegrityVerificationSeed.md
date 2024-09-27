@@ -8,7 +8,7 @@ title = 'FS:ImportIntegrityVerificationSeed'
 |------------|-------------------------------------------------------------------------------------------------------|
 | 0          | Header code \[0x084B0002\]                                                                            |
 | 1          | (0x130 \<\< 4) \| 0xA                                                                                 |
-| 2          | Input [Integrity Verification Seed](Filesystem_services#IntegrityVerificationSeed "wikilink") Pointer |
+| 2          | Input [Integrity Verification Seed](Filesystem_services#integrityverificationseed "wikilink") Pointer |
 
 # Response
 

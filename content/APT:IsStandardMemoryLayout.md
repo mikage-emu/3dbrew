@@ -19,7 +19,7 @@ title = 'APT:IsStandardMemoryLayout'
 # Description
 
 On Old3DS, this returns 1 if the current
-[APPMEMTYPE](Configuration_Memory#APPMEMTYPE "wikilink") is 0, for 64MB
+[APPMEMTYPE](Configuration_Memory#appmemtype "wikilink") is 0, for 64MB
 mode. On New3DS, this returns 1 if the current
-[APPMEMTYPE](Configuration_Memory#APPMEMTYPE "wikilink") isn't 7, for
+[APPMEMTYPE](Configuration_Memory#appmemtype "wikilink") isn't 7, for
 178MB mode.

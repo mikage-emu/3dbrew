@@ -99,10 +99,10 @@ to.
 | 5     | CTRCARD1                                                                         |
 | 6     | SDIO1                                                                            |
 | 7     | SDIO3                                                                            |
-| 8     | AES in ([WRFIFO](AES_Registers#AES_WRFIFO.2FAES_RDFIFO "wikilink"))              |
-| 9     | AES out ([RDFIFO](AES_Registers#AES_WRFIFO.2FAES_RDFIFO "wikilink"))             |
-| 10    | SHA in ([INFIFO](SHA_Registers#SHA_FIFO "wikilink"))                             |
-| 11    | SHA out ([INFIFO](SHA_Registers#SHA_FIFO "wikilink"), source data readback mode) |
+| 8     | AES in ([WRFIFO](AES_Registers#aes_wrfifoaes_rdfifo "wikilink"))              |
+| 9     | AES out ([RDFIFO](AES_Registers#aes_wrfifoaes_rdfifo "wikilink"))             |
+| 10    | SHA in ([INFIFO](SHA_Registers#sha_fifo "wikilink"))                             |
+| 11    | SHA out ([INFIFO](SHA_Registers#sha_fifo "wikilink"), source data readback mode) |
 | 12    | NTRCARD                                                                          |
 | 13    | ?                                                                                |
 | 14    | ?                                                                                |

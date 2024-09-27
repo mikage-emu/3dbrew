@@ -7,8 +7,8 @@ title = 'APT:Initialize'
 | Index Word | Description                                             |
 |------------|---------------------------------------------------------|
 | 0          | Header code \[0x00020080\]                              |
-| 1          | [AppID](NS_and_APT_Services#AppIDs "wikilink")          |
-| 2          | [AppletAttr](NS_and_APT_Services#AppletAttr "wikilink") |
+| 1          | [AppID](NS_and_APT_Services#appids "wikilink")          |
+| 2          | [AppletAttr](NS_and_APT_Services#appletattr "wikilink") |
 
 # Response
 
@@ -22,12 +22,12 @@ title = 'APT:Initialize'
 
 # Description
 
-The [AppletAttr](NS_and_APT_Services#AppletAttr "wikilink")
-[AppletPos](NS_and_APT_Services#AppletPos "wikilink") must not be larger
+The [AppletAttr](NS_and_APT_Services#appletattr "wikilink")
+[AppletPos](NS_and_APT_Services#appletpos "wikilink") must not be larger
 than 6, otherwise NS calls [svcBreak](SVC "wikilink").
-[AppletAttr](NS_and_APT_Services#AppletAttr "wikilink") bitmask
+[AppletAttr](NS_and_APT_Services#appletattr "wikilink") bitmask
 0x20000000 must not be set when the
-[AppletAttr](NS_and_APT_Services#AppletAttr "wikilink")
-[AppletPos](NS_and_APT_Services#AppletPos "wikilink") == POS_SYS and
+[AppletAttr](NS_and_APT_Services#appletattr "wikilink")
+[AppletPos](NS_and_APT_Services#appletpos "wikilink") == POS_SYS and
 using this command via <APT:U>, otherwise NS calls
 [svcBreak](SVC "wikilink").

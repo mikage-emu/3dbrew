@@ -45,7 +45,7 @@ Application NCCH, and only works when embedded in the
 retail [CCI](CCI "wikilink") files instead of the application NCCH).
 There are CFA files which exist alone in a title, but these are just
 [System Data Archive](Title_list "wikilink") titles and are found only
-in the [NAND](Flash_Filesystem#CTR_partition "wikilink").
+in the [NAND](Flash_Filesystem#ctr_partition "wikilink").
 
 CFA files are structured in the following order:
 
@@ -97,12 +97,12 @@ The keyX and keyY for each group are set as follows:
 - The "content" group uses the secondary key. The slot selection for
   keyX depends on ncchflag\[3\], as listed in the table below.
 
-| ncchflag\[3\] | FW Introduced                  | Old3DS | [AES Keyslots](AES#Keyslot "wikilink") | Notes                                                                                                                                                                                                                                                                               |
+| ncchflag\[3\] | FW Introduced                  | Old3DS | [AES Keyslots](AES#keyslot "wikilink") | Notes                                                                                                                                                                                                                                                                               |
 |---------------|--------------------------------|--------|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0x00          | The initial version            | Yes    | 0x2C                                   | This keyslot is initialized by bootrom. This is the same key as the primary key.                                                                                                                                                                                                    |
 | 0x01          | [7.0.0-X](7.0.0-13 "wikilink") | Yes    | 0x25                                   | This keyslot is [initialized](Savegames "wikilink") by the 6.0 gamecard savegame keyY init function during boot, using a different portion of the [final](Savegames "wikilink") hash (this keyslot is separate from the one used for the 6.0 save crypto).                          |
-| 0x0A          | [9.3.0-X](9.3.0-21 "wikilink") | No     | 0x18                                   | This keyslot is initialized by [arm9loader](FIRM#New_3DS_FIRM "wikilink") on New3DS starting with [8.1.0-0_New3DS](8.1.0-0_New3DS "wikilink"), but only [9.3.0-X](9.3.0-21 "wikilink") and later know how to use it with ncchflag\[3\].                                             |
-| 0x0B          | [9.6.0-X](9.6.0-24 "wikilink") | No     | 0x1B                                   | [9.6.0-X](9.6.0-24 "wikilink")'s [arm9loader](FIRM#New_3DS_FIRM "wikilink") changed the contents of keyslots 0x19-0x1F; 9.6.0-X was the first time they were officially used, so this is not a breaking change (there is no content that would use the old versions of those keys). |
+| 0x0A          | [9.3.0-X](9.3.0-21 "wikilink") | No     | 0x18                                   | This keyslot is initialized by [arm9loader](FIRM#new_3ds_firm "wikilink") on New3DS starting with [8.1.0-0_New3DS](8.1.0-0_New3DS "wikilink"), but only [9.3.0-X](9.3.0-21 "wikilink") and later know how to use it with ncchflag\[3\].                                             |
+| 0x0B          | [9.6.0-X](9.6.0-24 "wikilink") | No     | 0x1B                                   | [9.6.0-X](9.6.0-24 "wikilink")'s [arm9loader](FIRM#new_3ds_firm "wikilink") changed the contents of keyslots 0x19-0x1F; 9.6.0-X was the first time they were officially used, so this is not a breaking change (there is no content that would use the old versions of those keys). |
 
 Besides all rules above, if ncchflag\[7\] bitmask 0x1 is set, and a
 fixed AES key instead is used for both groups. There are two fixed keys,
@@ -150,7 +150,7 @@ beginning = ExeFS CTR + (region offset / AESBlockSize=16)
 
 Currently, only [ExeFS](ExeFS "wikilink"):/.code can be compressed (with
 a LZ77 variant). A flag in the
-[exheader](NCCH/Extended_Header#System_Info "wikilink") determines if
+[exheader](NCCH/Extended_Header#system_info "wikilink") determines if
 this is the case.
 
 On retail for SD applications, exheader_systeminfoflags.flag bit1 must
@@ -160,7 +160,7 @@ Retail CFAs use the default NCCH product code "CTR-P-CTAP", while retail
 title/gamecard CXIs use NCCH product code "CTR-X-XXXX". This product
 code is the NCCH [serial code](Serials "wikilink"). The region-locking
 info checked by home menu is stored in the
-[icon](SMDH#BNR_Region "wikilink").
+[icon](SMDH#bnr_region "wikilink").
 
 All of the hashes stored in this NCCH header are over the cleartext
 data. The ExeFS/RomFS superblock starts at offset 0x0 in the

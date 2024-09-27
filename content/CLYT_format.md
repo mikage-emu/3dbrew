@@ -427,7 +427,7 @@ individually.
 
 **pic1** represents a picture that can be displayed in a layout. The
 first 0x4C bytes are defined the same as
-[pan1](CLYT_format#pan1_(Pane_1) "wikilink") with minor differences.
+[pan1](CLYT_format#pan1_(pane_1) "wikilink") with minor differences.
 
 | Offset                        | Size | Type    | Description                                      |
 |-------------------------------|------|---------|--------------------------------------------------|
@@ -449,7 +449,7 @@ first 0x4C bytes are defined the same as
 ## txt1 (Text 1)
 
 A textbox used in layouts. The first 0x4C bytes are defined the same as
-[pan1](CLYT_format#pan1_(Pane_1) "wikilink") with minor differences.
+[pan1](CLYT_format#pan1_(pane_1) "wikilink") with minor differences.
 
 | Offset                        | Size         | Type    | Description                                       |
 |-------------------------------|--------------|---------|---------------------------------------------------|

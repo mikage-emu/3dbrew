@@ -25,5 +25,5 @@ This is used by [Home Menu](Home_Menu "wikilink") during TWL
 title-launch to pass a HMAC-SHA1 of the banner (size varies based on the
 banner version, etc.) to TWL_FIRM using the TWL and NTR SRL HMAC keys.
 This is presumably used for comparing against the HMAC stored in the
-[whitelist](Title_list#TWL_System_Titles "wikilink") for titles without
+[whitelist](Title_list#twl_system_titles "wikilink") for titles without
 RSA.

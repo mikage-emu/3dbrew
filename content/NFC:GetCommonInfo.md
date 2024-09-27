@@ -14,7 +14,7 @@ title = 'NFC:GetCommonInfo'
 |------------|--------------------------------------------------|
 | 0          | Header code                                      |
 | 1          | Result code                                      |
-| 2-17       | [CommonInfo](NFC_Services#CommonInfo "wikilink") |
+| 2-17       | [CommonInfo](NFC_Services#commoninfo "wikilink") |
 
 # Description
 

@@ -24,4 +24,4 @@ This command generates random bytes and stores them in the specified
 output pointer with the specified size.
 
 Used in FS11 to generate the 8-byte unique identifier in
-[DIFF](DISA_and_DIFF#DIFF_header "wikilink") headers.
+[DIFF](DISA_and_DIFF#diff_header "wikilink") headers.

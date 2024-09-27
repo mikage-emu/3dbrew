@@ -14,4 +14,4 @@ title = 'Y2R:GetInputFormat'
 |------------|-------------------------------------------------------|
 | 0          | Header code                                           |
 | 1          | Result code                                           |
-| 2          | [InputFormat](Camera_Services#InputFormat "wikilink") |
+| 2          | [InputFormat](Camera_Services#inputformat "wikilink") |

@@ -9,7 +9,7 @@ title = 'GPIO:BindInterrupt'
 | 0          | Header code \[0x00090082\]                                                               |
 | 1          | u32, interrupt bitmask                                                                   |
 | 2          | s32, priority                                                                            |
-| 3          | Must be value [0x00000000](IPC#Message_Structure "wikilink"), otherwise error 0xD9001830 |
+| 3          | Must be value [0x00000000](IPC#message_structure "wikilink"), otherwise error 0xD9001830 |
 | 4          | Handle syncObject                                                                        |
 
 # Response
@@ -22,7 +22,7 @@ title = 'GPIO:BindInterrupt'
 # Description
 
 This binds an interrupt in gpio-module's [interrupt
-ACL](NCCH/Extended_Header#ARM11_Kernel_Capabilities "wikilink") to the
+ACL](NCCH/Extended_Header#arm11_kernel_capabilities "wikilink") to the
 specified syncObject (using [svcBindInterrupt](SVC "wikilink")).
 
 # Supported values
@@ -58,5 +58,5 @@ See also [ARM11 Interrupts](ARM11_Interrupts "wikilink").
 | [mcu](MCU_Services "wikilink")     | 0x8000                     |
 
 See
-[GPIO:BindInterrupt#Supported_values](GPIO:BindInterrupt#Supported_values "wikilink")
+[GPIO:BindInterrupt#Supported_values](GPIO:BindInterrupt#supported_values "wikilink")
 for the bitmask \<-\> IRQ number correspondence table.

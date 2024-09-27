@@ -30,8 +30,8 @@ data of the main account.
 | 0x20   | (16 + 1) \* 2 | NEX Password                                                        |
 | 0x42   | (8 + 1) \* 2  | PrincipalID HMAC (Used for logging into NASC server)                |
 | 0x54   | 1             | NASC Environment (0: Prod, 1: Test, 2: Dev)                         |
-| 0x55   | 1             | [Server type](Friend_Services#Server_Types "wikilink") letter value |
-| 0x56   | 1             | [Server type](Friend_Services#Server_Types "wikilink") number value |
+| 0x55   | 1             | [Server type](Friend_Services#server_types "wikilink") letter value |
+| 0x56   | 1             | [Server type](Friend_Services#server_types "wikilink") number value |
 | 0x57   | 1             | Padding                                                             |
 
 ## mydata
@@ -150,7 +150,7 @@ digit</td>
 <tr class="odd">
 <td>0xBB</td>
 <td>0x60</td>
-<td>Unaligned <a href="../Mii#Mii_format" title="wikilink">Mii
+<td>Unaligned <a href="../Mii#mii_format" title="wikilink">Mii
 data</a></td>
 </tr>
 <tr class="even">
@@ -170,7 +170,7 @@ data</a></td>
 | 0x00   | 4          | File magic "FPFL" (Friends Preference Friend List)        |
 | 0x04   | 4          | File magic number (0x20101021)                            |
 | 0x08   | 8          | Padding                                                   |
-| 0x10   | ? \* 0x100 | [Friend entries](FRD_Savegame#Friend_entry "wikilink")... |
+| 0x10   | ? \* 0x100 | [Friend entries](FRD_Savegame#friend_entry "wikilink")... |
 
 ### Friend entry
 
@@ -255,7 +255,7 @@ href="https://github.com/kinnay/NintendoClients/wiki/NEX-Common-Types#datetime">
 <tr class="even">
 <td>0x70</td>
 <td>0x60</td>
-<td><a href="../Mii#Mii_format" title="wikilink">Mii data</a></td>
+<td><a href="../Mii#mii_format" title="wikilink">Mii data</a></td>
 </tr>
 <tr class="odd">
 <td>0xD0</td>

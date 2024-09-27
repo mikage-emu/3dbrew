@@ -14,4 +14,4 @@ title = 'CAMU:GetImageQualityCalibrationData'
 |------------|---------------------------------------------------------------------------------------|
 | 0          | Header code                                                                           |
 | 1          | Result code                                                                           |
-| 2-7        | [ImageQualityCalibrationData](Camera_Services#ImageQualityCalibrationData "wikilink") |
+| 2-7        | [ImageQualityCalibrationData](Camera_Services#imagequalitycalibrationdata "wikilink") |

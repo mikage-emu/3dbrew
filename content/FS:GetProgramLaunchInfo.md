@@ -15,11 +15,11 @@ title = 'FS:GetProgramLaunchInfo'
 |------------|------------------------------------------------------------|
 | 0          | Header code                                                |
 | 1          | Result code                                                |
-| 2-5        | [Program Info](Filesystem_services#ProgramInfo "wikilink") |
+| 2-5        | [Program Info](Filesystem_services#programinfo "wikilink") |
 
 # Description
 
 This returns the [Program
-Info](Filesystem_services#ProgramInfo "wikilink") for the specified
+Info](Filesystem_services#programinfo "wikilink") for the specified
 process, which was registered via
 [fs:REG](Filesystem_services "wikilink").

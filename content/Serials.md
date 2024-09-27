@@ -144,7 +144,7 @@ ID\]
 | N               | Digital-only releases, including [system applications and applets](Title_list "wikilink").       |
 | M               | [DLC](DLC "wikilink")                                                                            |
 | T               | [eShop Demos](eShop_Demos "wikilink"), excluding so-called "special demos" which are category N. |
-| U               | [Patches](Title_list#0004000E_-_Add-on_Content_(Updates) "wikilink") for category P titles.      |
+| U               | [Patches](Title_list#0004000e---add-on-content-(updates) "wikilink") for category P titles.      |
 
 The "sub ID" only applies to DLC, demos, and local copies of Download
 Play titles. It's a 2-digit number associated with the [Title ID
@@ -211,7 +211,7 @@ ID\]\[Region\]-\[Label Region\]
 
 ### Electronic Manuals
 
-Some eShop titles have [Electronic Manuals](NCCH#CFA "wikilink") which
+Some eShop titles have [Electronic Manuals](NCCH#cfa "wikilink") which
 store the product code at the end of the 'Health & Safety' section of
 the manual. However, product codes can differ from the above format as
 shown below:
@@ -228,7 +228,7 @@ CTR-\[Type\]\[Game ID\]\[Region\]-\[Region\]-\[Digit\]
   Possibly revision or manual revision.
 
 **Note:** These alternate versions of the product code, potentially
-found in [Electronic Manuals](NCCH#CFA "wikilink") don't represent the
+found in [Electronic Manuals](NCCH#cfa "wikilink") don't represent the
 actual product code, as found in the game's CXI. They are only found in
 the game's Home Menu manual, and on the game's packaging and external
 labeling.

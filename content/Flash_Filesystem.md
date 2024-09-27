@@ -89,7 +89,7 @@ None of the NAND partitions are normally accessible from the ARM11,
 except for twlp. CTR/TWL NAND FS can only be accessed when the exheader
 access control descriptor for those are enabled. Normally the CTR/TWL
 NAND descriptors are never enabled for retail ARM11
-[CXI](NCCH#CXI "wikilink") processes. The ARM11 can only access
+[CXI](NCCH#cxi "wikilink") processes. The ARM11 can only access
 "nand:/rw/" mounted as the nandrw [archive](FS:OpenArchive "wikilink"),
 and "nand:/ro/" mounted as the nandro archive below.
 

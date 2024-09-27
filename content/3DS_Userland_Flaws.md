@@ -193,7 +193,7 @@ Exploited by Zoogie</td>
 </tr>
 <tr class="odd">
 <td>The Legend of Zelda: Tri Force Heroes</td>
-<td><a href="../3DS_System_Flaws#General.2FCTRSDK"
+<td><a href="../3DS_System_Flaws#generalctrsdk"
 title="wikilink">CTRSDK</a> CTPK buffer overflow combined with game's
 usage of SpotPass</td>
 <td>During the very first screen displayed by the game during
@@ -645,7 +645,7 @@ occurring.</td>
 </tr>
 <tr class="odd">
 <td>3DS SAFE_MODE <a
-href="../System_Settings#System_Updater">System
+href="../System_Settings#system_updater">System
 Updater</a> stack smash from proxy-url string</td>
 <td>During <a href="../Recovery_Mode" title="wikilink">Recovery Mode</a>
 and after all 3 wifi slots fail to find an access point for sysupdate, a

@@ -1,3 +1,7 @@
++++
+title = 'NFC:GetCommonInfo'
++++
+
 # Request
 
 | Index Word | Description                                                              |

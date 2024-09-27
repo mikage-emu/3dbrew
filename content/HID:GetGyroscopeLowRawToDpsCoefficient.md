@@ -1,3 +1,7 @@
++++
+title = 'HID:GetGyroscopeLowRawToDpsCoefficient'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:GetPersonalizedTicketInfoList'
++++
+
 # Request
 
 | Index Word | Description                                                                       |

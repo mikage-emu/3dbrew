@@ -1,3 +1,7 @@
++++
+title = 'NAND游戏存档格式'
++++
+
 本页介绍 [Cfg](Config_Services "wikilink")
 [NAND](System_SaveData "wikilink")
 [游戏存档](游戏存档 "wikilink")的格式.这些块可以通过CFG服务命令来访问。

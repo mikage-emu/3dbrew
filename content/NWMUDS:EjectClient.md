@@ -1,3 +1,7 @@
++++
+title = 'NWMUDS:EjectClient'
++++
+
 # Request
 
 | Index Word | Description                                                                   |

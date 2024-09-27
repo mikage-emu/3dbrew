@@ -1,3 +1,7 @@
++++
+title = 'APT:NotifyToWait'
++++
+
 # Request
 
 | Index Word | Description                                    |

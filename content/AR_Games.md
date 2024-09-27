@@ -1,3 +1,8 @@
++++
+title = 'AR Games'
+categories = ["Nintendo Software","Playcoin Software"]
++++
+
 AR Games is one of the stock applications on retail units.
 
 It is a series of games that is based on using the AR cards that are

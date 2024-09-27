@@ -1,3 +1,7 @@
++++
+title = 'DSP:FlushDataCache'
++++
+
 # Request
 
 | Index Word | Description                            |

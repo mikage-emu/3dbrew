@@ -1,3 +1,7 @@
++++
+title = 'Homebrew Libraries and Tools'
++++
+
 This is a list of libraries and tools that can be used to develop 3DS
 Homebrew.
 

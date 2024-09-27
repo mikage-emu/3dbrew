@@ -1,3 +1,8 @@
++++
+title = 'KTLBOperationsInterruptEvent'
+categories = ["Kernel interrupt events"]
++++
+
 class
 [KTLBOperationsInterruptEvent](KTLBOperationsInterruptEvent "wikilink")
 extends [KBaseInterruptEvent](KBaseInterruptEvent "wikilink")

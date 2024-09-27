@@ -1,3 +1,7 @@
++++
+title = 'CfgNor:ReadIdentification'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

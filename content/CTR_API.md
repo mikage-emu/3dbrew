@@ -1,3 +1,7 @@
++++
+title = 'CTR API'
++++
+
 This page lists the spare knowledge people bothered to document on the
 official CTR API.
 

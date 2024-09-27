@@ -1,3 +1,7 @@
++++
+title = 'AM:GetProgramList'
++++
+
 # Request
 
 | Index Word | Description                                            |

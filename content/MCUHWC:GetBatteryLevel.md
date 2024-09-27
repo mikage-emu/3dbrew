@@ -1,3 +1,7 @@
++++
+title = 'MCUHWC:GetBatteryLevel'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

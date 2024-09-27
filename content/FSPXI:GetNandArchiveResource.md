@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:GetNandArchiveResource'
++++
+
 # Request
 
 | Index Word | Description                |

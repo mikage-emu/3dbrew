@@ -1,3 +1,7 @@
++++
+title = 'SOCU:gethostid'
++++
+
 # Request
 
 | Index Word | Description                |

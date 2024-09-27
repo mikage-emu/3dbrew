@@ -1,3 +1,7 @@
++++
+title = 'CAMU:GetActivatedCamera'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'FS:CardSlotPowerOff'
++++
+
 # Request
 
 | Index Word | Description                |

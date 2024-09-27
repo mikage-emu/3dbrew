@@ -1,3 +1,7 @@
++++
+title = 'Swapnote'
++++
+
 Swapnote, aka Nintendo Letter Box in EUR, is an eShop application which
 allows you to send notes to friends via SpotPass/StreetPass.
 

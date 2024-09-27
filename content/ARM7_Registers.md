@@ -1,3 +1,7 @@
++++
+title = 'ARM7 Registers'
++++
+
 The 3DS utilizes an onboard ARM7 core to handle `TWL_FIRM` and
 `AGB_FIRM`'s ARM7 requirements. This is due to the fact that much of the
 hardware used by both ARM7 and ARM9 is (evidently) not physically hooked

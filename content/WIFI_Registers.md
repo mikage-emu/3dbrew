@@ -1,3 +1,7 @@
++++
+title = 'WIFI Registers'
++++
+
 These registers are used to control the WiFi card via the SDIO protocol.
 
 # Registers

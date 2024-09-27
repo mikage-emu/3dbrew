@@ -1,3 +1,7 @@
++++
+title = 'Help:Contents'
++++
+
 This page deals with a several of questions you may counter.
 
 ## Editing page

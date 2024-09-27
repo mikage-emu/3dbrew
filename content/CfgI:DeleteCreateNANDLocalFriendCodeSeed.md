@@ -1,3 +1,7 @@
++++
+title = 'CfgI:DeleteCreateNANDLocalFriendCodeSeed'
++++
+
 # Request
 
 | Index Word | Description                |

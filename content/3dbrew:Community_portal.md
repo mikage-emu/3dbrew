@@ -1,3 +1,7 @@
++++
+title = '3dbrew:Community Portal'
++++
+
 ## Theme
 
 How about we change the default theme to 'Vector' to match the Wii and

@@ -1,3 +1,7 @@
++++
+title = 'NEWSS:SetNewsDBHeader'
++++
+
 # Request
 
 | Index Word | Description                |

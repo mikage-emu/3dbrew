@@ -1,3 +1,7 @@
++++
+title = 'ACU:GetWifiStatus'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'NWMUDS:GetApplicationData'
++++
+
 # Request
 
 | Index Word | Description                |

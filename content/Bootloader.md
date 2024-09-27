@@ -1,3 +1,7 @@
++++
+title = 'Bootloader'
++++
+
 The bootloader is the binary code stored in the ARM9 and ARM11 boot ROMs
 and hence is ran when the 3DS is powered on. Its purpose is initializing
 hardware and loading the [system firmware](FIRM "wikilink") from the

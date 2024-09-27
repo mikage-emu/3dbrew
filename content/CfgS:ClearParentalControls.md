@@ -1,3 +1,7 @@
++++
+title = 'CfgS:ClearParentalControls'
++++
+
 # Request
 
 | Index Word | Description                |

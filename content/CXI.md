@@ -1,3 +1,8 @@
++++
+title = 'CXI'
+categories = ["File formats"]
++++
+
 1.  REDIRECT [NCCH#CXI](NCCH#CXI "wikilink")
 
 The following text tries to document the structure of the CTR Executable

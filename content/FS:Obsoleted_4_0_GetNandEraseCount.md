@@ -1,3 +1,7 @@
++++
+title = 'FS:Obsoleted 4 0 GetNandEraseCount'
++++
+
 # Request
 
 | Index Word | Description                |

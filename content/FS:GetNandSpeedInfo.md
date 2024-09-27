@@ -1,3 +1,7 @@
++++
+title = 'FS:GetNandSpeedInfo'
++++
+
 # Request
 
 | Index Word | Description                |

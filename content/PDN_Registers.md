@@ -1,3 +1,7 @@
++++
+title = 'PDN Registers'
++++
+
 # Register table
 
 | Old3DS | Name                                                         | Address    | Width | Used by                                                                                 |

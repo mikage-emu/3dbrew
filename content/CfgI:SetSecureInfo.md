@@ -1,3 +1,7 @@
++++
+title = 'CfgI:SetSecureInfo'
++++
+
 # Request
 
 | Index Word | Description                                                                                                                                                 |

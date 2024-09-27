@@ -1,3 +1,7 @@
++++
+title = 'SOCU:getaddrinfo'
++++
+
 ` int socu_getaddrinfo(const char *node, const char *service, const struct addrinfo *hints, struct addrinfo **res, addrinfo_3ds_t *info, s32 info_count, s32 * count)`
 
 This function will store each result entry in the form of the following

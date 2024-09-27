@@ -1,3 +1,7 @@
++++
+title = 'APT:GetPreparationState'
++++
+
 # Request
 
 | Index Word | Description                |

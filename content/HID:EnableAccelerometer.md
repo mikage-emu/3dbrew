@@ -1,3 +1,7 @@
++++
+title = 'HID:EnableAccelerometer'
++++
+
 # Request
 
 | Index Word | Description                |

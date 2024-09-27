@@ -1,3 +1,8 @@
++++
+title = 'NCCH'
+categories = ["File formats"]
++++
+
 The following text tries to document the structure of the NCCH (Nintendo
 Content Container Header) container format. This format is used to store
 the content of any installed [title](Titles "wikilink").

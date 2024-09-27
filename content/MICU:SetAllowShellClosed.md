@@ -1,3 +1,7 @@
++++
+title = 'MICU:SetAllowShellClosed'
++++
+
 # Request
 
 | Index Word | Description                                                              |

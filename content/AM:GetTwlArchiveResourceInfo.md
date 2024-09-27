@@ -1,3 +1,7 @@
++++
+title = 'AM:GetTwlArchiveResourceInfo'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'Extdata'
++++
+
 This page describes the format and encryption of extdata, "extra data"
 stored on SD card and NAND, at:
 

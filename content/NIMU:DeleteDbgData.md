@@ -1,3 +1,7 @@
++++
+title = 'NIMU:DeleteDbgData'
++++
+
 # Request
 
 | Index Word | Description                |

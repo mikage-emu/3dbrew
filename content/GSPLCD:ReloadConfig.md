@@ -1,3 +1,7 @@
++++
+title = 'GSPLCD:ReloadConfig'
++++
+
 # Request
 
 | Index Word | Description                        |

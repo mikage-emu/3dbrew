@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:DeleteAllTwlUserPrograms'
++++
+
 # Request
 
 | Index Word | Description                |

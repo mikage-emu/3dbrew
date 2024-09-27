@@ -1,3 +1,7 @@
++++
+title = 'NIMU:IsSystemUpdateAvailable'
++++
+
 # Request
 
 | Index Word | Description                |

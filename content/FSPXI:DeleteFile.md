@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:DeleteFile'
++++
+
 # Request
 
 | Index Word | Description                |

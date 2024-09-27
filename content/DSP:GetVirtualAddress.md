@@ -1,3 +1,7 @@
++++
+title = 'DSP:GetVirtualAddress'
++++
+
 # Request
 
 | Index Word | Description                |

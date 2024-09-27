@@ -1,3 +1,7 @@
++++
+title = 'IRQ Registers'
++++
+
 # Registers
 
 | Old3DS | Name                         | Address    | Width | Used by        |

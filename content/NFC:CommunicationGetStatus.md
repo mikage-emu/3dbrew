@@ -1,3 +1,7 @@
++++
+title = 'NFC:CommunicationGetStatus'
++++
+
 # Request
 
 | Index Word | Description                                       |

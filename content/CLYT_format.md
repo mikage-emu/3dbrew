@@ -1,3 +1,8 @@
++++
+title = 'CLYT Format'
+categories = ["File formats"]
++++
+
 **CLYT** (.bclyt) is the layout format used on the 3DS. It stands for
 (**B**inary) **C**TR **L**a**y**ou**t**, and is similar to the RLYT
 format used on the Wii.

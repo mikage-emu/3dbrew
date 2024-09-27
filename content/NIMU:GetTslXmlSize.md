@@ -1,3 +1,7 @@
++++
+title = 'NIMU:GetTslXmlSize'
++++
+
 # Request
 
 | Index Word | Description                |

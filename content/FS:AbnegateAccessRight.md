@@ -1,3 +1,7 @@
++++
+title = 'FS:AbnegateAccessRight'
++++
+
 # Request
 
 | Index Word | Description                      |

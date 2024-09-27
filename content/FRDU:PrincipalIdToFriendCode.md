@@ -1,3 +1,7 @@
++++
+title = 'FRDU:PrincipalIdToFriendCode'
++++
+
 # Request
 
 | Index Word | Description                |

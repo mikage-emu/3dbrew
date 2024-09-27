@@ -1,3 +1,7 @@
++++
+title = 'PTM:GetBatteryChargeState'
++++
+
 # Request
 
 | Index Word | Description                |

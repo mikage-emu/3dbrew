@@ -1,3 +1,7 @@
++++
+title = 'APT:GetTargetPlatform'
++++
+
 # Request
 
 | Index Word | Description                |

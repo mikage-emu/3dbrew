@@ -1,3 +1,7 @@
++++
+title = 'ACI:GetNetworkSetting Crc'
++++
+
 # Request
 
 | Index Word | Description                |

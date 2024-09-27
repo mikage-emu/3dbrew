@@ -1,3 +1,7 @@
++++
+title = 'FS:Obsoleted 4 0 GetNandInfo'
++++
+
 # Request
 
 | Index Word | Description                |

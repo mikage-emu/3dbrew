@@ -1,3 +1,7 @@
++++
+title = 'Nintendo Service Center Tools'
++++
+
 3×Nintendo restore/check tools. this is used in Nintendo customer
 center.
 

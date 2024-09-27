@@ -1,3 +1,7 @@
++++
+title = 'Y2R:SetOutputFormat'
++++
+
 # Request
 
 | Index Word | Description                                               |

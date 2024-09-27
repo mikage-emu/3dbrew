@@ -1,3 +1,7 @@
++++
+title = 'PXIDEV:WriteCTRCARD Cmd44'
++++
+
 # Request
 
 | Index Word | Description                                                   |

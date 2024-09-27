@@ -1,3 +1,7 @@
++++
+title = 'DSP:GetPipeReadableSize'
++++
+
 # Request
 
 | Index Word | Description                |

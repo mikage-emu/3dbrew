@@ -1,3 +1,7 @@
++++
+title = 'I2C Registers'
++++
+
 # Registers
 
 | Old3DS | Name                            | Address    | Width | Used by           |

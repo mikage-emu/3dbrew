@@ -1,3 +1,7 @@
++++
+title = 'APT:GlanceParameter'
++++
+
 # Request
 
 | Index Word | Description                                    |

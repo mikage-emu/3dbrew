@@ -1,3 +1,7 @@
++++
+title = 'HTTPC:AddPostDataAscii'
++++
+
 # Request
 
 | Index Word | Description                                        |

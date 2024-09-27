@@ -1,3 +1,7 @@
++++
+title = 'CAMU:SynchronizeVsyncTiming'
++++
+
 # Request
 
 | Index Word | Description                                               |

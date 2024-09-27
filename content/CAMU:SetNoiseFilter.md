@@ -1,3 +1,7 @@
++++
+title = 'CAMU:SetNoiseFilter'
++++
+
 # Request
 
 | Index Word | Description                                             |

@@ -1,3 +1,7 @@
++++
+title = 'APT:GetApplicationRunningMode'
++++
+
 # Request
 
 | Index Word | Description                |

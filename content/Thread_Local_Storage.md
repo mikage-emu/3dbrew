@@ -1,3 +1,7 @@
++++
+title = 'Thread Local Storage'
++++
+
 Each thread is given a 0x200-byte thread-local-storage block by the
 kernel. It is used during [IPC
 communications](IPC_Command_Structure "wikilink"). Each

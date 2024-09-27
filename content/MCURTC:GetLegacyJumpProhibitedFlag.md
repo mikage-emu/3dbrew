@@ -1,3 +1,7 @@
++++
+title = 'MCURTC:GetLegacyJumpProhibitedFlag'
++++
+
 # Request
 
 | Index Word | Description                |

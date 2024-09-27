@@ -1,3 +1,7 @@
++++
+title = 'CSND:AcquireSoundChannels'
++++
+
 # Request
 
 | Index Word | Description                |

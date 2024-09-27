@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:DeleteAllTemporaryPrograms'
++++
+
 # Request
 
 | Index Word | Description                |

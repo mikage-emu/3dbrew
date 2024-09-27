@@ -1,3 +1,8 @@
++++
+title = 'KMutex'
+categories = ["Kernel synchronization objects"]
++++
+
 class [KMutex](KMutex "wikilink") extends
 [KSynchronizationObject](KSynchronizationObject "wikilink");
 

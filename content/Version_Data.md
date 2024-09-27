@@ -1,3 +1,7 @@
++++
+title = 'Version Data'
++++
+
 The TWL Version Data is exactly the same as the DSi 1.4.2
 [verdata](http://dsibrew.org/wiki/Version_Data), except:
 

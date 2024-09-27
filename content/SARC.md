@@ -1,3 +1,8 @@
++++
+title = 'SARC'
+categories = ["File formats"]
++++
+
 # SARC File Format
 
 .sarc files are similar to the [ARC](ARC "wikilink") format with a

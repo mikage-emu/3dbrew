@@ -1,3 +1,7 @@
++++
+title = 'CAMU:WriteMcuVariableI2c'
++++
+
 # Request
 
 | Index Word | Description                                             |

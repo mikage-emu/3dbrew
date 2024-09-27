@@ -1,3 +1,7 @@
++++
+title = 'AM:InitializeTitleDatabase'
++++
+
 # Request
 
 | Index Word | Description                                            |

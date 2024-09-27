@@ -1,3 +1,7 @@
++++
+title = 'FirmwareNews'
++++
+
 As of this writing, the latest firmware is
 **[11.17.0-50](11.17.0-50 "wikilink")**.
 

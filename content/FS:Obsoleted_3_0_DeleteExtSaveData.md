@@ -1,3 +1,7 @@
++++
+title = 'FS:Obsoleted 3 0 DeleteExtSaveData'
++++
+
 # Request
 
 | Index Word | Description                                            |

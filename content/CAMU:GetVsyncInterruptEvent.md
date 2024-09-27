@@ -1,3 +1,7 @@
++++
+title = 'CAMU:GetVsyncInterruptEvent'
++++
+
 # Request
 
 | Index Word | Description                             |

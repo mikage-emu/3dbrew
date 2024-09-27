@@ -1,3 +1,7 @@
++++
+title = 'Fundraiser'
++++
+
 There has been alot of tinkering with the 3DS since launch, and although
 there have been leaps and bounds due to the combined efforts of many
 contributors, much of what we're doing would be expedited by extracting

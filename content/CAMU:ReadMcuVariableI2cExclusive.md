@@ -1,3 +1,7 @@
++++
+title = 'CAMU:ReadMcuVariableI2cExclusive'
++++
+
 # Request
 
 | Index Word | Description                                             |

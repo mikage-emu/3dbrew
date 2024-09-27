@@ -1,3 +1,7 @@
++++
+title = 'BOSSU:ReceiveProperty'
++++
+
 # Request
 
 | Index Word | Description                                 |

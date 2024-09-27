@@ -1,3 +1,7 @@
++++
+title = 'PSPXI:GetDeviceId'
++++
+
 # Request
 
 | Index Word | Description                |

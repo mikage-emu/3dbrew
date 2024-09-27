@@ -1,3 +1,7 @@
++++
+title = 'AMNet:DeleteAllDemoLaunchInfos'
++++
+
 # Request
 
 | Index Word | Description                |

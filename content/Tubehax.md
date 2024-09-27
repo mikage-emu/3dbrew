@@ -1,3 +1,7 @@
++++
+title = 'Tubehax'
++++
+
 Tubehax is an exploit in the 3DS's YouTube application that allows
 people to load 3DS homebrews. This works on firmware versions 9.0.0-X up
 to 10.1.0-27. **Note: This exploit no longer works due to a forced

@@ -1,3 +1,7 @@
++++
+title = 'PTM:GetPlayHistory'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

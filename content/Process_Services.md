@@ -1,3 +1,8 @@
++++
+title = 'Process Services'
+categories = ["Services"]
++++
+
 # PS service "ps:ps"
 
 | Command Header  | Available since system version                               | Description                                                                                      |

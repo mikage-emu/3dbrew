@@ -1,3 +1,7 @@
++++
+title = 'HTTPC:BeginRequest'
++++
+
 # Request
 
 | Index Word | Description                |

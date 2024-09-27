@@ -1,3 +1,7 @@
++++
+title = 'Anti Time Travel'
++++
+
 Many commercial games, such as Tomodachi Life, all Pokèmon games, etc
 are capable of **telling whether the clock was adjusted** while they
 weren't running, **even for realistic progress of time** (new setting in

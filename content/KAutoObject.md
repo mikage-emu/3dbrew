@@ -1,3 +1,8 @@
++++
+title = 'KAutoObject'
+categories = ["Kernel auto objects"]
++++
+
 KAutoObject represents a reference counted object that destroys itself
 when there are no more references to it.
 

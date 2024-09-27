@@ -1,3 +1,7 @@
++++
+title = 'HTTPC:GetRequestError'
++++
+
 # Request
 
 | Index Word | Description                |

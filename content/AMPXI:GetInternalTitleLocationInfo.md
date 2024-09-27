@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:GetInternalTitleLocationInfo'
++++
+
 # Request
 
 | Index Word | Description                                            |

@@ -1,3 +1,7 @@
++++
+title = 'Friend List'
++++
+
 Friend list is a system applet used to register and view friends. When
 two 3ds units have registered each other as friends, in the list is
 showed the following information

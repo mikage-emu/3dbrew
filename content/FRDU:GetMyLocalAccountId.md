@@ -1,3 +1,7 @@
++++
+title = 'FRDU:GetMyLocalAccountId'
++++
+
 # Request
 
 | Index Word | Description                |

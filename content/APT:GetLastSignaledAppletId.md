@@ -1,3 +1,7 @@
++++
+title = 'APT:GetLastSignaledAppletId'
++++
+
 # Request
 
 | Index Word | Description                |

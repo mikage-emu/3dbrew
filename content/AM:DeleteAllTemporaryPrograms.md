@@ -1,3 +1,7 @@
++++
+title = 'AM:DeleteAllTemporaryPrograms'
++++
+
 # Request
 
 | Index Word | Description                |

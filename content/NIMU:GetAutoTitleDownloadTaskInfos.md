@@ -1,3 +1,7 @@
++++
+title = 'NIMU:GetAutoTitleDownloadTaskInfos'
++++
+
 # Request
 
 | Index Word | Description                                                                                       |

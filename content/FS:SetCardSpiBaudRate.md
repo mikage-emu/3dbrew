@@ -1,3 +1,7 @@
++++
+title = 'FS:SetCardSpiBaudRate'
++++
+
 # Request
 
 | Index Word | Description                                                 |

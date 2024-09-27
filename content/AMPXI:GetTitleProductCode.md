@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:GetTitleProductCode'
++++
+
 # Request
 
 | Index Word | Description                                           |

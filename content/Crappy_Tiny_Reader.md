@@ -1,3 +1,7 @@
++++
+title = 'Crappy Tiny Reader'
++++
+
 Crappy Tiny Reader is a small Windows application for checking the basic
 header information of NDS/DSi/3DS dumps.
 

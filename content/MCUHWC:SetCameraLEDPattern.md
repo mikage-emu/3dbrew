@@ -1,3 +1,7 @@
++++
+title = 'MCUHWC:SetCameraLEDPattern'
++++
+
 # Request
 
 | Index Word | Description                                                                                                   |

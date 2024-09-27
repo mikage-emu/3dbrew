@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:GetNumExistingContentInfos'
++++
+
 # Request
 
 | Index Word | Description                                            |

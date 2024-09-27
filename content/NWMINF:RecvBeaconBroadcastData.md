@@ -1,3 +1,7 @@
++++
+title = 'NWMINF:RecvBeaconBroadcastData'
++++
+
 # Request
 
 | Index Word | Description                                                  |

@@ -1,3 +1,7 @@
++++
+title = 'AMNet:BeginImportContent'
++++
+
 # Request
 
 | Index Word | Description                |

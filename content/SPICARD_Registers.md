@@ -1,3 +1,7 @@
++++
+title = 'SPICARD Registers'
++++
+
 # Registers
 
 | Old3DS | Name                                       | Address    | Width | RW  | Used by |

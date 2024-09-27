@@ -1,3 +1,7 @@
++++
+title = 'FIRM'
++++
+
 This page describes the file format for the [3DS'
 Firmware](Title_list#00040138_-_System_Firmware "wikilink"), it contains
 up to four 'sections' of data comprising the ARM9 and ARM11 kernels, and

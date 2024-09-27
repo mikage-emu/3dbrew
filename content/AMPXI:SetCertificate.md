@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:SetCertificate'
++++
+
 # Request
 
 | Index Word | Description                     |

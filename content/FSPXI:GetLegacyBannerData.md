@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:GetLegacyBannerData'
++++
+
 # Request
 
 | Index Word | Description                          |

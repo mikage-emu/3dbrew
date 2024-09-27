@@ -1,3 +1,8 @@
++++
+title = 'Ticket'
+categories = ["File formats"]
++++
+
 Tickets are a format used to store an encrypted titlekey (using 128-Bit
 AES-CBC). With 3DS, the Ticket format was updated (now v1) from Wii/DSi
 format (v0).

@@ -1,3 +1,7 @@
++++
+title = 'SRV:ReceiveNotification'
++++
+
 # Request
 
 | Index Word | Description                |

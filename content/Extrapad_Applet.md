@@ -1,3 +1,7 @@
++++
+title = 'Extrapad Applet'
++++
+
 This is the library applet used for calibrating the [Circle Pad
 Pro](Circle_Pad_Pro "wikilink").
 

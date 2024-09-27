@@ -1,3 +1,7 @@
++++
+title = 'SSLC:StartConnectionGetOut'
++++
+
 # Request
 
 | Index Word | Description                                    |

@@ -1,3 +1,7 @@
++++
+title = 'Nintendo Software'
++++
+
 # System Titles
 
 **See also: [Title list](Title_list "wikilink")**

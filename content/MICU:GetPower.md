@@ -1,3 +1,7 @@
++++
+title = 'MICU:GetPower'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'FS:GetSdmcLog'
++++
+
 # Request
 
 | Index Word | Description                  |

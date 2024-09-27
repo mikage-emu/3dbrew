@@ -1,3 +1,7 @@
++++
+title = 'FS:SetCardSpiBusMode'
++++
+
 # Request
 
 | Index Word | Description                                               |

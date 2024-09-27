@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:IsSdmcDetected'
++++
+
 # Request
 
 | Index Word | Description                |

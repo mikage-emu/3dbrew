@@ -1,3 +1,7 @@
++++
+title = 'BOSSU:SendProperty'
++++
+
 # Request
 
 | Index Word | Description                                |

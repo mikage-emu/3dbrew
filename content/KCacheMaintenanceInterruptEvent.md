@@ -1,3 +1,8 @@
++++
+title = 'KCacheMaintenanceInterruptEvent'
+categories = ["Kernel interrupt events"]
++++
+
 class
 [KCacheMaintenanceInterruptEvent](KCacheMaintenanceInterruptEvent "wikilink")
 extends [KBaseInterruptEvent](KBaseInterruptEvent "wikilink")

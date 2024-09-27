@@ -1,3 +1,7 @@
++++
+title = 'Mii Selector'
++++
+
 This is the library applet used to select a [Mii](Mii "wikilink").
 Internally it is called *appletEd*.
 

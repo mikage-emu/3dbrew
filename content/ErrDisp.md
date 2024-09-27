@@ -1,3 +1,7 @@
++++
+title = 'ErrDisp'
++++
+
 This system process handles displaying the error screens, such as "an
 error has occurred, the system needs shutdown". This can also display a
 register dump for exceptions, and info for fatal errors. (Normally the

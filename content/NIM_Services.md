@@ -1,3 +1,8 @@
++++
+title = 'NIM Services'
+categories = ["Services"]
++++
+
 __TOC__
 
 # NIM updater service "nim:u"

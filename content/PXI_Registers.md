@@ -1,3 +1,7 @@
++++
+title = 'PXI Registers'
++++
+
 # Registers
 
 | Old3DS | Name                               | Address    | Width | Used by         |

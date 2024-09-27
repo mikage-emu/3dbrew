@@ -1,3 +1,7 @@
++++
+title = 'MCURTC:GetSoftwareClosedFlag'
++++
+
 # Request
 
 | Index Word | Description                |

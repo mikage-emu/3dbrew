@@ -1,3 +1,7 @@
++++
+title = 'NFC:CommunicationGetResult'
++++
+
 # Request
 
 | Index Word | Description                                       |

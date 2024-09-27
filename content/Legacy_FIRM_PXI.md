@@ -1,3 +1,7 @@
++++
+title = 'Legacy FIRM PXI'
++++
+
 This page describes the PXI commands for TWL_FIRM/AGB_FIRM.
 
 | Command Header          | Available since system version | Description                                                                                                                                                                                                                                                                                                        |

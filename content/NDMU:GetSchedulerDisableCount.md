@@ -1,3 +1,7 @@
++++
+title = 'NDMU:GetSchedulerDisableCount'
++++
+
 # Request
 
 | Index Word | Description                |

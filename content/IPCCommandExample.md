@@ -1,3 +1,7 @@
++++
+title = 'IPCCommandExample'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

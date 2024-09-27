@@ -1,3 +1,7 @@
++++
+title = 'Miiverse'
++++
+
 This is the Miiverse system-applet which can be launched via Home Menu /
 etc(process-name is "olv").
 

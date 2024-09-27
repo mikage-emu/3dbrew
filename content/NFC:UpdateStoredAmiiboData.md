@@ -1,3 +1,7 @@
++++
+title = 'NFC:UpdateStoredAmiiboData'
++++
+
 # Request
 
 | Index Word | Description                                       |

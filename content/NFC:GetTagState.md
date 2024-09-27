@@ -1,3 +1,7 @@
++++
+title = 'NFC:GetTagState'
++++
+
 # Request
 
 | Index Word | Description                                       |

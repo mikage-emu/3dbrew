@@ -1,3 +1,7 @@
++++
+title = 'File:CustomNotification.jpg'
++++
+
 I've got images and text sending working with notifications.
 
 p.s.-

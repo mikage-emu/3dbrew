@@ -1,3 +1,7 @@
++++
+title = 'BOSS:GetTaskProperty0'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

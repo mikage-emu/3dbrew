@@ -1,3 +1,8 @@
++++
+title = 'KCoreContext'
+categories = ["Kernel objects"]
++++
+
 Size: 0x9000 bytes (effective size: 0x6000 bytes)
 
 There's one instance of this structure per core. The instance for the

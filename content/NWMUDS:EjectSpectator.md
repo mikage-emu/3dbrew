@@ -1,3 +1,7 @@
++++
+title = 'NWMUDS:EjectSpectator'
++++
+
 # Request
 
 | Index Word | Description                |

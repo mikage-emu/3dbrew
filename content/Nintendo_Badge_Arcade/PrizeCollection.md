@@ -1,3 +1,7 @@
++++
+title = 'PrizeCollection'
++++
+
 ## Overview
 
 A **PrizeCollection** SARC file has the following folder structure:

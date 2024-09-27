@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:CardNorDirectWrite'
++++
+
 # Request
 
 | Index Word | Description                |

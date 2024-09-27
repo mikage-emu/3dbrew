@@ -1,3 +1,7 @@
++++
+title = 'DLPSRVR:InitializeWithName'
++++
+
 # Request
 
 | Index Word | Description                        |

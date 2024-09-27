@@ -1,3 +1,7 @@
++++
+title = 'Block List'
++++
+
 You can add infomation you want to block,spam or unrelated page.
 
 ## Lying Infomation Sites

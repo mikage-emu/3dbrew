@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:DeleteDirectory'
++++
+
 # Request
 
 | Index Word | Description                |

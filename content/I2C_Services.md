@@ -1,3 +1,8 @@
++++
+title = 'I2C Services'
+categories = ["Services"]
++++
+
 # I2C Service Names
 
 | Service names | Notes                                        | Accessible [deviceIDs](I2C_Registers "wikilink") | Service used by sysmodule             |

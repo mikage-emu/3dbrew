@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:GetNandSpeedInfo'
++++
+
 # Request
 
 | Index Word | Description                |

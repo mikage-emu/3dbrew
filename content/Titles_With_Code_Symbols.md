@@ -1,3 +1,7 @@
++++
+title = 'Titles With Code Symbols'
++++
+
 This page lists titles containing any kind of useful symbol information.
 
 | Title name                                                       | Notes                                                                                                                                                                                            |

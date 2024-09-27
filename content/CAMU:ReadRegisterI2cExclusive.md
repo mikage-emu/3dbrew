@@ -1,3 +1,7 @@
++++
+title = 'CAMU:ReadRegisterI2cExclusive'
++++
+
 # Request
 
 | Index Word | Description                                             |

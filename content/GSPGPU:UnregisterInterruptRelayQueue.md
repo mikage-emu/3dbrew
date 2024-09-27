@@ -1,3 +1,7 @@
++++
+title = 'GSPGPU:UnregisterInterruptRelayQueue'
++++
+
 # Request
 
 | Index Word | Description                |

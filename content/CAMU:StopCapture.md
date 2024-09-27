@@ -1,3 +1,7 @@
++++
+title = 'CAMU:StopCapture'
++++
+
 # Request
 
 | Index Word | Description                             |

@@ -1,3 +1,7 @@
++++
+title = 'News Services'
++++
+
 This system module handles the system notifications.
 
 The maximum number of notifications that can be stored/handled is 100,

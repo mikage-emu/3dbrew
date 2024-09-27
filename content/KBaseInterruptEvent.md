@@ -1,3 +1,8 @@
++++
+title = 'KBaseInterruptEvent'
+categories = ["Kernel interrupt events"]
++++
+
 Abstract base class for all interrupt events.
 
 Size: 0x4 bytes

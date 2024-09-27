@@ -1,3 +1,7 @@
++++
+title = 'FRDU:GetMyFriendKey'
++++
+
 # Request
 
 | Index Word | Description                |

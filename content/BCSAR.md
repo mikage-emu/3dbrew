@@ -1,3 +1,8 @@
++++
+title = 'BCSAR'
+categories = ["File formats"]
++++
+
 The BCSAR (Binary CTR Sound ARchive) format is the 3DS's equivalent of
 the Wii's BRSAR format. They're not the same structures, though, but
 they do have the same purpose.

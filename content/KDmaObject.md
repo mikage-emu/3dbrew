@@ -1,3 +1,8 @@
++++
+title = 'KDmaObject'
+categories = ["Kernel synchronization objects"]
++++
+
 class [KDmaObject](KDmaObject "wikilink") extends
 [KSynchronizationObject](KSynchronizationObject "wikilink");
 

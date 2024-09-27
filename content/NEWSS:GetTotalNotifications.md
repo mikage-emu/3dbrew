@@ -1,3 +1,7 @@
++++
+title = 'NEWSS:GetTotalNotifications'
++++
+
 # Request
 
 | Index Word | Description                |

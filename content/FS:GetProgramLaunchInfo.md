@@ -1,3 +1,7 @@
++++
+title = 'FS:GetProgramLaunchInfo'
++++
+
 # Request
 
 | Index Word | Description                |

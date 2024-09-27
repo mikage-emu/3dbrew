@@ -1,3 +1,8 @@
++++
+title = '3DS Development Unit Software'
+categories = ["3DS Development Unit Related Pages"]
++++
+
 The following is a description of the functions what is possible with
 the applications unique to 3DS Development Units.
 

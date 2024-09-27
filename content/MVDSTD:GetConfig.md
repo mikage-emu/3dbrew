@@ -1,3 +1,7 @@
++++
+title = 'MVDSTD:GetConfig'
++++
+
 # Request
 
 | Index Word | Description                                       |

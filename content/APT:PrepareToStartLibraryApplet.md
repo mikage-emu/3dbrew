@@ -1,3 +1,7 @@
++++
+title = 'APT:PrepareToStartLibraryApplet'
++++
+
 # Request
 
 | Index Word | Description                                    |

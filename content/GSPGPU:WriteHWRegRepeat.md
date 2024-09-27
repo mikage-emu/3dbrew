@@ -1,3 +1,7 @@
++++
+title = 'GSPGPU:WriteHWRegRepeat'
++++
+
 # Request
 
 | Index Word | Description                                                             |

@@ -1,3 +1,8 @@
++++
+title = 'Title Metadata'
+categories = ["File formats"]
++++
+
 **Title metadata** is a format used to store information about a title
 (installed title, DLC, etc.) and all its installed contents, including
 which contents they consist of and their SHA256 hashes.

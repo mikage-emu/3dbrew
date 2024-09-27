@@ -1,3 +1,7 @@
++++
+title = 'FRDU:SetClientSdkVersion'
++++
+
 # Request
 
 | Index Word | Description                         |

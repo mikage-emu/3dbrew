@@ -1,3 +1,8 @@
++++
+title = 'BCMA'
+categories = ["File formats"]
++++
+
 BCMA is the file format used for the electronic manuals on the Nintendo
 3DS. It presumably stands for **B**inary **C**TR **Ma**nual.
 

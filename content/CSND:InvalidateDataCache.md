@@ -1,3 +1,7 @@
++++
+title = 'CSND:InvalidateDataCache'
++++
+
 # Request
 
 | Index Word | Description                            |

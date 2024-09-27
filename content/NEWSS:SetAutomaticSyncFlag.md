@@ -1,3 +1,7 @@
++++
+title = 'NEWSS:SetAutomaticSyncFlag'
++++
+
 # Request
 
 | Index Word | Description                |

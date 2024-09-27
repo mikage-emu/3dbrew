@@ -1,3 +1,7 @@
++++
+title = 'Firmware Archiving Project'
++++
+
 At some point under 2015, all old system titles were removed from the
 Nintendo update server NUS.
 

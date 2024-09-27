@@ -1,3 +1,7 @@
++++
+title = 'NEWSS:SetNotificationImage'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'CAMU:ClearBuffer'
++++
+
 # Request
 
 | Index Word | Description                             |

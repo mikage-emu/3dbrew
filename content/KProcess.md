@@ -1,3 +1,8 @@
++++
+title = 'KProcess'
+categories = ["Kernel synchronization objects","Kernel interrupt events"]
++++
+
 class [KProcess](KProcess "wikilink") extends
 [KSynchronizationObject](KSynchronizationObject "wikilink") and
 [KSendableInterruptEvent](KSendableInterruptEvent "wikilink");

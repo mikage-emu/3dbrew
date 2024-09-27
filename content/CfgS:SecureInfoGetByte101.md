@@ -1,3 +1,7 @@
++++
+title = 'CfgS:SecureInfoGetByte101'
++++
+
 # Request
 
 | Index Word | Description                                                           |

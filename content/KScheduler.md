@@ -1,3 +1,8 @@
++++
+title = 'KScheduler'
+categories = ["Kernel interrupt events"]
++++
+
 class [KScheduler](KScheduler "wikilink") extends
 [KSchedulableInterruptEvent](KSchedulableInterruptEvent "wikilink");
 

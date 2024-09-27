@@ -1,3 +1,7 @@
++++
+title = 'BlargSNES'
++++
+
 blargSNES is a homebrew SNES emulator for the 3DS made by StapleButter
 of kuribo64.
 

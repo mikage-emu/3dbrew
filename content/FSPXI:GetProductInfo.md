@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:GetProductInfo'
++++
+
 # Request
 
 | Index Word | Description                |

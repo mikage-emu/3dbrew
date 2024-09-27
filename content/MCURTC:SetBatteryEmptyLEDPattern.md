@@ -1,3 +1,7 @@
++++
+title = 'MCURTC:SetBatteryEmptyLEDPattern'
++++
+
 # Request
 
 | Index Word | Description                                                                                                                                                                                                                                                                   |

@@ -1,3 +1,7 @@
++++
+title = 'APT:CancelLibraryApplet'
++++
+
 # Request
 
 | Index Word | Description                                            |

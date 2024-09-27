@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:GetFileSize'
++++
+
 # Request
 
 | Index Word | Description                |

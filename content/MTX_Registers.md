@@ -1,3 +1,7 @@
++++
+title = 'MTX Registers'
++++
+
 These registers are responsible for controlling how framebuffer data can
 be DMA'd from the DS GPU, and also for configuring the upscaling matrix.
 

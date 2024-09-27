@@ -1,3 +1,7 @@
++++
+title = 'Cfg:TranslateCountryInfo'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

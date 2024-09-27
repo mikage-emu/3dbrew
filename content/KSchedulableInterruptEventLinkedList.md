@@ -1,3 +1,8 @@
++++
+title = 'KSchedulableInterruptEventLinkedList'
+categories = ["Kernel objects"]
++++
+
 Size : 0x10 bytes
 
 There is exactly one instance of this class per core.

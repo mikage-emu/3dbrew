@@ -1,3 +1,7 @@
++++
+title = 'HTTPC:AddPostDataBinary'
++++
+
 # Request
 
 | Index Word | Description                                       |

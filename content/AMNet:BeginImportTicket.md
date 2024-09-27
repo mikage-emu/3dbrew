@@ -1,3 +1,7 @@
++++
+title = 'AMNet:BeginImportTicket'
++++
+
 # Request
 
 | Index Word | Description                |

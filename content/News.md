@@ -1,3 +1,7 @@
++++
+title = 'News'
++++
+
 <noinclude>
 
 ## Adding an item

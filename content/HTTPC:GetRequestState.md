@@ -1,3 +1,7 @@
++++
+title = 'HTTPC:GetRequestState'
++++
+
 # Request
 
 | Index Word | Description                |

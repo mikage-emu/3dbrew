@@ -1,3 +1,7 @@
++++
+title = 'GPIO:GetGPIOData'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

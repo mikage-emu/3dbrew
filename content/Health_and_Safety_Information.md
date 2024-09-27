@@ -1,3 +1,7 @@
++++
+title = 'Health and Safety Information'
++++
+
 Health and Safety Information is a built-in (stock) app that comes
 pre-installed on all 3DSs. It is intended to warn the user about some
 health risks when using the device, such as seizures. The app is split

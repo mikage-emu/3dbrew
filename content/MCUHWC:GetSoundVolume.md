@@ -1,3 +1,7 @@
++++
+title = 'MCUHWC:GetSoundVolume'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

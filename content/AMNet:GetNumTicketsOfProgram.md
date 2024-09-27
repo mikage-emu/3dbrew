@@ -1,3 +1,7 @@
++++
+title = 'AMNet:GetNumTicketsOfProgram'
++++
+
 # Request
 
 | Index Word | Description                |

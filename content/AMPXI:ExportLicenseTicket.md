@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:ExportLicenseTicket'
++++
+
 TID high value must be 0x0004000D, otherwise this will return
 0xE0E0803C.
 

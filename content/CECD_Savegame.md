@@ -1,3 +1,7 @@
++++
+title = 'CECD Savegame'
++++
+
 <span id="cec-system-save-00010026-format"></span>
 
 ## CEC System Save (00010026) Format

@@ -1,3 +1,7 @@
++++
+title = 'LOADER:GetProgramInfo'
++++
+
 # Request
 
 | Index Word | Description                |

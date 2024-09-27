@@ -1,3 +1,7 @@
++++
+title = 'GSPLCD:EnableABL'
++++
+
 # Request
 
 | Index Word | Description                            |

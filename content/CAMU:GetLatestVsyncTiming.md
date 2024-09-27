@@ -1,3 +1,7 @@
++++
+title = 'CAMU:GetLatestVsyncTiming'
++++
+
 # Request
 
 | Index Word | Description                             |

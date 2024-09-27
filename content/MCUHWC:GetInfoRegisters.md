@@ -1,3 +1,7 @@
++++
+title = 'MCUHWC:GetInfoRegisters'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

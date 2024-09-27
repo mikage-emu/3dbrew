@@ -1,3 +1,7 @@
++++
+title = 'MVD Services'
++++
+
 This is for using the MVD hardware video decoder(unknown whether MVD can
 do more than decoding) + hardware color-format converter. The
 [New_3DS](New_3DS "wikilink") [Internet

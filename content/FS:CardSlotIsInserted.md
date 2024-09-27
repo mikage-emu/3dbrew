@@ -1,3 +1,7 @@
++++
+title = 'FS:CardSlotIsInserted'
++++
+
 # Request
 
 | Index Word | Description                |

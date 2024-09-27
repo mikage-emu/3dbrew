@@ -1,3 +1,7 @@
++++
+title = 'SSLC:InitializeConnectionSession'
++++
+
 # Request
 
 | Index Word | Description                                            |

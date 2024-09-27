@@ -1,3 +1,7 @@
++++
+title = 'FS:GetNandArchiveResource'
++++
+
 # Request
 
 | Index Word | Description                |

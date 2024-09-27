@@ -1,3 +1,7 @@
++++
+title = 'AMNet:DeleteTicketId'
++++
+
 # Request
 
 | Index Word | Description                |

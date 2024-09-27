@@ -1,3 +1,7 @@
++++
+title = 'AM:GetSystemUpdaterMutex'
++++
+
 # Request
 
 | Index Word | Description               |

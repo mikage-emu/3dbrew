@@ -1,3 +1,7 @@
++++
+title = 'NIMU:StartNetworkUpdate'
++++
+
 # Request
 
 | Index Word | Description                |

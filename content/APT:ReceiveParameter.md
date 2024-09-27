@@ -1,3 +1,7 @@
++++
+title = 'APT:ReceiveParameter'
++++
+
 # Request
 
 | Index Word | Description                                    |

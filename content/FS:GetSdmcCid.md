@@ -1,3 +1,7 @@
++++
+title = 'FS:GetSdmcCid'
++++
+
 # Request
 
 | Index Word | Description                    |

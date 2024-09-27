@@ -1,3 +1,7 @@
++++
+title = 'PTM:GetTotalStepCount'
++++
+
 # Request
 
 | Index Word | Description                |

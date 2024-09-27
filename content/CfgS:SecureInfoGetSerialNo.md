@@ -1,3 +1,7 @@
++++
+title = 'CfgS:SecureInfoGetSerialNo'
++++
+
 # Request
 
 | Index Word | Description                                                                                                                        |

@@ -1,3 +1,7 @@
++++
+title = 'AM:GetSystemMenuDataFromCia'
++++
+
 # Request
 
 | Index Word | Description                        |

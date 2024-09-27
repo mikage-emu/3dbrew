@@ -1,3 +1,7 @@
++++
+title = 'Logo'
++++
+
 This page describes the format of the file stored in
 [CXI](NCCH#CXI "wikilink") ExeFS:/logo.
 

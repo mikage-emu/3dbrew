@@ -1,3 +1,7 @@
++++
+title = 'CAMU:GetBufferErrorInterruptEvent'
++++
+
 # Request
 
 | Index Word | Description                             |

@@ -1,3 +1,8 @@
++++
+title = 'Pitfalls'
+categories = ["GPU"]
++++
+
 This page collects some oddities and pitfalls of the PICA GPU which is
 used in the 3DS.
 

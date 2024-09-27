@@ -1,3 +1,7 @@
++++
+title = 'Kernel'
++++
+
 The kernel is the core of the operating system(s) running on the ARM9
 and ARM11 CPUs. Among other things, it is responsible for memory
 management, access control, and process scheduling. It furthermore

@@ -1,3 +1,7 @@
++++
+title = 'IRUSER:InitializeIrnopShared'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

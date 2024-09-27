@@ -1,3 +1,7 @@
++++
+title = 'NFC:StartTagScanning'
++++
+
 # Request
 
 | Index Word | Description                                       |

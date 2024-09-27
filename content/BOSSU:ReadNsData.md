@@ -1,3 +1,7 @@
++++
+title = 'BOSSU:ReadNsData'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'Hardware'
++++
+
 This page lists and describes the hardware found inside the Nintendo
 3DS. Many of these parts are custom made and are expanded upon here or
 in other pages.

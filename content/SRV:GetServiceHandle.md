@@ -1,3 +1,7 @@
++++
+title = 'SRV:GetServiceHandle'
++++
+
 # Request
 
 | Index Word | Description                                                                                                            |

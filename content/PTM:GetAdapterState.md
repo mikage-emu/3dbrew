@@ -1,3 +1,7 @@
++++
+title = 'PTM:GetAdapterState'
++++
+
 # Request
 
 | Index Word | Description                |

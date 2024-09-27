@@ -1,3 +1,7 @@
++++
+title = 'NIMU:GetAsyncResult'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'ACTU:GetAccountDataBlock'
++++
+
 # Request
 
 | Index Word | Description                                   |

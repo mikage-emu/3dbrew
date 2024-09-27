@@ -1,3 +1,7 @@
++++
+title = 'FS:Obsoleted 2 0 FormatCtrCardUserSaveData'
++++
+
 # Request
 
 | Index Word | Description                                      |

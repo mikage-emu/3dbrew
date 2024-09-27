@@ -1,3 +1,7 @@
++++
+title = 'FS:SetFsCompatibilityInfo'
++++
+
 # Request
 
 | Index Word | Description                                            |

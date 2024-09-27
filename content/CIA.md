@@ -1,3 +1,8 @@
++++
+title = 'CIA'
+categories = ["File formats"]
++++
+
 ## Overview
 
 CIA stands for **C**TR **I**mportable **A**rchive. This format allows

@@ -1,3 +1,7 @@
++++
+title = 'AM:ReadTwlBackupInfoEx'
++++
+
 # Request
 
 | Index Word | Description                                                                                                                   |

@@ -1,3 +1,8 @@
++++
+title = '3DS Development Unit GUI'
+categories = ["3DS Development Unit Related Pages"]
++++
+
 <img src="dev_3ds.jpg" title="dev_3ds.jpg" width="250"
 alt="dev_3ds.jpg" /> A Developer (or Test) 3DS has two GUIs which can be
 used as a primary interface. Description of homemenu interface was taken

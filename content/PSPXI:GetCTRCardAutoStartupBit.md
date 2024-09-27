@@ -1,3 +1,7 @@
++++
+title = 'PSPXI:GetCTRCardAutoStartupBit'
++++
+
 # Request
 
 | Index Word | Description                |

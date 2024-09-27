@@ -1,3 +1,7 @@
++++
+title = 'AM:GetRequiredSizeFromCia'
++++
+
 # Request
 
 | Index Word | Description                                            |

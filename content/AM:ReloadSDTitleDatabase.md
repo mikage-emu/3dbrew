@@ -1,3 +1,7 @@
++++
+title = 'AM:ReloadSDTitleDatabase'
++++
+
 # Request
 
 | Index Word | Description                |

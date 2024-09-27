@@ -1,3 +1,7 @@
++++
+title = 'APT:GetApplicationCpuTimeLimit'
++++
+
 # Request
 
 | Index Word | Description                                               |

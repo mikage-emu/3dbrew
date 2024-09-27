@@ -1,3 +1,7 @@
++++
+title = 'APT:PrepareToStartResidentApplet'
++++
+
 # Request
 
 | Index Word | Description                                    |

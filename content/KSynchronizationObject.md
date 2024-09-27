@@ -1,3 +1,8 @@
++++
+title = 'KSynchronizationObject'
+categories = ["Kernel synchronization objects"]
++++
+
 class [KSynchronizationObject](KSynchronizationObject "wikilink")
 extends [KAutoObject](KAutoObject "wikilink");
 

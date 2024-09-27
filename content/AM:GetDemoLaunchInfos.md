@@ -1,3 +1,7 @@
++++
+title = 'AM:GetDemoLaunchInfos'
++++
+
 # Request
 
 | Index Word | Description                           |

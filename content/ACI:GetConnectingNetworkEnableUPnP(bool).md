@@ -1,3 +1,7 @@
++++
+title = 'ACI:GetConnectingNetworkEnableUPnP(bool)'
++++
+
 # Request
 
 | Index Word | Description                |

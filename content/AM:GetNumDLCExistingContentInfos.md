@@ -1,3 +1,7 @@
++++
+title = 'AM:GetNumDLCExistingContentInfos'
++++
+
 TID high value must be 0x0004008C (DLC), otherwise 0xE0E0801F is
 returned.
 

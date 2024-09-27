@@ -1,3 +1,8 @@
++++
+title = 'KCodeSet'
+categories = ["Kernel auto objects"]
++++
+
 class [KCodeSet](KCodeSet "wikilink") extends
 [KAutoObject](KAutoObject "wikilink");
 

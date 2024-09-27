@@ -1,3 +1,7 @@
++++
+title = 'Savegames'
++++
+
 This page describes the format and encryption of savegames contained in
 gamecards, SD and NAND. You can find savegames from various 3DS games on
 the [Games](Games "wikilink") page.

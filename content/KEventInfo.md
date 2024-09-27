@@ -1,3 +1,8 @@
++++
+title = 'KEventInfo'
+categories = ["Kernel objects"]
++++
+
 Size : 0x38 bytes
 
 It is converted to [struct

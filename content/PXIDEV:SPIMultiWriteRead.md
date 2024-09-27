@@ -1,3 +1,7 @@
++++
+title = 'PXIDEV:SPIMultiWriteRead'
++++
+
 # Request
 
 | Index Word | Description                                                                      |

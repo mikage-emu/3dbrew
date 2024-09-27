@@ -1,3 +1,7 @@
++++
+title = 'GSPGPU:ReadHWRegs'
++++
+
 # Request
 
 | Index Word | Description                                                             |

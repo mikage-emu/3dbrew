@@ -1,3 +1,7 @@
++++
+title = 'AM:ListDLCOrLicenseTicketInfos'
++++
+
 TID high value must be either 0x0004008C (DLC) or 0x0004000D (License),
 otherwise error 0xE0E0803C is returned.
 

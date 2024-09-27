@@ -1,3 +1,7 @@
++++
+title = 'Inner FAT'
++++
+
 This page describes a common FAT-like file system used in
 [Savegames](Savegames "wikilink"), [Extdata](Extdata "wikilink") and
 [Title Database](Title_Database "wikilink"). This file system format has

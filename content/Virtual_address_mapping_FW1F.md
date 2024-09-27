@@ -1,3 +1,7 @@
++++
+title = 'Virtual Address Mapping FW1F'
++++
+
 VA0 : core 0 VA; VA1 : core 1 VA
 
 `VA E8000000..E8600000 -> PA 18000000..18600000 [SYS:RW USR:-- XN TYP:NORMAL SHARED OUTER NOCACHE, INNER CACHED WB WA]`

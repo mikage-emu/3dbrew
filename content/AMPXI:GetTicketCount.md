@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:GetTicketCount'
++++
+
 # Request
 
 | Index Word | Description                |

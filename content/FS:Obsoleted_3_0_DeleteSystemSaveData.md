@@ -1,3 +1,7 @@
++++
+title = 'FS:Obsoleted 3 0 DeleteSystemSaveData'
++++
+
 # Request
 
 | Index Word | Description                |

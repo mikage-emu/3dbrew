@@ -1,3 +1,7 @@
++++
+title = 'DSiWare Exports'
++++
+
 The DSiWare exported from a 3DS is located at
 "[sdmc](SD_Filesystem "wikilink"):/Nintendo 3DS/<ID0>/<ID1>/Nintendo
 DSiWare". Filenames are same format as

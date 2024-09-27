@@ -1,3 +1,8 @@
++++
+title = 'KInterruptEventMailbox'
+categories = [" Kernel objects"]
++++
+
 Size : 0x14 bytes
 
 There are only two instances of this class. The first mailbox contains

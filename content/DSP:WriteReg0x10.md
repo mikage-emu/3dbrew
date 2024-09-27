@@ -1,3 +1,7 @@
++++
+title = 'DSP:WriteReg0x10'
++++
+
 # Request
 
 | Index Word | Description                |

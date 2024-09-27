@@ -1,3 +1,7 @@
++++
+title = 'ACU:GetCurrentAPInfo'
++++
+
 # Request
 
 | Index Word | Description                        |

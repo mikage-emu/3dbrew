@@ -1,3 +1,7 @@
++++
+title = 'MP:Initialize'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

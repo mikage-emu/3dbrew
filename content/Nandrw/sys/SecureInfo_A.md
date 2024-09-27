@@ -1,3 +1,7 @@
++++
+title = 'SecureInfo A'
++++
+
 # SecureInfo format
 
 | Offset | Size  | Description                                                                               |

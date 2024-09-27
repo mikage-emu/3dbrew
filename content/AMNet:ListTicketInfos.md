@@ -1,3 +1,7 @@
++++
+title = 'AMNet:ListTicketInfos'
++++
+
 # Request
 
 | Index Word | Description                                                                       |

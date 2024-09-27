@@ -1,3 +1,7 @@
++++
+title = 'CDCCHK:WriteSPI'
++++
+
 # Request
 
 | Index Word | Description                                     |

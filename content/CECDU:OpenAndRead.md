@@ -1,3 +1,7 @@
++++
+title = 'CECDU:OpenAndRead'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

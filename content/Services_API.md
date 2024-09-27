@@ -1,3 +1,7 @@
++++
+title = 'Services API'
++++
+
 Nintendo provides application developers with an API, which communicate
 with certain services. Services, in this sense, are [system processes
 running in the

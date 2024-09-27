@@ -1,3 +1,7 @@
++++
+title = 'FS:OpenFileDirectly'
++++
+
 # Request
 
 | Index Word | Description                                                         |

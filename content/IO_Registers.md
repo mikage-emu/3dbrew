@@ -1,3 +1,7 @@
++++
+title = 'IO Registers'
++++
+
 # Overview
 
 | Old3DS | A9/A11 | Category                                            | Physaddr                | Used by                                                                                                                                                                                                   | Comments                                                                                                                                                                                                                                                                                                                          |

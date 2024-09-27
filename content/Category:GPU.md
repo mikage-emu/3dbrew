@@ -1,3 +1,7 @@
++++
+title = 'Category:GPU'
++++
+
 ---
 ---
 - For the ARM11-visible registers, used for framebuffer configuration,

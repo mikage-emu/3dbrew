@@ -1,3 +1,7 @@
++++
+title = 'Notifications'
++++
+
 The Notifications applet allows users to view their SpotPass and
 StreetPass notifications. The LED for notifications turns green when a
 new StreetPass notification arrives, blue when a SpotPass notification

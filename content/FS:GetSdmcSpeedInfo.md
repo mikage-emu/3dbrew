@@ -1,3 +1,7 @@
++++
+title = 'FS:GetSdmcSpeedInfo'
++++
+
 # Request
 
 | Index Word | Description                |

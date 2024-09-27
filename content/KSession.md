@@ -1,3 +1,8 @@
++++
+title = 'KSession'
+categories = ["Kernel auto objects"]
++++
+
 class [KSession](KSession "wikilink") extends
 [KAutoObject](KAutoObject "wikilink");
 

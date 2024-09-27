@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:GetItemRights'
++++
+
 # Request
 
 | Index Word | Description                                                             |

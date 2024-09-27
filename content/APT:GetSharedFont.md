@@ -1,3 +1,7 @@
++++
+title = 'APT:GetSharedFont'
++++
+
 # Request
 
 | Index Word | Description                |

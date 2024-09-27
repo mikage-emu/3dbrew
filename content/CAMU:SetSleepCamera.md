@@ -1,3 +1,7 @@
++++
+title = 'CAMU:SetSleepCamera'
++++
+
 # Request
 
 | Index Word | Description                                             |

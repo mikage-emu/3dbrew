@@ -1,3 +1,7 @@
++++
+title = 'PS:SeedRNG'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'FS:CardNorDirectReadWithAddress'
++++
+
 # Request
 
 | Index Word | Description                |

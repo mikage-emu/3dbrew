@@ -1,3 +1,7 @@
++++
+title = 'Browserhax'
++++
+
 Browserhax exploits various vulnerabilities in the system web-browsers,
 see the below repositories for details.
 

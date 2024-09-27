@@ -1,3 +1,7 @@
++++
+title = 'NIMS:CancelDownload'
++++
+
 # Request
 
 | Index Word | Description                |

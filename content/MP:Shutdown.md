@@ -1,3 +1,7 @@
++++
+title = 'MP:Shutdown'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

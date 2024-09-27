@@ -1,3 +1,7 @@
++++
+title = 'PTMSYSM:ClearSoftwareClosedFlag'
++++
+
 # Request
 
 | Index Word | Description                |

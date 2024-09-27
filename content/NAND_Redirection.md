@@ -1,3 +1,7 @@
++++
+title = 'NAND Redirection'
++++
+
 NAND redirection is an umbrella term for methods used to redirect
 [NAND](Flash_Filesystem "wikilink") reads and writes from the actual
 system storage (in this context called sysNAND) to the SD card (or

@@ -1,3 +1,8 @@
++++
+title = 'Nintendo 3DS Sound'
+categories = ["File formats","Nintendo Software"]
++++
+
 Nintendo 3DS Sound is the music playing and audio recording application
 that is included with all retail consoles.
 

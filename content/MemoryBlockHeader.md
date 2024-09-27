@@ -1,3 +1,7 @@
++++
+title = 'MemoryBlockHeader'
++++
+
 This is the header stored at the beginning of unused blocks of FCRAM
 memory. The kernel maintains these structures to keep a list of free
 blocks and their sizes.

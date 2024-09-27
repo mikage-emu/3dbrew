@@ -1,3 +1,7 @@
++++
+title = 'NFCM:GetEmptyRegisterInfo'
++++
+
 # Request
 
 | Index Word | Description                |

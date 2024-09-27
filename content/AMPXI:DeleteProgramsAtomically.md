@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:DeleteProgramsAtomically'
++++
+
 | Index Word | Description                                            |
 |------------|--------------------------------------------------------|
 | 0          | Header code \[0x00670082\]                             |

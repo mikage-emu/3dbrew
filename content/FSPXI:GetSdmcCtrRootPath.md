@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:GetSdmcCtrRootPath'
++++
+
 # Request
 
 | Index Word | Description                              |

@@ -1,3 +1,7 @@
++++
+title = 'Titles'
++++
+
 The Nintendo 3DS utilizes a similar title-based organization as seen in
 the Wii and DSi platforms. The update server is located
 [here](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/).

@@ -1,3 +1,7 @@
++++
+title = 'NWMUDS:Bind'
++++
+
 # Request
 
 | Index Word | Description                                                                                                                                                                                                                                                                                                                                                                                             |

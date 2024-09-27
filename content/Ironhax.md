@@ -1,3 +1,7 @@
++++
+title = 'Ironhax'
++++
+
 Ironhax is an exploit in the USA/EUR eShop game "IronFall: Invasion"
 that allows people to load 3DS homebrew on system versions 9.5-10.0 and
 above. "IronFall: Invasion" was removed for initial download from

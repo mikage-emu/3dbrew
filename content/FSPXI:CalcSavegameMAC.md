@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:CalcSavegameMAC'
++++
+
 # Request
 
 | Index Word | Description                                                  |

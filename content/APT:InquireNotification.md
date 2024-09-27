@@ -1,3 +1,7 @@
++++
+title = 'APT:InquireNotification'
++++
+
 # Request
 
 | Index Word | Description                                    |

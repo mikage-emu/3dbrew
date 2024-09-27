@@ -1,3 +1,7 @@
++++
+title = 'NEWSS:SyncArrivedNotifications'
++++
+
 # Request
 
 | Index Word | Description                |

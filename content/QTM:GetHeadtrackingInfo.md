@@ -1,3 +1,7 @@
++++
+title = 'QTM:GetHeadtrackingInfo'
++++
+
 # Request
 
 | Index Word | Description                |

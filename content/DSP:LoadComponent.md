@@ -1,3 +1,7 @@
++++
+title = 'DSP:LoadComponent'
++++
+
 # Request
 
 | Index Word | Description                                                                             |

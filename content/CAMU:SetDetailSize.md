@@ -1,3 +1,7 @@
++++
+title = 'CAMU:SetDetailSize'
++++
+
 # Request
 
 | Index Word | Description                                             |

@@ -1,3 +1,7 @@
++++
+title = 'DLPSRVR:SendWirelessRebootPassphrase'
++++
+
 # Request
 
 | Index Word | Description                |

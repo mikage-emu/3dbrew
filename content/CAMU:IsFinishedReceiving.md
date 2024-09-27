@@ -1,3 +1,7 @@
++++
+title = 'CAMU:IsFinishedReceiving'
++++
+
 # Request
 
 | Index Word | Description                             |

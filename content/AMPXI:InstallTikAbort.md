@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:InstallTikAbort'
++++
+
 # Request
 
 | Index Word | Description                |

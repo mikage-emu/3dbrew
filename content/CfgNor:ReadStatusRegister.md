@@ -1,3 +1,7 @@
++++
+title = 'CfgNor:ReadStatusRegister'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

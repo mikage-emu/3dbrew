@@ -1,3 +1,7 @@
++++
+title = 'ACU:GetConnectingSecurityMode'
++++
+
 # Request
 
 | Index Word | Description                |

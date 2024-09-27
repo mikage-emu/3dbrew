@@ -1,3 +1,7 @@
++++
+title = 'Pyramids (3DSWare)'
++++
+
 ## Overview
 
 A valid QR code contains 170 bytes of data and is LZ-10 compressed. The

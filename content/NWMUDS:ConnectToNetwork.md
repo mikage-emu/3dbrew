@@ -1,1 +1,5 @@
++++
+title = 'NWMUDS:ConnectToNetwork'
++++
+
 1.  REDIRECT [NWMUDS:ConnectNetwork2](NWMUDS:ConnectNetwork2 "wikilink")

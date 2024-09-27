@@ -1,3 +1,7 @@
++++
+title = 'PTM:CheckNew3DS'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'SRV:RegisterClient'
++++
+
 # Request
 
 | Index Word | Description                                            |

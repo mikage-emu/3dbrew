@@ -1,3 +1,7 @@
++++
+title = 'AM:DeleteTicket'
++++
+
 # Request
 
 | Index Word | Description                |

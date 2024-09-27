@@ -1,3 +1,7 @@
++++
+title = 'AM:GetProgramInfos'
++++
+
 # Request
 
 | Index Word | Description                                                                     |

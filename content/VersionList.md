@@ -1,3 +1,7 @@
++++
+title = 'VersionList'
++++
+
 Used by the system menu to notify the user of updates.
 
 | Title ID         | Version | Name                                                                        | Country          |

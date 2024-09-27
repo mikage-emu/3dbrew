@@ -1,3 +1,7 @@
++++
+title = 'DSP Registers'
++++
+
 # Registers
 
 | Old3DS | Name                                 | Physical Address | Width | Used by |

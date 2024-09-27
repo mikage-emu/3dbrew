@@ -1,3 +1,7 @@
++++
+title = 'NDMU:GetDaemonDisableCount'
++++
+
 # Request
 
 | Index Word | Description                                             |

@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:GetTitleInfo'
++++
+
 # Request
 
 | Index Word | Description                                           |

@@ -1,3 +1,7 @@
++++
+title = 'Mii Maker'
++++
+
 **Mii Maker** lets you create [Miis](Mii "wikilink"), and is the
 successor of the Wii's Mii Channel.
 

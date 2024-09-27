@@ -1,3 +1,7 @@
++++
+title = 'GSPGPU:RegisterInterruptRelayQueue'
++++
+
 # Request
 
 <table>

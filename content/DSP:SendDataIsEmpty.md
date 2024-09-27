@@ -1,3 +1,7 @@
++++
+title = 'DSP:SendDataIsEmpty'
++++
+
 # Request
 
 | Index Word | Description                                          |

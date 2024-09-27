@@ -1,3 +1,7 @@
++++
+title = 'FS:Obsoleted 3 0 GetExtDataBlockSize'
++++
+
 # Request
 
 | Index Word | Description                                            |

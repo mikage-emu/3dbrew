@@ -1,3 +1,7 @@
++++
+title = 'Mii'
++++
+
 Originally [created for the Nintendo
 Wii](http://wiibrew.org/wiki/Mii_Data) (and backported to a selection of
 DS/i games), the **Mii** format was expanded with a larger selection of

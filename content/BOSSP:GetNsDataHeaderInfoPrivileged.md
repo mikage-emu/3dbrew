@@ -1,3 +1,7 @@
++++
+title = 'BOSSP:GetNsDataHeaderInfoPrivileged'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

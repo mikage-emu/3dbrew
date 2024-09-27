@@ -1,3 +1,7 @@
++++
+title = 'CAMU:SetOutputFormat'
++++
+
 # Request
 
 | Index Word | Description                                             |

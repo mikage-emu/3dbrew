@@ -1,3 +1,7 @@
++++
+title = 'GSPGPU:SetPerfLogMode'
++++
+
 # Request
 
 | Index Word | Description                      |

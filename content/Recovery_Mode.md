@@ -1,3 +1,7 @@
++++
+title = 'Recovery Mode'
++++
+
 The recovery mode (also known as Safe Mode Boot) can be accessed when
 turning on the Nintendo 3DS while holding A+R+L+Up(DPad). This menu is
 made to update your Nintendo 3DS through internet, if an update

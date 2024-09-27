@@ -1,3 +1,7 @@
++++
+title = 'NIMU:GetDtlXmlSize'
++++
+
 # Request
 
 | Index Word | Description                |

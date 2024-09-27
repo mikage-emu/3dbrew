@@ -1,3 +1,7 @@
++++
+title = 'Cfg:GetModelNintendo2DS'
++++
+
 # Request
 
 | Index Word | Description                |

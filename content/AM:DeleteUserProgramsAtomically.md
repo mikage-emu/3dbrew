@@ -1,3 +1,7 @@
++++
+title = 'AM:DeleteUserProgramsAtomically'
++++
+
 This checks each [Title ID](Titles#Title_IDs "wikilink") for being a CTR
 System Title (Content Category mask 0x10) or a TWL System Title (Content
 Category mask 0x8000 and mask 0x100000000). If any were found, this will

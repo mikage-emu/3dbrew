@@ -1,3 +1,7 @@
++++
+title = 'BOSSU:InitializeSession'
++++
+
 # Request
 
 | Index Word | Description                                                                                                                    |

@@ -1,3 +1,8 @@
++++
+title = 'Home Menu'
+categories = ["Nintendo Software"]
++++
+
 The **Home Menu** is the heart of the Nintendo 3DS. From there one can
 start games, applications, and access various processes including the
 friends list. It is launched by [NS](NS "wikilink"), and is always

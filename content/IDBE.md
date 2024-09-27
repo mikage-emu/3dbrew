@@ -1,3 +1,7 @@
++++
+title = 'IDBE'
++++
+
 IDBE is Nintendo's title icon database. Entries contain title icon,
 region, and name (in various languages). Similar to the
 [SMDH](SMDH "wikilink"). All game titles are on the server (excluding

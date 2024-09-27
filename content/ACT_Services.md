@@ -1,3 +1,8 @@
++++
+title = 'ACT Services'
+categories = ["Services"]
++++
+
 The ACT module handles NNID accounts. This module behaves very similarly
 to the [Wii
 U](https://github.com/devkitPro/wut/blob/master/cafe/nn_act.def)

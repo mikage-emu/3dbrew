@@ -1,3 +1,7 @@
++++
+title = 'Y2R:GetInputLineWidth'
++++
+
 # Request
 
 | Index Word | Description                |

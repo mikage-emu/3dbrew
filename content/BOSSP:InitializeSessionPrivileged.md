@@ -1,3 +1,7 @@
++++
+title = 'BOSSP:InitializeSessionPrivileged'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

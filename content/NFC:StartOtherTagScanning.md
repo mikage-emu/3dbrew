@@ -1,3 +1,7 @@
++++
+title = 'NFC:StartOtherTagScanning'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

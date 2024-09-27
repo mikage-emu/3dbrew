@@ -1,3 +1,7 @@
++++
+title = 'CONFIG9 Registers'
++++
+
 # Registers
 
 | Old3DS | Name                                             | Address    | Width | Used by                      |

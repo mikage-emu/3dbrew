@@ -1,3 +1,7 @@
++++
+title = 'Application Manager Services PXI'
++++
+
 # Application Manager Services PXI "pxi:am9"
 
 | Command Header | Available since system version    | Description                                                                                                                                                                         |

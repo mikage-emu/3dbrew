@@ -1,3 +1,7 @@
++++
+title = 'IRU:GetRecvFinishedEvent'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,8 @@
++++
+title = 'CRO0'
+categories = ["File formats"]
++++
+
 CRO with extension .cro is used for "DLLs". CRS with extension .crs is
 in the same format of CRO but storing the symbol information of the
 static module (the main application). The end of the file is aligned to

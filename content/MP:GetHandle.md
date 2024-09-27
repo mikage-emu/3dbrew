@@ -1,3 +1,7 @@
++++
+title = 'MP:GetHandle'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

@@ -1,3 +1,7 @@
++++
+title = 'AM:GetPersonalizedTicketInfoList'
++++
+
 # Request
 
 | Index Word | Description                                                                       |

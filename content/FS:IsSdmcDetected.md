@@ -1,3 +1,7 @@
++++
+title = 'FS:IsSdmcDetected'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'BOSS:DeleteNsData'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

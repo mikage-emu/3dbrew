@@ -1,3 +1,7 @@
++++
+title = 'AM:CheckContentRights'
++++
+
 # Request
 
 | Index Word | Description                |

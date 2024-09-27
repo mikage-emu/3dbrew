@@ -1,3 +1,7 @@
++++
+title = 'System Font'
++++
+
 During system boot, the system-font is loaded by [NS](NS "wikilink") to
 LINEAR-memory(in the original 0x14000000 vmem region) which always gets
 allocated at SYSTEM_memregion+0. Due to it being located there, all of

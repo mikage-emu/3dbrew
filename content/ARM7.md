@@ -1,1 +1,5 @@
++++
+title = 'ARM7'
++++
+
 1.  REDIRECT [ARM7 Registers](ARM7_Registers "wikilink")

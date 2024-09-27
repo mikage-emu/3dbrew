@@ -1,3 +1,7 @@
++++
+title = 'Mediatypes'
++++
+
 # Mediatypes
 
 | Type | Description |

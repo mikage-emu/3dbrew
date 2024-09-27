@@ -1,3 +1,7 @@
++++
+title = '3DS Virtual Console'
++++
+
 There are several types of VC titles: NES/GB/GBC VC titles, SNES VC
 titles, GameGear VC titles and GBA VC titles. Except for GBA VC, the
 games are ran using emulators.

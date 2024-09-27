@@ -1,3 +1,7 @@
++++
+title = 'AM:GetProgramInfoFromCia'
++++
+
 # Request
 
 | Index Word | Description                                            |

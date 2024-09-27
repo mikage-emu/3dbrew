@@ -1,3 +1,7 @@
++++
+title = 'CSND:Reset'
++++
+
 # Request
 
 | Index Word | Description                |

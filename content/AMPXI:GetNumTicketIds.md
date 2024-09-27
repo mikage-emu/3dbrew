@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:GetNumTicketIds'
++++
+
 # Request
 
 | Index Word | Description                |

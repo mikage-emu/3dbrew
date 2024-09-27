@@ -1,3 +1,7 @@
++++
+title = 'OTP Registers'
++++
+
 This region (0x10012000-0x10012100) is used as persistent storage on SoC
 and for passing the TWL console ID around (0x10012100-0x10012108).
 

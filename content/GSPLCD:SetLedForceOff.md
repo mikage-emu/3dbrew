@@ -1,3 +1,7 @@
++++
+title = 'GSPLCD:SetLedForceOff'
++++
+
 # Request
 
 | Index Word | Description                                      |

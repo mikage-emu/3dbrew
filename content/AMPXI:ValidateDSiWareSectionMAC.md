@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:ValidateDSiWareSectionMAC'
++++
+
 # Request
 
 | Index Word | Description                                             |

@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:StartDeviceMoveAsSource'
++++
+
 # Request
 
 | Index Word | Description                                                              |

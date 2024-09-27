@@ -1,3 +1,7 @@
++++
+title = 'NEWSS:SetInfoLEDPattern'
++++
+
 # Request
 
 | Index Word | Description                                                                                                                                                          |

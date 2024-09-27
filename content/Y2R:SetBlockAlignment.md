@@ -1,3 +1,7 @@
++++
+title = 'Y2R:SetBlockAlignment'
++++
+
 # Request
 
 | Index Word | Description                                                 |

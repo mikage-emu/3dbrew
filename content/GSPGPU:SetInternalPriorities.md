@@ -1,3 +1,7 @@
++++
+title = 'GSPGPU:SetInternalPriorities'
++++
+
 # Request
 
 | Index Word | Description                         |

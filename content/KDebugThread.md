@@ -1,3 +1,8 @@
++++
+title = 'KDebugThread'
+categories = ["Kernel objects"]
++++
+
 Size : 0x18 bytes
 
 | Offset | Type                             | Description                                                                |

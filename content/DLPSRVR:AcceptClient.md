@@ -1,3 +1,7 @@
++++
+title = 'DLPSRVR:AcceptClient'
++++
+
 # Request
 
 | Index Word | Description                |

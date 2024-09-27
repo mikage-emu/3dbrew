@@ -1,3 +1,8 @@
++++
+title = 'KAddressArbiter'
+categories = ["Kernel auto objects"]
++++
+
 class [KAddressArbiter](KAddressArbiter "wikilink") extends
 [KAutoObject](KAutoObject "wikilink");
 

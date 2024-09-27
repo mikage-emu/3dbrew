@@ -1,3 +1,7 @@
++++
+title = 'NWMSOC:GetMACAddress'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

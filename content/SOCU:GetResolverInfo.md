@@ -1,3 +1,7 @@
++++
+title = 'SOCU:GetResolverInfo'
++++
+
 # Request
 
 | Index Word | Description                        |

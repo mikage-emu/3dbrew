@@ -1,3 +1,7 @@
++++
+title = 'File:ApplicationActivated.jpg'
++++
+
 I got my application activated! This allows the application to be
 detected in the Friends applet and it allows other things as well.
 

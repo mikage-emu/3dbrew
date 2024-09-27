@@ -1,3 +1,7 @@
++++
+title = 'MCURTC:SetRTCAlarm'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'FS:Obsoleted 3 0 CreateSystemSaveData'
++++
+
 # Request
 
 | Index Word | Description                                      |

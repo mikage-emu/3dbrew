@@ -1,3 +1,8 @@
++++
+title = 'SpotPass'
+categories = ["Nintendo Software"]
++++
+
 **SpotPass** is a Nintendo 3DS feature that allows the 3DS to
 automatically download content, notifications, and software when it's in
 standby mode.(SpotPass may download/upload some content while the 3DS is

@@ -1,3 +1,7 @@
++++
+title = 'CAMU:SetAutoWhiteBalanceWindow'
++++
+
 # Request
 
 | Index Word | Description                                             |

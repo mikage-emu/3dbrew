@@ -1,3 +1,7 @@
++++
+title = 'IRU:GetIRLEDRecvState'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'CECDU:WriteMessageWithHMAC'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

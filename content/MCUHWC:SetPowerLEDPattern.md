@@ -1,3 +1,7 @@
++++
+title = 'MCUHWC:SetPowerLEDPattern'
++++
+
 # Request
 
 | Index Word | Description                                                                                                                                          |

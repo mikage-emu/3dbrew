@@ -1,3 +1,7 @@
++++
+title = 'MICU:GetEventHandle'
++++
+
 # Request
 
 | Index Word | Description                |

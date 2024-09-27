@@ -1,3 +1,7 @@
++++
+title = 'APT:IsTitleAllowed'
++++
+
 # Request
 
 | Index Word | Description                                               |

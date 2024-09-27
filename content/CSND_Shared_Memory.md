@@ -1,3 +1,7 @@
++++
+title = 'CSND Shared Memory'
++++
+
 This page describes the structure of the
 [CSND](CSND_Services "wikilink") shared memory.
 

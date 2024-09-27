@@ -1,3 +1,7 @@
++++
+title = 'CECDU:WriteMessage'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

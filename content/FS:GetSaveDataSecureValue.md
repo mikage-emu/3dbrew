@@ -1,3 +1,7 @@
++++
+title = 'FS:GetSaveDataSecureValue'
++++
+
 # Request
 
 | Index Word | Description                                                         |

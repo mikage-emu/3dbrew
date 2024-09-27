@@ -1,3 +1,7 @@
++++
+title = 'CfgNor:WriteData'
++++
+
 # Request
 
 | Index Word | Description                |

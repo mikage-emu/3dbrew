@@ -1,3 +1,7 @@
++++
+title = 'NFCM:SetRegisterInfo'
++++
+
 # Request
 
 | Index Word | Description                                                                  |

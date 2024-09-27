@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:GetDeviceID'
++++
+
 # Request
 
 | Index Word | Description                |

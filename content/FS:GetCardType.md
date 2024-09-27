@@ -1,3 +1,7 @@
++++
+title = 'FS:GetCardType'
++++
+
 # Request
 
 | Index Word | Description                |

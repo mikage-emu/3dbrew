@@ -1,3 +1,7 @@
++++
+title = 'APT:SendParameter'
++++
+
 # Request
 
 | Index Word | Description                                                |

@@ -1,3 +1,7 @@
++++
+title = 'SOCU:sendto Other'
++++
+
 # Request
 
 | Index Word | Description                                                                      |

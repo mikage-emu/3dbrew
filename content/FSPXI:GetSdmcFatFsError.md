@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:GetSdmcFatFsError'
++++
+
 # Request
 
 | Index Word | Description                |

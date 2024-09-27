@@ -1,3 +1,7 @@
++++
+title = 'ACU:GetAPSSIDList'
++++
+
 # Request
 
 | Index Word | Description                 |

@@ -1,3 +1,7 @@
++++
+title = 'CSND:AcquireCapUnit'
++++
+
 # Request
 
 | Index Word | Description                |

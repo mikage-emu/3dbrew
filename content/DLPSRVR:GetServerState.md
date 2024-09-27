@@ -1,3 +1,7 @@
++++
+title = 'DLPSRVR:GetServerState'
++++
+
 # Request
 
 | Index Word | Description                |

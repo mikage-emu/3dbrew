@@ -1,3 +1,7 @@
++++
+title = 'Y2R:SetAlpha'
++++
+
 # Request
 
 | Index Word | Description                |

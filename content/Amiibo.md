@@ -1,3 +1,7 @@
++++
+title = 'Amiibo'
++++
+
 **Amiibo** are [NFC](NFC_Services "wikilink") figures made by Nintendo,
 used in games in different forms (different in each game). It can be
 used with the New3DS and the Old3DS with an [IR](IR_Services "wikilink")

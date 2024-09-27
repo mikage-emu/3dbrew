@@ -1,3 +1,7 @@
++++
+title = 'APT:SendCaptureBufferInfo'
++++
+
 # Request
 
 | Index Word | Description                                                                   |

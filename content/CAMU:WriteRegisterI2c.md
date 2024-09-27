@@ -1,3 +1,7 @@
++++
+title = 'CAMU:WriteRegisterI2c'
++++
+
 # Request
 
 | Index Word | Description                                             |

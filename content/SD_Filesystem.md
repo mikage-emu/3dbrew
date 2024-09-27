@@ -1,3 +1,7 @@
++++
+title = 'SD Filesystem'
++++
+
 ## Overview
 
 The 3DS uses an SD Card for general storage of game data, music, photos

@@ -1,3 +1,7 @@
++++
+title = 'BOSS:GetErrorCode'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

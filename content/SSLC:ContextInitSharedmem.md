@@ -1,3 +1,7 @@
++++
+title = 'SSLC:ContextInitSharedmem'
++++
+
 # Request
 
 | Index Word | Description                                         |

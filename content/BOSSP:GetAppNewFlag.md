@@ -1,3 +1,7 @@
++++
+title = 'BOSSP:GetAppNewFlag'
++++
+
 # Request
 
 {{#vardefine:ipc_offset\|0}}

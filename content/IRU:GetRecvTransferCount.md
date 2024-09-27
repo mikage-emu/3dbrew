@@ -1,3 +1,7 @@
++++
+title = 'IRU:GetRecvTransferCount'
++++
+
 # Request
 
 | Index Word | Description                |

@@ -1,3 +1,7 @@
++++
+title = 'AM:GetInternalTitleLocationInfo'
++++
+
 # Request
 
 | Index Word | Description                                            |

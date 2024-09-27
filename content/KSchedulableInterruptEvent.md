@@ -1,3 +1,8 @@
++++
+title = 'KSchedulableInterruptEvent'
+categories = ["Kernel interrupt events"]
++++
+
 class
 [KSchedulableInterruptEvent](KSchedulableInterruptEvent "wikilink")
 extends

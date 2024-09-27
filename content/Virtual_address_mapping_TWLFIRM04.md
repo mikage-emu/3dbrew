@@ -1,3 +1,7 @@
++++
+title = 'Virtual Address Mapping TWLFIRM04'
++++
+
 This page describes the virtual address mapping set up by
 [TWL_FIRM](FIRM#TWL_FIRM_and_AGB_FIRM "wikilink") 04.
 

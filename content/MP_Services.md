@@ -1,3 +1,8 @@
++++
+title = 'MP Services'
+categories = ["Services"]
++++
+
 This is used for 3DS\<\>DS(i) local-WLAN communications, via the
 DS\<\>DS wifi protocol.
 

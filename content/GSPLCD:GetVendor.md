@@ -1,3 +1,7 @@
++++
+title = 'GSPLCD:GetVendor'
++++
+
 # Request
 
 | Index Word | Description                |

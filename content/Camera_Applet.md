@@ -1,3 +1,7 @@
++++
+title = 'Camera Applet'
++++
+
 This applet can be launched by the Home Menu with the L and R buttons,
 and can access both the outer and inner camera.
 

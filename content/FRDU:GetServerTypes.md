@@ -1,3 +1,7 @@
++++
+title = 'FRDU:GetServerTypes'
++++
+
 # Request
 
 | Index Word | Description                |

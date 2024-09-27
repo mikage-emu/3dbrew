@@ -1,3 +1,7 @@
++++
+title = 'FSPXI:GetCardType'
++++
+
 # Request
 
 | Index Word | Description                |

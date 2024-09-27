@@ -1,3 +1,7 @@
++++
+title = 'Configuration Memory'
++++
+
 # ARM11 Kernel Configuration Memory
 
 | NAME                   | PROCESS VIRTUAL ADDRESS | WIDTH |

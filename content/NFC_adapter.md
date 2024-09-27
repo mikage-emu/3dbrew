@@ -1,3 +1,7 @@
++++
+title = 'NFC Adapter'
++++
+
 The Nintendo NFC adapter, formally **Nintendo NFC Reader/Writer** and
 codenamed **Fangate**, is an external device which adds NFC capabilities
 for [amiibos](amiibo "wikilink") to old Nintendo 3DS and Nintendo 2DS

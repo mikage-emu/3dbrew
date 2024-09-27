@@ -1,3 +1,7 @@
++++
+title = 'PTM:GetPedometerState'
++++
+
 # Request
 
 | Index Word | Description                |

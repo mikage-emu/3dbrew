@@ -1,3 +1,7 @@
++++
+title = 'GSPGPU:ResetGpuCore'
++++
+
 # Request
 
 | Index Word | Description                |

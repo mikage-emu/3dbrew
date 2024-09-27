@@ -1,3 +1,8 @@
++++
+title = 'KTimer'
+categories = ["Kernel synchronization objects","Kernel interrupt events"]
++++
+
 class [KTimer](KTimer "wikilink") extends
 [KSynchronizationObject](KSynchronizationObject "wikilink") and
 [KTimeableInterruptEvent](KTimeableInterruptEvent "wikilink");

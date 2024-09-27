@@ -1,3 +1,7 @@
++++
+title = 'NWMUDS:DestroyNetwork'
++++
+
 # Request
 
 | Index Word | Description                |

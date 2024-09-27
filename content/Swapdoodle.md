@@ -1,3 +1,7 @@
++++
+title = 'Swapdoodle'
++++
+
 **Swapdoodle** is the successor of the [Swapnote](Swapnote "wikilink")
 application that allows you to send doodles to friends using SpotPass.
 

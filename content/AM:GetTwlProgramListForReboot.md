@@ -1,3 +1,7 @@
++++
+title = 'AM:GetTwlProgramListForReboot'
++++
+
 # Request
 
 | Index Word | Description                        |

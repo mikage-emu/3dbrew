@@ -1,3 +1,7 @@
++++
+title = 'AM:GetDeviceId(1)'
++++
+
 # Request
 
 | Index Word | Description                |

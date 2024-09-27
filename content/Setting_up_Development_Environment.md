@@ -1,3 +1,7 @@
++++
+title = 'Setting Up Development Environment'
++++
+
 # Setup
 
 Install [devkitARM](https://devkitpro.org/). If it's already installed,

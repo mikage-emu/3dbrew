@@ -1,3 +1,8 @@
++++
+title = 'CLAN Format'
+categories = ["File formats"]
++++
+
 CLAN (.bclan) is the layout animation format used on the 3DS. It stands
 for (**B**inary) **C**TR **L**ayout **An**imation, and is similar to the
 RLAN format used on the Wii.

@@ -1,3 +1,7 @@
++++
+title = 'File:GFX Test.jpg'
++++
+
 Tonight I decided to work on getting graphics initialised, and it
 worked.
 

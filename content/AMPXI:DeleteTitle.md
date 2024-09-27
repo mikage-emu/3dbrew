@@ -1,3 +1,7 @@
++++
+title = 'AMPXI:DeleteTitle'
++++
+
 # Request
 
 | Index Word | Description                                           |

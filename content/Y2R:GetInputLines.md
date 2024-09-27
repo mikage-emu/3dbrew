@@ -1,3 +1,7 @@
++++
+title = 'Y2R:GetInputLines'
++++
+
 # Request
 
 | Index Word | Description                |

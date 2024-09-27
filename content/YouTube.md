@@ -1,3 +1,7 @@
++++
+title = 'YouTube'
++++
+
 The YouTube application available from the eShop is a web-browser. Like
 the [main](Internet_Browser "wikilink") browser this uses WebKit. All
 data is downloaded with plaintext HTTP (3DS application).

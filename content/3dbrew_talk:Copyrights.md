@@ -1,3 +1,7 @@
++++
+title = '3dbrew Talk:Copyrights'
++++
+
 ## Are tools involving ROMs allowed?
 
 Are pages about Gateway3DS and similar tools allowed on this wiki? I

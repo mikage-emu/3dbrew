@@ -1,3 +1,7 @@
++++
+title = 'GSPGPU:TryAcquireRight'
++++
+
 # Request
 
 | Index Word | Description                |

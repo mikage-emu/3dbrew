@@ -1,3 +1,7 @@
++++
+title = 'MVDSTD:GetStatus'
++++
+
 # Request
 
 | Index Word | Description                |

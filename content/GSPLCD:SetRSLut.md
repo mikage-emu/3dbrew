@@ -1,3 +1,7 @@
++++
+title = 'GSPLCD:SetRSLut'
++++
+
 # Request
 
 | Index Word | Description                            |

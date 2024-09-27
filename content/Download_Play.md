@@ -1,3 +1,7 @@
++++
+title = 'Download Play'
++++
+
 The 3DS dlplay title has two dlplay modes: 3DS and DS. DS dlplay is just
 regular dsmode dlplay, same interface and protocol as before. Like DS
 gamecards, holding down start+select while starting the dsmode dlplay

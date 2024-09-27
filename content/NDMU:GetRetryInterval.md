@@ -1,3 +1,7 @@
++++
+title = 'NDMU:GetRetryInterval'
++++
+
 # Request
 
 | Index Word | Description                |

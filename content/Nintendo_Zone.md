@@ -1,3 +1,7 @@
++++
+title = 'Nintendo Zone'
++++
+
 **Nintendo Zone** is the successor to DS Download Stations, offering
 retailer exclusive content, game videos, screenshots, etc. As of
 February 6th 2012 demos are available for download, demos are

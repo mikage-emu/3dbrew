@@ -1,3 +1,7 @@
++++
+title = 'NFC:GetTagInfo'
++++
+
 # Request
 
 | Index Word | Description                                       |

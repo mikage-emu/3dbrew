@@ -1,3 +1,7 @@
++++
+title = '3DS DSiWare Titles'
++++
+
 ### 00048004 - 3DS DSiWare (TWL_NAND)
 
 | TWL TitleID      | CTR TitleID      | Product Code | Formal Name                                                          | Region                     | Title Versions |

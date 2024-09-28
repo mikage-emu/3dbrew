@@ -40,9 +40,9 @@ Four variants of the file system layout has been identified. A summary
 diagram:
 
 <figure>
-<img src="Inner-fat.png" title="File:Inner-fat.png" />
+<img src="../Inner-fat.png" title="File:Inner-fat.png" />
 <figcaption><a
-href="File:Inner-fat.png">File:Inner-fat.png</a></figcaption>
+href="../File:Inner-fat.png">File:Inner-fat.png</a></figcaption>
 </figure>
 
 ### Savegame, `duplicate data = true`
@@ -388,9 +388,9 @@ recorded in `FAT[0].Index_V`. Other fields of `FAT[0]` are all zero
 Here is an example:
 
 <figure>
-<img src="Disa-fat.png" title="File:Disa-fat.png" />
+<img src="../Disa-fat.png" title="File:Disa-fat.png" />
 <figcaption><a
-href="File:Disa-fat.png">File:Disa-fat.png</a></figcaption>
+href="../File:Disa-fat.png">File:Disa-fat.png</a></figcaption>
 </figure>
 
 For extdata, because only two "files" (directory and file entry tables)

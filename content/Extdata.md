@@ -182,7 +182,7 @@ Usually the ExtdataID low is in the format '00<Unique ID>'
 <td><p>00000082</p></td>
 <td><p>0000008f</p></td>
 <td><p>00000098</p></td>
-<td><p><a href="Home_Menu" title="wikilink">Home Menu</a> extdata, this
+<td><p><a href="../Home_Menu" title="wikilink">Home Menu</a> extdata, this
 contains home-menu savedata and cached icons for applications.</p></td>
 <td></td>
 </tr>
@@ -190,8 +190,8 @@ contains home-menu savedata and cached icons for applications.</p></td>
 <td><p>00000200</p></td>
 <td><p>00000210</p></td>
 <td><p>00000220</p></td>
-<td><p><a href="System_Settings" title="wikilink">System Settings</a>
-extdata added with <a href="2.0.0-2"
+<td><p><a href="../System_Settings" title="wikilink">System Settings</a>
+extdata added with <a href="../2.0.0-2"
 title="wikilink">2.0.0-2</a>.</p></td>
 <td></td>
 </tr>
@@ -199,7 +199,7 @@ title="wikilink">2.0.0-2</a>.</p></td>
 <td><p>00000207</p></td>
 <td><p>00000217</p></td>
 <td><p>00000227</p></td>
-<td><p><a href="Mii_Maker" title="wikilink">Mii Maker</a>, contains an
+<td><p><a href="../Mii_Maker" title="wikilink">Mii Maker</a>, contains an
 ExBanner</p></td>
 <td><p><a
 href="https://dl.dropbox.com/u/20520664/extdata00000217.zip">cleartext</a></p></td>
@@ -215,7 +215,7 @@ href="https://dl.dropbox.com/u/20520664/extdata00000217.zip">cleartext</a></p></
 <td><p>00000209</p></td>
 <td><p>00000219</p></td>
 <td><p>00000229</p></td>
-<td><p><a href="eShop" title="wikilink">eShop</a>, contains store music
+<td><p><a href="../eShop" title="wikilink">eShop</a>, contains store music
 in AAC format.</p></td>
 <td></td>
 </tr>
@@ -237,7 +237,7 @@ in AAC format.</p></td>
 <td><p>000002cc</p></td>
 <td><p>000002cd</p></td>
 <td><p>000002ce</p></td>
-<td><p><a href="Home_Menu" title="wikilink">Home Menu</a> theme</p></td>
+<td><p><a href="../Home_Menu" title="wikilink">Home Menu</a> theme</p></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -245,7 +245,7 @@ in AAC format.</p></td>
 <td><p>000004aa</p></td>
 <td><p>000004ab</p></td>
 <td><p>Nintendo Video Extra Data This is where the video files are
-stored, and <a href="Nintendo_Video" title="wikilink">includes</a> the
+stored, and <a href="../Nintendo_Video" title="wikilink">includes</a> the
 thumbnail, the description, and possibly some checksum info in each
 video file stored in the extdata images. There are always 9 files within
 the subdirectory "00000000" of this folder, even without any videos
@@ -478,7 +478,7 @@ Pokémon Alpha Sapphire</p></td>
 <td><p>000014d1</p></td>
 <td><p>000014d1</p></td>
 <td><p>000014d1</p></td>
-<td><p><a href="Home_Menu" title="wikilink">Home Menu</a> badge</p></td>
+<td><p><a href="../Home_Menu" title="wikilink">Home Menu</a> badge</p></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -507,7 +507,7 @@ Pokémon Moon</p></td>
 <td><p>0000165c</p></td>
 <td><p>0000165c</p></td>
 <td><p>0000165c</p></td>
-<td><p><a href="Home_Menu" title="wikilink">Home Menu</a> saved theme
+<td><p><a href="../Home_Menu" title="wikilink">Home Menu</a> saved theme
 layouts</p></td>
 <td></td>
 </tr>

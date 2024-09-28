@@ -71,8 +71,8 @@ affect icon cache storage, [PTM](PTM_Services "wikilink") playlog is
 unaffected.
 
 <figure>
-<img src="Activity_Log_-_Invisable_App.png"
+<img src="../Activity_Log_-_Invisable_App.png"
 title="File:Activity_Log_-_Invisable_App.png" />
 <figcaption><a
-href="File:Activity_Log_-_Invisable_App.png">File:Activity_Log_-_Invisable_App.png</a></figcaption>
+href="../File:Activity_Log_-_Invisable_App.png">File:Activity_Log_-_Invisable_App.png</a></figcaption>
 </figure>

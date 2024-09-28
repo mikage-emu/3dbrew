@@ -181,7 +181,7 @@ Thus, the ARM9 binary has the following header:
 <tr class="odd">
 <td><p>0x050</p></td>
 <td><p>16</p></td>
-<td><p>Added with <a href="9.5.0-22" title="wikilink">9.5.0-X</a>. Only
+<td><p>Added with <a href="../9.5.0-22" title="wikilink">9.5.0-X</a>. Only
 used for hardware debugging: a nop instruction is executed with r0=0 and
 r1=</p>
 <address of this data>
@@ -190,7 +190,7 @@ r1=</p>
 <tr class="even">
 <td><p>0x060</p></td>
 <td><p>16</p></td>
-<td><p>Added with <a href="9.5.0-22" title="wikilink">9.5.0-X</a>.
+<td><p>Added with <a href="../9.5.0-22" title="wikilink">9.5.0-X</a>.
 Encrypted keyX for keyslot 0x16.</p></td>
 </tr>
 </tbody>

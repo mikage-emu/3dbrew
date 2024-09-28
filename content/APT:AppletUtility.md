@@ -18,7 +18,7 @@ title = 'APT:AppletUtility'
 </tr>
 <tr class="even">
 <td><p>1</p></td>
-<td><p><a href="APT:AppletUtility#Utility"
+<td><p><a href="../APT:AppletUtility#Utility"
 title="wikilink">Utility</a></p></td>
 </tr>
 <tr class="odd">

@@ -138,7 +138,7 @@ event, set to 3 by mcuMainLoop on reset if reset source is Watchdog</p>
 <td><p>0x05 - 0x07</p></td>
 <td><p>s</p></td>
 <td><p>rw</p></td>
-<td><p>Danger zone - <a href="MCU_Services#MCU_firmware_versions"
+<td><p>Danger zone - <a href="../MCU_Services#MCU_firmware_versions"
 title="wikilink">MCU unlock sequence</a> is written here.</p></td>
 </tr>
 <tr class="odd">
@@ -152,7 +152,7 @@ title="wikilink">MCU unlock sequence</a> is written here.</p></td>
 <td><p>s</p></td>
 <td><p>ro</p></td>
 <td><p>Volume slider state (0x00 - 0x3F) This is the same value returned
-by <a href="MCUHWC:GetSoundVolume"
+by <a href="../MCUHWC:GetSoundVolume"
 title="wikilink">MCUHWC:GetSoundVolume</a></p></td>
 </tr>
 <tr class="odd">
@@ -199,9 +199,9 @@ measured.</p>
 <td><p>0x0F</p></td>
 <td><p>s</p></td>
 <td><p>ro</p></td>
-<td><p>Flags: bit7-5 are read via <a href="MCU_Services"
+<td><p>Flags: bit7-5 are read via <a href="../MCU_Services"
 title="wikilink">mcu::GPU</a>. The rest of them are read via <a
-href="MCU_Services" title="wikilink">mcu::RTC</a>.</p>
+href="../MCU_Services" title="wikilink">mcu::RTC</a>.</p>
 <p><code> bit1: ShellState</code><br />
 <code> bit3: AdapterState</code><br />
 <code> bit4: BatteryChargeState</code><br />
@@ -241,7 +241,7 @@ If no interrupt was received this register is 0</p></td>
 <code> bit05: Shell close</code><br />
 <code> bit06: Shell open</code><br />
 <code> bit07: Fatal hardware condition(</code><a
-href="Services#Notifications"
+href="../Services#Notifications"
 title="wikilink"><code>?</code></a><code>) (sent when the MCU gets reset by the Watchdog timer)</code><br />
 <code> bit08: Charger removed</code><br />
 <code> bit09: Charger plugged in</code><br />
@@ -279,13 +279,13 @@ href="https://github.com/profi200/libn3ds/blob/083c8ffa3f56a49802fa74b6afe45a968
 <td><p>System power control:</p>
 <p><code> bit0: power off</code><br />
 <code> bit1: full reboot (unused). Discards things like </code><a
-href="CONFIG9_Registers#CFG9_BOOTENV"
+href="../CONFIG9_Registers#CFG9_BOOTENV"
 title="wikilink"><code>CFG9_BOOTENV</code></a><br />
 <code>   - Asserts RESET1 via PMIC command (?) (deasserts nRESET1). This could be the reset that controls some CFG9 registers</code><br />
 <code>   - Asserts RESET2 (P0.1 = 0, PM0.1 = 0 (output)) (deasserts nRESET2)</code><br />
 <code>   - Asserts FCRAM_RESET (P3.0 = 0) (deasserts nFCRAM_RESET)</code><br />
 <code> bit2: normal reboot. Preserves </code><a
-href="CONFIG9_Registers#CFG9_BOOTENV"
+href="../CONFIG9_Registers#CFG9_BOOTENV"
 title="wikilink"><code>CFG9_BOOTENV</code></a><code>, etc.</code><br />
 <code>   - Asserts RESET2 (P0.1 = 0, PM0.1 = 0)</code><br />
 <code>   - If in NTR emulation mode (see reg 0x02), asserts FCRAM_RESET (P3.0 = 0)</code><br />
@@ -415,9 +415,9 @@ wide</p></td>
 <td><p>0x2D</p></td>
 <td><p>0x64</p></td>
 <td><p>wo</p></td>
-<td><p>This is used for <a href="MCURTC:SetInfoLEDPattern"
+<td><p>This is used for <a href="../MCURTC:SetInfoLEDPattern"
 title="wikilink">controlling</a> the notification LED (see <a
-href="MCURTC:SetInfoLEDPatternHeader"
+href="../MCURTC:SetInfoLEDPatternHeader"
 title="wikilink">MCURTC:SetInfoLEDPatternHeader</a> as well), when this
 register is written. It's possible to write data here with size less
 than 0x64, and only that portion of the pattern data will get
@@ -429,7 +429,7 @@ do nothing.</p></td>
 <td><p>0x2E</p></td>
 <td><p>s</p></td>
 <td><p>ro</p></td>
-<td><p>This <a href="MCURTC:GetInfoLEDStatus"
+<td><p>This <a href="../MCURTC:GetInfoLEDStatus"
 title="wikilink">returns</a> the notification LED status when read (1
 means new cycle started)</p></td>
 </tr>
@@ -477,7 +477,7 @@ register (unused in code)</p></td>
 <td><p>s</p></td>
 <td><p>rw</p></td>
 <td><p>Could be used on extremely old MCU_FIRM versions to upload <a
-href="MCU_Services#MCU_firmware_versions" title="wikilink">MCU
+href="../MCU_Services#MCU_firmware_versions" title="wikilink">MCU
 firmware</a> if reg 0xF == 0 and reg 0x10 == 1 (presumably major and
 minor version fields for mcufw 0.1 which largely predates factory
 firm).</p></td>
@@ -675,7 +675,7 @@ FFs.</p></td>
 <td><p>ro</p></td>
 <td><p>Various system state information (debug pointer table)</p>
 <p><code> byte 0x00: Console type, see </code><a
-href="Configuration_Memory#MCU_HW_INFO"
+href="../Configuration_Memory#MCU_HW_INFO"
 title="wikilink"><code>here</code></a><br />
 <code> byte 0x01: PMIC vendor code</code><br />
 <code> byte 0x02: Battery vendor code (determined from battery middle pin)</code><br />
@@ -689,7 +689,7 @@ title="wikilink"><code>here</code></a><br />
 <code> byte 0x05: RCOMP(?)</code><br />
 <code> byte 0x06: On-board battery slot NTC reading (more heat causes this value to go *down*, and cooling off will make this value go back up)</code><br />
 <code> byte 0x09: system model (see </code><a
-href="Cfg:GetSystemModel#System_Model_Values"
+href="../Cfg:GetSystemModel#System_Model_Values"
 title="wikilink"><code>Cfg:GetSystemModel</code></a><code> for values)</code><br />
 <code> byte 0x0A: Red Power LED mode (0 = off, 1 = on)</code><br />
 <code> byte 0x0B: Blue Power LED intensity  (0x00 - 0xFF)</code><br />

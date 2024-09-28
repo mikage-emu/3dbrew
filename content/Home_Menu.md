@@ -822,26 +822,26 @@ handling [SD_Savedata_Backups](SD_Savedata_Backups "wikilink").
 <td></td>
 <td><p>srv_init(), then srv_GetServiceHandle is used to initialize the
 service handles for the following services: <a
-href="NS_and_APT_Services" title="wikilink">ns:s</a>, <a
-href="PTM_Services" title="wikilink">ptm:sysm</a>, and <a
-href="Config_Services" title="wikilink">cfg:s</a>.</p></td>
+href="../NS_and_APT_Services" title="wikilink">ns:s</a>, <a
+href="../PTM_Services" title="wikilink">ptm:sysm</a>, and <a
+href="../Config_Services" title="wikilink">cfg:s</a>.</p></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="CfgS:SecureInfoGetByte101"
+<td><p><a href="../CfgS:SecureInfoGetByte101"
 title="wikilink">CfgS:SecureInfoGetByte101</a> and <a
-href="CfgS:GetLocalFriendCodeSeed"
+href="../CfgS:GetLocalFriendCodeSeed"
 title="wikilink">CfgS:GetLocalFriendCodeSeed</a> are used, the output
 data from these are not used. If either of these return an error, Home
-Menu uses <a href="ERR:Throw" title="wikilink">ERR:Throw</a>.</p></td>
+Menu uses <a href="../ERR:Throw" title="wikilink">ERR:Throw</a>.</p></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="Cfg:GetSystemModel"
+<td><p><a href="../Cfg:GetSystemModel"
 title="wikilink">Cfg:GetSystemModel</a> is then used to initialize a
 Home Menu state field.</p></td>
 </tr>
@@ -850,24 +850,24 @@ Home Menu state field.</p></td>
 <td></td>
 <td></td>
 <td><p>Home Menu then loads the system language via <a
-href="CfgS:GetConfigInfoBlk2"
+href="../CfgS:GetConfigInfoBlk2"
 title="wikilink">CfgS:GetConfigInfoBlk2</a>, and uses <a
-href="Cfg:SecureInfoGetRegion"
+href="../Cfg:SecureInfoGetRegion"
 title="wikilink">Cfg:SecureInfoGetRegion</a>, to initialize Home Menu
 region/language state. Home Menu then uses <a
-href="Cfg:SecureInfoGetRegion"
+href="../Cfg:SecureInfoGetRegion"
 title="wikilink">Cfg:SecureInfoGetRegion</a> again, then loads the <a
-href="Config_Savegame" title="wikilink">CountryInfo</a> via <a
-href="CfgS:GetConfigInfoBlk2"
+href="../Config_Savegame" title="wikilink">CountryInfo</a> via <a
+href="../CfgS:GetConfigInfoBlk2"
 title="wikilink">CfgS:GetConfigInfoBlk2</a>.</p></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu initializes <a href="Filesystem_services"
+<td><p>Home Menu initializes <a href="../Filesystem_services"
 title="wikilink">fs:USER</a> here. Home Menu then mounts the Home Menu
-CXI RomFS. Then Home Menu uses <a href="Filesystem_services"
+CXI RomFS. Then Home Menu uses <a href="../Filesystem_services"
 title="wikilink">FSUSER:GetPriority</a>.</p></td>
 </tr>
 <tr class="even">
@@ -875,14 +875,14 @@ title="wikilink">FSUSER:GetPriority</a>.</p></td>
 <td></td>
 <td></td>
 <td><p>Home Menu starts APT initialization / using APT service commands
-here. Eventually Home Menu then <a href="NSS:LaunchTitle"
+here. Eventually Home Menu then <a href="../NSS:LaunchTitle"
 title="wikilink">launches</a> various system-modules.</p></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Here Home Menu attempts to open NAND shared-<a href="extdata"
+<td><p>Here Home Menu attempts to open NAND shared-<a href="../extdata"
 title="wikilink">extdata</a> 0xe0000000, which will normally fail since
 it doesn't exist.</p></td>
 </tr>
@@ -890,7 +890,7 @@ it doesn't exist.</p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p>Here Home Menu uses <a href="Application_Manager_Services"
+<td><p>Here Home Menu uses <a href="../Application_Manager_Services"
 title="wikilink">AM</a> command 0x00130040, with input u8 = value 0x0.
 Home Menu continues using APT commands after this.</p></td>
 </tr>
@@ -898,21 +898,21 @@ Home Menu continues using APT commands after this.</p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="HID_Services" title="wikilink">hid:SPVR</a> service
+<td><p><a href="../HID_Services" title="wikilink">hid:SPVR</a> service
 initialization is done here.</p></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="PTM_Services"
+<td><p><a href="../PTM_Services"
 title="wikilink">PTMSYSM:GetShellStatus</a> is used here.</p></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="Filesystem_services"
+<td><p><a href="../Filesystem_services"
 title="wikilink">FSUSER:GetCardType</a> is used here. AM commands are
 then used to get the inserted gamecard programID, when successful the
 gamecard ExeFS:/icon is then read to check the auto-boot flag(see the
@@ -955,7 +955,7 @@ and CountryInfo.</p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="NS_and_APT_Services"
+<td><p><a href="../NS_and_APT_Services"
 title="wikilink"><span>APT:GetSharedFont</span></a> is used
 here.</p></td>
 </tr>
@@ -969,7 +969,7 @@ here.</p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p>Here Home Menu loads the <a href="Config_Savegame"
+<td><p>Here Home Menu loads the <a href="../Config_Savegame"
 title="wikilink">cfg</a> state for blkID 0x50005.</p></td>
 </tr>
 <tr class="even">
@@ -995,7 +995,7 @@ commands etc + loads sound data from RomFS.</p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="APT:GetCaptureInfo"
+<td><p><a href="../APT:GetCaptureInfo"
 title="wikilink"><span>APT:GetCaptureInfo</span></a> is used
 here.</p></td>
 </tr>
@@ -1009,15 +1009,15 @@ here.</p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p>Here Home Menu uses <a href="PTM_Services"
+<td><p>Here Home Menu uses <a href="../PTM_Services"
 title="wikilink">PTMSYSM:GetShellStatus</a>, <a
-href="PTMSYSM:GetSoftwareClosedFlag"
+href="../PTMSYSM:GetSoftwareClosedFlag"
 title="wikilink">PTMSYSM:GetSoftwareClosedFlag</a>, and <a
-href="PTMSYSM:ClearSoftwareClosedFlag"
+href="../PTMSYSM:ClearSoftwareClosedFlag"
 title="wikilink">PTMSYSM:ClearSoftwareClosedFlag</a>. Home Menu then
-uses <a href="PTM_Services" title="wikilink">PTMSYSM:GetShellStatus</a>
+uses <a href="../PTM_Services" title="wikilink">PTMSYSM:GetShellStatus</a>
 3 times in a row. Starting from here, Home Menu uses <a
-href="PTM_Services" title="wikilink">PTMSYSM:GetShellStatus</a>
+href="../PTM_Services" title="wikilink">PTMSYSM:GetShellStatus</a>
 frequently(presumably from a separate thread).</p></td>
 </tr>
 <tr class="even">
@@ -1025,16 +1025,16 @@ frequently(presumably from a separate thread).</p></td>
 <td></td>
 <td></td>
 <td><p>Home Menu opens the archive for the Home Menu <a
-href="System_SaveData" title="wikilink">System_SaveData</a> here. Then
+href="../System_SaveData" title="wikilink">System_SaveData</a> here. Then
 Home Menu attempts to open "/Launcher.dat" for reading, when successful
 Home Menu just closes the file.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Home Menu <a href="System_SaveData"
+<td><p>Home Menu <a href="../System_SaveData"
 title="wikilink">System_SaveData</a></p></td>
 <td><p>"/Launcher.dat"</p></td>
 <td><p>0x2490</p></td>
-<td><p>Prior to doing the read, Home Menu uses <a href="FSFile:GetSize"
+<td><p>Prior to doing the read, Home Menu uses <a href="../FSFile:GetSize"
 title="wikilink">FSFile:GetSize</a>.</p></td>
 </tr>
 <tr class="even">
@@ -1044,7 +1044,7 @@ title="wikilink">FSFile:GetSize</a>.</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><a href="NS_CFA" title="wikilink">NS CFA</a></p></td>
+<td><p><a href="../NS_CFA" title="wikilink">NS CFA</a></p></td>
 <td><p>"/ctr_backup_black_list"</p></td>
 <td></td>
 <td><p>Home Menu first reads 0x10-bytes from offset 0x0, then after that
@@ -1060,7 +1060,7 @@ it reads the rest of the file.</p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu <a href="NSS:LaunchTitle" title="wikilink">launches</a>
+<td><p>Home Menu <a href="../NSS:LaunchTitle" title="wikilink">launches</a>
 the camera system-module here.</p></td>
 </tr>
 <tr class="even">
@@ -1074,14 +1074,14 @@ the camera system-module here.</p></td>
 <td><p>"/version.dat"</p></td>
 <td><p>0x4</p></td>
 <td><p>Home Menu mounts the ngword archive here, then reads version.dat.
-Home Menu then loads the <a href="Config_Savegame"
+Home Menu then loads the <a href="../Config_Savegame"
 title="wikilink">cfg</a> data for blkID 0x000A0000.</p></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu <a href="NSS:LaunchTitle" title="wikilink">launches</a>
+<td><p>Home Menu <a href="../NSS:LaunchTitle" title="wikilink">launches</a>
 various system-modules here(from a separate thread?).</p></td>
 </tr>
 <tr class="odd">
@@ -1093,11 +1093,11 @@ various system-modules here(from a separate thread?).</p></td>
 and 0xf000000b again.</p></td>
 </tr>
 <tr class="even">
-<td><p>NAND <a href="extdata" title="wikilink">extdata</a>
+<td><p>NAND <a href="../extdata" title="wikilink">extdata</a>
 0xf000000b</p></td>
 <td><p>"/ubll.lst"</p></td>
 <td><p>0x2ee0</p></td>
-<td><p>Prior to doing the read, Home Menu uses <a href="FSFile:GetSize"
+<td><p>Prior to doing the read, Home Menu uses <a href="../FSFile:GetSize"
 title="wikilink">FSFile:GetSize</a>.</p></td>
 </tr>
 <tr class="odd">
@@ -1112,7 +1112,7 @@ again.</p></td>
 <td><p>"/CFL_DB.dat"</p></td>
 <td><p>0xe4c0</p></td>
 <td><p>Home Menu only does one read with size 0xe4c0 for this, even
-though the value it loads from <a href="FSFile:GetSize"
+though the value it loads from <a href="../FSFile:GetSize"
 title="wikilink">FSFile:GetSize</a> is larger than that.</p></td>
 </tr>
 <tr class="odd">
@@ -1126,7 +1126,7 @@ when opening it was successful at least.</p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu loads the <a href="Config_Savegame"
+<td><p>Home Menu loads the <a href="../Config_Savegame"
 title="wikilink">cfg</a> data for blkID 0x000C0000 here.</p></td>
 </tr>
 <tr class="odd">
@@ -1138,15 +1138,15 @@ again.</p></td>
 </tr>
 <tr class="even">
 <td><p>NAND extdata 0xf000000b</p></td>
-<td><p><a href="Extdata" title="wikilink">"/gamecoin.dat"</a></p></td>
+<td><p><a href="../Extdata" title="wikilink">"/gamecoin.dat"</a></p></td>
 <td><p>0x14</p></td>
-<td><p>Home Menu first tries to use <a href="FS:CreateFile"
+<td><p>Home Menu first tries to use <a href="../FS:CreateFile"
 title="wikilink">FS:CreateFile</a> with this, which will fail when the
 file already exists. This file is then opened with openflags=RW. After
-reading this file, Home Menu then uses <a href="PTM:GetTotalStepCount"
+reading this file, Home Menu then uses <a href="../PTM:GetTotalStepCount"
 title="wikilink">PTM:GetTotalStepCount</a>, then uses <a
-href="FSFile:GetSize" title="wikilink">FSFile:GetSize</a>. Then the
-service handle for <a href="NDM_Services" title="wikilink">"ndm:u"</a>
+href="../FSFile:GetSize" title="wikilink">FSFile:GetSize</a>. Then the
+service handle for <a href="../NDM_Services" title="wikilink">"ndm:u"</a>
 is initialized with srv_GetServiceHandle(done from a separate thread
 perhaps?). Then Home Menu writes to the already opened gamecoin.dat
 file.</p></td>
@@ -1155,9 +1155,9 @@ file.</p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="Filesystem_services"
+<td><p><a href="../Filesystem_services"
 title="wikilink">FSUSER:CardSlotIsInserted</a> and <a
-href="Filesystem_services" title="wikilink">FSUSER:GetCardType</a> is
+href="../Filesystem_services" title="wikilink">FSUSER:GetCardType</a> is
 used here. AM commands are then used to get the inserted gamecard
 programID, when successful the gamecard ExeFS:/icon is then
 read.</p></td>
@@ -1166,16 +1166,16 @@ read.</p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="BOSS_Services" title="wikilink">"boss:P"</a> service
+<td><p><a href="../BOSS_Services" title="wikilink">"boss:P"</a> service
 handle initialization with srv_GetServiceHandle is done here. Then <a
-href="Services" title="wikilink">srv_Subscribe</a> is used with various
-noticationIDs. Home Menu then uses <a href="FS:IsSdmcDetected"
-title="wikilink">FS:IsSdmcDetected</a> and <a href="FS:IsSdmcWritable"
+href="../Services" title="wikilink">srv_Subscribe</a> is used with various
+noticationIDs. Home Menu then uses <a href="../FS:IsSdmcDetected"
+title="wikilink">FS:IsSdmcDetected</a> and <a href="../FS:IsSdmcWritable"
 title="wikilink">FS:IsSdmcWritable</a>. Home Menu then loads the <a
-href="Config_Savegame" title="wikilink">cfg</a> data for blkID
+href="../Config_Savegame" title="wikilink">cfg</a> data for blkID
 0x000D0000. Home Menu uses boss:P command 0x4010082, then uses
 srv_GetServiceHandle for initializing service handles with the following
-services: <a href="News_Services"
+services: <a href="../News_Services"
 title="wikilink">"<span>news:s</span>"</a> and "cecd:s".</p></td>
 </tr>
 <tr class="odd">
@@ -1183,15 +1183,15 @@ title="wikilink">"<span>news:s</span>"</a> and "cecd:s".</p></td>
 <td></td>
 <td></td>
 <td><p>srv_GetServiceHandle is used to initialize the service handle for
-service <a href="Friend_Services" title="wikilink">"frd:a"</a>, then
+service <a href="../Friend_Services" title="wikilink">"frd:a"</a>, then
 various service commands are used for that.</p></td>
 </tr>
 <tr class="even">
-<td><p>NAND <a href="extdata" title="wikilink">extdata</a>
+<td><p>NAND <a href="../extdata" title="wikilink">extdata</a>
 0xf000000c</p></td>
 <td></td>
 <td></td>
-<td><p>Home Menu first attempts to use <a href="FS:CreateFile"
+<td><p>Home Menu first attempts to use <a href="../FS:CreateFile"
 title="wikilink">FS:CreateFile</a> with "/bashotorya.dat", which
 normally fails since that file already exists. Home Menu then repeats
 this with "/bashotorya2.dat".</p></td>
@@ -1208,14 +1208,14 @@ extdata.</p></td>
 <td><p>Home Menu SD extdata</p></td>
 <td><p>"/SaveData.dat"</p></td>
 <td><p>0x2da0</p></td>
-<td><p>Prior to doing the read, Home Menu uses <a href="FSFile:GetSize"
+<td><p>Prior to doing the read, Home Menu uses <a href="../FSFile:GetSize"
 title="wikilink">FSFile:GetSize</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Home Menu SD extdata</p></td>
 <td><p>"/Cache.dat"</p></td>
 <td><p>0x1688</p></td>
-<td><p>Prior to doing the read, Home Menu uses <a href="FSFile:GetSize"
+<td><p>Prior to doing the read, Home Menu uses <a href="../FSFile:GetSize"
 title="wikilink">FSFile:GetSize</a>.</p></td>
 </tr>
 <tr class="even">
@@ -1224,8 +1224,8 @@ title="wikilink">FSFile:GetSize</a>.</p></td>
 <td><p>0x36c0</p></td>
 <td><p>This is used to read the cached icon data for the currently
 inserted gamecard, if any. Prior to doing the read, Home Menu uses <a
-href="FSFile:GetSize" title="wikilink">FSFile:GetSize</a>. After opening
-the file and before <a href="FSFile:GetSize"
+href="../FSFile:GetSize" title="wikilink">FSFile:GetSize</a>. After opening
+the file and before <a href="../FSFile:GetSize"
 title="wikilink">FSFile:GetSize</a> is used, Home Menu uses AM commands
 0x10070102(for theme DLC) and 0x30084(gamecard
 "title-listing").</p></td>
@@ -1243,14 +1243,14 @@ title="wikilink">FSFile:GetSize</a> is used, Home Menu uses AM commands
 <td><p>0x150000</p></td>
 <td><p>Before opening the file, Home Menu firsts opens this archive
 under a new archive-handle again, then closes it. Prior to doing the
-read, Home Menu uses <a href="FSFile:GetSize"
+read, Home Menu uses <a href="../FSFile:GetSize"
 title="wikilink">FSFile:GetSize</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Home Menu Theme SD extdata</p></td>
 <td><p>"/ThemeManage.bin"</p></td>
 <td><p>0x8</p></td>
-<td><p>Prior to doing the read, Home Menu uses <a href="FSFile:GetSize"
+<td><p>Prior to doing the read, Home Menu uses <a href="../FSFile:GetSize"
 title="wikilink">FSFile:GetSize</a>(the result is filesize
 0x800).</p></td>
 </tr>
@@ -1259,7 +1259,7 @@ title="wikilink">FSFile:GetSize</a>(the result is filesize
 <td><p>"/BgmCache.bin"</p></td>
 <td></td>
 <td><p>The data is read from here as needed. After opening the file,
-Home Menu uses <a href="FSFile:GetSize"
+Home Menu uses <a href="../FSFile:GetSize"
 title="wikilink">FSFile:GetSize</a>.</p></td>
 </tr>
 <tr class="odd">
@@ -1283,7 +1283,7 @@ used.</p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="AMNet:GetTitleIDList"
+<td><p><a href="../AMNet:GetTitleIDList"
 title="wikilink">AM:GetTitleIDList</a> is used with mediatype=SD and
 maxTIDs = 0x1c00.</p></td>
 </tr>
@@ -1297,7 +1297,7 @@ maxTIDs = 0x1c00.</p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="PTM_Services" title="wikilink">PTM:GetStepHistory</a> is
+<td><p><a href="../PTM_Services" title="wikilink">PTM:GetStepHistory</a> is
 used.</p></td>
 </tr>
 <tr class="even">
@@ -1305,16 +1305,16 @@ used.</p></td>
 <td></td>
 <td></td>
 <td><p>srv_GetServiceHandle is used to initialize the service handle for
-<a href="AC_Services" title="wikilink">"ac:u"</a>, then <a
-href="AC_Services" title="wikilink">ACU:SetClientVersion</a> is used. <a
-href="Services" title="wikilink">srv_Subscribe</a> is used, then ACU
+<a href="../AC_Services" title="wikilink">"ac:u"</a>, then <a
+href="../AC_Services" title="wikilink">ACU:SetClientVersion</a> is used. <a
+href="../Services" title="wikilink">srv_Subscribe</a> is used, then ACU
 command 0x002F0004 is used.</p></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="AMNet:GetTitleIDList"
+<td><p><a href="../AMNet:GetTitleIDList"
 title="wikilink">AM:GetTitleIDList</a> is used with mediatype=NAND and
 maxTIDs = 0x1c00.</p></td>
 </tr>
@@ -1325,40 +1325,40 @@ maxTIDs = 0x1c00.</p></td>
 <td><p>Home Menu first tries to use FS:CreateFile with this, which will
 fail when the file already exists. This file is then opened with
 openflags=RW. After reading this file, Home Menu then uses <a
-href="PTM_Services" title="wikilink">PTM:GetTotalStepCount</a>, then
+href="../PTM_Services" title="wikilink">PTM:GetTotalStepCount</a>, then
 uses FSFile:GetSize. Then Home Menu writes to the already opened
 gamecoin.dat file.</p>
 <p>At the same time as doing the above, Home Menu also uses(probably
-from a different thread) <a href="AMNet:GetTitleIDList3"
+from a different thread) <a href="../AMNet:GetTitleIDList3"
 title="wikilink">AM:GetTitleIDList3</a> with mediatype=NAND and
-maxTIDs=0x2000. Then Home Menu uses <a href="AMNet:ListTitles"
+maxTIDs=0x2000. Then Home Menu uses <a href="../AMNet:ListTitles"
 title="wikilink">AM:ListTitles</a> with the NAND promotional-video
 titleID. Then Home Menu attempts to open the ExeFS:/icon in the NAND
 promotional-video title.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Home Menu <a href="System_SaveData"
+<td><p>Home Menu <a href="../System_SaveData"
 title="wikilink">System_SaveData</a></p></td>
 <td><p>"/Launcher.dat"</p></td>
 <td></td>
-<td><p>Prior to doing the write, Home Menu uses <a href="FSFile:GetSize"
+<td><p>Prior to doing the write, Home Menu uses <a href="../FSFile:GetSize"
 title="wikilink">FSFile:GetSize</a>. Home Menu writes 0x2490-bytes to
 the file here. From a separate thread(?) at the same time, Home Menu
-also uses <a href="AM:ReloadDBS" title="wikilink">AM:ReloadDBS</a> and
+also uses <a href="../AM:ReloadDBS" title="wikilink">AM:ReloadDBS</a> and
 AM command 0x00130040 with input=0x1.</p></td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu loads the u8 value from <a href="Config_Savegame"
+<td><p>Home Menu loads the u8 value from <a href="../Config_Savegame"
 title="wikilink">cfg</a> blkID 0x000E0000 here.</p></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="AM:ReloadDBS" title="wikilink">AM:ReloadDBS</a>, AM
+<td><p><a href="../AM:ReloadDBS" title="wikilink">AM:ReloadDBS</a>, AM
 command 0x10070102(for theme DLC), AM command 0x00130040, and AM command
 0x10050084(for theme DLC) are used here. At the same time(from a
 different thread?), the "act:u" service handle is initialized with
@@ -1369,7 +1369,7 @@ used.</p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p>The <a href="NIM_Services" title="wikilink">"nim:u"</a> service
+<td><p>The <a href="../NIM_Services" title="wikilink">"nim:u"</a> service
 handle is initialized with srv_GetServiceHandle. Then NIMU commands
 0x000F0042, 0x00170042, 0x00150000, and 0x00050000 are used.</p></td>
 </tr>
@@ -1384,7 +1384,7 @@ RomFS data is read.</p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu CXI RomFS data is read. <a href="Filesystem_services"
+<td><p>Home Menu CXI RomFS data is read. <a href="../Filesystem_services"
 title="wikilink">FS:GetSpecialContentIndex</a> for the gamecard is used,
 then MICU initialization is done here(separate thread maybe?).</p></td>
 </tr>
@@ -1392,7 +1392,7 @@ then MICU initialization is done here(separate thread maybe?).</p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p><a href="ACU:GetWifiStatus"
+<td><p><a href="../ACU:GetWifiStatus"
 title="wikilink">ACU:GetWifiStatus</a> is used, the NAND shared-extdata
 0xf000000b archive is then opened here.</p></td>
 </tr>
@@ -1401,9 +1401,9 @@ title="wikilink">ACU:GetWifiStatus</a> is used, the NAND shared-extdata
 <td><p>"/idb.dat"</p></td>
 <td><p>0x2008</p></td>
 <td><p>This first opens the file for writing, then uses <a
-href="FSFile:GetSize" title="wikilink">FSFile:GetSize</a>(output
+href="../FSFile:GetSize" title="wikilink">FSFile:GetSize</a>(output
 filesize is 0x6d4000). Then it writes to the file using size 0, then
-closes the file. Then <a href="PTM_Services"
+closes the file. Then <a href="../PTM_Services"
 title="wikilink">PTM:GetStepHistory</a> is used. Then Home Menu opens
 "/idbt.dat", then reads 0x2008-bytes.</p></td>
 </tr>
@@ -1411,18 +1411,18 @@ title="wikilink">PTM:GetStepHistory</a> is used. Then Home Menu opens
 <td></td>
 <td></td>
 <td></td>
-<td><p>Home Menu starts using <a href="News_Services"
+<td><p>Home Menu starts using <a href="../News_Services"
 title="wikilink">"<span>news:s</span>"</a> commands here. While Home
 Menu is doing this, it also uses(from another thread?) <a
-href="NS_and_APT_Services"
+href="../NS_and_APT_Services"
 title="wikilink"><span>APT:PrepareToStartNewestHomeMenu</span></a>, <a
-href="NIM_Services" title="wikilink">NIMU:GetState</a>, and <a
-href="NDM_Services" title="wikilink">NDMU:OverrideDefaultDaemons</a>
+href="../NIM_Services" title="wikilink">NIMU:GetState</a>, and <a
+href="../NDM_Services" title="wikilink">NDMU:OverrideDefaultDaemons</a>
 with input value 0xF. Later with that news-command code still running,
-Home Menu also uses the following commands: <a href="ACU:GetWifiStatus"
-title="wikilink">ACU:GetWifiStatus</a>, <a href="NDM_Services"
+Home Menu also uses the following commands: <a href="../ACU:GetWifiStatus"
+title="wikilink">ACU:GetWifiStatus</a>, <a href="../NDM_Services"
 title="wikilink">NDMU:QueryExclusiveMode</a>, and CECDS command
-0x000E0000. Then <a href="Config_Savegame" title="wikilink">cfg</a>
+0x000E0000. Then <a href="../Config_Savegame" title="wikilink">cfg</a>
 blkID 0x000D0000 is loaded.</p></td>
 </tr>
 <tr class="even">
@@ -1450,7 +1450,7 @@ blkID 0x000D0000 is loaded.</p></td>
 <td><p>...</p></td>
 </tr>
 <tr class="even">
-<td><p>Home Menu <a href="System_SaveData"
+<td><p>Home Menu <a href="../System_SaveData"
 title="wikilink">System_SaveData</a></p></td>
 <td><p>"/Launcher.dat"</p></td>
 <td></td>

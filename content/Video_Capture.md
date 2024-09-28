@@ -9,7 +9,7 @@ The information on this page was found by 3DBrew User:
 [Matyapiro31](User:Matyapiro31 "wikilink")
 
 <figure>
-<img src="Pinout_point.jpg" title="Pinout_point.jpg" width="300" />
+<img src="../Pinout_point.jpg" title="Pinout_point.jpg" width="300" />
 <figcaption>Pinout_point.jpg</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ HSYNC (TP190) and VSYNC (TP191). The used sample rate were 50MHz.
 The full plot shows about 2.6ms.
 
 <figure>
-<img src="Stp_PCLK_VSYNC_HSYNC_full.jpg"
+<img src="../Stp_PCLK_VSYNC_HSYNC_full.jpg"
 title="Stp_PCLK_VSYNC_HSYNC_full.jpg" width="1200" />
 <figcaption>Stp_PCLK_VSYNC_HSYNC_full.jpg</figcaption>
 </figure>
@@ -55,7 +55,7 @@ title="Stp_PCLK_VSYNC_HSYNC_full.jpg" width="1200" />
 This plot shows 1.28us, mainly featuring the clock
 
 <figure>
-<img src="Stp_PCLK_VSYNC_HSYNC_0..64.jpg"
+<img src="../Stp_PCLK_VSYNC_HSYNC_0..64.jpg"
 title="Stp_PCLK_VSYNC_HSYNC_0..64.jpg" width="1200" />
 <figcaption>Stp_PCLK_VSYNC_HSYNC_0..64.jpg</figcaption>
 </figure>

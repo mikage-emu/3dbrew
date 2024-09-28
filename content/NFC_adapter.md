@@ -12,7 +12,7 @@ with which it's optionally bundled; it can also be bought standalone at
 a nominal price of 21 €.
 
 <figure>
-<img src="150217nfcreader-640x360.jpg"
+<img src="../150217nfcreader-640x360.jpg"
 title="150217nfcreader-640x360.jpg" />
 <figcaption>150217nfcreader-640x360.jpg</figcaption>
 </figure>

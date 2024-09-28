@@ -18,12 +18,12 @@ back to the same registers (also starting with r0).
 <tr class="odd">
 <td><p>0x01</p></td>
 <td><p>ControlMemory</p></td>
-<td><p><code>r0</code>: <a href="Memory_Management#enum_MemoryOperation"
+<td><p><code>r0</code>: <a href="../Memory_Management#enum_MemoryOperation"
 title="wikilink"><code>MemoryOperation</code></a><code> operation</code><br />
 <code>r1</code>: <code>u32/void* addr0</code><br />
 <code>r2</code>: <code>u32/void* addr1</code><br />
 <code>r3</code>: <code>u32 size</code><br />
-<code>r4</code>: <a href="Memory_Management#enum_MemoryPermission"
+<code>r4</code>: <a href="../Memory_Management#enum_MemoryPermission"
 title="wikilink"><code>MemoryPermission</code></a><code> permissions</code></p></td>
 <td><p><code>r0</code>: <code>Result</code><br />
 <code>r1</code>: <code>u32/void* addr_out</code></p></td>
@@ -35,11 +35,11 @@ title="wikilink"><code>MemoryPermission</code></a><code> permissions</code></p><
 <td><p><code>r0</code>: <code>Result</code><br />
 <code>r1</code>: <code>u32 base_process_virtual_address</code><br />
 <code>r2</code>: <code>u32 size</code><br />
-<code>r3</code>: <a href="Memory_Management#enum_MemoryPermission"
+<code>r3</code>: <a href="../Memory_Management#enum_MemoryPermission"
 title="wikilink"><code>MemoryPermission</code></a><code> permission</code><br />
-<code>r4</code>: <a href="Memory_Management#enum_MemoryState"
+<code>r4</code>: <a href="../Memory_Management#enum_MemoryState"
 title="wikilink"><code>MemoryState</code></a><code> state</code><br />
-<code>r5</code>: <a href="Memory_Management#enum_PageFlags"
+<code>r5</code>: <a href="../Memory_Management#enum_PageFlags"
 title="wikilink"><code>PageFlags</code></a><code> page_flags</code></p></td>
 </tr>
 <tr class="odd">
@@ -52,7 +52,7 @@ title="wikilink"><code>PageFlags</code></a><code> page_flags</code></p></td>
 <td><p>0x04</p></td>
 <td><p>GetProcessAffinityMask</p></td>
 <td><p><code>r0</code>: <code>[out] u8* affinitymask</code><br />
-<code>r1</code>: <code>Handle&lt;</code><a href="KProcess"
+<code>r1</code>: <code>Handle&lt;</code><a href="../KProcess"
 title="wikilink"><code>KProcess</code></a><code>&gt; process</code><br />
 <code>r2</code>: <code>s32 processorcount</code></p></td>
 <td><p><code>r0</code>: <code>Result</code></p></td>
@@ -60,7 +60,7 @@ title="wikilink"><code>KProcess</code></a><code>&gt; process</code><br />
 <tr class="odd">
 <td><p>0x05</p></td>
 <td><p>SetProcessAffinityMask</p></td>
-<td><p><code>r0</code>: <code>Handle&lt;</code><a href="KProcess"
+<td><p><code>r0</code>: <code>Handle&lt;</code><a href="../KProcess"
 title="wikilink"><code>KProcess</code></a><code>&gt; process</code><br />
 <code>r1</code>: <code>[in] const u8* affinitymask</code><br />
 <code>r2</code>: <code>s32 processorcount</code></p></td>
@@ -69,7 +69,7 @@ title="wikilink"><code>KProcess</code></a><code>&gt; process</code><br />
 <tr class="even">
 <td><p>0x06</p></td>
 <td><p>GetProcessIdealProcessor</p></td>
-<td><p><code>r1</code>?: <code>Handle&lt;</code><a href="KProcess"
+<td><p><code>r1</code>?: <code>Handle&lt;</code><a href="../KProcess"
 title="wikilink"><code>KProcess</code></a><code>&gt; process</code></p></td>
 <td><p><code>r0</code>: <code>Result</code><br />
 <code>r1</code>: <code>s32 processorid</code><br />
@@ -78,7 +78,7 @@ title="wikilink"><code>KProcess</code></a><code>&gt; process</code></p></td>
 <tr class="odd">
 <td><p>0x07</p></td>
 <td><p>SetProcessIdealProcessor</p></td>
-<td><p><code>r0</code>: <code>Handle&lt;</code><a href="KProcess"
+<td><p><code>r0</code>: <code>Handle&lt;</code><a href="../KProcess"
 title="wikilink"><code>KProcess</code></a><code>&gt; process</code><br />
 <code>r1</code>: <code>s32 processorid</code></p></td>
 <td><p><code>r0</code>: <code>Result</code><br />
@@ -93,7 +93,7 @@ title="wikilink"><code>KProcess</code></a><code>&gt; process</code><br />
 <code>r3</code>: <code>u32/void* stack_top</code><br />
 <code>r4</code>: <code>s32 processor_id</code></p></td>
 <td><p><code>r0</code>: <code>Result</code><br />
-<code>r1</code>: <code>Handle&lt;</code><a href="KThread"
+<code>r1</code>: <code>Handle&lt;</code><a href="../KThread"
 title="wikilink"><code>KThread</code></a><code>&gt; thread_handle</code></p></td>
 </tr>
 <tr class="odd">
@@ -120,7 +120,7 @@ title="wikilink"><code>KThread</code></a><code>&gt; thread_handle</code></p></td
 <tr class="even">
 <td><p>0x0C</p></td>
 <td><p>SetThreadPriority</p></td>
-<td><p><code>r0</code>: <code>Handle&lt;</code><a href="KThread"
+<td><p><code>r0</code>: <code>Handle&lt;</code><a href="../KThread"
 title="wikilink"><code>KThread</code></a><code>&gt; thread_handle</code><br />
 <code>r1</code>: <code>s32 thread_priority</code></p></td>
 <td><p><code>r0</code>: <code>Result</code></p></td>
@@ -129,7 +129,7 @@ title="wikilink"><code>KThread</code></a><code>&gt; thread_handle</code><br />
 <td><p>0x0D</p></td>
 <td><p>GetThreadAffinityMask</p></td>
 <td><p><code>r0</code>: <code>[out] u8* affinitymask</code><br />
-<code>r1</code>: <code>Handle&lt;</code><a href="KThread"
+<code>r1</code>: <code>Handle&lt;</code><a href="../KThread"
 title="wikilink"><code>KThread</code></a><code>&gt; thread_handle</code><br />
 <code>r2</code>: <code>s32 processorcount</code></p></td>
 <td><p><code>r0</code>: <code>Result</code></p></td>
@@ -137,7 +137,7 @@ title="wikilink"><code>KThread</code></a><code>&gt; thread_handle</code><br />
 <tr class="even">
 <td><p>0x0E</p></td>
 <td><p>SetThreadAffinityMask</p></td>
-<td><p><code>r0</code>: <code>Handle&lt;</code><a href="KThread"
+<td><p><code>r0</code>: <code>Handle&lt;</code><a href="../KThread"
 title="wikilink"><code>KThread</code></a><code>&gt; thread_handle</code><br />
 <code>r1</code>: <code>[in] const u8* affinitymask</code><br />
 <code>r2</code>: <code>s32 processorcount</code></p></td>
@@ -147,7 +147,7 @@ title="wikilink"><code>KThread</code></a><code>&gt; thread_handle</code><br />
 <td><p>0x0F</p></td>
 <td><p>GetThreadIdealProcessor</p></td>
 <td><p><code>r0</code>: Ignored?<br />
-<code>r1</code>: <code>Handle&lt;</code><a href="KThread"
+<code>r1</code>: <code>Handle&lt;</code><a href="../KThread"
 title="wikilink"><code>KThread</code></a><code>&gt; thread_handle</code></p></td>
 <td><p><code>r0</code>: <code>Result</code><br />
 <code>r1</code>: <code>s32 processorid</code></p></td>
@@ -155,7 +155,7 @@ title="wikilink"><code>KThread</code></a><code>&gt; thread_handle</code></p></td
 <tr class="even">
 <td><p>0x10</p></td>
 <td><p>SetThreadIdealProcessor</p></td>
-<td><p><code>r0</code>: <code>Handle&lt;</code><a href="KThread"
+<td><p><code>r0</code>: <code>Handle&lt;</code><a href="../KThread"
 title="wikilink"><code>KThread</code></a><code>&gt; thread_handle</code><br />
 <code>r1</code>: <code>s32 processorid</code></p></td>
 <td><p><code>r0</code>: <code>Result</code></p></td>
@@ -170,7 +170,7 @@ title="wikilink"><code>KThread</code></a><code>&gt; thread_handle</code><br />
 <td><p>0x24</p></td>
 <td><p>WaitSynchronization1</p></td>
 <td><p><code>r0</code>: <code>Handle&lt;</code><a
-href="KSynchronizationObject"
+href="../KSynchronizationObject"
 title="wikilink"><code>KSynchronizationObject</code></a><code>&gt; handle</code><br />
 <code>r2-r3</code>: <code>s64 timeout</code></p></td>
 <td><p><code>r0</code>: <code>Result</code></p></td>
@@ -195,13 +195,13 @@ interval_high</p></td>
 <td><p>??<br />
 <code>r1</code>: <code>pointer to port name</code></p></td>
 <td><p><code>r0</code>: <code>Result</code><br />
-<code>r1</code>: <code>handle to </code><a href="KClientSession"
+<code>r1</code>: <code>handle to </code><a href="../KClientSession"
 title="wikilink"><code>KClientSession</code></a></p></td>
 </tr>
 <tr class="even">
 <td><p>0x32</p></td>
 <td><p>SendSyncRequest</p></td>
-<td><p><code>r0</code>: <code>handle to </code><a href="KClientSession"
+<td><p><code>r0</code>: <code>handle to </code><a href="../KClientSession"
 title="wikilink"><code>KClientSession</code></a></p></td>
 <td><p><code>r0</code>: <code>Result<code></p></td>
 </tr>

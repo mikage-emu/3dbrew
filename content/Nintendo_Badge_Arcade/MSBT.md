@@ -140,7 +140,7 @@ Below are raw hex blocks of example messages, and what they appear as.
 <div class="figure">
 
 <figure>
-<img src="Nba-example-color.png" title="Color Example" />
+<img src="../../Nba-example-color.png" title="Color Example" />
 <figcaption>Color Example</figcaption>
 </figure>
 
@@ -161,7 +161,7 @@ Below are raw hex blocks of example messages, and what they appear as.
 <div class="figure">
 
 <figure>
-<img src="Nba-example-scale.png" title="FS Example" />
+<img src="../../Nba-example-scale.png" title="FS Example" />
 <figcaption>FS Example</figcaption>
 </figure>
 

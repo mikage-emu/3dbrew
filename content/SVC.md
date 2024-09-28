@@ -477,8 +477,8 @@ operation involving synchronization between cores.
 <td><p>Arguments : <code>u64 firmTitleID</code> (the high 32-bits of
 that title ID (0 when using N3DS pm) have a special meaning on N3DS,
 they're otherwise ignored, see below). This initializes the programID
-for launching <a href="FIRM" title="wikilink">FIRM</a>, then triggers
-launching <a href="FIRM" title="wikilink">FIRM</a>. With New3DS kernel,
+for launching <a href="../FIRM" title="wikilink">FIRM</a>, then triggers
+launching <a href="../FIRM" title="wikilink">FIRM</a>. With New3DS kernel,
 it forces the firm title ID to be the New3DS NATIVE_FIRM, when the input
 firm title ID is 2. The high firm title ID is always set to 0x40138. On
 New3DS, the kernel disables the additional New3DS cache hw prior to
@@ -507,7 +507,7 @@ enabled, prior to executing the rest of the code from the
 <td><p>No</p></td>
 <td><p>Arguments: <code>0, void* address</code> or <code>1</code> This
 used for initializing the 0x1000-byte buffer used by the launched <a
-href="FIRM" title="wikilink">FIRM</a>. When the first parameter is 1,
+href="../FIRM" title="wikilink">FIRM</a>. When the first parameter is 1,
 this buffer is copied to the beginning of FCRAM at 0xE0000000. When it
 is 0, this kernel buffer is mapped to the process address specified by
 the second argument.</p></td>
@@ -548,16 +548,16 @@ specified exception info buffer is 1, sp_usr - 0x5c is used instead, and
 if it is 0, <specified stack> - 0x5c is used (0x5c is the size of the
 exception info structure that is being pushed). Configured by NS on
 startup on dev-units (default being 0 on non-debugger/jtag units) using
-the 0x000F0000 configuration block in the <a href="Config_Savegame"
+the 0x000F0000 configuration block in the <a href="../Config_Savegame"
 title="wikilink">config savegame</a>.</p>
 <p>If 2, kernelpanic will be called when svcBreak is used by a
 non-attached process. Configured by NS on startup on dev-units (default
 being 0 on non-debugger/jtag units) using the 0x000F0000 configuration
-block in the <a href="Config_Savegame" title="wikilink">config
+block in the <a href="../Config_Savegame" title="wikilink">config
 savegame</a>.</p>
 <p>If 3, this changes the scheduling/preemption mode (when no threads
 are being preempted, otherwise returns error 0xC8A01414), see <a
-href="KResourceLimit" title="wikilink">KResourceLimit</a> for more
+href="../KResourceLimit" title="wikilink">KResourceLimit</a> for more
 details.</p></td>
 </tr>
 <tr class="even">
@@ -565,7 +565,7 @@ details.</p></td>
 <td><p>Yes</p></td>
 <td><p>No</p></td>
 <td><p>This triggers an MCU (hard) reboot. This reboot is triggered via
-device address 0x4A on the second <a href="I2C" title="wikilink">I2C</a>
+device address 0x4A on the second <a href="../I2C" title="wikilink">I2C</a>
 bus (the MCU). Register address 0x20 is written to with value 4. This
 code will not return. On New3DS, the kernel disables the additional
 New3DS cache hw prior to calling the reboot function from the
@@ -587,7 +587,7 @@ v4.5.</p></td>
 the process has a non-zero TID equal to the parameter above (which is
 stored in a global variable), then KProcessHwInfo+0x32 ("process is the
 currently running app") is set to <code>true</code>. Used by NS
-conditionally based on the contents of the <a href="NS_CFA"
+conditionally based on the contents of the <a href="../NS_CFA"
 title="wikilink">NS CFA</a>.</p></td>
 </tr>
 <tr class="odd">
@@ -595,14 +595,14 @@ title="wikilink">NS CFA</a>.</p></td>
 <td><p>Yes</p></td>
 <td><p>?</p></td>
 <td><p>Arguments: <code>u32 config</code> ConfigureNew3DSCPU. Only
-available for the <a href="New_3DS" title="wikilink">New_3DS</a> kernel.
+available for the <a href="../New_3DS" title="wikilink">New_3DS</a> kernel.
 The actual code for processing this runs under the
 <handler for the KernelSetState-types called via funcptr>, which runs on
 all ARM11 cores. Only bit0-1 of the argument are used here. Bit 0
 enables higher core clock, and bit 1 enables additional (L2) cache. This
-configures the hardware <a href="PDN_Registers"
+configures the hardware <a href="../PDN_Registers"
 title="wikilink">register</a> for the flags listed <a
-href="NCCH/Extended_Header#Flag1" title="wikilink">here</a>, among other
+href="../NCCH/Extended_Header#Flag1" title="wikilink">here</a>, among other
 code which uses the MPCore private memory region registers.</p></td>
 </tr>
 </tbody>

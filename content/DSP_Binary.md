@@ -34,9 +34,9 @@ categories = ["File formats","DSP"]
 represents a memory region. The region is always 0x8000 bytes in size
 (the first region starts at 0x1FF00000; the next is a 0x1FF08000 and so
 on). The HW registers for DSP memory configuration are <a
-href="CONFIG11_Registers#CFG11_SHAREDWRAM_32K_DATA"
+href="../CONFIG11_Registers#CFG11_SHAREDWRAM_32K_DATA"
 title="wikilink">CFG11_SHAREDWRAM_32K_DATA</a> and <a
-href="CONFIG11_Registers#CFG11_SHAREDWRAM_32K_CODE"
+href="../CONFIG11_Registers#CFG11_SHAREDWRAM_32K_CODE"
 title="wikilink">CFG11_SHAREDWRAM_32K_CODE</a>, located at physical
 address 0x10140000 (mapped to 0x1EC40000).</p></td>
 </tr>
@@ -60,7 +60,7 @@ ram)+,2=0x1FF40000(Data ram)+)</p></td>
 <td><p>0x10F</p></td>
 <td><p>1</p></td>
 <td><p>Flags:</p>
-<p>bit0: if set, DSP module calls <a href="DSP:RecvData"
+<p>bit0: if set, DSP module calls <a href="../DSP:RecvData"
 title="wikilink">DSP:RecvData</a> on all three registers and expects
 them to reply value 1</p>
 <p>bit1: if set, load special segment</p></td>

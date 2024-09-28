@@ -478,7 +478,7 @@ When the 3DS does not find the NAND chip, the following error is
 displayed:
 
 <figure>
-<img src="CTR_Bootrom_Error.jpg" title="CTR_Bootrom_Error.jpg"
+<img src="../CTR_Bootrom_Error.jpg" title="CTR_Bootrom_Error.jpg"
 width="240" />
 <figcaption>CTR_Bootrom_Error.jpg</figcaption>
 </figure>

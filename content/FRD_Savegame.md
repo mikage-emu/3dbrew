@@ -150,7 +150,7 @@ digit</p></td>
 <tr class="odd">
 <td><p>0xBB</p></td>
 <td><p>0x60</p></td>
-<td><p>Unaligned <a href="Mii#Mii_format" title="wikilink">Mii
+<td><p>Unaligned <a href="../Mii#Mii_format" title="wikilink">Mii
 data</a></p></td>
 </tr>
 <tr class="even">
@@ -255,7 +255,7 @@ href="https://github.com/kinnay/NintendoClients/wiki/NEX-Common-Types#datetime">
 <tr class="even">
 <td><p>0x70</p></td>
 <td><p>0x60</p></td>
-<td><p><a href="Mii#Mii_format" title="wikilink">Mii data</a></p></td>
+<td><p><a href="../Mii#Mii_format" title="wikilink">Mii data</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>0xD0</p></td>

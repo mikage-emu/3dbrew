@@ -276,9 +276,9 @@ v0.1
 ## Screen shot
 
 <figure>
-<img src="Screenshot_3dsexplorer.png"
+<img src="../Screenshot_3dsexplorer.png"
 title="File:Screenshot 3dsexplorer.png" />
-<figcaption><a href="File:Screenshot">File:Screenshot</a>
+<figcaption><a href="../File:Screenshot">File:Screenshot</a>
 3dsexplorer.png</figcaption>
 </figure>
 

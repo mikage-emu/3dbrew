@@ -125,7 +125,7 @@ v0.06
 ## Screenshot
 
 <figure>
-<img src="Crappy-tiny-reader.png" title="File:Crappy-tiny-reader.png" />
+<img src="../Crappy-tiny-reader.png" title="File:Crappy-tiny-reader.png" />
 <figcaption><a
-href="File:Crappy-tiny-reader.png">File:Crappy-tiny-reader.png</a></figcaption>
+href="../File:Crappy-tiny-reader.png">File:Crappy-tiny-reader.png</a></figcaption>
 </figure>

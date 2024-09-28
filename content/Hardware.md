@@ -154,10 +154,10 @@ PICA200, 268Mhz.
 Block diagram of an ULTRAY2000 based architecture PICA200:
 
 <figure>
-<img src="Pica200BlockDiagram.png"
+<img src="../Pica200BlockDiagram.png"
 title="File:Pica200BlockDiagram.png" />
 <figcaption><a
-href="File:Pica200BlockDiagram.png">File:Pica200BlockDiagram.png</a></figcaption>
+href="../File:Pica200BlockDiagram.png">File:Pica200BlockDiagram.png</a></figcaption>
 </figure>
 
 PICA200 is compatible with OpenGL ES 1.1. It furthermore provides unique
@@ -228,7 +228,7 @@ compatibility.
 ### Front
 
 <figure>
-<img src="CTR_Front.jpg" title="CTR_Front.jpg" width="600" />
+<img src="../CTR_Front.jpg" title="CTR_Front.jpg" width="600" />
 <figcaption>CTR_Front.jpg</figcaption>
 </figure>
 
@@ -237,7 +237,7 @@ compatibility.
 ### Back
 
 <figure>
-<img src="CTR_Back.jpg" title="Image:CTR_Back.jpg" />
+<img src="../CTR_Back.jpg" title="Image:CTR_Back.jpg" />
 <figcaption>Image:CTR_Back.jpg</figcaption>
 </figure>
 
@@ -250,14 +250,14 @@ NAND dumping has been successful, but the image is encrypted.
 #### Normal model
 
 <figure>
-<img src="CTR_NAND_pinout.png" title="Image:CTR_NAND_pinout.png" />
+<img src="../CTR_NAND_pinout.png" title="Image:CTR_NAND_pinout.png" />
 <figcaption>Image:CTR_NAND_pinout.png</figcaption>
 </figure>
 
 #### XL model
 
 <figure>
-<img src="CTR_NAND_pinout_XL.jpg" title="CTR_NAND_pinout_XL.jpg"
+<img src="../CTR_NAND_pinout_XL.jpg" title="CTR_NAND_pinout_XL.jpg"
 width="500" />
 <figcaption>CTR_NAND_pinout_XL.jpg</figcaption>
 </figure>
@@ -265,28 +265,28 @@ width="500" />
 #### 2DS
 
 <figure>
-<img src="2DSeMMC.jpg" title="2DSeMMC.jpg" width="500" />
+<img src="../2DSeMMC.jpg" title="2DSeMMC.jpg" width="500" />
 <figcaption>2DSeMMC.jpg</figcaption>
 </figure>
 
 #### New 3DS
 
 <figure>
-<img src="N3DSeMMC.jpg" title="Image:N3DSeMMC.jpg" />
+<img src="../N3DSeMMC.jpg" title="Image:N3DSeMMC.jpg" />
 <figcaption>Image:N3DSeMMC.jpg</figcaption>
 </figure>
 
 #### New 3DS XL
 
 <figure>
-<img src="N3DSXLeMMC.jpg" title="Image:N3DSXLeMMC.jpg" />
+<img src="../N3DSXLeMMC.jpg" title="Image:N3DSXLeMMC.jpg" />
 <figcaption>Image:N3DSXLeMMC.jpg</figcaption>
 </figure>
 
 ### WiFi dongle pinout
 
 <figure>
-<img src="CTR_WiFiDongle_pinout.png" title="CTR_WiFiDongle_pinout.png"
+<img src="../CTR_WiFiDongle_pinout.png" title="CTR_WiFiDongle_pinout.png"
 width="600" />
 <figcaption>CTR_WiFiDongle_pinout.png</figcaption>
 </figure>
@@ -319,7 +319,7 @@ SPI Flash is colored purple:
 ### Auxiliary Microcontroller (MCU)
 
 <figure>
-<img src="CTR_UC.png" title="CTR_UC.png" width="600" />
+<img src="../CTR_UC.png" title="CTR_UC.png" width="600" />
 <figcaption>CTR_UC.png</figcaption>
 </figure>
 

@@ -150,7 +150,7 @@ discrete logarithm of the output.</p>
 <p>By setting the modulus to a prime number whose modular multiplicative
 order is "smooth" (that is, p-1 is divisible by only small prime
 numbers), discrete logarithms can be calculated quickly using the <a
-href="../wikipedia:Pohlig-Hellman_algorithm"
+href="https://en.wikipedia.org/wiki/Pohlig%E2%80%93Hellman_algorithm"
 title="wikilink">Pohlig-Hellman algorithm</a>. If the prime chosen is
 greater than the modulus, but the same bit size, the discrete logarithm
 is the private exponent.</p>

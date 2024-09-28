@@ -77,7 +77,7 @@ register area.
 
 Writing to RSA_MOD does not change the exponent written with
 RSA_EXPFIFO. An attack based on the [Pohlig-Hellman
-algorithm](wikipedia:Pohlig-Hellman_algorithm "wikilink") exists to
+algorithm](https://en.wikipedia.org/wiki/Pohlig%E2%80%93Hellman_algorithm "wikilink") exists to
 "read" the contents of RSA_EXPFIFO as a result (see [3DS System
 Flaws](3DS_System_Flaws#hardware "wikilink")).
 

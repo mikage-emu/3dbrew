@@ -139,7 +139,7 @@ you would expect.
 ### Biquad Filter
 
 This is a [biquadratic
-filter](wikipedia:Digital_biquad_filter "wikilink").
+filter](https://en.wikipedia.org/wiki/Digital_biquad_filter "wikilink").
 
 |        |       |              |
 |--------|-------|--------------|

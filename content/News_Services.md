@@ -114,10 +114,10 @@ The actual main function called by main() does the following:
 <tbody>
 <tr class="odd">
 <td>v7168</td>
-<td><a href="../9.7.0-25" title="wikilink">9.7.0-X</a></td>
+<td><a {{% href "../9.7.0-25" %}} title="wikilink">9.7.0-X</a></td>
 <td>All of the changes are the following:</p>
 <ul>
-<li>See <a href="../9.7.0-25" title="wikilink">here</a> regarding the
+<li>See <a {{% href "../9.7.0-25" %}} title="wikilink">here</a> regarding the
 updated CTRSDK function code.</li>
 <li>This function is eventually called by newss_cmdf, newss_cmd10, and
 <certain function>. When calling a certain function fails in here, this

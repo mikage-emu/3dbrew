@@ -26,7 +26,7 @@ title = 'GSPGPU:RegisterInterruptRelayQueue'
 </tr>
 <tr class="even">
 <td>3</td>
-<td><a href="../KEvent" title="wikilink">KEvent</a> handle</td>
+<td><a {{% href "../KEvent" %}} title="wikilink">KEvent</a> handle</td>
 </tr>
 </tbody>
 </table>
@@ -59,7 +59,7 @@ title = 'GSPGPU:RegisterInterruptRelayQueue'
 </tr>
 <tr class="odd">
 <td>4</td>
-<td><a href="../SVC" title="wikilink">Shared</a> memory handle</td>
+<td><a {{% href "../SVC" %}} title="wikilink">Shared</a> memory handle</td>
 </tr>
 </tbody>
 </table>

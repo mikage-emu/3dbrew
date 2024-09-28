@@ -29,7 +29,7 @@ string)</td>
 <tr class="even">
 <td>3</td>
 <td>(size &lt;&lt; 14) {{!}} (static_buffer_id &lt;&lt; 10)}} for <a
-href="../IPC#static_buffer_translation" title="wikilink">static buffer</a>
+{{% href "../IPC" %}} title="wikilink">static buffer</a>
 (id 0)</td>
 </tr>
 <tr class="odd">
@@ -39,7 +39,7 @@ href="../IPC#static_buffer_translation" title="wikilink">static buffer</a>
 <tr class="even">
 <td>5</td>
 <td>(size &lt;&lt; 14) {{!}} (static_buffer_id &lt;&lt; 10)}} for <a
-href="../IPC#static_buffer_translation" title="wikilink">static buffer</a>
+{{% href "../IPC" %}} title="wikilink">static buffer</a>
 (id 1)</td>
 </tr>
 <tr class="odd">

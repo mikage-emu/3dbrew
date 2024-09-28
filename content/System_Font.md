@@ -46,7 +46,7 @@ Header structure:
 <td>0x4</td>
 <td>0x4</td>
 <td>Region. Indicates which <a
-href="../Title_list#0004009b---shared-data-archives"
+{{% href "../Title_list" %}}
 title="wikilink">system font archive</a> is loaded 1: region JPN/EUR/USA
 (archive 0004009B00014002)</p>
 <p>2: region CHN (archive 0004009B00014102)</p>

@@ -833,26 +833,26 @@ handling [SD_Savedata_Backups](SD_Savedata_Backups "wikilink").
 <td></td>
 <td>srv_init(), then srv_GetServiceHandle is used to initialize the
 service handles for the following services: <a
-href="../NS_and_APT_Services" title="wikilink">ns:s</a>, <a
-href="../PTM_Services" title="wikilink">ptm:sysm</a>, and <a
-href="../Config_Services" title="wikilink">cfg:s</a>.</td>
+{{% href "../NS_and_APT_Services" %}} title="wikilink">ns:s</a>, <a
+{{% href "../PTM_Services" %}} title="wikilink">ptm:sysm</a>, and <a
+{{% href "../Config_Services" %}} title="wikilink">cfg:s</a>.</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><a href="../CfgS:SecureInfoGetByte101"
+<td><a {{% href "../CfgS:SecureInfoGetByte101" %}}
 title="wikilink">CfgS:SecureInfoGetByte101</a> and <a
-href="../CfgS:GetLocalFriendCodeSeed"
+{{% href "../CfgS:GetLocalFriendCodeSeed" %}}
 title="wikilink">CfgS:GetLocalFriendCodeSeed</a> are used, the output
 data from these are not used. If either of these return an error, Home
-Menu uses <a href="../ERR:Throw" title="wikilink">ERR:Throw</a>.</td>
+Menu uses <a {{% href "../ERR:Throw" %}} title="wikilink">ERR:Throw</a>.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><a href="../Cfg:GetSystemModel"
+<td><a {{% href "../Cfg:GetSystemModel" %}}
 title="wikilink">Cfg:GetSystemModel</a> is then used to initialize a
 Home Menu state field.</td>
 </tr>
@@ -861,24 +861,24 @@ Home Menu state field.</td>
 <td></td>
 <td></td>
 <td>Home Menu then loads the system language via <a
-href="../CfgS:GetConfigInfoBlk2"
+{{% href "../CfgS:GetConfigInfoBlk2" %}}
 title="wikilink">CfgS:GetConfigInfoBlk2</a>, and uses <a
-href="../Cfg:SecureInfoGetRegion"
+{{% href "../Cfg:SecureInfoGetRegion" %}}
 title="wikilink">Cfg:SecureInfoGetRegion</a>, to initialize Home Menu
 region/language state. Home Menu then uses <a
-href="../Cfg:SecureInfoGetRegion"
+{{% href "../Cfg:SecureInfoGetRegion" %}}
 title="wikilink">Cfg:SecureInfoGetRegion</a> again, then loads the <a
-href="../Config_Savegame" title="wikilink">CountryInfo</a> via <a
-href="../CfgS:GetConfigInfoBlk2"
+{{% href "../Config_Savegame" %}} title="wikilink">CountryInfo</a> via <a
+{{% href "../CfgS:GetConfigInfoBlk2" %}}
 title="wikilink">CfgS:GetConfigInfoBlk2</a>.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td>Home Menu initializes <a href="../Filesystem_services"
+<td>Home Menu initializes <a {{% href "../Filesystem_services" %}}
 title="wikilink">fs:USER</a> here. Home Menu then mounts the Home Menu
-CXI RomFS. Then Home Menu uses <a href="../Filesystem_services"
+CXI RomFS. Then Home Menu uses <a {{% href "../Filesystem_services" %}}
 title="wikilink">FSUSER:GetPriority</a>.</td>
 </tr>
 <tr class="even">
@@ -886,14 +886,14 @@ title="wikilink">FSUSER:GetPriority</a>.</td>
 <td></td>
 <td></td>
 <td>Home Menu starts APT initialization / using APT service commands
-here. Eventually Home Menu then <a href="../NSS:LaunchTitle"
+here. Eventually Home Menu then <a {{% href "../NSS:LaunchTitle" %}}
 title="wikilink">launches</a> various system-modules.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td>Here Home Menu attempts to open NAND shared-<a href="../extdata"
+<td>Here Home Menu attempts to open NAND shared-<a {{% href "../Extdata" %}}
 title="wikilink">extdata</a> 0xe0000000, which will normally fail since
 it doesn't exist.</td>
 </tr>
@@ -901,7 +901,7 @@ it doesn't exist.</td>
 <td></td>
 <td></td>
 <td></td>
-<td>Here Home Menu uses <a href="../Application_Manager_Services"
+<td>Here Home Menu uses <a {{% href "../Application_Manager_Services" %}}
 title="wikilink">AM</a> command 0x00130040, with input u8 = value 0x0.
 Home Menu continues using APT commands after this.</td>
 </tr>
@@ -909,21 +909,21 @@ Home Menu continues using APT commands after this.</td>
 <td></td>
 <td></td>
 <td></td>
-<td><a href="../HID_Services" title="wikilink">hid:SPVR</a> service
+<td><a {{% href "../HID_Services" %}} title="wikilink">hid:SPVR</a> service
 initialization is done here.</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td><a href="../PTM_Services"
+<td><a {{% href "../PTM_Services" %}}
 title="wikilink">PTMSYSM:GetShellStatus</a> is used here.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><a href="../Filesystem_services"
+<td><a {{% href "../Filesystem_services" %}}
 title="wikilink">FSUSER:GetCardType</a> is used here. AM commands are
 then used to get the inserted gamecard programID, when successful the
 gamecard ExeFS:/icon is then read to check the auto-boot flag(see the
@@ -966,7 +966,7 @@ and CountryInfo.</td>
 <td></td>
 <td></td>
 <td></td>
-<td><a href="../NS_and_APT_Services"
+<td><a {{% href "../NS_and_APT_Services" %}}
 title="wikilink"><span>APT:GetSharedFont</span></a> is used
 here.</td>
 </tr>
@@ -980,7 +980,7 @@ here.</td>
 <td></td>
 <td></td>
 <td></td>
-<td>Here Home Menu loads the <a href="../Config_Savegame"
+<td>Here Home Menu loads the <a {{% href "../Config_Savegame" %}}
 title="wikilink">cfg</a> state for blkID 0x50005.</td>
 </tr>
 <tr class="even">
@@ -1006,7 +1006,7 @@ commands etc + loads sound data from RomFS.</td>
 <td></td>
 <td></td>
 <td></td>
-<td><a href="../APT:GetCaptureInfo"
+<td><a {{% href "../APT:GetCaptureInfo" %}}
 title="wikilink"><span>APT:GetCaptureInfo</span></a> is used
 here.</td>
 </tr>
@@ -1020,15 +1020,15 @@ here.</td>
 <td></td>
 <td></td>
 <td></td>
-<td>Here Home Menu uses <a href="../PTM_Services"
+<td>Here Home Menu uses <a {{% href "../PTM_Services" %}}
 title="wikilink">PTMSYSM:GetShellStatus</a>, <a
-href="../PTMSYSM:GetSoftwareClosedFlag"
+{{% href "../PTMSYSM:GetSoftwareClosedFlag" %}}
 title="wikilink">PTMSYSM:GetSoftwareClosedFlag</a>, and <a
-href="../PTMSYSM:ClearSoftwareClosedFlag"
+{{% href "../PTMSYSM:ClearSoftwareClosedFlag" %}}
 title="wikilink">PTMSYSM:ClearSoftwareClosedFlag</a>. Home Menu then
-uses <a href="../PTM_Services" title="wikilink">PTMSYSM:GetShellStatus</a>
+uses <a {{% href "../PTM_Services" %}} title="wikilink">PTMSYSM:GetShellStatus</a>
 3 times in a row. Starting from here, Home Menu uses <a
-href="../PTM_Services" title="wikilink">PTMSYSM:GetShellStatus</a>
+{{% href "../PTM_Services" %}} title="wikilink">PTMSYSM:GetShellStatus</a>
 frequently(presumably from a separate thread).</td>
 </tr>
 <tr class="even">
@@ -1036,16 +1036,16 @@ frequently(presumably from a separate thread).</td>
 <td></td>
 <td></td>
 <td>Home Menu opens the archive for the Home Menu <a
-href="../System_SaveData" title="wikilink">System_SaveData</a> here. Then
+{{% href "../System_SaveData" %}} title="wikilink">System_SaveData</a> here. Then
 Home Menu attempts to open "/Launcher.dat" for reading, when successful
 Home Menu just closes the file.</td>
 </tr>
 <tr class="odd">
-<td>Home Menu <a href="../System_SaveData"
+<td>Home Menu <a {{% href "../System_SaveData" %}}
 title="wikilink">System_SaveData</a></td>
 <td>"/Launcher.dat"</td>
 <td>0x2490</td>
-<td>Prior to doing the read, Home Menu uses <a href="../FSFile:GetSize"
+<td>Prior to doing the read, Home Menu uses <a {{% href "../FSFile:GetSize" %}}
 title="wikilink">FSFile:GetSize</a>.</td>
 </tr>
 <tr class="even">
@@ -1055,7 +1055,7 @@ title="wikilink">FSFile:GetSize</a>.</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="../NS_CFA" title="wikilink">NS CFA</a></td>
+<td><a {{% href "../NS_CFA" %}} title="wikilink">NS CFA</a></td>
 <td>"/ctr_backup_black_list"</td>
 <td></td>
 <td>Home Menu first reads 0x10-bytes from offset 0x0, then after that
@@ -1071,7 +1071,7 @@ it reads the rest of the file.</td>
 <td></td>
 <td></td>
 <td></td>
-<td>Home Menu <a href="../NSS:LaunchTitle" title="wikilink">launches</a>
+<td>Home Menu <a {{% href "../NSS:LaunchTitle" %}} title="wikilink">launches</a>
 the camera system-module here.</td>
 </tr>
 <tr class="even">
@@ -1085,14 +1085,14 @@ the camera system-module here.</td>
 <td>"/version.dat"</td>
 <td>0x4</td>
 <td>Home Menu mounts the ngword archive here, then reads version.dat.
-Home Menu then loads the <a href="../Config_Savegame"
+Home Menu then loads the <a {{% href "../Config_Savegame" %}}
 title="wikilink">cfg</a> data for blkID 0x000A0000.</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td>Home Menu <a href="../NSS:LaunchTitle" title="wikilink">launches</a>
+<td>Home Menu <a {{% href "../NSS:LaunchTitle" %}} title="wikilink">launches</a>
 various system-modules here(from a separate thread?).</td>
 </tr>
 <tr class="odd">
@@ -1104,11 +1104,11 @@ various system-modules here(from a separate thread?).</td>
 and 0xf000000b again.</td>
 </tr>
 <tr class="even">
-<td>NAND <a href="../extdata" title="wikilink">extdata</a>
+<td>NAND <a {{% href "../Extdata" %}} title="wikilink">extdata</a>
 0xf000000b</td>
 <td>"/ubll.lst"</td>
 <td>0x2ee0</td>
-<td>Prior to doing the read, Home Menu uses <a href="../FSFile:GetSize"
+<td>Prior to doing the read, Home Menu uses <a {{% href "../FSFile:GetSize" %}}
 title="wikilink">FSFile:GetSize</a>.</td>
 </tr>
 <tr class="odd">
@@ -1123,7 +1123,7 @@ again.</td>
 <td>"/CFL_DB.dat"</td>
 <td>0xe4c0</td>
 <td>Home Menu only does one read with size 0xe4c0 for this, even
-though the value it loads from <a href="../FSFile:GetSize"
+though the value it loads from <a {{% href "../FSFile:GetSize" %}}
 title="wikilink">FSFile:GetSize</a> is larger than that.</td>
 </tr>
 <tr class="odd">
@@ -1137,7 +1137,7 @@ when opening it was successful at least.</td>
 <td></td>
 <td></td>
 <td></td>
-<td>Home Menu loads the <a href="../Config_Savegame"
+<td>Home Menu loads the <a {{% href "../Config_Savegame" %}}
 title="wikilink">cfg</a> data for blkID 0x000C0000 here.</td>
 </tr>
 <tr class="odd">
@@ -1149,15 +1149,15 @@ again.</td>
 </tr>
 <tr class="even">
 <td>NAND extdata 0xf000000b</td>
-<td><a href="../Extdata" title="wikilink">"/gamecoin.dat"</a></td>
+<td><a {{% href "../Extdata" %}} title="wikilink">"/gamecoin.dat"</a></td>
 <td>0x14</td>
-<td>Home Menu first tries to use <a href="../FS:CreateFile"
+<td>Home Menu first tries to use <a {{% href "../FS:CreateFile" %}}
 title="wikilink">FS:CreateFile</a> with this, which will fail when the
 file already exists. This file is then opened with openflags=RW. After
-reading this file, Home Menu then uses <a href="../PTM:GetTotalStepCount"
+reading this file, Home Menu then uses <a {{% href "../PTM:GetTotalStepCount" %}}
 title="wikilink">PTM:GetTotalStepCount</a>, then uses <a
-href="../FSFile:GetSize" title="wikilink">FSFile:GetSize</a>. Then the
-service handle for <a href="../NDM_Services" title="wikilink">"ndm:u"</a>
+{{% href "../FSFile:GetSize" %}} title="wikilink">FSFile:GetSize</a>. Then the
+service handle for <a {{% href "../NDM_Services" %}} title="wikilink">"ndm:u"</a>
 is initialized with srv_GetServiceHandle(done from a separate thread
 perhaps?). Then Home Menu writes to the already opened gamecoin.dat
 file.</td>
@@ -1166,9 +1166,9 @@ file.</td>
 <td></td>
 <td></td>
 <td></td>
-<td><a href="../Filesystem_services"
+<td><a {{% href "../Filesystem_services" %}}
 title="wikilink">FSUSER:CardSlotIsInserted</a> and <a
-href="../Filesystem_services" title="wikilink">FSUSER:GetCardType</a> is
+{{% href "../Filesystem_services" %}} title="wikilink">FSUSER:GetCardType</a> is
 used here. AM commands are then used to get the inserted gamecard
 programID, when successful the gamecard ExeFS:/icon is then
 read.</td>
@@ -1177,16 +1177,16 @@ read.</td>
 <td></td>
 <td></td>
 <td></td>
-<td><a href="../BOSS_Services" title="wikilink">"boss:P"</a> service
+<td><a {{% href "../BOSS_Services" %}} title="wikilink">"boss:P"</a> service
 handle initialization with srv_GetServiceHandle is done here. Then <a
-href="../Services" title="wikilink">srv_Subscribe</a> is used with various
-noticationIDs. Home Menu then uses <a href="../FS:IsSdmcDetected"
-title="wikilink">FS:IsSdmcDetected</a> and <a href="../FS:IsSdmcWritable"
+{{% href "../Services" %}} title="wikilink">srv_Subscribe</a> is used with various
+noticationIDs. Home Menu then uses <a {{% href "../FS:IsSdmcDetected" %}}
+title="wikilink">FS:IsSdmcDetected</a> and <a {{% href "../FS:IsSdmcWritable" %}}
 title="wikilink">FS:IsSdmcWritable</a>. Home Menu then loads the <a
-href="../Config_Savegame" title="wikilink">cfg</a> data for blkID
+{{% href "../Config_Savegame" %}} title="wikilink">cfg</a> data for blkID
 0x000D0000. Home Menu uses boss:P command 0x4010082, then uses
 srv_GetServiceHandle for initializing service handles with the following
-services: <a href="../News_Services"
+services: <a {{% href "../News_Services" %}}
 title="wikilink">"<span>news:s</span>"</a> and "cecd:s".</td>
 </tr>
 <tr class="odd">
@@ -1194,15 +1194,15 @@ title="wikilink">"<span>news:s</span>"</a> and "cecd:s".</td>
 <td></td>
 <td></td>
 <td>srv_GetServiceHandle is used to initialize the service handle for
-service <a href="../Friend_Services" title="wikilink">"frd:a"</a>, then
+service <a {{% href "../Friend_Services" %}} title="wikilink">"frd:a"</a>, then
 various service commands are used for that.</td>
 </tr>
 <tr class="even">
-<td>NAND <a href="../extdata" title="wikilink">extdata</a>
+<td>NAND <a {{% href "../Extdata" %}} title="wikilink">extdata</a>
 0xf000000c</td>
 <td></td>
 <td></td>
-<td>Home Menu first attempts to use <a href="../FS:CreateFile"
+<td>Home Menu first attempts to use <a {{% href "../FS:CreateFile" %}}
 title="wikilink">FS:CreateFile</a> with "/bashotorya.dat", which
 normally fails since that file already exists. Home Menu then repeats
 this with "/bashotorya2.dat".</td>
@@ -1219,14 +1219,14 @@ extdata.</td>
 <td>Home Menu SD extdata</td>
 <td>"/SaveData.dat"</td>
 <td>0x2da0</td>
-<td>Prior to doing the read, Home Menu uses <a href="../FSFile:GetSize"
+<td>Prior to doing the read, Home Menu uses <a {{% href "../FSFile:GetSize" %}}
 title="wikilink">FSFile:GetSize</a>.</td>
 </tr>
 <tr class="odd">
 <td>Home Menu SD extdata</td>
 <td>"/Cache.dat"</td>
 <td>0x1688</td>
-<td>Prior to doing the read, Home Menu uses <a href="../FSFile:GetSize"
+<td>Prior to doing the read, Home Menu uses <a {{% href "../FSFile:GetSize" %}}
 title="wikilink">FSFile:GetSize</a>.</td>
 </tr>
 <tr class="even">
@@ -1235,8 +1235,8 @@ title="wikilink">FSFile:GetSize</a>.</td>
 <td>0x36c0</td>
 <td>This is used to read the cached icon data for the currently
 inserted gamecard, if any. Prior to doing the read, Home Menu uses <a
-href="../FSFile:GetSize" title="wikilink">FSFile:GetSize</a>. After opening
-the file and before <a href="../FSFile:GetSize"
+{{% href "../FSFile:GetSize" %}} title="wikilink">FSFile:GetSize</a>. After opening
+the file and before <a {{% href "../FSFile:GetSize" %}}
 title="wikilink">FSFile:GetSize</a> is used, Home Menu uses AM commands
 0x10070102(for theme DLC) and 0x30084(gamecard
 "title-listing").</td>
@@ -1254,14 +1254,14 @@ title="wikilink">FSFile:GetSize</a> is used, Home Menu uses AM commands
 <td>0x150000</td>
 <td>Before opening the file, Home Menu firsts opens this archive
 under a new archive-handle again, then closes it. Prior to doing the
-read, Home Menu uses <a href="../FSFile:GetSize"
+read, Home Menu uses <a {{% href "../FSFile:GetSize" %}}
 title="wikilink">FSFile:GetSize</a>.</td>
 </tr>
 <tr class="odd">
 <td>Home Menu Theme SD extdata</td>
 <td>"/ThemeManage.bin"</td>
 <td>0x8</td>
-<td>Prior to doing the read, Home Menu uses <a href="../FSFile:GetSize"
+<td>Prior to doing the read, Home Menu uses <a {{% href "../FSFile:GetSize" %}}
 title="wikilink">FSFile:GetSize</a>(the result is filesize
 0x800).</td>
 </tr>
@@ -1270,7 +1270,7 @@ title="wikilink">FSFile:GetSize</a>(the result is filesize
 <td>"/BgmCache.bin"</td>
 <td></td>
 <td>The data is read from here as needed. After opening the file,
-Home Menu uses <a href="../FSFile:GetSize"
+Home Menu uses <a {{% href "../FSFile:GetSize" %}}
 title="wikilink">FSFile:GetSize</a>.</td>
 </tr>
 <tr class="odd">
@@ -1294,7 +1294,7 @@ used.</td>
 <td></td>
 <td></td>
 <td></td>
-<td><a href="../AMNet:GetTitleIDList"
+<td><a {{% href "../AMNet:GetTitleIDList" %}}
 title="wikilink">AM:GetTitleIDList</a> is used with mediatype=SD and
 maxTIDs = 0x1c00.</td>
 </tr>
@@ -1308,7 +1308,7 @@ maxTIDs = 0x1c00.</td>
 <td></td>
 <td></td>
 <td></td>
-<td><a href="../PTM_Services" title="wikilink">PTM:GetStepHistory</a> is
+<td><a {{% href "../PTM_Services" %}} title="wikilink">PTM:GetStepHistory</a> is
 used.</td>
 </tr>
 <tr class="even">
@@ -1316,16 +1316,16 @@ used.</td>
 <td></td>
 <td></td>
 <td>srv_GetServiceHandle is used to initialize the service handle for
-<a href="../AC_Services" title="wikilink">"ac:u"</a>, then <a
-href="../AC_Services" title="wikilink">ACU:SetClientVersion</a> is used. <a
-href="../Services" title="wikilink">srv_Subscribe</a> is used, then ACU
+<a {{% href "../AC_Services" %}} title="wikilink">"ac:u"</a>, then <a
+{{% href "../AC_Services" %}} title="wikilink">ACU:SetClientVersion</a> is used. <a
+{{% href "../Services" %}} title="wikilink">srv_Subscribe</a> is used, then ACU
 command 0x002F0004 is used.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><a href="../AMNet:GetTitleIDList"
+<td><a {{% href "../AMNet:GetTitleIDList" %}}
 title="wikilink">AM:GetTitleIDList</a> is used with mediatype=NAND and
 maxTIDs = 0x1c00.</td>
 </tr>
@@ -1336,40 +1336,40 @@ maxTIDs = 0x1c00.</td>
 <td>Home Menu first tries to use FS:CreateFile with this, which will
 fail when the file already exists. This file is then opened with
 openflags=RW. After reading this file, Home Menu then uses <a
-href="../PTM_Services" title="wikilink">PTM:GetTotalStepCount</a>, then
+{{% href "../PTM_Services" %}} title="wikilink">PTM:GetTotalStepCount</a>, then
 uses FSFile:GetSize. Then Home Menu writes to the already opened
 gamecoin.dat file.</p>
 <p>At the same time as doing the above, Home Menu also uses(probably
-from a different thread) <a href="../AMNet:GetTitleIDList3"
+from a different thread) <a {{% href "../AMNet:GetTitleIDList3" %}}
 title="wikilink">AM:GetTitleIDList3</a> with mediatype=NAND and
-maxTIDs=0x2000. Then Home Menu uses <a href="../AMNet:ListTitles"
+maxTIDs=0x2000. Then Home Menu uses <a {{% href "../AMNet:ListTitles" %}}
 title="wikilink">AM:ListTitles</a> with the NAND promotional-video
 titleID. Then Home Menu attempts to open the ExeFS:/icon in the NAND
 promotional-video title.</td>
 </tr>
 <tr class="odd">
-<td>Home Menu <a href="../System_SaveData"
+<td>Home Menu <a {{% href "../System_SaveData" %}}
 title="wikilink">System_SaveData</a></td>
 <td>"/Launcher.dat"</td>
 <td></td>
-<td>Prior to doing the write, Home Menu uses <a href="../FSFile:GetSize"
+<td>Prior to doing the write, Home Menu uses <a {{% href "../FSFile:GetSize" %}}
 title="wikilink">FSFile:GetSize</a>. Home Menu writes 0x2490-bytes to
 the file here. From a separate thread(?) at the same time, Home Menu
-also uses <a href="../AM:ReloadDBS" title="wikilink">AM:ReloadDBS</a> and
+also uses <a {{% href "../AM:ReloadDBS" %}} title="wikilink">AM:ReloadDBS</a> and
 AM command 0x00130040 with input=0x1.</td>
 </tr>
 <tr class="even">
 <td></td>
 <td></td>
 <td></td>
-<td>Home Menu loads the u8 value from <a href="../Config_Savegame"
+<td>Home Menu loads the u8 value from <a {{% href "../Config_Savegame" %}}
 title="wikilink">cfg</a> blkID 0x000E0000 here.</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td><a href="../AM:ReloadDBS" title="wikilink">AM:ReloadDBS</a>, AM
+<td><a {{% href "../AM:ReloadDBS" %}} title="wikilink">AM:ReloadDBS</a>, AM
 command 0x10070102(for theme DLC), AM command 0x00130040, and AM command
 0x10050084(for theme DLC) are used here. At the same time(from a
 different thread?), the "act:u" service handle is initialized with
@@ -1380,7 +1380,7 @@ used.</td>
 <td></td>
 <td></td>
 <td></td>
-<td>The <a href="../NIM_Services" title="wikilink">"nim:u"</a> service
+<td>The <a {{% href "../NIM_Services" %}} title="wikilink">"nim:u"</a> service
 handle is initialized with srv_GetServiceHandle. Then NIMU commands
 0x000F0042, 0x00170042, 0x00150000, and 0x00050000 are used.</td>
 </tr>
@@ -1395,7 +1395,7 @@ RomFS data is read.</td>
 <td></td>
 <td></td>
 <td></td>
-<td>Home Menu CXI RomFS data is read. <a href="../Filesystem_services"
+<td>Home Menu CXI RomFS data is read. <a {{% href "../Filesystem_services" %}}
 title="wikilink">FS:GetSpecialContentIndex</a> for the gamecard is used,
 then MICU initialization is done here(separate thread maybe?).</td>
 </tr>
@@ -1403,7 +1403,7 @@ then MICU initialization is done here(separate thread maybe?).</td>
 <td></td>
 <td></td>
 <td></td>
-<td><a href="../ACU:GetWifiStatus"
+<td><a {{% href "../ACU:GetWifiStatus" %}}
 title="wikilink">ACU:GetWifiStatus</a> is used, the NAND shared-extdata
 0xf000000b archive is then opened here.</td>
 </tr>
@@ -1412,9 +1412,9 @@ title="wikilink">ACU:GetWifiStatus</a> is used, the NAND shared-extdata
 <td>"/idb.dat"</td>
 <td>0x2008</td>
 <td>This first opens the file for writing, then uses <a
-href="../FSFile:GetSize" title="wikilink">FSFile:GetSize</a>(output
+{{% href "../FSFile:GetSize" %}} title="wikilink">FSFile:GetSize</a>(output
 filesize is 0x6d4000). Then it writes to the file using size 0, then
-closes the file. Then <a href="../PTM_Services"
+closes the file. Then <a {{% href "../PTM_Services" %}}
 title="wikilink">PTM:GetStepHistory</a> is used. Then Home Menu opens
 "/idbt.dat", then reads 0x2008-bytes.</td>
 </tr>
@@ -1422,18 +1422,18 @@ title="wikilink">PTM:GetStepHistory</a> is used. Then Home Menu opens
 <td></td>
 <td></td>
 <td></td>
-<td>Home Menu starts using <a href="../News_Services"
+<td>Home Menu starts using <a {{% href "../News_Services" %}}
 title="wikilink">"<span>news:s</span>"</a> commands here. While Home
 Menu is doing this, it also uses(from another thread?) <a
-href="../NS_and_APT_Services"
+{{% href "../NS_and_APT_Services" %}}
 title="wikilink"><span>APT:PrepareToStartNewestHomeMenu</span></a>, <a
-href="../NIM_Services" title="wikilink">NIMU:GetState</a>, and <a
-href="../NDM_Services" title="wikilink">NDMU:OverrideDefaultDaemons</a>
+{{% href "../NIM_Services" %}} title="wikilink">NIMU:GetState</a>, and <a
+{{% href "../NDM_Services" %}} title="wikilink">NDMU:OverrideDefaultDaemons</a>
 with input value 0xF. Later with that news-command code still running,
-Home Menu also uses the following commands: <a href="../ACU:GetWifiStatus"
-title="wikilink">ACU:GetWifiStatus</a>, <a href="../NDM_Services"
+Home Menu also uses the following commands: <a {{% href "../ACU:GetWifiStatus" %}}
+title="wikilink">ACU:GetWifiStatus</a>, <a {{% href "../NDM_Services" %}}
 title="wikilink">NDMU:QueryExclusiveMode</a>, and CECDS command
-0x000E0000. Then <a href="../Config_Savegame" title="wikilink">cfg</a>
+0x000E0000. Then <a {{% href "../Config_Savegame" %}} title="wikilink">cfg</a>
 blkID 0x000D0000 is loaded.</td>
 </tr>
 <tr class="even">
@@ -1461,7 +1461,7 @@ blkID 0x000D0000 is loaded.</td>
 <td>...</td>
 </tr>
 <tr class="even">
-<td>Home Menu <a href="../System_SaveData"
+<td>Home Menu <a {{% href "../System_SaveData" %}}
 title="wikilink">System_SaveData</a></td>
 <td>"/Launcher.dat"</td>
 <td></td>

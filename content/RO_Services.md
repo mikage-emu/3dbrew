@@ -67,9 +67,9 @@ done.</p>
 <td>No changes.</td>
 </tr>
 <tr class="even">
-<td><a href="../9.0.0-20" title="wikilink">v5120</a></td>
+<td><a {{% href "../9.0.0-20" %}} title="wikilink">v5120</a></td>
 <td>No actual changes, just a rebuild with latest CTRSDK(only the
-CTRSDK version values in .code for <a href="../ErrDisp"
+CTRSDK version values in .code for <a {{% href "../ErrDisp" %}}
 title="wikilink">ErrDisp</a> were updated).</td>
 </tr>
 </tbody>

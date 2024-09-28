@@ -25,7 +25,7 @@ This is a list of friend codes of different users.
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="../JuniorzGTX" title="wikilink">JuniorzGTX</a></td>
+<td><a {{% href "../JuniorzGTX" "broken" %}} title="wikilink">JuniorzGTX</a></td>
 <td>JuniorzGTX</td>
 <td>5430-4366-5837</td>
 <td>NA</td>
@@ -34,7 +34,7 @@ code : JuniorzGT#8248</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><a href="../User:V10lator" title="wikilink">V10lator</a></td>
+<td><a {{% href "../User:V10lator" "broken" %}} title="wikilink">V10lator</a></td>
 <td></td>
 <td>1049-5141-1277</td>
 <td>EUR (Germany)</td>
@@ -45,7 +45,7 @@ code : JuniorzGT#8248</td>
 </figure></td>
 </tr>
 <tr class="odd">
-<td><a href="../explosions" title="wikilink">explosions</a></td>
+<td><a {{% href "../explosions" "broken" %}} title="wikilink">explosions</a></td>
 <td>haxmaster123</td>
 <td>4141-5323-9570</td>
 <td>USA</td>
@@ -53,7 +53,7 @@ code : JuniorzGT#8248</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><a href="../User:Brayton1234567"
+<td><a {{% href "../User:Brayton1234567" "broken" %}}
 title="wikilink">User:Brayton1234567</a></td>
 <td>I don't know what this is</td>
 <td>0662-4312-7555</td>
@@ -62,7 +62,7 @@ title="wikilink">User:Brayton1234567</a></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="../User:Thejsa" title="wikilink">thejsa</a></td>
+<td><a {{% href "../User:Thejsa" "broken" %}} title="wikilink">thejsa</a></td>
 <td>thejsa / jsa_</td>
 <td>5043-5145-7887</td>
 <td>EUR (UK, N3DS)</td>
@@ -71,7 +71,7 @@ homebrew!</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><a href="../User:SynRxn" title="wikilink">SynRxn</a></td>
+<td><a {{% href "../User:SynRxn" "broken" %}} title="wikilink">SynRxn</a></td>
 <td></td>
 <td>0962-9776-8195</td>
 <td>USA</td>
@@ -90,7 +90,7 @@ homebrew!</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><a href="../User:ClassicToxin"
+<td><a {{% href "../User:ClassicToxin" "broken" %}}
 title="wikilink">ClassicToxin</a></td>
 <td></td>
 <td>1864-8732-8338</td>
@@ -100,7 +100,7 @@ like</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="../User:Allnewryan1"
+<td><a {{% href "../User:Allnewryan1" "broken" %}}
 title="wikilink">Allnewryan1</a></td>
 <td></td>
 <td>0001-4540-5587</td>
@@ -118,7 +118,7 @@ find crashes</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="../User:Skyneo" title="wikilink">Skyneo</a></td>
+<td><a {{% href "../User:Skyneo" "broken" %}} title="wikilink">Skyneo</a></td>
 <td>Skyneo</td>
 <td>1950-8547-6804</td>
 <td>Europe (France)</td>
@@ -194,7 +194,7 @@ anarchy.</td>
 <td><figure>
 <img src="../RHOPKINS13_Mii.JPG" title="File:RHOPKINS13_Mii.JPG" />
 <figcaption><a
-href="../File:RHOPKINS13_Mii.JPG">File:RHOPKINS13_Mii.JPG</a></figcaption>
+{{% href "../File:RHOPKINS13_Mii.JPG" %}}>File:RHOPKINS13_Mii.JPG</a></figcaption>
 </figure></td>
 </tr>
 <tr class="even">
@@ -222,7 +222,7 @@ href="../File:RHOPKINS13_Mii.JPG">File:RHOPKINS13_Mii.JPG</a></figcaption>
 <td><figure>
 <img src="../Mafril_Mii.JPG" title="File:Mafril_Mii.JPG" />
 <figcaption><a
-href="../File:Mafril_Mii.JPG">File:Mafril_Mii.JPG</a></figcaption>
+{{% href "../File:Mafril_Mii.JPG" %}}>File:Mafril_Mii.JPG</a></figcaption>
 </figure></td>
 </tr>
 <tr class="odd">
@@ -255,7 +255,7 @@ chance.</td>
 </figure></td>
 </tr>
 <tr class="even">
-<td><a href="../User:Schumi" title="wikilink">Schumi</a></td>
+<td><a {{% href "../User:Schumi" "broken" %}} title="wikilink">Schumi</a></td>
 <td></td>
 <td>1934-1000-7068</td>
 <td>Germany (Europe)</td>
@@ -263,7 +263,7 @@ chance.</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="../User:Rikku2000" title="wikilink">Rikku2000</a></td>
+<td><a {{% href "../User:Rikku2000" "broken" %}} title="wikilink">Rikku2000</a></td>
 <td></td>
 <td>EUR: 1461-6425-0347 JPN: 1375-8084-1845</td>
 <td>Germany</td>
@@ -274,7 +274,7 @@ chance.</td>
 </figure></td>
 </tr>
 <tr class="even">
-<td><a href="../User:Elisherer" title="wikilink">Elisherer</a></td>
+<td><a {{% href "../User:Elisherer" "broken" %}} title="wikilink">Elisherer</a></td>
 <td>elisherer</td>
 <td>0001-3489-0550</td>
 <td>USA</td>
@@ -374,7 +374,7 @@ me "cvosler@hotmail.com"</td>
 </figure></td>
 </tr>
 <tr class="odd">
-<td><a href="../User:CHR15x94" title="wikilink">CHR15x94</a></td>
+<td><a {{% href "../User:CHR15x94" "broken" %}} title="wikilink">CHR15x94</a></td>
 <td></td>
 <td>0688-5814-3517</td>
 <td>Canada (USA)</td>
@@ -387,7 +387,7 @@ profile.</td>
 </figure></td>
 </tr>
 <tr class="even">
-<td><a href="../User:DarkWork0" title="wikilink">DarkWork0</a></td>
+<td><a {{% href "../User:DarkWork0" "broken" %}} title="wikilink">DarkWork0</a></td>
 <td></td>
 <td>1075-0737-9684</td>
 <td>USA</td>
@@ -399,7 +399,7 @@ add anyone who adds me!</td>
 </figure></td>
 </tr>
 <tr class="odd">
-<td><a href="../User:Aliak11" title="wikilink">Aliak11</a></td>
+<td><a {{% href "../User:Aliak11" "broken" %}} title="wikilink">Aliak11</a></td>
 <td></td>
 <td>1160-9718-1643</td>
 <td>USA</td>
@@ -408,7 +408,7 @@ atthegulf@gmail.com</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><a href="../User:capt.danny"
+<td><a {{% href "../User:capt.danny" "broken" %}}
 title="wikilink">capt.danny</a></td>
 <td></td>
 <td>4339:2914:5427</td>
@@ -417,7 +417,7 @@ title="wikilink">capt.danny</a></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="../user:jordan" title="wikilink">jordan</a></td>
+<td><a {{% href "../user:jordan" "broken" %}} title="wikilink">jordan</a></td>
 <td></td>
 <td>0473-8413-4597</td>
 <td>USA</td>
@@ -425,7 +425,7 @@ title="wikilink">capt.danny</a></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><a href="../User:Stopwatch8"
+<td><a {{% href "../User:Stopwatch8" "broken" %}}
 title="wikilink">Stopwatch8</a></td>
 <td>Stopwatch8</td>
 <td>2449-4811-6942</td>
@@ -438,7 +438,7 @@ well! I just like to see what titles everyone plays. :)</td>
 </figure></td>
 </tr>
 <tr class="odd">
-<td><a href="../User:mr_seeker" title="wikilink">mr_seeker</a></td>
+<td><a {{% href "../User:mr_seeker" "broken" %}} title="wikilink">mr_seeker</a></td>
 <td></td>
 <td>3909-7860-3744</td>
 <td>EUR</td>
@@ -446,7 +446,7 @@ well! I just like to see what titles everyone plays. :)</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><a href="../User:missou" title="wikilink">missou</a></td>
+<td><a {{% href "../User:missou" "broken" %}} title="wikilink">missou</a></td>
 <td>missou</td>
 <td>1762-3951-0686</td>
 <td>EUR</td>
@@ -457,7 +457,7 @@ well! I just like to see what titles everyone plays. :)</td>
 </figure></td>
 </tr>
 <tr class="odd">
-<td><a href="../User:GuyInDogSuit"
+<td><a {{% href "../User:GuyInDogSuit" "broken" %}}
 title="wikilink">GuyInDogSuit</a></td>
 <td></td>
 <td>4957-2209-2798</td>
@@ -470,7 +470,7 @@ and everyone can add me in return.</td>
 </figure></td>
 </tr>
 <tr class="even">
-<td><a href="../User:NintendoFan"
+<td><a {{% href "../User:NintendoFan" "broken" %}}
 title="wikilink">NintendoFan</a></td>
 <td></td>
 <td>2492-4592-1206</td>
@@ -479,7 +479,7 @@ title="wikilink">NintendoFan</a></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="../User:Rllns05" title="wikilink">Kresma</a></td>
+<td><a {{% href "../User:Rllns05" "broken" %}} title="wikilink">Kresma</a></td>
 <td></td>
 <td>0190-1796-8987</td>
 <td>USA</td>
@@ -490,7 +490,7 @@ title="wikilink">NintendoFan</a></td>
 </figure></td>
 </tr>
 <tr class="even">
-<td><a href="../User:Beefsloth" title="wikilink">Beefsloth</a></td>
+<td><a {{% href "../User:Beefsloth" "broken" %}} title="wikilink">Beefsloth</a></td>
 <td></td>
 <td>3239-7434-0366</td>
 <td>USA</td>
@@ -498,7 +498,7 @@ title="wikilink">NintendoFan</a></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="../User:Light4wing"
+<td><a {{% href "../User:Light4wing" "broken" %}}
 title="wikilink">User:Light4wing</a></td>
 <td></td>
 <td>4871-8801-5208</td>
@@ -508,7 +508,7 @@ ruckus71472@outlook.com</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><a href="../User:MoneyBags"
+<td><a {{% href "../User:MoneyBags" "broken" %}}
 title="wikilink">MoneyBasket</a></td>
 <td></td>
 <td>4485-5249-2780</td>
@@ -517,7 +517,7 @@ title="wikilink">MoneyBasket</a></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="../User:NoFace" title="wikilink">User:NoFace</a></td>
+<td><a {{% href "../User:NoFace" "broken" %}} title="wikilink">User:NoFace</a></td>
 <td></td>
 <td>2853-1277-2658</td>
 <td>EUR</td>
@@ -528,7 +528,7 @@ title="wikilink">MoneyBasket</a></td>
 </figure></td>
 </tr>
 <tr class="even">
-<td><a href="../User:Loremon00"
+<td><a {{% href "../User:Loremon00" "broken" %}}
 title="wikilink">User:Loremon00</a></td>
 <td></td>
 <td>4425-1468-0027</td>
@@ -537,7 +537,7 @@ title="wikilink">User:Loremon00</a></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="../User:KoolLeo11" title="wikilink">Leo11</a></td>
+<td><a {{% href "../User:KoolLeo11" "broken" %}} title="wikilink">Leo11</a></td>
 <td></td>
 <td>1650-8691-5901</td>
 <td>EUR (UK)</td>
@@ -548,7 +548,7 @@ title="wikilink">User:Loremon00</a></td>
 </figure></td>
 </tr>
 <tr class="even">
-<td><a href="../User:Toma-Chan"
+<td><a {{% href "../User:Toma-Chan" "broken" %}}
 title="wikilink">User:Toma-Chan</a></td>
 <td></td>
 <td>1478-6610-1449</td>
@@ -557,7 +557,7 @@ title="wikilink">User:Toma-Chan</a></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="../jack" title="wikilink">jack</a></td>
+<td><a {{% href "../jack" "broken" %}} title="wikilink">jack</a></td>
 <td></td>
 <td>1118-1391-5140</td>
 <td>USA</td>
@@ -565,7 +565,7 @@ title="wikilink">User:Toma-Chan</a></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><a href="../User:Marioipod13"
+<td><a {{% href "../User:Marioipod13" "broken" %}}
 title="wikilink">User:Marioipod13</a></td>
 <td></td>
 <td>4098-9975-9666</td>
@@ -574,7 +574,7 @@ title="wikilink">User:Marioipod13</a></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="../User:Busybody64"
+<td><a {{% href "../User:Busybody64" "broken" %}}
 title="wikilink">User:Busybody64</a></td>
 <td></td>
 <td>5172-2665-4784</td>
@@ -583,7 +583,7 @@ title="wikilink">User:Busybody64</a></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><a href="../User:Enity" title="wikilink">User:Enity</a></td>
+<td><a {{% href "../User:Enity" "broken" %}} title="wikilink">User:Enity</a></td>
 <td></td>
 <td>0061-7386-0813</td>
 <td>EUR</td>

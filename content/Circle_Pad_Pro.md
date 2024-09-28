@@ -13,7 +13,7 @@ contents](http://what-games.golog.jp/archives/1350330.html).
 <figure>
 <img src="../Circle_pad_pro_instructions.jpg"
 title="File:Circle pad pro instructions.jpg" />
-<figcaption><a href="../File:Circle">File:Circle</a> pad pro
+<figcaption><a {{% href "../File:Circle" "broken" %}}>File:Circle</a> pad pro
 instructions.jpg</figcaption>
 </figure>
 

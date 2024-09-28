@@ -71,14 +71,14 @@ href="http://www.adminsub.net/mac-address-finder/nintendo">2</a></td>
 <tr class="odd">
 <td>0x8</td>
 <td>0x4</td>
-<td><a href="../Mii#mii_id" title="wikilink">Mii ID</a>, the encrypted
+<td><a {{% href "../Mii" %}} title="wikilink">Mii ID</a>, the encrypted
 data begins here.</td>
 </tr>
 <tr class="even">
 <td>0xC</td>
 <td>0x8</td>
 <td>System ID (this ID is produced by the output from <a
-href="../CfgGenHashConsoleUnique">GenHashConsoleUnique(0x0)</a>)</td>
+{{% href "../CfgGenHashConsoleUnique" "broken" %}}>GenHashConsoleUnique(0x0)</a>)</td>
 </tr>
 <tr class="odd">
 <td>0x14</td>

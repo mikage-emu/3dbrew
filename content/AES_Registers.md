@@ -229,9 +229,9 @@ the contents of a keyslot.
 </tr>
 <tr class="even">
 <td>0x04..0x07</td>
-<td><a href="../Flash_Filesystem" title="wikilink">NAND</a> partition
+<td><a {{% href "../Flash_Filesystem" %}} title="wikilink">NAND</a> partition
 keys.</p>
-<p>Keyslot is determined by <a href="../NCSD" title="wikilink">NCSD</a>
+<p>Keyslot is determined by <a {{% href "../NCSD" %}} title="wikilink">NCSD</a>
 partition FS type and encryption type. The New3DS Process9 sets the keyY
 for keyslot 0x05 (New3DS CTRNAND) to a key from .(ro)data. Its keyX is
 console-unique and set by the bootloader.</td>
@@ -244,7 +244,7 @@ console-unique and set by the bootloader.</td>
 <td>0x0A</td>
 <td>DSiWare export key.</p>
 <p>Used for encrypting the all-zero 0x10-byte block in the <a
-href="../DSiWare_Exports" title="wikilink">DSiWare_Exports</a> header.
+{{% href "../DSiWare_Exports" %}} title="wikilink">DSiWare_Exports</a> header.
 Console-unique.</td>
 <td>See above keyslot info.</td>
 <td>See above keyslot info.</td>
@@ -254,8 +254,8 @@ Console-unique.</td>
 <tr class="even">
 <td>0x0B</td>
 <td>This is console-unique. This keyslot is used for the NAND <a
-href="../Title_Database" title="wikilink">dbs</a> images AES-CMACs, and the
-<a href="../Nand/private/movable.sed"
+{{% href "../Title_Database" %}} title="wikilink">dbs</a> images AES-CMACs, and the
+<a {{% href "../Nand/private/movable.sed" %}}
 title="wikilink">Nand/private/movable.sed</a> AES-CMAC(when
 used).</td>
 <td>See above keyslot info.</td>
@@ -266,7 +266,7 @@ used).</td>
 <tr class="odd">
 <td>0x0D</td>
 <td>SSL-certificate key.</p>
-<p>See <a href="../PSPXI:EncryptDecryptAes"
+<p>See <a {{% href "../PSPXI:EncryptDecryptAes" %}}
 title="wikilink">EncryptDecryptAes</a>.</td>
 <td>-</td>
 <td>-</td>
@@ -277,7 +277,7 @@ title="wikilink">EncryptDecryptAes</a>.</td>
 <td>0x11</td>
 <td>Temporary keyslot.</p>
 <p>Used by FIRM for general normal-key crypto. Also used by the New3DS
-<a href="../FIRM" title="wikilink">FIRM</a> arm9 binary loader.</td>
+<a {{% href "../FIRM" %}} title="wikilink">FIRM</a> arm9 binary loader.</td>
 <td>Arm9Loader.</td>
 <td>Arm9Loader.</td>
 <td>NATIVE_FIRM.</td>
@@ -285,10 +285,10 @@ title="wikilink">EncryptDecryptAes</a>.</td>
 </tr>
 <tr class="odd">
 <td>0x14</td>
-<td>Starting with <a href="../5.0.0-11" title="wikilink">5.0.0-11</a>,
+<td>Starting with <a {{% href "../5.0.0-11" %}} title="wikilink">5.0.0-11</a>,
 NATIVE_FIRM Process9 now sets the keyY for this to the same one it uses
 for initializing 3 of the keyslots' keyYs from <a
-href="../PSPXI:EncryptDecryptAes" title="wikilink">here</a>.</td>
+{{% href "../PSPXI:EncryptDecryptAes" %}} title="wikilink">here</a>.</td>
 <td>Bootrom.</td>
 <td>NATIVE_FIRM boot.</td>
 <td>-</td>
@@ -297,7 +297,7 @@ href="../PSPXI:EncryptDecryptAes" title="wikilink">here</a>.</td>
 <tr class="even">
 <td>0x15</td>
 <td>Used/initialized by the New3DS arm9 binary loader, see <a
-href="../FIRM" title="wikilink">here</a>.</td>
+{{% href "../FIRM" %}} title="wikilink">here</a>.</td>
 <td>Arm9Loader.</td>
 <td>Arm9Loader.</td>
 <td>See previous info for this keyslot.</td>
@@ -306,7 +306,7 @@ href="../FIRM" title="wikilink">here</a>.</td>
 <tr class="odd">
 <td>0x16</td>
 <td>Used/initialized by the New3DS arm9 binary loader starting with
-<a href="../9.5.0-22" title="wikilink">9.5.0-X</a>, see <a href="FIRM"
+<a {{% href "../9.5.0-22" %}} title="wikilink">9.5.0-X</a>, see <a {{% href "FIRM" "broken" %}}
 title="wikilink">here</a>.</td>
 <td>Arm9Loader.</td>
 <td>Arm9Loader.</td>
@@ -316,9 +316,9 @@ title="wikilink">here</a>.</td>
 <tr class="even">
 <td>0x18..0x1F</td>
 <td>These are the New3DS keyslots, where the keyX is generated with
-keyslot 0x11 by the New3DS arm9 binary <a href="../FIRM"
-title="wikilink">loader</a>. As of <a href="../FIRM"
-title="wikilink">FIRM</a> <a href="../9.6.0-24"
+keyslot 0x11 by the New3DS arm9 binary <a {{% href "../FIRM" %}}
+title="wikilink">loader</a>. As of <a {{% href "../FIRM" %}}
+title="wikilink">FIRM</a> <a {{% href "../9.6.0-24" %}}
 title="wikilink">9.6.0-X</a> keyslots 0x1C..0x1F are not yet used by
 Process9.</td>
 <td>Arm9Loader.</td>
@@ -328,8 +328,8 @@ Process9.</td>
 </tr>
 <tr class="odd">
 <td>0x18</td>
-<td>New3DS <a href="../9.3.0-21" title="wikilink">9.3.0-X</a> <a
-href="../NCCH" title="wikilink">NCCH</a> key, when ncchflag[3] is
+<td>New3DS <a {{% href "../9.3.0-21" %}} title="wikilink">9.3.0-X</a> <a
+{{% href "../NCCH" %}} title="wikilink">NCCH</a> key, when ncchflag[3] is
 0x0A.</td>
 <td>Arm9Loader.</td>
 <td>NATIVE_FIRM</td>
@@ -338,11 +338,11 @@ href="../NCCH" title="wikilink">NCCH</a> key, when ncchflag[3] is
 </tr>
 <tr class="even">
 <td>0x19</td>
-<td>New3DS gamecard <a href="../Savegames" title="wikilink">savedata</a>
+<td>New3DS gamecard <a {{% href "../Savegames" %}} title="wikilink">savedata</a>
 AES-CMAC key.</p>
-<p>Equivalent of keyslot 0x33, used when a <a href="../NCSD"
+<p>Equivalent of keyslot 0x33, used when a <a {{% href "../NCSD" %}}
 title="wikilink">NCSD</a> flag is set to a certain value (implemented
-with <a href="../9.3.0-21" title="wikilink">9.3.0-X</a>).</td>
+with <a {{% href "../9.3.0-21" %}} title="wikilink">9.3.0-X</a>).</td>
 <td>Arm9Loader.</td>
 <td>NATIVE_FIRM</td>
 <td>-</td>
@@ -350,11 +350,11 @@ with <a href="../9.3.0-21" title="wikilink">9.3.0-X</a>).</td>
 </tr>
 <tr class="odd">
 <td>0x1A</td>
-<td>New3DS gamecard <a href="../Savegames" title="wikilink">savedata</a>
+<td>New3DS gamecard <a {{% href "../Savegames" %}} title="wikilink">savedata</a>
 actual key.</p>
-<p>Equivalent of keyslot 0x37, used when a <a href="../NCSD"
+<p>Equivalent of keyslot 0x37, used when a <a {{% href "../NCSD" %}}
 title="wikilink">NCSD</a> flag is set to a certain value (implemented
-with <a href="../9.3.0-21" title="wikilink">9.3.0-X</a>).</td>
+with <a {{% href "../9.3.0-21" %}} title="wikilink">9.3.0-X</a>).</td>
 <td>Arm9Loader.</td>
 <td>NATIVE_FIRM</td>
 <td>-</td>
@@ -362,8 +362,8 @@ with <a href="../9.3.0-21" title="wikilink">9.3.0-X</a>).</td>
 </tr>
 <tr class="even">
 <td>0x1B</td>
-<td>New3DS <a href="../9.6.0-24" title="wikilink">9.6.0-X</a> <a
-href="../NCCH" title="wikilink">NCCH</a> key, when ncchflag[3] is
+<td>New3DS <a {{% href "../9.6.0-24" %}} title="wikilink">9.6.0-X</a> <a
+{{% href "../NCCH" %}} title="wikilink">NCCH</a> key, when ncchflag[3] is
 0x0B.</td>
 <td>Arm9Loader.</td>
 <td>NATIVE_FIRM</td>
@@ -380,9 +380,9 @@ href="../NCCH" title="wikilink">NCCH</a> key, when ncchflag[3] is
 </tr>
 <tr class="even">
 <td>0x25</td>
-<td><a href="../7.0.0-13" title="wikilink">v7.0</a> <a href="NCCH"
+<td><a {{% href "../7.0.0-13" %}} title="wikilink">v7.0</a> <a {{% href "NCCH" "broken" %}}
 title="wikilink">NCCH</a> key, when ncchflag[3] is 0x01.</td>
-<td>NATIVE_FIRM <a href="../Savegames#600-11-savegame-keyy"
+<td>NATIVE_FIRM <a {{% href "../Savegames" %}}
 title="wikilink">boot</a>.</td>
 <td>NATIVE_FIRM.</td>
 <td>-</td>
@@ -390,7 +390,7 @@ title="wikilink">boot</a>.</td>
 </tr>
 <tr class="odd">
 <td>0x2C</td>
-<td>Original <a href="../NCCH" title="wikilink">NCCH</a> key, when
+<td>Original <a {{% href "../NCCH" %}} title="wikilink">NCCH</a> key, when
 ncchflag[3] is 0x00 and always for certain NCCH sections.</td>
 <td>Bootrom.</td>
 <td>Process9.</td>
@@ -400,7 +400,7 @@ ncchflag[3] is 0x00 and always for certain NCCH sections.</td>
 <tr class="even">
 <td>0x2D</td>
 <td>UDS local-WLAN CCMP key.</p>
-<p>See <a href="../PSPXI:EncryptDecryptAes"
+<p>See <a {{% href "../PSPXI:EncryptDecryptAes" %}}
 title="wikilink">EncryptDecryptAes</a>.</td>
 <td>Bootrom.</td>
 <td>Bootrom.</td>
@@ -410,7 +410,7 @@ title="wikilink">EncryptDecryptAes</a>.</td>
 <tr class="odd">
 <td>0x2E</td>
 <td>Streetpass key.</p>
-<p>See <a href="../PSPXI:EncryptDecryptAes"
+<p>See <a {{% href "../PSPXI:EncryptDecryptAes" %}}
 title="wikilink">EncryptDecryptAes</a>.</td>
 <td>Bootrom.</td>
 <td>NATIVE_FIRM.</td>
@@ -419,7 +419,7 @@ title="wikilink">EncryptDecryptAes</a>.</td>
 </tr>
 <tr class="even">
 <td>0x2F</td>
-<td><a href="../Savegames#600-11-savegame-keyy"
+<td><a {{% href "../Savegames" %}}
 title="wikilink">v6.0</a> save key.</td>
 <td>Bootrom.</td>
 <td>NATIVE_FIRM.</td>
@@ -429,11 +429,11 @@ title="wikilink">v6.0</a> save key.</td>
 <tr class="odd">
 <td>0x30</td>
 <td>SD/NAND AES-CMAC key.</p>
-<p>This keyY is initialized via <a href="../Nand/private/movable.sed"
+<p>This keyY is initialized via <a {{% href "../Nand/private/movable.sed" %}}
 title="wikilink">movable.sed</a>. This is used for calculating the
-AES-CMACs under SD <a href="../SD_Filesystem" title="wikilink">/Nintendo
-3DS/<ID0>/<ID1>/</a> (except <a href="../DSiWare_Exports"
-title="wikilink">DSiWare_Exports</a>) and <a href="../Flash_Filesystem"
+AES-CMACs under SD <a {{% href "../SD_Filesystem" %}} title="wikilink">/Nintendo
+3DS/<ID0>/<ID1>/</a> (except <a {{% href "../DSiWare_Exports" %}}
+title="wikilink">DSiWare_Exports</a>) and <a {{% href "../Flash_Filesystem" %}}
 title="wikilink">NAND</a> /data/.</td>
 <td>Bootrom.</td>
 <td>NATIVE_FIRM.</td>
@@ -443,7 +443,7 @@ title="wikilink">NAND</a> /data/.</td>
 <tr class="even">
 <td>0x31</td>
 <td>APT wrap key.</p>
-<p>See <a href="../PSPXI:EncryptDecryptAes"
+<p>See <a {{% href "../PSPXI:EncryptDecryptAes" %}}
 title="wikilink">EncryptDecryptAes</a>. NATIVE_FIRM sets this keyY to
 the same one used for keyslot 0x2E.</td>
 <td>Bootrom.</td>
@@ -454,7 +454,7 @@ the same one used for keyslot 0x2E.</td>
 <tr class="odd">
 <td>0x32</td>
 <td>Unknown.</p>
-<p>See <a href="../PSPXI:EncryptDecryptAes"
+<p>See <a {{% href "../PSPXI:EncryptDecryptAes" %}}
 title="wikilink">EncryptDecryptAes</a>.</td>
 <td>Bootrom.</td>
 <td>Bootrom.</td>
@@ -463,7 +463,7 @@ title="wikilink">EncryptDecryptAes</a>.</td>
 </tr>
 <tr class="even">
 <td>0x33</td>
-<td>Gamecard <a href="../Savegames" title="wikilink">savedata</a>
+<td>Gamecard <a {{% href "../Savegames" %}} title="wikilink">savedata</a>
 AES-CMAC.</td>
 <td>Bootrom.</td>
 <td>NATIVE_FIRM.</td>
@@ -473,9 +473,9 @@ AES-CMAC.</td>
 <tr class="odd">
 <td>0x34</td>
 <td>SD key.</p>
-<p>This keyY is initialized via <a href="../Nand/private/movable.sed"
+<p>This keyY is initialized via <a {{% href "../Nand/private/movable.sed" %}}
 title="wikilink">movable.sed</a>. This is used for encrypting *all* SD
-card data under <a href="../SD_Filesystem" title="wikilink">/Nintendo
+card data under <a {{% href "../SD_Filesystem" %}} title="wikilink">/Nintendo
 3DS/<ID0>/<ID1>/</a>.</td>
 <td>Bootrom.</td>
 <td>NATIVE_FIRM.</td>
@@ -486,7 +486,7 @@ card data under <a href="../SD_Filesystem" title="wikilink">/Nintendo
 <td>0x35</td>
 <td>Movable.sed key.</p>
 <p>This is the keyslot used for movable.sed encryption + AES-CBC MAC
-with the import/export <a href="../FSPXI:ImportIntegrityVerificationSeed"
+with the import/export <a {{% href "../FSPXI:ImportIntegrityVerificationSeed" %}}
 title="wikilink">commands</a>. The keyYs used for crypto/CMAC are
 different, but both can be found in process9 rodata.</td>
 <td>Bootrom.</td>
@@ -497,7 +497,7 @@ different, but both can be found in process9 rodata.</td>
 <tr class="odd">
 <td>0x36</td>
 <td>Unknown. Used by friends module.</p>
-<p>See <a href="../PSPXI:EncryptDecryptAes"
+<p>See <a {{% href "../PSPXI:EncryptDecryptAes" %}}
 title="wikilink">EncryptDecryptAes</a>.</td>
 <td>Bootrom.</td>
 <td>Bootrom.</td>
@@ -506,7 +506,7 @@ title="wikilink">EncryptDecryptAes</a>.</td>
 </tr>
 <tr class="even">
 <td>0x37</td>
-<td>Gamecard <a href="../Savegames" title="wikilink">savedata</a> actual
+<td>Gamecard <a {{% href "../Savegames" %}} title="wikilink">savedata</a> actual
 key.</td>
 <td>Bootrom.</td>
 <td>NATIVE_FIRM.</td>
@@ -516,7 +516,7 @@ key.</td>
 <tr class="odd">
 <td>0x38</td>
 <td>BOSS key.</p>
-<p>See <a href="../PSPXI:EncryptDecryptAes"
+<p>See <a {{% href "../PSPXI:EncryptDecryptAes" %}}
 title="wikilink">EncryptDecryptAes</a>.</td>
 <td>Bootrom.</td>
 <td>Bootrom.</td>
@@ -526,9 +526,9 @@ title="wikilink">EncryptDecryptAes</a>.</td>
 <tr class="even">
 <td>0x39</td>
 <td>Download Play key, and the actual NFC key for generating retail
-<a href="../Amiibo" title="wikilink">Amiibo</a> keys.</p>
+<a {{% href "../Amiibo" %}} title="wikilink">Amiibo</a> keys.</p>
 <p>This keyslot is used for two different keys. Both are available via
-<a href="../PSPXI:EncryptDecryptAes"
+<a {{% href "../PSPXI:EncryptDecryptAes" %}}
 title="wikilink">EncryptDecryptAes</a>. NATIVE_FIRM sets this keyY to
 the same one used for keyslot 0x2E.</td>
 <td>Bootrom.</td>
@@ -539,9 +539,9 @@ the same one used for keyslot 0x2E.</td>
 <tr class="odd">
 <td>0x3A</td>
 <td>DSiWare export key.</p>
-<p>This keyY is initialized via <a href="../Nand/private/movable.sed"
+<p>This keyY is initialized via <a {{% href "../Nand/private/movable.sed" %}}
 title="wikilink">movable.sed</a>. This is used for calculating the
-AES-CMACs for SD <a href="../DSiWare_Exports"
+AES-CMACs for SD <a {{% href "../DSiWare_Exports" %}}
 title="wikilink">DSiWare_Exports</a>.</td>
 <td>Bootrom.</td>
 <td>NATIVE_FIRM.</td>
@@ -550,10 +550,10 @@ title="wikilink">DSiWare_Exports</a>.</td>
 </tr>
 <tr class="even">
 <td>0x3B</td>
-<td><a href="../CTRCARD_Registers#ctrcard_secseed"
+<td><a {{% href "../CTRCARD_Registers" %}}
 title="wikilink">CTR-CARD hardware-crypto seed</a> decryption key.</p>
 <p>AES-CCM is used, the keyY, nonce and MAC are stored in the <a
-href="../NCSD#card_info_header" title="wikilink">Card Info
+{{% href "../NCSD" %}} title="wikilink">Card Info
 Header</a>.</td>
 <td>Bootrom.</td>
 <td>NATIVE_FIRM.</td>
@@ -563,7 +563,7 @@ Header</a>.</td>
 <tr class="odd">
 <td>0x3D</td>
 <td>Common key.</p>
-<p>Used to decrypt title keys in <a href="../Ticket"
+<p>Used to decrypt title keys in <a {{% href "../Ticket" %}}
 title="wikilink">Ticket</a>.</td>
 <td>Bootrom.</td>
 <td>NATIVE_FIRM.</td>
@@ -573,9 +573,9 @@ title="wikilink">Ticket</a>.</td>
 <tr class="even">
 <td>0x3F</td>
 <td>Used for various internal Boot9 crypto operations, different
-keydata for each one. Used to decrypt the <a href="../OTP_Registers"
+keydata for each one. Used to decrypt the <a {{% href "../OTP_Registers" %}}
 title="wikilink">OTP</a>, the FIRM sections when <a
-href="../Bootloader#non-nand-firm-boot" title="wikilink">booting from
+{{% href "../Bootloader" %}} title="wikilink">booting from
 non-NAND</a>, and when generating the console-unique keys.</p>
 <p>The keydata for this keyslot is overwritten with other keydata before
 booting FIRM. This keyslot is not known to be used post-Boot9.</td>

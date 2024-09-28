@@ -483,5 +483,5 @@ container format essentially contains.
 <figure>
 <img src="../Disa-diff.png" title="File:Disa-diff.png" />
 <figcaption><a
-href="../File:Disa-diff.png">File:Disa-diff.png</a></figcaption>
+{{% href "../File:Disa-diff.png" %}}>File:Disa-diff.png</a></figcaption>
 </figure>

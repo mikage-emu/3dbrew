@@ -27,14 +27,14 @@ can then for example try exploiting
 <tr class="odd">
 <td>Cubic Ninja</td>
 <td>Map-data stack smash</td>
-<td>See <a href="../Ninjhax" title="wikilink">here</a> regarding
+<td>See <a {{% href "../Ninjhax" %}} title="wikilink">here</a> regarding
 Ninjhax.</td>
 <td>None</td>
-<td>App: Initial version. System: <a href="../10.4.0-29"
+<td>App: Initial version. System: <a {{% href "../10.4.0-29" %}}
 title="wikilink">10.4.0-29</a>.</td>
 <td>Ninjhax release</td>
 <td>July 2014</td>
-<td><a href="../User:smea" title="wikilink">smea</a></td>
+<td><a {{% href "../User:smea" "broken" %}} title="wikilink">smea</a></td>
 </tr>
 <tr class="even">
 <td>The Legend of Zelda: Ocarina of Time 3D</td>
@@ -73,22 +73,22 @@ then mainly because doing so would (presumably) result in the vuln being
 fixed. The following old exploit was released on March 14, 2015: <a
 href="https://github.com/yellows8/oot3dhax">1</a>.</td>
 <td>None</td>
-<td>App: Initial version. System: <a href="../10.6.0-31"
+<td>App: Initial version. System: <a {{% href "../10.6.0-31" %}}
 title="wikilink">10.6.0-31</a>.</td>
 <td>March 11, 2015</td>
 <td>Around October 22, 2012</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
 <td>Super Smash Bros 3DS</td>
 <td>Buffer overflow in local-multiplayer beacon handling.</td>
-<td>See <a href="../smashbroshax" title="wikilink">here</a>.</td>
+<td>See <a {{% href "../Smashbroshax" %}} title="wikilink">here</a>.</td>
 <td>App: v1.1.3</td>
-<td>See <a href="../smashbroshax" title="wikilink">here</a>. System: <a
-href="../10.3.0-28" title="wikilink">10.3.0-28</a>.</td>
+<td>See <a {{% href "../Smashbroshax" %}} title="wikilink">here</a>. System: <a
+{{% href "../10.3.0-28" %}} title="wikilink">10.3.0-28</a>.</td>
 <td>Time of exploit release.</td>
-<td>See <a href="../smashbroshax" title="wikilink">here</a>.</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td>See <a {{% href "../Smashbroshax" %}} title="wikilink">here</a>.</td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
 <td>Pokemon Super Mystery Dungeon</td>
@@ -108,11 +108,11 @@ one allows for arbitrary writes of linear heap pointers when the next
 buffer is allocated or arbitrary writes of any pointer within writable
 memory when the corrupted buffer is freed.</td>
 <td>None</td>
-<td>O3DS: <a href="../11.3.0-36" title="wikilink">11.3.0-36</a>. N3DS:
-<a href="../11.4.0-37" title="wikilink">11.4.0-37</a>.</td>
+<td>O3DS: <a {{% href "../11.3.0-36" %}} title="wikilink">11.3.0-36</a>. N3DS:
+<a {{% href "../11.4.0-37" %}} title="wikilink">11.4.0-37</a>.</td>
 <td>Time of exploit release.</td>
 <td>April 14, 2016</td>
-<td><a href="../User:Shinyquagsire23" title="wikilink">Shiny
+<td><a {{% href "../User:Shinyquagsire23" "broken" %}} title="wikilink">Shiny
 Quagsire</a></td>
 </tr>
 <tr class="odd">
@@ -129,10 +129,10 @@ the level save worldmap tag array should be parsed into to be
 overwritten with a stack address, allowing for ROP from within the XML
 array parsing function on the next level load.</td>
 <td>App: v1.1</td>
-<td><a href="../10.7.0-32" title="wikilink">10.7.0-32</a>.</td>
+<td><a {{% href "../10.7.0-32" %}} title="wikilink">10.7.0-32</a>.</td>
 <td>Time of exploit release.</td>
 <td>April 25, 2016</td>
-<td><a href="../User:Shinyquagsire23" title="wikilink">Shiny
+<td><a {{% href "../User:Shinyquagsire23" "broken" %}} title="wikilink">Shiny
 Quagsire</a></td>
 </tr>
 <tr class="even">
@@ -149,10 +149,10 @@ high (descending) on the stack - when exploiting this, one would likely
 need to move SP due to almost instantly overflowing the physical
 stack.</td>
 <td>None</td>
-<td><a href="../10.7.0-32" title="wikilink">10.7.0-32</a>.</td>
+<td><a {{% href "../10.7.0-32" %}} title="wikilink">10.7.0-32</a>.</td>
 <td>Time of exploit release.</td>
 <td>May 5, 2016</td>
-<td><a href="../User:Dazzozo" title="wikilink">Dazzozo</a></td>
+<td><a {{% href "../User:Dazzozo" "broken" %}} title="wikilink">Dazzozo</a></td>
 </tr>
 <tr class="odd">
 <td>SmileBASIC 3.x</td>
@@ -165,12 +165,12 @@ write a significant chunk of the interpreter's address space. With a
 series of carefully-designed BGPUT commands, one can build a ROP chain
 and cause it to be executed.</td>
 <td>App: 3.3.2.</td>
-<td>System: <a href="../11.0.0-33"
+<td>System: <a {{% href "../11.0.0-33" %}}
 title="wikilink">11.0.0-33</a>.</td>
 <td>July 20, 2016</td>
 <td>Around June 26, 2016</td>
 <td>slackerSnail, 12Me12, incvoid Exploited by MrNbaYoh and <a
-href="../User:Plutooo" title="wikilink">plutoo</a>.</td>
+{{% href "../User:Plutooo" "broken" %}} title="wikilink">plutoo</a>.</td>
 </tr>
 <tr class="even">
 <td>SmileBASIC 3.x</td>
@@ -183,7 +183,7 @@ it and into the aforementioned areas. Demo <a
 href="https://github.com/zoogie/smilehax-IIe">here.</a></td>
 <td>App: 3.6.2 (3.6.0 latest for US/EU, JP appvers. can be
 downgraded)</td>
-<td>System: <a href="../11.13.0-45"
+<td>System: <a {{% href "../11.13.0-45" %}}
 title="wikilink">11.13.0-45</a>.</td>
 <td>April 2020</td>
 <td>February 2020</td>
@@ -193,12 +193,12 @@ Exploited by Zoogie</td>
 </tr>
 <tr class="odd">
 <td>The Legend of Zelda: Tri Force Heroes</td>
-<td><a href="../3DS_System_Flaws#generalctrsdk"
+<td><a {{% href "../3DS_System_Flaws" %}}
 title="wikilink">CTRSDK</a> CTPK buffer overflow combined with game's
 usage of SpotPass</td>
 <td>During the very first screen displayed by the game during
 boot("Loading..."), just seconds after title launch, the game loads CTPK
-from the <a href="../BOSS_Services" title="wikilink">stored</a> SpotPass
+from the <a {{% href "../BOSS_Services" %}} title="wikilink">stored</a> SpotPass
 content. Hence, this game could be exploited via the vulnerable CTRSDK
 CTPK code <em>if</em> one could get custom SpotPass data into extdata
 somehow(ctr-httpwn &gt;=v1.2 with bosshaxx allows this).</p>
@@ -217,7 +217,7 @@ href="https://github.com/yellows8/ctpkpwn">ctpkpwn_tfh</a>.</td>
 <td>App: v2.1.0</td>
 <td>November 18, 2016</td>
 <td>November 14, 2016</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
 <td>Pixel Paint</td>
@@ -227,11 +227,11 @@ file is read to a fixed size buffer but the file length remains
 unchecked, so with a large enough file, one can overwrite pointers in
 memory and gain control of the execution flow.</td>
 <td>None</td>
-<td>App: Initial version. System: <a href="../11.2.0-35"
+<td>App: Initial version. System: <a {{% href "../11.2.0-35" %}}
 title="wikilink">11.2.0-35</a>.</td>
 <td>December 27, 2016</td>
 <td>November 5, 2016</td>
-<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
+<td><a {{% href "../User:Nba_Yoh" "broken" %}} title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="odd">
 <td>Steel Diver : Sub Wars</td>
@@ -241,11 +241,11 @@ string key makes the game overwrite a memcpy source/destination
 addresses and size arguments. So one can actually memcpy a rop on the
 stack and gain control of the execution flow.</td>
 <td>None</td>
-<td>System: <a href="../11.2.0-35"
+<td>System: <a {{% href "../11.2.0-35" %}}
 title="wikilink">11.2.0-35</a>.</td>
 <td>December 27, 2016</td>
 <td>Around July 15, 2016</td>
-<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a>,
+<td><a {{% href "../User:Nba_Yoh" "broken" %}} title="wikilink">MrNbaYoh</a>,
 Vegaroxas</td>
 </tr>
 <tr class="even">
@@ -265,7 +265,7 @@ in that function.</td>
 <td>App: v1.2.0 (TMD v2096)</td>
 <td>December 27, 2016</td>
 <td>Around November 2, 2016</td>
-<td><a href="../User:Riley" title="wikilink">Riley</a></td>
+<td><a {{% href "../User:Riley" "broken" %}} title="wikilink">Riley</a></td>
 </tr>
 <tr class="odd">
 <td>Pokemon Omega Ruby/Alpha Sapphire</td>
@@ -275,11 +275,11 @@ the heap, however its length is not verified. So with a large enough
 team name one can overwrite some pointers and get two arbitrary jumps
 and then get control of the execution flow.</td>
 <td>None</td>
-<td>App: 1.4. System: <a href="../11.2.0-35"
+<td>App: 1.4. System: <a {{% href "../11.2.0-35" %}}
 title="wikilink">11.2.0-35</a>.</td>
 <td>December 30, 2016</td>
 <td>June, 2016</td>
-<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
+<td><a {{% href "../User:Nba_Yoh" "broken" %}} title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="even">
 <td>Swapdoodle</td>
@@ -296,7 +296,7 @@ flow.</td>
 <td>App: v1.1.1</td>
 <td>April 24, 2017</td>
 <td>February, 2017</td>
-<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
+<td><a {{% href "../User:Nba_Yoh" "broken" %}} title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="odd">
 <td>Pokemon Picross</td>
@@ -311,7 +311,7 @@ and a destination address for a memcpy.</td>
 <td>App: ?</td>
 <td>May 29, 2017</td>
 <td>June, 2016</td>
-<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
+<td><a {{% href "../User:Nba_Yoh" "broken" %}} title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="even">
 <td>RPG Maker Fes/Player</td>
@@ -325,7 +325,7 @@ jump.</td>
 <td>App: ?</td>
 <td>August 28, 2017</td>
 <td>August, 2017</td>
-<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
+<td><a {{% href "../User:Nba_Yoh" "broken" %}} title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="odd">
 <td>RPG Maker Fes/Player</td>
@@ -338,8 +338,8 @@ then achieve ROP.</td>
 <td>App: ?</td>
 <td>August 29, 2017</td>
 <td>August, 2017</td>
-<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a>, <a
-href="../User:_ChampionLeake" title="wikilink">ChampionLeake</a></td>
+<td><a {{% href "../User:Nba_Yoh" "broken" %}} title="wikilink">MrNbaYoh</a>, <a
+{{% href "../User:_ChampionLeake" "broken" %}} title="wikilink">ChampionLeake</a></td>
 </tr>
 <tr class="even">
 <td>Pokemon Omega Ruby/Alpha Sapphire</td>
@@ -354,11 +354,11 @@ and unfortunately this isn't exploitable because of a 4 bytes
 uncontrolled value (in each entry) that gets written on sensitive
 data.</td>
 <td>None</td>
-<td>App: 1.4. System: <a href="../11.6.0"
+<td>App: 1.4. System: <a {{% href "../11.6.0" "broken" %}}
 title="wikilink">11.6.0</a>.</td>
 <td>October 1, 2017</td>
 <td>June, 2016</td>
-<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
+<td><a {{% href "../User:Nba_Yoh" "broken" %}} title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="odd">
 <td>RPG Maker Fes/Player</td>
@@ -370,7 +370,7 @@ rop directly on the stack (bit by bit).</td>
 <td>App: ?</td>
 <td>August 5, 2018</td>
 <td></td>
-<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
+<td><a {{% href "../User:Nba_Yoh" "broken" %}} title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="even">
 <td>Unholy Heights</td>
@@ -399,8 +399,8 @@ rop-chain.</td>
 <td>App: v1.0.0</td>
 <td>August 14, 2019</td>
 <td>February 8, 2019</td>
-<td><a href="../User:_ChampionLeake" title="wikilink">ChampionLeake</a>
-and <a href="../User:_Kartik" title="wikilink">Kartik</a></td>
+<td><a {{% href "../User:_ChampionLeake" "broken" %}} title="wikilink">ChampionLeake</a>
+and <a {{% href "../User:_Kartik" "broken" %}} title="wikilink">Kartik</a></td>
 </tr>
 <tr class="even">
 <td>Picross 3D: Round 2</td>
@@ -418,8 +418,8 @@ to a stack pivot and start the ROP chain.</td>
 <td>App: Initial version</td>
 <td>September 10, 2020</td>
 <td>August 24, 2020</td>
-<td><a href="../User:_Luigoalma" title="wikilink">Luigoalma</a> and <a
-href="../User:_Kartik" title="wikilink">Kartik</a></td>
+<td><a {{% href "../User:_Luigoalma" "broken" %}} title="wikilink">Luigoalma</a> and <a
+{{% href "../User:_Kartik" "broken" %}} title="wikilink">Kartik</a></td>
 </tr>
 <tr class="odd">
 <td>Me and My Pets 3D</td>
@@ -431,7 +431,7 @@ ropchain.</td>
 <td>App: Initial Version</td>
 <td>June 24, 2022</td>
 <td>June 12, 2022</td>
-<td><a href="../User:_Kartik" title="wikilink">Kartik</a></td>
+<td><a {{% href "../User:_Kartik" "broken" %}} title="wikilink">Kartik</a></td>
 </tr>
 <tr class="even">
 <td>trl CGB emulator (GBC Virtual Console)</td>
@@ -461,7 +461,7 @@ CGB-specific functionality which is disabled in mono Game Boy games
 <td>trl as included in Pokémon Crystal VC</td>
 <td>January 2024</td>
 <td>~2017</td>
-<td><a href="../User:Riley" title="wikilink">Riley</a></td>
+<td><a {{% href "../User:Riley" "broken" %}} title="wikilink">Riley</a></td>
 </tr>
 </tbody>
 </table>
@@ -607,7 +607,7 @@ CGB-specific functionality which is disabled in mono Game Boy games
 </thead>
 <tbody>
 <tr class="odd">
-<td>3DS <a href="../System_Settings" title="wikilink">System
+<td>3DS <a {{% href "../System_Settings" %}} title="wikilink">System
 Settings</a> DS profile string stack-smash</td>
 <td>Too long or corrupted strings (01Ah 2 Nickname length in
 characters 050h 2 Message length in characters) in the NVRAM DS user
@@ -617,14 +617,14 @@ not vulnerable to this, DSi launcher(menu) and DSi System Settings will
 reset the NVRAM user-settings if the length field values are too
 long(same result as when the CRCs are invalid). TWL_FIRM also resets the
 NVRAM user-settings when the string-length(s) are too long.</td>
-<td><a href="../7.0.0-13" title="wikilink">7.0.0-13</a></td>
-<td><a href="../7.0.0-13" title="wikilink">7.0.0-13</a></td>
+<td><a {{% href "../7.0.0-13" %}} title="wikilink">7.0.0-13</a></td>
+<td><a {{% href "../7.0.0-13" %}} title="wikilink">7.0.0-13</a></td>
 <td>2012</td>
-<td><a href="../User:Ichfly" title="wikilink">Ichfly</a></td>
+<td><a {{% href "../User:Ichfly" "broken" %}} title="wikilink">Ichfly</a></td>
 </tr>
 <tr class="even">
-<td>3DS <a href="../System_Settings" title="wikilink">System
-Settings</a> stack smash via title strings in <a href="../DSiWare_Exports"
+<td>3DS <a {{% href "../System_Settings" %}} title="wikilink">System
+Settings</a> stack smash via title strings in <a {{% href "../DSiWare_Exports" %}}
 title="wikilink">DSiWare_Exports</a></td>
 <td>DSiWare export banners contain 16 consecutive 0x100 byte, utf-16
 game title strings for different languages. Nintendo correctly limits
@@ -638,16 +638,16 @@ href="https://github.com/zoogie/Bannerbomb3">here</a>.</p>
 <p>Interesting note: A line feed wchar (00 0A) at any point in the
 string before the crash offset will prevent the crash from
 occurring.</td>
-<td><a href="../11.17.0-50" title="wikilink">11.17.0-50</a></td>
-<td><a href="../11.13.0-45" title="wikilink">11.13.0-45</a></td>
+<td><a {{% href "../11.17.0-50" %}} title="wikilink">11.17.0-50</a></td>
+<td><a {{% href "../11.13.0-45" %}} title="wikilink">11.13.0-45</a></td>
 <td>Dec. 2018</td>
 <td>Zoogie</td>
 </tr>
 <tr class="odd">
 <td>3DS SAFE_MODE <a
-href="../System_Settings#system_updater">System
+{{% href "../System_Settings" %}}>System
 Updater</a> stack smash from proxy-url string</td>
-<td>During <a href="../Recovery_Mode" title="wikilink">Recovery Mode</a>
+<td>During <a {{% href "../Recovery_Mode" %}} title="wikilink">Recovery Mode</a>
 and after all 3 wifi slots fail to find an access point for sysupdate, a
 user is permitted to access the wifi settings mode to make changes.
 Here, if the proxy-url field string's NULL terminator had been altered
@@ -665,32 +665,32 @@ exploit with cfg:s/i access to modify the wifi slot. A demonstration can
 be viewed <a
 href="https://github.com/zoogie/unSAFE_MODE">here</a>.</td>
 <td>None</td>
-<td><a href="../11.13.0-45" title="wikilink">11.13.0-45</a></td>
+<td><a {{% href "../11.13.0-45" %}} title="wikilink">11.13.0-45</a></td>
 <td>Jan. 2020</td>
 <td>Zoogie</td>
 </tr>
 <tr class="even">
-<td><a href="../Nintendo_3DS_Sound" title="wikilink">Nintendo 3DS
+<td><a {{% href "../Nintendo_3DS_Sound" %}} title="wikilink">Nintendo 3DS
 Sound</a></td>
 <td>When a .m4a is loaded, the song name is copied to a 256 byte
 buffer. When the song name begins with a Unicode BOM marker, it memcpy's
 the tag using the user-provided length. This gives an arbitrary write
 which can be used to achieve ROP.</td>
-<td><a href="../11.4.0-37" title="wikilink">11.4.0-37</a></td>
-<td><a href="../11.4.0-37" title="wikilink">11.4.0-37</a></td>
+<td><a {{% href "../11.4.0-37" %}} title="wikilink">11.4.0-37</a></td>
+<td><a {{% href "../11.4.0-37" %}} title="wikilink">11.4.0-37</a></td>
 <td>June/July 2016</td>
-<td><a href="../User:nedwill" title="wikilink">nedwill</a></td>
+<td><a {{% href "../User:nedwill" "broken" %}} title="wikilink">nedwill</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../EShop" title="wikilink">EShop</a></td>
+<td><a {{% href "../EShop" %}} title="wikilink">EShop</a></td>
 <td>When creating an audio decoder object for the moflex movie
 player, if the audio codec is PCM16, the application uses an
 uninitialized value as a pointer. One can spray the heap to get control
 of that pointer and achieve ROP.</td>
 <td>None</td>
-<td><a href="../11.14.0-46" title="wikilink">11.14.0-46</a></td>
+<td><a {{% href "../11.14.0-46" %}} title="wikilink">11.14.0-46</a></td>
 <td>2020</td>
-<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
+<td><a {{% href "../User:Nba_Yoh" "broken" %}} title="wikilink">MrNbaYoh</a></td>
 </tr>
 </tbody>
 </table>
@@ -715,7 +715,7 @@ of that pointer and achieve ROP.</td>
 <td>Webkit/web-browser bugs</td>
 <td>spider has had at least three different code-execution exploits.
 Majority of them are use-after-free issues. See also <a
-href="../browserhax" title="wikilink">here</a>.</td>
+{{% href "../Browserhax" %}} title="wikilink">here</a>.</td>
 <td></td>
 <td></td>
 <td></td>
@@ -724,7 +724,7 @@ href="../browserhax" title="wikilink">here</a>.</td>
 <td>A lot of people.</td>
 </tr>
 <tr class="even">
-<td>Old3DS/New3DS <a href="../Internet_Browser"
+<td>Old3DS/New3DS <a {{% href "../Internet_Browser" %}}
 title="wikilink">Browser-version-check</a> bypass</td>
 <td>When the browser-version-check code runs where the savedata for
 it was never initialized(such as when the user used the "Initialize
@@ -738,16 +738,16 @@ browser-version-check will be skipped. This includes January 1, 2000,
 timestamp.</p>
 <p>See <a href="http://yls8.mtheall.com/3dsbrowserhax.php">here</a> for
 bypass usage instructions.</p>
-<p>This was fixed with <a href="../10.7.0-32"
-title="wikilink">10.7.0-32</a>, see <a href="../Internet_Browser"
+<p>This was fixed with <a {{% href "../10.7.0-32" %}}
+title="wikilink">10.7.0-32</a>, see <a {{% href "../Internet_Browser" %}}
 title="wikilink">here</a> for details.</td>
-<td><a href="../10.7.0-32" title="wikilink">10.7.0-32</a></td>
+<td><a {{% href "../10.7.0-32" %}} title="wikilink">10.7.0-32</a></td>
 <td></td>
-<td><a href="../9.9.0-26" title="wikilink">9.9.0-26</a></td>
+<td><a {{% href "../9.9.0-26" %}} title="wikilink">9.9.0-26</a></td>
 <td>February 25, 2016</td>
 <td>November 2, 2015 (Exactly one week after the browser version
 pages were initially updated server-side)</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
 <td>Skater - Bookmark OOB write</td>
@@ -755,11 +755,11 @@ pages were initially updated server-side)</td>
 ids are not checked, this results in an OOB write on the stack, but only
 the value 0x01 can be written.</td>
 <td></td>
-<td><a href="../11.6.0-39" title="wikilink">11.6.0-39</a></td>
+<td><a {{% href "../11.6.0-39" %}} title="wikilink">11.6.0-39</a></td>
 <td></td>
 <td>May 21, 2018</td>
 <td>May 20, 2018</td>
-<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
+<td><a {{% href "../User:Nba_Yoh" "broken" %}} title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="even">
 <td>MicroSD Management - malformed security blob causes stack buffer
@@ -771,9 +771,9 @@ longer, a stack buffer overrun occurs, leading to a ROP chain and
 complete control of the mcopy application.</p>
 <p>The malformed security blob can be sent by an attacker within the
 SMB_COM_SESSION_SETUP_ANDX (0x73) packet.</td>
-<td><a href="../11.8.0-41" title="wikilink">11.8.0-41</a></td>
-<td><a href="../11.8.0-41" title="wikilink">11.8.0-41</a></td>
-<td><a href="../9.0.0-20" title="wikilink">9.0.0-20</a></td>
+<td><a {{% href "../11.8.0-41" %}} title="wikilink">11.8.0-41</a></td>
+<td><a {{% href "../11.8.0-41" %}} title="wikilink">11.8.0-41</a></td>
+<td><a {{% href "../9.0.0-20" %}} title="wikilink">9.0.0-20</a></td>
 <td>August 12, 2018</td>
 <td>2018</td>
 <td>smea</td>
@@ -808,7 +808,7 @@ address of their choice. This is triggered after the Home Menu quick
 launch tab is activated. POC <a
 href="https://github.com/zoogie/menuhax67">here</a>.</td>
 <td>None</td>
-<td><a href="../11.13.0-45" title="wikilink">11.13.0-45</a></td>
+<td><a {{% href "../11.13.0-45" %}} title="wikilink">11.13.0-45</a></td>
 <td></td>
 <td>October 4, 2020</td>
 <td>September, 2020</td>
@@ -816,22 +816,22 @@ href="https://github.com/zoogie/menuhax67">here</a>.</td>
 </tr>
 <tr class="even">
 <td>bossbannerhax</td>
-<td>After successfully loading <a href="../Extended_Banner"
+<td>After successfully loading <a {{% href "../Extended_Banner" %}}
 title="wikilink">extended-banner</a> data(done when selecting an icon),
-Home Menu attempts to load "<a href="../CBMD" title="wikilink">CBMD</a>"
-data into a 0x100000-byte heap buffer from the <a href="../BOSS_Services"
+Home Menu attempts to load "<a {{% href "../CBMD" %}} title="wikilink">CBMD</a>"
+data into a 0x100000-byte heap buffer from the <a {{% href "../BOSS_Services" %}}
 title="wikilink">stored</a> SpotPass content. When successful and the
 magic-number is CBMD, Home Menu then decompresses the exbanner sections
 into another fixed-size heap buffer, without checking the outsize at
 all. The main CBMD CGFX code with ExeFS checks the size, but this code
 doesn't(however this is exbanner "CBMD", not a "normal" CBMD).</p>
 <p>Used with menuhax as of v3.2.</td>
-<td><a href="../11.3.0-36" title="wikilink">11.3.0-X</a></td>
+<td><a {{% href "../11.3.0-36" %}} title="wikilink">11.3.0-X</a></td>
 <td></td>
-<td><a href="../1.0.0-0" title="wikilink">1.0.0-0</a></td>
+<td><a {{% href "../1.0.0-0" %}} title="wikilink">1.0.0-0</a></td>
 <td>November 18, 2016</td>
 <td>December 23, 2014</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
 <td>sdiconhax</td>
@@ -839,24 +839,24 @@ doesn't(however this is exbanner "CBMD", not a "normal" CBMD).</p>
 functions are <em>identical</em> minus the file-buffer offsets.
 Exploitation is different due to different heap-buffer location though.
 Unlike nandiconhax, the icon buffer for SD is located in linearmem(with
-recent Home Menu versions at least). This is used by <a href="../menuhax"
+recent Home Menu versions at least). This is used by <a {{% href "../Menuhax" %}}
 title="wikilink">menuhax</a>.</td>
-<td><a href="../11.1.0-34" title="wikilink">11.1.0-X</a></td>
+<td><a {{% href "../11.1.0-34" %}} title="wikilink">11.1.0-X</a></td>
 <td></td>
-<td><a href="../4.0.0-7" title="wikilink">4.0.0-X</a></td>
+<td><a {{% href "../4.0.0-7" %}} title="wikilink">4.0.0-X</a></td>
 <td>July 27, 2016</td>
 <td>October 23, 2015</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
-<td><a href="../System_SaveData" title="wikilink">NAND-savedata</a>
+<td><a {{% href "../System_SaveData" %}} title="wikilink">NAND-savedata</a>
 Launcher.dat icons (nandiconhax)</td>
 <td>The homemenu code processing the titleid list @ launcherdat+8
 copies those titleIDs to another buffer, where the offset relative to
 that buffer is calculated using the corresponding s8/s16 entries. Those
 two values are not range checked at all. Hence, one can use this to
 write u64(s) with arbitrary values to before/after this allocated output
-buffer. See <a href="../Home_Menu" title="wikilink">here</a> regarding
+buffer. See <a {{% href "../Home_Menu" %}} title="wikilink">here</a> regarding
 Launcher.dat structure.</p>
 <p>This can be exploited(with Launcher.dat loading at startup at least)
 by using a s16 for the icon entry with value 0xFFEC(-20)(and perhaps
@@ -884,15 +884,15 @@ state where it no longer crashes anymore. However, note that any
 exploits using this which hang/etc without crashing will still brick the
 system. <strong>Hence, attempting anything with this on physnand without
 hw-nand-access isn't really recommended.</strong></td>
-<td><a href="../11.1.0-34" title="wikilink">11.1.0-X</a></td>
+<td><a {{% href "../11.1.0-34" %}} title="wikilink">11.1.0-X</a></td>
 <td></td>
-<td><a href="../4.0.0-7" title="wikilink">4.0.0-X</a></td>
+<td><a {{% href "../4.0.0-7" %}} title="wikilink">4.0.0-X</a></td>
 <td></td>
 <td>May 14, 2015</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td>Theme-data decompression buffer overflow (<a href="../menuhax"
+<td>Theme-data decompression buffer overflow (<a {{% href "../Menuhax" %}}
 title="wikilink">themehax</a>)</td>
 <td>The only func-call size parameter used by the theme decompression
 function is one for the compressed size, none for the decompressed size.
@@ -911,31 +911,31 @@ code calling the other function, not in the function itself). Unlike the
 other function, the theme function supports multiple LZ algorithms, but
 the one which actually gets used in official themes is the same one
 supported by the other function anyway.</p>
-<p>See also <a href="../menuhax" title="wikilink">here</a>.</p>
-<p>With <a href="../10.2.0-28" title="wikilink">10.2.0-X</a> Home Menu, the
+<p>See also <a {{% href "../Menuhax" %}} title="wikilink">here</a>.</p>
+<p>With <a {{% href "../10.2.0-28" %}} title="wikilink">10.2.0-X</a> Home Menu, the
 only code change was that the following was added right after theme-load
 and before actual decompression:
 "if(<get_lzheader_decompressed_size>(compressed_buf) &gt;
 0x150000)<exit>;". This fixed the vuln.</td>
-<td><a href="../10.2.0-28" title="wikilink">10.2.0-X</a></td>
-<td><a href="../10.2.0-28" title="wikilink">10.2.0-X</a></td>
+<td><a {{% href "../10.2.0-28" %}} title="wikilink">10.2.0-X</a></td>
+<td><a {{% href "../10.2.0-28" %}} title="wikilink">10.2.0-X</a></td>
 <td><Old3DS/New3DS version which added initial theme support></td>
 <td></td>
 <td>December 22, 2014</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a>, <a
-href="../User:Myria" title="wikilink">Myria</a> independently (~spring
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a>, <a
+{{% href "../User:Myria" "broken" %}} title="wikilink">Myria</a> independently (~spring
 2015)</td>
 </tr>
 <tr class="even">
-<td>Shuffle body-data buffer overflow (<a href="../menuhax"
+<td>Shuffle body-data buffer overflow (<a {{% href "../Menuhax" %}}
 title="wikilink">shufflehax</a>)</td>
-<td>See <a href="../menuhax" title="wikilink">here</a>.</td>
-<td><a href="../10.6.0-31" title="wikilink">10.6.0-X</a></td>
-<td><a href="../10.6.0-31" title="wikilink">10.6.0-X</a></td>
-<td><a href="../9.3.0-21" title="wikilink">9.3.0-X</a></td>
+<td>See <a {{% href "../Menuhax" %}} title="wikilink">here</a>.</td>
+<td><a {{% href "../10.6.0-31" %}} title="wikilink">10.6.0-X</a></td>
+<td><a {{% href "../10.6.0-31" %}} title="wikilink">10.6.0-X</a></td>
+<td><a {{% href "../9.3.0-21" %}} title="wikilink">9.3.0-X</a></td>
 <td></td>
 <td>January 3, 2015</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
 <td>Extdata file-data loading buffer overflow</td>
@@ -953,12 +953,12 @@ this is done with v2.0 Home Menu, a kernelpanic occurs when processing
 an AM command(it appears a buffer ptr which is then passed to a command
 was overwritten with 0x0 - of course other SaveData.dat filesizes may
 result in different behaviour).</td>
-<td><a href="../5.0.0-11" title="wikilink">5.0.0-X</a></td>
+<td><a {{% href "../5.0.0-11" %}} title="wikilink">5.0.0-X</a></td>
 <td></td>
-<td><a href="../2.0.0-2" title="wikilink">2.0.0-X</a></td>
+<td><a {{% href "../2.0.0-2" "broken" %}} title="wikilink">2.0.0-X</a></td>
 <td>June 9, 2016</td>
 <td>June 9, 2016</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 </tbody>
 </table>

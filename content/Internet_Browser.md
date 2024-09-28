@@ -602,42 +602,42 @@ User-agent format: `Mozilla/5.0 (Nintendo 3DS; U; ; <lang>) Version/<version>.<r
 <tr class="odd">
 <td>1.7412</td>
 <td>v6</td>
-<td><a href="../2.0.0-2" title="wikilink">2.0.0-2</a></td>
+<td><a {{% href "../2.0.0-2" "broken" %}} title="wikilink">2.0.0-2</a></td>
 <td>This was the initial version.</td>
 </tr>
 <tr class="even">
 <td>1.7455</td>
 <td>v1024</td>
-<td><a href="../2.1.0-4" title="wikilink">2.1.0-4</a></td>
+<td><a {{% href "../2.1.0-4" "broken" %}} title="wikilink">2.1.0-4</a></td>
 <td>ExeFS .code was updated, both of the CROs(webkit/OSS) were
 updated too.</td>
 </tr>
 <tr class="odd">
 <td>1.7498</td>
 <td>v2050</td>
-<td><a href="../4.0.0-7" title="wikilink">4.0.0-7</a></td>
+<td><a {{% href "../4.0.0-7" %}} title="wikilink">4.0.0-7</a></td>
 <td>ExeFS .code was updated, both of the CROs(webkit/OSS) were
 updated too. The manual CFA was updated as well.</td>
 </tr>
 <tr class="even">
 <td>1.7538</td>
 <td>v0</td>
-<td><a href="../4.2.0-9" title="wikilink">4.2.0-9</a></td>
+<td><a {{% href "../4.2.0-9" "broken" %}} title="wikilink">4.2.0-9</a></td>
 <td>First version of the KOR browser. The CROs are different from the
-USA/EUR/JPN <a href="../4.0.0-7" title="wikilink">4.0.0-7</a>
+USA/EUR/JPN <a {{% href "../4.0.0-7" %}} title="wikilink">4.0.0-7</a>
 browser.</td>
 </tr>
 <tr class="odd">
 <td>1.7552</td>
 <td>v3075</td>
-<td><a href="../5.0.0-11" title="wikilink">5.0.0-11</a></td>
+<td><a {{% href "../5.0.0-11" %}} title="wikilink">5.0.0-11</a></td>
 <td>ExeFS .code and icon were updated, both of the CROs(webkit/OSS)
 were updated too. The manual CFA was updated as well.</td>
 </tr>
 <tr class="even">
 <td>1.7552</td>
 <td>v3088</td>
-<td><a href="../7.0.0-13" title="wikilink">7.0.0-13</a></td>
+<td><a {{% href "../7.0.0-13" %}} title="wikilink">7.0.0-13</a></td>
 <td>The main NCCH wasn't updated at all(same TMD
 contentID/content-hash as the previous version), only the manual CFA for
 this title was updated.</td>
@@ -645,7 +645,7 @@ this title was updated.</td>
 <tr class="odd">
 <td>1.7567</td>
 <td>v4096</td>
-<td><a href="../7.1.0-16" title="wikilink">7.1.0-16</a></td>
+<td><a {{% href "../7.1.0-16" %}} title="wikilink">7.1.0-16</a></td>
 <td>The CXI .code was updated, some data in the RomFS was
 updated(none of the CROs such as webkit.cro were updated). The manual
 CFA was updated too.</td>
@@ -653,7 +653,7 @@ CFA was updated too.</td>
 <tr class="even">
 <td>1.7585</td>
 <td>v5121</td>
-<td><a href="../9.5.0-23" title="wikilink">9.5.0-23</a></td>
+<td><a {{% href "../9.5.0-23" %}} title="wikilink">9.5.0-23</a></td>
 <td>The CXI .code was updated, and the manual CFA was updated. RomFS
 changes:</p>
 <ul>
@@ -678,19 +678,19 @@ for spider was fixed, which also fixed the removewinframe exploit from
 <tr class="even">
 <td>1.7610</td>
 <td>v6149</td>
-<td><a href="../9.9.0-26" title="wikilink">9.9.0-26</a></td>
+<td><a {{% href "../9.9.0-26" %}} title="wikilink">9.9.0-26</a></td>
 <td>See below.</td>
 </tr>
 <tr class="odd">
 <td>1.7616</td>
 <td>v7168</td>
-<td><a href="../10.2.0-28" title="wikilink">10.2.0-28</a></td>
+<td><a {{% href "../10.2.0-28" %}} title="wikilink">10.2.0-28</a></td>
 <td>See below.</td>
 </tr>
 <tr class="even">
 <td>1.7622</td>
 <td>v8192</td>
-<td><a href="../10.6.0-31" title="wikilink">10.6.0-31</a></td>
+<td><a {{% href "../10.6.0-31" %}} title="wikilink">10.6.0-31</a></td>
 <td>See below.</td>
 </tr>
 <tr class="odd">
@@ -702,25 +702,25 @@ for spider was fixed, which also fixed the removewinframe exploit from
 <tr class="even">
 <td>1.7625</td>
 <td>v9232</td>
-<td><a href="../10.7.0-32" title="wikilink">10.7.0-32</a></td>
+<td><a {{% href "../10.7.0-32" %}} title="wikilink">10.7.0-32</a></td>
 <td>See below.</td>
 </tr>
 <tr class="odd">
 <td>1.7630</td>
 <td>v10240</td>
-<td><a href="../11.1.0-34" title="wikilink">11.1.0-34</a></td>
+<td><a {{% href "../11.1.0-34" %}} title="wikilink">11.1.0-34</a></td>
 <td>See below.</td>
 </tr>
 <tr class="even">
 <td>1.7636</td>
 <td>v11297</td>
-<td><a href="../11.9.0-42" title="wikilink">11.9.0-42</a></td>
+<td><a {{% href "../11.9.0-42" %}} title="wikilink">11.9.0-42</a></td>
 <td>See below.</td>
 </tr>
 <tr class="odd">
 <td>1.7639</td>
 <td>v12288</td>
-<td><a href="../11.14.0-46" title="wikilink">11.14.0-46</a></td>
+<td><a {{% href "../11.14.0-46" %}} title="wikilink">11.14.0-46</a></td>
 <td>See below.</td>
 </tr>
 </tbody>

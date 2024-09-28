@@ -39,8 +39,8 @@ Version/<version>.<region>". <lang> is "en", "fr", etc. <region> is
 <td>1.7498</td>
 <td>v1056 and v1040</td>
 <td></td>
-<td>First app update. This build uses the <a href="../7.0.0-13"
-title="wikilink">v7.0</a> <a href="../NCCH" title="wikilink">NCCH</a>
+<td>First app update. This build uses the <a {{% href "../7.0.0-13" %}}
+title="wikilink">v7.0</a> <a {{% href "../NCCH" %}} title="wikilink">NCCH</a>
 encryption for the main CXI, this was the first retail title to use
 this.</td>
 </tr>
@@ -51,7 +51,7 @@ this.</td>
 <td>This update fixed the vuln used for tubehax.</p>
 <ul>
 <li>This version was built with the latest CTRSDK, so NATIVE_FIRM <a
-href="../9.6.0-24" title="wikilink">9.6.0-X</a> is now required.</li>
+{{% href "../9.6.0-24" %}} title="wikilink">9.6.0-X</a> is now required.</li>
 <li>Plaintext HTTP is still used.</li>
 <li>The RomFS is empty, and accessinfo is still 0x0. Strings related to
 RO are still in the codebin, but during application startup ldr:ro isn't
@@ -70,14 +70,14 @@ Version/1.7498.US" and "Mozilla/5.0 (Nintendo 3DS New3DS; U; Factory
 Media Production; en) Version/1.7499.US".</li>
 </ul>
 <p><strong>None</strong> of the public Old3DS/New3DS <a
-href="../browserhax" title="wikilink">browserhax</a> which were public at
+{{% href "../Browserhax" %}} title="wikilink">browserhax</a> which were public at
 the time this YouTube app was updated, affect the YouTube app at all (no
 crashes).</p>
 <ul>
 <li>The "range" html <input> no longer displays: the page
 background-color is displayed where the slider would have been. Hence,
 unless there's a way to get this to actually display, <a
-href="../browserhax" title="wikilink">sliderhax</a> isn't usable with this
+{{% href "../Browserhax" %}} title="wikilink">sliderhax</a> isn't usable with this
 YouTube app version.</li>
 </ul>
 <p>See <a

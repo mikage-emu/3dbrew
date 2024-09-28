@@ -13,13 +13,13 @@ sdmc
 ├── Nintendo 3DS
 │   ├── &lt;ID0&gt;
 │   │   └── &lt;ID1&gt;
-│   │       ├── <a href="../SD_Savedata_Backups">backups</a>
-│   │       ├── <a href="../Title_Database">dbs</a>
-│   │       ├── <a href="../Extdata">extdata</a>
-│   │       ├── <a href="../Titles">title</a>
-│   │       └── <a href="../DSiWare_Exports">Nintendo DSiWare</a>
-│   └── <a href="../SD_Filesystem#private">Private</a>
-└── <a href="../SD_Filesystem#other-private-data">private</a>
+│   │       ├── <a {{% href "../SD_Savedata_Backups" %}}>backups</a>
+│   │       ├── <a {{% href "../Title_Database" %}}>dbs</a>
+│   │       ├── <a {{% href "../Extdata" %}}>extdata</a>
+│   │       ├── <a {{% href "../Titles" %}}>title</a>
+│   │       └── <a {{% href "../DSiWare_Exports" %}}>Nintendo DSiWare</a>
+│   └── <a {{% href "../SD_Filesystem" %}}>Private</a>
+└── <a {{% href "../SD_Filesystem" %}}>private</a>
     └── Nintendo 3DS
         └── app
 </pre>

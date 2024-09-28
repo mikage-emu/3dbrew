@@ -60,7 +60,7 @@ binary "F1 10 FF EE".</td>
 <td>Last 3-bytes here are used with the following HMAC where the size
 is 0x1DF-bytes. The u16 starting at byte1 is used for the first two
 bytes in the 0x40-byte input buffer for Amiibo <a
-href="../Process_Services_PXI" title="wikilink">crypto</a> init.</p>
+{{% href "../Process_Services_PXI" %}} title="wikilink">crypto</a> init.</p>
 <table>
 <thead>
 <tr class="header">

@@ -157,7 +157,7 @@ Block diagram of an ULTRAY2000 based architecture PICA200:
 <img src="../Pica200BlockDiagram.png"
 title="File:Pica200BlockDiagram.png" />
 <figcaption><a
-href="../File:Pica200BlockDiagram.png">File:Pica200BlockDiagram.png</a></figcaption>
+{{% href "../File:Pica200BlockDiagram.png" %}}>File:Pica200BlockDiagram.png</a></figcaption>
 </figure>
 
 PICA200 is compatible with OpenGL ES 1.1. It furthermore provides unique

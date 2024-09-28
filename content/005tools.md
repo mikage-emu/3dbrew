@@ -53,5 +53,5 @@ it's own.
 <figure>
 <img src="../005tools.png" title="File:005tools.png" />
 <figcaption><a
-href="../File:005tools.png">File:005tools.png</a></figcaption>
+{{% href "../File:005tools.png" %}}>File:005tools.png</a></figcaption>
 </figure>

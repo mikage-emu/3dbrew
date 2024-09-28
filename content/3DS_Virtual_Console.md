@@ -215,7 +215,7 @@ little-endian.
 <td>0x008</td>
 <td>0x4</td>
 <td>Save type (see below for supported values and <a
-href="../ARM7_Registers#arm7_save_mode" title="wikilink">here</a> for
+{{% href "../ARM7_Registers" %}} title="wikilink">here</a> for
 details)</td>
 </tr>
 <tr class="even">
@@ -227,7 +227,7 @@ details)</td>
 <td>0x00E</td>
 <td>0x2</td>
 <td>Sleep mode button combo (utilizes the same bit masks as the <a
-href="../HID_Registers#hid_pad" title="wikilink">HID_PAD register</a>, with
+{{% href "../HID_Registers" %}} title="wikilink">HID_PAD register</a>, with
 flipped bits).<br />
 If the GBA title supports a button-combo based sleep mode and it's set
 here, Agbbg spoofs this combo when closing the 3DS' lid to enter proper
@@ -237,7 +237,7 @@ sleep mode.</td>
 <td>0x010</td>
 <td>0x10</td>
 <td>Flash and EEPROM configuration (see the target registers <a
-href="../ARM7_Registers" title="wikilink">here</a>)</td>
+{{% href "../ARM7_Registers" %}} title="wikilink">here</a>)</td>
 </tr>
 <tr class="odd">
 <td>0x020</td>

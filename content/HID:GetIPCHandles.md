@@ -32,39 +32,39 @@ title = 'HID:GetIPCHandles'
 </tr>
 <tr class="even">
 <td>3</td>
-<td><a href="../HID_Shared_Memory" title="wikilink">Shared</a> memory
+<td><a {{% href "../HID_Shared_Memory" %}} title="wikilink">Shared</a> memory
 handle</td>
 </tr>
 <tr class="odd">
 <td>4</td>
 <td>Event handle signaled by HID-module, when the <a
-href="../HID_Shared_Memory"
+{{% href "../HID_Shared_Memory" %}}
 title="wikilink">sharedmem</a>+0(PAD/circle-pad)/+0xA8(touch-screen)
 region was updated.</td>
 </tr>
 <tr class="even">
 <td>5</td>
 <td>Event handle signaled by HID-module, when the <a
-href="../HID_Shared_Memory"
+{{% href "../HID_Shared_Memory" %}}
 title="wikilink">sharedmem</a>+0(PAD/circle-pad)/+0xA8(touch-screen)
 region was updated.</td>
 </tr>
 <tr class="odd">
 <td>6</td>
 <td>Event handle signaled by HID-module, when the <a
-href="../HID_Shared_Memory" title="wikilink">sharedmem</a> accelerometer
+{{% href "../HID_Shared_Memory" %}} title="wikilink">sharedmem</a> accelerometer
 state was updated.</td>
 </tr>
 <tr class="even">
 <td>7</td>
 <td>Event handle signaled by HID-module, when the <a
-href="../HID_Shared_Memory" title="wikilink">sharedmem</a> gyroscope state
+{{% href "../HID_Shared_Memory" %}} title="wikilink">sharedmem</a> gyroscope state
 was updated.</td>
 </tr>
 <tr class="odd">
 <td>8</td>
 <td>Event handle signaled by HID-module, when the <a
-href="../HID_Shared_Memory" title="wikilink">sharedmem</a> DebugPad state
+{{% href "../HID_Shared_Memory" %}} title="wikilink">sharedmem</a> DebugPad state
 was updated.</td>
 </tr>
 </tbody>

@@ -73,7 +73,7 @@ succeed.</p>
 exact same ARM9/ARM11 bootrom for the unprotected areas.</td>
 <td>New3DS</td>
 <td>End of February 2014</td>
-<td><a href="../User:Derrek" title="wikilink">derrek</a>, WulfyStylez
+<td><a {{% href "../User:Derrek" "broken" %}} title="wikilink">derrek</a>, WulfyStylez
 (May 2015) independently</td>
 </tr>
 <tr class="even">
@@ -92,11 +92,11 @@ memory/AXIWRAM/VRAM keeps its contents.</td>
 <td>None</td>
 <td>New3DS</td>
 <td>March 2014</td>
-<td><a href="../User:Derrek" title="wikilink">derrek</a></td>
+<td><a {{% href "../User:Derrek" "broken" %}} title="wikilink">derrek</a></td>
 </tr>
 <tr class="even">
 <td>32bits of actual console-unique TWLNAND keydata</td>
-<td>On retail the 8-bytes at ARM9 address <a href="../Memory_layout"
+<td>On retail the 8-bytes at ARM9 address <a {{% href "../Memory_layout" %}}
 title="wikilink">0x01FFB808</a> are XORed with hard-coded data, to
 generate the TWL console-unique keys, including TWLNAND. On Old3DS the
 high u32 is always 0x0, while on New3DS that u32 is always 0x2. On top
@@ -108,7 +108,7 @@ generation is 8-bytes(all bytes actually set).</td>
 <td>None</td>
 <td>New3DS</td>
 <td>2012?</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
 <td>DSi / 3DS-TWL key-generator</td>
@@ -123,7 +123,7 @@ too.</p>
 <td>None</td>
 <td>New3DS</td>
 <td>2011</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
 <td>3DS key-generator</td>
@@ -136,12 +136,12 @@ found, leading to deducing the key-generator function.</td>
 <td>None</td>
 <td>New3DS</td>
 <td>February 2015</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a>, <a
-href="../User:Plutooo" title="wikilink">plutoo</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a>, <a
+{{% href "../User:Plutooo" "broken" %}} title="wikilink">plutoo</a></td>
 </tr>
 <tr class="odd">
 <td>RSA keyslots don't clear exponent when setting modulus</td>
-<td>The <a href="../RSA_Registers" title="wikilink">RSA keyslots</a> are
+<td>The <a {{% href "../RSA_Registers" %}} title="wikilink">RSA keyslots</a> are
 set by boot ROM to have four private RSA keys. The exponent value in the
 RSA registers is write-only and not readable.</p>
 <p>However, when setting a keyslot's modulus, the RSA hardware leaves
@@ -162,13 +162,13 @@ keys are located in the protected ARM9 boot ROM.</td>
 <td>None</td>
 <td>New3DS</td>
 <td>March 2016</td>
-<td><a href="../User:Myria" title="wikilink">Myria</a></td>
+<td><a {{% href "../User:Myria" "broken" %}} title="wikilink">Myria</a></td>
 </tr>
 <tr class="even">
-<td><a href="../CONFIG11_Registers#cfg11_gpuprot"
+<td><a {{% href "../CONFIG11_Registers" %}}
 title="wikilink">CFG11_GPUPROT</a> allowing acccess to
 AXIWRAM/FCRAM-BASE-memregion</td>
-<td><a href="../CONFIG11_Registers#cfg11_gpuprot"
+<td><a {{% href "../CONFIG11_Registers" %}}
 title="wikilink">CFG11_GPUPROT</a> can be configured by anything with
 access to it to allow the GPU to access the entire AXIWRAM+FCRAM. For
 example, this is an issue for any sysmodule that gets exploited and has
@@ -178,7 +178,7 @@ below).</p>
 <td>None</td>
 <td>New3DS</td>
 <td>February 7, 2017</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 </tbody>
 </table>
@@ -199,7 +199,7 @@ below).</p>
 <tbody>
 <tr class="odd">
 <td>FIRM partitions known-plaintext</td>
-<td>The <a href="../Flash_Filesystem" title="wikilink">FIRM
+<td>The <a {{% href "../Flash_Filesystem" %}} title="wikilink">FIRM
 partitions</a> are encrypted with AES-CTR without a MAC. Since this
 works by XOR'ing data with a static (per-console in this case)
 keystream, one can deduce the keystream of a portion of each FIRM
@@ -220,13 +220,13 @@ partitions.</td>
 </tr>
 <tr class="even">
 <td>Boot9 AES keyinit function issues</td>
-<td><a href="../Bootloader" title="wikilink">Boot9</a> seems to have two
+<td><a {{% href "../Bootloader" %}} title="wikilink">Boot9</a> seems to have two
 bugs in the AES key-init function, see <a
-href="../AES_Registers#aes-key-init" title="wikilink">here</a>.</td>
+{{% href "../AES_Registers" %}} title="wikilink">here</a>.</td>
 <td>None</td>
 <td>BootROM issue.</td>
 <td>2015</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
 <td>New3DS has same boot ROM as Old3DS</td>
@@ -242,7 +242,7 @@ this meant that it is possible to boot Old3DS firmware on New3DS (see
 <tr class="even">
 <td>sighax: Boot9 improper validation of FIRM partition RSA
 signatures</td>
-<td>The <a href="../Flash_Filesystem" title="wikilink">FIRM
+<td>The <a {{% href "../Flash_Filesystem" %}} title="wikilink">FIRM
 partitions</a> are signed with RSA-2048 using SHA-256 and PKCS #1 v1.5
 padding. Boot9, however, improperly validates the padding in three
 ways:</p>
@@ -272,11 +272,11 @@ one week to find a match.</td>
 <td>None</td>
 <td>New3DS</td>
 <td>July 2015</td>
-<td><a href="../User:Derrek" title="wikilink">derrek</a></td>
+<td><a {{% href "../User:Derrek" "broken" %}} title="wikilink">derrek</a></td>
 </tr>
 <tr class="odd">
 <td>Boot9 FIRM loading doesn't blacklist memory-mapped I/O</td>
-<td><a href="../Bootloader" title="wikilink">Boot9</a>'s FIRM loading
+<td><a {{% href "../Bootloader" %}} title="wikilink">Boot9</a>'s FIRM loading
 blacklists Boot9 data regions, but forgets to do other important
 regions, including Memory-mapped I/O. Combined with sighax, a malicious
 FIRM can be used to overwrite: a) boot9 data-abort handler, coupled with
@@ -287,9 +287,9 @@ runs)</td>
 <td>None</td>
 <td>New3DS</td>
 <td>2015(?)</td>
-<td><a href="../User:Derrek" title="wikilink">derrek</a> (2015?), <a
-href="../User:Normmatt" title="wikilink">Normmatt</a> and <a
-href="../User:SciresM" title="wikilink">SciresM</a> independently (January
+<td><a {{% href "../User:Derrek" "broken" %}} title="wikilink">derrek</a> (2015?), <a
+{{% href "../User:Normmatt" "broken" %}} title="wikilink">Normmatt</a> and <a
+{{% href "../User:SciresM" "broken" %}} title="wikilink">SciresM</a> independently (January
 2017).</td>
 </tr>
 <tr class="even">
@@ -332,9 +332,9 @@ to infinite loops since they shouldn't be triggered.</td>
 <th>Summary</th>
 <th>Description</th>
 <th>Successful exploitation result</th>
-<th>Fixed in <a href="../FIRM" title="wikilink">FIRM</a> system
+<th>Fixed in <a {{% href "../FIRM" %}} title="wikilink">FIRM</a> system
 version</th>
-<th>Last <a href="../FIRM" title="wikilink">FIRM</a> system version this
+<th>Last <a {{% href "../FIRM" %}} title="wikilink">FIRM</a> system version this
 flaw was checked for</th>
 <th>Timeframe this was discovered</th>
 <th>Public disclosure timeframe</th>
@@ -345,11 +345,11 @@ flaw was checked for</th>
 <tr class="odd">
 <td>Generating the keysector console-unique keys with
 ITCM+Boot9</td>
-<td><a href="../Bootloader" title="wikilink">Boot9</a> decrypts the
-0x100-byte <a href="../OTP_Registers" title="wikilink">OTP</a> using
+<td><a {{% href "../Bootloader" %}} title="wikilink">Boot9</a> decrypts the
+0x100-byte <a {{% href "../OTP_Registers" %}} title="wikilink">OTP</a> using
 AES-CBC with keydata stored in Boot9. If hash verification is
 successful, the plaintext of the first 0x90-bytes are copied into <a
-href="../Memory_layout" title="wikilink">ITCM</a>. This is the
+{{% href "../Memory_layout" %}} title="wikilink">ITCM</a>. This is the
 <em>exact</em> <em>same</em> region hashed by arm9loader when generating
 the console-unique keys for decrypting the keysector, except arm9loader
 uses the raw encrypted OTP.</p>
@@ -366,7 +366,7 @@ keysector(which is dangerous).</td>
 <td></td>
 <td>2015</td>
 <td>January 6, 2017</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
 <td>Rearrangable keys in the NAND keystore</td>
@@ -379,29 +379,29 @@ be written to NAND and a payload written to memory, with the payload to
 be executed post-K9L using an MCU reboot.</td>
 <td>arm9loaderhax given existing ARM9 code execution</td>
 <td>None</td>
-<td><a href="../11.3.0-36" title="wikilink">11.3.0-X</a></td>
+<td><a {{% href "../11.3.0-36" %}} title="wikilink">11.3.0-X</a></td>
 <td>Early 2016</td>
 <td>27 September 2016</td>
-<td>Myria, <a href="../User:Dark_samus" title="wikilink">dark_samus</a>;
-mathieulh (independently); <a href="../User:Plutooo"
+<td>Myria, <a {{% href "../User:Dark_samus" "broken" %}} title="wikilink">dark_samus</a>;
+mathieulh (independently); <a {{% href "../User:Plutooo" "broken" %}}
 title="wikilink">plutoo</a> (independently) + others</td>
 </tr>
 <tr class="odd">
 <td>Uncleared OTP hash keydata in console-unique 0x11
 key-generation</td>
-<td>Kernel9Loader does not clear the <a href="../SHA_Registers#sha_hash"
+<td>Kernel9Loader does not clear the <a {{% href "../SHA_Registers" %}}
 title="wikilink">SHA_HASH register</a> after use. As a result, the data
 stored here as K9L hands over to Kernel9 is the hash of <a
-href="../OTP_Registers" title="wikilink">OTP data</a> used to seed the <a
-href="../FIRM#new_3ds_firm" title="wikilink">console-unique NAND keystore
+{{% href "../OTP_Registers" %}} title="wikilink">OTP data</a> used to seed the <a
+{{% href "../FIRM" %}} title="wikilink">console-unique NAND keystore
 decryption key</a> set on keyslot 0x11.</p>
-<p>Retrieving this keydata and the <a href="../Flash_Filesystem#0x12c00"
+<p>Retrieving this keydata and the <a {{% href "../Flash_Filesystem" %}}
 title="wikilink">NAND keystore</a> of the same device allows calculating
 the decrypted New3DS NAND keystore (non-unique, common to all New3DS
 units), which contains AES normal keys, also set on keyslot 0x11, which
-are then used to derive all current <a href="../AES_Registers#keyslots"
+are then used to derive all current <a {{% href "../AES_Registers" %}}
 title="wikilink">New3DS-only AES keyXs</a> including the newer batch
-introduced in <a href="../9.6.0-24#arm9loader"
+introduced in <a {{% href "../9.6.0-24" %}}
 title="wikilink">9.6.0-X</a>. From there, it is trivial to perform the
 same key derivation in order to initialize those keys on any system
 version, and even on Old3DS.</p>
@@ -411,7 +411,7 @@ section-loading fail is not relevant here, this attack was performed
 without OTP data by brute-forcing keys), and using this to dump the
 SHA_HASH register. This attack works on any FIRM version shipping a
 vulnerable version of K9L, whereas OTP dumping required a boot of &lt;<a
-href="../3.0.0-6" title="wikilink">3.0.0-X</a>.</p>
+{{% href "../3.0.0-6" "broken" %}} title="wikilink">3.0.0-X</a>.</p>
 <p>This attack results in obtaining the entire (0x200-bytes) NAND
 keystore - it was confirmed at a later date that this keystore is
 encrypted with the same key (by comparing the decrypted data from
@@ -425,13 +425,13 @@ the moment people dumped a New3DS OTP.</td>
 <td>Derivation of all New3DS keys generated via the NAND keystore
 (0x1B "Secure4" etc.)</td>
 <td>None</td>
-<td><a href="../11.3.0-36" title="wikilink">11.3.0-X</a></td>
+<td><a {{% href "../11.3.0-36" %}} title="wikilink">11.3.0-X</a></td>
 <td>~April 2015, implemented in May 2015</td>
 <td>13 January 2016</td>
-<td><a href="../User:WulfyStylez" title="wikilink">WulfyStylez</a>, <a
-href="../User:Dazzozo" title="wikilink">Dazzozo</a>, <a
-href="../User:Shinyquagsire23" title="wikilink">shinyquagsire23</a>
-(complimentary + implemented), <a href="../User:Plutooo"
+<td><a {{% href "../User:WulfyStylez" "broken" %}} title="wikilink">WulfyStylez</a>, <a
+{{% href "../User:Dazzozo" "broken" %}} title="wikilink">Dazzozo</a>, <a
+{{% href "../User:Shinyquagsire23" "broken" %}} title="wikilink">shinyquagsire23</a>
+(complimentary + implemented), <a {{% href "../User:Plutooo" "broken" %}}
 title="wikilink">plutoo</a>, Normmatt (discovered
 independently)</td>
 </tr>
@@ -449,20 +449,20 @@ prerequisite hacks.</td>
 <td>See arm9loaderhax / description.</td>
 <td>See arm9loaderhax / description.</td>
 <td>Theorized around mid July, 2015. Later implemented+tested by <a
-href="../User:Plutooo" title="wikilink">plutoo</a> and <a
-href="../User:Derrek" title="wikilink">derrek</a>.</td>
+{{% href "../User:Plutooo" "broken" %}} title="wikilink">plutoo</a> and <a
+{{% href "../User:Derrek" "broken" %}} title="wikilink">derrek</a>.</td>
 <td>32c3 3ds talk (December 27, 2015)</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
 <td>arm9loaderhax: Missing verification block for the 9.6
 keys</td>
-<td>Starting with <a href="../9.6.0-24" title="wikilink">9.6.0-X</a> a
+<td>Starting with <a {{% href "../9.6.0-24" %}} title="wikilink">9.6.0-X</a> a
 new set of NAND-based keys were introduced. However, no verification
 block was added to verify that the new key read from NAND is correct.
-This was technically an issue from <a href="../9.5.0-22"
+This was technically an issue from <a {{% href "../9.5.0-22" %}}
 title="wikilink">9.5.0-X</a> with the original sector+0 keydata, however
-the below is only possible with <a href="../9.6.0-24"
+the below is only possible with <a {{% href "../9.6.0-24" %}}
 title="wikilink">9.6.0-X</a> since keyslots 0x15 and 0x16 are generated
 from different 0x11 keyXs.</p>
 <p>Writing an incorrect key to NAND will cause arm9loader to decrypt the
@@ -474,8 +474,8 @@ various input keydata, eventually you'll find some garbage that jumps to
 your code.</p>
 <p>This gives very early ARM9 code execution (pre-ARM9 kernel). As such,
 it is possible to dump RSA keyslots with this and calculate the 6.x <a
-href="../Savegames#600-11-savegame-keyy" title="wikilink">save</a>, and
-7.x <a href="../NCCH" title="wikilink">NCCH</a> keys. This cannot be used
+{{% href "../Savegames" %}} title="wikilink">save</a>, and
+7.x <a {{% href "../NCCH" %}} title="wikilink">NCCH</a> keys. This cannot be used
 to recover keys initialized by arm9loader itself. This is due to it
 wiping the area used for its stack during NAND sector decryption and
 keyslot init.</p>
@@ -483,15 +483,15 @@ keyslot init.</p>
 can be exploited on Old3DS as well, but only if one already has the
 actual plaintext normalkey from New3DS NAND sector 0x96 offset-0 and has
 dumped the OTP area of the Old3DS.</td>
-<td>Recovery of 6.x <a href="../Savegames#600-11-savegame-keyy"
-title="wikilink">save key</a>/7.x <a href="../NCCH"
+<td>Recovery of 6.x <a {{% href "../Savegames" %}}
+title="wikilink">save key</a>/7.x <a {{% href "../NCCH" %}}
 title="wikilink">NCCH</a> key, access to uncleared OTP hash
 keydata</td>
 <td>None</td>
-<td><a href="../11.3.0-36" title="wikilink">11.3.0-X</a></td>
+<td><a {{% href "../11.3.0-36" %}} title="wikilink">11.3.0-X</a></td>
 <td>March 2015</td>
 <td></td>
-<td><a href="../User:Plutooo" title="wikilink">plutoo</a></td>
+<td><a {{% href "../User:Plutooo" "broken" %}} title="wikilink">plutoo</a></td>
 </tr>
 <tr class="even">
 <td>arm9loader runs on Old3DS</td>
@@ -503,17 +503,17 @@ New3DS FIRM to the FIRM partitions. Thus, arm9loaderhax works on both
 Old3DS and New3DS.</td>
 <td>arm9loader bugs also compromise Old3DS</td>
 <td>None</td>
-<td><a href="../11.3.0-36" title="wikilink">11.3.0-X</a></td>
+<td><a {{% href "../11.3.0-36" %}} title="wikilink">11.3.0-X</a></td>
 <td>Sometime in 2015</td>
 <td></td>
-<td><a href="../User:Plutooo" title="wikilink">plutoo</a>
+<td><a {{% href "../User:Plutooo" "broken" %}} title="wikilink">plutoo</a>
 presumably</td>
 </tr>
 <tr class="odd">
 <td>Uncleared New3DS keyslot 0x11</td>
-<td>Originally the New3DS <a href="../FIRM" title="wikilink">FIRM</a>
+<td>Originally the New3DS <a {{% href "../FIRM" %}} title="wikilink">FIRM</a>
 arm9bin loader only cleared keyslot 0x11 when it gets executed at
-firmlaunch. This was fixed with <a href="../9.5.0-22"
+firmlaunch. This was fixed with <a {{% href "../9.5.0-22" %}}
 title="wikilink">9.5.0-X</a> by completely clearing keyslot 0x11
 immediately after the loader finishes using keyslot 0x11. This means
 that any ARM9 code that can execute before the loader clears the keyslot
@@ -522,16 +522,16 @@ keyslot 0x11, which then allows one to generate all &lt;=v9.5 New3DS
 keyXs which are generated by keyslot 0x11.</p>
 <p>Therefore, to completely fix this the loader would have to generate
 more keys using different keyslot 0x11 keydata. This was done with <a
-href="../9.6.0-24" title="wikilink">9.6.0-X</a>.</td>
+{{% href "../9.6.0-24" %}} title="wikilink">9.6.0-X</a>.</td>
 <td>New3DS keyXs generation</td>
-<td>Mostly fixed with <a href="../9.5.0-22"
+<td>Mostly fixed with <a {{% href "../9.5.0-22" %}}
 title="wikilink">9.5.0-X</a>, completely fixed with new keys with <a
-href="../9.6.0-24" title="wikilink">9.6.0-X</a>.</td>
+{{% href "../9.6.0-24" %}} title="wikilink">9.6.0-X</a>.</td>
 <td></td>
-<td>February 3, 2015 (one day after <a href="../9.5.0-22"
+<td>February 3, 2015 (one day after <a {{% href "../9.5.0-22" %}}
 title="wikilink">9.5.0-X</a> release)</td>
 <td></td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 </tbody>
 </table>
@@ -544,9 +544,9 @@ title="wikilink">9.5.0-X</a> release)</td>
 <th>Summary</th>
 <th>Description</th>
 <th>Successful exploitation result</th>
-<th>Fixed in <a href="../FIRM" title="wikilink">FIRM</a> system
+<th>Fixed in <a {{% href "../FIRM" %}} title="wikilink">FIRM</a> system
 version</th>
-<th>Last <a href="../FIRM" title="wikilink">FIRM</a> system version this
+<th>Last <a {{% href "../FIRM" %}} title="wikilink">FIRM</a> system version this
 flaw was checked for</th>
 <th>Timeframe this was discovered</th>
 <th>Public disclosure timeframe</th>
@@ -556,11 +556,11 @@ flaw was checked for</th>
 <tbody>
 <tr class="odd">
 <td>Leak of normal-key matching a key-scrambler key</td>
-<td>New 3DS firmware versions <a href="../8.1.0-0_New3DS"
-title="wikilink">8.1.0</a> through <a href="../9.2.0-20"
-title="wikilink">9.2.0</a> set the encryption key for <a href="../Amiibo"
+<td>New 3DS firmware versions <a {{% href "../8.1.0-0_New3DS" %}}
+title="wikilink">8.1.0</a> through <a {{% href "../9.2.0-20" %}}
+title="wikilink">9.2.0</a> set the encryption key for <a {{% href "../Amiibo" %}}
 title="wikilink">Amiibo</a> data using a hardcoded normal-key in
-Process9. In firmware <a href="../9.3.0-21" title="wikilink">9.3.0</a>,
+Process9. In firmware <a {{% href "../9.3.0-21" %}} title="wikilink">9.3.0</a>,
 Nintendo "fixed" this by using the key scrambler instead, by calculating
 the keyY value for keyslot 0x39 that results in the same normal-key,
 then hardcoding that keyY into Process9.</p>
@@ -570,20 +570,20 @@ key scrambler using an insecure scrambling algorithm (see "Hardware"
 above), the key scrambler function could be deduced.</td>
 <td>Deducing the keyX for keyslot 0x39 and the key scrambler
 algorithm</td>
-<td>New 3DS <a href="../9.3.0-21" title="wikilink">9.3.0-X</a>, sort
+<td>New 3DS <a {{% href "../9.3.0-21" %}} title="wikilink">9.3.0-X</a>, sort
 of</td>
-<td><a href="../10.0.0-27" title="wikilink">10.0.0-X</a></td>
+<td><a {{% href "../10.0.0-27" %}} title="wikilink">10.0.0-X</a></td>
 <td>Sometime in 2015 after the hardware key-generator was
 broken.</td>
 <td>32c3 3ds talk (December 27, 2015)</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
 <td>Leak of normal-key matching a key-generator key</td>
 <td>During the 3DS' development (June/July 2010) Nintendo added
-support installing encrypted content (<a href="../CIA"
+support installing encrypted content (<a {{% href "../CIA" %}}
 title="wikilink">CIA</a>). Common-key index1 was intended to be a <a
-href="../AES" title="wikilink">hardware generated key</a>. However while
+{{% href "../AES" %}} title="wikilink">hardware generated key</a>. However while
 they added code to generate the key in hardware, they forgot to remove
 the normal-key for index1 (used elsewhere, likely old debug code).
 Nintendo later removed the normal key sometime before the first
@@ -596,12 +596,12 @@ common-key keyX is recovered.</p>
 the retail key-generator.</td>
 <td>Deducing the keyX for keyslot 0x3D and hardware key-generator
 algorithm. Generate remaining devkit common-keys.</td>
-<td>pre-<a href="../1.0.0-0" title="wikilink">1.0.0-X</a></td>
+<td>pre-<a {{% href "../1.0.0-0" %}} title="wikilink">1.0.0-X</a></td>
 <td></td>
 <td>Shortly after the key-generator was revealed to be flawed at the
 32c3 3ds talk</td>
 <td>January 20, 2016</td>
-<td><a href="../User:Jakcron" title="wikilink">jakcron</a></td>
+<td><a {{% href "../User:Jakcron" "broken" %}} title="wikilink">jakcron</a></td>
 </tr>
 <tr class="odd">
 <td>Factory firmware is vulnerable to sighax</td>
@@ -612,27 +612,27 @@ version 1.0.0-0.</td>
 <td>Deducing the mechanics of the sighax vulnerability in boot9
 without having a dump of protected boot9. ARM9 code execution on
 factory/earlier firmware.</td>
-<td><a href="../1.0.0-0" title="wikilink">1.0.0-X</a></td>
-<td><a href="../1.0.0-0" title="wikilink">1.0.0-X</a></td>
+<td><a {{% href "../1.0.0-0" %}} title="wikilink">1.0.0-X</a></td>
+<td><a {{% href "../1.0.0-0" %}} title="wikilink">1.0.0-X</a></td>
 <td>May 9, 2017</td>
 <td>May 19, 2017</td>
-<td><a href="../User:SciresM" title="wikilink">SciresM</a>, <a
-href="../User:Myria" title="wikilink">Myria</a></td>
+<td><a {{% href "../User:SciresM" "broken" %}} title="wikilink">SciresM</a>, <a
+{{% href "../User:Myria" "broken" %}} title="wikilink">Myria</a></td>
 </tr>
 <tr class="even">
 <td>safecerthax</td>
 <td>O3DS &amp; O2DS SAFE_FIRM is still vulnerable to the
-PXIAM:ImportCertificates flaw fixed in <a href="../5.0.0-11"
+PXIAM:ImportCertificates flaw fixed in <a {{% href "../5.0.0-11" %}}
 title="wikilink">5.0.0-11</a> and to SSLoth fixed in <a
-href="../11.14.0-46" title="wikilink">11.14.0-46</a>. It makes it possible
+{{% href "../11.14.0-46" %}} title="wikilink">11.14.0-46</a>. It makes it possible
 to spoof the official NUS update server and remotely trigger the
 vulnerability in SAFE_FIRM.</td>
 <td>Remote Arm9 code execution in O3DS/O2DS SAFE_FIRM</td>
 <td>None</td>
-<td><a href="../11.14.0-46" title="wikilink">11.14.0-X</a></td>
+<td><a {{% href "../11.14.0-46" %}} title="wikilink">11.14.0-X</a></td>
 <td>2020</td>
 <td>December 18, 2020</td>
-<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
+<td><a {{% href "../User:Nba_Yoh" "broken" %}} title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="odd">
 <td>twlhax: Corrupted SRL header leads to memory overwrite</td>
@@ -651,8 +651,8 @@ and for DSi mode's interleaved memory, it is possible to overwrite part
 of Process9's stack and take control with a ROP chain.</p>
 <p>Fixed in 11.8.0-X by... (fill me in)</td>
 <td>ARM9 code execution (whilst still in 3DS mode)</td>
-<td><a href="../11.8.0-41" title="wikilink">11.8.0-X</a></td>
-<td><a href="../11.8.0-41" title="wikilink">11.8.0-X</a></td>
+<td><a {{% href "../11.8.0-41" %}} title="wikilink">11.8.0-X</a></td>
+<td><a {{% href "../11.8.0-41" %}} title="wikilink">11.8.0-X</a></td>
 <td></td>
 <td>August 11, 2018</td>
 <td>smea</td>
@@ -665,7 +665,7 @@ AGB_FIRM can be tricked into executing the still vulnerable
 PrepareArm9ForTwl function.</td>
 <td>ARM9 code execution (whilst still in 3DS mode)</td>
 <td>None</td>
-<td><a href="../11.14.0-46" title="wikilink">11.14.0-X</a></td>
+<td><a {{% href "../11.14.0-46" %}} title="wikilink">11.14.0-X</a></td>
 <td></td>
 <td>December 17, 2020</td>
 <td>Everyone</td>
@@ -676,12 +676,12 @@ PrepareArm9ForTwl function.</td>
 updated for vuln fixes), this can be noticed by <em>just</em> checking
 3dbrew/ninupdates title-listings.</p>
 <p>The fix for firmlaunch-hax was only applied to NATIVE_FIRM in <a
-href="../9.5.0-22" title="wikilink">9.5.0-X</a>, leaving SAFE_FIRM
+{{% href "../9.5.0-22" %}} title="wikilink">9.5.0-X</a>, leaving SAFE_FIRM
 exploitable. With ARM11-kernel execution, one can trigger FIRM-launch in
 to SAFE_FIRM, do Kernel9 &lt;=&gt; Kernel11 sync, PXI sync and then
 repeat the original attack on SAFE_FIRM instead.</td>
 <td>ARM9 code execution</td>
-<td><a href="../11.3.0-36" title="wikilink">11.3.0-X</a></td>
+<td><a {{% href "../11.3.0-36" %}} title="wikilink">11.3.0-X</a></td>
 <td></td>
 <td>2012-2013?</td>
 <td>Wiki: January 2, 2017</td>
@@ -701,7 +701,7 @@ attack.</p>
 <p>This was fixed by adding additional CFG9_BOOTENV checks to firmlaunch
 code in 11.4.</td>
 <td>ARM9 code execution</td>
-<td><a href="../11.4.0-37" title="wikilink">11.4.0-X</a></td>
+<td><a {{% href "../11.4.0-37" %}} title="wikilink">11.4.0-X</a></td>
 <td></td>
 <td>safefirmhax fix</td>
 <td>Wiki: April 10, 2017</td>
@@ -717,34 +717,34 @@ trigger a buffer overflow. With a custom banner for a NTR flashcart,
 this leads to code execution in Process9.</p>
 <p>This was fixed by adding bound checks on the read data.</td>
 <td>ARM9 code execution</td>
-<td><a href="../10.4.0-29" title="wikilink">10.4.0-X</a></td>
+<td><a {{% href "../10.4.0-29" %}} title="wikilink">10.4.0-X</a></td>
 <td></td>
 <td>March 2015</td>
 <td>32c3 3ds talk (December 27, 2015)</td>
-<td><a href="../User:Plutooo" title="wikilink">plutoo</a></td>
+<td><a {{% href "../User:Plutooo" "broken" %}} title="wikilink">plutoo</a></td>
 </tr>
 <tr class="even">
-<td>Title downgrading via <a href="../Application_Manager_Services"
-title="wikilink">AM</a>(<a href="../Application_Manager_Services_PXI"
+<td>Title downgrading via <a {{% href "../Application_Manager_Services" %}}
+title="wikilink">AM</a>(<a {{% href "../Application_Manager_Services_PXI" %}}
 title="wikilink">PXI</a>)</td>
 <td>When a title is *already* installed, Process9 will compare the
 installed title-version with the title-version being installed. When the
 one being installed is older, Process9 would return an error.</p>
 <p>However, this can be bypassed by just deleting the title first via
 the service command(s) for that: with the title removed from the <a
-href="../Title_Database" title="wikilink">Title_Database</a>, Process9
+{{% href "../Title_Database" %}} title="wikilink">Title_Database</a>, Process9
 can't compare the input title-version with anything. Hence, titles can
 be downgraded this way.</p>
-<p><a href="../11.0.0-33" title="wikilink">11.0.0-X</a> fixed this for key
+<p><a {{% href "../11.0.0-33" %}} title="wikilink">11.0.0-X</a> fixed this for key
 system titles (MSET, Home Menu, spider, ErrDisp, SKATER, NATIVE_FIRM,
 and every retail system module), by checking the version of the title to
 install against a hard-coded list of (titleID, minimumVersionRequired)
 pairs.</td>
 <td>Bypassing title version check at installation, which then allows
 downgrading any title.</td>
-<td><a href="../11.0.0-33" title="wikilink">11.0.0-X</a>, for key system
+<td><a {{% href "../11.0.0-33" %}} title="wikilink">11.0.0-X</a>, for key system
 titles.</td>
-<td>NATIVE_FIRM / AM-sysmodule <a href="../11.0.0-33"
+<td>NATIVE_FIRM / AM-sysmodule <a {{% href "../11.0.0-33" %}}
 title="wikilink">11.0.0-X</a></td>
 <td>?</td>
 <td></td>
@@ -754,19 +754,19 @@ title="wikilink">11.0.0-X</a></td>
 <td>Anti-downgrade list did not include all system titles
 initially</td>
 <td>The anti-downgrade list did not include legacy FIRMs until <a
-href="../11.8.0-41" title="wikilink">11.8.0-X</a>. Therefore, legacy FIRMs
+{{% href "../11.8.0-41" %}} title="wikilink">11.8.0-X</a>. Therefore, legacy FIRMs
 could still be downgraded.</td>
 <td>Downgrading legacy FIRMs; allowing to exploit bugs in older
 legacy FIRMs (of which at least one exists, see below).</td>
-<td><a href="../11.8.0-33" title="wikilink">11.8.0</a></td>
-<td><a href="../11.8.0-33" title="wikilink">11.8.0</a></td>
+<td><a {{% href "../11.8.0-33" "broken" %}} title="wikilink">11.8.0</a></td>
+<td><a {{% href "../11.8.0-33" "broken" %}} title="wikilink">11.8.0</a></td>
 <td>?</td>
 <td>Wiki: August 5, 2018</td>
 <td>Everyone</td>
 </tr>
 <tr class="even">
 <td>TWL_FIRM cmd-9 unchecked offset</td>
-<td>In <a href="../1.0.0-0" title="wikilink">1.0.0-X</a>'s TWL_FIRM,
+<td>In <a {{% href "../1.0.0-0" %}} title="wikilink">1.0.0-X</a>'s TWL_FIRM,
 cmds 8 and 9 were not stubbed (whereas in the corresponding NATIVE_FIRM,
 they were). Command 8 does the Process9 initialisation for NTR carts if
 an NTR cart is inserted (NTR, not TWL, judged by chipid).</p>
@@ -778,24 +778,24 @@ arm9mem, NTR secure area in fcram, TWL secure area in fcram], to
 <p>offset_write is not checked at all, thus this leads to ARM9 code
 execution as long as any NTR cart, including flashcarts that would
 normally be blocked by TWL_FIRM, is inserted.</p>
-<p>In <a href="../2.0.0-2" title="wikilink">2.0.0-X</a> TWL_FIRM, those
+<p>In <a {{% href "../2.0.0-2" "broken" %}} title="wikilink">2.0.0-X</a> TWL_FIRM, those
 commands were stubbed out.</td>
 <td>ARM9 code execution</td>
-<td><a href="../2.0.0-2" title="wikilink">2.0.0-X</a></td>
-<td><a href="../2.0.0-2" title="wikilink">2.0.0-X</a></td>
+<td><a {{% href "../2.0.0-2" "broken" %}} title="wikilink">2.0.0-X</a></td>
+<td><a {{% href "../2.0.0-2" "broken" %}} title="wikilink">2.0.0-X</a></td>
 <td>January 2018</td>
 <td>Wiki: August 5, 2018</td>
-<td><a href="../User:Riley" title="wikilink">Riley</a></td>
+<td><a {{% href "../User:Riley" "broken" %}} title="wikilink">Riley</a></td>
 </tr>
 <tr class="odd">
 <td>FIRM launch doesn't check target FIRM version</td>
 <td>When executing a FIRM launch, Process9 doesn't validate that the
 target FIRM isn't an old version. This allows booting an exploitable
 FIRM from a newer FIRM, if you can get the exploitable FIRM installed.
-(<a href="../11.0.0-33" title="wikilink">11.0.0-X</a> now prevents
+(<a {{% href "../11.0.0-33" %}} title="wikilink">11.0.0-X</a> now prevents
 installing old versions of system titles, but this doesn't affect titles
 already installed.)</p>
-<p>This had a use after <a href="../9.6.0-24" title="wikilink">9.6.0-X</a>:
+<p>This had a use after <a {{% href "../9.6.0-24" %}} title="wikilink">9.6.0-X</a>:
 on a compromised 3DS running 9.2.0, you could install the 9.6.0
 NATIVE_FIRM to FIRM0/FIRM1, but avoid putting it into the NATIVE_FIRM
 title. This would boot the 9.2.0 system software but with the 9.6.0
@@ -811,11 +811,11 @@ keystore was dumped, this became moot.</td>
 <td>Decrypting 9.6.0 NCCH files without dumping New3DS
 keystore</td>
 <td>None (but now moot)</td>
-<td><a href="../9.6.0-24" title="wikilink">9.6.0-X</a></td>
+<td><a {{% href "../9.6.0-24" %}} title="wikilink">9.6.0-X</a></td>
 <td>March 2015</td>
 <td>August 12, 2018</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a>, <a
-href="../User:Myria" title="wikilink">Myria</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a>, <a
+{{% href "../User:Myria" "broken" %}} title="wikilink">Myria</a></td>
 </tr>
 <tr class="even">
 <td>FAT FS code null-deref</td>
@@ -845,18 +845,18 @@ Checking for unused clusters.
 Leaving filesystem unchanged.</code></pre></td>
 <td>Useless null-based-read</td>
 <td>None</td>
-<td><a href="../9.6.0-24" title="wikilink">9.6.0-X</a></td>
+<td><a {{% href "../9.6.0-24" %}} title="wikilink">9.6.0-X</a></td>
 <td>July 8-9, 2015</td>
 <td></td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../FS:EnumerateExtSaveData"
+<td><a {{% href "../FS:EnumerateExtSaveData" %}}
 title="wikilink">FS:EnumerateExtSaveData</a> crashes process9 when
 trying to parse a file as an extdata directory in Data Management
 (MSET9)</td>
 <td>In the implementation for FSPXI:EnumerateExtSaveData (called by
-<a href="../System_Settings" title="wikilink">MSET</a> to parse 3DS extdata
+<a {{% href "../System_Settings" %}} title="wikilink">MSET</a> to parse 3DS extdata
 IDs for Data Management), the return value of the P9 internal function
 call to open a directory (when enumerating contents of the extdata
 directory) was not checked. Therefore, if the call fails, an
@@ -874,7 +874,7 @@ dirname and take control of the ARM9, and thus, full control of the
 3DS.</td>
 <td>ARM9 code execution (primary)</td>
 <td>None</td>
-<td><a href="../11.17.0-50" title="wikilink">11.17.0-X</a></td>
+<td><a {{% href "../11.17.0-50" %}} title="wikilink">11.17.0-X</a></td>
 <td>April 2022</td>
 <td>August 7, 2023</td>
 <td>zoogie</td>
@@ -882,7 +882,7 @@ dirname and take control of the ARM9, and thus, full control of the
 <tr class="even">
 <td>RSA signature padding checks</td>
 <td>The TWL_FIRM RSA sig padding check code used for all TWL RSA
-sig-checks has issues, see <a href="../FIRM" title="wikilink">here</a>. The
+sig-checks has issues, see <a {{% href "../FIRM" %}} title="wikilink">here</a>. The
 main 3DS RSA padding check code(non-certificate, including NATIVE_FIRM)
 uses the function used with the above to extract more padding + the
 actual hash from the additional padding. This isn't really a problem
@@ -890,15 +890,15 @@ here because there's proper padding check code which is executed prior
 to this.</td>
 <td></td>
 <td>None</td>
-<td><a href="../9.5.0-22" title="wikilink">9.5.0-X</a></td>
+<td><a {{% href "../9.5.0-22" %}} title="wikilink">9.5.0-X</a></td>
 <td>March 2015</td>
 <td></td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../AMPXI:ValidateDSiWareSectionMAC"
+<td><a {{% href "../AMPXI:ValidateDSiWareSectionMAC" %}}
 title="wikilink">AMPXI:ValidateDSiWareSectionMAC</a> <a
-href="../AES_Registers" title="wikilink">AES</a> keyslot reuse</td>
+{{% href "../AES_Registers" %}} title="wikilink">AES</a> keyslot reuse</td>
 <td>When the input DSiWare section index is higher than
 <max number of DSiWare sections supported by this FIRM>, Process9 uses
 keyid 0x40 for calculating the AESMAC, which translates to keyslot 0x40.
@@ -912,15 +912,15 @@ this. This is basically a different form of the pxips9 keyslot vuln,
 except with AESMAC etc.</td>
 <td>See description.</td>
 <td>None</td>
-<td><a href="../11.3.0-36" title="wikilink">11.3.0-X</a></td>
+<td><a {{% href "../11.3.0-36" %}} title="wikilink">11.3.0-X</a></td>
 <td>March 15, 2015</td>
 <td>December 29, 2015</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
-<td>pxips9 <a href="../AES_Registers" title="wikilink">AES</a> keyslot
+<td>pxips9 <a {{% href "../AES_Registers" %}} title="wikilink">AES</a> keyslot
 reuse</td>
-<td>This requires access to the <a href="../Process_Services"
+<td>This requires access to the <a {{% href "../Process_Services" %}}
 title="wikilink">ps:ps</a>/pxi:ps9 services. One way to get access to
 this would be snshax on system-version &lt;=10.1.0-X(see 32c3 3ds talk).
 When an invalid key-type value is passed to any of the PS commands,
@@ -931,46 +931,46 @@ continue to do crypto with whatever AES keyslot was selected before the
 PS command was sent.</td>
 <td>Reusing the previously used keyslot, for crypto with PS.</td>
 <td>None</td>
-<td><a href="../11.3.0-36" title="wikilink">11.3.0-X</a></td>
+<td><a {{% href "../11.3.0-36" %}} title="wikilink">11.3.0-X</a></td>
 <td>Roughly the same time(same day?) as firmlaunch-hax.</td>
 <td>December 29, 2015</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
 <td>firmlaunch-hax: FIRM header ToCToU</td>
 <td>This can't be exploited from ARM11 userland. During <a
-href="../FIRM" title="wikilink">FIRM</a> launch, the only FIRM header the
+{{% href "../FIRM" %}} title="wikilink">FIRM</a> launch, the only FIRM header the
 ARM9 uses at all is stored in FCRAM, this is 0x200-bytes(the actual used
 FIRM RSA signature is read to the Process9 stack however). The ARM9
 doesn't expect "anything" besides the ARM9 to access this data. With <a
-href="../9.5.0-22" title="wikilink">9.5.0-22</a> the address of this FIRM
+{{% href "../9.5.0-22" %}} title="wikilink">9.5.0-22</a> the address of this FIRM
 header was changed from a FCRAM address, to ARM9-only address
 0x01fffc00.</td>
 <td>ARM9 code execution</td>
-<td><a href="../9.5.0-22" title="wikilink">9.5.0-22</a></td>
+<td><a {{% href "../9.5.0-22" %}} title="wikilink">9.5.0-22</a></td>
 <td></td>
-<td>2012, 3 days after <a href="../User:Yellows8"
+<td>2012, 3 days after <a {{% href "../User:Yellows8" "broken" %}}
 title="wikilink">Yellows8</a> started Process9 code RE.</td>
 <td></td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
 <td>Uninitialized data output for (PXI) command replies</td>
 <td>PXI commands for various services(including some <a
-href="../Filesystem_services_PXI" title="wikilink">here</a> and many
+{{% href "../Filesystem_services_PXI" %}} title="wikilink">here</a> and many
 others) can write uninitialized data (like from ARM registers) to the
 command reply. This happens with stubbed commands, but this can also
 occur with certain commands when returning an error. Certain ARM11
 service commands have this same issue as well.</td>
 <td></td>
 <td>None</td>
-<td><a href="../9.3.0-21" title="wikilink">9.3.0-X</a></td>
+<td><a {{% href "../9.3.0-21" %}} title="wikilink">9.3.0-X</a></td>
 <td>?</td>
 <td></td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../Filesystem_services_PXI" title="wikilink">FSPXI</a>
+<td><a {{% href "../Filesystem_services_PXI" %}} title="wikilink">FSPXI</a>
 OpenArchive SD permissions</td>
 <td>Process9 does not use the exheader ARM9 access-mount permission
 flag for SD at all. This would mean ARM11-kernelmode code / fs-module
@@ -979,13 +979,13 @@ for SD access, but this is rather useless since a process is usually
 running with SD access(Home Menu for example) anyway.</td>
 <td></td>
 <td>None</td>
-<td><a href="../9.3.0-21" title="wikilink">9.3.0-X</a></td>
+<td><a {{% href "../9.3.0-21" %}} title="wikilink">9.3.0-X</a></td>
 <td>2012</td>
 <td></td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
-<td><a href="../AMPXI:ExportDSiWare"
+<td><a {{% href "../AMPXI:ExportDSiWare" %}}
 title="wikilink">AMPXI:ExportDSiWare</a> export path</td>
 <td>Process9 allocates memory on Process9 heap for the export path
 then verifies that the actual allocated size matches the input size.
@@ -998,14 +998,14 @@ NUL-terminator to the end of the buffer.</td>
 "nand:/<path>" etc. This isn't really useful since the data which gets
 written can't be controlled.</td>
 <td>None</td>
-<td><a href="../9.5.0-22" title="wikilink">9.5.0-22</a></td>
+<td><a {{% href "../9.5.0-22" %}} title="wikilink">9.5.0-22</a></td>
 <td>April 2013</td>
 <td></td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../DSiWare_Exports" title="wikilink">DSiWare_Exports</a> <a
-href="../CTCert" title="wikilink">CTCert</a> verification</td>
+<td><a {{% href "../DSiWare_Exports" %}} title="wikilink">DSiWare_Exports</a> <a
+{{% href "../CTCert" %}} title="wikilink">CTCert</a> verification</td>
 <td>Just like DSi originally did, 3DS verifies the APCert for DSiWare
 on SD with the CTCert also in the DSiWare .bin. On DSi this was fixed
 with with system-version 1.4.2 by verifying with the actual
@@ -1021,12 +1021,12 @@ SD .bin files.</td>
 <td>11.10.0-X</td>
 <td>April 2013</td>
 <td></td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
 <td>seedminer: movable.sed keyY vulnerable to brute-force</td>
 <td>Half of the movable.sed keyY's 128 bits are leaked through the <a
-href="../Nandrw/sys/LocalFriendCodeSeed_B" title="wikilink">LFCS</a>, which
+{{% href "../Nandrw/sys/LocalFriendCodeSeed_B" %}} title="wikilink">LFCS</a>, which
 is available in userland and below. The LFCS itself also leaks almost
 half of the remaining bits by following the ratio: u32
 keyY[3]=1/5(LFCS). The remaining keyY[3] uncertainty of about ±2000 can
@@ -1077,57 +1077,57 @@ execution.</td>
 <td>zoogie</td>
 </tr>
 <tr class="odd">
-<td><a href="../Gamecard_Services_PXI"
+<td><a {{% href "../Gamecard_Services_PXI" %}}
 title="wikilink">Gamecard_Services_PXI</a> unchecked REG_CTRCARDCNT
 transfer-size</td>
 <td>The u8 REG_CTRCARDCNT transfer-size parameter for the <a
-href="../Gamecard_Services_PXI" title="wikilink">Gamecard_Services_PXI</a>
+{{% href "../Gamecard_Services_PXI" %}} title="wikilink">Gamecard_Services_PXI</a>
 read/write CTRCARD commands is used as an index for an array of u16
-values. Before <a href="../5.0.0-11" title="wikilink">5.0.0-X</a> this u8
+values. Before <a {{% href "../5.0.0-11" %}} title="wikilink">5.0.0-X</a> this u8
 value wasn't checked, thus out-of-bounds reads could be triggered(which
 is rather useless in this case).</td>
 <td>Out-of-bounds read for a value which gets written to a
 register.</td>
-<td><a href="../5.0.0-11" title="wikilink">5.0.0-X</a></td>
+<td><a {{% href "../5.0.0-11" %}} title="wikilink">5.0.0-X</a></td>
 <td></td>
 <td>2013?</td>
 <td></td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
-<td><a href="../PXI_Registers" title="wikilink">PXI</a> cmdbuf buffer
+<td><a {{% href "../PXI_Registers" %}} title="wikilink">PXI</a> cmdbuf buffer
 overrun</td>
-<td>The Process9 code responsible <a href="../PXI_Registers"
+<td>The Process9 code responsible <a {{% href "../PXI_Registers" %}}
 title="wikilink">PXI</a> communications didn't verify the size of the
 incoming command before writing it to a C++ member variable.</td>
 <td>Probably ARM9 code execution</td>
-<td><a href="../5.0.0-11" title="wikilink">5.0.0-11</a></td>
+<td><a {{% href "../5.0.0-11" %}} title="wikilink">5.0.0-11</a></td>
 <td></td>
 <td>March 2015, original timeframe if any unknown</td>
 <td></td>
-<td><a href="../User:Plutooo" title="wikilink">plutoo</a>/<a
-href="../User:Yellows8" title="wikilink">Yellows8</a>/maybe
+<td><a {{% href "../User:Plutooo" "broken" %}} title="wikilink">plutoo</a>/<a
+{{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a>/maybe
 others(?)</td>
 </tr>
 <tr class="odd">
-<td><a href="../Application_Manager_Services_PXI"
+<td><a {{% href "../Application_Manager_Services_PXI" %}}
 title="wikilink">PXIAM</a>:ImportCertificates (See also <a
-href="../Application_Manager_Services" title="wikilink">this</a>)</td>
+{{% href "../Application_Manager_Services" %}} title="wikilink">this</a>)</td>
 <td>When handling this command, Process9 allocates a 0x2800-byte heap
 buffer, then copies the 4 FCRAM input buffers to this heap buffer
 without checking the sizes at all(only the buffers with non-zero sizes
-are copied). Starting with <a href="../5.0.0-11"
+are copied). Starting with <a {{% href "../5.0.0-11" %}}
 title="wikilink">5.0.0-X</a>, the total combined size of the input data
 must be &lt;=0x2800.</td>
 <td>ARM9 code execution</td>
-<td><a href="../5.0.0-11" title="wikilink">5.0.0-X</a></td>
+<td><a {{% href "../5.0.0-11" %}} title="wikilink">5.0.0-X</a></td>
 <td></td>
 <td>May 2013</td>
 <td></td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
-<td><a href="../Process_Services_PXI" title="wikilink">PS RSA</a>
+<td><a {{% href "../Process_Services_PXI" %}} title="wikilink">PS RSA</a>
 commands buffer overflows</td>
 <td>pxips9 cmd1(not accessible via ps:ps) and VerifyRsaSha256:
 unchecked copy to a buffer in Process9's .bss, from the input FCRAM
@@ -1136,18 +1136,18 @@ SignRsaSha256 also has a buf overflow, but this isn't exploitable. The
 buffer for this is the buffer for the signature data. With v5.0, the
 signature buffer was moved to stack, with a check for the signature data
 size. When the signature data size is too large, Process9 uses <a
-href="../SVC" title="wikilink">svcBreak</a>.</td>
+{{% href "../SVC" %}} title="wikilink">svcBreak</a>.</td>
 <td>ARM9 code execution</td>
-<td><a href="../5.0.0-11" title="wikilink">5.0.0-X</a></td>
+<td><a {{% href "../5.0.0-11" %}} title="wikilink">5.0.0-X</a></td>
 <td></td>
 <td>2012</td>
 <td></td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../PXI_Registers" title="wikilink">PXI</a> pxi_id bad
+<td><a {{% href "../PXI_Registers" %}} title="wikilink">PXI</a> pxi_id bad
 check</td>
-<td>The Process9 code responsible for <a href="../PXI_Registers"
+<td>The Process9 code responsible for <a {{% href "../PXI_Registers" %}}
 title="wikilink">PXI</a> communications read pxi_id as a signed char.
 There were two flaws:</p>
 <ul>
@@ -1158,12 +1158,12 @@ values to pass the check. This would also cause an out-of-range
 table-lookup.</li>
 </ul></td>
 <td>Maybe ARM9 code execution</td>
-<td><a href="../3.0.0-5" title="wikilink">3.0.0-5</a></td>
+<td><a {{% href "../3.0.0-5" "broken" %}} title="wikilink">3.0.0-5</a></td>
 <td></td>
 <td>March 2015, originally 2012 for the first issue at least</td>
 <td></td>
-<td><a href="../User:Plutooo" title="wikilink">plutoo</a>, <a
-href="../User:Yellows8" title="wikilink">Yellows8</a>, maybe
+<td><a {{% href "../User:Plutooo" "broken" %}} title="wikilink">plutoo</a>, <a
+{{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a>, maybe
 others(?)</td>
 </tr>
 </tbody>
@@ -1177,9 +1177,9 @@ others(?)</td>
 <th>Summary</th>
 <th>Description</th>
 <th>Successful exploitation result</th>
-<th>Fixed in <a href="../FIRM" title="wikilink">FIRM</a> system
+<th>Fixed in <a {{% href "../FIRM" %}} title="wikilink">FIRM</a> system
 version</th>
-<th>Last <a href="../FIRM" title="wikilink">FIRM</a> system version this
+<th>Last <a {{% href "../FIRM" %}} title="wikilink">FIRM</a> system version this
 flaw was checked for</th>
 <th>Timeframe this was discovered</th>
 <th>Discovered by</th>
@@ -1187,15 +1187,15 @@ flaw was checked for</th>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="../CONFIG_Registers#cfg9_sysprot9"
+<td><a {{% href "../CONFIG_Registers" %}}
 title="wikilink">CFG9_SYSPROT9</a> bit1 not set by Kernel9</td>
 <td>Old versions of Kernel9 never set bit1 of <a
-href="../CONFIG_Registers#cfg9_sysprot9"
+{{% href "../CONFIG_Registers" %}}
 title="wikilink">CFG9_SYSPROT9</a>. This leaves the <a
-href="../OTP_Registers" title="wikilink">0x10012000</a>-region unprotected
+{{% href "../OTP_Registers" %}} title="wikilink">0x10012000</a>-region unprotected
 (this region should be locked early during boot!). Since it's never
 locked, you can dump it once you get ARM9 code execution.</p>
-<p>From <a href="../3.0.0-5" title="wikilink">3.0.0-X</a> this was fixed by
+<p>From <a {{% href "../3.0.0-5" "broken" %}} title="wikilink">3.0.0-X</a> this was fixed by
 setting the bit in Kernel9 after poking some registers in that region.
 On New3DS arm9loader sets this bit instead of Kernel9, which is
 exploitable through a hardware + software vulnerability (see
@@ -1205,17 +1205,17 @@ OTP data for a New3DS console in order to decrypt the key data used in
 arm9loader (see enhanced-arm9loaderhax / description). This was
 performed by downgrading to a vulnerable system version. By accounting
 for differences in CTR-NAND crypto (0x05 -&gt; 0x04, see partition
-encryption types <a href="../Flash_Filesystem#nand_structure"
+encryption types <a {{% href "../Flash_Filesystem" %}}
 title="wikilink">here</a>) and using an Old3DS <a
-href="../NCSD#ncsd_header" title="wikilink">NCSD Header</a>, it is possible
+{{% href "../NCSD" %}} title="wikilink">NCSD Header</a>, it is possible
 to boot a New3DS using Old3DS firmware 1.0-2.x to retrieve the required
 OTP data using this flaw.</td>
-<td>Dumping the <a href="../OTP_Registers" title="wikilink">OTP</a>
+<td>Dumping the <a {{% href "../OTP_Registers" %}} title="wikilink">OTP</a>
 area. Decrypting New3DS sector 0x96 keyblock.</td>
-<td><a href="../3.0.0-5" title="wikilink">3.0.0-X</a></td>
+<td><a {{% href "../3.0.0-5" "broken" %}} title="wikilink">3.0.0-X</a></td>
 <td></td>
 <td>February 2015</td>
-<td><a href="../User:Plutooo" title="wikilink">plutoo</a>, Normmatt
+<td><a {{% href "../User:Plutooo" "broken" %}} title="wikilink">plutoo</a>, Normmatt
 independently</td>
 </tr>
 </tbody>
@@ -1231,9 +1231,9 @@ independently</td>
 <th>Summary</th>
 <th>Description</th>
 <th>Successful exploitation result</th>
-<th>Fixed in <a href="../FIRM" title="wikilink">FIRM</a> system
+<th>Fixed in <a {{% href "../FIRM" %}} title="wikilink">FIRM</a> system
 version</th>
-<th>Last <a href="../FIRM" title="wikilink">FIRM</a> system version this
+<th>Last <a {{% href "../FIRM" %}} title="wikilink">FIRM</a> system version this
 flaw was checked for</th>
 <th>Timeframe this was discovered</th>
 <th>Discovered by</th>
@@ -1241,7 +1241,7 @@ flaw was checked for</th>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="../SVC" title="wikilink">svcUnbindInterrupt</a> double free
+<td><a {{% href "../SVC" %}} title="wikilink">svcUnbindInterrupt</a> double free
 when irqId = 15</td>
 <td>svcBindInterrupt and svcUnbindInterrupt give special treatment to
 irqId 15 (FIQ helper): the access control list is bypassed and the
@@ -1252,36 +1252,36 @@ inside a singleton static object after having its refcount increased by
 stored in the singleton and will decref the user-provided
 KInterruptEvent twice, causing a use-after-free if the attacker didn't
 actually provide an handle to the same event or semaphore.</p>
-<p>This was "fixed" on <a href="../11.14.0-46"
+<p>This was "fixed" on <a {{% href "../11.14.0-46" %}}
 title="wikilink">11.14.0-X</a> by preventing irqId 15 to be bound on
 retail units altogether (in both functions).</td>
 <td>Arm11 kernel code execution</td>
-<td><a href="../11.14.0-46" title="wikilink">11.14.0-X</a> (only on
+<td><a {{% href "../11.14.0-46" %}} title="wikilink">11.14.0-X</a> (only on
 retail units)</td>
-<td><a href="../11.14.0-46" title="wikilink">11.14.0-X</a></td>
+<td><a {{% href "../11.14.0-46" %}} title="wikilink">11.14.0-X</a></td>
 <td>2019</td>
-<td><a href="../User:TuxSH" title="wikilink">TuxSH</a>, maybe
+<td><a {{% href "../User:TuxSH" "broken" %}} title="wikilink">TuxSH</a>, maybe
 others</td>
 </tr>
 <tr class="even">
-<td><a href="../SVC" title="wikilink">svcKernelSetState</a> op=3 could
+<td><a {{% href "../SVC" %}} title="wikilink">svcKernelSetState</a> op=3 could
 map the NULL page</td>
 <td>svcKernelSetState op=3 param1=1 maps the firmlaunch parameters
 page to the user-specified VA.</p>
 <p>It had previously no check, allowing the attacker to map data at VA
 0.</p>
-<p>Starting from <a href="../11.14.0-46" title="wikilink">11.14.0-X</a>,
+<p>Starting from <a {{% href "../11.14.0-46" %}} title="wikilink">11.14.0-X</a>,
 the VA must be in the standard 0x10000000-0x14000000 address
 range.</td>
 <td>Mapping the NULL page (as RW) to leverage other kernel
 vulnerabilities</td>
-<td><a href="../11.14.0-46" title="wikilink">11.14.0-X</a></td>
-<td><a href="../11.14.0-46" title="wikilink">11.14.0-X</a></td>
+<td><a {{% href "../11.14.0-46" %}} title="wikilink">11.14.0-X</a></td>
+<td><a {{% href "../11.14.0-46" %}} title="wikilink">11.14.0-X</a></td>
 <td>2019</td>
-<td><a href="../User:TuxSH" title="wikilink">TuxSH</a></td>
+<td><a {{% href "../User:TuxSH" "broken" %}} title="wikilink">TuxSH</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../SVC" title="wikilink">svcMapProcessMemory</a> can map
+<td><a {{% href "../SVC" %}} title="wikilink">svcMapProcessMemory</a> can map
 the NULL page</td>
 <td>svcMapProcessMemory's destination VA is unchecked.</p>
 <p>By passing a big enough "size" parameter, an attacker can map chunks
@@ -1289,9 +1289,9 @@ of data at VA 0 in the destination (caller) process.</td>
 <td>Mapping the NULL page (as RW) to leverage other kernel
 vulnerabilities</td>
 <td>None</td>
-<td><a href="../11.14.0-46" title="wikilink">11.14.0-X</a></td>
+<td><a {{% href "../11.14.0-46" %}} title="wikilink">11.14.0-X</a></td>
 <td>2020</td>
-<td><a href="../User:TuxSH" title="wikilink">TuxSH</a></td>
+<td><a {{% href "../User:TuxSH" "broken" %}} title="wikilink">TuxSH</a></td>
 </tr>
 <tr class="even">
 <td>Resource limit use-after-free</td>
@@ -1301,24 +1301,24 @@ KResourceLimit get freed if pm gets somehow terminated.</p>
 <p>It turns out it is possible to ask pm (via ns:s or pm:app) to
 terminate itself along all other KIPs simply by passing TID
 0004000100001000.</p>
-<p>Calling <a href="../SVC" title="wikilink">svcGetResourceLimit</a>
+<p>Calling <a {{% href "../SVC" %}} title="wikilink">svcGetResourceLimit</a>
 afterwards triggers a use-after-free. This is rather difficult to
 exploit, however: there is one slot left in the reslimit slabheap. An
 attacker either has to map the NULL page as R(W)X
-(svcControlProcessMemory vuln fixed on <a href="../11.8.0-41"
+(svcControlProcessMemory vuln fixed on <a {{% href "../11.8.0-41" %}}
 title="wikilink">11.8.0-X</a>), or use one of the map-null exploits
 above while having access to svcCreateResourceLimit (with the only one
 that is easy enough to use in that context having been fixed on <a
-href="../11.14.0-46" title="wikilink">11.14.0-X</a>, anyway).</td>
+{{% href "../11.14.0-46" %}} title="wikilink">11.14.0-X</a>, anyway).</td>
 <td>Arm11 kernel code execution</td>
-<td>None (although near impossible to exploit on <a href="../11.14.0-46"
+<td>None (although near impossible to exploit on <a {{% href "../11.14.0-46" %}}
 title="wikilink">11.14.0-X</a>)</td>
-<td><a href="../11.14.0-46" title="wikilink">11.14.0-X</a></td>
+<td><a {{% href "../11.14.0-46" %}} title="wikilink">11.14.0-X</a></td>
 <td>2020</td>
-<td><a href="../User:TuxSH" title="wikilink">TuxSH</a></td>
+<td><a {{% href "../User:TuxSH" "broken" %}} title="wikilink">TuxSH</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../SVC" title="wikilink">svcSetProcessIdealProcessor</a>
+<td><a {{% href "../SVC" %}} title="wikilink">svcSetProcessIdealProcessor</a>
 reference count overflow and therefore use-after-free.</td>
 <td>The SVC receive two arguments: handle and idealprocessor. The
 handle is used to get the KProcess object and the KProcess-&gt;refCnt
@@ -1328,41 +1328,41 @@ gets incremented,later the function check if the KProcess-&gt;mem_type
 won't meet any condition and return the error 0xD9001BEA without
 decrement the reference count. It can be abused to overflow the KProcess
 reference count that will lead to an Use-after-free.</td>
-<td>Before <a href="../11.2.0-35" title="wikilink">11.2.0-X</a>:
+<td>Before <a {{% href "../11.2.0-35" %}} title="wikilink">11.2.0-X</a>:
 reference count overflow and therefore use-after-free.</td>
 <td></td>
-<td><a href="../11.6.0-39" title="wikilink">11.6.0-X</a></td>
+<td><a {{% href "../11.6.0-39" %}} title="wikilink">11.6.0-X</a></td>
 <td>November 2, 2017</td>
-<td><a href="../User:st4rk" title="wikilink">st4rk</a></td>
+<td><a {{% href "../User:st4rk" "broken" %}} title="wikilink">st4rk</a></td>
 </tr>
 <tr class="even">
-<td><a href="../SVC" title="wikilink">svcGetThreadList</a> process
+<td><a {{% href "../SVC" %}} title="wikilink">svcGetThreadList</a> process
 reference leak</td>
 <td>When given a valid process handle (including
 <code>0xFFFF8001</code>), svcGetThreadList forgets to decrement the
-reference count of the underlying <a href="../KProcess"
+reference count of the underlying <a {{% href "../KProcess" %}}
 title="wikilink">KProcess</a> instance, after having finished using
 it.</td>
-<td>Before <a href="../11.2.0-35" title="wikilink">11.2.0-X</a>:
+<td>Before <a {{% href "../11.2.0-35" %}} title="wikilink">11.2.0-X</a>:
 reference count overflow and therefore use-after-free, but this UAF was
 most likely not exploitable</td>
 <td></td>
-<td><a href="../11.3.0-36" title="wikilink">11.3.0-X</a></td>
+<td><a {{% href "../11.3.0-36" %}} title="wikilink">11.3.0-X</a></td>
 <td>April 3, 2017</td>
-<td><a href="../User:TuxSH" title="wikilink">TuxSH</a></td>
+<td><a {{% href "../User:TuxSH" "broken" %}} title="wikilink">TuxSH</a></td>
 </tr>
 <tr class="odd">
 <td>kernelhax via gspwn</td>
 <td>Originally the kernel didn't initialize <a
-href="../CONFIG11_Registers#cfg11_gpuprot"
+{{% href "../CONFIG11_Registers" %}}
 title="wikilink">CFG11_GPUPROT</a>. Since it's 0 at hard-boot, this
 allowed the GPU to access the entire FCRAM + AXIWRAM.</td>
 <td>Entire FCRAM+AXIWRAM R/W.</td>
-<td><a href="../3.0.0-5" title="wikilink">3.0.0-X</a></td>
+<td><a {{% href "../3.0.0-5" "broken" %}} title="wikilink">3.0.0-X</a></td>
 <td></td>
 <td>February 7, 2017</td>
-<td><a href="../User:Plutooo" title="wikilink">plutoo</a>, <a
-href="../User:Yellows8" title="wikilink">Yellows8</a> partly</td>
+<td><a {{% href "../User:Plutooo" "broken" %}} title="wikilink">plutoo</a>, <a
+{{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a> partly</td>
 </tr>
 <tr class="even">
 <td>fasthax</td>
@@ -1372,8 +1372,8 @@ is locked for that core to avoid race conditions, but another core can
 call CloseHandle on the timer and free it, leading to a UAF vtable
 call.</td>
 <td>See description.</td>
-<td><a href="../11.3.0-36" title="wikilink">11.3.0-X</a></td>
-<td><a href="../11.3.0-36" title="wikilink">11.3.0-X</a></td>
+<td><a {{% href "../11.3.0-36" %}} title="wikilink">11.3.0-X</a></td>
+<td><a {{% href "../11.3.0-36" %}} title="wikilink">11.3.0-X</a></td>
 <td>May 2016</td>
 <td>nedwill</td>
 </tr>
@@ -1391,9 +1391,9 @@ takeover can be done too(actual stack buffer overflow can trigger),
 etc.</td>
 <td>See description.</td>
 <td>None</td>
-<td><a href="../11.3.0-36" title="wikilink">11.3.0-X</a></td>
+<td><a {{% href "../11.3.0-36" %}} title="wikilink">11.3.0-X</a></td>
 <td>November 26, 2016</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
 <td>Using IPC input buffers as output buffers</td>
@@ -1405,12 +1405,12 @@ with this.</p>
 <p>Used by ctr-httpwn as of v1.2, for "ipctakeover/bosshaxx".</td>
 <td>See description.</td>
 <td>None</td>
-<td><a href="../11.3.0-36" title="wikilink">11.3.0-X</a></td>
+<td><a {{% href "../11.3.0-36" %}} title="wikilink">11.3.0-X</a></td>
 <td>November 2016</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../SVC" title="wikilink">SVC</a> table too small</td>
+<td><a {{% href "../SVC" %}} title="wikilink">SVC</a> table too small</td>
 <td>The table of function pointers for SVC's only contains entries up
 to 0x7D, but the biggest allowed SVC for the table is 0x7F. Thus,
 executing SVC7E or SVC7F would make the SVC-handler read after the
@@ -1420,18 +1420,18 @@ SVC-access-control. Even if you could get these to execute, they would
 still jump to memory that isn't mapped as executable.</td>
 <td></td>
 <td>None</td>
-<td><a href="../11.3.0-36" title="wikilink">11.3.0-X</a></td>
+<td><a {{% href "../11.3.0-36" %}} title="wikilink">11.3.0-X</a></td>
 <td>2012</td>
 <td>Everyone</td>
 </tr>
 <tr class="even">
-<td><a href="../SVC" title="wikilink">svcBackdoor (0x7B)</a></td>
+<td><a {{% href "../SVC" %}} title="wikilink">svcBackdoor (0x7B)</a></td>
 <td>This backdoor allows executing SVC-mode code at the
 user-specified code-address. This is used by Process9, using this on the
 ARM11 (with NATIVE_FIRM) required patching the kernel .text or modifying
 SVC-access-control.</td>
 <td>See description</td>
-<td><a href="../11.0.0-33" title="wikilink">11.0.0-X</a>
+<td><a {{% href "../11.0.0-33" %}} title="wikilink">11.0.0-X</a>
 (deleted)</td>
 <td></td>
 <td></td>
@@ -1442,27 +1442,27 @@ SVC-access-control.</td>
 <td><strong>This is completely different from the
 kernelmode-code-execution vuln described in the below separate
 entry.</strong></p>
-<p>When updating the kernel global PID counter under <a href="../SVC"
+<p>When updating the kernel global PID counter under <a {{% href "../SVC" %}}
 title="wikilink">svcCreateProcess</a> the kernel does not check for
 wraparound to 0x0(the PID for the very first process). This only matters
-because <a href="../Services" title="wikilink">SM-module</a> allows
+because <a {{% href "../Services" %}} title="wikilink">SM-module</a> allows
 processes with PID value less than <total ARM11 FIRM modules> to access
 <em>all</em> services, without checking exheader service-access-control;
 and because Kernel11 checks for the PID to be 1 (loader) to use the
 input mem-region value on ControlMemory. This alone does not affect
-access the <a href="../SVC" title="wikilink">SVCs</a> access table at
+access the <a {{% href "../SVC" %}} title="wikilink">SVCs</a> access table at
 all.</p>
 <p>Inlined ldrex+strex code is used for updating the above counter. <a
-href="../11.2.0-35" title="wikilink">11.2.0-X</a> had changes for similar
+{{% href "../11.2.0-35" %}} title="wikilink">11.2.0-X</a> had changes for similar
 code, but it was only for dedicated ldrex+strex functions(mainly for
 kernel objects) and hence this PID code was not affected.</p>
 <p>With launching+terminating a sysmodule repeatedly with this via ns:s,
 it would take weeks to finish(if not at least about a month?).</td>
-<td>Access to all <a href="../Services_API"
+<td>Access to all <a {{% href "../Services_API" %}}
 title="wikilink">services</a>, ControlMemory on any given
 mem-region.</td>
 <td>None</td>
-<td><a href="../11.3.0-36" title="wikilink">11.3.0-X</a></td>
+<td><a {{% href "../11.3.0-36" %}} title="wikilink">11.3.0-X</a></td>
 <td>2012 maybe?</td>
 <td></td>
 </tr>
@@ -1473,14 +1473,14 @@ valid handles in an array before returning an error when it encounters
 an invalid handle. This allows one to (slowly) overflow the reference
 count for a handle object to zero.</td>
 <td>ARM11 kernel-mode code execution</td>
-<td><a href="../11.2.0-35" title="wikilink">11.2.0-X</a></td>
-<td><a href="../11.2.0-35" title="wikilink">11.2.0-X</a></td>
+<td><a {{% href "../11.2.0-35" %}} title="wikilink">11.2.0-X</a></td>
+<td><a {{% href "../11.2.0-35" %}} title="wikilink">11.2.0-X</a></td>
 <td>2016</td>
-<td>nedwill, <a href="../User:Derrek"
+<td>nedwill, <a {{% href "../User:Derrek" "broken" %}}
 title="wikilink">derrek</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../Memory_layout#arm11_detailed_virtual_memory_map"
+<td><a {{% href "../Memory_layout" %}}
 title="wikilink">0xEFF00000</a> / 0xDFF00000 ARM11 kernel
 virtual-memory</td>
 <td>The ARM11 kernel-mode 0xEFF00000/0xDFF00000 virtual-memory(size
@@ -1491,13 +1491,13 @@ this never seems to be used after that, however. This is never unmapped
 either.</td>
 <td></td>
 <td>None</td>
-<td><a href="../11.3.0-36" title="wikilink">11.3.0-X</a></td>
+<td><a {{% href "../11.3.0-36" %}} title="wikilink">11.3.0-X</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
 <td>memchunkhax2.1</td>
-<td>Nintendo's fix for memchunkhax2 in <a href="../10.4.0-29"
+<td>Nintendo's fix for memchunkhax2 in <a {{% href "../10.4.0-29" %}}
 title="wikilink">10.4.0-X</a> did not fix the GPU case: one may cause
 the requisite ToCToU race using gspwn, bypassing the new validation.
 derrek's original 32c3 presentation for memchunkhax2 commented that a
@@ -1505,19 +1505,19 @@ GPU-based attack was possible, but would be difficult. However,
 memchunkhax2.1 showed that it was possible to do fairly
 reliably.</td>
 <td>ARM11 kernel code execution</td>
-<td><a href="../11.0.0-33" title="wikilink">11.0.0-X</a>, via the new <a
-href="../Memory_Management#memoryblockheader"
+<td><a {{% href "../11.0.0-33" %}} title="wikilink">11.0.0-X</a>, via the new <a
+{{% href "../Memory_Management" %}}
 title="wikilink">memchunkhdr</a> MAC which prevents modifying
 memchunkhdr data with DMA.</td>
-<td><a href="../11.0.0-33" title="wikilink">11.0.0-X</a></td>
+<td><a {{% href "../11.0.0-33" %}} title="wikilink">11.0.0-X</a></td>
 <td></td>
-<td><a href="../User:Derrek" title="wikilink">derrek</a>,
+<td><a {{% href "../User:Derrek" "broken" %}} title="wikilink">derrek</a>,
 aliaspider</td>
 </tr>
 <tr class="odd">
 <td>memchunkhax2</td>
 <td>When allocating a block of memory, the "next" pointer of the <a
-href="../Memory_Management#memoryblockheader"
+{{% href "../Memory_Management" %}}
 title="wikilink">memchunkhdr</a> is accessed without being checked after
 being mapped to userland. This allows a race condition, where the
 process can change the next pointer just before it's accessed. By
@@ -1525,11 +1525,11 @@ pointing the next pointer to a crafted memchunckhdr in the kernel
 SlabHeap, some of the SlabHeap is allocated to the calling process,
 allowing to change vtables of kernel objects.</td>
 <td>ARM11 kernel code execution</td>
-<td><a href="../10.4.0-29" title="wikilink">10.4.0-X</a> (partially, see
+<td><a {{% href "../10.4.0-29" %}} title="wikilink">10.4.0-X</a> (partially, see
 memchunkhax2.1)</td>
-<td><a href="../10.4.0-29" title="wikilink">10.4.0-X</a></td>
+<td><a {{% href "../10.4.0-29" %}} title="wikilink">10.4.0-X</a></td>
 <td></td>
-<td><a href="../User:Derrek" title="wikilink">derrek</a></td>
+<td><a {{% href "../User:Derrek" "broken" %}} title="wikilink">derrek</a></td>
 </tr>
 <tr class="even">
 <td>heaphax</td>
@@ -1540,11 +1540,11 @@ allocate RW memory over any part of the NS system module, which is
 enough to take it over.</td>
 <td>Code execution with access to all of NS's privileges. (including
 downgrading) Code execution within any applet.</td>
-<td><a href="../11.0.0-33" title="wikilink">11.0.0-X</a>, via the new <a
-href="../Memory_Management#memoryblockheader"
+<td><a {{% href "../11.0.0-33" %}} title="wikilink">11.0.0-X</a>, via the new <a
+{{% href "../Memory_Management" %}}
 title="wikilink">memchunkhdr</a> MAC which prevents modifying
 memchunkhdr data with DMA.</td>
-<td><a href="../11.0.0-33" title="wikilink">11.0.0-X</a></td>
+<td><a {{% href "../11.0.0-33" %}} title="wikilink">11.0.0-X</a></td>
 <td>April 2015 ?</td>
 <td>smea</td>
 </tr>
@@ -1554,14 +1554,14 @@ memchunkhdr data with DMA.</td>
 allowing for takeover.</td>
 <td>Code execution with access to all of NS's privileges. (including
 downgrading)</td>
-<td><a href="../10.1.0-27" title="wikilink">10.1.0-X</a></td>
-<td><a href="../10.1.0-27" title="wikilink">10.1.0-X</a></td>
+<td><a {{% href "../10.1.0-27" %}} title="wikilink">10.1.0-X</a></td>
+<td><a {{% href "../10.1.0-27" %}} title="wikilink">10.1.0-X</a></td>
 <td>April 2015 ?</td>
 <td>smea</td>
 </tr>
 <tr class="even">
 <td>AffinityMask/processorid validation</td>
-<td>With <a href="../10.0.0-27" title="wikilink">10.0.0-X</a> the
+<td>With <a {{% href "../10.0.0-27" %}} title="wikilink">10.0.0-X</a> the
 following functions were updated: svcGetThreadAffinityMask,
 svcGetProcessAffinityMask, svcSetProcessAffinityMask, and
 svcCreateThread. The code changes for all but svcCreateThread are
@@ -1577,7 +1577,7 @@ identical. The original code with the first 3 did the following:</p>
 </ul>
 <p>In theory the latter should catch everything that the former did, so
 it's unknown if this was really a security issue.</p>
-<p>The svcCreateThread changes with <a href="../10.0.0-27"
+<p>The svcCreateThread changes with <a {{% href "../10.0.0-27" %}}
 title="wikilink">10.0.0-X</a> definitely did fix a security issue.</p>
 <ul>
 <li>Original code: "if(s32_processorid &gt; <total_cores>)return
@@ -1587,7 +1587,7 @@ title="wikilink">10.0.0-X</a> definitely did fix a security issue.</p>
 <td>s32_processorid &lt;= -4)return 0xd8e007fd;" This fixed an
 off-by-one issue: if one would use processorid=total_cores, which isn't
 actually a valid value, svcCreateThread would accept that value on
-&lt;<a href="../10.0.0-27" title="wikilink">10.0.0-X</a>. This results in
+&lt;<a {{% href "../10.0.0-27" %}} title="wikilink">10.0.0-X</a>. This results in
 data being written out-of-bounds(baseaddr = arrayaddr +
 entrysize*processorid), which has the following result:</p>
 <ul>
@@ -1605,22 +1605,22 @@ anything(meaning no crash) besides the thread not running / thread not
 running for a while(besides triggering a kernelpanic with certain
 s32_processorid value(s)).</td>
 <td>Nothing useful</td>
-<td><a href="../10.0.0-27" title="wikilink">10.0.0-X</a></td>
-<td><a href="../10.0.0-27" title="wikilink">10.0.0-X</a></td>
+<td><a {{% href "../10.0.0-27" %}} title="wikilink">10.0.0-X</a></td>
+<td><a {{% href "../10.0.0-27" %}} title="wikilink">10.0.0-X</a></td>
 <td>svcCreateThread issue: May 31, 2015. The rest: September 8, 2015,
 via v9.6-&gt;v10.0 ARM11-kernel code-diff.</td>
 </tr>
 <tr class="odd">
 <td>memchunkhax</td>
 <td>The kernel originally did not validate the data stored in the
-FCRAM kernel heap <a href="../Memchunkhdr"
+FCRAM kernel heap <a {{% href "../Memchunkhdr" %}}
 title="wikilink">memchunk-headers</a> for free-memory at all. Exploiting
 this requires raw R/W access to these memchunk-headers, like
 physical-memory access with gspwn.</p>
 <p>There are <em>multiple</em> ways to exploit this, but the end-result
 for most of these is the same: overwrite code in AXIWRAM via the
 0xEFF00000/0xDFF00000 kernel virtual-memory mapping.</p>
-<p>This was fixed in <a href="../9.3.0-21" title="wikilink">9.3.0-X</a> by
+<p>This was fixed in <a {{% href "../9.3.0-21" %}} title="wikilink">9.3.0-X</a> by
 checking that the memchunk(including size, next, and prev ptrs) is
 located within the currently used heap memory. The kernel may also check
 that the next/prev ptrs are valid compared to other memchunk-headers
@@ -1628,44 +1628,44 @@ basically. When any of these checks fail, kernelpanic() is
 called.</td>
 <td>When combined with other flaws: ARM11-kernelmode code
 execution</td>
-<td><a href="../9.3.0-21" title="wikilink">9.3.0-21</a></td>
+<td><a {{% href "../9.3.0-21" %}} title="wikilink">9.3.0-21</a></td>
 <td></td>
 <td>February 2014</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
-<td>Multiple <a href="../KLinkedListNode"
+<td>Multiple <a {{% href "../KLinkedListNode" %}}
 title="wikilink">KLinkedListNode</a> SlabHeap use after free
 bugs</td>
 <td>The ARM11-kernel did access the 'key' field of <a
-href="../KLinkedListNode" title="wikilink">KLinkedListNode</a> objects,
+{{% href "../KLinkedListNode" %}} title="wikilink">KLinkedListNode</a> objects,
 which are located on the SlabHeap, after freeing them. Thus, triggering
-an allocation of a new <a href="../KLinkedListNode"
+an allocation of a new <a {{% href "../KLinkedListNode" %}}
 title="wikilink">KLinkedListNode</a> object at the right time could
 result in a type-confusion. Pseudo-code: SlabHeap_free(KLinkedListNode);
 KObject *obj = KLinkedListNode-&gt;key; // the object there might have
 changed! This bug appeared all over the place.</td>
 <td>ARM11-kernelmode code exec maybe</td>
-<td><a href="../8.0.0-18" title="wikilink">8.0.0-18</a></td>
+<td><a {{% href "../8.0.0-18" %}} title="wikilink">8.0.0-18</a></td>
 <td></td>
 <td>April 2015</td>
-<td><a href="../User:Derrek" title="wikilink">derrek</a></td>
+<td><a {{% href "../User:Derrek" "broken" %}} title="wikilink">derrek</a></td>
 </tr>
 <tr class="odd">
-<td>PXI <a href="../RPC_Command_Structure" title="wikilink">Command</a>
+<td>PXI <a {{% href "../RPC_Command_Structure" %}} title="wikilink">Command</a>
 input/output buffer permissions</td>
 <td>Originally the ARM11-kernel didn't check permissions for PXI
-input/output buffers for commands. Starting with <a href="../6.0.0-11"
+input/output buffers for commands. Starting with <a {{% href "../6.0.0-11" %}}
 title="wikilink">6.0.0</a> PXI input/output buffers must have RW
 permissions, otherwise kernelpanic is triggered.</td>
 <td></td>
-<td><a href="../6.0.0-11" title="wikilink">6.0.0-11</a></td>
+<td><a {{% href "../6.0.0-11" %}} title="wikilink">6.0.0-11</a></td>
 <td></td>
 <td>2012</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
-<td><a href="../SVC"
+<td><a {{% href "../SVC" %}}
 title="wikilink">svcStartInterProcessDma</a></td>
 <td>For svcStartInterProcessDma, the kernel code had the following
 flaws:</p>
@@ -1678,28 +1678,28 @@ instruction.</li>
 </ul>
 <ul>
 <li>Integer overflows for srcaddr+size and dstaddr+size are now
-checked(with <a href="../6.0.0-11" title="wikilink">6.0.0-11</a>), which
+checked(with <a {{% href "../6.0.0-11" %}} title="wikilink">6.0.0-11</a>), which
 were not checked before.</li>
 </ul>
 <ul>
 <li>The kernel now also checks whether the srcaddr/dstaddr (+size) is
 within userland memory (0x20000000), the kernel now (with <a
-href="../6.0.0-11" title="wikilink">6.0.0-11</a>) returns an error when the
+{{% href "../6.0.0-11" %}} title="wikilink">6.0.0-11</a>) returns an error when the
 address is beyond userland memory. Using an address &gt;=0x20000000
 would result in the kernel reading from the process L1 MMU table, beyond
 the memory allocated for that MMU table(for vaddr-&gt;physaddr
 conversion).</li>
 </ul></td>
 <td></td>
-<td><a href="../6.0.0-11" title="wikilink">6.0.0-11</a></td>
+<td><a {{% href "../6.0.0-11" %}} title="wikilink">6.0.0-11</a></td>
 <td></td>
 <td>DmaConfig issue: unknown. The rest: 2014</td>
-<td><a href="../User:Plutooo" title="wikilink">plutoo</a>, <a
-href="../User:Yellows8" title="wikilink">Yellows8</a>
+<td><a {{% href "../User:Plutooo" "broken" %}} title="wikilink">plutoo</a>, <a
+{{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a>
 independently</td>
 </tr>
 <tr class="odd">
-<td><a href="../SVC" title="wikilink">svcControlMemory</a> Parameter
+<td><a {{% href "../SVC" %}} title="wikilink">svcControlMemory</a> Parameter
 checks</td>
 <td>For svcControlMemory the parameter check had these two flaws:</p>
 <ul>
@@ -1719,16 +1719,16 @@ weren't (this also applies to most other address checks elsewhere in the
 kernel).</li>
 </ul></td>
 <td></td>
-<td><a href="../5.0.0-11" title="wikilink">5.0.0-11</a></td>
+<td><a {{% href "../5.0.0-11" %}} title="wikilink">5.0.0-11</a></td>
 <td></td>
 <td></td>
-<td><a href="../User:Plutooo" title="wikilink">plutoo</a></td>
+<td><a {{% href "../User:Plutooo" "broken" %}} title="wikilink">plutoo</a></td>
 </tr>
 <tr class="even">
-<td><a href="../RPC_Command_Structure" title="wikilink">Command</a>
+<td><a {{% href "../RPC_Command_Structure" %}} title="wikilink">Command</a>
 request/response buffer overflow</td>
 <td>Originally the kernel did not check the word-values from the
-command-header. Starting with <a href="../5.0.0-11"
+command-header. Starting with <a {{% href "../5.0.0-11" %}}
 title="wikilink">5.0.0-11</a>, the kernel will trigger a kernelpanic()
 when the total word-size of the entire command(including the cmd-header)
 is larger than 0x40-words (0x100-bytes). This allows overwriting
@@ -1741,13 +1741,13 @@ with controlled data this way, one could then use a command with a
 buffer-header of ((size&lt;&lt;14) | 2) to write arbitrary memory to any
 RW userland memory in the destination process.</td>
 <td></td>
-<td><a href="../5.0.0-11" title="wikilink">5.0.0-11</a></td>
+<td><a {{% href "../5.0.0-11" %}} title="wikilink">5.0.0-11</a></td>
 <td></td>
 <td>v4.1 FIRM -&gt; v5.0 code diff</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../SVC" title="wikilink">SVC stack allocation
+<td><a {{% href "../SVC" %}} title="wikilink">SVC stack allocation
 overflows</a></td>
 <td><ul>
 <li>Syscalls that allocate a variable-length array on stack, only
@@ -1763,15 +1763,15 @@ checked for integer overflow.</li>
 svcGetProcessList, svcReplyAndReceive,
 svcWaitSynchronizationN.)</td>
 <td></td>
-<td><a href="../5.0.0-11" title="wikilink">5.0.0-11</a></td>
+<td><a {{% href "../5.0.0-11" %}} title="wikilink">5.0.0-11</a></td>
 <td></td>
 <td>v4.1 FIRM -&gt; v5.0 code diff</td>
-<td><a href="../User:Plutooo" title="wikilink">plutoo</a>, <a
-href="../User:Yellows8" title="wikilink">Yellows8</a>
+<td><a {{% href "../User:Plutooo" "broken" %}} title="wikilink">plutoo</a>, <a
+{{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a>
 complementary</td>
 </tr>
 <tr class="even">
-<td><a href="../SVC" title="wikilink">svcControlMemory</a>
+<td><a {{% href "../SVC" %}} title="wikilink">svcControlMemory</a>
 MemoryOperation MAP memory-permissions</td>
 <td>svcControlMemory with MemoryOperation=MAP allows mapping the
 already-mapped process virtual-mem at addr1, to addr0. The lowest
@@ -1780,28 +1780,28 @@ didn't check memory permissions for addr1. Therefore .text as addr1
 could be mapped elsewhere as RW- memory, which allowed ARM11 userland
 code-execution.</td>
 <td></td>
-<td><a href="../4.1.0-8" title="wikilink">4.1.0-8</a></td>
+<td><a {{% href "../4.1.0-8" "broken" %}} title="wikilink">4.1.0-8</a></td>
 <td></td>
 <td>2012</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../RPC_Command_Structure" title="wikilink">Command</a>
+<td><a {{% href "../RPC_Command_Structure" %}} title="wikilink">Command</a>
 input/output buffer permissions</td>
 <td>Originally the ARM11 kernel didn't check memory permissions for
-the input/output buffers for commands. Starting with <a href="../4.0.0-7"
+the input/output buffers for commands. Starting with <a {{% href "../4.0.0-7" %}}
 title="wikilink">4.0.0-7</a> the ARM11 kernel will trigger a
 kernelpanic() if the input/output buffers don't have the required memory
 permissions. For example, this allowed a FSUSER file-read to .text,
 which therefore allowed ARM11-userland code execution.</td>
 <td></td>
-<td><a href="../4.0.0-7" title="wikilink">4.0.0-7</a></td>
+<td><a {{% href "../4.0.0-7" %}} title="wikilink">4.0.0-7</a></td>
 <td></td>
 <td>2012</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
-<td><a href="../SVC"
+<td><a {{% href "../SVC" %}}
 title="wikilink">svcReadProcessMemory/svcWriteProcessMemory memory</a>
 permissions</td>
 <td>Originally the kernel only checked the first page(0x1000-bytes)
@@ -1809,10 +1809,10 @@ of the src/dst buffers, for svcReadProcessMemory and
 svcWriteProcessMemory. There is no known retail processes which have
 access to these SVCs.</td>
 <td></td>
-<td><a href="../4.0.0-7" title="wikilink">4.0.0-7</a></td>
+<td><a {{% href "../4.0.0-7" %}} title="wikilink">4.0.0-7</a></td>
 <td></td>
 <td>2012?</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 </tbody>
 </table>
@@ -1825,9 +1825,9 @@ access to these SVCs.</td>
 <th>Summary</th>
 <th>Description</th>
 <th>Successful exploitation result</th>
-<th>Fixed in <a href="../FIRM" title="wikilink">FIRM</a> system
+<th>Fixed in <a {{% href "../FIRM" %}} title="wikilink">FIRM</a> system
 version</th>
-<th>Last <a href="../FIRM" title="wikilink">FIRM</a> system version this
+<th>Last <a {{% href "../FIRM" %}} title="wikilink">FIRM</a> system version this
 flaw was checked for</th>
 <th>Timeframe this was discovered</th>
 <th>Discovered by</th>
@@ -1835,18 +1835,18 @@ flaw was checked for</th>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="../Services" title="wikilink">"srv:pm"</a> process
+<td><a {{% href "../Services" %}} title="wikilink">"srv:pm"</a> process
 registration</td>
 <td>Originally any process had access to the port "srv:pm". The PID's
 used for the (un)registration commands are not checked either. This
 allowed any process to re-register itself with "srv:pm", and therefore
 allowed the process to give itself access to any service, bypassing the
 exheader service-access-control list.</p>
-<p>This was fixed in <a href="../7.0.0-13" title="wikilink">7.0.0-13</a>:
-starting with <a href="../7.0.0-13" title="wikilink">7.0.0-13</a> "srv:pm"
+<p>This was fixed in <a {{% href "../7.0.0-13" %}} title="wikilink">7.0.0-13</a>:
+starting with <a {{% href "../7.0.0-13" %}} title="wikilink">7.0.0-13</a> "srv:pm"
 is now a service instead of a globally accessible port. Only processes
 with PID's less than 6 (in other words: fs, ldr, sm, pm, pxi modules)
-have access to it. With <a href="../7.0.0-13" title="wikilink">7.0.0-13</a>
+have access to it. With <a {{% href "../7.0.0-13" %}} title="wikilink">7.0.0-13</a>
 there can only be one session for "srv:pm" open at a time(this is used
 by pm module), svcBreak will be executed if more sessions are opened by
 the processes which can access this.</p>
@@ -1854,41 +1854,41 @@ the processes which can access this.</p>
 vulnerabilities from ARM11 userland ROP, since most applications don't
 have access to those service(s).</td>
 <td>Access to arbitrary services</td>
-<td><a href="../7.0.0-13" title="wikilink">7.0.0-13</a></td>
+<td><a {{% href "../7.0.0-13" %}} title="wikilink">7.0.0-13</a></td>
 <td></td>
 <td>2012</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
 <td>FSDIR null-deref</td>
-<td><a href="../Filesystem_services" title="wikilink">FS</a>-module may
+<td><a {{% href "../Filesystem_services" %}} title="wikilink">FS</a>-module may
 crash in some cases when handling directory reading. The trigger seems
-to be due to using <a href="../FSDir:Close"
+to be due to using <a {{% href "../FSDir:Close" %}}
 title="wikilink">FSDir:Close</a> without closing the dir-handle
 afterwards?(Perhaps this is caused by out-of-memory?) This seems to be
 useless since it's just a null-deref.</td>
 <td></td>
 <td>None</td>
-<td><a href="../9.6.0-24" title="wikilink">9.6.0-X</a></td>
+<td><a {{% href "../9.6.0-24" %}} title="wikilink">9.6.0-X</a></td>
 <td>May 19(?)-20, 2015</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td>Useless <a href="../SM" title="wikilink">SM</a> off-by-one
+<td>Useless <a {{% href "../SM" %}} title="wikilink">SM</a> off-by-one
 write</td>
-<td>After accepting a new session, <a href="../SM"
+<td>After accepting a new session, <a {{% href "../SM" %}}
 title="wikilink">SM</a> writes a (handler ID (0 for srv: sessions (max.
 64), 1 for the srv:pm one), pointer to session context structure in BSS)
 pair in a global array. However that array is only 64-entry-big instead
 of 65 (as it ought to be), and no bound check is done in that
 regard.</p>
-<p>Unfortunately, as of <a href="../11.4.0-37"
+<p>Unfortunately, as of <a {{% href "../11.4.0-37" %}}
 title="wikilink">11.4.0-37</a>, the overwritten fields are totally
 unused after their initialization by
 <code>__libc_init_array</code>.</td>
 <td>Not currently exploitable</td>
 <td>None</td>
-<td><a href="../11.4.0-37" title="wikilink">11.4.0-37</a></td>
+<td><a {{% href "../11.4.0-37" %}} title="wikilink">11.4.0-37</a></td>
 <td></td>
 <td></td>
 </tr>
@@ -1899,28 +1899,28 @@ done on the service table. One can simply call RegisterPort repeatedly
 to overflow that table: it will overflow into the command replay
 structure.</p>
 <p>Combined with a other minor bugs in the sysmodule, it is possible to
-take over <a href="../SM" title="wikilink">SM</a> with this nevertheless
+take over <a {{% href "../SM" %}} title="wikilink">SM</a> with this nevertheless
 difficult-to-exploit vulnerability.</td>
-<td>Code execution under <a href="../SM" title="wikilink">SM</a>,
+<td>Code execution under <a {{% href "../SM" %}} title="wikilink">SM</a>,
 etc.</td>
-<td><a href="../11.16.0-48" title="wikilink">11.16.0-48</a></td>
-<td><a href="../11.14.0-46" title="wikilink">11.14.0-46</a></td>
+<td><a {{% href "../11.16.0-48" %}} title="wikilink">11.16.0-48</a></td>
+<td><a {{% href "../11.14.0-46" %}} title="wikilink">11.14.0-46</a></td>
 <td>July 2017</td>
-<td><a href="../User:TuxSH" title="wikilink">TuxSH</a> (independently),
+<td><a {{% href "../User:TuxSH" "broken" %}} title="wikilink">TuxSH</a> (independently),
 presumably ichfly before</td>
 </tr>
 <tr class="odd">
 <td>PXI cmdbuf buffer overrun</td>
-<td>Like its Arm9 counterpart, before version <a href="../5.0.0-11"
+<td>Like its Arm9 counterpart, before version <a {{% href "../5.0.0-11" %}}
 title="wikilink">5.0.0-X</a>, the PXI system module did not check the
 command sizes. This makes it possible to get ROP under the PXI sysmodule
 from a pwned Process9. safecerthax uses it to takeover the Arm11
 processor after directly getting remote code execution on the Arm9 side.
 Though, is useless in classic Arm11 -&gt; Arm9 chains.</td>
-<td>ROP under <a href="../PXI_Services"
+<td>ROP under <a {{% href "../PXI_Services" %}}
 title="wikilink">PXI</a></td>
-<td>probably <a href="../5.0.0-11" title="wikilink">5.0.0-X</a></td>
-<td><a href="../11.14.0-46" title="wikilink">11.14.0-46</a></td>
+<td>probably <a {{% href "../5.0.0-11" %}} title="wikilink">5.0.0-X</a></td>
+<td><a {{% href "../11.14.0-46" %}} title="wikilink">11.14.0-46</a></td>
 <td></td>
 <td>Everyone</td>
 </tr>
@@ -1945,9 +1945,9 @@ for</th>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="../CSND_Services" title="wikilink">CSND</a> sysmodule crash
+<td><a {{% href "../CSND_Services" %}} title="wikilink">CSND</a> sysmodule crash
 due to out of bounds parameters.</td>
-<td>The CSND command <a href="../CSND:PlaySoundDirectly"
+<td>The CSND command <a {{% href "../CSND:PlaySoundDirectly" %}}
 title="wikilink">PlaySoundDirectly (0x00040080)</a> takes a channel ID
 as the first parameter. Any value outside the range [0-3] makes the
 system module become unstable or crash due to an out of bounds memory
@@ -1955,13 +1955,13 @@ read.</td>
 <td>Out of bounds memory read, probably not exploitable. More
 research needed.</td>
 <td>None</td>
-<td><a href="../11.14.0-46" title="wikilink">11.14.0-46</a></td>
+<td><a {{% href "../11.14.0-46" %}} title="wikilink">11.14.0-46</a></td>
 <td>January 2021</td>
 <td>January 22, 2021</td>
-<td><a href="../User:PabloMK7" title="wikilink">PabloMK7</a></td>
+<td><a {{% href "../User:PabloMK7" "broken" %}} title="wikilink">PabloMK7</a></td>
 </tr>
 <tr class="even">
-<td>SSLoth: <a href="../SSL_Services" title="wikilink">SSL</a> sysmodule
+<td>SSLoth: <a {{% href "../SSL_Services" %}} title="wikilink">SSL</a> sysmodule
 improper certificate verification</td>
 <td>Initially, the SSL sysmodule missed the R_VERIFY_RES_SIGNATURE
 entry in the "resource list" provided to the RSA BSAFE library.
@@ -1969,28 +1969,28 @@ Consequently, it did not check signatures when validating certificate
 chains.</td>
 <td>Forge fake certificates, spoof official servers and perform MitM
 attacks on SSL/TLS connections.</td>
-<td><a href="../11.14.0-46" title="wikilink">11.14.0-46</a></td>
-<td><a href="../11.14.0-46" title="wikilink">11.14.0-46</a></td>
+<td><a {{% href "../11.14.0-46" %}} title="wikilink">11.14.0-46</a></td>
+<td><a {{% href "../11.14.0-46" %}} title="wikilink">11.14.0-46</a></td>
 <td>2020</td>
 <td>December 18, 2020</td>
-<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a>,
+<td><a {{% href "../User:Nba_Yoh" "broken" %}} title="wikilink">MrNbaYoh</a>,
 shutterbug2000 (independently)</td>
 </tr>
 <tr class="odd">
-<td><a href="../CECD_Services" title="wikilink">CECD:ndm</a>
+<td><a {{% href "../CECD_Services" %}} title="wikilink">CECD:ndm</a>
 SetNZoneMacFilter (cmd8) stack smashing</td>
 <td>The length of the mac filter is not checked before being copied
 to a fixed-size buffer on stack.</td>
-<td>ROP under <a href="../CECD_Services" title="wikilink">CECD</a>
+<td>ROP under <a {{% href "../CECD_Services" %}} title="wikilink">CECD</a>
 sysmodule</td>
 <td>None</td>
-<td><a href="../11.13.0-45" title="wikilink">11.13.0-45</a></td>
+<td><a {{% href "../11.13.0-45" %}} title="wikilink">11.13.0-45</a></td>
 <td>2020</td>
 <td>July 20, 2020</td>
-<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
+<td><a {{% href "../User:Nba_Yoh" "broken" %}} title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="even">
-<td><a href="../CECD_Services" title="wikilink">CECD</a> message box
+<td><a {{% href "../CECD_Services" %}} title="wikilink">CECD</a> message box
 access</td>
 <td>CECD allows any process to write to any message box, thus
 allowing to write Streetpass data to the message box of any
@@ -2005,7 +2005,7 @@ vulnerability).</td>
 <td>Everyone?</td>
 </tr>
 <tr class="odd">
-<td><a href="../CECD_Services" title="wikilink">CECD</a> packet type
+<td><a {{% href "../CECD_Services" %}} title="wikilink">CECD</a> packet type
 0x32/0x34 stack-smashing</td>
 <td>When parsing Streetpass packets of type 0x32 and 0x34, CECD
 copies a list without checking the number of entries. The packet length
@@ -2014,16 +2014,16 @@ stack frame and overwrite the return address. However, the buffer
 located just next to the packet buffer is actually filled with data sent
 just before, hence actually allowing to overwrite the whole stack frame
 with conrolled data.</td>
-<td>RCE under <a href="../CECD_Services"
+<td>RCE under <a {{% href "../CECD_Services" %}}
 title="wikilink">CECD</a></td>
-<td><a href="../11.12.0-44" title="wikilink">11.12.0-44</a></td>
-<td><a href="../11.12.0-44" title="wikilink">11.12.0-44</a></td>
+<td><a {{% href "../11.12.0-44" %}} title="wikilink">11.12.0-44</a></td>
+<td><a {{% href "../11.12.0-44" %}} title="wikilink">11.12.0-44</a></td>
 <td>Summer 2019</td>
 <td>June 1, 2020</td>
-<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
+<td><a {{% href "../User:Nba_Yoh" "broken" %}} title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="even">
-<td><a href="../CECD_Services" title="wikilink">CECD</a> TMP files
+<td><a {{% href "../CECD_Services" %}} title="wikilink">CECD</a> TMP files
 parser multiple vulnerabilities</td>
 <td>When parsing "TMP_XXX" files, CECD does not check the number of
 messages contained in the file. This allows to overflow the array of
@@ -2043,16 +2043,16 @@ since the previous TMP file buffer is reused for the new TMP file in
 memory. Thus the message pointers actually points to controlled data.
 This allows to get a bunch of fake heap chunk freed, thus a bunch of
 unsafe unlink arbitrary writes.</td>
-<td>RCE under <a href="../CECD_Services"
+<td>RCE under <a {{% href "../CECD_Services" %}}
 title="wikilink">CECD</a></td>
-<td><a href="../11.12.0-44" title="wikilink">11.12.0-44</a></td>
-<td><a href="../11.12.0-44" title="wikilink">11.12.0-44</a></td>
+<td><a {{% href "../11.12.0-44" %}} title="wikilink">11.12.0-44</a></td>
+<td><a {{% href "../11.12.0-44" %}} title="wikilink">11.12.0-44</a></td>
 <td>Summer 2019</td>
 <td>June 1, 2020</td>
-<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
+<td><a {{% href "../User:Nba_Yoh" "broken" %}} title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../Config_Services"
+<td><a {{% href "../Config_Services" %}}
 title="wikilink">CFG</a>:CreateConfigInfoBlk integer underflow</td>
 <td>When creating a new block it checks the size of the block is
 &lt;= 0x8000, but it doesn't check that the block size is less than the
@@ -2067,15 +2067,15 @@ buf_start+0x10000 (cannot write backward).</td>
 <td>Theoritically ROP under CFG services, but BSS section is to small
 (size &lt;= 0x10000) so it only results in a crash.</td>
 <td>None</td>
-<td><a href="../11.8.0-41" title="wikilink">11.8.0-41</a></td>
+<td><a {{% href "../11.8.0-41" %}} title="wikilink">11.8.0-41</a></td>
 <td>November, 2018</td>
 <td>November 24, 2018</td>
-<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
+<td><a {{% href "../User:Nba_Yoh" "broken" %}} title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="even">
-<td><a href="../MP:SendDataFrame" title="wikilink">MP:SendDataFrame</a>
+<td><a {{% href "../MP:SendDataFrame" %}} title="wikilink">MP:SendDataFrame</a>
 missing input array index validation</td>
-<td><a href="../MP:SendDataFrame" title="wikilink">MP:SendDataFrame</a>
+<td><a {{% href "../MP:SendDataFrame" %}} title="wikilink">MP:SendDataFrame</a>
 doesn't validate the input index at cmdreq[1], unless the function for
 flag=non-zero is executed. This is used to calculate the following,
 without validating the index at all: someptr = stateptr + (index*0x924)
@@ -2088,14 +2088,14 @@ loaded from someptr+someotheroffset.</p>
 <p>This is probably difficult to exploit.</td>
 <td></td>
 <td>None</td>
-<td><a href="../8.0.0-18" title="wikilink">8.0.0-18</a>(MP-sysmodule
+<td><a {{% href "../8.0.0-18" %}} title="wikilink">8.0.0-18</a>(MP-sysmodule
 v2048)</td>
 <td>January 22, 2017</td>
 <td>January 22, 2017</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../MP_Services" title="wikilink">MP</a> cmd1 out-of-bounds
+<td><a {{% href "../MP_Services" %}} title="wikilink">MP</a> cmd1 out-of-bounds
 handle read</td>
 <td>MP-sysmodule handles the input parameter for cmd1 as a s32. It
 checks for &gt;=16, but not &lt;0. With &lt;16 it basically does the
@@ -2106,16 +2106,16 @@ doesn't really have any service handles of interest however(can be
 obtained from elsewhere too).</td>
 <td>Reading any handle in MP-sysmodule memory.</td>
 <td>None</td>
-<td><a href="../8.0.0-18" title="wikilink">8.0.0-18</a>(MP-sysmodule
+<td><a {{% href "../8.0.0-18" %}} title="wikilink">8.0.0-18</a>(MP-sysmodule
 v2048)</td>
 <td>January 21, 2017</td>
 <td>January 22, 2017</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
-<td>AM stack/.bss infoleak via <a href="../AM:ReadTwlBackupInfo"
+<td>AM stack/.bss infoleak via <a {{% href "../AM:ReadTwlBackupInfo" %}}
 title="wikilink">AM:ReadTwlBackupInfo</a>(<a
-href="../AM:ReadTwlBackupInfoEx" title="wikilink">Ex</a>)</td>
+{{% href "../AM:ReadTwlBackupInfoEx" %}} title="wikilink">Ex</a>)</td>
 <td>After writing the output-info structure to stack, it then copies
 that structure to the output buffer ptr using the size from the command.
 The size is not checked. This could be used to read data from the
@@ -2123,11 +2123,11 @@ AM-service-thread stack handling the command + .bss.</p>
 <p><strong>This was not tested on hardware.</strong></td>
 <td>Stack/.bss reading</td>
 <td>None</td>
-<td><a href="../10.0.0-27" title="wikilink">10.0.0-27</a>(AM
+<td><a {{% href "../10.0.0-27" %}} title="wikilink">10.0.0-27</a>(AM
 v9217)</td>
 <td>Roughly October 17, 2016</td>
 <td>October 25, 2016</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
 <td>AM module APcert infoleak via 00000000.ctx files</td>
@@ -2140,14 +2140,14 @@ filled state.</td>
 the movable.sed (since deviceID is mathmatically related to the
 LFCS).</td>
 <td>None</td>
-<td><a href="../11.16.0-49" title="wikilink">11.16.0-49</a></td>
+<td><a {{% href "../11.16.0-49" %}} title="wikilink">11.16.0-49</a></td>
 <td>August, 2022</td>
 <td>March 17, 2023</td>
 <td>zoogie</td>
 </tr>
 <tr class="even">
-<td><a href="../MVD_Services" title="wikilink">MVD</a>: Stack buffer
-overflow with <a href="../MVDSTD:SetupOutputBuffers"
+<td><a {{% href "../MVD_Services" %}} title="wikilink">MVD</a>: Stack buffer
+overflow with <a {{% href "../MVDSTD:SetupOutputBuffers" %}}
 title="wikilink">MVDSTD:SetupOutputBuffers</a>.</td>
 <td>The input total_entries is not validated when initially
 processing the input entry-list. This fixed-size input entry-list is
@@ -2160,23 +2160,23 @@ the out-of-bounds total_entries is smaller than that, it will crash due
 accessing address 0x0, hence this useless.</td>
 <td>MVD-sysmodule crash.</td>
 <td>None</td>
-<td><a href="../9.0.0-20" title="wikilink">9.0.0-20</a></td>
+<td><a {{% href "../9.0.0-20" %}} title="wikilink">9.0.0-20</a></td>
 <td>April 22, 2016 (Tested on the 25th)</td>
 <td>April 25, 2016</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../NWM_Services" title="wikilink">NWM</a>: Using CTRSDK
+<td><a {{% href "../NWM_Services" %}} title="wikilink">NWM</a>: Using CTRSDK
 heap with UDS sharedmem from the user-process.</td>
 <td>See the HTTP-sysmodule section below.</p>
 <p>CTRSDK heap is used with the sharedmem from <a
-href="../NWMUDS:InitializeWithVersion"
+{{% href "../NWMUDS:InitializeWithVersion" %}}
 title="wikilink">NWMUDS:InitializeWithVersion</a>. Buffers are
-allocated/freed under this heap using <a href="../NWMUDS:Bind"
-title="wikilink">NWMUDS:Bind</a> and <a href="../NWMUDS:Unbind"
+allocated/freed under this heap using <a {{% href "../NWMUDS:Bind" %}}
+title="wikilink">NWMUDS:Bind</a> and <a {{% href "../NWMUDS:Unbind" %}}
 title="wikilink">NWMUDS:Unbind</a>.</p>
 <p>Hence, overwriting sharedmem with gspwn then using <a
-href="../NWMUDS:Unbind" title="wikilink">NWMUDS:Unbind</a> results in the
+{{% href "../NWMUDS:Unbind" %}} title="wikilink">NWMUDS:Unbind</a> results in the
 usual controlled CTRSDK memchunk-header write, similar to
 HTTP-sysmodule.</p>
 <p>This could be done by creating an UDS network, without any other
@@ -2185,14 +2185,14 @@ nodes on the network.</p>
 this sharedmem.</td>
 <td>ROP under NWM-module.</td>
 <td>None (need to check, but CTRSDK heap code is vulnerable)</td>
-<td><a href="../9.0.0-20" title="wikilink">9.0.0-X</a></td>
+<td><a {{% href "../9.0.0-20" %}} title="wikilink">9.0.0-X</a></td>
 <td>April 10, 2016</td>
 <td>April 16, 2016</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
-<td><a href="../DLP_Services" title="wikilink">DLP</a>: Out-of-bounds
-memory access during spectator <a href="../Download_Play"
+<td><a {{% href "../DLP_Services" %}} title="wikilink">DLP</a>: Out-of-bounds
+memory access during spectator <a {{% href "../Download_Play" %}}
 title="wikilink">data-frame</a> checksum calculation</td>
 <td>DLP doesn't validate the frame_size when receiving spectator
 data-frames at all, unlike non-spectator data-frames. The actual
@@ -2210,15 +2210,15 @@ useful either).</td>
 "connection interrupted" error eventually then a fatal-error via
 ErrDisp.</td>
 <td>None</td>
-<td><a href="../10.0.0-27" title="wikilink">10.0.0-X</a></td>
+<td><a {{% href "../10.0.0-27" %}} title="wikilink">10.0.0-X</a></td>
 <td>April 8, 2016 (Tested on the 10th)</td>
 <td>April 10, 2016</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../DLP_Services" title="wikilink">DLP</a>: Out-of-bounds
+<td><a {{% href "../DLP_Services" %}} title="wikilink">DLP</a>: Out-of-bounds
 output data writing during spectator sysupdate titlelist <a
-href="../Download_Play" title="wikilink">data-frame</a> handling</td>
+{{% href "../Download_Play" %}} title="wikilink">data-frame</a> handling</td>
 <td>The total_entries and out_entryindex fields for the titlelist DLP
 spectator data-frames are not validated. This is parsed during DLP
 network scanning. Hence, the specified titlelist data can be written
@@ -2235,32 +2235,32 @@ linked-list code involves writes zeros(with a controlled start
 ptr).</td>
 <td></td>
 <td>None</td>
-<td><a href="../10.0.0-27" title="wikilink">10.0.0-X</a></td>
+<td><a {{% href "../10.0.0-27" %}} title="wikilink">10.0.0-X</a></td>
 <td>April 8-9, 2016</td>
 <td>April 10, 2016</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
-<td><a href="../IR_Services" title="wikilink">IR</a>: Stack buffer
+<td><a {{% href "../IR_Services" %}} title="wikilink">IR</a>: Stack buffer
 overflow with custom hardware</td>
 <td>Originally IR sysmodule used the read value from the I2C-IR
 registers TXLVL and RXLVL without validating them at all. See <a
-href="../10.6.0-31" title="wikilink">here</a> for the fix. This is the size
+{{% href "../10.6.0-31" %}} title="wikilink">here</a> for the fix. This is the size
 used for reading the data-recv FIFO, etc. The output buffer for reading
 is located on the stack.</p>
 <p>This should be exploitable if one could successfully setup the custom
 hardware for this and if the entire intended sizes actually get read
 from I2C.</td>
 <td>ROP under IR sysmodule.</td>
-<td><a href="../10.6.0-31" title="wikilink">10.6.0-31</a></td>
+<td><a {{% href "../10.6.0-31" %}} title="wikilink">10.6.0-31</a></td>
 <td></td>
 <td>February 23, 2016 (Unknown if it was noticed before
 then)</td>
 <td>February 23, 2016</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../HTTP_Services" title="wikilink">HTTP</a>: Using CTRSDK
+<td><a {{% href "../HTTP_Services" %}} title="wikilink">HTTP</a>: Using CTRSDK
 heap with sharedmem from the user-process.</td>
 <td>The data from httpcAddPostDataAscii and other commands is stored
 under a CTRSDK heap. That heap is the sharedmem specified by the
@@ -2275,16 +2275,16 @@ then be used to get ROP going under HTTP-sysmodule.</p>
 href="https://github.com/yellows8/ctr-httpwn/ctr-httpwn">ctr-httpwn</a>.</td>
 <td>ROP under HTTP sysmdule.</td>
 <td>None</td>
-<td><a href="../11.13.0-45" title="wikilink">11.13.0-X</a></td>
+<td><a {{% href "../11.13.0-45" %}} title="wikilink">11.13.0-X</a></td>
 <td>Late 2015</td>
 <td>March 22, 2016</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
-<td><a href="../NIM_Services" title="wikilink">NIM</a>: Downloading old
+<td><a {{% href "../NIM_Services" %}} title="wikilink">NIM</a>: Downloading old
 title-versions from eShop</td>
 <td>Multiple NIM service commands(such as <a
-href="../NIMS:StartDownload" title="wikilink">NIMS:StartDownload</a>) use a
+{{% href "../NIMS:StartDownload" %}} title="wikilink">NIMS:StartDownload</a>) use a
 title-version value specified by the user-process, NIM does not validate
 that this input version matches the latest version available via SOAP.
 Therefore, when combined with AM(PXI) <a href="#process9"
@@ -2298,29 +2298,29 @@ these NIM commands(ideally the code which loads the title-version).</p>
 eventually smea implemented it in HANS for the 32c3 release.</td>
 <td>Downloading old title-versions from eShop</td>
 <td>None</td>
-<td><a href="../10.0.0-27" title="wikilink">10.0.0-X</a></td>
+<td><a {{% href "../10.0.0-27" %}} title="wikilink">10.0.0-X</a></td>
 <td>October 24, 2015 (Unknown when exactly the first eShop title
 downgrade was actually tested, maybe November)</td>
 <td>January 7, 2016 (Same day Ironfall v1.0 was removed from CDN via
 the main-CXI files)</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../SPI_Services" title="wikilink">SPI</a> service
+<td><a {{% href "../SPI_Services" %}} title="wikilink">SPI</a> service
 out-of-bounds write</td>
 <td>cmd1 has out-of-bounds write allowing overwrite of some static
 variables in .data.</td>
 <td>Code execution under spi sysmodule; access to <a
-href="../CONFIG11_Registers" title="wikilink">CFG11_GPUPROT</a> and
+{{% href "../CONFIG11_Registers" %}} title="wikilink">CFG11_GPUPROT</a> and
 ultimately kernel code execution.</td>
 <td>None</td>
-<td><a href="../11.14.0-46" title="wikilink">11.14.0-46</a></td>
+<td><a {{% href "../11.14.0-46" %}} title="wikilink">11.14.0-46</a></td>
 <td>March 2015</td>
 <td></td>
-<td><a href="../User:Plutooo" title="wikilink">plutoo</a></td>
+<td><a {{% href "../User:Plutooo" "broken" %}} title="wikilink">plutoo</a></td>
 </tr>
 <tr class="even">
-<td><a href="../NFC_Services" title="wikilink">NFC</a> module service
+<td><a {{% href "../NFC_Services" %}} title="wikilink">NFC</a> module service
 command buf-overflows</td>
 <td>NFC module copies data with certain commands, from command input
 buffers to stack without checking the size. These commands include the
@@ -2333,34 +2333,34 @@ New3DS NFC module.</p>
 services.</td>
 <td>ROP under NFC module.</td>
 <td>New3DS: None</td>
-<td>New3DS: <a href="../9.5.0-22" title="wikilink">9.5.0-22</a></td>
+<td>New3DS: <a {{% href "../9.5.0-22" %}} title="wikilink">9.5.0-22</a></td>
 <td>December 2014?</td>
 <td></td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../News_Services" title="wikilink">NEWSS</a> service
+<td><a {{% href "../News_Services" %}} title="wikilink">NEWSS</a> service
 command notificationID validation failure</td>
 <td>This module does not validate the input notificationID for
 "news:s" service commands. This is an out-of-bounds array index bug. For
-example, <a href="../NEWSS:SetNotificationHeader"
+example, <a {{% href "../NEWSS:SetNotificationHeader" %}}
 title="wikilink">NEWSS:SetNotificationHeader</a> could be used to
 exploit news module: this copies the input data(size is properly
 checked) to: out = newsdb_savedata+0x10 +
 (someu32array[notificationID]*0x70).</td>
 <td>ROP under news module.</td>
 <td>None</td>
-<td><a href="../9.7.0-25" title="wikilink">9.7.0-X</a></td>
+<td><a {{% href "../9.7.0-25" %}} title="wikilink">9.7.0-X</a></td>
 <td>December 2014</td>
 <td></td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
-<td><a href="../NWMUDS:DecryptBeaconData"
+<td><a {{% href "../NWMUDS:DecryptBeaconData" %}}
 title="wikilink">NWMUDS:DecryptBeaconData</a> heap buffer
 overflow</td>
 <td>input_size = 0x1E * &lt;value the u8 from input_<a
-href="../NWM_Services" title="wikilink">networkstruct</a>+0x1D&gt;. Then
+{{% href "../NWM_Services" %}} title="wikilink">networkstruct</a>+0x1D&gt;. Then
 input_tag0 is copied to a heap buffer. When input_size is larger than
 0xFA-bytes, it will then copy input_tag1 to
 <end_address_of_previous_outbuf>, with size=input_size-0xFA.</p>
@@ -2380,27 +2380,27 @@ in process termination(process crash). This breaks *everything*
 involving wifi comms, a reboot is required to recover from
 this.</td>
 <td>None</td>
-<td><a href="../9.0.0-20" title="wikilink">9.0.0-20</a></td>
-<td>~September 23, 2014(see the <a href="../NWMUDS:DecryptBeaconData"
+<td><a {{% href "../9.0.0-20" %}} title="wikilink">9.0.0-20</a></td>
+<td>~September 23, 2014(see the <a {{% href "../NWMUDS:DecryptBeaconData" %}}
 title="wikilink">NWMUDS:DecryptBeaconData</a> page history)</td>
 <td>August 3, 2015</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../HID_Services" title="wikilink">HID</a> module
+<td><a {{% href "../HID_Services" %}} title="wikilink">HID</a> module
 shared-mem</td>
 <td>HID module does not validate the index values in <a
-href="../HID_Shared_Memory" title="wikilink">sharedmem</a>(just changes
+{{% href "../HID_Shared_Memory" %}} title="wikilink">sharedmem</a>(just changes
 index to 0 when index == maxval when updating), therefore large values
 will result in HID module writing HID data to arbitrary
 addresses.</td>
 <td>ROP under HID module, but this is *very* unlikely to be
 exploitable since the data written is HID data.</td>
 <td>None</td>
-<td><a href="../9.3.0-21" title="wikilink">9.3.0-21</a></td>
+<td><a {{% href "../9.3.0-21" %}} title="wikilink">9.3.0-21</a></td>
 <td>2014?</td>
 <td></td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
 <td>gspwn</td>
@@ -2409,71 +2409,71 @@ allows a user-mode application/applet to read/write to a large part of
 physical FCRAM using GPU DMA. From this, you can overwrite the .text
 segment of the application you're running under, and gain real
 code-execution from a ROP-chain. Normally applets' .text(<a
-href="../Home_Menu" title="wikilink">Home Menu</a>, <a
-href="../Internet_Browser" title="wikilink">Internet Browser</a>, etc) is
+{{% href "../Home_Menu" %}} title="wikilink">Home Menu</a>, <a
+{{% href "../Internet_Browser" %}} title="wikilink">Internet Browser</a>, etc) is
 located beyond the area accessible by the GPU, except for <a
-href="../RO_Services" title="wikilink">CROs</a> used by applets(<a
-href="../Internet_Browser" title="wikilink">Internet Browser</a> for
+{{% href "../RO_Services" %}} title="wikilink">CROs</a> used by applets(<a
+{{% href "../Internet_Browser" %}} title="wikilink">Internet Browser</a> for
 example).</p>
 <p>FCRAM is gpu-accessible up to physaddr 0x26800000 on Old3DS, and
 0x2D800000 on New3DS. This is BASE_memregion_start(aka
 SYSTEM_memregion_end)-0x400000 (0x800000 with New3DS) with the default
-memory-layout on Old3DS/New3DS. With <a href="../11.3.0-36"
+memory-layout on Old3DS/New3DS. With <a {{% href "../11.3.0-36" %}}
 title="wikilink">11.3.0-X</a> the cutoff now varies due to the new <a
-href="../SVC" title="wikilink">SVC</a> 0x59. The New3DS
+{{% href "../SVC" %}} title="wikilink">SVC</a> 0x59. The New3DS
 "normal"(non-APPLICATION) cutoff was changed to 0x2D000000 due to the
-new <a href="../SVC" title="wikilink">SVC</a> 0x59.</td>
+new <a {{% href "../SVC" %}} title="wikilink">SVC</a> 0x59.</td>
 <td>User-mode code execution.</td>
 <td>None</td>
-<td><a href="../9.6.0-24" title="wikilink">9.6.0-X</a></td>
+<td><a {{% href "../9.6.0-24" %}} title="wikilink">9.6.0-X</a></td>
 <td>Early 2014</td>
 <td></td>
-<td>smea, <a href="../User:Yellows8"
+<td>smea, <a {{% href "../User:Yellows8" "broken" %}}
 title="wikilink">Yellows8</a>/others before then</td>
 </tr>
 <tr class="odd">
 <td>rohax</td>
-<td>Using gspwn, it is possible to overwrite a loaded <a href="../CRO0"
-title="wikilink">CRO0</a>/<a href="../CRR0" title="wikilink">CRR0</a> after
-its RSA-signature has been validated. Badly validated <a href="../CRO0"
+<td>Using gspwn, it is possible to overwrite a loaded <a {{% href "../CRO0" %}}
+title="wikilink">CRO0</a>/<a {{% href "../CRR0" %}} title="wikilink">CRR0</a> after
+its RSA-signature has been validated. Badly validated <a {{% href "../CRO0" %}}
 title="wikilink">CRO0</a> header leads to arbitrary read/write of memory
 in the ro-process. This gives code-execution in the ro module, who has
-access to <a href="../SVC" title="wikilink">syscalls</a> 0x70-0x72,
+access to <a {{% href "../SVC" %}} title="wikilink">syscalls</a> 0x70-0x72,
 0x7D.</p>
-<p>This was fixed after <a href="../ninjhax" title="wikilink">ninjhax</a>
-release by adding checks on <a href="../CRO0"
+<p>This was fixed after <a {{% href "../Ninjhax" %}} title="wikilink">ninjhax</a>
+release by adding checks on <a {{% href "../CRO0" %}}
 title="wikilink">CRO0</a>-based pointers before writing to
 them.</td>
 <td>Memory-mapping syscalls.</td>
-<td><a href="../9.3.0-21" title="wikilink">9.3.0-21</a></td>
-<td><a href="../9.4.0-21" title="wikilink">9.4.0-21</a></td>
+<td><a {{% href "../9.3.0-21" %}} title="wikilink">9.3.0-21</a></td>
+<td><a {{% href "../9.4.0-21" %}} title="wikilink">9.4.0-21</a></td>
 <td></td>
 <td></td>
-<td>smea, <a href="../User:Plutooo" title="wikilink">plutoo</a> joint
+<td>smea, <a {{% href "../User:Plutooo" "broken" %}} title="wikilink">plutoo</a> joint
 effort</td>
 </tr>
 <tr class="even">
 <td>Region free</td>
-<td>Only <a href="../Home_Menu" title="wikilink">Home Menu</a> itself
+<td>Only <a {{% href "../Home_Menu" %}} title="wikilink">Home Menu</a> itself
 checks gamecards' region when launching them. Therefore, any application
-launch that is done directly with <a href="../NS" title="wikilink">NS</a>
+launch that is done directly with <a {{% href "../NS" %}} title="wikilink">NS</a>
 without signaling Home Menu to launch the app, will result in region
 checks being bypassed. This essentially means launching the gamecard
-with the <a href="../NS_and_APT_Services" title="wikilink">"ns:s"</a>
+with the <a {{% href "../NS_and_APT_Services" %}} title="wikilink">"ns:s"</a>
 service. The main way to exploit this is to trigger a FIRM launch with
 an application specified, either with a normal FIRM launch or a hardware
-<a href="../NSS:RebootSystem" title="wikilink">reboot</a>.</td>
+<a {{% href "../NSS:RebootSystem" %}} title="wikilink">reboot</a>.</td>
 <td>Launching gamecards from any region + bypassing Home Menu
 gamecard-sysupdate installation</td>
 <td>None</td>
-<td>Last tested with <a href="../10.1.0-27"
+<td>Last tested with <a {{% href "../10.1.0-27" %}}
 title="wikilink">10.1.0-X</a>.</td>
 <td>June(?) 2014</td>
 <td></td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
-<td><a href="../NWM_Services" title="wikilink">NWM</a> service-cmd state
+<td><a {{% href "../NWM_Services" %}} title="wikilink">NWM</a> service-cmd state
 null-ptr deref</td>
 <td>The NWMUDS service command code loads a ptr from .data, adds an
 offset to that, then passes that as the state address for the actual
@@ -2484,10 +2484,10 @@ services besides NWMUDS have this issue.</td>
 <td>This is rather useless since it's only a crash caused by a state
 ptr based at 0x0.</td>
 <td>None</td>
-<td><a href="../9.0.0-20" title="wikilink">9.0.0-20</a></td>
+<td><a {{% href "../9.0.0-20" %}} title="wikilink">9.0.0-20</a></td>
 <td>2013?</td>
 <td></td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 </tbody>
 </table>
@@ -2508,29 +2508,29 @@ ptr based at 0x0.</td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="../CECD_Services" title="wikilink">CECD</a> Streetpass
+<td><a {{% href "../CECD_Services" %}} title="wikilink">CECD</a> Streetpass
 message exheader stack-smashing</td>
 <td>When parsing streetpass messages, "nn::cec::CTR::<a
-href="../Message::InputMessage">Message::InputMessage</a>" calls
+{{% href "../Message::InputMessage" "broken" %}}>Message::InputMessage</a>" calls
 "nn::cec::CTR::<a
-href="../Message::SetExHeaderWithoutCalc">Message::SetExHeaderWithoutCalc</a>"
+{{% href "../Message::SetExHeaderWithoutCalc" "broken" %}}>Message::SetExHeaderWithoutCalc</a>"
 for each exheader entry in the input message. The number of entries
 should not exceed 16 but remains unchecked, leading to a
 stack-buffer-overflow.</td>
 <td>ROP under any application parsing Streetpass messages Remote code
-execution under <a href="../CECD_Services"
+execution under <a {{% href "../CECD_Services" %}}
 title="wikilink">CECD</a></td>
-<td><a href="../11.12.0-44" title="wikilink">11.12.0-44</a></td>
+<td><a {{% href "../11.12.0-44" %}} title="wikilink">11.12.0-44</a></td>
 <td></td>
 <td>2019</td>
-<td><a href="../User:Nba_Yoh" title="wikilink">MrNbaYoh</a></td>
+<td><a {{% href "../User:Nba_Yoh" "broken" %}} title="wikilink">MrNbaYoh</a></td>
 </tr>
 <tr class="even">
-<td><a href="../NWM_Services" title="wikilink">UDS</a> beacon
+<td><a {{% href "../NWM_Services" %}} title="wikilink">UDS</a> beacon
 additional-data buffer overflow</td>
 <td>Originally CTRSDK did not validate the UDS additional-data size
 before using that size to copy the additional-data to a <a
-href="../NWM_Services" title="wikilink">networkstruct</a>. This was
+{{% href "../NWM_Services" %}} title="wikilink">networkstruct</a>. This was
 eventually fixed. This was discovered while doing code RE with an old
 dlp-module version. It's unknown in what specific CTRSDK version this
 was fixed, or even what system-version updated titles with a fixed
@@ -2545,7 +2545,7 @@ all</td>
 <td>?</td>
 <td></td>
 <td>September(?) 2014</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="odd">
 <td>CTPK buffer overflow</td>
@@ -2561,7 +2561,7 @@ application(s) load from elsewhere too.</td>
 <td>None?</td>
 <td>"[SDK+NINTENDO:CTR_SDK-11_4_0_200_none]"</td>
 <td>November 14, 2016</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a></td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a></td>
 </tr>
 <tr class="even">
 <td>Pia vulns</td>
@@ -2581,9 +2581,9 @@ href="https://switchbrew.org/wiki/Switch_System_Flaws#Pia">here</a>.</td>
 <td>See <a
 href="https://switchbrew.org/wiki/Switch_System_Flaws#Pia">here</a>;
 separately checked later (UpdateConnectionReport) by <a
-href="../User:Riley" title="wikilink">Riley</a> on: June 14, 2023</td>
-<td><a href="../User:Yellows8" title="wikilink">Yellows8</a>; added to
-3dbrew (UpdateConnectionReport) by <a href="../User:Riley"
+{{% href "../User:Riley" "broken" %}} title="wikilink">Riley</a> on: June 14, 2023</td>
+<td><a {{% href "../User:Yellows8" "broken" %}} title="wikilink">Yellows8</a>; added to
+3dbrew (UpdateConnectionReport) by <a {{% href "../User:Riley" "broken" %}}
 title="wikilink">Riley</a> later</td>
 </tr>
 <tr class="odd">
@@ -2620,7 +2620,7 @@ connected to that server.</td>
 <td>"[SDK+Nintendo:PIA_3_10_2]", "[SDK+Nintendo:PIA_4_2_0]"</td>
 <td>Discovery: June 3, 2023.</p>
 <p>Wiki: November 20, 2023.</td>
-<td><a href="../User:Riley" title="wikilink">Riley</a></td>
+<td><a {{% href "../User:Riley" "broken" %}} title="wikilink">Riley</a></td>
 </tr>
 </tbody>
 </table>

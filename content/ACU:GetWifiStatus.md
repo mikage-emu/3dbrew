@@ -10,11 +10,11 @@ title = 'ACU:GetWifiStatus'
 
 # Response
 
-| Index Word | Description                                                          |
-|------------|----------------------------------------------------------------------|
-| 0          | Header code                                                          |
-| 1          | Result code                                                          |
-| 2          | Output connection type: 0 = none, 1 = Slot 1, 2 = Slot 2, 4 = Slot 3 |
+| Index Word | Description                                                                                                  |
+|------------|--------------------------------------------------------------------------------------------------------------|
+| 0          | Header code                                                                                                  |
+| 1          | Result code                                                                                                  |
+| 2          | Output connection type: 0 = none, 1 = Slot 1, 2 = Slot 2, 4 = Slot 3, 16 = [Nintendo Zone](Nintendo_Zone) AP |
 
 # Description
 

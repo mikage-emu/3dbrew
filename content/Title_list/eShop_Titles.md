@@ -2,15 +2,15 @@
 title = 'EShop Titles'
 +++
 
-[Go Back to Title list](Title_list "wikilink")
+[Go Back to Title list](. "wikilink")
 
 ## Overview
 
 This titleID-High (00040000) is also used for gamecard applications. The
-[CXI](NCCH#cxi "wikilink") for retail applications available via
+[CXI](../NCCH#cxi "wikilink") for retail applications available via
 gamecard and eShop are exactly the same, except the exheader differs.
 For SD applications exheader_systeminfoflags.flag
-[bit1](NCCH#ncch_specs "wikilink") is set, for gamecard applications
+[bit1](../NCCH#ncch_specs "wikilink") is set, for gamecard applications
 this bit is clear. The ExeFS and RomFS are exactly the same for the
 gamecard/eShop versions. The eShop version of the CXI has additional
 padding.
@@ -20,7 +20,7 @@ programID with the application programIDs for each region of Ridge
 Racer. When the gamecard programID matches the Ridge Racer programID,
 this code will set a flag, however it's unknown what this flag is used
 for. This is probably used for the Ridge Racer fix implemented with
-[2.1.0-3](2.1.0-3 "wikilink").
+[2.1.0-3](../2.1.0-3 "wikilink").
 
 ## List
 
@@ -30,12 +30,12 @@ for. This is probably used for the Ridge Racer fix implemented with
 | 00040800    | USA    | Super Mario Land                                              | v16, v32                                                       |
 | 00040A00    | EUR    | Super Mario Land                                              | v16, v32                                                       |
 | 00042A00    | EUR    | The Legend of Zelda: Link's Awakening DX                      | v0, v16                                                        |
-| 0004AA00    | USA    | [Nintendo Video](Nintendo_Video "wikilink")                   | v0                                                             |
-| 0004AB00    | EUR    | [Nintendo Video](Nintendo_Video "wikilink")                   | v0, v3072, v3172                                               |
-| 00051600    | JPN    | [Swapnote](Swapnote "wikilink")                               | v0, v1024, v2064                                               |
-| 00051700    | USA    | [Swapnote](Swapnote "wikilink")                               | v0, v1024, v2064                                               |
-| 00051800    | EUR    | [Nintendo Letter Box](Swapnote "wikilink")                    | v0, v1024, v2064                                               |
-| 00056C00    | JPN    | [Flipnote Studio 3D](Flipnote_Studio_3D "wikilink")           | v64, v2192                                                     |
+| 0004AA00    | USA    | [Nintendo Video](../Nintendo_Video "wikilink")                   | v0                                                             |
+| 0004AB00    | EUR    | [Nintendo Video](../Nintendo_Video "wikilink")                   | v0, v3072, v3172                                               |
+| 00051600    | JPN    | [Swapnote](../Swapnote "wikilink")                               | v0, v1024, v2064                                               |
+| 00051700    | USA    | [Swapnote](../Swapnote "wikilink")                               | v0, v1024, v2064                                               |
+| 00051800    | EUR    | [Nintendo Letter Box](../Swapnote "wikilink")                    | v0, v1024, v2064                                               |
+| 00056C00    | JPN    | [Flipnote Studio 3D](../Flipnote_Studio_3D "wikilink")           | v64, v2192                                                     |
 | 00057700    | USA    | Netflix                                                       | v0, v32                                                        |
 | 0005AD00    | JPN    | Kid Icarus Uprising E3 Video                                  | v0                                                             |
 | 0005AE00    | USA    | Kid Icarus Uprising E3 Video                                  | v0                                                             |
@@ -138,10 +138,10 @@ for. This is probably used for the Ridge Racer fix implemented with
 | 000AD000    | EUR    | Preview Video: Luigi Mansion: Dark Moon                       | v0, v16                                                        |
 | 000AD100    | EUR    | Preview Video: New Super Mario Bros. 2                        | v0, v16                                                        |
 | 000AE100    | ALL    | Pokemon Dream Radar                                           | v0, v16                                                        |
-| 000C7300    | ALL    | [Save Data Transfer Tool](Save_Data_Transfer_Tool "wikilink") | v0                                                             |
-| 000B0F00    | USA    | [YouTube](YouTube "wikilink")                                 | v16, v1056, v2096 (released (about/exactly?) October 15, 2015) |
+| 000C7300    | ALL    | [Save Data Transfer Tool](../Save_Data_Transfer_Tool "wikilink") | v0                                                             |
+| 000B0F00    | USA    | [YouTube](../YouTube "wikilink")                                 | v16, v1056, v2096 (released (about/exactly?) October 15, 2015) |
 | 000CCE00    | USA    | Donkey Kong Country Returns 3D                                | v48                                                            |
-| 000CCD00    | EUR    | [YouTube](YouTube "wikilink")                                 | v0, v1040, v2080 (released (about/exactly?) October 15, 2015)  |
+| 000CCD00    | EUR    | [YouTube](../YouTube "wikilink")                                 | v0, v1040, v2080 (released (about/exactly?) October 15, 2015)  |
 | 000D9A00    | EUR    | Donkey Kong Country Returns 3D: Trailer                       | v16                                                            |
 | 0015D800    | USA    | IRONFALL Invasion                                             | v0 (content files removed on roughly 7 January 16), v2080      |
 | 0011D600    | EUR    | Pikmin Short Movies 3D                                        | v0                                                             |

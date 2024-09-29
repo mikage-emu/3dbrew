@@ -3,7 +3,7 @@ title = 'Themes'
 +++
 
 This page describes the formats/structure of the data stored in RomFS
-for [Home Menu](Home_Menu "wikilink") DLC, for themes.
+for [Home Menu](. "wikilink") DLC, for themes.
 
 # Control Content
 
@@ -35,8 +35,8 @@ MetaDataContentHeader.bin format:
 | 0x14..0x2C      | 0x2  | This data is sorted by region (JPN at 0x14, US at 0x18, etc.). This is the target region. |
 | 0x16..0x2E      | 0x2  | Primary language for region? (0x0 for JPN, 0x1 for US and EU)                             |
 | 0x30            | 0x4  | Number of ContentInfoArchive languages                                                    |
-| 0x34+i          | 0x2  | ContentInfoArchive [region](Nandrw/sys/SecureInfo_A "wikilink")                           |
-| 0x36+i          | 0x2  | ContentInfoArchive [language](Config_Savegame#languages "wikilink")                       |
+| 0x34+i          | 0x2  | ContentInfoArchive [region](../Nandrw/sys/SecureInfo_A "wikilink")                           |
+| 0x36+i          | 0x2  | ContentInfoArchive [language](../Config_Savegame#languages "wikilink")                       |
 
 ContentInfoArchive header format, size 0x08:
 
@@ -62,9 +62,9 @@ and disabled.
 
 RomFS structure:
 
-- "bgm.bcstm": Background music, see [here](BCSTM "wikilink").
+- "bgm.bcstm": Background music, see [here](../BCSTM "wikilink").
 - "body_LZ.bin": LZ11 compressed blob containing the rest of the theme
-  data(graphics + optional [CWAVs](BCWAV "wikilink")).
+  data(graphics + optional [CWAVs](../BCWAV "wikilink")).
 
 # Decompressed body_LZ.bin structure
 
@@ -176,7 +176,7 @@ Audio data entry structure:
 | Y + 0x0     | 0x4           | CWAV size.                             |
 | Y + 0x4     | 0x4           | Unknown                                |
 | Y + 0x8     | X (see below) | Additional data for CWAV 4, see below. |
-| Y + 0x8 + X |               | [CWAV](BCWAV "wikilink")               |
+| Y + 0x8 + X |               | [CWAV](../BCWAV "wikilink")               |
 
 Structure of the data starting at offset 0x0, from the above entry, for
 the additional data with CWAV 7:

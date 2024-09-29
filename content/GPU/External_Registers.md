@@ -6,7 +6,7 @@ categories = ["GPU"]
 This page describes the address range accessible from the ARM11, used to
 configure the basic GPU functionality. For information about the
 internal registers used for 3D rendering, see [GPU/Internal
-Registers](GPU/Internal_Registers "wikilink").
+Registers](Internal_Registers "wikilink").
 
 ## Map
 
@@ -27,7 +27,7 @@ these addresses relative to 0x1EB00000.
 | 0x1EF00400                                                                                                                                                                                                                                                                                        | 0x10400400 | 0x100  | [Framebuffer Setup](#lcd_source_framebuffer_setup "wikilink") "PDC0" (top screen) |                                                                                 |
 | 0x1EF00500                                                                                                                                                                                                                                                                                        | 0x10400500 | 0x100  | [Framebuffer Setup](#lcd_source_framebuffer_setup "wikilink") "PDC1" (bottom)     |                                                                                 |
 | 0x1EF00C00                                                                                                                                                                                                                                                                                        | 0x10400C00 | ?      | [Transfer Engine](#transfer_engine "wikilink") "DMA"                              |                                                                                 |
-| 0x1EF01000/0x10401000 - 0x1EF01C00/0x10401C00 maps to [GPU internal registers](GPU/Internal_Registers "wikilink"). These registers are usually not read/written directly here, but are written using the command list interface below (corresponding to the GPUREG_CMDBUF_\* internal registers) |            |        |                                                                                   |                                                                                 |
+| 0x1EF01000/0x10401000 - 0x1EF01C00/0x10401C00 maps to [GPU internal registers](Internal_Registers "wikilink"). These registers are usually not read/written directly here, but are written using the command list interface below (corresponding to the GPUREG_CMDBUF_\* internal registers) |            |        |                                                                                   |                                                                                 |
 | 0x1EF01000                                                                                                                                                                                                                                                                                        | 0x10401000 | 0x4    | ?                                                                                 | Writes 0 on GPU init and before the Command List is used                        |
 | 0x1EF01080                                                                                                                                                                                                                                                                                        | 0x10401080 | 0x4    | ?                                                                                 | Writes 0x12345678 on GPU init.                                                  |
 | 0x1EF010C0                                                                                                                                                                                                                                                                                        | 0x104010C0 | 0x4    | ?                                                                                 | Writes 0xFFFFFFF0 on GPU init.                                                  |
@@ -51,7 +51,7 @@ filling unit. Upon completion, the hardware unsets bit0 and sets bit1
 and fires interrupt PSC0.
 
 These registers are used by [GX
-SetMemoryFill](GSP_Shared_Memory#gx_setmemoryfill "wikilink").
+SetMemoryFill](../GSP_Shared_Memory#gx_setmemoryfill "wikilink").
 
 ## LCD Source Framebuffer Setup
 
@@ -489,7 +489,7 @@ output twice) if used outside of userland.
 | 0x1EF00C24       | TextureCopy input line width (bits 0-15) and gap (bits 16-31), in 16 byte units.  |
 | 0x1EF00C28       | TextureCopy output line width and gap.                                            |
 
-These registers are used by [GX command](GSP_Shared_Memory "wikilink") 3
+These registers are used by [GX command](../GSP_Shared_Memory "wikilink") 3
 and 4. For cmd4, \*0x1EF00C18 \|= 1 is used instead of just writing
 value 1. The DisplayTransfer registers are only used if bit 3 of the
 flags is unset and ignored otherwise. The TextureCopy registers are
@@ -550,8 +550,8 @@ in the GPU hanging while attempting to process this TextureCopy.
 | 0x1EF018F0       | Setting bit0 to 1 enables processing GPU command execution. Upon completion, bit0 seems to be reset to 0. |
 
 These 3 registers are used by [GX
-command](GSP_Shared_Memory "wikilink") 1. This is used for [GPU
-commands](GPU/Internal_Registers "wikilink").
+command](../GSP_Shared_Memory "wikilink") 1. This is used for [GPU
+commands](Internal_Registers "wikilink").
 
 ## Framebuffers
 
@@ -606,4 +606,4 @@ displaying the left/right framebuffer each frame.
 - 0x1EF00478 = 1, doesn't stay 1, read as 0
 - 0x1EF00474 = 0x10501
 
-[Category:GPU](Category:GPU "wikilink")
+[Category:GPU](../Category:GPU "wikilink")

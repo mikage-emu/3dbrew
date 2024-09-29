@@ -21,4 +21,4 @@ title = 'FS:ImportIntegrityVerificationSeed'
 
 This decrypts the input SEED and verifies it with the input AES-CBC MAC,
 verifies the RSA-signature, then writes the data to
-[nand/private/movable.sed](nand/private/movable.sed "wikilink").
+[nand/private/movable.sed](Nand/private/movable.sed "wikilink").

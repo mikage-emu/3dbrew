@@ -11,12 +11,12 @@ title = 'News'
   date: `'''{{#time: d F y}}'''`. Please include the application's
   creator, version number, and a link to a page on 3DBrew about the
   application. No external links please.
-- **Move the last entry to the [news archive](:News/Archive "wikilink").
+- **Move the last entry to the [news archive](News/Archive "wikilink").
   There should be no more than 4 entries in the list.**
 
 ## Archives
 
-For older news, see the [news archive](:News/Archive "wikilink").
+For older news, see the [news archive](News/Archive "wikilink").
 
 ### News
 

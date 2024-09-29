@@ -158,11 +158,11 @@ are:
 |            |                                     |                                     |
 
 ID0 is the first 0x10-bytes from a SHA256
-[hash](nand/private/movable.sed "wikilink") and ID1 is generated from
+[hash](Nand/private/movable.sed "wikilink") and ID1 is generated from
 the SD card CID.
 
 Title data stored on the SD Card is encrypted with the console-unique
-[keyslots](nand/private/movable.sed "wikilink"), whereas NAND title data
+[keyslots](Nand/private/movable.sed "wikilink"), whereas NAND title data
 is stored as cleartext.
 
 The base CTR for files stored under /title is likely based on the /title

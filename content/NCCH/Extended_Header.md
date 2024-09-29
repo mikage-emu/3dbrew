@@ -30,11 +30,11 @@ See also:
 The `AccessDesc` signature covers the NCCH HDR public key and second
 ACI. The `AccessDesc` public key is initialised by the boot ROM.
 
-When loading the exheader, [Process9](FIRM "wikilink") compares the
+When loading the exheader, [Process9](../FIRM "wikilink") compares the
 exheader data with the data in the `AccessDesc` (note that not
 everything is compared here). When these don't match, an error is
 returned. The Process9 code handling this validation was updated with
-[v6.0](6.0.0-11 "wikilink"); the only change in this function seems to
+[v6.0](../6.0.0-11 "wikilink"); the only change in this function seems to
 be the check for the "Ideal processor" field.
 
 ## System Control Info
@@ -51,11 +51,11 @@ be the check for the "Ideal processor" field.
 | `0x2C`  | `0x4`            | Reserved                                                                               |
 | `0x30`  | `0xC`            | Data code set info                                                                     |
 | `0x3C`  | `0x4`            | BSS size                                                                               |
-| `0x40`  | `0x180` (`48*8`) | Dependency [module](Title_list#00040130---system-modules "wikilink") (program ID) list |
+| `0x40`  | `0x180` (`48*8`) | Dependency [module](../Title_list#00040130---system-modules "wikilink") (program ID) list |
 | `0x1C0` | `0x40`           | `SystemInfo`                                                                           |
 
 Most of these fields are used in
-[LOADER:LoadProcess](LOADER:LoadProcess "wikilink").
+[LOADER:LoadProcess](../LOADER:LoadProcess "wikilink").
 
 ### Code Set Info
 
@@ -86,14 +86,14 @@ Most of these fields are used in
 | Offset  | Size             | Description                                                                                                                                 |
 |---------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | `0x0`   | `0x8`            | Program ID                                                                                                                                  |
-| `0x8`   | `0x4`            | Core version (The Title ID low of the required [FIRM](FIRM "wikilink"))                                                                     |
-| `0xC`   | `0x2`            | [Flag1](#flag1 "wikilink") and [Flag2](#flag2 "wikilink") (both implemented starting from [8.0.0-18](8.0.0-18 "wikilink")).                 |
+| `0x8`   | `0x4`            | Core version (The Title ID low of the required [FIRM](../FIRM "wikilink"))                                                                     |
+| `0xC`   | `0x2`            | [Flag1](#flag1 "wikilink") and [Flag2](#flag2 "wikilink") (both implemented starting from [8.0.0-18](../8.0.0-18 "wikilink")).                 |
 | `0xE`   | `0x1`            | [Flag0](#flag0 "wikilink")                                                                                                                  |
 | `0xF`   | `0x1`            | Priority                                                                                                                                    |
-| `0x10`  | `0x20` (`16*2`)  | Resource limit descriptors. The first byte here controls the maximum allowed [`CpuTime`](PMApp:SetAppResourceLimit "wikilink").             |
+| `0x10`  | `0x20` (`16*2`)  | Resource limit descriptors. The first byte here controls the maximum allowed [`CpuTime`](../PMApp:SetAppResourceLimit "wikilink").             |
 | `0x30`  | `0x20`           | [Storage info](#storage_info "wikilink")                                                                                                    |
 | `0x50`  | `0x100` (`32*8`) | [Service access control](#service_access_control "wikilink")                                                                                |
-| `0x150` | `0x10` (`2*8`)   | Extended service access control, support for this was implemented with [9.3.0-X](9.3.0-21 "wikilink").                                      |
+| `0x150` | `0x10` (`2*8`)   | Extended service access control, support for this was implemented with [9.3.0-X](../9.3.0-21 "wikilink").                                      |
 | `0x160` | `0xF`            | Reserved                                                                                                                                    |
 | `0x16F` | `0x1`            | Resource limit category. (0 = `APPLICATION`, 1 = `SYS_APPLET`, 2 = `LIB_APPLET`, 3 = `OTHER` (sysmodules running under the BASE memregion)) |
 
@@ -125,14 +125,14 @@ error is returned.
     if((1 << exheaderval) & accessdescval == 0) return error
 
 During a FIRM-launch when a `TitleInfo` structure was specified, the
-field at offset [0x400](FIRM#firm_launch_parameters "wikilink") in the
+field at offset [0x400](../FIRM#firm_launch_parameters "wikilink") in the
 FIRM-launch parameters is set to the SystemMode of the specified title,
 however in some cases other values are written there. With
-[8.0.0-18](8.0.0-18 "wikilink") NS will now check the output of
-[PTMSYSM](PTM "wikilink") command `0x040A0000`, when the output is
+[8.0.0-18](../8.0.0-18 "wikilink") NS will now check the output of
+[PTMSYSM](../PTM "wikilink") command `0x040A0000`, when the output is
 non-zero and a certain NS state field is value-zero, the following is
 executed otherwise this is skipped. With that check passed on
-[8.0.0-18](8.0.0-18 "wikilink"), NS will then check (`Flag2 & 0xF`).
+[8.0.0-18](../8.0.0-18 "wikilink"), NS will then check (`Flag2 & 0xF`).
 When that is `value2`, the output value (used for the FIRM-launcher
 parameter field mentioned above) is set to `value7`. Otherwise, when
 that value is non-zero, the output value is set to 6.
@@ -154,8 +154,8 @@ set, runs much faster on New3DS. It's unknown how exactly the system
 handles these flags.
 
 When launching titles / perhaps other things with [APT](APT "wikilink"),
-[NS](NS "wikilink") uses
-[PTMSYSM:ConfigureNew3DSCPU](PTMSYSM:ConfigureNew3DSCPU "wikilink") with
+[NS](../NS "wikilink") uses
+[PTMSYSM:ConfigureNew3DSCPU](../PTMSYSM:ConfigureNew3DSCPU "wikilink") with
 data which originally came from these flags; NS does this regardless of
 what the running 3DS system is. However, due to a bug(?) in NS the value
 sent to that command is always either 0x0 or 0x3. When calculating that
@@ -189,7 +189,7 @@ The exheader value for the New3DS system mode value must be ≤ to the
 
 #### Storage Info
 
-Used in [FSReg:Register](FSReg:Register "wikilink").
+Used in [FSReg:Register](../FSReg:Register "wikilink").
 
 | Offset | Size | Description                   |
 |--------|------|-------------------------------|
@@ -210,21 +210,21 @@ File System Access Info:
 | `4`, `0x10`      | TWL card backup                                                                                                                                                                 |
 | `5`, `0x20`      | TWL NAND data                                                                                                                                                                   |
 | `6`, `0x40`      | BOSS                                                                                                                                                                            |
-| `7`, `0x80`      | [`sdmc:/`](FS:OpenArchive "wikilink")                                                                                                                                           |
+| `7`, `0x80`      | [`sdmc:/`](../FS:OpenArchive "wikilink")                                                                                                                                           |
 | `8`, `0x100`     | Core                                                                                                                                                                            |
-| `9`, `0x200`     | [`nand:/ro/`](Flash_Filesystem "wikilink") (Read Only)                                                                                                                          |
-| `10`, `0x400`    | [`nand:/rw/`](Flash_Filesystem "wikilink")                                                                                                                                      |
-| `11`, `0x800`    | [`nand:/ro/`](Flash_Filesystem "wikilink") (Write Access)                                                                                                                       |
+| `9`, `0x200`     | [`nand:/ro/`](../Flash_Filesystem "wikilink") (Read Only)                                                                                                                          |
+| `10`, `0x400`    | [`nand:/rw/`](../Flash_Filesystem "wikilink")                                                                                                                                      |
+| `11`, `0x800`    | [`nand:/ro/`](../Flash_Filesystem "wikilink") (Write Access)                                                                                                                       |
 | `12`, `0x1000`   | Category system settings                                                                                                                                                        |
 | `13`, `0x2000`   | Cardboard                                                                                                                                                                       |
 | `14`, `0x4000`   | Export/Import IVS                                                                                                                                                               |
-| `15`, `0x8000`   | [`sdmc:/`](FS:OpenArchive "wikilink") (Write-only)                                                                                                                              |
+| `15`, `0x8000`   | [`sdmc:/`](../FS:OpenArchive "wikilink") (Write-only)                                                                                                                              |
 | `16`, `0x10000`  | Switch cleanup (Introduced in [3.0.0](3.0.0-5 "wikilink")?)                                                                                                                     |
-| `17`, `0x20000`  | Savedata move (Introduced in [5.0.0](5.0.0-11 "wikilink"))                                                                                                                      |
-| `18`, `0x40000`  | Shop (Introduced in [5.0.0](5.0.0-11 "wikilink"))                                                                                                                               |
-| `19`, `0x80000`  | Shell (Introduced in [5.0.0](5.0.0-11 "wikilink"))                                                                                                                              |
-| `20`, `0x100000` | Category home menu (Introduced in [6.0.0](6.0.0-11 "wikilink"))                                                                                                                 |
-| `21`, `0x200000` | Seed DB. Introduced in [9.6.0-X](9.6.0-24 "wikilink") [FIRM](FIRM "wikilink"). [Home Menu](Home_Menu "wikilink") has this bit set starting with [9.6.0-X](9.6.0-24 "wikilink"). |
+| `17`, `0x20000`  | Savedata move (Introduced in [5.0.0](../5.0.0-11 "wikilink"))                                                                                                                      |
+| `18`, `0x40000`  | Shop (Introduced in [5.0.0](../5.0.0-11 "wikilink"))                                                                                                                               |
+| `19`, `0x80000`  | Shell (Introduced in [5.0.0](../5.0.0-11 "wikilink"))                                                                                                                              |
+| `20`, `0x100000` | Category home menu (Introduced in [6.0.0](../6.0.0-11 "wikilink"))                                                                                                                 |
+| `21`, `0x200000` | Seed DB. Introduced in [9.6.0-X](../9.6.0-24 "wikilink") [FIRM](../FIRM "wikilink"). [Home Menu](../Home_Menu "wikilink") has this bit set starting with [9.6.0-X](../9.6.0-24 "wikilink"). |
 
 #### Other Attributes
 
@@ -235,13 +235,13 @@ File System Access Info:
 
 When Bit1 is set, the "Extdata ID" and "Storage Accessable Unique IDs"
 regions are used to store a total of 6 "Accessible Save IDs". Introduced
-in [6.0.0](6.0.0-11 "wikilink").
+in [6.0.0](../6.0.0-11 "wikilink").
 
 #### Service Access Control
 
-This is the list of [services](Services_API "wikilink") which the
+This is the list of [services](../Services_API "wikilink") which the
 process is allowed to access, this is registered with the
-[services](Services "wikilink") manager. Each service listed in the
+[services](../Services "wikilink") manager. Each service listed in the
 exheader must be listed in the `AccessDesc`, otherwise the invalid
 exheader error is returned. The order of the services for
 exheader/`AccessDesc` doesn't matter. The `AccessDesc` can list services
@@ -249,12 +249,12 @@ which are not in the exheader, but normally the service-access-control
 data for exheader/`AccessDesc` are exactly the same.
 
 This list is submitted to
-[SRVPM:RegisterProcess](SRVPM:RegisterProcess "wikilink").
+[SRVPM:RegisterProcess](../SRVPM:RegisterProcess "wikilink").
 
 ### ARM11 Kernel Capabilities
 
 The kernel capability descriptors are passed to
-[svcCreateProcess](SVC "wikilink").
+[svcCreateProcess](../SVC "wikilink").
 
 | Offset | Size            | Description |
 |--------|-----------------|-------------|
@@ -273,7 +273,7 @@ different types are laid out as follows:
 | `0b11111110xxxx`      | Handle table size                              | Bits 0-18: size                                                                                                                                                                                                                                                                                                                                                                                   |
 | `0b111111110xxx`      | [Kernel flags](#arm11_kernel_flags "wikilink") | See below                                                                                                                                                                                                                                                                                                                                                                                         |
 | `0b11111111100x`      | Map IO/static address range                    | Describes a memory mapping like the 0b111111111110 descriptor, but an entire range rather than a single page is mapped. Another 0b11111111100x descriptor must follow this one to denote the (exclusive) end of the address range to map. Bit20 on the first descriptor: map read-only (otherwise RW), bit20 on the second descriptor: map static (cacheable, otherwise IO if the bit is not set) |
-| `0b111111111110`      | Map IO memory page                             | Bits 0-19: page index to map (virtual address \>\> 12; the physical address is determined per-page according to [Memory layout](Memory_layout "wikilink")); Bit 20: Map read-only (otherwise read-write)                                                                                                                                                                                          |
+| `0b111111111110`      | Map IO memory page                             | Bits 0-19: page index to map (virtual address \>\> 12; the physical address is determined per-page according to [Memory layout](../Memory_layout "wikilink")); Bit 20: Map read-only (otherwise read-write)                                                                                                                                                                                          |
 
 #### ARM11 Kernel Flags
 
@@ -288,7 +288,7 @@ different types are laid out as follows:
 | `6`    | Shared device memory                                                                    |
 | `7`    | Runnable on sleep                                                                       |
 | `8-11` | Memory type (1: application, 2: system, 3: base)                                        |
-| `12`   | [Special memory](Memory_layout#native_firmsafe_mode_firm_userland_memory "wikilink") |
+| `12`   | [Special memory](../Memory_layout#native_firmsafe_mode_firm_userland_memory "wikilink") |
 | `13`   | Process has access to CPU core 2 (New3DS only)                                          |
 
 ### ARM9 Access Control
@@ -296,19 +296,19 @@ different types are laid out as follows:
 | Offset | Size | Description                                                                                                                                                |
 |--------|------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `0x0`  | `15` | Descriptors                                                                                                                                                |
-| `0xF`  | `1`  | ARM9 Descriptor Version. Originally this value had to be ≥ 2. Starting with [9.3.0-X](9.3.0-21 "wikilink") this value has to be either value 2 or value 3. |
+| `0xF`  | `1`  | ARM9 Descriptor Version. Originally this value had to be ≥ 2. Starting with [9.3.0-X](../9.3.0-21 "wikilink") this value has to be either value 2 or value 3. |
 
 Descriptors:
 
 | Bit | Description                                                     |
 |-----|-----------------------------------------------------------------|
-| `0` | Mount [`nand:/`](Flash_Filesystem "wikilink")                   |
-| `1` | Mount [`nand:/ro/`](Flash_Filesystem "wikilink") (Write Access) |
-| `2` | Mount [`twln:/`](Flash_Filesystem "wikilink")                   |
-| `3` | Mount [`wnand:/`](Flash_Filesystem "wikilink")                  |
+| `0` | Mount [`nand:/`](../Flash_Filesystem "wikilink")                   |
+| `1` | Mount [`nand:/ro/`](../Flash_Filesystem "wikilink") (Write Access) |
+| `2` | Mount [`twln:/`](../Flash_Filesystem "wikilink")                   |
+| `3` | Mount [`wnand:/`](../Flash_Filesystem "wikilink")                  |
 | `4` | Mount card SPI                                                  |
 | `5` | Use SDIF3                                                       |
 | `6` | Create seed                                                     |
 | `7` | Use card SPI                                                    |
 | `8` | SD application (Not checked)                                    |
-| `9` | Mount [sdmc:/](SD_Filesystem "wikilink") (Write Access)         |
+| `9` | Mount [sdmc:/](../SD_Filesystem "wikilink") (Write Access)         |

@@ -8,7 +8,7 @@ categories = ["GPU"]
 A compiled shader binary is comprised of two parts : the main
 instruction sequence and the operand descriptor table. These are both
 sent to the GPU around the same time but using separate [GPU
-Commands](GPU/Internal_Registers "wikilink"). Instructions (such as
+Commands](Internal_Registers "wikilink"). Instructions (such as
 format 1 instruction) may reference operand descriptors. When such is
 the case, the operand descriptor ID is the offset, in words, of the
 descriptor within the table. Both instructions and descriptors are coded
@@ -327,7 +327,7 @@ hence are read-only.
 Output registers hold the data to be passed to the later GPU stages and
 are write-only. Each of the output register is assigned a semantic by
 setting the corresponding
-[GPU_Internal_Registers](GPU_Internal_Registers "wikilink"). Output
+[GPU_Internal_Registers](../GPU_Internal_Registers "wikilink"). Output
 registers o7-o15 are only available in vertex shaders. Keep in mind that
 writing to the same output register/component more than once appears
 appears to cause problems (e.g. GPU hangs).
@@ -437,4 +437,4 @@ Special cases:
   its copy of the PC is missed (the third PC update will be propagated).
   Probably a hardware bug.
 
-[Category:GPU](Category:GPU "wikilink")
+[Category:GPU](../Category:GPU "wikilink")

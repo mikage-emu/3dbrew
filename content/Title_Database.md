@@ -9,7 +9,7 @@ installed 3DS titles. The database files are located at:
 - sdmc/Nintendo 3DS/<ID0>/<ID1>/dbs
 
 ID0 is the first 0x10-bytes from a SHA256
-[hash](nand/private/movable.sed "wikilink"). The installation of [SD
+[hash](Nand/private/movable.sed "wikilink"). The installation of [SD
 Card](SD_Filesystem "wikilink") titles was introduced in the
 [2.0.0-2](2.0.0-2 "wikilink") update and the SD dbs files are encrypted
 by [the general SD filesystem encryption

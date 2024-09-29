@@ -2,4 +2,4 @@
 title = 'GL Arrays'
 +++
 
-Merged into [GPU/Programming_Guide](GPU/Programming_Guide "wikilink").
+Merged into [GPU/Programming_Guide](Programming_Guide "wikilink").

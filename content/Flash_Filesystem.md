@@ -126,7 +126,7 @@ exactly the same as [SD](SD_Filesystem "wikilink"), except savegames are
 stored under the [nand/data/&lt;ID0&gt;/sysdata](System_SaveData "wikilink")
 directory instead. The sub-directory name under
 [nand/data](nand/data "wikilink") is the SHA256 hash over the
-[movable.sed](nand/private/movable.sed "wikilink") keyY. This
+[movable.sed](Nand/private/movable.sed "wikilink") keyY. This
 nand/data/&lt;ID0&gt; directory is the NAND equivalent of the "sdmc/Nintendo
 3DS/&lt;ID0&gt;/&lt;ID1&gt;" directory, however the data contained here is stored in
 cleartext. The movable.sed keyY is only used for AES MACs for

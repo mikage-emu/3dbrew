@@ -374,7 +374,7 @@ A prize file stores the badge data and its image.
 | 0x34   | 0x4    | Start address of collision data                                                                 |
 | 0x38   | 0x4    | End address of collision data (stuck at 0x45XX, but correct value works)                        |
 | 0x3C   | 0x4    | Badge ID                                                                                        |
-| 0x40   | 0x4    | Unknown. Same as value in offset 0x0 in [BadgeIdentifier](Home_Menu#badgeidentifier "wikilink") |
+| 0x40   | 0x4    | Unknown. Same as value in offset 0x0 in [BadgeIdentifier](../Home_Menu#badgeidentifier "wikilink") |
 | 0x44   | 0x30   | Badge file name                                                                                 |
 | 0x74   | 0x30   | Badge category                                                                                  |
 | 0xA4   | 0x8    | Title ID it opens (0xFFFFFFFF if none)                                                          |

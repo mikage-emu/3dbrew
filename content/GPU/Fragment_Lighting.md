@@ -156,4 +156,4 @@ which describes the feature in more detail:
   information about normals and tangents (and how quaternions are easier
   to interpolate than vectors).
 
-[Category:GPU](Category:GPU "wikilink")
+[Category:GPU](../Category:GPU "wikilink")

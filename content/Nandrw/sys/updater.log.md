@@ -3,7 +3,7 @@ title = 'Updater.log'
 +++
 
 The following is the contents of this file, from a launch-day regular
-3DS (written during [Factory Setup](Factory_Setup "wikilink")):
+3DS (written during [Factory Setup](../../Factory_Setup "wikilink")):
 
 ```
 #Import(30) : size = 00013500

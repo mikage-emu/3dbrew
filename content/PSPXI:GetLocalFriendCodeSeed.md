@@ -24,4 +24,4 @@ already in memory(that memory is initialized by bootrom), which is not
 loaded from NAND. The source data this retrieves, is also used to
 generate the console-unique part of the TWL [keyslots](AES "wikilink"),
 and can be used as part of the keyY when
-[movable.sed](nand/private/movable.sed "wikilink") doesn't exist.
+[movable.sed](Nand/private/movable.sed "wikilink") doesn't exist.

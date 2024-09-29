@@ -177,7 +177,7 @@ shader unit (using the same instruction set as vertex shaders) with
 support for variable-size primitives. The Primitive Engine functionality
 may be disabled, and the geometry shader unit then acts as a fourth
 vertex processor. See
-[Shader_Instruction_Set](Shader_Instruction_Set "wikilink") for more
+[Shader_Instruction_Set](GPU/Shader_Instruction_Set "wikilink") for more
 information on the shader instruction set.
 
 [Fragment lighting](GPU/Fragment_Lighting "wikilink") is implemented as

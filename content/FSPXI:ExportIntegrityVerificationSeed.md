@@ -20,5 +20,5 @@ title = 'FSPXI:ExportIntegrityVerificationSeed'
 # Description
 
 This encrypts
-[nand/private/movable.sed](nand/private/movable.sed "wikilink") to the
+[nand/private/movable.sed](Nand/private/movable.sed "wikilink") to the
 output buffer, and writes the AES-CBC MAC to the output buffer as well.

@@ -23,6 +23,7 @@
 .markdown {
     table tr {
         th, td {
+            padding: .25rem .5rem;
             border-color: var(--table-border);
         }
         &:nth-child(2n) {

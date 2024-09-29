@@ -37,6 +37,12 @@
     }
 }
 
+.pagecodelinks>a {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 1em;
+}
+
 a.broken {
     color: var(--broken-link-color);
 }

@@ -1,0 +1,5 @@
+{{ $ctx := . -}}
+{{ $params := .Page.Params -}}
+{{ $data := index (resources.Get "kernel-objects.yaml" | unmarshal) $params.title -}}
+{{ $inherits := $data.inherits -}}
+class <code>{{ $params.title }}</code>{{ if $inherits }} extends {{ range $i, $super := $inherits }}<a href="{{ $ctx.Ref (dict "path" $super) }}"><code>{{ $super }}</code></a>{{ if ne $i (sub (len $inherits) 1) }}, {{ end }}{{ end }}{{ end }}

@@ -37,6 +37,78 @@
     }
 }
 
+.ipc.request, .ipc.response {
+    tr>td:first-child {
+        text-align: center;
+    }
+    tr.translate {
+        &:last-child {
+            &>td:nth-child(3) {
+                border-bottom-style: solid;
+            }
+        }
+        &>td:nth-child(3) {
+            border-bottom-style: dashed;
+        }
+        &.entry>td:nth-child(3) {
+            border-top-style: none;
+        }
+        &.descriptor>td:nth-child(3) {
+            font-style: italic;
+        }
+    }
+    tr.header {
+        .description {
+            height: 100%;
+            padding: 0;
+
+            div {
+                height: 100%;
+                display: inline-table;
+
+                span, abbr {
+                    display: table-cell;
+                    vertical-align: middle;
+                }
+                span {
+                    padding: 0 0.5rem 0 0.25rem;
+
+                    &:first-child {
+                        padding-left: 0.5rem;
+                    }
+                }
+                abbr {
+                    background: var(--gray-100);
+                    border: 1px solid var(--gray-200);
+                    border-top: none;
+                    border-bottom: none;
+                    padding: 0 0.25rem;
+                }
+            }
+        }
+    }
+}
+
+.rpc.info {
+    .since, .until, .for {
+        display: inline-block;
+        padding: 0 0.25rem;
+        border-radius: 0.25rem;
+        font-size: 80%;
+        background: var(--gray-200);
+    }
+}
+
+.service, .rpc.call {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.struct {
+    caption {
+        caption-side: top;
+    }
+}
+
 .pagecodelinks>a {
     display: inline-flex;
     align-items: center;

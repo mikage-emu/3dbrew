@@ -1,0 +1,4 @@
+{{ .Scratch.Set "type" "request" }}
+{{ partial "ipc/content_pre.html" . }}
+  {{ .Inner }}
+{{ partial "ipc/content_post.html" . }}

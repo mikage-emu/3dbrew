@@ -1,0 +1,11 @@
+{{ $size := int (.Get "size") -}}
+{{ $structoffset := int (or (.Parent.Scratch.Get "structoffset") 0) -}}
+{{ .Parent.Scratch.Set "structoffset" (add $structoffset $size) -}}
+<tr>
+  <td><span title="{{ $structoffset }}">{{ printf "0x%X" $structoffset }}</span></td>
+  {{ if eq (.Parent.Get "fieldsize") "true" -}}
+  <td><span title="{{ $size }}">{{ printf "0x%X" $size }}</span></td>
+  {{ end -}}
+  <td><code>{{ .Get "type" }}</code></td>
+  <td>{{ .Inner }}</td>
+</tr>

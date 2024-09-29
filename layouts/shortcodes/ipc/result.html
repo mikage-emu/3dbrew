@@ -1,0 +1,8 @@
+{{ $ipcindex := int (or (.Page.Scratch.Get "ipcindex") 1) }}
+{{ .Page.Scratch.Set "ipcindex" (add $ipcindex 1) }}
+
+<tr>
+  <td>{{ $ipcindex }}</td>
+  <td><code>Result</code></td>
+  <td>Result code</td>
+</tr>

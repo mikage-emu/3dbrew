@@ -1,0 +1,6 @@
+{{ $cmd := .Page.Params.command }}
+<div class="rpc info">
+  <span class="since">Since {{ $cmd.since }}</span>
+  {{ if $cmd.until }}<span class="until">Until {{ $cmd.until }}</span>{{ end }}
+  <span class="for">For {{ range $i, $service := $cmd.for }}<span class="rpc service">{{ $service }}</span>{{ if ne $i (sub (len $cmd.for) 1) }}, {{ end }}{{ end }}</span>
+</div>

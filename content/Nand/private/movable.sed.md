@@ -6,37 +6,37 @@ title = 'Movable.sed'
 |--------|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0x0    | 0x4   | Magic "SEED"                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | 0x4    | 0x4   | When u8\[1\] is non-zero, this indicates that the additional 0x20-bytes AES-MAC block at the end of movable.sed exists. If u8\[1\] is zero, then u8 \[0\], \[2\], and \[3\] must be zero as well.                                                                                                                                                                                                                                                             |
-| 0x8    | 0x110 | Copied from [Nandrw/sys/LocalFriendCodeSeed_B](Nandrw/sys/LocalFriendCodeSeed_B "wikilink") (or LocalFriendCodeSeed_A if it exists). The last 8 bytes (LocalFriendCodeSeed) becomes the first 8 bytes of a [AES](AES "wikilink") engine keyY for 3 keyslots                                                                                                                                                                                                   |
+| 0x8    | 0x110 | Copied from [Nandrw/sys/LocalFriendCodeSeed_B](../../Nandrw/sys/LocalFriendCodeSeed_B "wikilink") (or LocalFriendCodeSeed_A if it exists). The last 8 bytes (LocalFriendCodeSeed) becomes the first 8 bytes of a [AES](../../AES "wikilink") engine keyY for 3 keyslots                                                                                                                                                                                                   |
 | 0x118  | 0x8   | The higher 8 bytes of the keyY                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| 0x120  | 0x20  | This data is written to the file when doing a [System Format](System_Settings "wikilink"). The original movable.sed from the factory is only 0x120-bytes. The last 0x10-bytes in this block is an AES-MAC over a SHA256 hash, using the same keyslot used for NAND [dbs](Title_Database "wikilink"). This hash is calculated over the first 0x130-bytes of movable.sed. This AES-MAC is verified is during movable.sed verification(before RSA verification). |
+| 0x120  | 0x20  | This data is written to the file when doing a [System Format](../../System_Settings "wikilink"). The original movable.sed from the factory is only 0x120-bytes. The last 0x10-bytes in this block is an AES-MAC over a SHA256 hash, using the same keyslot used for NAND [dbs](../../Title_Database "wikilink"). This hash is calculated over the first 0x130-bytes of movable.sed. This AES-MAC is verified is during movable.sed verification(before RSA verification). |
 
 This keyY is the console-unique portion of the 3 keyslots used for
 everything stored under [sdmc/Nintendo
-3DS/<ID0>/<ID1>](SD_Filesystem "wikilink") and
-[nand/data/<ID0>](Flash_Filesystem "wikilink"). For SD this is used for
+3DS/<ID0>/<ID1>](../../SD_Filesystem "wikilink") and
+[nand/data/<ID0>](../../Flash_Filesystem "wikilink"). For SD this is used for
 encryption and AES MACs, however for NAND this is only used for AES
 MACs. This file is transferred to the destination 3DS during a [System
-Transfer](System_Transfer "wikilink"). The movable.sed keyY high u64 is
-[updated](FS:InitializeCtrFileSystem "wikilink") on the source 3DS
-during a [System Transfer](System_Transfer "wikilink"), and when doing a
-system format with [System Settings](System_Settings "wikilink").
+Transfer](../../System_Transfer "wikilink"). The movable.sed keyY high u64 is
+[updated](../../FS:InitializeCtrFileSystem "wikilink") on the source 3DS
+during a [System Transfer](../../System_Transfer "wikilink"), and when doing a
+system format with [System Settings](../../System_Settings "wikilink").
 
 Movable.sed always exists on retail and development units(written to
 NAND at the factory), however if reading this file fails(svcBreak would
-be executed if the [file-read](Filesystem_services_PXI "wikilink")
+be executed if the [file-read](../../Filesystem_services_PXI "wikilink")
 code-path return value is 0xC8804464) the system will fall-back to using
 a console-unique keyY already in
-[memory](PSPXI:GetLocalFriendCodeSeed "wikilink"), with the last 8-bytes
+[memory](../../PSPXI:GetLocalFriendCodeSeed "wikilink"), with the last 8-bytes
 being loaded from the 8-bytes following that u64. On development units
 the code-path handling movable.sed would execute
-[svcBreak](SVC "wikilink") if file-reading(regardless of error-code) or
+[svcBreak](../../SVC "wikilink") if file-reading(regardless of error-code) or
 verifying the RSA signature fails(this would brick the 3DS), RSA
 verification failure on a retail unit here would also cause a brick.
 
 The keyY is hashed with SHA256, the first 0x10-bytes from the hash is
 used with the below snprintf for ID0 in [sdmc/Nintendo
-3DS/<ID0>/<ID1>](SD_Filesystem "wikilink") and
-[nand/data/<ID0>](Flash_Filesystem "wikilink"). ID0 is generated by:
+3DS/<ID0>/<ID1>](../../SD_Filesystem "wikilink") and
+[nand/data/<ID0>](../../Flash_Filesystem "wikilink"). ID0 is generated by:
 snprintf(outdirname, maxlen, "%08x%08x%08x%08x", hashword\[0\],
 hashword\[1\], hashword\[2\], hashword\[3\]). Thus, ID0 is the first
 half of the SHA-256 of movable.sed bytes 0x110-0x11F inclusive, with the

@@ -1,0 +1,15 @@
+{{/* (dict "Section" .Section "CurrentPage" .CurrentPage) */}}
+<ul>
+  {{ range (where .Section.Pages "Params.bookhidden" "ne" true) }}
+    {{ if and .IsSection (not .Params.BookHideChildren) }}
+      <li {{- if .Params.BookFlatSection }} class="book-section-flat" {{ end -}}>
+        {{ partialCached "docs/menu-page-link" (dict "Page" . "CurrentPage" $.CurrentPage) .Path (or (.IsAncestor $.CurrentPage) (eq . $.CurrentPage)) }}
+        {{ partialCached "docs/menu-section-children" (dict "Section" . "CurrentPage" $.CurrentPage) .Path (cond (.IsAncestor $.CurrentPage) $.CurrentPage false) }}
+      </li>
+    {{ else if and (or .IsPage .Params.BookHideChildren) .Content }}
+      <li>
+        {{ partialCached "docs/menu-page-link" (dict "Page" . "CurrentPage" $.CurrentPage) .Path (eq . $.CurrentPage) }}
+      </li>
+    {{ end }}
+  {{ end }}
+</ul>

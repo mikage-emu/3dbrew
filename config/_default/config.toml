@@ -7,6 +7,9 @@ theme = "hugo-book"
 # Broken, see https://github.com/gohugoio/hugo/issues/12130
 # relativeURLs = true
 
+refLinksErrorLevel = 'warning'
+refLinksNotFoundURL = '/missing'
+
 [taxonomies]
 categories = 'categories'
 

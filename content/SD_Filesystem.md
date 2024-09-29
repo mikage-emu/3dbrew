@@ -27,7 +27,7 @@ sdmc
 - Everything stored under sdmc/Nintendo 3DS/<ID0>/<ID1> is encrypted by
   128 bit AES-CTR with console-unique [keyslots](AES "wikilink"). The
   keyslot is initialized by
-  [nand/private/movable.sed](nand/private/movable.sed "wikilink").
+  [nand/private/movable.sed](Nand/private/movable.sed "wikilink").
 - The crypto IV/CTR for each file is generated as follows: take the
   UTF-16 path relative to sdmc/Nintendo 3DS/<ID0>/<ID1> (the path it
   self begins with "/") and hash it with SHA-256, including the null
@@ -41,7 +41,7 @@ sdmc
 - Files stored under [nand/data/<ID0>](Flash_Filesystem "wikilink") also
   use the same keyslot, but it is only used for MACs.
 - ID0 is the first 0x10-bytes from a SHA256
-  [hash](nand/private/movable.sed "wikilink").
+  [hash](Nand/private/movable.sed "wikilink").
 - ID1 is the scrambled SD card CID from the SD card which this directory
   was originally created on. To generate this directory name from the
   original CID, first the CID is rotated 8-bits to the left. Then, each

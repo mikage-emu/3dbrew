@@ -1,0 +1,9 @@
+{{ $span := int (or (.Get "span") 1) }}
+{{ $ipcindex := int (or (.Page.Scratch.Get "ipcindex") 1) }}
+{{ .Page.Scratch.Set "ipcindex" (add $ipcindex $span) }}
+
+<tr>
+  <td>{{ $ipcindex }}{{ if ne $span 1 }}-{{ add $span 1 }}{{ end }}</td>
+  <td><code>{{ .Get "type" }}</code></td>
+  <td>{{ .Inner }}</td>
+</tr>

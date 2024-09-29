@@ -33,7 +33,7 @@ only byte that can cause a crash is at offset 0x01, as stated below.
 | **Address** | **Length** | **Meaning**                                                                                                                                                                 |
 | 0x00        | 1 byte     | Must be 0x01 or the game will not accept the level.                                                                                                                         |
 | 0x01        | 1 byte     | This byte selects the level background. Valid bytes ranges from 0x00 to 0x04. Anything over 0x04 will cause a null exception and crash.                                     |
-| 0x02        | 160 bytes  | This section contains specific [data bytes](Pyramids_3DSWare/Pyramids_icon_list "wikilink") that makes up the level (16x10 grid thus 160 bytes).                                             |
+| 0x02        | 160 bytes  | This section contains specific [data bytes](Pyramids_(3DSWare)/Pyramids_icon_list "wikilink") that makes up the level (16x10 grid thus 160 bytes).                                             |
 | 0xA2        | 4 bytes    | This represents the time required to complete the level. Its stored as Little Endian Unsigned Int                                                                           |
 | 0xA6        | 4 bytes    | This is a [Reversed CRC32](http://www.scadacore.com/field-applications/programming-calculators/online-checksum-calculator/) of the combined bytes from address 0x00 to 0xA5 |
 

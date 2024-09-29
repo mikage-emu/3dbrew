@@ -1,0 +1,20 @@
+{{ $size := int (.Get "size") -}}
+{{ $fieldsize := eq (.Get "fieldsize") "true" -}}
+<table class="struct">
+  <caption>
+    struct{{ if .Get "name" }} <code>{{ .Get "name" }}</code>{{ end }}, <span title="{{ $size }} bytes">{{ printf "0x%X" $size }} bytes</span>
+  </caption>
+  <thead>
+    <tr>
+      <th>Offset</th>
+      {{ if $fieldsize -}}
+      <th>Size</th>
+      {{ end -}}
+      <th>Type</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ .Inner }}
+  </tbody>
+</table>

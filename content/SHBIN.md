@@ -23,7 +23,7 @@ can be stored in a single SHBIN. Hence for the following, note the
 distinction between "program" and "executable".
 
 For a description of the instruction set, see the following page :
-[Shader Instruction Set](Shader_Instruction_Set "wikilink")
+[Shader Instruction Set](GPU/Shader_Instruction_Set "wikilink")
 
 ## Header
 

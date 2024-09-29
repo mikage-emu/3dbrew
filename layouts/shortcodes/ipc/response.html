@@ -1,0 +1,4 @@
+{{ .Scratch.Set "type" "response" }}
+{{ partial "ipc/content_pre.html" . }}
+  {{ .Inner }}
+{{ partial "ipc/content_post.html" . }}

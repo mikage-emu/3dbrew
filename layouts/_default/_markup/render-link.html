@@ -1,22 +1,21 @@
-{{ $rootPath := "/"}}
-{{ $isExternal := (strings.HasPrefix .Destination "http") }}
-{{- if (not (or $isExternal (strings.HasPrefix .Destination "#"))) }}
-  {{ $style := "" }}
-  {{ $desiredPage := (index (strings.Split .Destination "#") 0) }}
-  {{ with $.PageInner.GetPage $desiredPage }}
-    <!-- GetPage isn't case sensitive, so double-check the page name is spelled correctly -->
-    {{ with .File }}
-      {{ if (ne .Path (print $desiredPage "." .Ext)) }}
-        {{ $style = "color:#ba0000" }}
-      {{ end }}
-    {{ end }}
-  {{ else }}
-    {{ $style = "color:#ba0000" }}
-  {{ end }}
-
-  <a href="{{ $rootPath }}{{ strings.Replace .Destination ":" "" }}"
+{{ $isExternal := (strings.HasPrefix .Destination "http") -}}
+{{- if (not (or $isExternal (strings.HasPrefix .Destination "#"))) -}}
+  {{ $desiredPage := (index (split .Destination "#") 0) -}}
+  {{ $split2dots := split $desiredPage "../" -}}
+  {{ $no2dots := index $split2dots (sub (len $split2dots) 1) -}}
+  {{/* GetPage isn't case sensitive, so double-check the page name is spelled correctly */}}
+  {{ $target := false -}}
+  {{ with $.PageInner.GetPage $desiredPage -}}
+    {{ if or (not .File) (hasSuffix .File.Path (print $no2dots "." .File.Ext)) -}}
+      {{ $target = . -}}
+    {{ else -}}
+      {{ warnf "Link to '%s' has unmatching case ('%s') in '%s'" .File $.Destination $.Page.File -}}
+    {{ end -}}
+  {{ else -}}
+    {{ warnf "Page '%s' not found in '%s'" $.Destination $.Page.File -}}
+  {{ end -}}
+  <a {{ with $target }}href="{{ relref $.PageInner .Path }}"{{ else }}class="broken"{{ end -}}
     {{- with .Title }} title="{{ . }}"{{ end -}}
-    style={{ $style }}
   >
     {{- with .Text }}{{ . }}{{ end -}}
   </a>{{ else }}<a href="{{ .Destination | safeURL }}"

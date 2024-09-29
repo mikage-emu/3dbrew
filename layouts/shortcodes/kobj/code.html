@@ -1,0 +1,62 @@
+{{ define "partials/kobjhighlight/cpp" -}}
+{{ $name := . -}}
+{{ $typedata := resources.Get "kernel-objects.yaml" | unmarshal -}}
+{{ $data := index $typedata $name -}}
+{{ $inherits := $data.inherits -}}
+{{ if $data.params -}}
+template{{ safeHTML "<" }}typename {{ delimit $data.params ", typename " }}>
+{{ end -}}
+class {{ $name }}{{ if $inherits }} : {{ range $i, $super := $inherits }}public {{ $super }}{{ if ne $i (sub (len $inherits) 1) }}, {{ end }}{{ end }}{{ end }} {
+public:
+{{ range $data.fields -}}
+  {{ if .base -}}
+    {{ continue -}}
+  {{ end -}}
+  {{ $stringified := (partial "struct/type_info.html" (dict "typedata" $typedata "type" .type "syntax" "c")).str -}}
+  {{- if eq .type "vtable_ptr" -}}
+    {{- "    " }}// vtable* _vtable;{{ "\n" -}}
+  {{- else -}}
+    {{- "    " }}{{ $stringified | safeHTML }} {{ .name }};{{ strings.Repeat (sub 49 (len $stringified) (len .name)) " " }}// {{ printf "0x%X\n" .offset }}
+  {{- end -}}
+{{ end -}}
+{{ if $data.virtual -}}
+protected:
+    virtual ~{{ $name }}() {}
+{{ end -}}
+};
+{{ end -}}
+{{ define "partials/kobjhighlight/zig" -}}
+{{ $name := . -}}
+{{ $typedata := resources.Get "kernel-objects.yaml" | unmarshal -}}
+{{ $data := index $typedata $name -}}
+{{ if $data.params -}}
+fn {{ $name }}(comptime {{ delimit $data.params ": type, comptime " }}: type) { return extern struct {
+{{ else -}}
+const {{ $name }} = extern struct {
+{{ end -}}
+{{ range $data.fields -}}
+  {{ $stringified := (partial "struct/type_info.html" (dict "typedata" $typedata "type" .type "syntax" "zig")).str -}}
+  {{- if eq .type "vtable_ptr" -}}
+    {{- "    " }}_vtable: *vtable,{{ "\n" -}}
+  {{- else -}}
+    {{- "    " }}{{ .name }}: {{ $stringified | safeHTML }},{{ strings.Repeat (sub 48 (len $stringified) (len .name)) " " }}// {{ printf "0x%X\n" .offset }}
+  {{- end -}}
+{{ end -}}
+{{ if $data.params -}}
+} };
+{{ else -}}
+};
+{{ end -}}
+{{ end -}}
+<div class="book-tabs">
+  <input type="radio" class="toggle" name="kobj-code" id="kobj-code-0" checked="checked" />
+  <label for="kobj-code-0">C++</label>
+  <div class="book-tabs-content markdown-inner">
+    {{ highlight (partial "kobjhighlight/cpp" .Page.Params.title) "c++" }}
+  </div>
+  <input type="radio" class="toggle" name="kobj-code" id="kobj-code-1" />
+  <label for="kobj-code-1">Zig</label>
+  <div class="book-tabs-content markdown-inner">
+    {{ highlight (partial "kobjhighlight/zig" .Page.Params.title) "zig" }}
+  </div>
+</div>

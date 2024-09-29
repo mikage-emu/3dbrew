@@ -2,14 +2,14 @@
 title = 'Patches'
 +++
 
-[Go Back to Title list](Title_list "wikilink")
+[Go Back to Title list](. "wikilink")
 
 ## Overview
 
-These are the same as the application's main [CXI](NCCH#cxi "wikilink"),
+These are the same as the application's main [CXI](../NCCH#cxi "wikilink"),
 except the ExeFS/RomFS only contains files which were updated. When
-launching an application, [NS](NS "wikilink") will first try to
-[launch](Process_Manager_Services "wikilink") the specified title with
+launching an application, [NS](../NS "wikilink") will first try to
+[launch](../Process_Manager_Services "wikilink") the specified title with
 the programID-high changed to 0x0004000E(update-data), if that fails NS
 will then try launching the title with the actual input programID. The
 programID stored in the update-data NCCH header matches the update-data
@@ -33,7 +33,7 @@ needing separate update-romfs.
 | 00030800    | USA    | Mario Kart 7 \[Update Data\]                        | v1.1 (v1040)                                                                                              |
 | 00032100    | JPN    | New Love Plus \[Update Data\]                       | v1024, v2048                                                                                              |
 | 0004EE00    | ?      | ?                                                   | v1024                                                                                                     |
-| 00056C00    | JPN    | [Flipnote Studio 3D](Flipnote_Studio_3D "wikilink") | v5120                                                                                                     |
+| 00056C00    | JPN    | [Flipnote Studio 3D](../Flipnote_Studio_3D "wikilink") | v5120                                                                                                     |
 | 00072A00    | ?      | ?                                                   | v1040                                                                                                     |
 | 00078500    | ?      | ?                                                   | v1024, v3072                                                                                              |
 | 0007A000    | ?      | ?                                                   | v1024                                                                                                     |

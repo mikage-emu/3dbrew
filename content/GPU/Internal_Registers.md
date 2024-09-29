@@ -2122,7 +2122,7 @@ This register enables the early depth test.
 
 This register configures the framebuffer block mode. To untile the color
 buffer when using the 32x32 block format, use bit 16 of the [display
-transfer flags](GPU/External_Registers#transfer_engine "wikilink"). It
+transfer flags](External_Registers#transfer_engine "wikilink"). It
 is unknown if there are any advantages to using the 32x32 format.
 
 Render block mode values:
@@ -2844,9 +2844,9 @@ This register triggers clearing the post-vertex cache.
 
 This register selects the index of the fixed attribute to be input with
 GPUREG_FIXEDATTRIB_DATA*i*. See [GPU/Fixed Vertex
-Attributes](GPU/Fixed_Vertex_Attributes "wikilink") and
+Attributes](Fixed_Vertex_Attributes "wikilink") and
 [GPU/Immediate-Mode Vertex
-Submission](GPU/Immediate-Mode_Vertex_Submission "wikilink") for usage
+Submission](Immediate-Mode_Vertex_Submission "wikilink") for usage
 info.
 
 ### GPUREG_FIXEDATTRIB_DATA*i*
@@ -3259,4 +3259,4 @@ offset initially set by
 [GPUREG_*SH*_OPDESCS_INDEX](#gpureg_sh_opdescs_index "wikilink"). The
 offset in question is incremented after each write to this register.
 
-[Category:GPU](Category:GPU "wikilink")
+[Category:GPU](../Category:GPU "wikilink")

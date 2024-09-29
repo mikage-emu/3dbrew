@@ -1,0 +1,8 @@
+{{ $ipcindex := (int (or (.Page.Scratch.Get "ipcindex") 1)) }}
+{{ .Page.Scratch.Set "ipcindex" (add $ipcindex 1) }}
+
+<tr class="translate copy handle entry">
+  <td>{{ $ipcindex }}</td>
+  <td><code>Handle&lt;{{ .Get "of" }}&gt;</td>
+  <td>{{ .Inner }}</td>
+</tr>

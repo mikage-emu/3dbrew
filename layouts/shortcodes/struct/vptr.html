@@ -1,0 +1,10 @@
+{{ $structoffset := int (or (.Parent.Scratch.Get "structoffset") 0) -}}
+{{ .Parent.Scratch.Set "structoffset" (add $structoffset 4) -}}
+<tr>
+  <td><span title="{{ $structoffset }}">{{ printf "0x%X" $structoffset }}</td>
+  {{ if eq (.Parent.Get "fieldsize") "true" -}}
+  <td><span title="4">0x4</span></td>
+  {{ end -}}
+  <td><code>vtable*</code></td>
+  <td>Vtable pointer</td>
+</tr>

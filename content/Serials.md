@@ -142,7 +142,7 @@ ID\]
 |-----------------|--------------------------------------------------------------------------------------------------|
 | P               | Cartridge software, or downloadable versions of them.                                            |
 | N               | Digital-only releases, including [system applications and applets](Title_list "wikilink").       |
-| M               | [DLC](DLC "wikilink")                                                                            |
+| M               | [DLC](Title_list/DLC "wikilink")                                                                            |
 | T               | [eShop Demos](eShop_Demos "wikilink"), excluding so-called "special demos" which are category N. |
 | U               | [Patches](Title_list#0004000e---add-on-content-(updates) "wikilink") for category P titles.      |
 

@@ -1,0 +1,8 @@
+{{ $ipcindex := int (or (.Page.Scratch.Get "ipcindex") 1) }}
+{{ .Page.Scratch.Set "ipcindex" (add $ipcindex 1) }}
+
+<tr class="translate copy handle descriptor">
+  <td>{{ $ipcindex }}</td>
+  <td><code>MoveDescriptor</code></td>
+  <td>Descriptor for moving {{ .Get "count" }} handle{{ if ne (.Get "count") 1 }}s{{ end }}</td>
+</tr>

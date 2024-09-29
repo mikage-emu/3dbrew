@@ -1,3 +1,120 @@
+/* You can add custom styles here. */
+
+// @import "plugins/numbered";
+// @import "plugins/scrollbars";
+
+:root {
+    --gray-50: #fafbfc;
+    --table-border: var(--gray-500);
+    --table-2n-background: var(--gray-100);
+    --broken-link-color: #ba0000;
+}
+@media(prefers-color-scheme: dark) {
+    :root {
+        --gray-50: rgba(255, 255, 255, 0.05);
+        --table-border: var(--gray-200);
+        --table-2n-background: var(--gray-50);
+        --broken-link-color: #ff9595;
+    }
+}
+
 .container {
-	max-width: 100rem
+    max-width: 100rem;
+}
+
+.markdown {
+    table tr {
+        th, td {
+            padding: .25rem .5rem;
+            border-color: var(--table-border);
+        }
+        &:nth-child(2n) {
+            background: var(--table-2n-background);
+        }
+    }
+    hr {
+        background: var(--gray-500);
+    }
+}
+
+.ipc.request, .ipc.response {
+    tr>td:first-child {
+        text-align: center;
+    }
+    tr.translate {
+        &:last-child {
+            &>td:nth-child(3) {
+                border-bottom-style: solid;
+            }
+        }
+        &>td:nth-child(3) {
+            border-bottom-style: dashed;
+        }
+        &.entry>td:nth-child(3) {
+            border-top-style: none;
+        }
+        &.descriptor>td:nth-child(3) {
+            font-style: italic;
+        }
+    }
+    tr.header {
+        .description {
+            height: 100%;
+            padding: 0;
+
+            div {
+                height: 100%;
+                display: inline-table;
+
+                span, abbr {
+                    display: table-cell;
+                    vertical-align: middle;
+                }
+                span {
+                    padding: 0 0.5rem 0 0.25rem;
+
+                    &:first-child {
+                        padding-left: 0.5rem;
+                    }
+                }
+                abbr {
+                    background: var(--gray-100);
+                    border: 1px solid var(--gray-200);
+                    border-top: none;
+                    border-bottom: none;
+                    padding: 0 0.25rem;
+                }
+            }
+        }
+    }
+}
+
+.rpc.info {
+    .since, .until, .for {
+        display: inline-block;
+        padding: 0 0.25rem;
+        border-radius: 0.25rem;
+        font-size: 80%;
+        background: var(--gray-200);
+    }
+}
+
+.service, .rpc.call {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.struct {
+    caption {
+        caption-side: top;
+    }
+}
+
+.pagecodelinks>a {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 1em;
+}
+
+a.broken {
+    color: var(--broken-link-color);
 }

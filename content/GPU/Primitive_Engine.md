@@ -17,4 +17,4 @@ sequence of indices in an index array with a primitive size. This is
 used for various effects, for example Catmull-Clark subdivision and Loop
 subdivision. It is unknown how this feature is enabled specifically.
 
-[Category:GPU](Category:GPU "wikilink")
+[Category:GPU](../Category:GPU "wikilink")

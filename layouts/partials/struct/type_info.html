@@ -1,0 +1,38 @@
+{{ $stringified := "unsupported-type" -}}
+{{ $size := 1 -}}
+{{ $align := 1 -}}
+{{ if reflect.IsMap .type -}}
+  {{ if .type.ptr -}}
+    {{ $ptr := .type.ptr -}}
+    {{ $to := $ptr -}}
+    {{ $params := slice }}
+    {{ if reflect.IsMap $ptr -}}
+      {{ $to = $ptr.to -}}
+      {{ $params = $ptr.params -}}
+    {{ end -}}
+    {{ if eq .syntax "c" -}}
+      {{ $pointed := $to -}}
+      {{ if $params -}}
+        {{ $pointed = printf "%s<%s>" $to (delimit $params ", ") -}}
+      {{ end -}}
+      {{ $stringified = printf "%s*" $pointed -}}
+    {{ else if eq .syntax "zig" -}}
+      {{ $pointed := $to -}}
+      {{ if $params -}}
+        {{ $pointed = printf "%s(%s)" $to (delimit $params ", ") -}}
+      {{ end -}}
+      {{ $stringified = printf "%s*%s" (cond (default false .type.optional) "?" "") $pointed -}}
+    {{ end -}}
+  {{ end -}}
+{{ else -}}
+  {{ if eq .type "addr" -}}
+    {{ if eq .syntax "c" -}}
+      {{ $stringified = "void*" }}
+    {{ else if eq .syntax "zig" -}}
+      {{ $stringified = "*anyopaque" -}}
+    {{ end -}}
+  {{ else -}}
+    {{ $stringified = .type -}}
+  {{ end -}}
+{{ end -}}
+{{ return (dict "str" $stringified) -}}

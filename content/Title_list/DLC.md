@@ -2,7 +2,7 @@
 title = 'DLC'
 +++
 
-[Go Back to Title list](Title_list "wikilink")
+[Go Back to Title list](. "wikilink")
 
 ## Overview
 
@@ -20,14 +20,14 @@ DLC_title_index. Usually an application only has one DLC_title_index,
 but for applications which have a \*lot\* of DLC there's more than one
 DLC_title_index(JPN Home Menu for themes for example).
 
-Every DLC title include [NCCH](NCCH "wikilink") partitions. The first
+Every DLC title include [NCCH](../NCCH "wikilink") partitions. The first
 one is always content metadata.
 
 ## Content metadata structure
 
-The first [NCCH](NCCH "wikilink") partition of a DLC title. It
+The first [NCCH](../NCCH "wikilink") partition of a DLC title. It
 determines region, language and DLC icons. The ExeFS section of content
-metadata only contains [icon](SMDH "wikilink") section. The RomFS
+metadata only contains [icon](../SMDH "wikilink") section. The RomFS
 section contains "icons" directory, a MetaDataContentHeader.bin file and
 some ContentInfoArchive files.
 
@@ -128,7 +128,7 @@ and <language code> are determined in MetaDataContentHeader.bin)
 
 | TitleID Low | Region | Description                                                                                                           | Versions                              |
 |-------------|--------|-----------------------------------------------------------------------------------------------------------------------|---------------------------------------|
-| 00008800    | JPN    | [New 3DS](New_3DS "wikilink") [Internet Browser](Internet_Browser "wikilink") DLC, used for disabling the web filter. | v0                                    |
+| 00008800    | JPN    | [New 3DS](../New_3DS "wikilink") [Internet Browser](../Internet_Browser "wikilink") DLC, used for disabling the web filter. | v0                                    |
 | 0015D800    | USA    | IronFall Invasion \[DLC\]                                                                                             | Unknown                               |
 | 00022800    | EUR    | StreetPass Mii Plaza \[DLC\]                                                                                          | v5                                    |
 | 00068300    | ?      | ?                                                                                                                     | v0, v256                              |

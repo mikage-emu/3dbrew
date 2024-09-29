@@ -7,12 +7,14 @@
     --gray-50: #fafbfc;
     --table-border: var(--gray-500);
     --table-2n-background: var(--gray-100);
+    --broken-link-color: #ba0000;
 }
 @media(prefers-color-scheme: dark) {
     :root {
         --gray-50: rgba(255, 255, 255, 0.05);
         --table-border: var(--gray-200);
         --table-2n-background: var(--gray-50);
+        --broken-link-color: #ff9595;
     }
 }
 
@@ -33,4 +35,8 @@
     hr {
         background: var(--gray-500);
     }
+}
+
+a.broken {
+    color: var(--broken-link-color);
 }

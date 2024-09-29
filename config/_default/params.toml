@@ -3,6 +3,7 @@ BookEditPath = 'edit/main'
 BookLogo = '3dbrew2.png'
 BookViewPath = 'blob/main'
 BookViewSuffix = '?plain=1'
+BookSection = '/'
 
 [article]
 readingTime = false

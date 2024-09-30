@@ -70,7 +70,7 @@ These commands are common to both ac:u and ac:i
 | 0x003B0000     | GetConnectingProxyPassword                                                                                       |
 | 0x003C0042     | [GetAPSSIDList](ACU:GetAPSSIDList "wikilink")                                                                    |
 | 0x003D0042     | SetZoneMacFilter                                                                                                 |
-| 0x003E0042     | IsConnected                                                                                                      |
+| 0x003E0042     | [IsConnected](ACU:IsConnected "wikilink")                                                                        |
 | 0x003F0040     | GetNotAwakeMacFilter                                                                                             |
 | 0x00400042     | [SetClientVersion](ACU:SetClientVersion "wikilink")                                                              |
 | 0x004100C6     | SetTemporaryNetworkSettings                                                                                      |

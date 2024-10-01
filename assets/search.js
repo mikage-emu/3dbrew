@@ -32,7 +32,7 @@
   }
 
   input.addEventListener('focus', init);
-  input.addEventListener('keyup', search);
+  input.addEventListener('input', search);
 
   document.addEventListener('keypress', focusSearchFieldOnKeyPress);
 
@@ -79,7 +79,13 @@
       .then(search);
   }
 
+  let timeoutId;
   function search() {
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(runSearch, 350);
+  }
+
+  function runSearch() {
     while (results.firstChild) {
       results.removeChild(results.firstChild);
     }

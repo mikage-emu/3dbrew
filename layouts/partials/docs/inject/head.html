@@ -1,0 +1,4 @@
+{{- if default true .Site.Params.BookSearch -}}
+  {{- $searchWorkerJS := resources.Get "searchWorker.js" | resources.ExecuteAsTemplate "searchWorker.js" . }}
+  <link rel="preload" href="{{ $searchWorkerJS.RelPermalink }}" as="script" />
+{{ end -}}

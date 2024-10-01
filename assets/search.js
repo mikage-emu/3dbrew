@@ -2,27 +2,9 @@
 
 {{ $searchDataFile := printf "%s.search-data.json" .Language.Lang }}
 {{ $searchData := resources.Get "search-data.json" | resources.ExecuteAsTemplate $searchDataFile . | resources.Minify | resources.Fingerprint }}
-{{ $searchConfig := i18n "bookSearchConfig" | default "{}" }}
 
 (function () {
   const searchDataURL = '{{ $searchData.RelPermalink }}';
-  const indexConfig = Object.assign({{ $searchConfig }}, {
-    includeScore: true,
-    useExtendedSearch: true,
-    fieldNormWeight: 1.5,
-    threshold: 0.2,
-    ignoreLocation: true,
-    keys: [
-      {
-        name: 'title',
-        weight: 0.7
-      },
-      {
-        name: 'content',
-        weight: 0.3
-      }
-    ]
-  });
 
   const input = document.querySelector('#book-search-input');
   const results = document.querySelector('#book-search-results');
@@ -30,6 +12,8 @@
   if (!input) {
     return
   }
+
+  const worker = new Worker('/searchWorker.js');
 
   input.addEventListener('focus', init);
   input.addEventListener('input', search);
@@ -72,9 +56,7 @@
 
     fetch(searchDataURL)
       .then(pages => pages.json())
-      .then(pages => {
-        window.bookSearchIndex = new Fuse(pages, indexConfig);
-      })
+      .then(pages => worker.postMessage(pages))
       .then(() => input.required = false)
       .then(search);
   }
@@ -86,25 +68,28 @@
   }
 
   function runSearch() {
-    while (results.firstChild) {
-      results.removeChild(results.firstChild);
-    }
-
     if (!input.value) {
       return;
     }
 
-    const searchHits = window.bookSearchIndex.search(input.value).slice(0,10);
-    searchHits.forEach(function (page) {
-      const li = element('<li><a href></a><small></small></li>');
-      const a = li.querySelector('a'), small = li.querySelector('small');
+    worker.onmessage = (ev) => {
+      while (results.firstChild) {
+        results.removeChild(results.firstChild);
+      }
 
-      a.href = page.item.href;
-      a.textContent = page.item.title;
-      small.textContent = page.item.section;
+      const searchHits = ev.data;
+      searchHits.forEach(function (page) {
+        const li = element('<li><a href></a><small></small></li>');
+        const a = li.querySelector('a'), small = li.querySelector('small');
 
-      results.appendChild(li);
-    });
+        a.href = page.item.href;
+        a.textContent = page.item.title;
+        small.textContent = page.item.section;
+
+        results.appendChild(li);
+      });
+    };
+    worker.postMessage(input.value);
   }
 
   /**

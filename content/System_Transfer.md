@@ -28,18 +28,18 @@ When DSi sends the title list, after the first 6 bytes of the 802.11 data payloa
 
 3DS title list header:
 
-| Offset | Length | Notes                                                                                          |
-|--------|--------|------------------------------------------------------------------------------------------------|
-| 0x0    | 0x4    | ?                                                                                              |
-| 0x4    | 0x4    | Usually zero?                                                                                  |
-| 0x8    | 0x4    | ?                                                                                              |
-| 0xc    | 0x4    | Total titles?                                                                                  |
-| 0x10   | 0x4    | ?                                                                                              |
-| 0x14   | 0x4    | ?                                                                                              |
-| 0x18   | 0xf    | 3DS serial number                                                                              |
-| 0x27   | 0x11   | Bytes alternates between 0xbd and 0xf7: first byte is 0xbd, second is 0xf7, third is 0xbd etc. |
-| 0x28   | 0x8    | Unknown, ASCII 3DS ticket consoleID used with DSi Shop SOAPs for the DeviceId?(Unconfirmed)    |
-| 0x30   | 0x18   | Always zero?                                                                                   |
+| Offset | Length | Notes |
+|----|----|----|
+| 0x0 | 0x4 | ? |
+| 0x4 | 0x4 | Usually zero? |
+| 0x8 | 0x4 | ? |
+| 0xc | 0x4 | Total titles? |
+| 0x10 | 0x4 | ? |
+| 0x14 | 0x4 | ? |
+| 0x18 | 0xf | 3DS serial number |
+| 0x27 | 0x11 | Bytes alternates between 0xbd and 0xf7: first byte is 0xbd, second is 0xf7, third is 0xbd etc. |
+| 0x28 | 0x8 | Unknown, ASCII 3DS ticket consoleID used with DSi Shop SOAPs for the DeviceId?(Unconfirmed) |
+| 0x30 | 0x18 | Always zero? |
 
 ### Title record from DSi and 3DS
 
@@ -61,9 +61,9 @@ Total record size is 0x128 bytes.
 It seems to unlock out of region eShop on the source 3DS (tested on old, not tested on new).
 See also [3DS System transfer](http://www.nintendo.com/consumer/systems/3ds/en_na/gi_index.jsp?menu=transfer&submenu=ctr-gi-apps-transfer-what-data)
 
-## System Save Data Transfer
+## System Save Data / Shared Extdata Transfer
 
-During a system transfer, the source system transfers raw ([DISA](DISA_and_DIFF "wikilink")) [System Save Data](System_SaveData "wikilink") images (AES-128-CTR encrypted) to the destination system.
+During a system transfer, the source system transfers raw ([DISA/DIFF](DISA_and_DIFF "wikilink")) [System Save Data](System_SaveData "wikilink") and possible [Shared NAND Extdata](Extdata#nand_shared_extdata "wikilink") images (AES-128-CTR encrypted) to the destination system.
 
 It appears that both the save data for the [nim](NIM_Services "wikilink") sysmodule and the [Configuration Savegame](Config_Savegame "wikilink") are skipped during this process.
 
@@ -71,7 +71,7 @@ The source system first begins by using [FS:StartDeviceMoveAsSource](FS:StartDev
 
 It then uses [FS:EnumerateSystemSaveData](FS:EnumerateSystemSaveData "wikilink") to obtain a list of system save data IDs.
 
-The source system then creates the encrypted, raw system save data dumps using [archive ID 0x12345681](Filesystem_services#0x12345681_archive_path_data_format "wikilink").
+The source system then creates the encrypted, raw system save data / extdata dumps using [System Savedata Transfer](Filesystem_services#systemsavedata "wikilink") / [Extdata Transfer / Shared Extdata Transfer](Filesystem_services_Shared_Extdata /_Shared_Extdata "wikilink").
 
 The following encryption is used for these dumps:
 
@@ -79,7 +79,11 @@ The following encryption is used for these dumps:
 
 \- For the CTR, first, the random 16 bytes from the [Device Move Context](Filesystem_services#devicemovecontext "wikilink") are hashed with SHA256.
 
-\- The SHA256 hash is updated using the UTF-16 path for the save data file (relative to `nand:/data/`<ID0>), beginning with a </code>/</code> (and including a two-byte NULL termination). Therefore the path would be UTF-16 `/sysdata/<lowercase, 8 character hex system save id>/00000000` and two additional NULL bytes.
+\- The SHA256 hash is updated using the UTF-16 path for the save data file (relative to `nand:/data/`<ID0>), beginning with a </code>/</code> (and including a two-byte NULL termination).
+
+Therefore the path would be UTF-16 `/sysdata/<lowercase, 8 character hex system save id>/00000000` and two additional NULL bytes.
+
+For Shared Extdata, the path would similarly be `/extdata/`<shared ext id low>`/`<shared ext id high>`/`<file path> and two additional NULL bytes.
 
 \- The CTR is generated as follows: `ctr[i] = hash[i] ^ hash[i + 16]` for i from 0 to 16.
 
@@ -87,7 +91,7 @@ The entire [DISA](DISA_and_DIFF "wikilink") save image for each system save is e
 
 On the destination system, [FS:StartDeviceMoveAsDestination](FS:StartDeviceMoveAsDestination "wikilink") is called using the [Device Move Context](Filesystem_services#devicemovecontext "wikilink") from the source console.
 
-Similarly, [archive ID 0x12345681](Filesystem_services#0x12345681_archive_path_data_format "wikilink") is used to import the raw save images, though on the destination system, in write mode.
+Similarly, [System Savedata Transfer](Filesystem_services#systemsavedata "wikilink") / [Extdata Transfer / Shared Extdata Transfer](Filesystem_services_Shared_Extdata /_Shared_Extdata "wikilink") is used to import the raw save images, though on the destination system, in the destination mode.
 
 The encrypted save images are written directly to the destination system using the FS interface (and decrypted on the fly).
 

@@ -14,3 +14,7 @@ title = 'AMPXI:DeleteAllTemporaryPrograms'
 |------------|-------------|
 | 0          | Header code |
 | 1          | Result code |
+
+# Description
+
+Deletes all titles in `nand:/dbs/tmp_t.db`.

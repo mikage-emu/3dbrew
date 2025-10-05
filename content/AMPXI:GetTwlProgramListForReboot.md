@@ -20,3 +20,7 @@ title = 'AMPXI:GetTwlProgramListForReboot'
 | 0          | Header code            |
 | 1          | Result code            |
 | 2          | Number of Read Entries |
+
+# Description
+
+Returns a list of TWL title IDs (0003XXXXXXXXXXXX) along with the content ID of the content with content index 0 for each of them.

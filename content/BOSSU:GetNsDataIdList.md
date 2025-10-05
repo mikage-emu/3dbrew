@@ -25,7 +25,33 @@ title = 'BOSSU:GetNsDataIdList'
 
 Writes an array of NS Data ID entries (u32) for the program ID of the current session to the output buffer using the provided filters.
 
+## Internals
+
 This eventually calls a function with the following type parameters: 0, 1, 1. This function doesn't use the second type parameter. Afterwards another function is called using the program ID.
+
+The first type parameter is a filter based on the new flag of the NsData:
+
+| Value | Description |
+|----|----|
+| 0 | Allow everything. This will also unset the [arrival flag](BOSS_Savegame#boss_a_titleinfo "wikilink") |
+| 1 | Only allow entries which don't have the new flag set. This will also set the [arrival flag](BOSS_Savegame#boss_a_titleinfo "wikilink") |
+| 2 | Only allow entries which have the new flag set. This will also set the [arrival flag](BOSS_Savegame#boss_a_titleinfo "wikilink") |
+
+The second type parameter represents the session being used for the command:
+
+| Value | Description |
+|-------|-------------|
+| 1     | User        |
+| 2     | Privileged  |
+
+The third type parameter is a filter based on the program ID of the session:
+
+| Value | Description |
+|----|----|
+| 0 | Allow everything |
+| 1 | Only allow entries which have a target program ID matching the program ID of the session |
+
+Hence, this command only lists entries whose program ID matches the one from this session.
 
 # Filter
 

@@ -13,11 +13,11 @@ title = 'AMNet:GetDeviceCert'
 
 # Response
 
-| Index Word | Description |
-|------------|-------------|
-| 0          | Header code |
-| 1          | Result code |
-| 2          | ?           |
+| Index Word | Description                        |
+|------------|------------------------------------|
+| 0          | Header code                        |
+| 1          | Result code                        |
+| 2          | s32, internal pxi:am9 result code. |
 
 # Description
 

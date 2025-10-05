@@ -22,3 +22,7 @@ title = 'FS:GetOtherSaveDataSecureValue'
 # Description
 
 Queries the secure value(s) of another title.
+
+This command will, by default, read from the secure value section of the [DISA save image's header](DISA_and_DIFF#disa_header "wikilink").
+
+However, it is possible to force this command to read from the [Anti Savegame Restore](Filesystem_services#anti_savegame_restore "wikilink") save data by specifying media type 100 (the meaning of this media type is unknown and is not used elsewhere in FS).

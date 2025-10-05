@@ -15,3 +15,7 @@ title = 'AM:DeleteTicket'
 |------------|-------------|
 | 0          | Header code |
 | 1          | Result code |
+
+# Description
+
+Deletes all tickets for a specific title.

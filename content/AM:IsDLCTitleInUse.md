@@ -17,3 +17,7 @@ title = 'AM:IsDLCTitleInUse'
 | 0          | Header code  |
 | 1          | Result code  |
 | 2          | bool, In Use |
+
+# Description
+
+Returns whether or not the given DLC title is currently open for access at least once.

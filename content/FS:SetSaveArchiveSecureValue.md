@@ -18,4 +18,4 @@ title = 'FS:SetSaveArchiveSecureValue'
 
 # Description
 
-This command is similar to [FS:SetOtherSaveDataSecureValue](FS:SetOtherSaveDataSecureValue "wikilink"), but instead of specifying the title ID and mediatype manually, these parameters are retrieved through the given save data archive handle using internal state data.
+This command is identical to [FS:SetOtherSaveDataSecureValue](FS:SetOtherSaveDataSecureValue "wikilink"), but instead of specifying the title ID and mediatype manually, these parameters are retrieved through the given save data archive handle using internal state data.

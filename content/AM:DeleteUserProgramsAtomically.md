@@ -2,14 +2,6 @@
 title = 'AM:DeleteUserProgramsAtomically'
 +++
 
-This checks each [Title ID](Titles#title_ids "wikilink") for being a CTR
-System Title (Content Category mask 0x10) or a TWL System Title (Content
-Category mask 0x8000 and mask 0x100000000). If any were found, this will
-return 0xE0E0802C (Trying to uninstall system title).
-
-Due to this check, it is safe to say that the [Media
-Type](Filesystem_services#mediatype "wikilink") must be SD.
-
 # Request
 
 | Index Word | Description                                            |
@@ -29,5 +21,4 @@ Type](Filesystem_services#mediatype "wikilink") must be SD.
 
 # Description
 
-Wraps
-[AMPXI:DeleteProgramsAtomically](AMPXI:DeleteProgramsAtomically "wikilink").
+Wraps [AMPXI:DeleteProgramsAtomically](AMPXI:DeleteProgramsAtomically "wikilink"), but imposes a restriction on the title IDs such that system titles (CTR or TWL) are not allowed.

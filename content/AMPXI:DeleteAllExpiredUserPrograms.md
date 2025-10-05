@@ -15,3 +15,7 @@ title = 'AMPXI:DeleteAllExpiredUserPrograms'
 |------------|-------------|
 | 0          | Header code |
 | 1          | Result code |
+
+# Description
+
+Deletes all non-system titles (whether CTR or TWL) for which there are currently no tickets installed.

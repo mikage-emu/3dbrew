@@ -4,11 +4,11 @@ title = 'AM:GetNumImportTitleContextsFiltered'
 
 # Request
 
-| Index Word | Description                                                              |
-|------------|--------------------------------------------------------------------------|
-| 0          | Header code \[0x00230080\]                                               |
-| 1          | [Media Type](Filesystem_services#mediatype "wikilink")                   |
-| 2          | Filter (bit0 = include installing, bit1 = include awaiting finalization) |
+| Index Word | Description |
+|----|----|
+| 0 | Header code \[0x00230080\] |
+| 1 | [Media Type](Filesystem_services#mediatype "wikilink") |
+| 2 | Filter (bit0 = include user titles, bit1 = include system titles) |
 
 # Response
 

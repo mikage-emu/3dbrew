@@ -17,4 +17,4 @@ title = 'FS:BeginSaveDataMove'
 
 # Description
 
-Used by the Save Data Transfer Tool. Initializes internal FS state by generating 20 random bytes of data, where the first 16 are presumably used for encryption and the other 4 are returned as a "key". After calling this, the Save Data Transfer Tool uses the "key" to open the save data for the title it's processing (ArchiveID 0x2345678A, file path \[0\] = 4, \[1\] = save move "key", \[2-4\] left as zeros).
+Used by the Save Data Transfer Tool. Initializes internal FS state by generating 20 random bytes of data, where the first 16 are used as the encryption IV for save data transfers. The remaining 4 bytes are returned as a "key". Save Data Transfer Tool uses the "key" to open the save data for the title it's processing (FS Title Access, access type "save data transfer").

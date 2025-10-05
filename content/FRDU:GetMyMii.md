@@ -11,5 +11,5 @@ title = 'FRDU:GetMyMii'
 
 {{% ipc/request header="0x000A0640" %}}
 {{% ipc/result %}}
-{{% ipc/param span=24 %}}Personal [Mii data](Friend_Services#mii_data "wikilink"){{% / %}}
+{{% ipc/param span=24 %}}Personal [Mii data](Mii#cflstoredata "wikilink"){{% / %}}
 {{% / %}}

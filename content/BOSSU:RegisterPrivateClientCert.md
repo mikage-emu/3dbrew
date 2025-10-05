@@ -21,4 +21,4 @@ title = 'BOSSU:RegisterPrivateClientCert'
 
 # Description
 
-This registers a private client certificate to be used by BOSS for the program ID of the current session. The certificate is saved to the BOSS savedata as: "bossdb:/%s_CL" and the certificate key is saved as: "bossdb:/%s_CLK", where %s goes the program ID Base85/Ascii85 encoded.
+This registers a private client certificate to be used by BOSS for the program ID of the current session. The certificate is saved to the BOSS savedata as: "bossdb:/%s_CL" and the certificate key is saved as: "bossdb:/%s_CLK", where %s goes the program ID Ascii85 encoded.

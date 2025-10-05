@@ -17,4 +17,5 @@ title = 'IRU:WaitSendTransfer'
 
 # Description
 
-This command waits for the send transfer to finish.
+This command cancels the current send-transfer and waits for the [Transfer State](IRU:GetTransferState "wikilink") to be Ready before returning.
+The event returned by [GetSendFinishedEvent](IRU:GetSendFinishedEvent "wikilink") will not be signalled when the transfer is cancelled this way.

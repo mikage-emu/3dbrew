@@ -12,23 +12,23 @@ title = 'CECD Savegame'
     └── CEC                                  10
         ├── MacFilter___
         ├── MBoxList____                     1
-        ├── <8-digit ID>                     11
+        ├── &lt;8-digit ID&gt;                     11
         │   ├── MBoxInfo____                 2
         │   ├── MBoxData.001                 101
         │   ├── MBoxData.010                 110
         │   ├── MBoxData.050                 150
-        │   ├── MBoxData.<3-digit number>    100 + <number>
+        │   ├── MBoxData.&lt;3-digit number&gt;    100 + &lt;number&gt;
         │   ├── ...
         │   ├── InBox___                     12
         │   │   ├── BoxInfo_____             3
-        │   │   ├── _<12-char ID>            6
+        │   │   ├── _&lt;12-char ID&gt;            6
         │   │   └── ...
         │   └── OutBox__                     13
         │       ├── BoxInfo_____             4
         │       ├── OBIndex_____             5
-        │       ├── _<12-char ID>            7
+        │       ├── _&lt;12-char ID&gt;            7
         │       └── ...
-        ├── <8-digit ID>
+        ├── &lt;8-digit ID&gt;
         ...
 
 <span id="file-mboxlist____"></span>
@@ -43,9 +43,7 @@ title = 'CECD Savegame'
 | 0x08   | 4        | Number of boxes   |
 | 0x0C   | 16 \* 24 | List of box name  |
 
-Each box name is 16-char long. However, due to the fact that box name is
-usually a 8-digit ID, the rest of 8 chars are always null characters.
-Unused box names are filled with null characters.
+Each box name is 16-char long. However, due to the fact that box name is usually a 8-digit ID, the rest of 8 chars are always null characters. Unused box names are filled with null characters.
 
 <span id="file-mboxinfo____"></span>
 
@@ -70,10 +68,7 @@ Unused box names are filled with null characters.
 | 0x44   | 12     | Timestamp when last received              |
 | 0x50   | 16     | Zero?                                     |
 
-Note: - `Private ID` seems to be a number chosen by application
-arbitrarily, possibly for verification. Magic numbers such as
-0x00000000, 0x00000001, 0xFFFFFFFF, 0xAABBCCDD and other random numbers
-have been observed here.
+Note: - `Private ID` seems to be a number chosen by application arbitrarily, possibly for verification. Magic numbers such as 0x00000000, 0x00000001, 0xFFFFFFFF, 0xAABBCCDD and other random numbers have been observed here.
 
 <span id="file-mboxdata.3-digit-number"></span>
 
@@ -101,9 +96,7 @@ This is 8-byte file containing the title ID.
 
 ### File `BoxInfo_____`
 
-This file consists of a 0x20-byte header, and an array of 0x70-byte
-entry. Each entry is a copy of the message header. See the next section
-for the message header format. The box info header format is
+This file consists of a 0x20-byte header, and an array of 0x70-byte entry. Each entry is a copy of the message header. See the next section for the message header format. The box info header format is
 
 | Offset | Length | Description                                             |
 |--------|--------|---------------------------------------------------------|
@@ -121,9 +114,7 @@ for the message header format. The box info header format is
 
 ### File `_<12-char ID>`
 
-Each such file is a message. The ID in the file name is the message ID
-encoded in base-64. A message file consists of a 0x70-byte header,
-several extra header, a message body, and a 0x20-byte HMAC(?).
+Each such file is a message. The ID in the file name is the message ID encoded in base-64. A message file consists of a 0x70-byte header, several extra header, a message body, and a 0x20-byte HMAC(?).
 
 The header format is
 

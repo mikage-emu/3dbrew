@@ -94,13 +94,14 @@ A Nintendo-assigned product code follows this format, however, there is no requi
 
 \[CTR/KTR\]-\[Category letter\]-\[Type\]\[Identifier\]\[Region\]-\[Sub ID\]
 
-| Category letter | Description                                                                                      |
-|-----------------|--------------------------------------------------------------------------------------------------|
-| P               | Cartridge software, or downloadable versions of them.                                            |
-| N               | Digital-only releases, including [system applications and applets](Title_list "wikilink").       |
-| M               | [DLC](DLC "wikilink")                                                                            |
-| T               | [eShop Demos](eShop_Demos "wikilink"), excluding so-called "special demos" which are category N. |
-| U               | [Patches](Title_list#0004000e---add-on-content-(updates) "wikilink") for category P titles.      |
+| Category letter | Description |
+|----|----|
+| P | Cartridge software, or downloadable versions of them. |
+| B | Cartridge demos |
+| N | Digital-only releases, including [system applications and applets](Title_list "wikilink"). |
+| M | [DLC](DLC "wikilink") |
+| T | [eShop Demos](eShop_Demos "wikilink"), excluding so-called "special demos" which are category N. |
+| U | [Patches](Title_list#0004000e---add-on-content-(updates) "wikilink") for category P titles. |
 
 The "sub ID" only applies to DLC, demos, and local copies of Download Play titles. It's a 2-digit number associated with the [Title ID Variation](Title_list "wikilink").
 

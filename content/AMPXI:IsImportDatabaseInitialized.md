@@ -19,15 +19,6 @@ title = 'AMPXI:IsImportDatabaseInitialized'
 
 # Description
 
-This checks whether /dbs/import.db exists (or is initialized) on the
-media indicated by the specified [Media
-Type](Filesystem_services#mediatype "wikilink").
+Returns whether cleanup is required. In general, this checks the import.db for the specified media type. If any entries are found that are marked as fully installed (not pending), this returns true.
 
-The output u8 remains 0 if import.db exists.
-
-[Media Type](Filesystem_services#mediatype "wikilink") must be either SD
-or NAND. If Game Card is specified, this will always return 0xD8C0801E
-and set the output u8 to 2 (not supported).
-
-Additionally, 0xE0A046DF is returned if import.db does not exist on the
-media.
+However, for NAND, this first checks whether a) `nand:/data` contains more than one file/directory, and b) whether `nand:/data/`<ID0> exists. If either of these conditions are met, this returns true without further checking the NAND import database.

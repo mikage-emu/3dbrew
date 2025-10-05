@@ -17,4 +17,4 @@ title = 'BOSSU:GetNsDataIdList3'
 
 # Description
 
-Identical to [BOSSU:GetNsDataIdList](BOSSU:GetNsDataIdList "wikilink"), except the called function mentioned [here](BOSSU:GetNsDataIdList "wikilink") is used with the following type parameters: 1, 1, 0.
+Identical to [BOSSU:GetNsDataIdList](BOSSU:GetNsDataIdList "wikilink"), except the called function mentioned [here](BOSSU:GetNsDataIdList#internals "wikilink") is used with the following type parameters: 1, 1, 0. Thus, this command filters by entries which don't have the new flag set, and doesn't filter by the program ID.

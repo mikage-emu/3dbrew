@@ -18,4 +18,4 @@ title = 'BOSSU:RegisterPrivateRootCa'
 
 # Description
 
-This registers a private root certificate to be used by BOSS for the program ID of the current session. The certificate is saved to the BOSS savedata as: "bossdb:/%s_CA%d", where %s goes the program ID Base85/Ascii85 encoded and %d is the index of the root certificate.
+This registers a private root certificate to be used by BOSS for the program ID of the current session. The certificate is saved to the BOSS savedata as: "bossdb:/%s_CA%d", where %s goes the program ID Ascii85 encoded and %d is the index of the root certificate.

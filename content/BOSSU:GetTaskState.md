@@ -14,7 +14,7 @@ title = 'BOSSU:GetTaskState'
 
 {{% ipc/request header="0x00200102" %}}
 {{% ipc/result %}}
-{{% ipc/param %}}u8, [TaskStateCode](BOSS_Services#taskstatus "wikilink"){{% / %}}
+{{% ipc/param %}}u8, [TaskStateCode](BOSS_Services#taskstatecode "wikilink"){{% / %}}
 {{% ipc/param %}}u32, Count{{% / %}}
 {{% ipc/param %}}u8, Current step ID{{% / %}}
 {{% ipc/mapbuffer r %}}Task ID buffer{{% / %}}

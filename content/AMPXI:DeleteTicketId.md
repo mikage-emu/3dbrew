@@ -16,3 +16,7 @@ title = 'AMPXI:DeleteTicketId'
 |------------|-------------|
 | 0          | Header code |
 | 1          | Result code |
+
+# Description
+
+This is similar to [AMPXI:DeleteTicket](AMPXI:DeleteTicket "wikilink") except that this variant targets a specific ticket ID, rather than all tickets.

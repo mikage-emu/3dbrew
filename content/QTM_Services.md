@@ -3,21 +3,13 @@ title = 'QTM Services'
 categories = ["Services"]
 +++
 
-QTM is the [New_3DS](New_3DS "wikilink") system module in charge of
-handling head tracking. A maximum of three (only two until
-[9.3.0-21](9.3.0-21 "wikilink")) sessions for \*all\* QTM services
-combined.
+QTM is the [New_3DS](New_3DS "wikilink") system module in charge of handling head tracking. A maximum of three (only two until [9.3.0-21](9.3.0-21 "wikilink")) sessions for \*all\* QTM services combined.
 
-Head tracking is not usable when any other process is using any of the
-cameras, QTM returns error 0xC8A18008 for this.
+Head tracking is not usable when any other process is using any of the cameras, QTM returns error 0xC8A18008 for this.
 
-QTM only tracks the position of the user's two eyes, but does not track
-the area they are focusing at. Hence, "eye-tracking" is sometimes used
-to refer to this feature on 3DS, even though it means something else
-outside the 3DS hacking scene.
+QTM only tracks the position of the user's two eyes, but does not track the area they are focusing at. Hence, "eye-tracking" is sometimes used to refer to this feature on 3DS, even though it means something else outside the 3DS hacking scene.
 
-Refer to this libctru commit for more details:
-<https://github.com/devkitPro/libctru/commit/8e55cdf05d1f2c07f350ec678d0f0d6a7a2df214>
+Refer to this libctru commit for more details: <https://github.com/devkitPro/libctru/commit/8e55cdf05d1f2c07f350ec678d0f0d6a7a2df214>
 
 # QTM services
 
@@ -39,7 +31,7 @@ Refer to this libctru commit for more details:
 | Command ID | Description               |
 |------------|---------------------------|
 | 0x04010040 | SetCentralBarrierPosition |
-| 0x04020000 | GetCameraLuminance        |
+| 0x04020000 | GetCameraLux              |
 | 0x04030000 | EnableAutoBarrierControl  |
 | 0x04040000 | DisableAutoBarrierControl |
 | 0x04050040 | SetBarrierPosition        |
@@ -60,10 +52,7 @@ qtm:sp has access to all "qtm:u", "qtm:s" commands and more:
 | 0x08030000 | IsExpanderInUse        |
 | 0x08040000 | NotifyTopLcdPowerOff   |
 
-GSP always keeps an handle to this service open. NS sometimes uses this
-service (to blacklist some internal test applications, see
-[NS_CFA](NS_CFA "wikilink")), but when it does it opens then immediately
-closes the session thereafter.
+GSP always keeps an handle to this service open. NS sometimes uses this service (to blacklist some internal test applications, see [NS_CFA](NS_CFA "wikilink")), but when it does it opens then immediately closes the session thereafter.
 
 # QTM "hardware check" service "qtm:c"
 
@@ -75,7 +64,6 @@ closes the session thereafter.
 | 0x00040000 | WaitAndCheckExpanderWorking |
 | 0x00050040 | SetIrLedStatusOverride      |
 
-The commands for this service are separate from all the other services
-documented above.
+The commands for this service are separate from all the other services documented above.
 
 [Category:Services](Category:Services "wikilink")

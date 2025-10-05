@@ -4,16 +4,16 @@ title = 'NWMINF:ConnectToEncryptedAP'
 
 # Request
 
-| Index Word | Description                                                                            |
-|------------|----------------------------------------------------------------------------------------|
-| 0          | Header code \[0x00070742\]                                                             |
-| 1-8        | SSID                                                                                   |
-| 9          | SSID length                                                                            |
-| 10-11      | 6-byte AP MAC address                                                                  |
-| 12         | ?                                                                                      |
-| 13-29      | 0x44-byte encryption structure                                                         |
-| 30         | Value 0x0                                                                              |
-| 31         | Event handle. This is probably signaled once the system finishes connecting to the AP? |
+| Index Word | Description |
+|----|----|
+| 0 | Header code \[0x00070742\] |
+| 1-8 | SSID |
+| 9 | SSID length |
+| 10-11 | 6-byte AP MAC address |
+| 12 | AP channel |
+| 13-29 | 0x44-byte encryption structure |
+| 30 | Value 0x0 |
+| 31 | Event handle. This is probably signaled once the system finishes connecting to the AP? |
 
 # Response
 

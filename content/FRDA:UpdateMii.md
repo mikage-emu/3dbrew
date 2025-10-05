@@ -5,7 +5,7 @@ title = 'FRDA:UpdateMii'
 # Request
 
 {{% ipc/request header="0x040C0800" %}}
-{{% ipc/param span=24 %}}[Friend Mii Data](Friend_Services#mii_data "wikilink"){{% / %}}
+{{% ipc/param span=24 %}}Friend [Mii Data](Mii#cflstoredata "wikilink"){{% / %}}
 {{% ipc/param span=6 %}}10-Character UTF-16 Screen Name (10 characters + null termination){{% / %}}
 {{% ipc/param %}}bool, profanity flag{{% / %}}
 {{% ipc/param %}}u8, [Mii Character Set](Mii#mii_format "wikilink"){{% / %}}

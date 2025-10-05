@@ -21,4 +21,4 @@ title = 'BOSSU:GetTaskQuery'
 
 # Description
 
-Gets the task query to the task for the program ID of the current session. The task query is a 0x60-byte structure, so the size is always 0x60.
+Gets the task query to the task for the program ID of the current session. The [task query](BOSS_Savegame#taskqueryconfig "wikilink") is a 0x60-byte structure, so the size is always 0x60.

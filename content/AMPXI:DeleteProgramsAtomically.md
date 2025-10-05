@@ -16,3 +16,7 @@ title = 'AMPXI:DeleteProgramsAtomically'
 |------------|-------------|
 | 0          | Header code |
 | 1          | Result code |
+
+# Description
+
+Deletes the input title IDs in batch, using the same deletion code as in [AMPXI:DeleteTitle](AMPXI:DeleteTitle "wikilink"). All title IDs given must correspond to title entries within the same title database. For example, one title given that exists in import.db and another in title.db is not allowed.
